@@ -37,7 +37,7 @@ class DataStore:
 			return
 		p = self._path(name)
 		with p.open("w", encoding="utf-8") as fh:
-			json.dump(data, fh, ensure_ascii=False, indent=2)
+			json.dump(data, fh, ensure_ascii=False)
 
 	def load_all(self) -> List[Dict[str, Any]]:
 		"""Load every user file (for static-site generation)."""
