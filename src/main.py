@@ -3,10 +3,9 @@ Package entry point.
 
 	python -m src.main
 
-Both the crawler and the site generator read/write the SAME
-``data_dir`` (default "skeb").  The site generator additionally
-writes to ``output_dir`` (default "docs") which is the static-site
-root served by GitHub Pages.
+The crawler writes raw per-user JSON to ``DATA_DIR`` (``skeb/``).
+The site generator reads from the *same* ``DATA_DIR`` and writes
+derived lightweight files to ``SITE_DIR/api/`` (``docs/api/``).
 """
 
 import asyncio

@@ -1,9 +1,9 @@
 """
 Static-site data generator.
 
-Reads raw user files from ``skeb/`` and writes:
-	docs/api/index.json           lightweight table data
-	docs/api/users/<name>.json    full detail per user (lazy-loaded)
+Reads raw user files from ``data_dir`` and writes:
+	<output_dir>/api/index.json             lightweight table data
+	<output_dir>/api/users/<file>.json      full detail per user (lazy-loaded)
 """
 
 import json
@@ -17,25 +17,62 @@ from .store import DataStore
 
 _SAFE_RE = re.compile(r"[^\w\-.]")
 
-_IMAGE_KEYS = (
-	"og_image_url",
-	"preview_url",
-	"thumbnail_url",
-	"preview",
-)
-
 
 def _safe(name: str) -> str:
 	return _SAFE_RE.sub("_", name)
 
 
-def _pick_preview(work: Dict) -> Optional[str]:
-	for k in _IMAGE_KEYS:
-		v = work.get(k)
-		if v:
-			return v
-	return None
+# ── thumbnail helpers ────────────────────────────────────────
 
+def _extract_thumbnail(work: Dict) -> Dict[str, str]:
+	"""
+	Pull ``src`` and ``srcset`` from ``thumbnail_image_urls``.
+	Falls back to ``private_thumbnail_image_urls``.
+	"""
+	for key in ("thumbnail_image_urls", "private_thumbnail_image_urls"):
+		urls = work.get(key)
+		if isinstance(urls, dict) and urls.get("src"):
+			return {
+				"src": urls.get("src", ""),
+				"srcset": urls.get("srcset", ""),
+			}
+	return {"src": "", "srcset": ""}
+
+
+def _pick_best_url(srcset: str, fallback: str = "") -> str:
+	"""
+	Return the highest-resolution single URL from a srcset string.
+
+	Prefers 3x > 2x > 1x.
+	"""
+	if not srcset:
+		return fallback
+	parts = [p.strip() for p in srcset.split(",") if p.strip()]
+	# look for 3x first, then 2x
+	for target in ("3x", "2x"):
+		for part in parts:
+			tokens = part.rsplit(None, 1)
+			if len(tokens) == 2 and tokens[1] == target:
+				return tokens[0]
+	# fallback to the first entry (1x)
+	if parts:
+		return parts[0].split()[0]
+	return fallback
+
+
+def _latest_thumbnail_url(works: List[Dict]) -> str:
+	"""
+	Walk works from newest to oldest and return the best single URL
+	for the most recent work that has a thumbnail.
+	"""
+	for w in reversed(works):
+		thumb = _extract_thumbnail(w)
+		if thumb["src"]:
+			return _pick_best_url(thumb["srcset"], thumb["src"])
+	return ""
+
+
+# ── price helpers ────────────────────────────────────────────
 
 def _current_prices(ph: Dict[str, list]) -> Dict[str, Any]:
 	return {
@@ -54,23 +91,17 @@ def _price_ranges(ph: Dict[str, list]) -> Dict[str, Dict[str, Any]]:
 	return out
 
 
+# ── main entry point ─────────────────────────────────────────
+
 def generate_data(
 	data_dir: str = "skeb",
 	output_dir: str = "docs",
 ) -> None:
 	"""
-	Read every ``<data_dir>/*.json`` user file and write two kinds of
-	output under ``<output_dir>/api/``:
+	Read every ``<data_dir>/*.json`` user file and produce:
 
-	* ``index.json`` – one small record per user (for the main table)
-	* ``users/<name>.json`` – full detail (loaded on demand by the UI)
-
-	Parameters
-	----------
-	data_dir : str
-		Directory that the *crawler* writes to (default ``skeb``).
-	output_dir : str
-		Root of the static site (default ``docs``).
+	* ``<output_dir>/api/index.json`` – one small record per user
+	* ``<output_dir>/api/users/<file>.json`` – full detail per user
 	"""
 	store = DataStore(data_dir)
 	all_users = store.load_all()
@@ -90,6 +121,7 @@ def generate_data(
 		profile = u.get("profile", {})
 		avatar = profile.get("avatar_url", "")
 		file_key = _safe(sn)
+		works = u.get("works", [])
 
 		# ── lightweight index entry ──────────────────────
 		index_entries.append(
@@ -97,24 +129,28 @@ def generate_data(
 				"screen_name": sn,
 				"file": file_key,
 				"avatar_url": avatar,
-				"works_count": len(u.get("works", [])),
+				"works_count": len(works),
 				"first_seen": u.get("first_seen", ""),
 				"last_updated": u.get("last_updated", ""),
 				"current_prices": _current_prices(ph),
 				"price_range": _price_ranges(ph),
+				"latest_thumbnail_url": _latest_thumbnail_url(works),
 			}
 		)
 
 		# ── full detail file ─────────────────────────────
 		works_out: List[Dict[str, Any]] = []
-		for w in u.get("works", []):
+		for w in works:
+			thumb = _extract_thumbnail(w)
 			works_out.append(
 				{
 					"path": w.get("path", ""),
 					"scraped_at": w.get("scraped_at", ""),
-					"preview": _pick_preview(w),
+					"thumbnail_src": thumb["src"],
+					"thumbnail_srcset": thumb["srcset"],
 					"genre": w.get("genre", ""),
 					"nsfw": w.get("nsfw", False),
+					"body": w.get("body", ""),
 					"created_at": w.get("created_at", ""),
 					"completed_at": w.get("completed_at", ""),
 				}
@@ -125,6 +161,8 @@ def generate_data(
 			"file": file_key,
 			"name": profile.get("name", ""),
 			"avatar_url": avatar,
+			"header_url": profile.get("header_url", ""),
+			"description": profile.get("description", ""),
 			"first_seen": u.get("first_seen", ""),
 			"last_updated": u.get("last_updated", ""),
 			"price_history": ph,
@@ -146,5 +184,8 @@ def generate_data(
 		json.dump(index, fh, ensure_ascii=False)
 
 	log.info(
-		"Site data written to %s  (%d users)", api_dir, len(index_entries)
+		"Site data written to %s  (%d users, %d detail files)",
+		api_dir,
+		len(index_entries),
+		len(index_entries),
 	)
