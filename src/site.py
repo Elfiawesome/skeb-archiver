@@ -4,6 +4,10 @@ Static-site data generator.
 Reads raw user files from ``data_dir`` and writes:
 	<output_dir>/api/index.json             lightweight table data
 	<output_dir>/api/users/<file>.json      full detail per user (lazy-loaded)
+
+Works count in the table uses ``received_works_count`` from the
+profile (the true total), NOT len(scraped works) which is always
+a subset.
 """
 
 import json
@@ -39,7 +43,6 @@ def _safe(name: str) -> str:
 # ── thumbnail helpers ────────────────────────────────────────
 
 def _extract_thumbnail(work: Dict) -> Dict[str, str]:
-	"""Pull ``src`` and ``srcset`` from the work's thumbnail fields."""
 	for key in ("thumbnail_image_urls", "private_thumbnail_image_urls"):
 		urls = work.get(key)
 		if isinstance(urls, dict) and urls.get("src"):
@@ -48,7 +51,6 @@ def _extract_thumbnail(work: Dict) -> Dict[str, str]:
 
 
 def _pick_best_url(srcset: str, fallback: str = "") -> str:
-	"""Return the highest-dpr URL from a srcset string (prefers 3x)."""
 	if not srcset:
 		return fallback
 	parts = [p.strip() for p in srcset.split(",") if p.strip()]
@@ -63,10 +65,6 @@ def _pick_best_url(srcset: str, fallback: str = "") -> str:
 
 
 def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
-	"""
-	Return up to *max_count* best-resolution thumbnail URLs from the
-	most recent works that have thumbnails.
-	"""
 	urls: List[str] = []
 	for w in reversed(works):
 		thumb = _extract_thumbnail(w)
@@ -80,16 +78,9 @@ def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
 # ── link helpers ─────────────────────────────────────────────
 
 def _extract_links(profile: Dict) -> List[Dict[str, str]]:
-	"""
-	Gather all social / external links from the profile blob.
-
-	Sources: ``user_service_links``, standalone ``url``, and
-	platform ``*_id`` fields.
-	"""
 	links: List[Dict[str, str]] = []
 	seen: set = set()
 
-	# explicit service links (twitter / X etc.)
 	for sl in profile.get("user_service_links") or []:
 		url = sl.get("url", "")
 		if url and url not in seen:
@@ -100,13 +91,11 @@ def _extract_links(profile: Dict) -> List[Dict[str, str]]:
 			})
 			seen.add(url)
 
-	# standalone url field
 	standalone = profile.get("url", "")
 	if standalone and standalone not in seen:
 		links.append({"label": "Website", "url": standalone, "name": ""})
 		seen.add(standalone)
 
-	# platform IDs
 	for key, (label, tmpl) in _PLATFORM_URLS.items():
 		pid = profile.get(key)
 		if pid:
@@ -137,6 +126,25 @@ def _price_ranges(ph: Dict[str, list]) -> Dict[str, Dict[str, Any]]:
 	return out
 
 
+# ── works count from profile ─────────────────────────────────
+
+def _true_works_count(profile: Dict) -> int:
+	"""
+	Return the real works count from the profile.
+
+	Uses ``received_works_count`` (the authoritative total from Skeb),
+	NOT len(scraped works) which is always a subset.
+	"""
+	count = profile.get("received_works_count")
+	if isinstance(count, int):
+		return count
+	# fallback: count embedded works
+	rw = profile.get("received_works")
+	if isinstance(rw, list):
+		return len(rw)
+	return 0
+
+
 # ── main entry point ─────────────────────────────────────────
 
 def generate_data(
@@ -162,6 +170,7 @@ def generate_data(
 		avatar = profile.get("avatar_url", "")
 		file_key = _safe(sn)
 		works = u.get("works", [])
+		total_works = _true_works_count(profile)
 
 		# ── lightweight index entry ──────────────────────
 		index_entries.append(
@@ -169,7 +178,8 @@ def generate_data(
 				"screen_name": sn,
 				"file": file_key,
 				"avatar_url": avatar,
-				"works_count": len(works),
+				"total_works": total_works,
+				"scraped_works": len(works),
 				"first_seen": u.get("first_seen", ""),
 				"last_updated": u.get("last_updated", ""),
 				"current_prices": _current_prices(ph),
@@ -203,6 +213,8 @@ def generate_data(
 			"avatar_url": avatar,
 			"header_url": profile.get("header_url", ""),
 			"description": profile.get("description", ""),
+			"total_works": total_works,
+			"scraped_works": len(works),
 			"first_seen": u.get("first_seen", ""),
 			"last_updated": u.get("last_updated", ""),
 			"price_history": ph,

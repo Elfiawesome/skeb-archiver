@@ -1,12 +1,12 @@
 """
 Crawl orchestration.
 
-Discovers users, fetches profiles, gathers works from THREE sources:
+Discovers users, fetches profiles, gathers works from TWO sources:
 	1. Global /works listing  (recent works across all users)
-	2. Profile received_works (embedded in the profile response — free)
-	3. Per-user /users/{name}/works endpoint (dedicated fetch)
+	2. Profile embedded received_works + sent_works (per-user, free)
 
-All three are merged with deduplication before persisting.
+There is NO public /users/{name}/works endpoint — all per-user work
+data comes from the profile response itself.
 """
 
 import asyncio
@@ -47,13 +47,11 @@ class SkebCrawler:
 		self._genre = genre
 		self._ts = datetime.now(timezone.utc).isoformat()
 		self._stats: Dict[str, int] = {
-			"works_fetched": 0,
+			"global_works_fetched": 0,
 			"users_listed": 0,
 			"profiles_ok": 0,
 			"profiles_err": 0,
 			"profile_works_extracted": 0,
-			"user_works_ok": 0,
-			"user_works_err": 0,
 			"new_works_saved": 0,
 			"files_written": 0,
 		}
@@ -161,8 +159,11 @@ class SkebCrawler:
 	) -> None:
 		"""
 		Pull ``received_works`` and ``sent_works`` from each profile
-		and append them to *works_by_user*.  These are already fetched
-		(zero additional API calls).
+		and append them to *works_by_user*.
+
+		The profile response is the ONLY source of per-user works
+		on the public API.  ``received_works_count`` in the profile
+		gives the true total (the embedded array may be a subset).
 		"""
 		count = 0
 		for name, profile in profiles.items():
@@ -176,41 +177,10 @@ class SkebCrawler:
 						count += 1
 
 		self._stats["profile_works_extracted"] = count
-		log.info("Extracted %d works from profile data (no extra API calls).", count)
-
-	# ── per-user works fetch ─────────────────────────────────────
-
-	async def _fetch_user_works_batch(
-		self, names: List[str]
-	) -> Dict[str, List[Dict]]:
-		"""
-		Fetch works for each user via ``/users/{name}/works``.
-
-		Fetches one page (up to ``page_size`` works) per user.
-		Failures are silently skipped (some users may 404).
-		"""
-		log.info("Fetching per-user works for %d users ...", len(names))
-		tasks = [self._client.fetch_user_works(n, limit=self._page) for n in names]
-		results = await asyncio.gather(*tasks, return_exceptions=True)
-
-		out: Dict[str, List[Dict]] = {}
-		for name, result in zip(names, results):
-			if isinstance(result, Exception):
-				self._stats["user_works_err"] += 1
-				log.debug("User works error %s: %s", name, result)
-			elif isinstance(result, list) and result:
-				out[name] = result
-				self._stats["user_works_ok"] += 1
-			else:
-				# empty but successful
-				self._stats["user_works_ok"] += 1
-
 		log.info(
-			"Per-user works: %d OK, %d failed.",
-			self._stats["user_works_ok"],
-			self._stats["user_works_err"],
+			"Extracted %d works from profile data (no extra requests).",
+			count,
 		)
-		return out
 
 	# ── persist ──────────────────────────────────────────────────
 
@@ -241,7 +211,7 @@ class SkebCrawler:
 				self._paginate(self._client.fetch_works, "works"),
 				self._paginate(self._client.fetch_users, "users"),
 			)
-			self._stats["works_fetched"] = len(works)
+			self._stats["global_works_fetched"] = len(works)
 			self._stats["users_listed"] = len(users)
 
 			# ── 2. Discover usernames ────────────────────
@@ -251,17 +221,12 @@ class SkebCrawler:
 			# ── 3. Fetch full profiles ───────────────────
 			profiles = await self._fetch_profiles(names)
 
-			# ── 4. Gather works from ALL sources ─────────
+			# ── 4. Gather works from both sources ────────
+			# Source A: global /works feed
 			works_by_user = self._group_works(works)
 
-			# 4a. Works embedded in profile responses (free)
+			# Source B: received_works + sent_works in profile (free)
 			self._extract_profile_works(profiles, works_by_user)
-
-			# 4b. Dedicated per-user works API
-			all_known = sorted(set(profiles) | set(works_by_user))
-			user_works_map = await self._fetch_user_works_batch(all_known)
-			for uname, wks in user_works_map.items():
-				works_by_user.setdefault(uname, []).extend(wks)
 
 			# ── 5. Merge & persist ───────────────────────
 			final_names = sorted(set(profiles) | set(works_by_user))
@@ -279,5 +244,5 @@ class SkebCrawler:
 		log.info("  CRAWL SUMMARY")
 		log.info("-" * 60)
 		for key, val in self._stats.items():
-			log.info("  %-26s : %d", key, val)
+			log.info("  %-30s : %d", key, val)
 		log.info("=" * 60)

@@ -88,6 +88,7 @@ class SkebClient:
 	async def fetch_works(
 		self, *, offset: int = 0, limit: int = 90, genre: str = "art"
 	) -> List[Dict]:
+		"""Global works listing (recent works across all users)."""
 		url = (
 			f"{self.API}/works"
 			f"?sort=date&genre={genre}&offset={offset}&limit={limit}"
@@ -97,6 +98,7 @@ class SkebClient:
 	async def fetch_users(
 		self, *, offset: int = 0, limit: int = 90, genre: str = "art"
 	) -> List[Dict]:
+		"""Global users listing."""
 		url = (
 			f"{self.API}/users"
 			f"?sort=date&genre={genre}&offset={offset}&limit={limit}"
@@ -104,14 +106,13 @@ class SkebClient:
 		return await self._get(url)
 
 	async def fetch_profile(self, screen_name: str) -> Dict:
-		return await self._get(f"{self.API}/users/{screen_name}")
+		"""
+		Fetch a single user profile.
 
-	async def fetch_user_works(
-		self, screen_name: str, *, offset: int = 0, limit: int = 90
-	) -> List[Dict]:
-		"""Fetch works for a specific user (received commissions)."""
-		url = (
-			f"{self.API}/users/{screen_name}/works"
-			f"?sort=date&offset={offset}&limit={limit}"
-		)
-		return await self._get(url)
+		The response includes ``received_works`` and ``sent_works``
+		arrays (the user's actual commission history) plus
+		``received_works_count`` (the true total).  These are the
+		primary source for per-user works — there is no separate
+		``/users/{name}/works`` endpoint on the public API.
+		"""
+		return await self._get(f"{self.API}/users/{screen_name}")

@@ -53,10 +53,10 @@ async init() {
 renderMeta(data) {
 	$("#meta").textContent =
 	this.users.length + " users \u00b7 " + fmtDate(data.generated_at);
-	const total = this.users.reduce((s, u) => s + (u.works_count || 0), 0);
+	const total = this.users.reduce((s, u) => s + (u.total_works || 0), 0);
 	$("#stats-bar").innerHTML =
 	"<span>Users <strong>" + this.users.length + "</strong></span>" +
-	"<span>Works <strong>" + total.toLocaleString() + "</strong></span>" +
+	"<span>Total works <strong>" + total.toLocaleString() + "</strong></span>" +
 	"<span>Generated <strong>" + fmtDate(data.generated_at) + "</strong></span>";
 },
 
@@ -115,8 +115,8 @@ filter() {
 		va = self.getPrice(a) ?? -1;
 		vb = self.getPrice(b) ?? -1;
 		return (va - vb) * dir;
-		case "works_count":
-		return ((a.works_count || 0) - (b.works_count || 0)) * dir;
+		case "total_works":
+		return ((a.total_works || 0) - (b.total_works || 0)) * dir;
 		case "first_seen":
 		case "last_updated":
 		va = a[key] || "";
@@ -150,7 +150,6 @@ renderPreviewCell(thumbs) {
 	return '<div class="preview-grid count-1"><div class="preview-empty">' +
 		'<span>\u2014</span></div></div>';
 	}
-
 	const n = Math.min(thumbs.length, 4);
 	let html = '<div class="preview-grid count-' + n + '">';
 	for (let i = 0; i < n; i++) {
@@ -175,6 +174,7 @@ renderTable() {
 	const open  = this.expanded.has(name);
 	const busy  = this.loading.has(name);
 	const price = this.getPrice(u);
+	const total = u.total_works || 0;
 
 	rows.push(
 		'<tr class="row-user' + (open ? " active" : "") +
@@ -197,7 +197,10 @@ renderTable() {
 		"</div></td>" +
 
 		'<td class="cell-price">' + fmtYen(price) + "</td>" +
-		'<td class="cell-num">' + (u.works_count || 0) + "</td>" +
+
+		/* works count — real total from profile */
+		'<td class="cell-num">' + total + "</td>" +
+
 		'<td class="cell-date">' + fmtDate(u.first_seen) + "</td>" +
 		'<td class="cell-date">' + fmtDate(u.last_updated) + "</td>" +
 
@@ -255,6 +258,10 @@ renderDetail(d) {
 	return '<tr class="row-detail"><td colspan="6" class="msg">Error: ' +
 		esc(d._error) + "</td></tr>";
 	}
+
+	const total   = d.total_works || 0;
+	const scraped = d.scraped_works || (d.works || []).length;
+
 	return (
 	'<tr class="row-detail"><td colspan="6">' +
 	'<div class="detail-inner">' +
@@ -265,7 +272,10 @@ renderDetail(d) {
 			this.renderPrices(d) +
 		"</div>" +
 		'<div class="detail-section">' +
-			"<h3>Works (" + (d.works || []).length + ")</h3>" +
+			"<h3>Works" +
+			" \u2014 " + scraped + " scraped" +
+			(total > scraped ? " of " + total + " total" : "") +
+			"</h3>" +
 			this.renderWorks(d) +
 		"</div>" +
 		"</div>" +
@@ -276,7 +286,7 @@ renderDetail(d) {
 
 /* ── detail header with links ──────────────────────── */
 renderDetailHead(d) {
-	const desc = d.description ? truncate(d.description, 200) : "";
+	const desc  = d.description ? truncate(d.description, 200) : "";
 	const links = d.links || [];
 
 	let linksHtml = "";
@@ -307,9 +317,7 @@ renderDetailHead(d) {
 			'<a class="detail-sn" href="https://skeb.jp/@' +
 			esc(d.screen_name) + '" target="_blank" rel="noopener">@' +
 			esc(d.screen_name) + "</a>" +
-			(desc
-			? '<div class="detail-desc">' + esc(desc) + "</div>"
-			: "") +
+			(desc ? '<div class="detail-desc">' + esc(desc) + "</div>" : "") +
 			linksHtml +
 		"</div>" +
 		"</div>" +
@@ -365,7 +373,7 @@ renderPrices(d) {
 /* ── works grid ────────────────────────────────────── */
 renderWorks(d) {
 	const works = d.works || [];
-	if (!works.length) return '<p class="msg-sm">No works recorded</p>';
+	if (!works.length) return '<p class="msg-sm">No works scraped yet</p>';
 
 	const sorted = works.slice().sort((a, b) => {
 	const da = a.created_at || a.scraped_at || "";
@@ -415,7 +423,7 @@ renderWorks(d) {
 
 	if (works.length > MAX)
 	html += '<p class="msg-sm" style="margin-top:8px">' +
-		"Showing " + MAX + " of " + works.length + " works</p>";
+		"Showing " + MAX + " of " + works.length + " scraped</p>";
 
 	return html;
 },
