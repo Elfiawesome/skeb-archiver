@@ -1,0 +1,505 @@
+{
+  "screen_name": "rururuoekaki_",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 3778532,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1825201972515147776/KODFUIUa.jpg",
+    "name": "るるる",
+    "nsfw_acceptable": true,
+    "screen_name": "rururuoekaki_",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1799796283772932096/1760678656/1500x500",
+    "body_size": 1000,
+    "received_works_count": 6,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "detail",
+    "asct": null,
+    "description": "絵を描くゾウ🐘 アークナイツが好き https://skeb.jp/@rururuoekaki_",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 120,
+    "nc": 1,
+    "twitter_uid": "1799796283772932096",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "rururuoekaki_",
+        "url": "https://x.com/rururuoekaki_"
+      },
+      {
+        "provider": "misskey_io",
+        "screen_name": "rururucha",
+        "url": "https://misskey.io/@rururucha"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.86,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Frururuoekaki_%2Fbackground%3Fd%3De9d733?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU1UQXNNREF3SUVwUVdRJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFVKc1lXTnImdHh0YWxpZ249Y2VudGVyJnR4dHNpemU9ODAmdHh0c2hhZD0xMCZmbT1wbmcmdz0xMjAw&marky=415&txt64=44KL44KL44KL&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=d9ffc7aa9961b41516ab86eb9db7cde5",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 10000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@rururuoekaki_/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 2126729,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0acf3313d1bd753406f5822b8362da9",
+          "srcset": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0acf3313d1bd753406f5822b8362da9, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=59e176e1b73edde8f80bcff4480a2301 2x, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=14daa7c25588a0b158da5597a70c0107 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=acbfdc3e18d607d4f0a09011012711a5",
+          "srcset": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=acbfdc3e18d607d4f0a09011012711a5, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f0c55627ff4a87eea234a3249bc9e1d5 2x, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d8ad60bcc406fa6247a592accbd57f0d 3x"
+        },
+        "body": "崩壊:スターレイルに出てくる変な生き物のゴミケーキを書いてもらえると助かります\n\nゴミケーキ参考URL\nhttps://altema.jp/houkaistarrail/wonderpet#012\n\n参考にならなかったらすんません",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@rururuoekaki_/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 473334,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3bfb050e0de18315d8d46c4220527b0",
+          "srcset": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3bfb050e0de18315d8d46c4220527b0, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=bd099d11bd59e0ef43f963f242c16474 2x, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bfd60ec49108ee7ae76f941e7423fde9 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d132664f323406c3c0a510ee82bf6a8f",
+          "srcset": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d132664f323406c3c0a510ee82bf6a8f, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e3da76ba599a2cc6d7c033b3fde5413b 2x, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=98fb204d8444dd5aa87cd55b442ec5bd 3x"
+        },
+        "body": "みんながやってるゲーム、エターナルリターンのヴァーニャちゃん（ホログラムフェアリー衣装）を描いてください！！\n\nhttps://cdn.playeternalreturn.com/2024%2F12%2F31%2F1735615696836-Full_Vanya_03.png",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@rururuoekaki_/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 3784813,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fdf6d699fc63aef19077dc059deae146",
+          "srcset": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fdf6d699fc63aef19077dc059deae146, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=54cb45ba1bc69270641f56622acdf928 2x, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=df320fd831914c5ae109496cea0a004c 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=58cfbabee943cc8609fb005e795c41fa",
+          "srcset": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=58cfbabee943cc8609fb005e795c41fa, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b1b520483a0abbd478b63a253d602fb6 2x, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3f96d3870b61d58d4f48af1c0809e116 3x"
+        },
+        "body": "デジモンのベルスターモンをお願いします。iPhone15の壁紙のサイズ(2,556 × 1,179)だと嬉しいです。金額が不服であれば言っていただけると上乗せするので再送要求してください。\n\n構図としては、下乳感強めでやや下からの煽り構図だと嬉しいです。背景はそれっぽければ特に指定はしません。\n\n何卒よろしくお願いいたします",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@rururuoekaki_/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 2126729,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9682c7489a2f903f5f9bf205cb89703b",
+          "srcset": "https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9682c7489a2f903f5f9bf205cb89703b, https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e8495712d675f0a5056013e9c74d0937 2x, https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=aba95f34669557edd5f966c448a06cd3 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9a46792153a7e2cfab56d77310d5dd82",
+          "srcset": "https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9a46792153a7e2cfab56d77310d5dd82, https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5c6d83eaf15ae160a2dde3a54986ad06 2x, https://si.imgix.net/0b38c5e6/uploads/origins/f9c4f0c5-b770-4236-93b8-85a7593462d9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=de1fc667a54ef0367e7c35e51bfd62e8 3x"
+        },
+        "body": "ケルシーぬいぐるみを抱いてるMon3tr(オペレーターの姿)をお願いします\n\nケルシーぬいぐるみ参考URL\nhttps://famillestore.stores.jp/items/6631a365e5f0410bbb922e74\n\nMon3tr参考URL\nhttps://arknights.wikiru.jp/?Mon3tr",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@rururuoekaki_/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 78094,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2f2ce71924a6780f5c0c3b0d033db054",
+          "srcset": "https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2f2ce71924a6780f5c0c3b0d033db054, https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=37cc639673bf36bccb242f20b0de4d11 2x, https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ab5aaf606b45f99509b56b5052996d2f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c8678a7417434afd907b4437d9cb7db0",
+          "srcset": "https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c8678a7417434afd907b4437d9cb7db0, https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=55b39b0c217da6da3730067b9932cf2e 2x, https://si.imgix.net/446c9df8/uploads/origins/9a450ce0-85dc-4288-aec4-eb2ebe7a55ba?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d35acba4b19c3233745b0fb91a0d3953 3x"
+        },
+        "body": "網タイツを履いて足組んでるメガスターミー",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@rururuoekaki_/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3778532,
+        "client_id": 3185329,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=74189c2167d44a6e2938a313e6728ad1",
+          "srcset": "https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=74189c2167d44a6e2938a313e6728ad1, https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=eafff6dde4eb14e9c564a67a4412f95c 2x, https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=dad43270ad50b1e743d64f8e173442f6 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8118ea48fb45566aa59384230f43d498",
+          "srcset": "https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8118ea48fb45566aa59384230f43d498, https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c3bf0fcf543495baab0e00793fbb528f 2x, https://si.imgix.net/67ff999d/uploads/origins/187194f1-4216-4832-ae7b-1a95406d2ba4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b1e0b7a3756dfce8ed492488964492f0 3x"
+        },
+        "body": "シカ娘の新作イラストおねがいします！\n絵のサイズはバストアップくらいで！\nカジュアルな感じの服装で！\n他諸々はすべてお任せします！",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 1179593,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ミケス@お仕事募集中",
+        "screen_name": "qJHSdwVNXvBBGxL",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1907086358222688256/8h3PoQYX.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1392126220519690245/1766323145/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 44,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 2644568,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "遠見 翔",
+        "screen_name": "toomishou",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1626960184861130753/yx-36A6J.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1515617340632682497/1758503143/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 14,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 2764361,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "ラスク",
+        "screen_name": "RSFroar",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1769928277978984448/ci7RnXqe.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/906480833824907264/1710818486/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 3487332,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "ざこてゃ",
+        "screen_name": "mamezako_chan",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1976277516575997952/SUC0jLAu.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1825363032199106560/1763078640/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 15,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 145
+      },
+      {
+        "id": 3498054,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "ワ〜！",
+        "screen_name": "ku82448",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1905303073863684096/BVdUnhm1.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 3867272,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "露草華月",
+        "screen_name": "Ex5UY5do0qFXCga",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1929438417701773312/TBSDkX0L.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1595930815753465856/1747351184/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 14,
+        "complete_expiration_days": 40,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 160
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 10000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 500,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@rururuoekaki_/works/6",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3778532,
+      "client_id": 2126729,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0acf3313d1bd753406f5822b8362da9",
+        "srcset": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0acf3313d1bd753406f5822b8362da9, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=59e176e1b73edde8f80bcff4480a2301 2x, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=14daa7c25588a0b158da5597a70c0107 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=acbfdc3e18d607d4f0a09011012711a5",
+        "srcset": "https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=acbfdc3e18d607d4f0a09011012711a5, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f0c55627ff4a87eea234a3249bc9e1d5 2x, https://si.imgix.net/5d69abab/uploads/origins/9a519a2f-10ba-47cc-adae-457a7a84d63f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d8ad60bcc406fa6247a592accbd57f0d 3x"
+      },
+      "body": "崩壊:スターレイルに出てくる変な生き物のゴミケーキを書いてもらえると助かります\n\nゴミケーキ参考URL\nhttps://altema.jp/houkaistarrail/wonderpet#012\n\n参考にならなかったらすんません",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    },
+    {
+      "path": "/@rururuoekaki_/works/5",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3778532,
+      "client_id": 473334,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3bfb050e0de18315d8d46c4220527b0",
+        "srcset": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3bfb050e0de18315d8d46c4220527b0, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=bd099d11bd59e0ef43f963f242c16474 2x, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bfd60ec49108ee7ae76f941e7423fde9 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d132664f323406c3c0a510ee82bf6a8f",
+        "srcset": "https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d132664f323406c3c0a510ee82bf6a8f, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e3da76ba599a2cc6d7c033b3fde5413b 2x, https://si.imgix.net/ce995513/uploads/origins/6d63befb-314e-4abd-9bac-ed58ab55760f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=98fb204d8444dd5aa87cd55b442ec5bd 3x"
+      },
+      "body": "みんながやってるゲーム、エターナルリターンのヴァーニャちゃん（ホログラムフェアリー衣装）を描いてください！！\n\nhttps://cdn.playeternalreturn.com/2024%2F12%2F31%2F1735615696836-Full_Vanya_03.png",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    },
+    {
+      "path": "/@rururuoekaki_/works/4",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3778532,
+      "client_id": 3784813,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fdf6d699fc63aef19077dc059deae146",
+        "srcset": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fdf6d699fc63aef19077dc059deae146, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=54cb45ba1bc69270641f56622acdf928 2x, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=df320fd831914c5ae109496cea0a004c 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=58cfbabee943cc8609fb005e795c41fa",
+        "srcset": "https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=58cfbabee943cc8609fb005e795c41fa, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b1b520483a0abbd478b63a253d602fb6 2x, https://si.imgix.net/3d638640/uploads/origins/c896f698-809b-462e-858a-624f508b609d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3f96d3870b61d58d4f48af1c0809e116 3x"
+      },
+      "body": "デジモンのベルスターモンをお願いします。iPhone15の壁紙のサイズ(2,556 × 1,179)だと嬉しいです。金額が不服であれば言っていただけると上乗せするので再送要求してください。\n\n構図としては、下乳感強めでやや下からの煽り構図だと嬉しいです。背景はそれっぽければ特に指定はしません。\n\n何卒よろしくお願いいたします",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    }
+  ]
+}

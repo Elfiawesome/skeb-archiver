@@ -1,0 +1,311 @@
+{
+  "screen_name": "oyg",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 3780126,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/2011768892923011072/vimB_fZO.jpg",
+    "name": "およぐほね",
+    "nsfw_acceptable": false,
+    "screen_name": "oyg",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1975737479648190468/1759888619/1500x500",
+    "body_size": 10000,
+    "received_works_count": 1,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "絵 - https://skeb.jp/@oyg",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://lit.link/o-yg",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 120,
+    "received_requests_average_response_time": 3708,
+    "completing_average_time": 7952485,
+    "nc": 1,
+    "twitter_uid": "1975737479648190468",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "oyoguhone",
+        "url": "https://x.com/oyoguhone"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Foyg%2Fbackground%3Fd%3D73cea0?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44GK44KI44GQ44G744Gt&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=e7b861d0423ca545f52f24c559bf62fc",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@oyg/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3780126,
+        "client_id": 1424711,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0eaad6e65311cb807d474a370694cb5",
+          "srcset": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0eaad6e65311cb807d474a370694cb5, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=27144e96309b9f34b33021e19addeb81 2x, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0bb1bf3179ee4239c4c6fb6a0d18326b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9518f325ff45e09cf06c0e7b0dd08db1",
+          "srcset": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9518f325ff45e09cf06c0e7b0dd08db1, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=243bf9e7fe2e0b39fd26bf99f102d339 2x, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3adc8a1a553aef9aff9b8387351af82d 3x"
+        },
+        "body": "ᴘᴇᴢ様はじめまして\nとても素敵なイラストのタッチと雰囲気に惹かれましたため、リクエストさせて頂きたく参りました。\n私のTRPGのOCをお願い出来ればと思います。\n\n\n容姿：https://drive.google.com/drive/folders/1vsaHAGwOSVgTabQxhYS-gYoHBf_yachy\n(キャラクターメーカー様をお借りしたイラストになります🙇🏻‍♀️‪‪)\n・腰までの水色の長髪\n・明るめの紫目、まつ毛は長め\n・片側のシャツが和柄(https://www.pixiv.net/artworks/38481877 立ち絵ではこちらの2枚目を使用させて頂いておりますが、どんな柄でも構いません)\n→無地のシャツ等でも問題ございません。\n・オーバー目な和風の羽織\n立ち絵にはありませんが、大太刀を持っています。(省略可です)\n\n性別：男    身長：180cm\n性格：役所に勤めながら、都市伝説の相手をする職業についている。\nかなりの美形で黙っていれば美人だが、仕事をサボりがちで口も悪い、話すと残念になるタイプ。\n基本的に無表情めだが、大事な後輩の前では微笑むことが多い。\n相方は後輩であり、弟のような、息子のような存在。\n色々な事情があり罪悪感もあるが、何があっても彼だけを守ると潜在意識に刷り込まれている。\n\n\n内容等に不備があったり、様々な理由で難しければお気軽に再送・キャンセルして頂ければと思います。\n画像サイズや構図、多少のカラーリングやデザインの変更・簡略化等描きやすい形でお好きにお願い致します。\nご検討頂けますと幸いです、よろしくお願い致します。\n\nhttps://drive.google.com/drive/folders/1vsaHAGwOSVgTabQxhYS-gYoHBf_yachy",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 86821,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "水面 れたす🥬お仕事募集中",
+        "screen_name": "MGMG_HAKUSAI",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1906007542825996288/nhG2hcIX.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/818823349128208390/1743262596/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 472572,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "隼人(hayato)",
+        "screen_name": "hayato_il",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1854436829770190849/Ni1TlpR7.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/964172138465783808/1751095512/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 161
+      },
+      {
+        "id": 1334409,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "なかっぺ",
+        "screen_name": "kaikai_naka",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1519326512474103810/uqglEcoc.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1372464014593118208/1621079701/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 50,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      },
+      {
+        "id": 1483425,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ちゅにいぬ",
+        "screen_name": "kurotyuni_963",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1498633891594133506/XBHl-aZe.jpg",
+        "header_url": null,
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 2837889,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "こぐれ@固ツイ",
+        "screen_name": "cotya_TRPG",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2006134344700825600/73Qwf5KS.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1278460193160876032/1767134686/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 3544646,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "小太郎",
+        "screen_name": "kotarou83",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1888533618823417857/xn5qS0oU.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1876224040995807232/1739096492/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@oyg/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3780126,
+      "client_id": 1424711,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0eaad6e65311cb807d474a370694cb5",
+        "srcset": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0eaad6e65311cb807d474a370694cb5, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=27144e96309b9f34b33021e19addeb81 2x, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0bb1bf3179ee4239c4c6fb6a0d18326b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9518f325ff45e09cf06c0e7b0dd08db1",
+        "srcset": "https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9518f325ff45e09cf06c0e7b0dd08db1, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=243bf9e7fe2e0b39fd26bf99f102d339 2x, https://si.imgix.net/19dd9a4b/uploads/origins/143bcc10-d330-4122-80e7-450b6766102f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3adc8a1a553aef9aff9b8387351af82d 3x"
+      },
+      "body": "ᴘᴇᴢ様はじめまして\nとても素敵なイラストのタッチと雰囲気に惹かれましたため、リクエストさせて頂きたく参りました。\n私のTRPGのOCをお願い出来ればと思います。\n\n\n容姿：https://drive.google.com/drive/folders/1vsaHAGwOSVgTabQxhYS-gYoHBf_yachy\n(キャラクターメーカー様をお借りしたイラストになります🙇🏻‍♀️‪‪)\n・腰までの水色の長髪\n・明るめの紫目、まつ毛は長め\n・片側のシャツが和柄(https://www.pixiv.net/artworks/38481877 立ち絵ではこちらの2枚目を使用させて頂いておりますが、どんな柄でも構いません)\n→無地のシャツ等でも問題ございません。\n・オーバー目な和風の羽織\n立ち絵にはありませんが、大太刀を持っています。(省略可です)\n\n性別：男    身長：180cm\n性格：役所に勤めながら、都市伝説の相手をする職業についている。\nかなりの美形で黙っていれば美人だが、仕事をサボりがちで口も悪い、話すと残念になるタイプ。\n基本的に無表情めだが、大事な後輩の前では微笑むことが多い。\n相方は後輩であり、弟のような、息子のような存在。\n色々な事情があり罪悪感もあるが、何があっても彼だけを守ると潜在意識に刷り込まれている。\n\n\n内容等に不備があったり、様々な理由で難しければお気軽に再送・キャンセルして頂ければと思います。\n画像サイズや構図、多少のカラーリングやデザインの変更・簡略化等描きやすい形でお好きにお願い致します。\nご検討頂けますと幸いです、よろしくお願い致します。\n\nhttps://drive.google.com/drive/folders/1vsaHAGwOSVgTabQxhYS-gYoHBf_yachy",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    }
+  ]
+}

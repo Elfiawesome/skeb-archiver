@@ -1,0 +1,390 @@
+{
+  "screen_name": "mayaya_ursa",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 3361806,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1932621849340620800/vZ9t88fV.jpg",
+    "name": "マヤヤ🔞",
+    "nsfw_acceptable": true,
+    "screen_name": "mayaya_ursa",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1746422465809821696/1770561976/1500x500",
+    "body_size": 1000,
+    "received_works_count": 4,
+    "received_nsfw_works_count": 4,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "まったり癖絵を描くよ🍠/ 【skeb】https://skeb.jp/@mayaya_ursa【FANBOX】 https://mayaya-ursa.fanbox.cc",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 106380182,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": "mayaya-ursa",
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://mayaya-ursa.fanbox.cc",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 48,
+    "twitter_uid": "1746422465809821696",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "mayaya_ursa",
+        "url": "https://x.com/mayaya_ursa"
+      },
+      {
+        "provider": "misskey_io",
+        "screen_name": "mayaya_ursa1",
+        "url": "https://misskey.io/@mayaya_ursa1"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fmayaya_ursa%2Fbackground%3Fd%3De49d2a?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5pd3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Oe44Ok44Ok8J-Ung&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fd749bbe13cd408cc0aefe8ae617dc4f",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 6000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": true,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@mayaya_ursa/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3361806,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=89a47cfd6986f54dd96a063613b84c3c",
+          "srcset": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=89a47cfd6986f54dd96a063613b84c3c, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=222e8bc3537dba12039e4373a122c3e4 2x, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7e1cc9ea60eb6eabd29e757f9ae967b8 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=26112993b0320552a6f091eb6a2c8a71",
+          "srcset": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=26112993b0320552a6f091eb6a2c8a71, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cc916eac81716f4c42f1dcc3ebad27ec 2x, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=04875ab810ba28287f85858f76a72c7c 3x"
+        },
+        "body": "突然のある日のこと男子生徒が柴犬になっちゃい訳わかんなくて混乱してたら偶然通りかかったセーラー服のドロシーちゃんに拾われて愛犬として飼われ始めたはいいけどガスがよく張る体質に悩むドロシーちゃんで愛犬の前でおならばっかしてオマケに犬になったせいで前よりも嗅覚が鋭くなっちゃい飼い主の強烈なおならに参っちゃう柴犬のちょっとした漫画みたいなやつお願いします",
+        "nc": 160,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mayaya_ursa/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3361806,
+        "client_id": 69148,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=43927707c33b504bea87d66b7a7c304d",
+          "srcset": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=43927707c33b504bea87d66b7a7c304d, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=16228c23240807785ec3a7db0ab1e8d5 2x, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6b82090e88b5aa54c0051debbaa99713 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbef2491cabd71b64daf7dddc3d277fe",
+          "srcset": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbef2491cabd71b64daf7dddc3d277fe, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6f0d6c6d146ce51e4cae1b5acec06aa3 2x, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4ff218b25b2fa2273d9ff9a3b0a5833a 3x"
+        },
+        "body": "こんにちは\nいつも作家さんの作品を楽しく見ています。https://drive.google.com/file/d/1J07OG0xyrG5sGBM4BjzDCefMMySLtBE9/view?usp=drivesdk\nhttps://drive.google.com/file/d/16TRuWA-63O-PJBch8ASnkHblQBrsNjTx/view?usp=drivesdk\nこのキャラクターは私が整備している鉄道車両を擬人化したものです。\nこのキャラクターがハイパーおならをたくさんする場面を見たいです。\nよろしくお願いします\nPark",
+        "nc": 161,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mayaya_ursa/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3361806,
+        "client_id": 2788051,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b476a90bee5320feb36d15175dfbf181",
+          "srcset": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b476a90bee5320feb36d15175dfbf181, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=94c619e758ae53eea44c4ecfb12399bb 2x, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6766029b6ff2ab59a041ea43ebc9f72f 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb617c8fbc0861e2ca082d0d0ae8e0cd",
+          "srcset": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb617c8fbc0861e2ca082d0d0ae8e0cd, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cef0f6b1c9e55bad7993bc85874e07a6 2x, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1cef0d4221d155e748853bf2c94a1825 3x"
+        },
+        "body": "毒ガスの巨女が欲しい - https://drive.google.com/file/d/191Tz7sWNv9HO3ENIG8L8cr3XKcO_7Sl_/view?usp=sharing\nピチピチのボディスーツに世界防衛メンバーを閉じ込める - https://drive.google.com/file/d/14EqWc4kb8JBhbsUCz22WJ_mOArF5-5bK/view?usp=sharing\n\n囮捜査は、これらの画像にもっと似せてほしい。\nhttps://drive.google.com/file/d/1F8x3dT92ggjwylzoQKy_2Ldme2qTNlga/view?usp=sharing\nhttps://drive.google.com/file/d/1irESsmePwPWS_l7rgY9fxie6oebuQbWx/view?usp=sharing\nhttps://drive.google.com/file/d/1iKU-JKtbQ4SpFiecHx_MgImfCjBs7lbA/view?usp=sharing\n\n彼女は屁で個人を拷問している\n\n世界防衛軍メンバーの例\nhttps://drive.google.com/file/d/1ngqvY75g4mmmFyd1glVCOQqgxUYIvAYp/view?usp=sharing",
+        "nc": 169,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mayaya_ursa/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3361806,
+        "client_id": 263110,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f00d8a96da2cc152ade09345319552d7",
+          "srcset": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f00d8a96da2cc152ade09345319552d7, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=917a6afe53a09dfc5e95a1d4ef54c4c9 2x, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=04567bca6111622f81d8d4ad39d3ccfc 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fdc0f3b246b0ed05cd88ad27129353d7",
+          "srcset": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fdc0f3b246b0ed05cd88ad27129353d7, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6eb00005f01eafbdf5ecf745b9cff3c5 2x, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a5c5f404a9b35b51185141993a5d9f91 3x"
+        },
+        "body": "東京ミュウミュウからミュウプリンにおならをするミュウイチゴを描いていただけませんか？ピンクの雲と普通の雲の両方をお願いします. ミュウイチゴ: https://ibb.co/3YBkT7np ミュウプリン: https://ibb.co/zWXXh34R",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 100732,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "蒼惑う子（あおまどうし）",
+        "screen_name": "ao_madousi",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1456287161280786432/BsRMP-k9.png",
+        "header_url": "https://pbs.twimg.com/profile_banners/476572561/1388999691/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 32
+      },
+      {
+        "id": 188001,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "アティラ🔞号",
+        "screen_name": "atira3lq",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1977773547188797441/ta07HSnY.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/2972197142/1674754817/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 502386,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "shiri_udo@FANBOX🔞",
+        "screen_name": "shiriudo3",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1858376293383028736/3HJa_5nM.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1243413317156126720/1687359545/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 1121603,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "masso",
+        "screen_name": "masso_nullbuilt",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1760267732136898561/ew9bHDZP.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 2018640,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "いも",
+        "screen_name": "tanakaoimo",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1770492392984231936/Q-KQCpS5.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1291707189585784836/1750787149/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 2516335,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "からあげ。",
+        "screen_name": "FryingCoat",
+        "avatar_url": "https://pbs.twimg.com/profile_images/920491160975659008/VDdDfonK.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/2422795244/1445157533/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 32
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 6000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@mayaya_ursa/works/4",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3361806,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=89a47cfd6986f54dd96a063613b84c3c",
+        "srcset": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=89a47cfd6986f54dd96a063613b84c3c, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=222e8bc3537dba12039e4373a122c3e4 2x, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7e1cc9ea60eb6eabd29e757f9ae967b8 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=26112993b0320552a6f091eb6a2c8a71",
+        "srcset": "https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=26112993b0320552a6f091eb6a2c8a71, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cc916eac81716f4c42f1dcc3ebad27ec 2x, https://si.imgix.net/c5646b96/uploads/origins/519e5cc2-8f3f-4298-93d5-bc6983c06b50?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=04875ab810ba28287f85858f76a72c7c 3x"
+      },
+      "body": "突然のある日のこと男子生徒が柴犬になっちゃい訳わかんなくて混乱してたら偶然通りかかったセーラー服のドロシーちゃんに拾われて愛犬として飼われ始めたはいいけどガスがよく張る体質に悩むドロシーちゃんで愛犬の前でおならばっかしてオマケに犬になったせいで前よりも嗅覚が鋭くなっちゃい飼い主の強烈なおならに参っちゃう柴犬のちょっとした漫画みたいなやつお願いします",
+      "nc": 33,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    }
+  ]
+}

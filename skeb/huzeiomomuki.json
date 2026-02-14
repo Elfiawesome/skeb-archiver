@@ -1,0 +1,442 @@
+{
+  "screen_name": "huzeiomomuki",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 3828234,
+    "acceptable": false,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1988253221643841539/UYJWZMW6.jpg",
+    "name": "ふぜー",
+    "nsfw_acceptable": false,
+    "screen_name": "huzeiomomuki",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1895479866105151488/1768627867/1500x500",
+    "body_size": 1000,
+    "received_works_count": 7,
+    "received_nsfw_works_count": 1,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "絵垢です！健全じゃない絵もあるので注意",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": 607331,
+    "completing_average_time": 1816919,
+    "nc": 161,
+    "twitter_uid": "1895479866105151488",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "huzeiomomuki",
+        "url": "https://x.com/huzeiomomuki"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Ffcdn.skeb.jp%2Fassets%2Fv1%2Fcommons%2Fogp.png?auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fb919ed2f719addcbe44cbdea9c1851a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 4000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@huzeiomomuki/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3828234,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dcac62123adc476e58ebb7e8526c4f00",
+          "srcset": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dcac62123adc476e58ebb7e8526c4f00, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9035c357618522d87d17ed8a4cddade7 2x, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b488de4b9e56f916e43c23bbe6ffc00b 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a405d350fc30cd4871ad00308583e4e8",
+          "srcset": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a405d350fc30cd4871ad00308583e4e8, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6fbe3da498109b2e3aae9c0c4334d4dd 2x, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=78bbce8036eb8408b39623a5a2c052ad 3x"
+        },
+        "body": "私のオリジナルキャラクターを描いていただけると嬉しいです。\nhttps://drive.google.com/file/d/1IDT-9ySCFl-9dYkWk9_K6Ko05-wdeWOI/view?usp=sharing\n\nキャラクターの衣装はサッカーのユニフォームが希望です。\n角や尻尾などの要素は、入れていただいても入れなくても構いません。\n髪型は高校生らしい雰囲気で、元のイメージより短めにしていただけると助かります。\n下記リンクのように、両腕を後ろについて、脚を前に出したまま楽に座っているポーズを希望します。\n運動後で汗をかいており、服が汗で濡れて体に張り付いている様子が描写されると嬉しいです。\nまた、足は裸足でお願いします。\n\nhttps://x.com/huzeiomomuki/status/1967563547803840569?s=20",
+        "nc": 40,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@huzeiomomuki/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3828234,
+        "client_id": 8427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=11bf7fe10952e56d5004aeab341bb0c5",
+          "srcset": "https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=11bf7fe10952e56d5004aeab341bb0c5, https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=551b4e6b34243026ca7c64097b2b2d37 2x, https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=52b61b2ad2b1ca861c7ab55e6b01cf38 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=45ad805f5eaf4e07b3999d97e08684a1",
+          "srcset": "https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=45ad805f5eaf4e07b3999d97e08684a1, https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=14b4bc92732a7816c7ca3ad891bec46d 2x, https://si.imgix.net/c630e8af/uploads/origins/51505b17-c6d5-447d-a51e-e714481263b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1c90e6d9866ba438e202f9baecd6b875 3x"
+        },
+        "body": "はじめまして！いつもイラスト萌えさせていただいております\n\n今回はふぜーさんに描いていただきたいイラストがあり、リクエストいたしました\n\nリクエストしたいイラストは学校か登校中のふぜーさんのOCの翔也くんがマスクしているイラストです\n構図などはお任せいたします\n\nよろしければご検討宜しくお願い致します。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@huzeiomomuki/works/5",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b7c224a6/uploads/origins/ee66f70c-3ad3-4f5a-952f-6ca8d67bff9b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c343f3ec20acd219cae9824c0af68d9f",
+          "srcset": "https://si.imgix.net/b7c224a6/uploads/origins/ee66f70c-3ad3-4f5a-952f-6ca8d67bff9b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c343f3ec20acd219cae9824c0af68d9f, https://si.imgix.net/b7c224a6/uploads/origins/ee66f70c-3ad3-4f5a-952f-6ca8d67bff9b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d77af12c2cd5082014d70ee54156882f 2x, https://si.imgix.net/b7c224a6/uploads/origins/ee66f70c-3ad3-4f5a-952f-6ca8d67bff9b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=92da3a95c357042e8b5e0354d25c097b 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3828234,
+        "client_id": 3726141,
+        "nc": 144
+      },
+      {
+        "path": "/@huzeiomomuki/works/4",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3bdc4947/uploads/origins/7c53b049-c8c5-4832-b4e4-483facf2575e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fa70d6c8a67d34e8c6bf9dfc1bc71ec8",
+          "srcset": "https://si.imgix.net/3bdc4947/uploads/origins/7c53b049-c8c5-4832-b4e4-483facf2575e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fa70d6c8a67d34e8c6bf9dfc1bc71ec8, https://si.imgix.net/3bdc4947/uploads/origins/7c53b049-c8c5-4832-b4e4-483facf2575e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=566c457bf8cd3e89c6a8c5ecb63eeba7 2x, https://si.imgix.net/3bdc4947/uploads/origins/7c53b049-c8c5-4832-b4e4-483facf2575e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2048166bb2e1c03272678e2bc146cac7 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3828234,
+        "client_id": 2782621,
+        "nc": 16
+      },
+      {
+        "path": "/@huzeiomomuki/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3828234,
+        "client_id": 3027094,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c21d34546ff068863d5f98e99dd8d394",
+          "srcset": "https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c21d34546ff068863d5f98e99dd8d394, https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=56004d127aa27c3b7cf976850b36fd1f 2x, https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d3c42eb99f81f8b58ca9d0e54dca56d8 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b11ef225e6979cb3ecdb316df3f960f",
+          "srcset": "https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b11ef225e6979cb3ecdb316df3f960f, https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a7a7209ea59f8186c30e1bca4df152cd 2x, https://si.imgix.net/9de7f6db/uploads/origins/eab6bb47-b8ed-43c3-a0ed-2c5e2eab5814?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9fb7dd2520492b7c0d60704d39c4c649 3x"
+        },
+        "body": "はじめまして！横田と申します！\nふぜー様が描かれるイラストがかわいくて大好きです😭‼️\n宜しければOCを描いて頂きたいと思い、リクエストを送信させていただきました！\nお忙しいと思いますがよろしくお願いいたします！\n\n\n◆キャラ\n🦖空木 春陽(うつぎ はるひ)\n男・10歳・133cm・右利き\n●モチーフ：怪獣と🌸(桜)\n●見た目の特徴\n目…コーラルピンクの瞳で恐竜みたいな鋭い瞳孔\n髪…サラサラな髪質でコーラルピンクの髪色\n体格…痩せ型・身体中に絆創膏有\n●一人称/二人称：ハルヒ・おれ / おまえ\n●🎭 の呼び方：カイ・おっさん\n●好きな食べ物：にわとり(唐揚げ)・うし(カルビたれ)・ぶた(生姜焼き)\n\n天真爛漫で元気いっぱい、ひとつところにじっとしていられない少年。\n誰に対しても物怖じせず、堂々とした態度と生意気な口ぶりで、初対面の大人をあたふたさせることも珍しくない。\n幼い頃に母親と離れ離れになり、現在遠い親戚である[ 🎭鯨憧櫂生 ]が引き取り、ボロアパートで2人暮らしをしてる。 \n幽霊・呪文・異世界・魔導書などのオカルトやファンタジーの世界が大好き。(厨二病)\n自らを「選ばれし封印術師」と称し、日々「完全詠唱」の練習に励んでいる。ちなみに学校に友達はいない。\n\n「名前はハルヒ‼️‼️‼️かっけーなまえだろ‼️‼️‼️フフン‼️‼️‼️‼️」\n「なー‼️‼️‼️カーイ‼️‼️‼️あのガオガバ(🦖が身につけている怪獣のキャラ)のおもちゃ買って‼️‼️‼️‼️ほーしーいの💢💢💢‼️‼️‼️‼️‼️」\n「ダー💢‼️それはさわるな‼️‼️‼️それはダークネススーパーリザイトサンダー剣な‼️‼️‼️何が違う❓何もかも違うだろうが‼️‼️」\n「や〜い‼️おっさんの体力じゃぁこんなとこ来れないよな〜❓や〜い雑魚体力〜www」\n\n\n◆使用用途\n個人での鑑賞・趣味の範囲でSNSのヘッダーやアイコン等・場合によってはグッズ作成\n\n\n最後まで読んでいただきありがとうございます！NGは無いため、お好きに描いていただければ幸いです！\nご検討の程宜しくお願いします!\n\nhttps://drive.google.com/drive/folders/1Hlva-j7Xnikyia7HnSZYxXlNVUlmzjRX",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@huzeiomomuki/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3828234,
+        "client_id": 1638594,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ac47b36180d925e9a1fd5cb3b23377ae",
+          "srcset": "https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ac47b36180d925e9a1fd5cb3b23377ae, https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9fd17382fcf875c049107e6aea772c09 2x, https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6596fa0c190705851d1b6f0e5ef08831 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7baa9c788df684ab3b5c978ad026597",
+          "srcset": "https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7baa9c788df684ab3b5c978ad026597, https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e96fd7cf5133933efcd3d6ec6111d714 2x, https://si.imgix.net/33707046/uploads/origins/29e37f96-acc4-447b-8442-b01fde19b5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=49e508bc98fa305a68a9336870be253d 3x"
+        },
+        "body": "ふぜーさん初めまして♪その場にいる様なストーリー性のある自然な空気感のイラストに惹かれてリクエストを失礼します！\nもし良ければわたしのoc2人をお好きな様に描いてくれると嬉しいです(๑>◡<๑)\nご縁がありましたらよろしくお願いします！\n\nhttps://drive.google.com/drive/folders/1V5tXktEWfIowq7RJgwJ6tqNDYuE79Gn8",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@huzeiomomuki/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3828234,
+        "client_id": 3726141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=22090b7b1ef9ae71d24056385f39df33",
+          "srcset": "https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=22090b7b1ef9ae71d24056385f39df33, https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7a2be855c6f3921bdccb62127dd9ba3c 2x, https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=40eef6c278931d39550479e6f046d420 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=144da0e3b39fc29900735f4a955291df",
+          "srcset": "https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=144da0e3b39fc29900735f4a955291df, https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4e33756e420e9a2234c302eec5538c09 2x, https://si.imgix.net/2b43bc5f/uploads/origins/f9a702a7-af37-4f31-95dd-bc5bfb914667?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bc3a210a5af3368ee486baff3f8fdb6e 3x"
+        },
+        "body": "はじめまして！先生、こんにちは！先生の作品がとても好きなので、男の子のオリジナルキャラクターをデザインしていただけませんか？\nもしお引き受けいただけたら、本当に感謝します！\n\n設定：\n少年は中学生で、ゴールキーパーであり生徒会役員でもあります。\n性格は明るく、誰に対しても非常に友好的で、人柄の良さが光る少年です。どんな時でも両手にグローブをはめています。\n服装要素：\n1)フルセットのユニフォーム、インナーのタイツ、ゴールキーパーグローブ\n2)普段着、白い手袋\n\n少年の全身立ち姿イラストと各種ディテール（手袋は可能な限り詳細に）を提供していただけると助かります\n設定が先生の創作の参考になれば幸いです！衣装デザインは先生にお任せします\nこれは個人利用目的で、二次創作やSNSへの投稿に使用します！",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 647337,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ぎんじろ。😹🍺イラストレーターVtuber",
+        "screen_name": "ginziro525",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1893116560077701120/xXxJeJ71.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/705916529041248261/1643069951/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "voice"
+          },
+          {
+            "genre": "video"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 813632,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "前山ちぇ～🍒",
+        "screen_name": "cherichuxx",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1981601974513455104/veQYBi3s.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/3017604953/1761272244/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 2620286,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "いかわさ🦑(チゲ味)",
+        "screen_name": "Midori_annte23",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1772462509385269248/3WO5dS3i.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1288136668696809473/1711452276/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 110,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 33
+      },
+      {
+        "id": 2711043,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "ゆんこめ",
+        "screen_name": "yunkome_okome",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1983478102782296064/Le-ZfNiz.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1373481244558651395/1743815636/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 3268693,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "サブズ",
+        "screen_name": "mokusubzu",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2005782192157515782/c7xwceDV.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1173110101919461376/1677648560/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 3677189,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "MITSU",
+        "screen_name": "M1_tsuru",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2017520146424922112/i71xvdHQ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1929216431306207233/1767257022/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 161
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 4000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@huzeiomomuki/works/7",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3828234,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dcac62123adc476e58ebb7e8526c4f00",
+        "srcset": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dcac62123adc476e58ebb7e8526c4f00, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9035c357618522d87d17ed8a4cddade7 2x, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b488de4b9e56f916e43c23bbe6ffc00b 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a405d350fc30cd4871ad00308583e4e8",
+        "srcset": "https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a405d350fc30cd4871ad00308583e4e8, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6fbe3da498109b2e3aae9c0c4334d4dd 2x, https://si.imgix.net/280fbdce/uploads/origins/7078e7de-0d21-4881-b55d-78b6d0119f7f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=78bbce8036eb8408b39623a5a2c052ad 3x"
+      },
+      "body": "私のオリジナルキャラクターを描いていただけると嬉しいです。\nhttps://drive.google.com/file/d/1IDT-9ySCFl-9dYkWk9_K6Ko05-wdeWOI/view?usp=sharing\n\nキャラクターの衣装はサッカーのユニフォームが希望です。\n角や尻尾などの要素は、入れていただいても入れなくても構いません。\n髪型は高校生らしい雰囲気で、元のイメージより短めにしていただけると助かります。\n下記リンクのように、両腕を後ろについて、脚を前に出したまま楽に座っているポーズを希望します。\n運動後で汗をかいており、服が汗で濡れて体に張り付いている様子が描写されると嬉しいです。\nまた、足は裸足でお願いします。\n\nhttps://x.com/huzeiomomuki/status/1967563547803840569?s=20",
+      "nc": 185,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "screen_name": "stern_0v0",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 427,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1908758604204879872/E4goMC7d.jpg",
+    "name": "ヨルノイチ",
+    "nsfw_acceptable": false,
+    "screen_name": "stern_0v0",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1447651472590577664/1743920536/1500x500",
+    "body_size": 10000,
+    "received_works_count": 16,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "20↑：♀♀！！！：無断使用・転載禁止・AI学習禁止・画像編集禁止Do not use my artworks",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 1831833,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 16,
+    "twitter_uid": "1447651472590577664",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "stern_0v0",
+        "url": "https://x.com/stern_0v0"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.85,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fstern_0v0%2Fbackground%3Fd%3Debf723?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU55d3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Oo44Or44OO44Kk44OB&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=305a6402fd91fa8c4f1531e2f5fb1182",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 7000
+      },
+      {
+        "genre": "comic",
+        "default_amount": 8000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@stern_0v0/works/17",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7e1a3aa01c81e1c928f695a6b732fcad",
+          "srcset": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7e1a3aa01c81e1c928f695a6b732fcad, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f8993c5c5f0ca9544eafd8e3f3bb936b 2x, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5815b1a892c9b79d17e130999af1b3bb 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e59040df06ef7fcf3a255ed1cda310f5",
+          "srcset": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e59040df06ef7fcf3a255ed1cda310f5, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8ea5e5b7ba04ed8248dd683226e73cc3 2x, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5074c25d03636f2c94629c2b91ba0f2a 3x"
+        },
+        "body": "こんにちは。\nイラストのリクエストをお願いしたいです。\n描いていただきたいキャラクターは『魔法少女ノ魔女裁判』の桜羽エマちゃんと橘シェリーちゃんで、ふたりが仲良さそうな雰囲気のイラストをお願いします。\n\n可能そうであれば、ご検討をお願いします。\n\nhttps://manosaba.com/",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/16",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 126996,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=866a2d906f2bcaa6ee08756633e04b31",
+          "srcset": "https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=866a2d906f2bcaa6ee08756633e04b31, https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=2824602d676d8cfe721f2e74f30bc3d9 2x, https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e4c1c2c24e9217e89571e420ce795768 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=250a6c2b4fd3e4210647ad3447fd5b6f",
+          "srcset": "https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=250a6c2b4fd3e4210647ad3447fd5b6f, https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=87a0ab91653d3c8b4eb46db45865505b 2x, https://si.imgix.net/82907a91/uploads/origins/1b378689-a4df-453c-bd5f-c35314b0f544?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=40d8e13650cd6821ba5fc7616e1a6590 3x"
+        },
+        "body": "Vtuber岬テト活動2周年を記念してFANARTを書いて欲しいです。\n\n読書デートしてるローマ、岬テトをお願いします。\nローマは私服（なか卯コラボmode）\nテトちはガーリー系の服でお願いします。（眼鏡を掛けさせて下さい。ローマとお揃いにするか、完全に別物を掛けさせるかの判断はお任せします。）\n\n小物類としておやつを置いて頂けると助かります。\n間宮さん作のケーキ（種類は何でも良いです）や紅茶を楽しみつつ二人が読書の秋に興じる姿が見たいです！\n\n推し絵師様に推しVtuber様を書いてもらいたいので何卒お願い致します。\n\ntaka",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/15",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a07479e193ace60c12cef56609b509db",
+          "srcset": "https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a07479e193ace60c12cef56609b509db, https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=dc15dfc1efdac63aaa2ad379662c2449 2x, https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d5eb52a2d7290c866bc4a60e405b1567 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=399f79cdcdd9ce5ff7579b3e059afeb6",
+          "srcset": "https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=399f79cdcdd9ce5ff7579b3e059afeb6, https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=bc8597d16befff3b04c36cf9a1a5d0af 2x, https://si.imgix.net/b85d58e3/uploads/origins/784976f8-1a62-45ab-8c37-725abcbff770?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d050fd1aac35be51fcb8c90bee43343c 3x"
+        },
+        "body": "こんにちは！\n\nグランブルーファンタジーのキャラクターたちの絵をお願いしたいです。ジータ、サマー・メデューサ、サテュロス、ミカエル、アテナ、ホリデー・ノアです。\n\nシーンは大きな戦いの後、女の子たちがみんな一緒に休んでいるところです。メドゥーサとサテュロスは仲良く座り、サテュロスはメドゥーサを溺愛している。アテナとミカエルはディジェータを見守る。最後にNoaが皆のためにタルトを持って歩いてくる。\n\nご配慮ありがとうございました。",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/14",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 126996,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=560eb3e153bd0444a519d5e9d202c5a1",
+          "srcset": "https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=560eb3e153bd0444a519d5e9d202c5a1, https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=484d6228194ea3e3ec658c85f46f7567 2x, https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c54ef345c98aa7860dd8f0a17d262727 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6d283b385a721f63d391c83b6211247b",
+          "srcset": "https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6d283b385a721f63d391c83b6211247b, https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eb8d07d90f596ad7fde8723e36c44321 2x, https://si.imgix.net/2640a099/uploads/origins/65f4fe49-edc8-458a-8ec8-65be90592aad?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=838ab8da43b575ff5273ec742ccdc084 3x"
+        },
+        "body": "Vtuber岬テト氏のFANARTを書いて欲しいです。\n\n構図：お花見してるテトち、鳳翔さん、千歳さんをお願いします。\n・アイテムとして鳳翔さんの重箱、千歳さんの日本酒があると嬉しいです。\n・テトちがほろ酔いで千歳さんの膝枕を堪能してる\n・三人に髪飾りをしてて欲しいです（お花はお任せ致します。）\n\ntaka",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/13",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bb31093bbeae3d4f0dc4900add4ce640",
+          "srcset": "https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bb31093bbeae3d4f0dc4900add4ce640, https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=38ed3c26404c8dbad8c50a648c1949a8 2x, https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ab1a5db84dcdbb53bdc360a35c0d1629 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=22f73d5b02024e35899fa5e251118654",
+          "srcset": "https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=22f73d5b02024e35899fa5e251118654, https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c85c1da09e68b0bacd8bf2c004f94dc2 2x, https://si.imgix.net/5c1d93c6/uploads/origins/31ec3a41-fbdb-4821-b500-18f8013a2b7a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fa7b4946aa50376ceeae7f3d6a35cf48 3x"
+        },
+        "body": "ヨルノイチさん、こんにちは。\n以前に「BanG Dream! It’s MyGO!!!!!」の睦×祥子のイラストリクエストを受けて頂きありがとうございました！\nまた、この二人のイラストをお願いしたいと思いますので、もしよろしければまたご検討をお願いします。\n\n〇イラストの内容\n前回とは逆に、祥子が睦を甘やかしているような雰囲気のイラスト。\n\n以上でございます。\nよろしくお願いします。",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/12",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=39458b673c5d2728767162db79f989fe",
+          "srcset": "https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=39458b673c5d2728767162db79f989fe, https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=daffdf631527a21fb6ef9cd04156941e 2x, https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bba04cf1e4cea09e91b6acf2885dd65f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69a1552c7c2f339cf2650159cb75cbe3",
+          "srcset": "https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69a1552c7c2f339cf2650159cb75cbe3, https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d45b8b0bec8368ce9b4e38aed2d37964 2x, https://si.imgix.net/0fefc98c/uploads/origins/fdbcfbb7-7eeb-4079-a79d-73ec4de36e23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e00de980fc430f12269c5808dc7d5e30 3x"
+        },
+        "body": "ヨルノイチさん、初めまして、こんにちは。\nイラストのご依頼をさせて頂きます。\nご依頼したいキャラ（カップリング）が普段Twitterでお話されてないと思われる作品なので、難しそうであれば遠慮無くお断りして頂いて大丈夫です！\n\n〇作品名\n「BanG Dream! It’s MyGO!!!!!」\n〇キャラ\n若葉睦×豊川祥子（むつさき）\n〇イラストの内容\n睦が祥子を抱きしめながら頭を撫でているイラスト。\n\n以上でございます。\nご検討くださいますよう、お願いします。\n\nhttps://anime.bang-dream.com/mygo/",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/11",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "client_id": 126996,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6c3ede619c2cd60232b4ecbb9e28b419",
+          "srcset": "https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6c3ede619c2cd60232b4ecbb9e28b419, https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=cc12d9b854b8eee15ef6bb94aca1e8f0 2x, https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=49a34ddad5b2806b7be9daf9c3991101 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2b60c85fe14158d0a68f824a52253fdb",
+          "srcset": "https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2b60c85fe14158d0a68f824a52253fdb, https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1f62cba05e2daa221b795d29698ecf30 2x, https://si.imgix.net/45468661/uploads/origins/aadbda95-3a55-4107-8cbc-2ece0ca7a175?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=affc0440f5ddfc3c1dff6ebfcd31ed08 3x"
+        },
+        "body": "Vtuber岬テト氏のFANARTを書いて欲しいです。\n\n構図：紅葉狩りしてる間宮、岬テト、鳳翔（衣装はお任せします。）\n\n活動一周年記念として推しに推しを書いてもらいたいので何卒お願い致します。\n\ntaka",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/10",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 126996,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23176ba79670f15b448bce5e890cb1df",
+          "srcset": "https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23176ba79670f15b448bce5e890cb1df, https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7555410a9c371a319835e89d42aefacd 2x, https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0aa09263a9913ed6ea91992bbb75a704 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=148179051dc21b9579f552201667f817",
+          "srcset": "https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=148179051dc21b9579f552201667f817, https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c81df713ef5a835ddae284316055629f 2x, https://si.imgix.net/38d4bce2/uploads/origins/024b1384-f4f7-4015-b081-e80b28793bb5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4182dc9724d512dd2a9aa2ab8c62c97c 3x"
+        },
+        "body": "艦これから\n\n縁側で線香花火を楽しんでいる間宮さんと鳳翔さんをお願いします。\n\n二人に似合う浴衣をみて見たいです！！（間宮さんは浴衣姿あったけど上半身だけだったので全身みて見たく）\nよいち先生の思う浴衣姿の鳳翔さん是非お願いします。",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/9",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "client_id": 1392786,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1f5f7d98ef2f153c3cfc95150b78d909",
+          "srcset": "https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1f5f7d98ef2f153c3cfc95150b78d909, https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d68f0053045061b9223ba3575d6c0223 2x, https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=344ca5e82dc51007cf50ba95dfd9d2e4 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2f7a559a2e4145dbb6633646ac19561e",
+          "srcset": "https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2f7a559a2e4145dbb6633646ac19561e, https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=24628f031943c1733057ca26d2a069d3 2x, https://si.imgix.net/51bf79cb/uploads/origins/659fc6de-c4c2-4038-9a4a-02c4ecc05aed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=160a4b2dc78e9d8ee2c4b9ac8a1d52ce 3x"
+        },
+        "body": "鳳翔さんと長門さん、いかがでしょうか？",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/8",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=80de14a94de40a1c7605516ed95e8355",
+          "srcset": "https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=80de14a94de40a1c7605516ed95e8355, https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c196cac9fce839ce6f9dee50045fb851 2x, https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9ff35c18380f519c19e7d21531dff5b7 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4140e1d6fdecef7532e73c3293374e28",
+          "srcset": "https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4140e1d6fdecef7532e73c3293374e28, https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e5af2556d170750d4fbf82b488ea75ac 2x, https://si.imgix.net/c51c5148/requests/213499_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3702739c26333b0756200b92b5acb9cb 3x"
+        },
+        "body": "艦これの間宮さん鳳翔さんをお願い致します。\n表情は二人が向き合って笑いあっている風でお願いします。\n\n使用用途としてTwitterアイコンを考えています。\n（最近Twitterアイコンを紹介される機会が増えていますので推しの絵師様に推しの艦娘達を書いてもらいたく）\n\nよろしくお願いします。",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 765978,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ebf5f3beaefa54a2d90692d17235a0c1",
+          "srcset": "https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ebf5f3beaefa54a2d90692d17235a0c1, https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=2c3cc507502bf635f029afecf19459e3 2x, https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=70e8745cf2195cbfaec6ea0531d51a3f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=52a00feb94c45dc9d51acbd894dac16a",
+          "srcset": "https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=52a00feb94c45dc9d51acbd894dac16a, https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e5cc931b996b70fd73119d45a35b7b25 2x, https://si.imgix.net/9963ce0e/requests/196113_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=621b05680e5c615ee9a6b0b01f44bf6a 3x"
+        },
+        "body": "カレー機関を堪能する鳳翔さんとかいかがでしょうかm(_ _)m\n\n多分ですが、Twitterヘッダーに使用させていただかと思います。",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "client_id": 837335,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=22c150e4b8e5b10785d0d867915c732b",
+          "srcset": "https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=22c150e4b8e5b10785d0d867915c732b, https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=80ee77483d577c18e1122b9ce0c07499 2x, https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=afa311b345b1495ba56dc094ea66a9dd 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d59dd1a8e782f41fb6ed8353d1320c9b",
+          "srcset": "https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d59dd1a8e782f41fb6ed8353d1320c9b, https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=527815b335d159052458a575b100cd20 2x, https://si.imgix.net/134dbef5/requests/177472_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=498d8e9a925fd1bcb298a8f8252ae0b5 3x"
+        },
+        "body": "グラブルの闇ヴィーラさまをよいちタッチでお願いします！！",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 126996,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=84da7f455c64a5ed2300fd51791263ba",
+          "srcset": "https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=84da7f455c64a5ed2300fd51791263ba, https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=38c099fa7cecd802be70c0c19fa8c6b5 2x, https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3234c08ae839e79249c7eddd0d1a4348 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7b20e774f61499f481c3da39a8d45f61",
+          "srcset": "https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7b20e774f61499f481c3da39a8d45f61, https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=bed2f5f4309cbf938a51835b8c1e3c69 2x, https://si.imgix.net/d8381e66/requests/158648_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=562c95a82064a91776d7e10515bb58a3 3x"
+        },
+        "body": "第5人格から\nマリ美智が仲良くお茶会してる風景をお願いします。\n背景等はお任せ致します。(野外、屋内含めて)",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/4",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4f4bc376/requests/160143_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e103db6c0f516a4422d858ca82e22ca5",
+          "srcset": "https://si.imgix.net/4f4bc376/requests/160143_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e103db6c0f516a4422d858ca82e22ca5, https://si.imgix.net/4f4bc376/requests/160143_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=dc7a6978ca25ee61f0c00d802061f240 2x, https://si.imgix.net/4f4bc376/requests/160143_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=4eabfb7109c6b817ef7d82467c7f46d3 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "client_id": 646860,
+        "nc": 145
+      },
+      {
+        "path": "/@stern_0v0/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 427,
+        "client_id": 765978,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2badd4d5ddf13e300ce733c7f12aabda",
+          "srcset": "https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2badd4d5ddf13e300ce733c7f12aabda, https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f0be27ccdd84c98f2f183da275b70377 2x, https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=095e8657b1680b289c1a7ca8ece5d5de 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=adca2770caf010478bb97aea90aead89",
+          "srcset": "https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=adca2770caf010478bb97aea90aead89, https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5f17961dd7b6f60e90814582d3b17496 2x, https://si.imgix.net/385f1d0c/requests/155305_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=91f056c9d1c7154b80496ce9f602d3f1 3x"
+        },
+        "body": "初めてスケブ利用します。正直使い方よくわかってませんし、ページが英語？表記のため何がなんだかさっぱりですがお金ちゃんと払う意思があります。よいちさんのイラストにいつも癒されています。\nリクエストは龍驤✖️鳳翔さんのイラストをお願いします。無断転載は行いません。\n可能であれば龍驤✖️鳳翔でTwitterアイコンを描いていただけると幸いです。",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@stern_0v0/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 427,
+        "client_id": 165181,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=077e773a0ad7660c2fb0b252e0dfe4db",
+          "srcset": "https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=077e773a0ad7660c2fb0b252e0dfe4db, https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0ec5b224bf76ec872c52258f93ee8848 2x, https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=4e116b9a8e170a0c063471cc2c9b185a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=211951890bfa178c89a375d51bf37a93",
+          "srcset": "https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=211951890bfa178c89a375d51bf37a93, https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9c877c6bda645f70c7d904d75a4d3e1a 2x, https://si.imgix.net/612073f3/requests/24932_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bcfb4135da83b35bec0ccd8d8832fadf 3x"
+        },
+        "body": "http://ehonzukuribu.blog.fc2.com/blog-entry-709.html\nの内容を、「よいちワールド」で、実線で枠を描きつつほんわか感じ。\n\n\n詳細は、休止中だったブログ\n（本来、限定閲覧用だったのでまず検索に引っかかることは無いはず）\nの上のURL（１枚目の見切れている画像をクリックして、画像を拡大してお使いください）に載っています。\n\n資料として、よいち様のイラストを3枚載せております。\nその為、内容がご把握できましたら、早急にブログ記事を消去したいと考えております。\n\nこんな依頼の仕方でもいいんでしょうか……。",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 489089,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "tori",
+        "screen_name": "pf10ri",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1496023179990802438/mWUHnGoY.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 523380,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "もん",
+        "screen_name": "hisame_mon",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1643619145185992704/MLMh2n5G.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/894078680757972992/1736777033/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 549949,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "王茶🍵",
+        "screen_name": "AuPt31",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1840555630710673408/hGK2sLBZ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/820956768150786048/1691300447/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 694303,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "なるめ",
+        "screen_name": "NAlu_Ame021",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1443095073244139525/iMazmrkN.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/998858944771588096/1624306854/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 3318827,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "goal",
+        "screen_name": "goalssk_sab",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1851015062624092161/1M5k6kAW.jpg",
+        "header_url": null,
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 177
+      },
+      {
+        "id": 3775496,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "あまくさ",
+        "screen_name": "ameba___x",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1975549604163923968/PIqT0Yqr.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1937891058509291521/1759842662/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 7000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ],
+    "comic": [
+      {
+        "amount": 8000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@stern_0v0/works/17",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 427,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7e1a3aa01c81e1c928f695a6b732fcad",
+        "srcset": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7e1a3aa01c81e1c928f695a6b732fcad, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f8993c5c5f0ca9544eafd8e3f3bb936b 2x, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5815b1a892c9b79d17e130999af1b3bb 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e59040df06ef7fcf3a255ed1cda310f5",
+        "srcset": "https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e59040df06ef7fcf3a255ed1cda310f5, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8ea5e5b7ba04ed8248dd683226e73cc3 2x, https://si.imgix.net/18b7201b/uploads/origins/d150b91b-11a5-46b6-b3b2-1cf50a75a1eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5074c25d03636f2c94629c2b91ba0f2a 3x"
+      },
+      "body": "こんにちは。\nイラストのリクエストをお願いしたいです。\n描いていただきたいキャラクターは『魔法少女ノ魔女裁判』の桜羽エマちゃんと橘シェリーちゃんで、ふたりが仲良さそうな雰囲気のイラストをお願いします。\n\n可能そうであれば、ご検討をお願いします。\n\nhttps://manosaba.com/",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:01:01.272175+00:00"
+    }
+  ]
+}

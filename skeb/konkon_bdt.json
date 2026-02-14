@@ -1,0 +1,253 @@
+{
+  "screen_name": "konkon_bdt",
+  "first_seen": "2026-02-14T13:01:01.272175+00:00",
+  "last_updated": "2026-02-14T13:01:01.272175+00:00",
+  "profile": {
+    "id": 3891869,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1974470878030409728/4WW9Veke.jpg",
+    "name": "こんこん",
+    "nsfw_acceptable": false,
+    "screen_name": "konkon_bdt",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1530158664480600064/1769606345/1500x500",
+    "body_size": 1000,
+    "received_works_count": 0,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "detail",
+    "asct": null,
+    "description": "English👶￤2 0↑￤🌈🕒EN（🧻）中心にVTuberの二次創作を描いてます✨￤Commission【https://lit.link/konkon_bdt】",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://lit.link/konkon_bdt",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": null,
+    "completing_average_time": null,
+    "nc": 17,
+    "twitter_uid": "1530158664480600064",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "konkon_bdt",
+        "url": "https://x.com/konkon_bdt"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": null,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fkonkon_bdt%2Fbackground%3Fd%3Db13495?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Dd3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44GT44KT44GT44KT&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=d30115c9dfcfaa55d33d72463ae3b121",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 4000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 1858391,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ひま",
+        "screen_name": "hima_amh",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1652703788967550976/Ob1UvxGB.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 2156081,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "やーぱん",
+        "screen_name": "ya_pan69",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1997852875175903232/okAUxzZ_.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/899899070587600896/1660932752/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 144
+      },
+      {
+        "id": 2509944,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "せせらぎ杏@skeb依頼受付中❢",
+        "screen_name": "seseragi_art_sa",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1924603150511788032/8YPp4PiV.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1600618682865983488/1670724461/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 2679694,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "緒杜👶🏻",
+        "screen_name": "goatboxOtO",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1694641034704404480/lnhEjfmW.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/944470440302452736/1669529525/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 3327373,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "猪熊（inokuma）",
+        "screen_name": "inokuma77",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1814914789237530627/rRf3kS2J.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3395297,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "まねゃつぁん",
+        "screen_name": "matya1176937",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1755248787189305344/R0hrEOTg.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1648253011305857025/1683270480/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 1
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 4000,
+        "recorded_at": "2026-02-14T13:01:01.272175+00:00"
+      }
+    ]
+  },
+  "works": []
+}
