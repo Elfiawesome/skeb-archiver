@@ -17,6 +17,20 @@ from .store import DataStore
 
 _SAFE_RE = re.compile(r"[^\w\-.]")
 
+_PLATFORM_URLS = {
+	"pixiv_id":    ("Pixiv",    "https://www.pixiv.net/users/{}"),
+	"nijie_id":    ("Nijie",    "https://nijie.info/members.php?id={}"),
+	"booth_id":    ("BOOTH",    "https://{}.booth.pm"),
+	"fantia_id":   ("Fantia",   "https://fantia.jp/fanclubs/{}"),
+	"fanbox_id":   ("Fanbox",   "https://{}.fanbox.cc"),
+	"youtube_id":  ("YouTube",  "https://youtube.com/channel/{}"),
+	"patreon_id":  ("Patreon",  "https://patreon.com/{}"),
+	"skima_id":    ("SKIMA",    "https://skima.jp/profile?id={}"),
+	"coconala_id": ("Coconala", "https://coconala.com/users/{}"),
+	"dlsite_id":   ("DLsite",   "https://www.dlsite.com/home/circle/profile/=/maker_id/{}"),
+	"fanza_id":    ("FANZA",    "https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
+}
+
 
 def _safe(name: str) -> str:
 	return _SAFE_RE.sub("_", name)
@@ -25,51 +39,83 @@ def _safe(name: str) -> str:
 # ── thumbnail helpers ────────────────────────────────────────
 
 def _extract_thumbnail(work: Dict) -> Dict[str, str]:
-	"""
-	Pull ``src`` and ``srcset`` from ``thumbnail_image_urls``.
-	Falls back to ``private_thumbnail_image_urls``.
-	"""
+	"""Pull ``src`` and ``srcset`` from the work's thumbnail fields."""
 	for key in ("thumbnail_image_urls", "private_thumbnail_image_urls"):
 		urls = work.get(key)
 		if isinstance(urls, dict) and urls.get("src"):
-			return {
-				"src": urls.get("src", ""),
-				"srcset": urls.get("srcset", ""),
-			}
+			return {"src": urls["src"], "srcset": urls.get("srcset", "")}
 	return {"src": "", "srcset": ""}
 
 
 def _pick_best_url(srcset: str, fallback: str = "") -> str:
-	"""
-	Return the highest-resolution single URL from a srcset string.
-
-	Prefers 3x > 2x > 1x.
-	"""
+	"""Return the highest-dpr URL from a srcset string (prefers 3x)."""
 	if not srcset:
 		return fallback
 	parts = [p.strip() for p in srcset.split(",") if p.strip()]
-	# look for 3x first, then 2x
 	for target in ("3x", "2x"):
 		for part in parts:
 			tokens = part.rsplit(None, 1)
 			if len(tokens) == 2 and tokens[1] == target:
 				return tokens[0]
-	# fallback to the first entry (1x)
 	if parts:
 		return parts[0].split()[0]
 	return fallback
 
 
-def _latest_thumbnail_url(works: List[Dict]) -> str:
+def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
 	"""
-	Walk works from newest to oldest and return the best single URL
-	for the most recent work that has a thumbnail.
+	Return up to *max_count* best-resolution thumbnail URLs from the
+	most recent works that have thumbnails.
 	"""
+	urls: List[str] = []
 	for w in reversed(works):
 		thumb = _extract_thumbnail(w)
 		if thumb["src"]:
-			return _pick_best_url(thumb["srcset"], thumb["src"])
-	return ""
+			urls.append(_pick_best_url(thumb["srcset"], thumb["src"]))
+			if len(urls) >= max_count:
+				break
+	return urls
+
+
+# ── link helpers ─────────────────────────────────────────────
+
+def _extract_links(profile: Dict) -> List[Dict[str, str]]:
+	"""
+	Gather all social / external links from the profile blob.
+
+	Sources: ``user_service_links``, standalone ``url``, and
+	platform ``*_id`` fields.
+	"""
+	links: List[Dict[str, str]] = []
+	seen: set = set()
+
+	# explicit service links (twitter / X etc.)
+	for sl in profile.get("user_service_links") or []:
+		url = sl.get("url", "")
+		if url and url not in seen:
+			links.append({
+				"label": sl.get("provider", "link").capitalize(),
+				"url": url,
+				"name": sl.get("screen_name", ""),
+			})
+			seen.add(url)
+
+	# standalone url field
+	standalone = profile.get("url", "")
+	if standalone and standalone not in seen:
+		links.append({"label": "Website", "url": standalone, "name": ""})
+		seen.add(standalone)
+
+	# platform IDs
+	for key, (label, tmpl) in _PLATFORM_URLS.items():
+		pid = profile.get(key)
+		if pid:
+			url = tmpl.format(pid)
+			if url not in seen:
+				links.append({"label": label, "url": url, "name": str(pid)})
+				seen.add(url)
+
+	return links
 
 
 # ── price helpers ────────────────────────────────────────────
@@ -97,12 +143,6 @@ def generate_data(
 	data_dir: str = "skeb",
 	output_dir: str = "docs",
 ) -> None:
-	"""
-	Read every ``<data_dir>/*.json`` user file and produce:
-
-	* ``<output_dir>/api/index.json`` – one small record per user
-	* ``<output_dir>/api/users/<file>.json`` – full detail per user
-	"""
 	store = DataStore(data_dir)
 	all_users = store.load_all()
 
@@ -134,7 +174,7 @@ def generate_data(
 				"last_updated": u.get("last_updated", ""),
 				"current_prices": _current_prices(ph),
 				"price_range": _price_ranges(ph),
-				"latest_thumbnail_url": _latest_thumbnail_url(works),
+				"latest_thumbnails": _latest_thumbnail_urls(works, 4),
 			}
 		)
 
@@ -168,6 +208,7 @@ def generate_data(
 			"price_history": ph,
 			"current_prices": _current_prices(ph),
 			"price_range": _price_ranges(ph),
+			"links": _extract_links(profile),
 			"works": works_out,
 		}
 
@@ -185,7 +226,5 @@ def generate_data(
 
 	log.info(
 		"Site data written to %s  (%d users, %d detail files)",
-		api_dir,
-		len(index_entries),
-		len(index_entries),
+		api_dir, len(index_entries), len(index_entries),
 	)

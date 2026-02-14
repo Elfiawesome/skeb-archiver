@@ -144,6 +144,23 @@ renderArrows() {
 	});
 },
 
+/* ── preview thumbnails (2×2 grid, up to 4) ──────────── */
+renderPreviewCell(thumbs) {
+	if (!thumbs || !thumbs.length) {
+	return '<div class="preview-grid count-1"><div class="preview-empty">' +
+		'<span>\u2014</span></div></div>';
+	}
+
+	const n = Math.min(thumbs.length, 4);
+	let html = '<div class="preview-grid count-' + n + '">';
+	for (let i = 0; i < n; i++) {
+	html += '<img src="' + esc(thumbs[i]) + '" loading="lazy" alt=""' +
+		' onerror="this.style.visibility=\'hidden\'">';
+	}
+	html += "</div>";
+	return html;
+},
+
 /* ── main table ──────────────────────────────────────── */
 renderTable() {
 	const tbody = $("#tbody");
@@ -158,19 +175,15 @@ renderTable() {
 	const open  = this.expanded.has(name);
 	const busy  = this.loading.has(name);
 	const price = this.getPrice(u);
-	const thumb = u.latest_thumbnail_url || "";
 
 	rows.push(
 		'<tr class="row-user' + (open ? " active" : "") +
 		'" data-name="' + esc(name) +
 		'" data-file="' + esc(u.file) + '">' +
 
-		/* preview thumbnail */
+		/* preview thumbnails */
 		'<td class="cell-preview">' +
-		(thumb
-			? '<img class="table-thumb" src="' + esc(thumb) +
-			'" loading="lazy" alt="">'
-			: '<div class="table-thumb-empty"></div>') +
+		this.renderPreviewCell(u.latest_thumbnails) +
 		"</td>" +
 
 		/* user */
@@ -183,23 +196,19 @@ renderTable() {
 			'" target="_blank" rel="noopener">@' + esc(name) + "</a>" +
 		"</div></td>" +
 
-		/* price */
 		'<td class="cell-price">' + fmtYen(price) + "</td>" +
-
-		/* works count */
 		'<td class="cell-num">' + (u.works_count || 0) + "</td>" +
-
-		/* dates */
 		'<td class="cell-date">' + fmtDate(u.first_seen) + "</td>" +
 		'<td class="cell-date">' + fmtDate(u.last_updated) + "</td>" +
 
 		"</tr>"
 	);
 
-	/* expanded detail row */
 	if (open) {
 		if (busy) {
-		rows.push('<tr class="row-detail"><td colspan="6" class="msg">Loading \u2026</td></tr>');
+		rows.push(
+			'<tr class="row-detail"><td colspan="6" class="msg">Loading \u2026</td></tr>'
+		);
 		} else if (this.cache[name]) {
 		rows.push(this.renderDetail(this.cache[name]));
 		}
@@ -208,7 +217,6 @@ renderTable() {
 
 	tbody.innerHTML = rows.join("");
 
-	/* rebind clicks */
 	const self = this;
 	tbody.querySelectorAll(".row-user").forEach((tr) => {
 	tr.addEventListener("click", (ev) => {
@@ -266,8 +274,26 @@ renderDetail(d) {
 	);
 },
 
+/* ── detail header with links ──────────────────────── */
 renderDetailHead(d) {
 	const desc = d.description ? truncate(d.description, 200) : "";
+	const links = d.links || [];
+
+	let linksHtml = "";
+	if (links.length) {
+	linksHtml = '<div class="detail-links">';
+	for (const lk of links) {
+		const display = lk.name || lk.label;
+		linksHtml +=
+		'<a class="detail-link-tag" href="' + esc(lk.url) +
+		'" target="_blank" rel="noopener">' +
+		'<span class="detail-link-label">' + esc(lk.label) + '</span> ' +
+		esc(display) +
+		"</a>";
+	}
+	linksHtml += "</div>";
+	}
+
 	return (
 	'<div class="detail-head">' +
 		'<div class="detail-identity">' +
@@ -275,7 +301,7 @@ renderDetailHead(d) {
 			? '<img class="detail-avatar" src="' + esc(d.avatar_url) +
 			'" onerror="this.style.display=\'none\'">'
 			: "") +
-		'<div class="detail-name-block">' +
+		"<div>" +
 			'<div class="detail-display-name">' +
 			esc(d.name || d.screen_name) + "</div>" +
 			'<a class="detail-sn" href="https://skeb.jp/@' +
@@ -284,11 +310,14 @@ renderDetailHead(d) {
 			(desc
 			? '<div class="detail-desc">' + esc(desc) + "</div>"
 			: "") +
+			linksHtml +
 		"</div>" +
 		"</div>" +
+		'<div class="detail-right">' +
 		'<div class="detail-meta">' +
-		"<span>First seen " + fmtDate(d.first_seen) + "</span>" +
-		"<span>Updated " + fmtDate(d.last_updated) + "</span>" +
+			"<span>First seen " + fmtDate(d.first_seen) + "</span>" +
+			"<span>Updated " + fmtDate(d.last_updated) + "</span>" +
+		"</div>" +
 		"</div>" +
 	"</div>"
 	);
@@ -304,7 +333,6 @@ renderPrices(d) {
 	for (const genre of genres) {
 	const entries = ph[genre] || [];
 	if (!entries.length) continue;
-
 	const range = (d.price_range || {})[genre];
 
 	html += '<div class="ph-genre">';
@@ -312,8 +340,7 @@ renderPrices(d) {
 	html += '<span class="genre-tag">' + esc(genre) + "</span>";
 	if (range && range.min !== range.max)
 		html += '<span class="ph-range">' + fmtRange(range) + "</span>";
-	html += "</div>";
-	html += '<ul class="ph-list">';
+	html += "</div><ul class=\"ph-list\">";
 
 	for (let i = entries.length - 1; i >= 0; i--) {
 		const e = entries[i];
@@ -340,7 +367,6 @@ renderWorks(d) {
 	const works = d.works || [];
 	if (!works.length) return '<p class="msg-sm">No works recorded</p>';
 
-	/* newest first */
 	const sorted = works.slice().sort((a, b) => {
 	const da = a.created_at || a.scraped_at || "";
 	const db = b.created_at || b.scraped_at || "";
@@ -364,7 +390,6 @@ renderWorks(d) {
 		'" target="_blank" rel="noopener"' +
 		(body ? ' title="' + esc(truncate(body, 300)) + '"' : "") + ">";
 
-	/* thumbnail image */
 	if (src) {
 		html += '<img class="work-thumb-img" loading="lazy" alt="" src="' + esc(src) + '"';
 		if (srcset) html += ' srcset="' + esc(srcset) + '"';
@@ -372,22 +397,14 @@ renderWorks(d) {
 	} else {
 		html +=
 		'<div class="work-thumb-empty"><span>' +
-		esc(path.split("/").pop() || "?") +
-		"</span></div>";
+		esc(path.split("/").pop() || "?") + "</span></div>";
 	}
 
-	/* info bar */
-	html += '<div class="work-info">';
-	html += '<span>';
-	if (genre)
-		html += '<span class="work-genre">' + esc(genre) + "</span>";
-	if (nsfw)
-		html += '<span class="work-nsfw">NSFW</span>';
-	html += "</span>";
-	html += '<span class="work-date">' + fmtDate(date) + "</span>";
-	html += "</div>";
+	html += '<div class="work-info"><span>';
+	if (genre) html += '<span class="work-genre">' + esc(genre) + "</span>";
+	if (nsfw)  html += '<span class="work-nsfw">NSFW</span>';
+	html += '</span><span class="work-date">' + fmtDate(date) + "</span></div>";
 
-	/* body snippet */
 	if (body) {
 		html += '<div class="work-body">' + esc(truncate(body, 100)) + "</div>";
 	}
