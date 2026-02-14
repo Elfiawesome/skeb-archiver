@@ -1,7 +1,7 @@
 {
   "screen_name": "NEKO__KIRIN",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3879419,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 33229,
     "completing_average_time": 205357,
-    "nc": 128,
+    "nc": 144,
     "twitter_uid": "1998280820663177217",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/95453503/uploads/origins/4430fc73-e80a-405f-8960-29350e9e8cf6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ee10d482503c89e341b39361c7ad5d5d, https://si.imgix.net/95453503/uploads/origins/4430fc73-e80a-405f-8960-29350e9e8cf6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4f606cfacf29b6e13bd7e76adacee4b1 2x, https://si.imgix.net/95453503/uploads/origins/4430fc73-e80a-405f-8960-29350e9e8cf6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=abcb97e62853cd23954bee2033347a97 3x"
         },
         "body": "こんにちは、あなたの画風は素晴らしいです！J4M33のイラストをリクエストしたいです！J4M33は、私のVTuberであるJammyが、J4M33が宿る呪われた鏡に触れた際にその姿をとった謎の存在です。J4M33は巨大な鎌（改造された絵筆）を携えています。彼女は二組の目を持ち、中央にはオレンジ色の瞳、その奥には黒い虚無が広がっています！ 彼女は瞬きをしないので、常に目を見開いています！ポーズや構図は自由ですが、鎌を握りしめ、不気味な笑みを浮かべて視聴者を見つめる姿をお願いします！https://drive.google.com/drive/folders/1PoEQ0Q5TRr6Nx0nKA1gOm_wBoocwb-6p?usp=sharing",
-        "nc": 0,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -141,7 +141,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 49
+        "nc": 161
       },
       {
         "id": 1108574,
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 3024588,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 3274097,
@@ -243,7 +243,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 128
+        "nc": 1
       },
       {
         "id": 3489559,
@@ -270,7 +270,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 129
       }
     ]
   },

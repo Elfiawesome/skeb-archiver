@@ -1,7 +1,7 @@
 {
   "screen_name": "elgosphere",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 6349,
     "acceptable": true,
@@ -389,6 +389,86 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@elgosphere/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 6349,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be0c203b5a484aebe29c7b81f75b899b",
+        "srcset": "https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be0c203b5a484aebe29c7b81f75b899b, https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=db2fdccd6f05f7c83844332991be31ae 2x, https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=67b5119fa40055c8461f59c533f32b02 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=07b19091cd47706c7e282495e525c0b5",
+        "srcset": "https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=07b19091cd47706c7e282495e525c0b5, https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=99469966889a4cd849f37b33c5cd1412 2x, https://si.imgix.net/037b9e63/uploads/origins/982dc580-00ce-4609-85e1-ade1b1373384?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=75e41fe0dc0be7ed898bcb1f0a5e0e0c 3x"
+      },
+      "body": "こんにちは！\n\n私のキャラクター(https://imgur.com/a/NlWicUm)の脇の下が4つとも見える、あなたのキャラクター(https://x.com/elgosphere/status/1962806695643734172?s=20)のような絵をお願いしたいのですが。\n\n細かいディテールはお任せします。",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@elgosphere/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 6349,
+      "client_id": 435000,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dfeef9c4f1a58415251d0ebde7f56329",
+        "srcset": "https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dfeef9c4f1a58415251d0ebde7f56329, https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e0c29b6dc46c4eafdc14e48398e00d0d 2x, https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=aff4d68e6609257fe4abc418243614a5 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=89534fb0dd8b43339689fed2554a69c0",
+        "srcset": "https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=89534fb0dd8b43339689fed2554a69c0, https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=13d3db876e9d8127169183457cc78a42 2x, https://si.imgix.net/10302e85/uploads/origins/7a142904-cbaa-4845-801c-e73e79a2b8d3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=282a1c74d56adc19cd60fc6662fe8bb4 3x"
+      },
+      "body": "虚乳格納装備がとてもよかったです\n\n虚乳格納装備を付けた絶壁貧乳ちゃんが装備の下の乳首をいじられて喘いでいるエロ絵お願いします\n\n「この下にも何か隠してるだろ」\n「や、それは本物の胸…乳首いじるな」\n\nこんな感じの会話があるエロ絵、捕まって身体検査と称したエロ尋問を受けている感じ\n乳首をいじってるのは女性で、登場人物全て女性でお願いします\n\nよろしくお願いします",
+      "nc": 176,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@elgosphere/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 6349,
+      "client_id": 16137,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c2c657287007c6b1ccebb11306c28539",
+        "srcset": "https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c2c657287007c6b1ccebb11306c28539, https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fef577dc838c8902a355c6189160abf8 2x, https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f1608a09a92a030064ea4b6522aa5f18 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b95193cc11a2f1ec51c3a6426800aad7",
+        "srcset": "https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b95193cc11a2f1ec51c3a6426800aad7, https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=81ff9970af0a4b0d1e960aeccbb5dc2d 2x, https://si.imgix.net/623cb5e0/uploads/origins/73ef61c7-fc91-4b55-b6f0-610d4cd1bef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=74997148326bec04f1f6abff8e5a5a3a 3x"
+      },
+      "body": "これが自分のオリキャラ「ヤーナ」です。(https://twitter.com/jaanakettu)\n重境えるご先生の画風で描いていただければ嬉しく思います。\nよろしくお願いします！\n\nhttps://www.dropbox.com/sh/lux7w2x6k9uczok/AAD0rX4TFknNubYLMUVoC3spa?dl=0",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

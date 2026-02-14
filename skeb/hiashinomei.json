@@ -1,7 +1,7 @@
 {
   "screen_name": "hiashinomei",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3576090,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 30,
-    "nc": 17,
+    "nc": 1,
     "twitter_uid": "1952668552344846337",
     "user_service_links": [
       {
@@ -114,7 +114,7 @@
           "srcset": "https://si.imgix.net/b6636451/uploads/origins/8d7d91f6-be08-47e3-9b4a-5db030fd57f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=abf48e782362766a10377f4f11d2d3cc, https://si.imgix.net/b6636451/uploads/origins/8d7d91f6-be08-47e3-9b4a-5db030fd57f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ad8a91b06b8f7beeed6c3ead9f741c49 2x, https://si.imgix.net/b6636451/uploads/origins/8d7d91f6-be08-47e3-9b4a-5db030fd57f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f0c53841d960745f94f348bf168d65b6 3x"
         },
         "body": "hiashinoさん、お会いできて嬉しいです。そして、君のアピールに感謝します！\nあやこちゃんが君の目に留まったことを嬉しく思います。\n君の発案のどちらも気に入っていますが、もし一つ選ばなければならないなら、彼女がろうそくの光で読書をしている姿を選びます。\n彼女を好きな服装で描いても構いませんし、新しいものでも大丈夫です。\n\n参考リンク：\nx.gd/uZlOM\n\n改めてありがとうございます。",
-        "nc": 0,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -170,7 +170,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 32
       },
       {
         "id": 1383232,
@@ -221,7 +221,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 49
+        "nc": 160
       },
       {
         "id": 2812049,
@@ -248,7 +248,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 3500319,
@@ -272,7 +272,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 3721850,
@@ -299,7 +299,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 129
       }
     ]
   },
@@ -350,6 +350,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hiashinomei/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3576090,
+      "client_id": 3592644,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2d659da2a169b7ca3215bbea3c2290fb",
+        "srcset": "https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2d659da2a169b7ca3215bbea3c2290fb, https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=402762703c1ee74192764ad4bf50af47 2x, https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ec653c9b6ea411915b07ca08bad2d5dc 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0cc2fd634bb0a9dcd189de0916d70495",
+        "srcset": "https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0cc2fd634bb0a9dcd189de0916d70495, https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f084d556b365b0113d5b252cbafb4687 2x, https://si.imgix.net/f5e36be1/uploads/origins/ab35507c-e14d-486a-8785-05d4f9608c3a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4ed375d1ec521184ec9ece6b53023f7b 3x"
+      },
+      "body": "hiashino様\n\nこの度は素敵なアピールをいただき、誠にありがとうございます…！\nぜひ、お写真をお願いさせていただければと思っております！\n\n⬛︎使用用途 \nサムネ、SNS宣伝など。\n\n⬛︎キャラクター資料\nにゃこ星からやってきたマイペースで天然、ちょっぴりドジな猫娘。 \n歌とゲームが大好きけど、ホラー系が苦手でビビる。 \n配信では感情表現が激しいときもあります。\n好物：あんぱん、ココア、雨を眺める \n外見資料↓\nhttps://drive.google.com/drive/folders/1Ram93AVaeFgK6C06UJVSX0QFJdHkqA3a\n\n⬛︎構図\n構図、ポーズ、表情はは全部hiashino様にお任せします。\n服装は資料のものでお願いします。\n\n ⬛︎納品 \n可能であれば背景と人物がレイヤー分けた、一つのpsdファイルの納品だと助かります。\n\nもし金額に不備がございました再送も可能です。\nご縁がございましたら、ぜひお願い致します！",
+      "nc": 128,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

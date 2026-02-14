@@ -1,7 +1,7 @@
 {
   "screen_name": "000000yoko",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3884163,
     "acceptable": true,
@@ -444,6 +444,101 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@000000yoko/works/4",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8c3baf0a/uploads/origins/88b394cf-86c6-47c3-95e9-a26b6e24b041?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f7e674b5174a47033c7fa0f6c18a7442",
+        "srcset": "https://si.imgix.net/8c3baf0a/uploads/origins/88b394cf-86c6-47c3-95e9-a26b6e24b041?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f7e674b5174a47033c7fa0f6c18a7442, https://si.imgix.net/8c3baf0a/uploads/origins/88b394cf-86c6-47c3-95e9-a26b6e24b041?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=deea1d4bb28b73ea1294435a4a4fb2e9 2x, https://si.imgix.net/8c3baf0a/uploads/origins/88b394cf-86c6-47c3-95e9-a26b6e24b041?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6a5e8eea9d5d010c69768a1a364c9901 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3884163,
+      "client_id": 3094258,
+      "nc": 177,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@000000yoko/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3884163,
+      "client_id": 3664817,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=36b777be529271122e80fa357e76b096",
+        "srcset": "https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=36b777be529271122e80fa357e76b096, https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f56a402e43faa295a4ffa4cdd3995506 2x, https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=425dc663d92126834e5e89b9bf4f6e58 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=eb66c11ad4d1189eff470a48e9911222",
+        "srcset": "https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=eb66c11ad4d1189eff470a48e9911222, https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=67398be2b187dc533bb06e0e1a601ae0 2x, https://si.imgix.net/9b02e438/uploads/origins/27dc02c9-d54a-4cd1-95af-8580525d0464?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=270accf7adb5c9c3d127e8539f154f4a 3x"
+      },
+      "body": "こんにちは！あなたの過去作を拝見し、そのスタイルにすっかり魅了されました！ぜひ友人のオリジナルキャラクターを描いていただきたいです！彼女はピンクとかわいいものが大好きなエルフの女の子で、元気で明るい性格です。ピンクでかわいい衣装を着て、躍動感のあるポーズで立っている姿を描いていただけると嬉しいです。お願いを検討いただきありがとうございます！\nhttps://drive.google.com/drive/folders/1cC4Oaa4BTso99e4BmkYwXNuE3KdNV8ZT?usp=sharing https://drive.google.com/drive/folders/1cC4Oaa4BTso99e4BmkYwXNuE3KdNV8ZT?usp=sharing",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@000000yoko/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3884163,
+      "client_id": 521025,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9b337370b7c31e5fb2107adf8f03358f",
+        "srcset": "https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9b337370b7c31e5fb2107adf8f03358f, https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7bf82586f7f31e8ff4d94dc600262596 2x, https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6d961c9cbf4d8ec8abb8ec643e1682ae 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dc62a81b6e56f3d73a7c34fdf0283987",
+        "srcset": "https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dc62a81b6e56f3d73a7c34fdf0283987, https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=321eac992cecb9fdbd54c94f7a54cdc4 2x, https://si.imgix.net/469f2c24/uploads/origins/0e4c265d-b02d-4366-9629-6d419632c493?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=616acc162bf1a0aa1bfbe36ea8e75477 3x"
+      },
+      "body": "yokozawaさん、こんにちは！この度はyokozawaさんの絵柄に惹かれて、リクエストを送りました、もし金額が足りないでしたら再送要請をしていただけると、とても助かります。\n\n今回描いていただきたいのは\n私のOC/とうらぶの審神者でもある朝椛です、彼女はとても元気がある、わがままな架空中華王族の末っ子お姫様です。\n\nポーズはおまかせで\nもしよければ彼女の笑顔か拗ねてる顔を描いてもらえると嬉しいです。\n\nよろしくお願いいたします！\n\nhttps://drive.google.com/drive/folders/1ihI8Tf6cSRzHtAZ1AVIsLVjaAXVDFUtm",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@000000yoko/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3884163,
+      "client_id": 3691895,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f6c495283c6efa935419e8906cf059a2",
+        "srcset": "https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f6c495283c6efa935419e8906cf059a2, https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=06af79e5d7335dce237441dae9f2cc37 2x, https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=56481f78fe2c1597ef45641a323eb8f9 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e1011e60051bf7acfda538d57ddd2605",
+        "srcset": "https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e1011e60051bf7acfda538d57ddd2605, https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=009f35755ac8338781e892613e8d7327 2x, https://si.imgix.net/60feb125/uploads/origins/535c2115-707a-453b-939e-27249970a1f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a0563b2cbcbe811882cfbd26f405673c 3x"
+      },
+      "body": "はじめまして、こんにちは。\n以前、別の場所であなたの作品を拝見し、とても素敵な画風だと思い、ずっと印象に残っていました。\n日本人ではないため、これまでご依頼する機会がなかったのですが、こちらで活動されているのを拝見して、とても嬉しく思っています。\nぜひ、立ち絵のご依頼をさせていただけたらと思い、ご連絡いたしました。\n資料にあるのは私のオリジナルキャラクターで、衣装はサイト最下部に掲載されている制服になります。\n元気で活発な女の子なので、動きのあるポーズにしていただけたら嬉しいです。\nこの度はご検討いただきありがとうございます。\n素敵な作品を拝見できるのを楽しみにしております。\n\nhttps://rhetorical-effect-e5c.notion.site/Commission-Materials-2f393fd6dfd780c8877bd813287b8dfd?source=copy_link",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

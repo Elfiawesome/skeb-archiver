@@ -1,7 +1,7 @@
 {
   "screen_name": "_Atelier_TALTE_",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3885544,
     "acceptable": true,
@@ -13,7 +13,7 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/1647746293345980417/1703844288/1500x500",
     "body_size": 1000,
-    "received_works_count": 3,
+    "received_works_count": 4,
     "received_nsfw_works_count": 0,
     "sent_requests_average_cancel_time": null,
     "appeal_receivable": false,
@@ -43,8 +43,8 @@
     "accept_expiration_days": 7,
     "complete_expiration_days": 30,
     "received_requests_average_response_time": 6097,
-    "completing_average_time": 170133,
-    "nc": 144,
+    "completing_average_time": 166613,
+    "nc": 1,
     "twitter_uid": "1647746293345980417",
     "user_service_links": [
       {
@@ -88,6 +88,32 @@
     "total_appeals_count": 0,
     "received_works": [
       {
+        "path": "/@_Atelier_TALTE_/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3885544,
+        "client_id": 3893817,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e55af19148b1d912f1de834c98228d8d",
+          "srcset": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e55af19148b1d912f1de834c98228d8d, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e5d557c4995b8e6ebc2c069d52f6fc37 2x, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ce1b7605081dd731df483a8d3ce848f6 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b05f17175f57903e69bf22d4b9953d45",
+          "srcset": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b05f17175f57903e69bf22d4b9953d45, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e76ab137199157b4c1778c5ca1fac15b 2x, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=74574a6f0c167572b9724ee4d9f98f8d 3x"
+        },
+        "body": "みゆきちゃんのSDを所望✨\n変えないでほしいポイント\n・ダックスの垂れ耳、犬しっぽ\n・泣きぼくろ\n・ネイル見えるようなら青\n・超長い髪の毛（どんなヘアメでも毛先は地面スレスレなので）\n季節限定になると後々使うの大変になると分かってしまったので、オールマイティに使えるようなきゃわわなおまかせデザインでお願いします🫶\n使用用途：商用利用、配信でのSD、返礼品、ゆくゆくのリアグ",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
         "path": "/@_Atelier_TALTE_/works/3",
         "private_thumbnail_image_urls": null,
         "private": false,
@@ -108,7 +134,7 @@
           "srcset": "https://si.imgix.net/6827585f/uploads/origins/98e14a19-92f6-47a6-be3c-6cb21936aa68?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=103060ab450372a8b4f67d610b869c00, https://si.imgix.net/6827585f/uploads/origins/98e14a19-92f6-47a6-be3c-6cb21936aa68?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=81c7e25b3e69049fc4f01e2c05378d1f 2x, https://si.imgix.net/6827585f/uploads/origins/98e14a19-92f6-47a6-be3c-6cb21936aa68?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=01c0d780512abfdc8479d7a92c98a071 3x"
         },
         "body": "雫奈様、初めまして！\nIRIAMにてVライバーとして活動しております、天泣(てんきゅう)くらりと申します。\n\nxで拝見したイラストがどれも本当に素敵で、キャラクターの魅力がいきいきと伝わってきました。\nぜひ私もお願いしたい…！と思い、リクエスト送信させていただきました。\n\n●依頼内容\n天泣くらりのイラスト\n初期衣装と部屋着、お好きな方でお願いいたします！\n表情、ポーズ等もお任せいたします。\n\n●キャラクター資料\n天泣くらりについて\n＊いつか素敵なお嫁さんになるため修行中の女の子\nhttps://drive.google.com/drive/folders/1--yhtjizoHGnZlM9REJXiGx70IHOOYFE?usp=sharing\n＊瞳の下部に薄ピンクのハイライト\n＊毛先に濃いグレーのグラデーション\nが入っています！\n\n●使用用途\n＊x、YouTube、TikTokのアイコン・ヘッダーや投稿\n＊IRIAMのサムネイル、応援への返礼品(リアルグッズを含む)\nにて使用させていただきたく存じます。\n\nx\nhttps://x.com/109kurari\n\nお忙しいところ大変恐縮ですが、雫奈様のペースで楽しく描いていただければ何より嬉しいです！\n\n何卒よろしくお願いいたします。",
-        "nc": 128,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -160,7 +186,7 @@
           "srcset": "https://si.imgix.net/5bb2752f/uploads/origins/ea0bd51d-28b0-40d3-ba3c-24bff46276d4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c20ecc69cf3779eb845256c558ae3d5f, https://si.imgix.net/5bb2752f/uploads/origins/ea0bd51d-28b0-40d3-ba3c-24bff46276d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=fba702df9bf6ce2025ec56a5c7e61741 2x, https://si.imgix.net/5bb2752f/uploads/origins/ea0bd51d-28b0-40d3-ba3c-24bff46276d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9e63dd595dda9e25ec964432cbaface4 3x"
         },
         "body": "skeb上でははじめまして！\n個人勢VTuber 小鳥遊 千鶴（たかなし ちづる）です！\n\nまさかのskeb開設していただいたということで、大ファンの私としてはもちろん！と思いご依頼失礼します！\n\n人物:小鳥遊 千鶴\n\n使用用途:サムネ・壁紙・おはV投稿・ファンボックス等の投稿・グッズ\n\nサイズ、構図:お衣装はLive2D用のお着物、構図やポーズはおまかせいたします！\nサムネ等に使用予定のため、頭や左右の見切れは避けていただけると大変嬉しいです！\n\nまた、もしお時間がありましたら表情差分等もいただけたら嬉しいです！（もちろんありなしはおまかせいたします！）\n\n\n宛名がある場合は別にしていただきたいのと、PSD又はPNG納品（背景と人物別だとなお幸いです）ですと嬉しいです。（楽な方で構いません！）\n\nぜひ楽しんでお好きに描いていただければと思います。\n\nどうぞよろしくお願いいたします！\n\nhttps://lit.link/KotoritoTsuru\nhttps://x.com/kotori_to_tsuru",
-        "nc": 144,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -190,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 33
       },
       {
         "id": 2043073,
@@ -214,7 +240,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 145
       },
       {
         "id": 2087606,
@@ -238,7 +264,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 2916908,
@@ -265,7 +291,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 17
+        "nc": 144
       },
       {
         "id": 2931293,
@@ -289,7 +315,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 0
       },
       {
         "id": 3039799,
@@ -316,7 +342,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 128
       }
     ]
   },
@@ -409,6 +435,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@_Atelier_TALTE_/works/4",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3885544,
+      "client_id": 3893817,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e55af19148b1d912f1de834c98228d8d",
+        "srcset": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e55af19148b1d912f1de834c98228d8d, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e5d557c4995b8e6ebc2c069d52f6fc37 2x, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ce1b7605081dd731df483a8d3ce848f6 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b05f17175f57903e69bf22d4b9953d45",
+        "srcset": "https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b05f17175f57903e69bf22d4b9953d45, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e76ab137199157b4c1778c5ca1fac15b 2x, https://si.imgix.net/86ed78c3/uploads/origins/a53478fd-b841-41aa-bb82-cce076885cb9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=74574a6f0c167572b9724ee4d9f98f8d 3x"
+      },
+      "body": "みゆきちゃんのSDを所望✨\n変えないでほしいポイント\n・ダックスの垂れ耳、犬しっぽ\n・泣きぼくろ\n・ネイル見えるようなら青\n・超長い髪の毛（どんなヘアメでも毛先は地面スレスレなので）\n季節限定になると後々使うの大変になると分かってしまったので、オールマイティに使えるようなきゃわわなおまかせデザインでお願いします🫶\n使用用途：商用利用、配信でのSD、返礼品、ゆくゆくのリアグ",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

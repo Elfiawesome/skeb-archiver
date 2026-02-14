@@ -1,7 +1,7 @@
 {
   "screen_name": "fe_xux",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3539082,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 0,
+    "nc": 128,
     "twitter_uid": "1746396462160973824",
     "user_service_links": [
       {
@@ -116,7 +116,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 33
+        "nc": 32
       },
       {
         "id": 824243,
@@ -140,7 +140,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       },
       {
         "id": 1116326,
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       },
       {
         "id": 1314046,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 1931998,
@@ -215,7 +215,7 @@
             "genre": "video"
           }
         ],
-        "nc": 16
+        "nc": 1
       },
       {
         "id": 2759549,
@@ -242,7 +242,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 0
+        "nc": 1
       }
     ]
   },

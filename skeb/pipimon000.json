@@ -1,7 +1,7 @@
 {
   "screen_name": "pipimon000",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3794314,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 16,
+    "nc": 1,
     "twitter_uid": "1698584152336162816",
     "user_service_links": [
       {
@@ -105,7 +105,7 @@
           "srcset": "https://si.imgix.net/f65c6319/uploads/origins/b7ebe79d-9884-4f3e-b9cd-a73b772c3e0b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ca2d515c56a7d49bb878a9fa900eb2aa, https://si.imgix.net/f65c6319/uploads/origins/b7ebe79d-9884-4f3e-b9cd-a73b772c3e0b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8710f0f0275d791f7a9ddd2b56fd21e1 2x, https://si.imgix.net/f65c6319/uploads/origins/b7ebe79d-9884-4f3e-b9cd-a73b772c3e0b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=02f30905bda478c1396b9d03e71db0d9 3x"
         },
         "body": "のの先生！お世話になっております！\nうちのOC（甘魔フウカ）を好きに描いてくれると嬉しいです！",
-        "nc": 128,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -135,7 +135,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 160
       },
       {
         "id": 1415316,
@@ -159,7 +159,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 17
       },
       {
         "id": 1417012,
@@ -183,7 +183,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       },
       {
         "id": 1563560,
@@ -210,7 +210,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 33
+        "nc": 160
       },
       {
         "id": 1860363,
@@ -234,7 +234,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 2736140,
@@ -258,7 +258,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 161
       }
     ]
   },

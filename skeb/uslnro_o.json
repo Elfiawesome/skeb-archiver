@@ -1,7 +1,7 @@
 {
   "screen_name": "uslnro_o",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3579807,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 60,
-    "nc": 128,
+    "nc": 144,
     "twitter_uid": "1870986545093849088",
     "user_service_links": [
       {
@@ -109,7 +109,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 2076642,
@@ -133,7 +133,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 2437068,
@@ -160,7 +160,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3417372,
@@ -184,7 +184,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 144
       },
       {
         "id": 3755331,
@@ -211,7 +211,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 49
+        "nc": 160
       },
       {
         "id": 3774046,
@@ -235,7 +235,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 0
       }
     ]
   },

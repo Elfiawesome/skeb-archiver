@@ -1,7 +1,7 @@
 {
   "screen_name": "kururiadesu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2443645,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 0,
+    "nc": 16,
     "twitter_uid": "2551989541",
     "user_service_links": [
       {
@@ -114,7 +114,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 476955,
@@ -141,7 +141,7 @@
             "genre": "video"
           }
         ],
-        "nc": 161
+        "nc": 49
       },
       {
         "id": 1221950,
@@ -168,7 +168,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 2838615,
@@ -195,7 +195,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 177
+        "nc": 48
       },
       {
         "id": 3172389,
@@ -219,7 +219,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       },
       {
         "id": 3462274,

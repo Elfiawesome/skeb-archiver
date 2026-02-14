@@ -1,7 +1,7 @@
 {
   "screen_name": "Ymgtempla",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3893448,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 13904,
     "completing_average_time": 1287,
-    "nc": 160,
+    "nc": 32,
     "twitter_uid": "1978045835410874368",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
           "srcset": "https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0b883075daa9f2245a821e91496edf5, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9afbb399718e5198fe933edcf7057dce 2x, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3e82e68adca93d1251fb83c0424218dd 3x"
         },
         "body": "NSFWのテキストができるということなので、亡霊のわたしが他の人間あるいは肉人形などに憑依してあれやこれやというような感じをリクエストします\n憑依体の特徴として「男女問わず、憑依された対象は元の色がなんであれ髪が赤系統の色に、目が緑色に変化し、緑色の宝石のついた装身具がひとつ体のどこかに装着される」というものがあります\nhttps://skeb.jp/@II0FU5/works/1\nhttps://skeb.jp/@suisui__swimmy/works/1\n\nhttps://skeb.jp/@babibudou00/works/3\nhttps://skeb.jp/@kotori_yu0430/works/1\n上記が変化の一例です\n\n今までの事例ではこういうものがあります\nhttps://skeb.jp/@hideotaruho/works/1\nhttps://www.pixiv.net/novel/show.php?id=27021187\nhttps://skeb.jp/@omomuki_sukebe/works/2\n中性的口調で一人称は「うち」です\n\n文章は他者視点か三人称視点が希望です\n\n舞台設定はオールジャンル対応可です\n\nよろしくお願いします",
-        "nc": 176,
+        "nc": 177,
         "word_count": 2795,
         "transcoder": "text",
         "creator_acceptable_same_genre": true
@@ -142,7 +142,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3222388,
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 3309426,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 3428914,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 3434448,
@@ -244,7 +244,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3747255,
@@ -268,7 +268,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 16
       }
     ]
   },
@@ -286,5 +286,33 @@
       }
     ]
   },
-  "works": []
+  "works": [
+    {
+      "path": "/@Ymgtempla/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "novel",
+      "tipped": false,
+      "creator_id": 3893448,
+      "client_id": 2587337,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=268cd12254549bbec7eefd069a4298b5",
+        "srcset": "https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=268cd12254549bbec7eefd069a4298b5, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d99ebbb935476b2336e96a4f1bee5d67 2x, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f4a017f55e0869d7c312c9988699ad50 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0b883075daa9f2245a821e91496edf5",
+        "srcset": "https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0b883075daa9f2245a821e91496edf5, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9afbb399718e5198fe933edcf7057dce 2x, https://si.imgix.net/f0a24e3c/uploads/origins/4bd76a6f-5fec-49aa-a49d-627d246ebfe8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3e82e68adca93d1251fb83c0424218dd 3x"
+      },
+      "body": "NSFWのテキストができるということなので、亡霊のわたしが他の人間あるいは肉人形などに憑依してあれやこれやというような感じをリクエストします\n憑依体の特徴として「男女問わず、憑依された対象は元の色がなんであれ髪が赤系統の色に、目が緑色に変化し、緑色の宝石のついた装身具がひとつ体のどこかに装着される」というものがあります\nhttps://skeb.jp/@II0FU5/works/1\nhttps://skeb.jp/@suisui__swimmy/works/1\n\nhttps://skeb.jp/@babibudou00/works/3\nhttps://skeb.jp/@kotori_yu0430/works/1\n上記が変化の一例です\n\n今までの事例ではこういうものがあります\nhttps://skeb.jp/@hideotaruho/works/1\nhttps://www.pixiv.net/novel/show.php?id=27021187\nhttps://skeb.jp/@omomuki_sukebe/works/2\n中性的口調で一人称は「うち」です\n\n文章は他者視点か三人称視点が希望です\n\n舞台設定はオールジャンル対応可です\n\nよろしくお願いします",
+      "nc": 177,
+      "word_count": 2795,
+      "transcoder": "text",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    }
+  ]
 }

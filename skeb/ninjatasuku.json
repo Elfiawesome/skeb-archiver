@@ -1,7 +1,7 @@
 {
   "screen_name": "ninjatasuku",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 637946,
     "acceptable": false,
@@ -60,11 +60,11 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 4000
+        "default_amount": 6000
       },
       {
         "genre": "comic",
-        "default_amount": 10000
+        "default_amount": 8000
       }
     ],
     "payment_methods": {
@@ -111,7 +111,7 @@
           "srcset": "https://si.imgix.net/e1af2f82/uploads/origins/b7176fba-4cc8-47a0-b65b-07da1f6f452a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6450f02cdfca791536d5ee9a5ffa6d10, https://si.imgix.net/e1af2f82/uploads/origins/b7176fba-4cc8-47a0-b65b-07da1f6f452a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0e0ec76eb8506b88f4f4978295661871 2x, https://si.imgix.net/e1af2f82/uploads/origins/b7176fba-4cc8-47a0-b65b-07da1f6f452a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ec4903e8d40fec7cc3aef89a8d58db65 3x"
         },
         "body": "こんにちは！ゼルダの伝説 風のタクトに登場するテトラがベッドに横たわり、両手を頭の後ろに回して両足を広げ、脇の下と股間を見せる姿を描いていただけないでしょうか。服装は、金色のマイクロビキニのボトムだけで、できれば裸のバリエーションがあればいいと思います。\nボディは、ぽっちゃり・ポテト系で、お腹が太く、太もも・お尻が大きめだと嬉しいです。また、日焼けした肌も意識してください！\nよろしくお願いします！",
-        "nc": 184,
+        "nc": 41,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -137,7 +137,7 @@
           "srcset": "https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=33a25c9b93962fc2f22eef2bcf70ccd0, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=20765abb4da33208d3241585e9812236 2x, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=14e4838a3356debf01f2b9b9e866ba26 3x"
         },
         "body": "たすくさんがスケブあけてる！\n\nこの度はもしよろしければ、丸メガネゆるふわ金髪少女な\nうちの子ハティを描いてほしくリクエストを送らせていただきます！\n今回は資料URLの、ゆるゆるな無地お子様パンツ１枚な\nうちの子をお願いします…！\nもし可能ならパンツ無しで肛門見えてる差分があると嬉しいです！！\nもしよろしければ是非…！\n\nhttps://x.com/stellalafell/status/1993280498265952655",
-        "nc": 40,
+        "nc": 185,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -170,7 +170,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 22301,
@@ -194,7 +194,7 @@
             "genre": "art"
           }
         ],
-        "nc": 40
+        "nc": 168
       },
       {
         "id": 43569,
@@ -221,7 +221,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 101075,
@@ -245,7 +245,7 @@
             "genre": "art"
           }
         ],
-        "nc": 169
+        "nc": 41
       },
       {
         "id": 263749,
@@ -269,7 +269,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 177
       },
       {
         "id": 2579895,
@@ -293,7 +293,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 48
       }
     ]
   },
@@ -302,12 +302,20 @@
       {
         "amount": 4000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 6000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ],
     "comic": [
       {
         "amount": 10000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 8000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ]
   },
@@ -337,6 +345,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@ninjatasuku/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 637946,
+      "client_id": 101075,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=caf68f0d91ab172d6624bd276c23c41e",
+        "srcset": "https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=caf68f0d91ab172d6624bd276c23c41e, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7d978492a34aeff072c977efceaf0f35 2x, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=41701535b565811a0cccf53fdb5b8301 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=33a25c9b93962fc2f22eef2bcf70ccd0",
+        "srcset": "https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=33a25c9b93962fc2f22eef2bcf70ccd0, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=20765abb4da33208d3241585e9812236 2x, https://si.imgix.net/59c3f956/uploads/origins/6dd8fc3a-1d7e-494e-977c-14b5be5cff13?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=14e4838a3356debf01f2b9b9e866ba26 3x"
+      },
+      "body": "たすくさんがスケブあけてる！\n\nこの度はもしよろしければ、丸メガネゆるふわ金髪少女な\nうちの子ハティを描いてほしくリクエストを送らせていただきます！\n今回は資料URLの、ゆるゆるな無地お子様パンツ１枚な\nうちの子をお願いします…！\nもし可能ならパンツ無しで肛門見えてる差分があると嬉しいです！！\nもしよろしければ是非…！\n\nhttps://x.com/stellalafell/status/1993280498265952655",
+      "nc": 185,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

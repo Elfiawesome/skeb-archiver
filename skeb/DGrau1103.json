@@ -1,7 +1,7 @@
 {
   "screen_name": "DGrau1103",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1163017,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 3,
     "complete_expiration_days": 7,
-    "nc": 0,
+    "nc": 16,
     "twitter_uid": "1407235302",
     "user_service_links": [
       {
@@ -115,7 +115,7 @@
           "srcset": "https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9c685f4344419dfb8ba861a4690ffe50, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2fd51619343afbc6ada3f552396a1fcc 2x, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b021f83e2baf8ca09b56c31c313b23e2 3x"
         },
         "body": "メルんぱんさん、こんにちは！\nTwitterやFanBoxでイラストや漫画などいつも楽しく拝見させて頂いております！\n\n今回、うちの子がモブおじ（ケモノ系だったら種族なんでも可）に脇の臭いを嗅がされながら♂扱かれてる絵を描いて頂きたいです！\n\n細かいポーズなどは全ておまかせ致しますので、何卒よろしくお願い致します！\n\nhttps://drive.google.com/drive/folders/11YvNM2mTBOhlHxzwhF6zJbvb5Td8_4ig",
-        "nc": 49,
+        "nc": 161,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -168,7 +168,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 1
       },
       {
         "id": 1207709,
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 1
       },
       {
         "id": 1529144,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 33
       },
       {
         "id": 2013265,
@@ -240,7 +240,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 48
       },
       {
         "id": 3232625,
@@ -267,7 +267,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 129
       }
     ]
   },
@@ -291,5 +291,33 @@
       }
     ]
   },
-  "works": []
+  "works": [
+    {
+      "path": "/@merunmohu/works/103",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 358876,
+      "client_id": 1163017,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7eadca703bab119458034c208b6120e7",
+        "srcset": "https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7eadca703bab119458034c208b6120e7, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f75e32a149e2d7aeedca61e9c7c0359b 2x, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=dd6155e42ab2d2f5d3f9237a52cb7ae5 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9c685f4344419dfb8ba861a4690ffe50",
+        "srcset": "https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9c685f4344419dfb8ba861a4690ffe50, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2fd51619343afbc6ada3f552396a1fcc 2x, https://si.imgix.net/7d5df4a4/uploads/origins/a18fee5a-06f8-4115-a509-eca692f6fbbb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b021f83e2baf8ca09b56c31c313b23e2 3x"
+      },
+      "body": "メルんぱんさん、こんにちは！\nTwitterやFanBoxでイラストや漫画などいつも楽しく拝見させて頂いております！\n\n今回、うちの子がモブおじ（ケモノ系だったら種族なんでも可）に脇の臭いを嗅がされながら♂扱かれてる絵を描いて頂きたいです！\n\n細かいポーズなどは全ておまかせ致しますので、何卒よろしくお願い致します！\n\nhttps://drive.google.com/drive/folders/11YvNM2mTBOhlHxzwhF6zJbvb5Td8_4ig",
+      "nc": 161,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    }
+  ]
 }

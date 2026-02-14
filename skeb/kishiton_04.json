@@ -1,7 +1,7 @@
 {
   "screen_name": "kishiton_04",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2273663,
     "acceptable": true,
@@ -328,6 +328,34 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@kishiton_04/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/680d8397/uploads/origins/231dc0d0-26a0-4259-959b-7cafe27183ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=614b0ca8073ea96757777882f3678bde",
+        "srcset": "https://si.imgix.net/680d8397/uploads/origins/231dc0d0-26a0-4259-959b-7cafe27183ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=614b0ca8073ea96757777882f3678bde, https://si.imgix.net/680d8397/uploads/origins/231dc0d0-26a0-4259-959b-7cafe27183ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=722bcd9279e6bea947e88d731e6c7154 2x, https://si.imgix.net/680d8397/uploads/origins/231dc0d0-26a0-4259-959b-7cafe27183ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2c41740aba719716e4b4643173c231dd 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2273663,
+      "client_id": 2554294,
+      "nc": 17,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@kishiton_04/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e481d720/uploads/origins/6338997e-8bc1-4347-b874-052e0ad56851?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=74e5606569dc919f8ea2aa52156dbaeb",
+        "srcset": "https://si.imgix.net/e481d720/uploads/origins/6338997e-8bc1-4347-b874-052e0ad56851?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=74e5606569dc919f8ea2aa52156dbaeb, https://si.imgix.net/e481d720/uploads/origins/6338997e-8bc1-4347-b874-052e0ad56851?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bfe7f7f0cfa82f51e44195a74207b8c6 2x, https://si.imgix.net/e481d720/uploads/origins/6338997e-8bc1-4347-b874-052e0ad56851?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=94b548b92af651e1d2be0fbaf66ff519 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2273663,
+      "client_id": 2190491,
+      "nc": 128,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

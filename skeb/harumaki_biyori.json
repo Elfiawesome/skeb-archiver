@@ -1,7 +1,7 @@
 {
   "screen_name": "harumaki_biyori",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3212118,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 15,
     "complete_expiration_days": 60,
-    "nc": 0,
+    "nc": 129,
     "twitter_uid": "4345244232",
     "user_service_links": [
       {
@@ -58,7 +58,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 12000
+        "default_amount": 6000
       },
       {
         "genre": "comic",
@@ -114,7 +114,7 @@
           "srcset": "https://si.imgix.net/c70e549a/uploads/origins/31790aae-61c2-426b-9d1c-c2ac477034d1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=21b4e3dabf2ada03d23f9f51730c6e10, https://si.imgix.net/c70e549a/uploads/origins/31790aae-61c2-426b-9d1c-c2ac477034d1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b8d8c339796f9a226f587f40d4c4d231 2x, https://si.imgix.net/c70e549a/uploads/origins/31790aae-61c2-426b-9d1c-c2ac477034d1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=addf8d74e632b2b01a826f99b53b4478 3x"
         },
         "body": "こんにちは。いつもイラストやマンガを楽しく拝見しております。\n当方のオリキャラのイラストを描いていただけたらと思いリクエストさせて頂きます。\n\n髪色は明るめのブルーグレー、瞳は鮮やかなシアン、肌は色白です。\n添付した資料は制服ですが、お好きな服を着せて頂ければと思います。\n\nバレンタインのイメージのイラストで、ポーズや構図などはお任せします。\n\nよろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1qfwuRdBKbk8jSycaX9jNik40X1PDXVSa?usp=sharing",
-        "nc": 128,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -171,7 +171,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 1873193,
@@ -195,7 +195,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 2541938,
@@ -219,7 +219,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 17
       },
       {
         "id": 2742776,
@@ -270,7 +270,7 @@
             "genre": "video"
           }
         ],
-        "nc": 33
+        "nc": 161
       }
     ]
   },
@@ -279,6 +279,10 @@
       {
         "amount": 12000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 6000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ],
     "comic": [

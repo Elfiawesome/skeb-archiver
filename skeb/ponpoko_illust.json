@@ -1,7 +1,7 @@
 {
   "screen_name": "ponpoko_illust",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3576591,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 128,
     "twitter_uid": "1841002864728293381",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/95e4ca88/uploads/origins/53aaf502-4d2b-420d-ac57-81f47f0f2dfb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d4bbe0311bcfdc925b4f0c84ea176b1c, https://si.imgix.net/95e4ca88/uploads/origins/53aaf502-4d2b-420d-ac57-81f47f0f2dfb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=74024c6d3c2c6f1264f7572f6e14d88d 2x, https://si.imgix.net/95e4ca88/uploads/origins/53aaf502-4d2b-420d-ac57-81f47f0f2dfb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3ab8beef6939f38078f0eb27500896c5 3x"
         },
         "body": "ぽん様、はじめまして。\nFE中心に配信活動をしております、Vtuberの永眠エイミと申します。\n\n活動の中で使用できる立ち絵のバリエーションを増やしたく、この度依頼させていただきました。\nできれば全身絵を描いていただきたいのですが、可能でしょうか。\nVtuberのフォロー祭りやおはV、アイコンやサムネイルに使えるような立ち絵を希望しております。\n難しいようでしたら、胸から上辺りの範囲を描いていただけると幸いです。\n全身を描いていただける場合、杖の有無はぽん様におまかせ致します。\n\n当方の姿の詳細はXの固定にございますので、そちらをご確認ください。\nどうぞよろしくお願い致します。",
-        "nc": 144,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -121,7 +121,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 3576591,
-        "nc": 129
+        "nc": 17
       },
       {
         "path": "/@ponpoko_illust/works/2",
@@ -134,7 +134,7 @@
         "tipped": false,
         "creator_id": 3576591,
         "client_id": 3046765,
-        "nc": 16
+        "nc": 129
       },
       {
         "path": "/@ponpoko_illust/works/1",
@@ -147,7 +147,7 @@
         "tipped": false,
         "creator_id": 3576591,
         "client_id": 3046765,
-        "nc": 1
+        "nc": 0
       }
     ],
     "sent_works": [],
@@ -177,7 +177,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 128
+        "nc": 0
       },
       {
         "id": 1411222,
@@ -204,7 +204,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 2607386,
@@ -231,7 +231,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 2931194,
@@ -255,7 +255,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 3515259,
@@ -282,7 +282,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 17
       },
       {
         "id": 3582590,
@@ -306,7 +306,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 176
       }
     ]
   },
@@ -345,6 +345,47 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@ponpoko_illust/works/3",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/a1267446/uploads/origins/ff73688a-198b-4e07-bcac-49c0a13b0238?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2eb1ab5f5f224984307bd068c98f5965",
+        "srcset": "https://si.imgix.net/a1267446/uploads/origins/ff73688a-198b-4e07-bcac-49c0a13b0238?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2eb1ab5f5f224984307bd068c98f5965, https://si.imgix.net/a1267446/uploads/origins/ff73688a-198b-4e07-bcac-49c0a13b0238?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c6b042b7158405337dda8e15f3720d8b 2x, https://si.imgix.net/a1267446/uploads/origins/ff73688a-198b-4e07-bcac-49c0a13b0238?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c468136d224a0c0047cfb3a29eb76d84 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3576591,
+      "nc": 17,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@ponpoko_illust/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7ad5a862/uploads/origins/de558b5f-b3a1-474d-825d-befc528aafb6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9bbd7a2b28dc6865073964a97d50e941",
+        "srcset": "https://si.imgix.net/7ad5a862/uploads/origins/de558b5f-b3a1-474d-825d-befc528aafb6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9bbd7a2b28dc6865073964a97d50e941, https://si.imgix.net/7ad5a862/uploads/origins/de558b5f-b3a1-474d-825d-befc528aafb6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=303983f41d2473ee99fdfffd2d24407c 2x, https://si.imgix.net/7ad5a862/uploads/origins/de558b5f-b3a1-474d-825d-befc528aafb6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6f5473008bbc9d6f377df6a725ecfe43 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3576591,
+      "client_id": 3046765,
+      "nc": 129,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@ponpoko_illust/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b221ccf7/uploads/origins/7f246fe8-5c04-4233-ad95-b09b5a459039?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=94a9794b62eef2fa8dc89676cfc65b96",
+        "srcset": "https://si.imgix.net/b221ccf7/uploads/origins/7f246fe8-5c04-4233-ad95-b09b5a459039?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=94a9794b62eef2fa8dc89676cfc65b96, https://si.imgix.net/b221ccf7/uploads/origins/7f246fe8-5c04-4233-ad95-b09b5a459039?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=4c8702d0f7b7be7c00c7de45b710b1e5 2x, https://si.imgix.net/b221ccf7/uploads/origins/7f246fe8-5c04-4233-ad95-b09b5a459039?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fba841e50403194d7f809f76bbb12ce3 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3576591,
+      "client_id": 3046765,
+      "nc": 0,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

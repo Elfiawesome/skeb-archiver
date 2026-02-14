@@ -1,7 +1,7 @@
 {
   "screen_name": "jeuwbz",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3700363,
     "acceptable": false,
@@ -366,6 +366,74 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@jeuwbz/works/4",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/3c0c0182/uploads/origins/ad11c55c-6910-4f8a-a41d-9bf22fb7e6b5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=368caf806ed68a2a0e54691f1e1a10c8",
+        "srcset": "https://si.imgix.net/3c0c0182/uploads/origins/ad11c55c-6910-4f8a-a41d-9bf22fb7e6b5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=368caf806ed68a2a0e54691f1e1a10c8, https://si.imgix.net/3c0c0182/uploads/origins/ad11c55c-6910-4f8a-a41d-9bf22fb7e6b5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a312af2197868660f49ae9c322d599c0 2x, https://si.imgix.net/3c0c0182/uploads/origins/ad11c55c-6910-4f8a-a41d-9bf22fb7e6b5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ad4e934557e4ed6382db69030adfacfa 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3700363,
+      "nc": 1,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@jeuwbz/works/3",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7783ab21/uploads/origins/9547f92c-9fdf-42de-a374-bebc1018c0bd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c2f67e5a92c41cf786187f5eefdf590f",
+        "srcset": "https://si.imgix.net/7783ab21/uploads/origins/9547f92c-9fdf-42de-a374-bebc1018c0bd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c2f67e5a92c41cf786187f5eefdf590f, https://si.imgix.net/7783ab21/uploads/origins/9547f92c-9fdf-42de-a374-bebc1018c0bd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0edea9ea54eb2ea160aa2b589098f8c3 2x, https://si.imgix.net/7783ab21/uploads/origins/9547f92c-9fdf-42de-a374-bebc1018c0bd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=b1d6dde8c372d8025a574d6cfaf509d8 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3700363,
+      "client_id": 2141901,
+      "nc": 0,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@jeuwbz/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3700363,
+      "client_id": 3384580,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0cd53de88ce275c8b0eed4a81467e621",
+        "srcset": "https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0cd53de88ce275c8b0eed4a81467e621, https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=43c351ad04ea10fd119fce9b76074af4 2x, https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=eb3eb397e74480dd190508291d8fccd0 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3b4b8ed7f9e1bb811e986f8f26e13827",
+        "srcset": "https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3b4b8ed7f9e1bb811e986f8f26e13827, https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b5b539df502f84e3f20be050217f82b0 2x, https://si.imgix.net/2916d8ea/uploads/origins/eb4e2e2a-e922-4bbd-a159-696413bfb1a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=879b2997ff8656e1de8f7fbee82213f7 3x"
+      },
+      "body": "あなたの画風がとても好きです、私のTRPG 「東京ゴーストマティカ」HO1·雷のキャラクターを描いていただきたいです。\n\n資料に不足や問題/金額が足りない場合は，がありましたら、ご自由に再送信またはキャンセルしてください，ありがとうございます⚡️🤍\n\n▼画像資料\nhttps://drive.google.com/drive/folders/1_f36dTmvulQudmr0odDspblwSpCxbMyM\n\n■キャラクターについて\n\n神成 雲天徠\n25歲/男性/176cm\n一人称：僕\n二人称：様\n三人称：彼/彼女\n\n電波系キャラクター。 \n日常の仕事と生活では比較的冷淡に見える人で、完全な仕事の鬼である。よく顔をこわばらせている。自分の考えを言葉で表現するのが苦手で、ほとんどの時間は簡単な返答と手振りで自分の考えを示す。ぼんやりしている時はコインを投げる。 \n眼帯で覆われている目は黄色で、戦う時だけ眼帯を外す。しかし、眼帯はきちんと保管して乱雑に捨てたりしない。\n二刀流で、日本刀と付随する雷電を使って敵を攻撃する。おそらくとても格好いいキャラクターで、傷ついても戦いを続ける。 レモンキャンディーとヨーグルトが好きで、日常的に多くの甘い物を摂取し、様々なデザートを拒まず、食欲がとても大きい。 \n彼の周囲には、細かい黒、黄、白の稲妻が浮かび上がる。\n関連要素：曇天、稲妻、東京スカイツリー、鎮痛剤と包帯、透明な傘、各種仕事の報告書。",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@jeuwbz/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7181e8f5/uploads/origins/81009aff-460c-4ad5-8050-d8d068330583?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a72ca25fc456e12399ad82b6fb7aa3f4",
+        "srcset": "https://si.imgix.net/7181e8f5/uploads/origins/81009aff-460c-4ad5-8050-d8d068330583?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a72ca25fc456e12399ad82b6fb7aa3f4, https://si.imgix.net/7181e8f5/uploads/origins/81009aff-460c-4ad5-8050-d8d068330583?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=cd78cca966874a941e89220ba58043ef 2x, https://si.imgix.net/7181e8f5/uploads/origins/81009aff-460c-4ad5-8050-d8d068330583?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0201176b3077f6e2276378d308834010 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3700363,
+      "client_id": 2141901,
+      "nc": 129,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

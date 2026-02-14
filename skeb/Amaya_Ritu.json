@@ -1,7 +1,7 @@
 {
   "screen_name": "Amaya_Ritu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2254336,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 120,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 144,
+    "nc": 0,
     "twitter_uid": "1441990513373040650",
     "user_service_links": [
       {
@@ -118,7 +118,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 2139190,
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 3012655,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 129
       },
       {
         "id": 3080223,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 3373476,
@@ -244,7 +244,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 0
+        "nc": 145
       }
     ]
   },

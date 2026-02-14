@@ -1,7 +1,7 @@
 {
   "screen_name": "spht_aomo",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3508002,
     "acceptable": true,
@@ -345,6 +345,32 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@spht_aomo/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3508002,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7a9b941fff9066251f2493b8d40a26b0",
+        "srcset": "https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7a9b941fff9066251f2493b8d40a26b0, https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=01c5df6a01d1fe1c08285eae1d3d33f2 2x, https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ec01c84178db9f43c92045b42beacc4b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3ef4b961eafd52b46e89b1c9ac31a865",
+        "srcset": "https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3ef4b961eafd52b46e89b1c9ac31a865, https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4f0d4c236e831a18200ca82282db320b 2x, https://si.imgix.net/10b9f630/uploads/origins/53d8b9b1-f20a-45dd-91d8-7c95f1aad302?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a753c5a2d021f389877c72f37a913ac0 3x"
+      },
+      "body": "アオモさん！！私のオリジナルキャラ【キャロライン・メイハー】を描いてください！！テーマは新しい衣装ですが、以下のルールを守ってください：- 主な色は青と黄色でなければなりません- 髪型はオリジナルデザインと全く同じか、それに近いものでなければなりません- ヘッドバンドは再デザインできますが、オレンジの星は頭に残さなければなりません \n\nこれらのルール以外は完全な創作の自由です！アオモさん、頑張ってください！応援しています！お断りしても構いませんよ！https://drive.google.com/drive/folders/1KlVH8NzQfZrxyZoo3v6JA9aXfB8PWmSq",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

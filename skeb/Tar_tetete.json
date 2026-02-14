@@ -1,7 +1,7 @@
 {
   "screen_name": "Tar_tetete",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3311007,
     "acceptable": true,
@@ -42,9 +42,9 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 90,
-    "received_requests_average_response_time": 3037,
+    "received_requests_average_response_time": 44719,
     "completing_average_time": 24252,
-    "nc": 17,
+    "nc": 1,
     "twitter_uid": "1776128341214642176",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/8ae0043f/uploads/origins/29601382-7b90-4440-8a58-b89b37c801ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ecb9978d84f03bc186ad93d4891c8d36, https://si.imgix.net/8ae0043f/uploads/origins/29601382-7b90-4440-8a58-b89b37c801ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f689dd222739fbb8bfccb939471699dd 2x, https://si.imgix.net/8ae0043f/uploads/origins/29601382-7b90-4440-8a58-b89b37c801ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=78311e5a8369f4c3eeb75f0efeed0715 3x"
         },
         "body": "お世話になっております。たるとたたんさんのイラストが大好きなため、リクエストさせていただきます。\n\n▼リクエスト\nOCの一色雫那のバレンタイン風味なイラストを描いていただきたいです！\nお洋服やシチュエーション、構図など完全におまかせします。\n後から眺めてニコニコするためですので、期限のご配慮はなさらなくて大丈夫です。\n\n▼用途\n自慢、鍵アカウントのアイコン\n\n何卒よろしくお願いいたします。\n\nhttps://drive.google.com/file/d/1UAeO_Z4gK9NB4fBpDcSzkrST22vuew1W/view?usp=drivesdk",
-        "nc": 0,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -138,7 +138,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 129
       },
       {
         "id": 2002878,
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3152869,
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 129
       },
       {
         "id": 3216344,
@@ -210,7 +210,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3237302,
@@ -234,7 +234,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 0
       },
       {
         "id": 3355617,
@@ -258,7 +258,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       }
     ]
   },

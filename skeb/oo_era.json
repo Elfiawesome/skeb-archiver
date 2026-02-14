@@ -1,7 +1,7 @@
 {
   "screen_name": "oo_era",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3679751,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 0,
     "twitter_uid": "1534450377734516738",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/082b5cbf/uploads/origins/fa30dec4-69c5-49cc-b9db-1337d66daf70?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4586c80422e65303907e99c38e995dc1, https://si.imgix.net/082b5cbf/uploads/origins/fa30dec4-69c5-49cc-b9db-1337d66daf70?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=04842d2aecc6b627e2508358505df9f0 2x, https://si.imgix.net/082b5cbf/uploads/origins/fa30dec4-69c5-49cc-b9db-1337d66daf70?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=46dc66844a838342ba3b187fa16a8f29 3x"
         },
         "body": "髪の色はピンク。 ボサボサのロング。 死んだ目でクマがあり瞳の色はグレー。 瞳孔は多重円。 二の腕から手の甲まで両手に包帯。 ロザリオを胸に下げている。 全体的に暗い雰囲気で病んでいる。 黒い首輪をしている。 背中に鞭傷跡多数。(無理に画面内に入れる必要はありません)　胸は大きめの修道女を描いて下さい。シスターヴェールを付ける場合は外した差分も入れて下さい。PSDに線画や練習絵、没ラフ等があれば入れてくれると嬉しいです。宜しくお願い致します。",
-        "nc": 16,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dd5e114a85822bda6a5b8ac09ad4f1de, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=def69f7709d514b8f370ea4b705a50e3 2x, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1291bb18456e807664bbbdefde9c4a19 3x"
         },
         "body": "チャオ～！オリジナルキャラクターを描いていただきたいです。\nとにかく暗くて陰鬱なキャラクターです。\n構図・ポーズ等お任せいたします！\nですがNG要素がいくつかあります\n・笑顔\n・ほほ染\nけど特に守らなくてOKです\n\nウヌの絵柄、ワシのOCにめちゃくちゃ合うんじゃないか？\nよろしくお願いします\n\nhttps://drive.google.com/drive/folders/1QKCFc2oCbsiWfeBVGNqDtduWSAEOn80G?usp=drive_link",
-        "nc": 144,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 176
       },
       {
         "id": 805611,
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 1506136,
@@ -213,7 +213,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 32
+        "nc": 33
       },
       {
         "id": 2365044,
@@ -237,7 +237,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 17
       },
       {
         "id": 2797109,
@@ -285,7 +285,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 128
       }
     ]
   },
@@ -324,6 +324,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@oo_era/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3679751,
+      "client_id": 56316,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b3f163d8c8d64cef7b43e5a444f27159",
+        "srcset": "https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b3f163d8c8d64cef7b43e5a444f27159, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=97532562aa75869e8aee97b971f7ccf6 2x, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b1f1a46eccb49db869469cc4f97e5c57 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dd5e114a85822bda6a5b8ac09ad4f1de",
+        "srcset": "https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dd5e114a85822bda6a5b8ac09ad4f1de, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=def69f7709d514b8f370ea4b705a50e3 2x, https://si.imgix.net/e74bf5ce/uploads/origins/2d568bd5-a11d-4ba8-8247-218224f17895?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1291bb18456e807664bbbdefde9c4a19 3x"
+      },
+      "body": "チャオ～！オリジナルキャラクターを描いていただきたいです。\nとにかく暗くて陰鬱なキャラクターです。\n構図・ポーズ等お任せいたします！\nですがNG要素がいくつかあります\n・笑顔\n・ほほ染\nけど特に守らなくてOKです\n\nウヌの絵柄、ワシのOCにめちゃくちゃ合うんじゃないか？\nよろしくお願いします\n\nhttps://drive.google.com/drive/folders/1QKCFc2oCbsiWfeBVGNqDtduWSAEOn80G?usp=drive_link",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "screen_name": "aether_o_Bailu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3894715,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 0,
     "twitter_uid": "1982985858237292545",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 129
       },
       {
         "id": 1729772,
@@ -166,7 +166,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3536675,
@@ -214,7 +214,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 16
       },
       {
         "id": 3751567,
@@ -241,7 +241,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 128
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "yadorii",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3797936,
     "acceptable": true,
@@ -324,6 +324,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@yadorii/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3797936,
+      "client_id": 1102914,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=60c84a90eaa1c4ad3d48814129e313d8",
+        "srcset": "https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=60c84a90eaa1c4ad3d48814129e313d8, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fd35090ccb35b2156ebd8b3522c0d589 2x, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d8d3fedaddb2e504e09c730e77e86e58 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0285104db1766de445f73ff553de9bfd",
+        "srcset": "https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0285104db1766de445f73ff553de9bfd, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=241876bdfc0a5172f51285dbddea657a 2x, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cdeb2bad00e4f799d57a1a54b5b4174b 3x"
+      },
+      "body": "やどりさん、こんにちは！お声かけありがとうございます。私のキャラクター、モックを描いていただけたら大変嬉しいです！※モックの詳細：• ウサギをモチーフにした陶器の人形を宿す存在• 細身で小柄な体格• 感情を表に出さないが、鋭い眼差しを持つ• 好奇心旺盛だが、探索方法が病的なところがある\n\n構図やポーズはご自由に決めてください。※ キャラクターと背景を別レイヤー（PSD形式）でいただけると大変助かります。ご依頼をご検討いただき、モックを気に入ってくださってありがとうございます！https://drive.google.com/drive/folders/1k3-xjYV96exX_zKOqUb32xcJZRC2vkuQ?usp=sharing",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

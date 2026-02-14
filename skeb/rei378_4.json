@@ -1,7 +1,7 @@
 {
   "screen_name": "rei378_4",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3682757,
     "acceptable": false,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 90,
     "received_requests_average_response_time": 115753,
     "completing_average_time": 5502232,
-    "nc": 144,
+    "nc": 129,
     "twitter_uid": "1737354812826775552",
     "user_service_links": [
       {
@@ -138,7 +138,7 @@
           "srcset": "https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=46ca55e13060a32b8e69d01dd6e7486d, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=aa97255092ca21ce9c0d5dcee136d0af 2x, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f8cd7d95c04f5faac0386ffaf6f20ba7 3x"
         },
         "body": "こんにちは、私のOCであるVTuberのキャラクター、ディトラの絵を依頼させてください。金色の髪飾りと \"期望 \"と書かれたタグを持つ、とても内向的で物静かな男です。\n\n全てお任せしますので、何でも嬉しいです！！！できればTwitch/Twitterで使いたいです。グッズには使いません。\n\n参考資料はこちらです！\n\nhttps://drive.google.com/drive/folders/1T4UGO5ZPa8TlIss-IY5KaFcaObh_-QLU?usp=sharing",
-        "nc": 1,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 3409195,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 0
       },
       {
         "id": 3498054,
@@ -240,7 +240,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 144
       },
       {
         "id": 3612166,
@@ -288,7 +288,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 144
       }
     ]
   },
@@ -333,6 +333,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@rei378_4/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3682757,
+      "client_id": 3158869,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23c6613512d0317f669e11d17e6d7873",
+        "srcset": "https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23c6613512d0317f669e11d17e6d7873, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=48940d80952259d2a34999833e22de7a 2x, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=db2939f0b1ef5f82facd6966d547a1e8 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=46ca55e13060a32b8e69d01dd6e7486d",
+        "srcset": "https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=46ca55e13060a32b8e69d01dd6e7486d, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=aa97255092ca21ce9c0d5dcee136d0af 2x, https://si.imgix.net/74bfb3c0/uploads/origins/387a0cea-2fa6-4313-9600-ec22bc5a99af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f8cd7d95c04f5faac0386ffaf6f20ba7 3x"
+      },
+      "body": "こんにちは、私のOCであるVTuberのキャラクター、ディトラの絵を依頼させてください。金色の髪飾りと \"期望 \"と書かれたタグを持つ、とても内向的で物静かな男です。\n\n全てお任せしますので、何でも嬉しいです！！！できればTwitch/Twitterで使いたいです。グッズには使いません。\n\n参考資料はこちらです！\n\nhttps://drive.google.com/drive/folders/1T4UGO5ZPa8TlIss-IY5KaFcaObh_-QLU?usp=sharing",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

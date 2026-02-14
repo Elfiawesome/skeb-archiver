@@ -1,7 +1,7 @@
 {
   "screen_name": "YoshidaNaoto000",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3797823,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 16,
+    "nc": 128,
     "twitter_uid": "1450456912164794378",
     "user_service_links": [
       {
@@ -110,7 +110,7 @@
           "srcset": "https://si.imgix.net/f660d5d9/uploads/origins/ae74c600-2469-49fc-970c-31b481a14003?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a24fe587b4a74674d840d84d31a8d641, https://si.imgix.net/f660d5d9/uploads/origins/ae74c600-2469-49fc-970c-31b481a14003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6d9cdabbe249a5fd000a0b5f56b254fb 2x, https://si.imgix.net/f660d5d9/uploads/origins/ae74c600-2469-49fc-970c-31b481a14003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0c6990b5419c2abfd5b5ff6d25dd1e03 3x"
         },
         "body": "テニスコートの風景をお願いしたいです。\nフェンスの外側からテニスコートを見ているように描いていただきたいです。\nテニスコートにテニスボールが1個落ちているように描いてもらえると嬉しいです。\nフェンスの外側から見ているという視点なので、フェンスありと無しの差分を両方いただきたいです。",
-        "nc": 0,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -149,7 +149,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 807920,
@@ -173,7 +173,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 128
       },
       {
         "id": 1122831,
@@ -197,7 +197,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 33
       },
       {
         "id": 2548946,
@@ -224,7 +224,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 17
       },
       {
         "id": 2774135,
@@ -248,7 +248,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 3116047,
@@ -272,7 +272,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 144
       }
     ]
   },

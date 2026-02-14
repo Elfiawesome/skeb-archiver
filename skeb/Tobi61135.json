@@ -1,7 +1,7 @@
 {
   "screen_name": "Tobi61135",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3628320,
     "acceptable": false,
@@ -335,6 +335,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Tobi61135/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3628320,
+      "client_id": 2524919,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5e07af457935260776cbaf78e1661cb1",
+        "srcset": "https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5e07af457935260776cbaf78e1661cb1, https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a707f7f233c73b1a94aa1df7f9f030dd 2x, https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=856c8f5de968f191260684b1ce220d7d 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7b4df2965f9ac9854dae9a909ff26fa",
+        "srcset": "https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7b4df2965f9ac9854dae9a909ff26fa, https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=180d5124955327dcb1cb6a26a1ab3d46 2x, https://si.imgix.net/1581e1be/uploads/origins/4dd9b4ad-1d5a-4984-9305-85ba46afffa3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cd5877bc1d7124412ed6b28a2ab01508 3x"
+      },
+      "body": "こんにちは! あなたのskebが開かれたのを見て申し込みに来ました！\nもし私のキャラクターのシート紙をリメイクしていただけますか？\n私のキャラクターはレモン猫です。 お腹と頬の部分にレモンとオレンジの柄があり、お尻の方に足裏の模様があります。\n私のキャラクターの資料はこちらのリンクにあります。\nhttps://drive.google.com/drive/folders/16yu46g0lDR2f4OEFlz7TGfLXTCjDTNgV\n\n私がお願いしたいことは、私のキャラクターの体型を変更することです。\nあなたが最近Xにアップロードした青い猫のキャラクターに似た形で、お腹が出てかわいい体型だといいのですが。\nまた、目元は少し下げて、鋭くないように半月の目をしていてほしいです。",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "screen_name": "_yuu_XYZ",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3895333,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 15,
-    "nc": 17,
+    "nc": 129,
     "twitter_uid": "1660959862518607876",
     "user_service_links": [
       {
@@ -113,7 +113,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 47742,
@@ -137,7 +137,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 49
       },
       {
         "id": 1004802,
@@ -164,7 +164,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 2035699,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3010943,
@@ -218,7 +218,7 @@
             "genre": "video"
           }
         ],
-        "nc": 1
+        "nc": 145
       },
       {
         "id": 3678619,
@@ -242,7 +242,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       }
     ]
   },

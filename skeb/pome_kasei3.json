@@ -1,7 +1,7 @@
 {
   "screen_name": "pome_kasei3",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3893624,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 128,
     "twitter_uid": "1819806256187817984",
     "user_service_links": [
       {
@@ -117,7 +117,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 176
       },
       {
         "id": 3003161,
@@ -141,7 +141,7 @@
             "genre": "art"
           }
         ],
-        "nc": 25
+        "nc": 152
       },
       {
         "id": 3194898,
@@ -165,7 +165,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 3365136,
@@ -213,7 +213,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 3770828,
@@ -237,7 +237,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 144
       }
     ]
   },

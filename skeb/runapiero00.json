@@ -1,7 +1,7 @@
 {
   "screen_name": "runapiero00",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3892309,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 145,
+    "nc": 1,
     "twitter_uid": "822037744796844032",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 128
       },
       {
         "id": 1070793,
@@ -142,7 +142,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 161
+        "nc": 32
       },
       {
         "id": 1357640,
@@ -166,7 +166,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 1
       },
       {
         "id": 2598784,
@@ -190,7 +190,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 160
       },
       {
         "id": 2767490,
@@ -217,7 +217,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 3448297,
@@ -244,7 +244,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 16
       }
     ]
   },

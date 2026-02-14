@@ -1,7 +1,7 @@
 {
   "screen_name": "Little_10_Me",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3890022,
     "acceptable": true,
@@ -330,6 +330,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Little_10_Me/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3890022,
+      "client_id": 3196126,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=df5fa45d581d50d0ad030fd8fa3152da",
+        "srcset": "https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=df5fa45d581d50d0ad030fd8fa3152da, https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3a40f63039053488d43e60f20d1cd515 2x, https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=fef326f455cd64084b7aa008cdb8f3bf 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4b426e9448731033c942b4ef4e6c9192",
+        "srcset": "https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4b426e9448731033c942b4ef4e6c9192, https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=99d4d997fb6f9b7cf69b8141b5c3f7e0 2x, https://si.imgix.net/44b50341/uploads/origins/e461bf0f-f9b8-455f-87a9-904b06519668?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=92916698a6fcea363f22fe0d38f72c19 3x"
+      },
+      "body": "こんにちは！私のオリジナルキャラクター（OC）のイラストリクエストをお願いします！猫の性格を持った目覚まし時計です。本体は卵型タイマーで、驚かせると頭が鳴るかもしれません！お好きなように描いてください！\n\nご検討いただきありがとうございます！https://drive.google.com/drive/folders/1GDVRWZfCUoJp4XhjGBhR0vrurQfFjhYn?usp=sharing",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

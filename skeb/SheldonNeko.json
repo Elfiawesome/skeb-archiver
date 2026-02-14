@@ -1,7 +1,7 @@
 {
   "screen_name": "SheldonNeko",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3891023,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 0,
+    "nc": 144,
     "twitter_uid": "904497155834085376",
     "user_service_links": [
       {
@@ -58,7 +58,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 10000
+        "default_amount": 12000
       },
       {
         "genre": "correction",
@@ -113,7 +113,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 160
       },
       {
         "id": 786584,
@@ -164,7 +164,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 1728641,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 2224202,
@@ -215,7 +215,7 @@
             "genre": "video"
           }
         ],
-        "nc": 33
+        "nc": 48
       },
       {
         "id": 2801106,
@@ -239,7 +239,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 49
       }
     ]
   },
@@ -248,6 +248,10 @@
       {
         "amount": 10000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 12000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ],
     "correction": [

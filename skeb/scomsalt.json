@@ -1,7 +1,7 @@
 {
   "screen_name": "scomsalt",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3894559,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 3,
     "complete_expiration_days": 14,
-    "nc": 1,
+    "nc": 128,
     "twitter_uid": "1901546025808236544",
     "user_service_links": [
       {
@@ -121,7 +121,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 176
+        "nc": 49
       },
       {
         "id": 742316,
@@ -151,7 +151,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 17
       },
       {
         "id": 899508,
@@ -223,7 +223,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 160
       },
       {
         "id": 3523073,
@@ -247,7 +247,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 16
       }
     ]
   },

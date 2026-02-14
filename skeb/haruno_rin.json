@@ -1,7 +1,7 @@
 {
   "screen_name": "haruno_rin",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3449082,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 1,
+    "nc": 128,
     "twitter_uid": "1802001618189377536",
     "user_service_links": [
       {
@@ -114,7 +114,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 176
+        "nc": 33
       },
       {
         "id": 1252991,
@@ -141,7 +141,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 9
+        "nc": 8
       },
       {
         "id": 1273785,
@@ -165,7 +165,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 1698546,
@@ -195,7 +195,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 128
       },
       {
         "id": 2017469,
@@ -219,7 +219,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 3146603,
@@ -243,7 +243,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       }
     ]
   },

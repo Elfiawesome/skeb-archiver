@@ -1,7 +1,7 @@
 {
   "screen_name": "_u7nya",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3872797,
     "acceptable": true,
@@ -347,6 +347,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@_u7nya/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3872797,
+      "client_id": 1210862,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=641980839bc021aa59c8aec17ea42c03",
+        "srcset": "https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=641980839bc021aa59c8aec17ea42c03, https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=50747533aa96683a1c755fbfa8373480 2x, https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=531dbf208ab8cbfaf89b170ff20a7868 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6d7117f862e23203b0073c6c9450dfe5",
+        "srcset": "https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6d7117f862e23203b0073c6c9450dfe5, https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5bc571c9b2023a77f9cbd781ac7ddc4d 2x, https://si.imgix.net/12fb48d5/uploads/origins/f5474cec-2121-47ff-b41b-9b117cb308af?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bab5f609499d966af65a71f663f22cb0 3x"
+      },
+      "body": "オリジナルキャラクターデザインをお願いしたいです。\n\nこのキャラクターはサキュバスの女の子です。\n赤みのあるピンク色の長い髪で、ツイン寄りにまとめており、\n悪魔の角があります。\n目は紫〜ピンク系の色合いのイメージです。\n\n服装：\n・長袖のセーラー服\n・ボタン付きの薄いピンク色のカーディガン\n・黒いスカート\n・白いニーハイソックス\n・黒や紫系のダークトーンのコウモリのような翼\n・先がハート形の細い尻尾\n\n添付のラフはイメージ用の参考です。\nデザインはご自身のスタイルで自由にお任せします。\n\nよろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/149FmFVTYH0P-H3YoSe_F84O1pMCacfoY",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

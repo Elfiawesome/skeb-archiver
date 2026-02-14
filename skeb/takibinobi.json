@@ -1,7 +1,7 @@
 {
   "screen_name": "takibinobi",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 661130,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 4836,
     "completing_average_time": 1527737,
-    "nc": 176,
+    "nc": 49,
     "twitter_uid": "1028184620578222080",
     "user_service_links": [
       {
@@ -111,7 +111,7 @@
           "srcset": "https://si.imgix.net/d903f90b/uploads/origins/f61cf1ee-6661-4549-8b45-d5588cf4ff6e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3bfed07b71f4c3f654fbc8bb628b1d26, https://si.imgix.net/d903f90b/uploads/origins/f61cf1ee-6661-4549-8b45-d5588cf4ff6e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e6edcda62c5e113c2232e16be6934fa6 2x, https://si.imgix.net/d903f90b/uploads/origins/f61cf1ee-6661-4549-8b45-d5588cf4ff6e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c177c1d595478b76d03a97383c4e7ddb 3x"
         },
         "body": "初めまして。先日お題箱に似顔絵を依頼しても良いか伺った者です。\nたきびさんのイラストがとても好きなのでSkebの募集を見て何か描いていただきたいと思っていたのですが、オリキャラもいないため、自身の似顔絵を依頼させてください。もしかしたら個人SNSのアイコン等にさせていただくかもしれませんが、個人利用の範囲外での使用はいたしません。\n私の顔は資料URLの画像のとおりです。細かい指示や納期の指定は特にありませんので、似顔絵ということ以外はおまかせでお願いいたします。お手数をおかけしますが、よろしくお願いいたします。\n\nhttps://photos.app.goo.gl/JCL3ZoHmzYWZBQak9",
-        "nc": 48,
+        "nc": 32,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -127,7 +127,7 @@
         "tipped": false,
         "creator_id": 661130,
         "client_id": 3216849,
-        "nc": 16
+        "nc": 1
       }
     ],
     "sent_works": [],
@@ -157,7 +157,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 2250287,
@@ -181,7 +181,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 33
       },
       {
         "id": 2446974,
@@ -205,7 +205,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 145
       },
       {
         "id": 2650364,
@@ -232,7 +232,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 2708319,
@@ -256,7 +256,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 160
       },
       {
         "id": 3186281,
@@ -289,7 +289,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 17
       }
     ]
   },
@@ -333,6 +333,20 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@takibinobi/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/cb6d1fdb/uploads/origins/04dbf5ec-9078-40ef-bfe9-ab8f16b28114?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e523576befe959ce3c2e2a2d6884a205",
+        "srcset": "https://si.imgix.net/cb6d1fdb/uploads/origins/04dbf5ec-9078-40ef-bfe9-ab8f16b28114?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e523576befe959ce3c2e2a2d6884a205, https://si.imgix.net/cb6d1fdb/uploads/origins/04dbf5ec-9078-40ef-bfe9-ab8f16b28114?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f19d4108cb4e53a6911d9c2f37d55eea 2x, https://si.imgix.net/cb6d1fdb/uploads/origins/04dbf5ec-9078-40ef-bfe9-ab8f16b28114?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6d205d51aab2025f33b17e34c2216935 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 661130,
+      "client_id": 3216849,
+      "nc": 1,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

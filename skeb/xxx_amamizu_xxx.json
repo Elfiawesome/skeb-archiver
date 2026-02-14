@@ -1,7 +1,7 @@
 {
   "screen_name": "xxx_amamizu_xxx",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3603955,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 129,
+    "nc": 16,
     "twitter_uid": "1589195922172706816",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/557e0938/uploads/origins/d3f3f509-ec55-4aff-96b8-4b5f4023bbcb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=357ffc50c966549e727fa6054ee48c0a, https://si.imgix.net/557e0938/uploads/origins/d3f3f509-ec55-4aff-96b8-4b5f4023bbcb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5a5c1956a6f0c44e08168c71713a9a7f 2x, https://si.imgix.net/557e0938/uploads/origins/d3f3f509-ec55-4aff-96b8-4b5f4023bbcb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=16a3f1f2b987ffdc5a9984539e49875e 3x"
         },
         "body": "こんにちは、\n私のvtuberを描いてください！私はこれをsnsとストリーミング活動に使います。\nよろしくお願いします！\n\nhttps://drive.google.com/file/d/16V9mtjDWVrqYNKcm-w3P7qKKfbzpSyVK/view?usp=sharing",
-        "nc": 129,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -122,7 +122,7 @@
         "tipped": false,
         "creator_id": 3603955,
         "client_id": 3470634,
-        "nc": 17
+        "nc": 129
       },
       {
         "path": "/@xxx_amamizu_xxx/works/3",
@@ -135,7 +135,7 @@
         "tipped": false,
         "creator_id": 3603955,
         "client_id": 3656563,
-        "nc": 17
+        "nc": 129
       },
       {
         "path": "/@xxx_amamizu_xxx/works/2",
@@ -159,7 +159,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 3603955,
-        "nc": 16
+        "nc": 144
       }
     ],
     "sent_works": [],
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 161
       },
       {
         "id": 1514572,
@@ -216,7 +216,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 128
       },
       {
         "id": 2028513,
@@ -240,7 +240,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 145
       },
       {
         "id": 2629968,
@@ -264,7 +264,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3402362,
@@ -312,7 +312,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 17
       }
     ]
   },
@@ -351,6 +351,60 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@xxx_amamizu_xxx/works/4",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f71dd5f5/uploads/origins/58d3e2fc-ada7-4a55-881f-290738bc0926?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1efe54affcbbbab110fc3c359507e4c5",
+        "srcset": "https://si.imgix.net/f71dd5f5/uploads/origins/58d3e2fc-ada7-4a55-881f-290738bc0926?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1efe54affcbbbab110fc3c359507e4c5, https://si.imgix.net/f71dd5f5/uploads/origins/58d3e2fc-ada7-4a55-881f-290738bc0926?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f8d3413d3efd1d009404563092c09e92 2x, https://si.imgix.net/f71dd5f5/uploads/origins/58d3e2fc-ada7-4a55-881f-290738bc0926?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6d9d0e6a14983134b537b41532bc4073 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3603955,
+      "client_id": 3470634,
+      "nc": 129,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@xxx_amamizu_xxx/works/3",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/a1493d2f/uploads/origins/a79124b3-d132-495f-bca6-bc4e61b8e200?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1197a421e5a4bff630fc8a9ef7e5add0",
+        "srcset": "https://si.imgix.net/a1493d2f/uploads/origins/a79124b3-d132-495f-bca6-bc4e61b8e200?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1197a421e5a4bff630fc8a9ef7e5add0, https://si.imgix.net/a1493d2f/uploads/origins/a79124b3-d132-495f-bca6-bc4e61b8e200?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0621b58eee0bd29868b0300c30321797 2x, https://si.imgix.net/a1493d2f/uploads/origins/a79124b3-d132-495f-bca6-bc4e61b8e200?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3419f083ad99cc5b5392189b2c42ada5 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3603955,
+      "client_id": 3656563,
+      "nc": 129,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@xxx_amamizu_xxx/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d22e8915/uploads/origins/fe17fc29-0c8b-421b-9b54-4963ac7c400a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=daac7dc23cadd4103e22e3fc36170196",
+        "srcset": "https://si.imgix.net/d22e8915/uploads/origins/fe17fc29-0c8b-421b-9b54-4963ac7c400a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=daac7dc23cadd4103e22e3fc36170196, https://si.imgix.net/d22e8915/uploads/origins/fe17fc29-0c8b-421b-9b54-4963ac7c400a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1ecd37906b62b823a6d0d41f804756b8 2x, https://si.imgix.net/d22e8915/uploads/origins/fe17fc29-0c8b-421b-9b54-4963ac7c400a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=7be816231ac852a5a14e11a925fd3a79 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3603955,
+      "nc": 1,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@xxx_amamizu_xxx/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/951d217a/uploads/origins/c6af1ff0-468d-41e5-8f07-672b3348a7eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fd8d76f4ae78b9a573f92dd10694a3d7",
+        "srcset": "https://si.imgix.net/951d217a/uploads/origins/c6af1ff0-468d-41e5-8f07-672b3348a7eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fd8d76f4ae78b9a573f92dd10694a3d7, https://si.imgix.net/951d217a/uploads/origins/c6af1ff0-468d-41e5-8f07-672b3348a7eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d9722acd07b89cc9505c241b81b4921b 2x, https://si.imgix.net/951d217a/uploads/origins/c6af1ff0-468d-41e5-8f07-672b3348a7eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bc4b52afe0a8cf289ea18debb12f8ac5 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3603955,
+      "nc": 144,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "screen_name": "siguosan",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 716114,
     "acceptable": true,
@@ -337,6 +337,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@siguosan/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 716114,
+      "client_id": 3765756,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=98be7c3721324e69cb026c43401cfc72",
+        "srcset": "https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=98be7c3721324e69cb026c43401cfc72, https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=2b3b140075669aedb0415e88aba2dba2 2x, https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=475793409913cbe0f4f7d55356187418 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9002c1768db87592b9c7ea4757bb96be",
+        "srcset": "https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9002c1768db87592b9c7ea4757bb96be, https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=acd3d94fc2a46c76e5ca224e25f037f2 2x, https://si.imgix.net/1a12a529/uploads/origins/588df6cf-6dd4-4012-8a6d-563b97d28bed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=64c657029675a3f25d060fddccc9e575 3x"
+      },
+      "body": "しぐお先生へ\n4顔ネットワークの一番新人のトムと申します！！\nしぐお先生に自機の顔イラストを描いてもらいたいです！！\nよろしくお願いします！！！\n\nhttps://x.com/tomglazghotsyn/status/1968889327418507603?s=46&t=_cYJzeeUWMKkejOlw5nmHA",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

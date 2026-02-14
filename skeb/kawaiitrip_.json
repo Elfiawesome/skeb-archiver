@@ -1,7 +1,7 @@
 {
   "screen_name": "kawaiitrip_",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3860947,
     "acceptable": true,
@@ -317,6 +317,20 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@kawaiitrip_/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/22cb5524/uploads/origins/3bedb07f-f43a-4b04-a471-7562bf732e79?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ba356c9fcce12a700eb3eaa148e01c01",
+        "srcset": "https://si.imgix.net/22cb5524/uploads/origins/3bedb07f-f43a-4b04-a471-7562bf732e79?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ba356c9fcce12a700eb3eaa148e01c01, https://si.imgix.net/22cb5524/uploads/origins/3bedb07f-f43a-4b04-a471-7562bf732e79?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=46a8256ad7a2a217dde27e03880c99b5 2x, https://si.imgix.net/22cb5524/uploads/origins/3bedb07f-f43a-4b04-a471-7562bf732e79?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d4a1b7b358543ce828527d36d25ae118 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3860947,
+      "client_id": 3352619,
+      "nc": 17,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

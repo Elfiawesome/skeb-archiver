@@ -1,7 +1,7 @@
 {
   "screen_name": "dbv_bb",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3832059,
     "acceptable": true,
@@ -331,6 +331,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@KILL_hiko/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 1006474,
+      "client_id": 3832059,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f298d8080efb91daddf5a2a99ade01d7",
+        "srcset": "https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f298d8080efb91daddf5a2a99ade01d7, https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b5bf3192f4a2cfa85e18c03adbc37d5a 2x, https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=4843fc61dd554e5de27f465bf972a6ea 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc287d38f11bb2b99d07baf9df7ec2ea",
+        "srcset": "https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc287d38f11bb2b99d07baf9df7ec2ea, https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1bc7d1fb63beb2ca06725b1961572135 2x, https://si.imgix.net/8fe1a33c/uploads/origins/c8170ca4-b223-4420-b0e8-66a5ae853df2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=088b396aa22c0f9c0f0b4b7868554b19 3x"
+      },
+      "body": "弓彦さんこんばんは❗️リクエスト失礼します🙇🏻‍♀️՞のんびり見てたらskebが…ある❗️と思い シュタタと参りました 失礼なければ何卒よろしくお願いいたします🎶\n\n所謂代理キャラ2名のイラストをお願いしたいです❗️\nどちらもデザインを決めているものではないので、なんとなく特徴を踏まえて描いていただければそれっぽくなるの…かな？という感じです❗️曖昧で申し訳ないのですが、弓彦さんの絵柄で欲しい❗️という感じなので自由に描いていただければ…(曖昧すぎる)嬉しいです😭❗️\n\nお忙しいとは思いますが、ご縁あれば…よろしくお願いいたします🎶\n\nhttps://drive.google.com/drive/folders/1W9fFqSdn70JkRLZdiephyuD261GkvZYG",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

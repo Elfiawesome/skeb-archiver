@@ -1,7 +1,7 @@
 {
   "screen_name": "ussame114",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3893103,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 50,
-    "nc": 0,
+    "nc": 145,
     "twitter_uid": "2011397208504184832",
     "user_service_links": [
       {
@@ -169,7 +169,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 16
+        "nc": 144
       },
       {
         "id": 1096229,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 16
       },
       {
         "id": 1485274,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 128
       },
       {
         "id": 1940164,
@@ -241,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 128
       },
       {
         "id": 3261671,
@@ -268,7 +268,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 0
       }
     ]
   },

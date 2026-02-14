@@ -1,7 +1,7 @@
 {
   "screen_name": "chaoolong0416",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3703118,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 20570,
     "completing_average_time": 430196,
-    "nc": 128,
+    "nc": 0,
     "twitter_uid": "1934989449676705792",
     "user_service_links": [
       {
@@ -134,7 +134,7 @@
           "srcset": "https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6120e1837a15ee3d4049e52eb336fa8a, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=213d21832ade8ba1a8c465912048d6cb 2x, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=69682c68c8a346d3b261aaf40525286a 3x"
         },
         "body": "茶 烏龍さん！\n\nお世話になっております！\n文妹妹文です\n\n早速ですがOCでもある私を描いて頂きたいです\n\n資料は下記です\nhttps://lit.link/maifumiV\n\n描いて頂きたい内容なんですが\n烏龍さんのイラストのタッチがすごく好きで是非私をと思い、良ければお任せでお願いしたいです\nまたできれば、透過素材を頂けたらありがたいです。\n(服装変更やデフォルト化などなんでもOKです)\n使用用途は配信や動画での利用やサムネ・Twitter・BlueSkyで使用させて頂きたいです。\n\n良ければよろしくお願い致します",
-        "nc": 129,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 48
       },
       {
         "id": 2496364,
@@ -215,7 +215,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 2921892,
@@ -239,7 +239,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 160
       },
       {
         "id": 2997825,
@@ -263,7 +263,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 145
       },
       {
         "id": 3462759,
@@ -287,7 +287,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 160
       }
     ]
   },
@@ -326,6 +326,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@chaoolong0416/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3703118,
+      "client_id": 3226802,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6cf33fb336dc6117e1fe7a442a46b3b1",
+        "srcset": "https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6cf33fb336dc6117e1fe7a442a46b3b1, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9d4f3e14b33e7cafcf87460c5b077248 2x, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2e5b378da932811c1c980ebc794128f1 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6120e1837a15ee3d4049e52eb336fa8a",
+        "srcset": "https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6120e1837a15ee3d4049e52eb336fa8a, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=213d21832ade8ba1a8c465912048d6cb 2x, https://si.imgix.net/f8f411c6/uploads/origins/f6d51c65-3f9a-45ad-bcdf-2648a1079bdf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=69682c68c8a346d3b261aaf40525286a 3x"
+      },
+      "body": "茶 烏龍さん！\n\nお世話になっております！\n文妹妹文です\n\n早速ですがOCでもある私を描いて頂きたいです\n\n資料は下記です\nhttps://lit.link/maifumiV\n\n描いて頂きたい内容なんですが\n烏龍さんのイラストのタッチがすごく好きで是非私をと思い、良ければお任せでお願いしたいです\nまたできれば、透過素材を頂けたらありがたいです。\n(服装変更やデフォルト化などなんでもOKです)\n使用用途は配信や動画での利用やサムネ・Twitter・BlueSkyで使用させて頂きたいです。\n\n良ければよろしくお願い致します",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

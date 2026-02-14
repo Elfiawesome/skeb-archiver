@@ -1,7 +1,7 @@
 {
   "screen_name": "tntl_nemui",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3793754,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 90,
-    "nc": 128,
+    "nc": 16,
     "twitter_uid": "1605648855613050880",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/4ef176f4/uploads/origins/95ab0ccc-f042-4118-aae5-7d4b4d670353?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dda35b901be65e9656186418a86b7c7b, https://si.imgix.net/4ef176f4/uploads/origins/95ab0ccc-f042-4118-aae5-7d4b4d670353?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2c7b1ba944d5d8410eaead797adea17f 2x, https://si.imgix.net/4ef176f4/uploads/origins/95ab0ccc-f042-4118-aae5-7d4b4d670353?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=03786de6b85e5648f3a4bd60ce96b223 3x"
         },
         "body": "たんたるさん、はじめまして！可愛くなりたいエルフの女の子、ルーです！\n\nたんたるさんのツイッターのイラスト、本当にかわいいですね！キャラの顔や赤ら顔が本当にかわいいです。私のイラストもお願いできますか？ポーズや服のデザイン、表情など、細かいところはお任せします！\n\nありがとうございました！\n\nhttps://cdn.rue.moe/rue-ref-v1.4.0.png",
-        "nc": 16,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8f65a4cc7effae71c0c779f65ee63b99, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4d3adea6dfd74270c4f0296620d98275 2x, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bba56b33737844550b6c0f46fe223266 3x"
         },
         "body": "初めまして！リクエスト失礼します。\nOCの別衣装を描いて頂きたいです。\n白のキャミソールに下は黒系のホットパンツで、上着はパーカー系を肩出しで着崩しているようなイメージです。(細かい装飾はお任せします)\n・背景とレイヤを分けて頂けると助かります。\n・アイコン等にも使用したいので頭が見切れないようにして頂きたいです。\nご検討お願いします！\n\nhttps://imgur.com/a/tOoWPH2",
-        "nc": 0,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 16
       },
       {
         "id": 583942,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 33
       },
       {
         "id": 1812979,
@@ -238,7 +238,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 177
+        "nc": 48
       },
       {
         "id": 2604676,
@@ -262,7 +262,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 3042145,
@@ -286,7 +286,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3212620,
@@ -310,7 +310,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 33
       }
     ]
   },
@@ -349,6 +349,59 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@tntl_nemui/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3793754,
+      "client_id": 486175,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2181c26c3f2cc83c29bc1ea91532d639",
+        "srcset": "https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2181c26c3f2cc83c29bc1ea91532d639, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c99ea76ccf35669e3d8a204c32620741 2x, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9f64b0f78969717fded9942bf6dbe572 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8f65a4cc7effae71c0c779f65ee63b99",
+        "srcset": "https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8f65a4cc7effae71c0c779f65ee63b99, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4d3adea6dfd74270c4f0296620d98275 2x, https://si.imgix.net/f0c47b2b/uploads/origins/c2b4d271-1438-4846-9891-bf4dfbce2fc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bba56b33737844550b6c0f46fe223266 3x"
+      },
+      "body": "初めまして！リクエスト失礼します。\nOCの別衣装を描いて頂きたいです。\n白のキャミソールに下は黒系のホットパンツで、上着はパーカー系を肩出しで着崩しているようなイメージです。(細かい装飾はお任せします)\n・背景とレイヤを分けて頂けると助かります。\n・アイコン等にも使用したいので頭が見切れないようにして頂きたいです。\nご検討お願いします！\n\nhttps://imgur.com/a/tOoWPH2",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@tntl_nemui/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3793754,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=54fe9ad6db6c8071f44c1a830d5a270d",
+        "srcset": "https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=54fe9ad6db6c8071f44c1a830d5a270d, https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ed4e82f845b2c4ffd59a99c46c288b36 2x, https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=765e0513bcb1824ffccc40d05987fd7f 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b636608148987a6e96431f16cf6ec22f",
+        "srcset": "https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b636608148987a6e96431f16cf6ec22f, https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=524c9232066d953946fa2c8fd2c13b6b 2x, https://si.imgix.net/feb17932/uploads/origins/2062bf40-e16b-4faa-97d1-ad589590d268?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=75ebbc7f9df885ffd332e090bb7b03ad 3x"
+      },
+      "body": "はじめまして！Xでたんたる先生の素敵なイラストが目に留まり、もしよければご依頼したいです！   \n\n・使用用途：Youtube、FCその他配信用のサムネイル、Xや広報用、商用利用（dlsiteなど\n\n・キャラ資料はこちらです  https://drive.google.com/drive/folders/12fqV0YGFvjBKRrYlVxliWqJI91p7KQg3\n\n・構図はhttps://x.com/tntl_nemui/status/1986059641797976111?s=46  のような感じで、むちむち甘サドっぽい妖艶な雰囲気だと嬉しいです。\n\n・衣装はメイド服 希望で、髪型や変更したい箇所がありましたらご自由にしてください...！\n・可能でしたら表情差分をいただけると嬉しいです。（舌を出したり、ハート目、グルグル目の表情）   \n・psdデータで背景と人物をレイヤーで分けた形でいただきたいです。  \n\nご縁がありましたら是非宜しくお願い致します。",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

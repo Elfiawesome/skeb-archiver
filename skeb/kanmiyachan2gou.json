@@ -1,7 +1,7 @@
 {
   "screen_name": "kanmiyachan2gou",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3780413,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 16,
     "twitter_uid": "1977335809440354304",
     "user_service_links": [
       {
@@ -113,7 +113,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 32
       },
       {
         "id": 272924,
@@ -140,7 +140,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 417286,
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 497613,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 32
       },
       {
         "id": 571140,
@@ -212,7 +212,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 852887,
@@ -239,7 +239,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 145
+        "nc": 128
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "nannkasugoibeam",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3894328,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 1,
+    "nc": 128,
     "twitter_uid": "2009837388324032512",
     "user_service_links": [
       {
@@ -118,7 +118,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 1250351,
@@ -145,7 +145,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 1655866,
@@ -172,7 +172,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 2744751,
@@ -196,7 +196,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 3458507,
@@ -223,7 +223,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 144
       },
       {
         "id": 3468359,
@@ -247,7 +247,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 129
       }
     ]
   },

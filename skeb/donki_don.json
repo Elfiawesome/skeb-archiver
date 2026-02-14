@@ -1,7 +1,7 @@
 {
   "screen_name": "donki_don",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1714559,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 145,
     "twitter_uid": "307867329",
     "user_service_links": [
       {
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 3181528,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3438130,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 145
       },
       {
         "id": 3504736,
@@ -241,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 3649557,
@@ -268,7 +268,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 17
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "momokuri0924",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3894341,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 90,
-    "nc": 16,
+    "nc": 17,
     "twitter_uid": "1721175164950609920",
     "user_service_links": [
       {
@@ -58,11 +58,11 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 6000
+        "default_amount": 4000
       },
       {
         "genre": "correction",
-        "default_amount": 2000
+        "default_amount": 3000
       }
     ],
     "payment_methods": {
@@ -116,7 +116,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 2679626,
@@ -140,7 +140,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 2948152,
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 2996705,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 3484378,
@@ -212,7 +212,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 3821486,
@@ -239,7 +239,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 1
       }
     ]
   },
@@ -248,12 +248,20 @@
       {
         "amount": 6000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 4000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ],
     "correction": [
       {
         "amount": 2000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 3000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ]
   },

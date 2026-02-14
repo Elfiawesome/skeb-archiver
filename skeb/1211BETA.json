@@ -1,7 +1,7 @@
 {
   "screen_name": "1211BETA",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3264923,
     "acceptable": true,
@@ -330,6 +330,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Kudryavka_was_/works/34",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1918061,
+      "client_id": 3264923,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=18417c6f6f1ae14c5cfcf0c6c24dc792",
+        "srcset": "https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=18417c6f6f1ae14c5cfcf0c6c24dc792, https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d582d1f4b8bd901f3b0276e26869c633 2x, https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0d30f4f785761277a2b6676a732ee95f 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=70261c4c6ff3253d1b8ef5b9b18884e6",
+        "srcset": "https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=70261c4c6ff3253d1b8ef5b9b18884e6, https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a6d14fea9f86276c2a1ee833ec7ffb76 2x, https://si.imgix.net/2f2fe49a/uploads/origins/312ac04e-2695-4ce1-8c05-cc5977144c86?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=db0706d1fa7fc5f0124c4da4fa70ad78 3x"
+      },
+      "body": "こんにちは\n主な特徴は以下の通りで、他はおまかせします*_ _)\n\n年齢：女子高校生\n特徴：ソバカス、リムレスメガネ、矯正中の歯、長めの前髪、くせ毛気味な黒髪(ロング)\n服装：制服、紺のブレザー、膝下スカート\n性格：気が弱い、学校でいじめられている、部屋が汚い、運動も勉強も苦手\n\nよろしくお願いします",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

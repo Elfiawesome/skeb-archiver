@@ -1,7 +1,7 @@
 {
   "screen_name": "tamaru",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3777742,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 16,
+    "nc": 144,
     "twitter_uid": "1796083678864683008",
     "user_service_links": [
       {
@@ -157,7 +157,7 @@
           "srcset": "https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=67403f3df60ab145487a9ad1653e16ec, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c30e7c549e1de0333e9b413c33136131 2x, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=dbd2869f860ac97d34f91d5ad2f5d6b1 3x"
         },
         "body": "こんにちは。先生の衣装デザインが物凄く大好きで是非うちの子達創作男女の衣装デザインをお願いさせて頂けたらと思いリクエストさせて頂きました。\n\n\n・天体や星、月、うさぎが大好きなのでどこかに組み込んで頂ければ嬉しいです。\n\n・先生の自由にうちの子達に合いそうな雰囲気のものをデザインして頂けたら嬉しいです。また衣装デザインして頂いたものをキャラシへ搭載させて頂けたらと考えております。\n\n金額、資料不足ありましたら再送して頂ければ幸いです。ご検討よろしくお願い致します。\n\nhttps://lit.link/akumamea",
-        "nc": 129,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 176
       },
       {
         "id": 1825019,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 1909328,
@@ -262,7 +262,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 33
+        "nc": 48
       },
       {
         "id": 3464538,
@@ -286,7 +286,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 17
       },
       {
         "id": 3831242,
@@ -370,6 +370,47 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@tamaru/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b132de1a/uploads/origins/c72b73e7-8ac3-4a38-ba0c-b36892d038d1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c8cf62007dbb1a3747ed1b81bc10721b",
+        "srcset": "https://si.imgix.net/b132de1a/uploads/origins/c72b73e7-8ac3-4a38-ba0c-b36892d038d1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c8cf62007dbb1a3747ed1b81bc10721b, https://si.imgix.net/b132de1a/uploads/origins/c72b73e7-8ac3-4a38-ba0c-b36892d038d1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=183fd9de1769ade816d23712fb124322 2x, https://si.imgix.net/b132de1a/uploads/origins/c72b73e7-8ac3-4a38-ba0c-b36892d038d1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a4e8d7e9a2abb87eb04e406fe0218ff0 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3777742,
+      "client_id": 3018199,
+      "nc": 1,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@tamaru/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3777742,
+      "client_id": 3572079,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2c2d7f7f465687c33982f4e9bb134f26",
+        "srcset": "https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2c2d7f7f465687c33982f4e9bb134f26, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=bb86d0d225fe0e8699dc0b6c2d4d402e 2x, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b4ede415d2479101b67218f369a9f03c 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=67403f3df60ab145487a9ad1653e16ec",
+        "srcset": "https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=67403f3df60ab145487a9ad1653e16ec, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c30e7c549e1de0333e9b413c33136131 2x, https://si.imgix.net/f9d55994/uploads/origins/03f21e69-c059-4769-a125-02acfccfdd76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=dbd2869f860ac97d34f91d5ad2f5d6b1 3x"
+      },
+      "body": "こんにちは。先生の衣装デザインが物凄く大好きで是非うちの子達創作男女の衣装デザインをお願いさせて頂けたらと思いリクエストさせて頂きました。\n\n\n・天体や星、月、うさぎが大好きなのでどこかに組み込んで頂ければ嬉しいです。\n\n・先生の自由にうちの子達に合いそうな雰囲気のものをデザインして頂けたら嬉しいです。また衣装デザインして頂いたものをキャラシへ搭載させて頂けたらと考えております。\n\n金額、資料不足ありましたら再送して頂ければ幸いです。ご検討よろしくお願い致します。\n\nhttps://lit.link/akumamea",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

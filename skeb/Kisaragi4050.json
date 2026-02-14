@@ -1,7 +1,7 @@
 {
   "screen_name": "Kisaragi4050",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2547560,
     "acceptable": true,
@@ -343,6 +343,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Kisaragi4050/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2547560,
+      "client_id": 2851319,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6ce971b557ec7daba4fe3a564315836c",
+        "srcset": "https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6ce971b557ec7daba4fe3a564315836c, https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=50dff8cdd9b7a3b7858fe52671846a7a 2x, https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5c5d8b621294708bc525690167282d42 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=092c133f5b4b0fe13a54e796e6016400",
+        "srcset": "https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=092c133f5b4b0fe13a54e796e6016400, https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e7e6b836cbaec026692381193819c2ea 2x, https://si.imgix.net/0d24013f/uploads/origins/755c6418-7fc9-446b-9a4b-311ca91b3e15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=80e6e8f6f912a997aba94278600fdcb4 3x"
+      },
+      "body": "こんにちは！Twitterであなたのアートを楽しんでいるのですが、私のポスト黙示録的Vtuber、Pesto Petrichorをフォトアートの背景で描いていただけませんか？もしビスキーがあるとしたら、汚染された薄紫色です。彼の服装は好きなもので構わない。  Google Driveの \"Commission Ideas \"に私の好みの例があるので、参考になれば。\n\nキャラクター情報ペスト・ペトリコールは2095年のポストアポカリプス放浪生態学者で、M.A.I.D.(微気候評価介入部)としても知られている。準軍事・環境研究組織 \"P.S.Y.O.P. \"の一員として、彼は破壊された都市や放射線に汚染された荒地をさまよい、環境テストを行い、彼の組織が青と緑の地球を取り戻すのに役立つ研究や技術を探している。\n\n特徴\n-5'6\"\n-リーフシープ・ウミウシのハイブリッド\n-クール\n-少し自惚れ屋\n-常に眠い／目の下が黒い\n-傷つきやすい\n-絶望に屈しないようにしている\n-医療用タバコ（紫煙）を吸う\n\nhttps://drive.google.com/drive/folders/1YC-nLXmsH8F--UdVoxtMSlrleFYoqdug?usp=drive_link",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

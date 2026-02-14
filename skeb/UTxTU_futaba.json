@@ -1,7 +1,7 @@
 {
   "screen_name": "UTxTU_futaba",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3895131,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 144,
+    "nc": 16,
     "twitter_uid": "1821052933255098368",
     "user_service_links": [
       {
@@ -116,7 +116,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 33
+        "nc": 160
       },
       {
         "id": 1639002,
@@ -143,7 +143,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 161
+        "nc": 49
       },
       {
         "id": 2545158,
@@ -167,7 +167,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 144
       },
       {
         "id": 2987624,
@@ -191,7 +191,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 3027821,
@@ -215,7 +215,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3363581,
@@ -239,7 +239,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       }
     ]
   },

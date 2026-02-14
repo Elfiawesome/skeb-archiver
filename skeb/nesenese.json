@@ -1,7 +1,7 @@
 {
   "screen_name": "nesenese",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3891222,
     "acceptable": true,
@@ -300,5 +300,34 @@
       }
     ]
   },
-  "works": []
+  "works": [
+    {
+      "path": "/@nesenese/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "voice",
+      "tipped": false,
+      "creator_id": 3891222,
+      "client_id": 3628491,
+      "vtt_url": "https://fcdn.skeb.jp/uploads/outputs/7c8e15bc-bb77-4102-9a52-219ff2747a60?response-content-disposition=inline&Expires=1771673275&Signature=hr9bcrZuQD40b~bdAGKhyHkAqeiEM43lY1RJC~ZTklpZUjk1mZQpF9HtlUi3IzBLenBy6UOi2I799GTSSnyChSa~Wo9f7lKCZQ7pRu2a-GsjHtGzWIwP6fRytWFMrkDAWIl5XTAUBu6~XS28kFE9q7WwK76X1DaydOBnCC9o17kUT-05Mx~PUbeUxhnYIukxwTTOdG6WznZeHJeJslmxZg7Bz00cQUe332-Fr02gIIpwBcHQz1vJPhlqBP4y2X0R9RE9Wj0OIXx6zrpmYxmK6LfNX4OKYw8JoQgqhT9PsPoLhX5o1qo3Q1xsM-vME~zrIMFWXAMzb8lvZXyL92PHgg__&Key-Pair-Id=K1GS3H53SEO647",
+      "thumbnail_image_urls": {
+        "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1d075bb82f669137517ad5d66e264ab2",
+        "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1d075bb82f669137517ad5d66e264ab2, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3578bdd7e57fcd54d16f94be7252b551 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5bd9a88cc741dd04323a50db8d691284 3x"
+      },
+      "preview_url": "https://fcdn.skeb.jp/uploads/outputs/c4a239bf-0922-492e-a95c-5c0045430b66?response-content-disposition=inline&Expires=1771673275&Signature=gPL746aYrYhjahiuW5fOwV7K35L9uTORLsKCXFffZHGcwboOx~xMcczm~x7vs74TEHmUZpTNKvSabzGxaCS5B20Rntcgn5CxfAIFKRRzbnDQtVv-K58oD~s58797yB0WIa-dIdBm9TtX7oBRMBWPO-NGSXCSsgG-zq-hGux-lA0KjNrRNwly70kwFRT-kBJjbOUbOySqF0Z4U7bnp61bsy1gB6Uq7kJxjZsLFkxKvO9k3oxUT7MEeBcb6WCN2RSw26Fs4umTgg9B1NFal5BBsihttVtXJQg0ti71SdZI45n2LS83FxFupIn2G6JJ8KICJcXWocXAEhVKIuV0btjBfw__&Key-Pair-Id=K1GS3H53SEO647",
+      "duration": 1,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5635e8a55789fb4d372607ebd295bbc5",
+        "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5635e8a55789fb4d372607ebd295bbc5, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0648d8e08b6f2eb0ce33648042854c66 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2021545713243664385%2FofM2kV7N.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2eefa95d805b0cbe51f7ee4e697d0f9a 3x"
+      },
+      "body": "ショートセリフリクエストです\n「今はこれで上出来じゃない？」\nよろしくどうぞ",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "audio",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    }
+  ]
 }

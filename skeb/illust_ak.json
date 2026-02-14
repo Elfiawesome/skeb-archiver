@@ -1,7 +1,7 @@
 {
   "screen_name": "illust_ak",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1633097,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 176,
+    "nc": 177,
     "twitter_uid": "1328869125649645569",
     "user_service_links": [
       {
@@ -142,7 +142,7 @@
             "genre": "video"
           }
         ],
-        "nc": 161
+        "nc": 32
       },
       {
         "id": 130228,
@@ -166,7 +166,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 161
       },
       {
         "id": 449151,
@@ -190,7 +190,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 32
       },
       {
         "id": 830316,
@@ -223,7 +223,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 40
+        "nc": 184
       },
       {
         "id": 1702418,
@@ -247,7 +247,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 32
       },
       {
         "id": 2801502,
@@ -274,7 +274,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 161
+        "nc": 160
       }
     ]
   },

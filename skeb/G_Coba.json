@@ -1,7 +1,7 @@
 {
   "screen_name": "G_Coba",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2263086,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 61433,
     "completing_average_time": 3502589,
-    "nc": 145,
+    "nc": 0,
     "twitter_uid": "218363834",
     "user_service_links": [
       {
@@ -107,7 +107,7 @@
           "srcset": "https://si.imgix.net/e7ea00f4/uploads/origins/c8874c35-022f-4381-8d61-cfde4c546afc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3b4477db05fd54c3a9b58e95750f37ed, https://si.imgix.net/e7ea00f4/uploads/origins/c8874c35-022f-4381-8d61-cfde4c546afc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=637cdc78c2ea3189ef7fae7bdfbb8273 2x, https://si.imgix.net/e7ea00f4/uploads/origins/c8874c35-022f-4381-8d61-cfde4c546afc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9a85f36dd0f4592fcaf31991aa0a51a4 3x"
         },
         "body": "こんにちは！あなたの作品が好きで、空飛ぶ少女「空飛ぶ少女」のイラストを依頼したいです。元となったゲームは好きではありませんが、キャラクター自体は大好きです。ポーズや構図はご自由に決めてください。お時間をいただきありがとうございます！\n\nhttps://drive.google.com/drive/folders/1KSshYykiGex4XR6lWobYmztKL9XEdizY?usp=drive_link",
-        "nc": 128,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -163,7 +163,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 323893,
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 908014,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 1207844,
@@ -238,7 +238,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 1343950,
@@ -289,7 +289,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 144
       }
     ]
   },
@@ -327,6 +327,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@G_Coba/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2263086,
+      "client_id": 325820,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bff78952c253e508ec8661458bfb5d59",
+        "srcset": "https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bff78952c253e508ec8661458bfb5d59, https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d191611b6051adaf9b8dd7805452bb31 2x, https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1abd80d8f9d11f9fcd75889d7afeeb94 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=472133a328838b07a376362b615c4135",
+        "srcset": "https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=472133a328838b07a376362b615c4135, https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1589a3e1d4bcee32ce3f506f352bfc55 2x, https://si.imgix.net/8131d59c/uploads/origins/585350da-7df3-4514-a639-fdd3736b949d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=506e19f9065c3b4664e32b5cb1112682 3x"
+      },
+      "body": "こんにちは！あなたの絵が好きで、リクエストを受けているのを見て嬉しく思っています。\n僕のMMA OCのアスガを描いてもらえないかな。\n内気で心優しい性格なのですが、戦うと冷静で物怖じしない性格に変わります。\nポーズや構図はお任せします。\nよろしくお願いします！\n\nhttps://drive.google.com/drive/folders/1-7c1QBSOwSJVCv_Dn7roMg-crzlRVuSq?usp=drive_link",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

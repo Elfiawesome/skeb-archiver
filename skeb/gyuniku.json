@@ -1,7 +1,7 @@
 {
   "screen_name": "gyuniku",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3837626,
     "acceptable": true,
@@ -443,6 +443,87 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@gyuniku/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837626,
+      "client_id": 3838306,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7d78e38f8f714c167f604d560edb908f",
+        "srcset": "https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7d78e38f8f714c167f604d560edb908f, https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e55ddd9c0abd8cc413fa4e760f8da62b 2x, https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8fe5c0a1548b722acae6997ec2913351 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3037e75f23bcb7ce9d0797025d28da01",
+        "srcset": "https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3037e75f23bcb7ce9d0797025d28da01, https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cf439fe715c0dd042e368076ee7548a8 2x, https://si.imgix.net/5b2efeac/uploads/origins/03cb8ab5-acec-4226-8fdc-3046a9e7e1b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f5431bde65d1d22d991519d1bb0bd403 3x"
+      },
+      "body": "こんにちは！！よろしければ、私のキャラクターを2体描いていただけませんか？1体目は、森に住む変で神経質な魔女です（https://photos.app.goo.gl/tCoCfFUUPFt17XxDA）。 ストレスを感じると指を噛んだり爪を噛んだりするタイプで、よく神経質な笑い声をあげます。有能ではありますが、常に何か悪いことが起きるのではないかと警戒しています。身長は170cm。髪は緑色で、添付リンクのように薄い白みがかった色合いです。瞳は茶色。参考画像では見づらいですが、そばかすも必ず描いてください。 \n\n2人目は威厳ある風貌の強力な剣聖（https://photos.app.goo.gl/e6G4XntZHZFTrpPK7）。他人との付き合い方が分からず、修行か山奥に隠遁する生活を好む。髪は黒、瞳は緑。身長175cm。 仕様面では、彼女のキャラクターにとって重要な白い蝶のヘアクリップは維持すべきです。剣聖は文明から隠れることを好むため、二人はよく偶然出会います。魔女が森で見つけた奇妙な動物や植物を剣聖に見せようとするようなシーンは面白いでしょう。",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@gyuniku/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837626,
+      "client_id": 155686,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=abf285670519b081233b51e35138cfbd",
+        "srcset": "https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=abf285670519b081233b51e35138cfbd, https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=757182d6a0dbd802c84e86c41ee80b47 2x, https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f21e47404b9e05fb6838310f2b885f0b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6bde1f0cbe9fdc3fdd97d5ae3e8bbff2",
+        "srcset": "https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6bde1f0cbe9fdc3fdd97d5ae3e8bbff2, https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6b6dced9906aac2a7d21168bc76034a9 2x, https://si.imgix.net/f1ff90bc/uploads/origins/2f46d828-9a7e-4242-a002-a1c5aa354b46?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=888c37ef8a074af111cd9703cc353a71 3x"
+      },
+      "body": "こんにちは。\n私の創作キャラクターを描いて頂きたくリクエスト送信させて致しました。\n\n●キャラクター\n（https://drive.google.com/drive/folders/1Mro_KSRPaK7zeK5Hn5-cYF-ey07Gbcoh?usp=drive_link）\n（https://drive.google.com/drive/folders/1-11ld3Mvdn-oelmc4fv4PpXSZUM0uTVR?usp=drive_link）\n（https://drive.google.com/drive/folders/1SY6eUyzfoXEl08mn4INt_3SsJNyR9sDJ?usp=drive_link）\n\n↑の中から好きなキャラを描いていただけたらと思います！\n\n・服装、構図等おまかせいたします。自由にあなたの世界観で描いてください。\n・可能な範囲で好きなお洋服を着せていただけたら嬉しいです！\n・女装OK！コスプレOK！\n\n●納品形式\n可能であれば、キャラのみの透過画像が欲しいです。\nPSDファイルがあるとより嬉しいです。\n\n●使用用途\nプライベート用グッズ制作（印刷して部屋に飾る程度のもの）\n個人鑑賞用\n\nもしご縁がございましたら、よろしくお願い致します。",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@nepu_pose/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1610350,
+      "client_id": 3837626,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=deca0e41a52fa1a784be453f6ea92eb6",
+        "srcset": "https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=deca0e41a52fa1a784be453f6ea92eb6, https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=194f30e7fac9231ba19523828c339569 2x, https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=630b79ccd0ccb5f87b51675fba7ddf31 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6503f5aac305d692ab1da9f9a788b47c",
+        "srcset": "https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6503f5aac305d692ab1da9f9a788b47c, https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=47c9fe8f6ddcf86acf250b8f24d4e8e4 2x, https://si.imgix.net/b025850e/uploads/origins/b59e9137-1927-4318-8050-999bdd0fce0c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f686b1d2ac3e6cc0a07f0747942c357d 3x"
+      },
+      "body": "こんにちは。\n　Xにてお世話になっております、ら゛と申します。\n　今回は、私の創作キャラクターを描いていただきたくskebにてリクエストを送らせていただきました。\n　下記URL内の資料にある子を、構図はお任せ致しますので是非ネプ子さんの思うがままに描いていただきたいです。\n　もし御縁がありましたら、何卒よろしくお願い致します。\n\nhttps://drive.google.com/file/d/110rkmGt0MgGPtpoHnhklmZbm7ZQVq_BR/view?usp=drivesdk",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

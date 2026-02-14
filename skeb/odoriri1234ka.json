@@ -1,7 +1,7 @@
 {
   "screen_name": "odoriri1234ka",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3691154,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 128,
+    "nc": 16,
     "twitter_uid": "1896468580868268032",
     "user_service_links": [
       {
@@ -117,7 +117,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 2447024,
@@ -168,7 +168,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 160
+        "nc": 33
       },
       {
         "id": 3342777,
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 3725466,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 160
       },
       {
         "id": 3788518,
@@ -240,7 +240,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 33
       }
     ]
   },

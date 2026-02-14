@@ -1,7 +1,7 @@
 {
   "screen_name": "Yw0ZbCOEPb",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2911226,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 16,
+    "nc": 17,
     "twitter_uid": null,
     "user_service_links": [],
     "banned": false,
@@ -52,7 +52,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 5000
+        "default_amount": 4000
       },
       {
         "genre": "correction",
@@ -107,7 +107,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 145
       },
       {
         "id": 1022090,
@@ -131,7 +131,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 33
       },
       {
         "id": 2508154,
@@ -155,7 +155,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 128
       },
       {
         "id": 2716942,
@@ -182,7 +182,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 2785803,
@@ -206,7 +206,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 17
       },
       {
         "id": 3086424,
@@ -233,7 +233,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 16
+        "nc": 145
       }
     ]
   },
@@ -242,6 +242,10 @@
       {
         "amount": 5000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 4000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ],
     "correction": [

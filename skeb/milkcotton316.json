@@ -1,7 +1,7 @@
 {
   "screen_name": "milkcotton316",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3866582,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 144,
     "twitter_uid": "1985320583182372865",
     "user_service_links": [
       {
@@ -58,7 +58,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 14000
+        "default_amount": 12000
       }
     ],
     "payment_methods": {
@@ -109,7 +109,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 1586,
@@ -139,7 +139,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 161
+        "nc": 160
       },
       {
         "id": 289580,
@@ -166,7 +166,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 49
+        "nc": 176
       },
       {
         "id": 670857,
@@ -193,7 +193,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 1464570,
@@ -220,7 +220,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 16
       },
       {
         "id": 3020391,
@@ -247,7 +247,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 129
       }
     ]
   },
@@ -256,6 +256,10 @@
       {
         "amount": 14000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 12000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ]
   },

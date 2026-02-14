@@ -1,7 +1,7 @@
 {
   "screen_name": "hosisorara0",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3865758,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 61087,
     "completing_average_time": 422025,
-    "nc": 136,
+    "nc": 24,
     "twitter_uid": "2009203119671136261",
     "user_service_links": [
       {
@@ -134,7 +134,7 @@
           "srcset": "https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d610dc7276d0b83715e591fe5822f2f9, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0db98fbbfa3c5178df18baa71de2175b 2x, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ebd0a5ef2f1499452cca21a09a59df6e 3x"
         },
         "body": "こんにちは！あなたの落書きを拝見し、そのスタイルがとても可愛らしいと思いました！私のオリジナルキャラクター（OC）の可愛い落書きをリクエストさせてください！彼女は自信に満ちた女性でありながら、可愛らしい一面も持っています。ポーズはご自由に決めてください！よろしくお願いします！https://imgur.com/a/verdandi-hoodie-namXekd",
-        "nc": 128,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 32
       },
       {
         "id": 209701,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 1825019,
@@ -236,7 +236,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 161
       },
       {
         "id": 2852036,
@@ -260,7 +260,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 2948017,
@@ -284,7 +284,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 1
       }
     ]
   },
@@ -323,6 +323,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hosisorara0/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3865758,
+      "client_id": 729615,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e9d3ec6abfa82435608b3215e2ac4a9d",
+        "srcset": "https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e9d3ec6abfa82435608b3215e2ac4a9d, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4096496a7b756c6e263dcf35c1fc42bf 2x, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=628104a8366c287f7a9f17e533b9f63b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d610dc7276d0b83715e591fe5822f2f9",
+        "srcset": "https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d610dc7276d0b83715e591fe5822f2f9, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0db98fbbfa3c5178df18baa71de2175b 2x, https://si.imgix.net/18fe0234/uploads/origins/3caaf437-7502-440b-a3ff-cf0aac84ed7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ebd0a5ef2f1499452cca21a09a59df6e 3x"
+      },
+      "body": "こんにちは！あなたの落書きを拝見し、そのスタイルがとても可愛らしいと思いました！私のオリジナルキャラクター（OC）の可愛い落書きをリクエストさせてください！彼女は自信に満ちた女性でありながら、可愛らしい一面も持っています。ポーズはご自由に決めてください！よろしくお願いします！https://imgur.com/a/verdandi-hoodie-namXekd",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

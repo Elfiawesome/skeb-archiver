@@ -1,7 +1,7 @@
 {
   "screen_name": "aokilulu35",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3876764,
     "acceptable": true,
@@ -330,6 +330,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@aokilulu35/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3876764,
+      "client_id": 3838306,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b90b7b9411af4932f935bb1398351657",
+        "srcset": "https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b90b7b9411af4932f935bb1398351657, https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7a24bdca3784d783705184f35bd94337 2x, https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e22331b4c4978e37c7c777492469f7aa 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d2338dc4d347ee2a5c1712ab567aeb7c",
+        "srcset": "https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d2338dc4d347ee2a5c1712ab567aeb7c, https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=67921d8c0caa20f3685ffa0d4a4a9a23 2x, https://si.imgix.net/a1a824f7/uploads/origins/305e8c8e-a88e-4fc6-9db9-51d8ef7d3672?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=419a19d031daa91f7a2b4c98b129e239 3x"
+      },
+      "body": "こんにちは！！SNSであなたの絵を見つけて、その色使いがとても美しいと思いました。もしよろしければ、私のキャラクターを描いていただけませんか？\n\n彼女は静かで控えめなドラゴンガールです。かなりおバカで、物忘れが激しく、できる限り受動的に生きています。少し家好きですが、外の世界が嫌いというわけではなく、単にやる気がないだけ。そのため、誰かと話す必要がある時は、どこかぼんやりしていたり、よそよそしく見えてしまうことがあります。\n\n構図はご自由に決めてください。とにかくできるだけ可愛く描いてください。改めて感謝します！https://photos.app.goo.gl/dRABB4JaLs5NkFCeA",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

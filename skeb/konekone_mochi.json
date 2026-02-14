@@ -1,7 +1,7 @@
 {
   "screen_name": "konekone_mochi",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1306475,
     "acceptable": true,
@@ -384,6 +384,71 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@konekone_mochi/works/3",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9687c2d7/uploads/origins/ba19454f-c093-46a0-98a4-2aed189fe706?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5692be7652783e97b8453d3d3b29f0e3",
+        "srcset": "https://si.imgix.net/9687c2d7/uploads/origins/ba19454f-c093-46a0-98a4-2aed189fe706?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5692be7652783e97b8453d3d3b29f0e3, https://si.imgix.net/9687c2d7/uploads/origins/ba19454f-c093-46a0-98a4-2aed189fe706?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=8975b1f810e9b52113fc54d085d3c85e 2x, https://si.imgix.net/9687c2d7/uploads/origins/ba19454f-c093-46a0-98a4-2aed189fe706?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fd6a83e30c9f9405204e2b4cdd472794 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1306475,
+      "nc": 145,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@konekone_mochi/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1306475,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=441b1b218473563a1f2a9eab48f9811a",
+        "srcset": "https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=441b1b218473563a1f2a9eab48f9811a, https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=de5b7d98eb8b180da72230eff29595bc 2x, https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6da3426d84d74e8a0d7e07ebd95d0319 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62882ebd644256c144dda71fad835154",
+        "srcset": "https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62882ebd644256c144dda71fad835154, https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3fe398323eb612400dbb950ffe5fc66e 2x, https://si.imgix.net/95c02518/uploads/origins/f302739f-70e6-497b-b1b0-85dbc97fab98?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6141fbdf98cc9ca62a224e80a51fbbb8 3x"
+      },
+      "body": "ずっとモチモチたべたかったよさんが思うネザーランドドワーフの擬人化をお願いします",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@konekone_mochi/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1306475,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=af20b3328b49098c9972e2f5b15fe9f4",
+        "srcset": "https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=af20b3328b49098c9972e2f5b15fe9f4, https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=96aff8dfe28ad1ed84123941c94cffb7 2x, https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0716e6c8be266a2d43865c2d1676984f 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=79903f6f111f5b443adbdc7e60e6f58b",
+        "srcset": "https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=79903f6f111f5b443adbdc7e60e6f58b, https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=bfba705d68a5bde8e5f98f18c3c4baa7 2x, https://si.imgix.net/509b2a59/uploads/origins/732fbdbf-46d7-45d2-a3ae-3e8e144067f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cfabb25dcc8e0fe6b3a69cd87630105e 3x"
+      },
+      "body": "私の創作キャラの絡みを書いて欲しいです！\nヨアヒム(叩き上げ商人)×リリアン(わがままお嬢様)\n2人とも服装はレトロだったり、クラシカルな装いでお願いします、リリアンの下半身の肌見せは少なめで\n時代は1900-1920年辺りの欧米を意識してますが、特に気にしなくても大丈夫です。\n\nhttps://drive.google.com/drive/folders/1lJTRwJaN7-jCHUxqPk3P0FvYh-H1Zcr1",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

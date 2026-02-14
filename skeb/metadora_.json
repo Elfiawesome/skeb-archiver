@@ -1,7 +1,7 @@
 {
   "screen_name": "metadora_",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3341738,
     "acceptable": true,
@@ -327,6 +327,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@metadora_/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3341738,
+      "client_id": 3229239,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fb895ac046e0f1e9905ad2611a20fea2",
+        "srcset": "https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fb895ac046e0f1e9905ad2611a20fea2, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=35d1c3bd7e06fe2c945550fcff35be27 2x, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bf3e580e18854a85043acc76639eb996 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0e252e110f98bbdc3657123fce38576",
+        "srcset": "https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0e252e110f98bbdc3657123fce38576, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0e8b8aa3db13e9ca4a152a972a249720 2x, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c630534b7126246260cb17af79a8ce6d 3x"
+      },
+      "body": "あなたの作品はとても素敵です！あなたのスタイルで私の娘の作品が欲しいわ～。\n\n特に制限はないのですが、カッコよく仕上げていただけると嬉しいです～>v<\n\nありがとうございました\n\nhttps://www.deviantart.com/stash/21uddkcwk32j",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

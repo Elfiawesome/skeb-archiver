@@ -1,7 +1,7 @@
 {
   "screen_name": "huyu_am02",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3892062,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 128,
     "twitter_uid": "1937846999895666688",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/d77753dc/uploads/origins/e17831a9-32d3-45c1-b69e-0161cec76084?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ad91bd85e3755ea4a90509112e58f9a9, https://si.imgix.net/d77753dc/uploads/origins/e17831a9-32d3-45c1-b69e-0161cec76084?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=83ad023f6f0f7863acd10a594b8a10b5 2x, https://si.imgix.net/d77753dc/uploads/origins/e17831a9-32d3-45c1-b69e-0161cec76084?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=268f037db164334fb15b9d24685ff315 3x"
         },
         "body": "Hi ,nice to see you!✨✨\nI'd like to invite you to draw my  OC!\nShe has blue gray hair and gray eyes, with part of her hair resembling octopus tentacles. Her skin is  pale. Her personality is quite aloof but a bit mischievous. You can design new outfits for her! And if possible, please keep the bow-shaped hairband on her head, but the decorations on it can be changed!\n\nhttps://drive.google.com/drive/folders/1r4HjKI_eKj-U0-F04kOVSEin1tv0lbgC",
-        "nc": 144,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -139,7 +139,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 2863831,
@@ -163,7 +163,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 3017030,
@@ -217,7 +217,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3548738,
@@ -241,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 16
       },
       {
         "id": 3841274,
@@ -265,7 +265,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 145
       }
     ]
   },

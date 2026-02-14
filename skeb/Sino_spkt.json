@@ -1,7 +1,7 @@
 {
   "screen_name": "Sino_spkt",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3893598,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 30,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 17,
+    "nc": 129,
     "twitter_uid": "1122074357579141120",
     "user_service_links": [
       {
@@ -114,7 +114,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 1018324,
@@ -144,7 +144,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 33
+        "nc": 32
       },
       {
         "id": 1228629,
@@ -168,7 +168,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 49
       },
       {
         "id": 2448362,
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 2654828,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 3636157,
@@ -243,7 +243,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 176
       }
     ]
   },

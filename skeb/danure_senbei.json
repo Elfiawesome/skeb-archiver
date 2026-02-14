@@ -1,7 +1,7 @@
 {
   "screen_name": "danure_senbei",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3679887,
     "acceptable": true,
@@ -343,6 +343,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@danure_senbei/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3679887,
+      "client_id": 2269779,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b818934b87563d4d60b7bb58aeccff18",
+        "srcset": "https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b818934b87563d4d60b7bb58aeccff18, https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7bf6aa9d3fad2833f39896d80f550c13 2x, https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=93571ea495c8be2e933621eddaedc2d3 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c45e5022d1f909c9e445f0cfa2625d52",
+        "srcset": "https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c45e5022d1f909c9e445f0cfa2625d52, https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ed827919cee41a01df1f08a0e8c6de0d 2x, https://si.imgix.net/effe5cb7/uploads/origins/1ee0e31c-b5b6-4f26-aa57-4435dcb766c4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8c17c6801e714ab208a560eff542acd9 3x"
+      },
+      "body": "こんにちは！あなたの作品が好きで、絵をお願いしたいです。このイラスト(https://www.pixiv.net/en/artworks/135665634)のように牛柄を着ているブルーアーカイブの明星ひまりを描いてください。このイラスト(https://x.com/danure_senbei/status/1990272987707342872?s=20)のように脇の下を見せてほしいです。また、腋を見せながら吐く息も見てみたいです。\n\nありがとうございました！",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

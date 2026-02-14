@@ -1,7 +1,7 @@
 {
   "screen_name": "hathimitsu_8e",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3679392,
     "acceptable": true,
@@ -373,6 +373,74 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hathimitsu_8e/works/4",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/06abaf31/uploads/origins/17c398e8-f166-44c5-9f10-a181cec48a2f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f0bdf7ad7b92e3eb064aa70ac3d58ea7",
+        "srcset": "https://si.imgix.net/06abaf31/uploads/origins/17c398e8-f166-44c5-9f10-a181cec48a2f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f0bdf7ad7b92e3eb064aa70ac3d58ea7, https://si.imgix.net/06abaf31/uploads/origins/17c398e8-f166-44c5-9f10-a181cec48a2f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=78f41cc4213591b137ddd34c886183bc 2x, https://si.imgix.net/06abaf31/uploads/origins/17c398e8-f166-44c5-9f10-a181cec48a2f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=26c1a59f9baacd49b6cfdfd2dc1eaa12 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3679392,
+      "client_id": 459602,
+      "nc": 145,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@hathimitsu_8e/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3679392,
+      "client_id": 28643,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3b07ec61f29e11f0f99d83796edc4643",
+        "srcset": "https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3b07ec61f29e11f0f99d83796edc4643, https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=8b6c4e53e7954b217d52f8d0934cc861 2x, https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=dedc77cd65c0db6abe8b3f48cbfc9c3b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=42ea9da75d2dcb1c308e69d4e5039511",
+        "srcset": "https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=42ea9da75d2dcb1c308e69d4e5039511, https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ff74a7444a5d1812303db4e3ad367cba 2x, https://si.imgix.net/876b0f60/uploads/origins/a5931c6c-3475-460f-8293-d45a1dbb2856?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=be3319decacd375b87e8f1095bbbc56f 3x"
+      },
+      "body": "いつもお世話になります。  もしよろしければ駅メモ！の妹尾まりかさんをお願いいたします。 シチュエーション、ラッピング等お任せいたします。  よろしくお願いいたします。",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@hathimitsu_8e/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3679392,
+      "client_id": 459602,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=144209df9d86f7fa622e16409cdee244",
+        "srcset": "https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=144209df9d86f7fa622e16409cdee244, https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f6b079961b34729a478f882ce6e1ff58 2x, https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=564bbef207c35ca5da30c3c85fb47d5c 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6fbf021c5f4236294807f429e132c485",
+        "srcset": "https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6fbf021c5f4236294807f429e132c485, https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ee8197c00e02d066a8fb89f22a1ac39b 2x, https://si.imgix.net/f6956678/uploads/origins/cb126008-2976-4bab-94a8-c6aedbf92b4a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=50b880f9dcf30ccb8455aa73db0a7f3e 3x"
+      },
+      "body": "駅メモのファンアートを依頼したいです。\n\n八日市ゆかりさんと信楽くろがねさんをはちみつさんの現在のタッチで一緒に描いて頂けないでしょうか。ラッピングや構図は自由でおまかせします。パンタグラフは外した状態でも大丈夫です。キャラに重点を置き、背景はごく軽くか無しでも大丈夫です。楽しそうな感じか幸せそうな感じだと嬉しいです。\n\nもし引き受けて頂ける場合も、急がないので決して無理なさらず楽しく描ける範囲でお願いしたいです。\n\n以上、よろしくご検討ください。",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

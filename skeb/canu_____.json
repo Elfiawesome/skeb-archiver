@@ -1,7 +1,7 @@
 {
   "screen_name": "canu_____",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3792825,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 0,
+    "nc": 1,
     "twitter_uid": "1982362532812828673",
     "user_service_links": [
       {
@@ -99,7 +99,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 3792825,
-        "nc": 144
+        "nc": 0
       },
       {
         "path": "/@canu_____/works/4",
@@ -122,7 +122,7 @@
           "srcset": "https://si.imgix.net/0668a029/uploads/origins/6f5ca4e7-9bc5-446a-9af1-958540a97763?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=67b172d218c42cd67b3f11a25a443583, https://si.imgix.net/0668a029/uploads/origins/6f5ca4e7-9bc5-446a-9af1-958540a97763?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0d8aaa71397a88ee8de8be162bbf6cef 2x, https://si.imgix.net/0668a029/uploads/origins/6f5ca4e7-9bc5-446a-9af1-958540a97763?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=312f4f2a2745e11b5dafa6e2f33c71bd 3x"
         },
         "body": "はじめまして！お見かけしたキーホルダー風とても可愛くて是非リクエストさせていただきたいです！\n\n縁色指定可能でしたらオレンジ色でお願いいたします！\n\nご検討よろしくお願いいたします！\n\nhttps://photos.app.goo.gl/JjSaDuMEANyfhnQR7",
-        "nc": 128,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -138,7 +138,7 @@
         "tipped": false,
         "creator_id": 3792825,
         "client_id": 3725196,
-        "nc": 17
+        "nc": 1
       },
       {
         "path": "/@canu_____/works/2",
@@ -151,7 +151,7 @@
         "tipped": false,
         "creator_id": 3792825,
         "client_id": 3518185,
-        "nc": 144
+        "nc": 0
       },
       {
         "path": "/@canu_____/works/1",
@@ -173,7 +173,7 @@
           "srcset": "https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=14632cdac3590531b58de518ebe8ed8d, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d12360be0ac536426d783ff5dfc5392a 2x, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=25faf17c56e8af3dd80016c3b7dced20 3x"
         },
         "body": "かもねぎさんこんにちは🍥\n\n今回は以前ご依頼したコテキャちゃんの目元をアップで描いていただきたいです。\n\n目を細めていて、風で髪が少し靡いていると嬉しいです。\n\n雪の中のような雰囲気で、もし背景色や差し色がある場合は淡いピンクや水色、薄灰色などの冬らしい季節感だと嬉しいです⛄️🩷\n要約→冬っぽいと嬉しいです！\n\nでもまったく違う雰囲気でも嬉しいです！\n細かいニュアンスはかもねぎさんにお任せいたします。\n\n差分でサインがあると嬉しいです…✨\n可能な場合、氷川宛でお願いしたいです。\n\n宜しくお願いいたします❄️\n\nhttps://lit.link/hikawa335",
-        "nc": 17,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -203,7 +203,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 1231186,
@@ -227,7 +227,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 48
       },
       {
         "id": 1906333,
@@ -254,7 +254,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 48
       },
       {
         "id": 2612535,
@@ -281,7 +281,7 @@
             "genre": "video"
           }
         ],
-        "nc": 32
+        "nc": 177
       },
       {
         "id": 3151295,
@@ -374,6 +374,73 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@canu_____/works/5",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/88e170e3/uploads/origins/76c9756c-2854-4f2a-8098-ab4ebd32e911?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=003e16007fc85278f5d91822017036db",
+        "srcset": "https://si.imgix.net/88e170e3/uploads/origins/76c9756c-2854-4f2a-8098-ab4ebd32e911?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=003e16007fc85278f5d91822017036db, https://si.imgix.net/88e170e3/uploads/origins/76c9756c-2854-4f2a-8098-ab4ebd32e911?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=4aac81842ac25f74c01b236c43009231 2x, https://si.imgix.net/88e170e3/uploads/origins/76c9756c-2854-4f2a-8098-ab4ebd32e911?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=996f327da8845449d5ea2c8e583d0877 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3792825,
+      "nc": 0,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@canu_____/works/3",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/13d30635/uploads/origins/8e1d8405-aae5-4ddc-8894-dc785fc601b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=43d5f267e3099c9954f3099a6edb5f80",
+        "srcset": "https://si.imgix.net/13d30635/uploads/origins/8e1d8405-aae5-4ddc-8894-dc785fc601b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=43d5f267e3099c9954f3099a6edb5f80, https://si.imgix.net/13d30635/uploads/origins/8e1d8405-aae5-4ddc-8894-dc785fc601b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c8b5f347b92188859582d525f6c37af1 2x, https://si.imgix.net/13d30635/uploads/origins/8e1d8405-aae5-4ddc-8894-dc785fc601b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9980cd14fab489b464caa2c29061c8fa 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3792825,
+      "client_id": 3725196,
+      "nc": 1,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@canu_____/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ab8fbc77/uploads/origins/28bcf9e5-a285-4595-a76a-dbc8f7a0e5ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=97ea8695c689c7251adfc48b6ba5d831",
+        "srcset": "https://si.imgix.net/ab8fbc77/uploads/origins/28bcf9e5-a285-4595-a76a-dbc8f7a0e5ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=97ea8695c689c7251adfc48b6ba5d831, https://si.imgix.net/ab8fbc77/uploads/origins/28bcf9e5-a285-4595-a76a-dbc8f7a0e5ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=52a541270c8fd2b142a74c972d5d72e4 2x, https://si.imgix.net/ab8fbc77/uploads/origins/28bcf9e5-a285-4595-a76a-dbc8f7a0e5ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0be7a31f36a6d7f399ffd643621fbcff 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3792825,
+      "client_id": 3518185,
+      "nc": 0,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@canu_____/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3792825,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b31fb3575966d1e9a5499d35922c55ac",
+        "srcset": "https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b31fb3575966d1e9a5499d35922c55ac, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=8a573534277894cd3b177c29491772c5 2x, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=38b254f3d5b7ef58827f7707f769adaf 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=14632cdac3590531b58de518ebe8ed8d",
+        "srcset": "https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=14632cdac3590531b58de518ebe8ed8d, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d12360be0ac536426d783ff5dfc5392a 2x, https://si.imgix.net/2983b809/uploads/origins/b4228223-29e7-4dad-afec-3893bf105be0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=25faf17c56e8af3dd80016c3b7dced20 3x"
+      },
+      "body": "かもねぎさんこんにちは🍥\n\n今回は以前ご依頼したコテキャちゃんの目元をアップで描いていただきたいです。\n\n目を細めていて、風で髪が少し靡いていると嬉しいです。\n\n雪の中のような雰囲気で、もし背景色や差し色がある場合は淡いピンクや水色、薄灰色などの冬らしい季節感だと嬉しいです⛄️🩷\n要約→冬っぽいと嬉しいです！\n\nでもまったく違う雰囲気でも嬉しいです！\n細かいニュアンスはかもねぎさんにお任せいたします。\n\n差分でサインがあると嬉しいです…✨\n可能な場合、氷川宛でお願いしたいです。\n\n宜しくお願いいたします❄️\n\nhttps://lit.link/hikawa335",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

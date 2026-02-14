@@ -1,7 +1,7 @@
 {
   "screen_name": "takaraizu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 324034,
     "acceptable": false,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 6329,
     "completing_average_time": 2915901,
-    "nc": 16,
+    "nc": 17,
     "twitter_uid": "3283971812",
     "user_service_links": [
       {
@@ -60,7 +60,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 11000
+        "default_amount": 10000
       }
     ],
     "payment_methods": {
@@ -133,7 +133,7 @@
           "srcset": "https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4c7d97e37dd893fdb361915dbc067fca, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3220beedf47580e54f43b357c95910f0 2x, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8414dd340d79c811e4a8483df1123aaa 3x"
         },
         "body": "オレンジ色のビキニを着た私のオリジナルキャラクターを描いてください。セクシーなポーズで。\n目の色：グレー\n\n身長: 5'9 \"\n\n年齢: 20\n\n犬耳\n\nアクセサリー：赤い首輪\n\n背景: ビーチ\n\nポーズ: セクシー\n\n表情：浮気\n\n私のオリジナルキャラクターの参考文献はこちら: https://www.deviantart.com/citrusanime/art/My-Offical-DA-Mascot-290687270\n\n他のアーティスト 1. https://sta.sh/023ht6z36vqf 2. https://sta.sh/0278r2mg6ixd 3. https://sta.sh/0k1ja8v3adq\n\nポーズの参考文献 1. https://sta.sh/0ufsyy8di0d 2. https://sta.sh/0sozjsty4p7 3. https://sta.sh/01hzsy3ciyyy\n\nセクシーに描いてください。",
-        "nc": 128,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 527624,
@@ -196,7 +196,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 177
+        "nc": 176
       },
       {
         "id": 1460849,
@@ -220,7 +220,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       },
       {
         "id": 2057371,
@@ -244,7 +244,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 144
       },
       {
         "id": 3241891,
@@ -268,7 +268,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 3545420,
@@ -292,7 +292,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       }
     ]
   },
@@ -301,6 +301,10 @@
       {
         "amount": 11000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 10000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ]
   },
@@ -330,6 +334,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": false,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@takaraizu/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 324034,
+      "client_id": 300145,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=10c66424135a14d2af716738f118a8ef",
+        "srcset": "https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=10c66424135a14d2af716738f118a8ef, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=391c5ba533893c9ca6dc5c2355d41bd1 2x, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f79ab861612d23713d5367d152c4b1c4 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4c7d97e37dd893fdb361915dbc067fca",
+        "srcset": "https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4c7d97e37dd893fdb361915dbc067fca, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3220beedf47580e54f43b357c95910f0 2x, https://si.imgix.net/eb422c7d/uploads/origins/088fc019-47be-49b2-a8a3-a81103ed14f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8414dd340d79c811e4a8483df1123aaa 3x"
+      },
+      "body": "オレンジ色のビキニを着た私のオリジナルキャラクターを描いてください。セクシーなポーズで。\n目の色：グレー\n\n身長: 5'9 \"\n\n年齢: 20\n\n犬耳\n\nアクセサリー：赤い首輪\n\n背景: ビーチ\n\nポーズ: セクシー\n\n表情：浮気\n\n私のオリジナルキャラクターの参考文献はこちら: https://www.deviantart.com/citrusanime/art/My-Offical-DA-Mascot-290687270\n\n他のアーティスト 1. https://sta.sh/023ht6z36vqf 2. https://sta.sh/0278r2mg6ixd 3. https://sta.sh/0k1ja8v3adq\n\nポーズの参考文献 1. https://sta.sh/0ufsyy8di0d 2. https://sta.sh/0sozjsty4p7 3. https://sta.sh/01hzsy3ciyyy\n\nセクシーに描いてください。",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

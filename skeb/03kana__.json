@@ -1,7 +1,7 @@
 {
   "screen_name": "03kana__",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3892263,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 120,
     "received_requests_average_response_time": 2958,
     "completing_average_time": 9344,
-    "nc": 128,
+    "nc": 145,
     "twitter_uid": "2021103050912563201",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
           "srcset": "https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=6942b77bb85a4af9ee5be0ce1255fca2, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0b93f41e1780ae347bcfaff8f7bdfffe 2x, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f3a4c275c8084a60ff8ac21c4aab14db 3x"
         },
         "body": "こんにちは、あなたの絵柄がすごく可愛いです！私のVTuberジャミーのアニメーションを依頼したいです。ジャミーはユニバン（ユニコーンとウサギのハーフ）で、人間になったキャラクターです。彼女は怠け者で心優しく、コーラと食べ物が大好きで遊び好きだけどおバカなところもあります。また、芸術と魔法に非常に才能があります。 可愛く見えるなら、どんなポーズや表情でも大歓迎です！描く楽しみのために、彼女の3形態（人間、スライム、本来の姿）からどれでも選んでください。人間形態の特徴は：唇の上のほくろ、瞳のある目、一本の角、頭の上の耳、靴を履かず、ヘアクリップを二つ。どこに行くにも必ず靴下を履いています！\n\nhttps://drive.google.com/drive/folders/1BdSG0oqKeiYaEwPdoZjF1a1NTbPvqCwU?usp=sharing",
-        "nc": 17,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "video",
         "creator_acceptable_same_genre": true
@@ -142,7 +142,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 1113884,
@@ -196,7 +196,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 2613856,
@@ -223,7 +223,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 2903964,
@@ -253,7 +253,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 3392411,
@@ -277,7 +277,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 144
       }
     ]
   },
@@ -295,5 +295,33 @@
       }
     ]
   },
-  "works": []
+  "works": [
+    {
+      "path": "/@03kana__/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "video",
+      "tipped": false,
+      "creator_id": 3892263,
+      "client_id": 408908,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=c4258467a638ad4e4419dee9793fa3b7",
+        "srcset": "https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=c4258467a638ad4e4419dee9793fa3b7, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=3bf2f98afbafc8a1ea5d1dc995a220a5 2x, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=d10049a907e8de215dcca6f25849a0c1 3x"
+      },
+      "duration": 2,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=6942b77bb85a4af9ee5be0ce1255fca2",
+        "srcset": "https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=6942b77bb85a4af9ee5be0ce1255fca2, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0b93f41e1780ae347bcfaff8f7bdfffe 2x, https://si.imgix.net/2c4cf150/uploads/outputs/562ce11c-5b14-4078-a8c7-d8dacec14e0b?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f3a4c275c8084a60ff8ac21c4aab14db 3x"
+      },
+      "body": "こんにちは、あなたの絵柄がすごく可愛いです！私のVTuberジャミーのアニメーションを依頼したいです。ジャミーはユニバン（ユニコーンとウサギのハーフ）で、人間になったキャラクターです。彼女は怠け者で心優しく、コーラと食べ物が大好きで遊び好きだけどおバカなところもあります。また、芸術と魔法に非常に才能があります。 可愛く見えるなら、どんなポーズや表情でも大歓迎です！描く楽しみのために、彼女の3形態（人間、スライム、本来の姿）からどれでも選んでください。人間形態の特徴は：唇の上のほくろ、瞳のある目、一本の角、頭の上の耳、靴を履かず、ヘアクリップを二つ。どこに行くにも必ず靴下を履いています！\n\nhttps://drive.google.com/drive/folders/1BdSG0oqKeiYaEwPdoZjF1a1NTbPvqCwU?usp=sharing",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "video",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    }
+  ]
 }

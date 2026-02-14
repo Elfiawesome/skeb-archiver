@@ -1,7 +1,7 @@
 {
   "screen_name": "Leo_0107",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2070548,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 8561,
     "completing_average_time": 1180780,
-    "nc": 1,
+    "nc": 0,
     "twitter_uid": "1267050327246647298",
     "user_service_links": [
       {
@@ -127,7 +127,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 2070548,
-        "nc": 0
+        "nc": 145
       },
       {
         "path": "/@Leo_0107/works/1",
@@ -204,7 +204,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 2911354,
@@ -228,7 +228,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 16
       },
       {
         "id": 2936566,
@@ -255,7 +255,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 128
       },
       {
         "id": 2981301,
@@ -279,7 +279,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 3483125,
@@ -303,7 +303,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 33
       }
     ]
   },
@@ -348,6 +348,46 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Leo_0107/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/83aff556/uploads/origins/93f43d3b-d728-4925-b889-1112a2727fe3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5c0fb3bfcfc85b9e639afd7ceb6e49fe",
+        "srcset": "https://si.imgix.net/83aff556/uploads/origins/93f43d3b-d728-4925-b889-1112a2727fe3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5c0fb3bfcfc85b9e639afd7ceb6e49fe, https://si.imgix.net/83aff556/uploads/origins/93f43d3b-d728-4925-b889-1112a2727fe3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fd78399603f43615953c3947848dc7e5 2x, https://si.imgix.net/83aff556/uploads/origins/93f43d3b-d728-4925-b889-1112a2727fe3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3f046fe270a0ceee2e56f10a24c8255c 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 2070548,
+      "nc": 145,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@Leo_0107/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 2070548,
+      "client_id": 2245367,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=80a6fd07bbba822d2d45c36a39dd3738",
+        "srcset": "https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=80a6fd07bbba822d2d45c36a39dd3738, https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a68a30793846fe50702dd30642333ef5 2x, https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e5acabcbf0c7a3df25965a6f294dad3d 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=779a43f775d7f9d824ad5b30a63c2376",
+        "srcset": "https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=779a43f775d7f9d824ad5b30a63c2376, https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7f960f645d5226de5b448c55b8c32e5e 2x, https://si.imgix.net/912d6c94/uploads/origins/123b5b7b-2846-4561-81f5-68f0c59bb90e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2d168dd2b2552ddca75ded6ce9a37ba7 3x"
+      },
+      "body": "Leo様\n\n初めまして、この度は私のocであるドジっ子くまさんメイドを描いて頂きたくリクエストいたしました！\n資料を参考に、可愛く描いていただけたら嬉しいです ︎︎ᕷ\n素敵なご縁がございましたら、よろしくお願いいたします୨୧\n\nhttps://photos.app.goo.gl/V6ZbK8HVFNuAjTrc9",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

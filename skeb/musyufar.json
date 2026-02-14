@@ -1,7 +1,7 @@
 {
   "screen_name": "musyufar",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1171111,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 17,
     "twitter_uid": "1090628698124910592",
     "user_service_links": [
       {
@@ -109,7 +109,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 160
       },
       {
         "id": 1949978,
@@ -133,7 +133,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 2162398,
@@ -157,7 +157,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 2561790,
@@ -184,7 +184,7 @@
             "genre": "video"
           }
         ],
-        "nc": 17
+        "nc": 16
       },
       {
         "id": 3171701,
@@ -241,7 +241,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 145
       }
     ]
   },

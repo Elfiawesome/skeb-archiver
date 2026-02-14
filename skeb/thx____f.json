@@ -1,7 +1,7 @@
 {
   "screen_name": "thx____f",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3644243,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 90,
     "received_requests_average_response_time": 927,
     "completing_average_time": 287860,
-    "nc": 145,
+    "nc": 0,
     "twitter_uid": "1892804729681694722",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/3d8b81fd/uploads/origins/b3674bd3-9f1e-43c3-a80f-750ebf48649e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3e0f459212f50102fa53cf97eb1b9da2, https://si.imgix.net/3d8b81fd/uploads/origins/b3674bd3-9f1e-43c3-a80f-750ebf48649e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e8053281f4eac3a5fa78e5342cf610ce 2x, https://si.imgix.net/3d8b81fd/uploads/origins/b3674bd3-9f1e-43c3-a80f-750ebf48649e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=49e8234bb74db1333dc24975e764909d 3x"
         },
         "body": "こんにちはお申し出ありがとうございます。キョンコを描いていただけると嬉しいです。どのバージョンのキョンコを描くかは、お任せします！",
-        "nc": 144,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -149,7 +149,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 3644243,
-        "nc": 145
+        "nc": 16
       }
     ],
     "sent_works": [],
@@ -176,7 +176,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 3127433,
@@ -203,7 +203,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 17
       },
       {
         "id": 3333092,
@@ -227,7 +227,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 3526059,
@@ -251,7 +251,7 @@
             "genre": "art"
           }
         ],
-        "nc": 137
+        "nc": 152
       },
       {
         "id": 3556472,
@@ -305,7 +305,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 145
       }
     ]
   },
@@ -344,6 +344,46 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@thx____f/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3644243,
+      "client_id": 148523,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c1ac53965137a876cd69b1da713b456c",
+        "srcset": "https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c1ac53965137a876cd69b1da713b456c, https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=59b83b861d49e8393f9c443be6b56447 2x, https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d46de4ccac7108e18d4b591a166cdb8f 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=eb64062d200354e647f891612a5fbab0",
+        "srcset": "https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=eb64062d200354e647f891612a5fbab0, https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4725ac3ba3f22bdff81fbe9e45a8e6dc 2x, https://si.imgix.net/bb6040d1/uploads/origins/f268d3ce-6f99-45be-bd66-9c9ead4f8964?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d2746f8cfacd40d9960dda1efc338187 3x"
+      },
+      "body": "こんにちは！アピールありがとうございます！\n貴方の絵は初めて拝見しましたが、ぜひお願いしたいと思いました。\n早速ですが、資料の白いアオザイの女の子を描いてください。\n構図などはおまかせしますのでご自由に表現してください。\nよろしくお願いします。\n\nhttps://www.pixiv.net/artworks/123914397",
+      "nc": 128,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@thx____f/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/5a7f64b8/uploads/origins/05ea3dab-7c2d-43ed-9705-26fb33291cf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=7c3faa394c132774c7c362393f9de4d3",
+        "srcset": "https://si.imgix.net/5a7f64b8/uploads/origins/05ea3dab-7c2d-43ed-9705-26fb33291cf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=7c3faa394c132774c7c362393f9de4d3, https://si.imgix.net/5a7f64b8/uploads/origins/05ea3dab-7c2d-43ed-9705-26fb33291cf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=676dd43260513d876d1474391c56725a 2x, https://si.imgix.net/5a7f64b8/uploads/origins/05ea3dab-7c2d-43ed-9705-26fb33291cf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=4b3345ce7f653786ffd73cdaa35328e6 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3644243,
+      "nc": 16,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

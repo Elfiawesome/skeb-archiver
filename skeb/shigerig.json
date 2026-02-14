@@ -1,7 +1,7 @@
 {
   "screen_name": "shigerig",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3550290,
     "acceptable": true,
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/31cda2a4/uploads/origins/ddc9b13a-fbd3-4697-a306-2ae4e8995c57?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=52847af4e65ba50891c342f50b0914bc, https://si.imgix.net/31cda2a4/uploads/origins/ddc9b13a-fbd3-4697-a306-2ae4e8995c57?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e3f3c6a336fe77028f7ce0af9ce1041e 2x, https://si.imgix.net/31cda2a4/uploads/origins/ddc9b13a-fbd3-4697-a306-2ae4e8995c57?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0a4a4d506903258a53d78bf75f0b9c4d 3x"
         },
         "body": "いつもお世話になっております。リクエスト失礼します。\n\n創作娘のまことちゃんと盛馬さんが現代でデートしているような構図のイラストを描いていただきたいです。1点お願いがあるのですが、個人用にアクリルスタンドを作りたいので背景透過した状態で、PSDファイルだと嬉しいです。よろしくお願いします。",
-        "nc": 16,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -138,7 +138,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 1207844,
@@ -165,7 +165,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 3709206,
@@ -192,7 +192,7 @@
             "genre": "video"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3710867,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 16
       },
       {
         "id": 3878557,
@@ -267,7 +267,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 145
+        "nc": 128
       }
     ]
   },

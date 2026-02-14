@@ -1,7 +1,7 @@
 {
   "screen_name": "life_karagala",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3892889,
     "acceptable": true,
@@ -13,7 +13,7 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/1731337545198469120/1763864103/1500x500",
     "body_size": 1000,
-    "received_works_count": 0,
+    "received_works_count": 1,
     "received_nsfw_works_count": 0,
     "sent_requests_average_cancel_time": null,
     "appeal_receivable": false,
@@ -42,9 +42,9 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 120,
-    "received_requests_average_response_time": null,
-    "completing_average_time": null,
-    "nc": 129,
+    "received_requests_average_response_time": 403,
+    "completing_average_time": 176447,
+    "nc": 1,
     "twitter_uid": "1731337545198469120",
     "user_service_links": [
       {
@@ -55,7 +55,7 @@
     ],
     "banned": false,
     "banned_by": "",
-    "complete_rate": null,
+    "complete_rate": 1.0,
     "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Flife_karagala%2Fbackground%3Fd%3D279a5e?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=6Ziy5a-S&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=7b74990bf01190a7bd71669857c557b4",
     "skills": [
       {
@@ -90,7 +90,34 @@
     "tip_acceptable": true,
     "yearly_report_client_visible": false,
     "total_appeals_count": 0,
-    "received_works": [],
+    "received_works": [
+      {
+        "path": "/@life_karagala/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3892889,
+        "client_id": 3869665,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23b24e57e132c505f912876b66abe8be",
+          "srcset": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23b24e57e132c505f912876b66abe8be, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fa1f7cda4fb0d29923e2cd990d3b6b55 2x, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=97811f1f31ff41eb3bb3e281c58de3c0 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4537a0ff90669937bbaf54728001b17e",
+          "srcset": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4537a0ff90669937bbaf54728001b17e, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=23d4b8e3cb5d572cb282c2c64a9775eb 2x, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b059bf0b94139829655f6c108906de1b 3x"
+        },
+        "body": "こんにちは！\nマイキャラのロココちゃんのミニキャラのイラストをリクエストさせていただきたいです。\n髪型は三つ編みでおねがいします。\n構図やアクセサリーの有無はお任せします！\n描いていただいたイラストはSNSのアイコンに使用させていただく予定です！\nよろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/15PvUB5mmQpEpQOXHdFmsvCxkJlImjhkp",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
     "sent_works": [],
     "similar_creators": [
       {
@@ -115,7 +142,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 0
       },
       {
         "id": 3171370,
@@ -139,7 +166,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 3180907,
@@ -163,7 +190,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 3230125,
@@ -214,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 1
       },
       {
         "id": 3298021,
@@ -241,7 +268,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 129
       }
     ]
   },
@@ -259,5 +286,33 @@
       }
     ]
   },
-  "works": []
+  "works": [
+    {
+      "path": "/@life_karagala/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3892889,
+      "client_id": 3869665,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23b24e57e132c505f912876b66abe8be",
+        "srcset": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=23b24e57e132c505f912876b66abe8be, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fa1f7cda4fb0d29923e2cd990d3b6b55 2x, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=97811f1f31ff41eb3bb3e281c58de3c0 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4537a0ff90669937bbaf54728001b17e",
+        "srcset": "https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4537a0ff90669937bbaf54728001b17e, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=23d4b8e3cb5d572cb282c2c64a9775eb 2x, https://si.imgix.net/51a00fd3/uploads/origins/3fd27c6e-ed3e-4485-8fae-7d011ae16fc7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b059bf0b94139829655f6c108906de1b 3x"
+      },
+      "body": "こんにちは！\nマイキャラのロココちゃんのミニキャラのイラストをリクエストさせていただきたいです。\n髪型は三つ編みでおねがいします。\n構図やアクセサリーの有無はお任せします！\n描いていただいたイラストはSNSのアイコンに使用させていただく予定です！\nよろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/15PvUB5mmQpEpQOXHdFmsvCxkJlImjhkp",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    }
+  ]
 }

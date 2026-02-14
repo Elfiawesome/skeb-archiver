@@ -1,7 +1,7 @@
 {
   "screen_name": "momolatten",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3791148,
     "acceptable": true,
@@ -13,7 +13,7 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/1000599312/1761292750/1500x500",
     "body_size": 1000,
-    "received_works_count": 1,
+    "received_works_count": 2,
     "received_nsfw_works_count": 0,
     "sent_requests_average_cancel_time": null,
     "appeal_receivable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 3,
     "complete_expiration_days": 10,
-    "nc": 136,
+    "nc": 24,
     "twitter_uid": "1000599312",
     "user_service_links": [
       {
@@ -86,6 +86,32 @@
     "total_appeals_count": 0,
     "received_works": [
       {
+        "path": "/@momolatten/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3791148,
+        "client_id": 3267780,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=58f7242dd5711749f0439aec25aba181",
+          "srcset": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=58f7242dd5711749f0439aec25aba181, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c4f41ca6b5316eaf55f84b4b94644a7c 2x, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=89f4f0e562f1159600e4b9adc446246e 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=16d2530d1395970cb669b35c78bd8233",
+          "srcset": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=16d2530d1395970cb669b35c78bd8233, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8197382565ff0abc43a7659c694443ab 2x, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fb50d08bac1a73dc7c6f762bd3465714 3x"
+        },
+        "body": "初めまして。\nVtuber活動をしているMaster雨音と申します。\n\nTwitterで素敵なイラストを拝見し、\nぜひ私の姿を描いていただきたく依頼致しました。\n\n■用途\n主に活動で使用します。\nサムネ、SNSやグッズ等の利用を想定しています。\n\n■キャラクター\n変身により、4つ(SD含め6つ)の形態になれるのですが、\n姿は添付資料からももせ氏様のお好みでお選びいただけたらと思います。\n\n■服装・ポーズ\nももせ氏様の癖を存分に表現いただける衣装（正装以外でもよいです）、ポーズをお任せ致します。\n\nお受けていただけるのであれば、ぜひ宜しくお願い致します。\n\nhttps://drive.google.com/file/d/11u_dfmChwxYG0t-xGDYfs4AH6oqy7DZh/view?usp=sharing",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
         "path": "/@momolatten/works/1",
         "private_thumbnail_image_urls": null,
         "private": false,
@@ -106,7 +132,7 @@
           "srcset": "https://si.imgix.net/e8ea4226/uploads/origins/9ec08fc2-ef1f-4eaa-9c94-688b44c6769f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9b3eb1104889de35267db791a3780e24, https://si.imgix.net/e8ea4226/uploads/origins/9ec08fc2-ef1f-4eaa-9c94-688b44c6769f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=804cd66d4312c4a58a62dc76dbb06490 2x, https://si.imgix.net/e8ea4226/uploads/origins/9ec08fc2-ef1f-4eaa-9c94-688b44c6769f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a226eda2c12ae3354bfd455dc6ff5d99 3x"
         },
         "body": "はじめまして\n\n現在Vtuber準備中の水葉ミルアと申します\nXでももせ氏様の作品を拝見し、ぜひ描いていただきたいと思い依頼しました\n\n------------------------------------------------------\n【キャラクターについて】\n・歌や音楽が好きなのんびりしてる系中性的な男の子Vtuber\n・配色はうすめの緑や水色\n・アクセサリーは首元のヘッドホンがメインであとはおまかせします\n・もし可能であればで構いませんので、表情差分などいただけると嬉しいです（必須ではありません）\n\n【シチュエーション・構図】 \nライブステージで、アップテンポな曲をとにかく楽しそうに熱唱している姿をお願いします\n    表情: 満面の笑みで、口を大きく開けて歌っている（ウインクしていてもOKです！）\nポーズ: 片手でハンドマイクを持っていて、もう片方の手は楽しさを表現するような動きがあればそれを描いていただければ助かります\n                \n\n【使用用途】\n・X、YouTube等各種SNSでの宣材写真としての使用\n・Youtubeコンテンツのサムネやヘッダーへの使用\n・その他活動全般へ使用\n\n【納品形式】\n・人物と背景がレイヤー分けされたPSDデータで頂けると大変助かります\n・サイズは可能な限り大きいと助かります\n\n【資料】\nhttps://drive.google.com/drive/folders/1ampzAUFPa6JvWJBlXrPNPY-fcVwHF1Dw\n--------------------------------------------\n\nももせ氏様の筆の乗るままに自由に描いていただければ幸いです。ご検討のほどよろしくおねがいします",
-        "nc": 0,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -139,7 +165,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 2263313,
@@ -163,7 +189,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 48
       },
       {
         "id": 3066278,
@@ -187,7 +213,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 32
       },
       {
         "id": 3356846,
@@ -238,7 +264,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 128
       },
       {
         "id": 3514301,
@@ -304,6 +330,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@momolatten/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3791148,
+      "client_id": 3267780,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=58f7242dd5711749f0439aec25aba181",
+        "srcset": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=58f7242dd5711749f0439aec25aba181, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c4f41ca6b5316eaf55f84b4b94644a7c 2x, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=89f4f0e562f1159600e4b9adc446246e 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=16d2530d1395970cb669b35c78bd8233",
+        "srcset": "https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=16d2530d1395970cb669b35c78bd8233, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8197382565ff0abc43a7659c694443ab 2x, https://si.imgix.net/b3f6ae3c/uploads/origins/eac32049-72d3-4e5e-bbf1-a7613caa1d02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fb50d08bac1a73dc7c6f762bd3465714 3x"
+      },
+      "body": "初めまして。\nVtuber活動をしているMaster雨音と申します。\n\nTwitterで素敵なイラストを拝見し、\nぜひ私の姿を描いていただきたく依頼致しました。\n\n■用途\n主に活動で使用します。\nサムネ、SNSやグッズ等の利用を想定しています。\n\n■キャラクター\n変身により、4つ(SD含め6つ)の形態になれるのですが、\n姿は添付資料からももせ氏様のお好みでお選びいただけたらと思います。\n\n■服装・ポーズ\nももせ氏様の癖を存分に表現いただける衣装（正装以外でもよいです）、ポーズをお任せ致します。\n\nお受けていただけるのであれば、ぜひ宜しくお願い致します。\n\nhttps://drive.google.com/file/d/11u_dfmChwxYG0t-xGDYfs4AH6oqy7DZh/view?usp=sharing",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

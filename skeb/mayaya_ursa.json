@@ -1,7 +1,7 @@
 {
   "screen_name": "mayaya_ursa",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3361806,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 48,
+    "nc": 161,
     "twitter_uid": "1746422465809821696",
     "user_service_links": [
       {
@@ -136,7 +136,7 @@
           "srcset": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbef2491cabd71b64daf7dddc3d277fe, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6f0d6c6d146ce51e4cae1b5acec06aa3 2x, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4ff218b25b2fa2273d9ff9a3b0a5833a 3x"
         },
         "body": "こんにちは\nいつも作家さんの作品を楽しく見ています。https://drive.google.com/file/d/1J07OG0xyrG5sGBM4BjzDCefMMySLtBE9/view?usp=drivesdk\nhttps://drive.google.com/file/d/16TRuWA-63O-PJBch8ASnkHblQBrsNjTx/view?usp=drivesdk\nこのキャラクターは私が整備している鉄道車両を擬人化したものです。\nこのキャラクターがハイパーおならをたくさんする場面を見たいです。\nよろしくお願いします\nPark",
-        "nc": 161,
+        "nc": 160,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -188,7 +188,7 @@
           "srcset": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fdc0f3b246b0ed05cd88ad27129353d7, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6eb00005f01eafbdf5ecf745b9cff3c5 2x, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a5c5f404a9b35b51185141993a5d9f91 3x"
         },
         "body": "東京ミュウミュウからミュウプリンにおならをするミュウイチゴを描いていただけませんか？ピンクの雲と普通の雲の両方をお願いします. ミュウイチゴ: https://ibb.co/3YBkT7np ミュウプリン: https://ibb.co/zWXXh34R",
-        "nc": 49,
+        "nc": 177,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -218,7 +218,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 161
       },
       {
         "id": 188001,
@@ -245,7 +245,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 502386,
@@ -272,7 +272,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 48
+        "nc": 160
       },
       {
         "id": 1121603,
@@ -296,7 +296,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 176
       },
       {
         "id": 2018640,
@@ -323,7 +323,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 160
+        "nc": 161
       },
       {
         "id": 2516335,
@@ -347,7 +347,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 177
       }
     ]
   },
@@ -385,6 +385,87 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@mayaya_ursa/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3361806,
+      "client_id": 69148,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=43927707c33b504bea87d66b7a7c304d",
+        "srcset": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=43927707c33b504bea87d66b7a7c304d, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=16228c23240807785ec3a7db0ab1e8d5 2x, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6b82090e88b5aa54c0051debbaa99713 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbef2491cabd71b64daf7dddc3d277fe",
+        "srcset": "https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbef2491cabd71b64daf7dddc3d277fe, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6f0d6c6d146ce51e4cae1b5acec06aa3 2x, https://si.imgix.net/6267bb08/uploads/origins/080b304c-fefb-4443-a0a1-cd013e1b70a5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4ff218b25b2fa2273d9ff9a3b0a5833a 3x"
+      },
+      "body": "こんにちは\nいつも作家さんの作品を楽しく見ています。https://drive.google.com/file/d/1J07OG0xyrG5sGBM4BjzDCefMMySLtBE9/view?usp=drivesdk\nhttps://drive.google.com/file/d/16TRuWA-63O-PJBch8ASnkHblQBrsNjTx/view?usp=drivesdk\nこのキャラクターは私が整備している鉄道車両を擬人化したものです。\nこのキャラクターがハイパーおならをたくさんする場面を見たいです。\nよろしくお願いします\nPark",
+      "nc": 160,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@mayaya_ursa/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3361806,
+      "client_id": 2788051,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b476a90bee5320feb36d15175dfbf181",
+        "srcset": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b476a90bee5320feb36d15175dfbf181, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=94c619e758ae53eea44c4ecfb12399bb 2x, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6766029b6ff2ab59a041ea43ebc9f72f 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb617c8fbc0861e2ca082d0d0ae8e0cd",
+        "srcset": "https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb617c8fbc0861e2ca082d0d0ae8e0cd, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cef0f6b1c9e55bad7993bc85874e07a6 2x, https://si.imgix.net/b162de00/uploads/origins/7f086e98-c9fc-4677-a4ab-3252d9896ccd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1cef0d4221d155e748853bf2c94a1825 3x"
+      },
+      "body": "毒ガスの巨女が欲しい - https://drive.google.com/file/d/191Tz7sWNv9HO3ENIG8L8cr3XKcO_7Sl_/view?usp=sharing\nピチピチのボディスーツに世界防衛メンバーを閉じ込める - https://drive.google.com/file/d/14EqWc4kb8JBhbsUCz22WJ_mOArF5-5bK/view?usp=sharing\n\n囮捜査は、これらの画像にもっと似せてほしい。\nhttps://drive.google.com/file/d/1F8x3dT92ggjwylzoQKy_2Ldme2qTNlga/view?usp=sharing\nhttps://drive.google.com/file/d/1irESsmePwPWS_l7rgY9fxie6oebuQbWx/view?usp=sharing\nhttps://drive.google.com/file/d/1iKU-JKtbQ4SpFiecHx_MgImfCjBs7lbA/view?usp=sharing\n\n彼女は屁で個人を拷問している\n\n世界防衛軍メンバーの例\nhttps://drive.google.com/file/d/1ngqvY75g4mmmFyd1glVCOQqgxUYIvAYp/view?usp=sharing",
+      "nc": 169,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@mayaya_ursa/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3361806,
+      "client_id": 263110,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f00d8a96da2cc152ade09345319552d7",
+        "srcset": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f00d8a96da2cc152ade09345319552d7, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=917a6afe53a09dfc5e95a1d4ef54c4c9 2x, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=04567bca6111622f81d8d4ad39d3ccfc 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fdc0f3b246b0ed05cd88ad27129353d7",
+        "srcset": "https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fdc0f3b246b0ed05cd88ad27129353d7, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6eb00005f01eafbdf5ecf745b9cff3c5 2x, https://si.imgix.net/46a700ae/uploads/origins/55157ee2-25d5-4bc6-9db1-889ae3f8ba58?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a5c5f404a9b35b51185141993a5d9f91 3x"
+      },
+      "body": "東京ミュウミュウからミュウプリンにおならをするミュウイチゴを描いていただけませんか？ピンクの雲と普通の雲の両方をお願いします. ミュウイチゴ: https://ibb.co/3YBkT7np ミュウプリン: https://ibb.co/zWXXh34R",
+      "nc": 177,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

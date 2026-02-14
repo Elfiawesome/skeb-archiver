@@ -1,7 +1,7 @@
 {
   "screen_name": "Shira_tori1125",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3573954,
     "acceptable": true,
@@ -111,7 +111,7 @@
           "srcset": "https://si.imgix.net/58ee104e/uploads/origins/b2d3fbf4-401c-4425-82e2-1d0446d2f0d6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2706b65a8235bf709bc2fdb0767d286b, https://si.imgix.net/58ee104e/uploads/origins/b2d3fbf4-401c-4425-82e2-1d0446d2f0d6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e2c6e60940c47fd1f05bcbcaf065f5e9 2x, https://si.imgix.net/58ee104e/uploads/origins/b2d3fbf4-401c-4425-82e2-1d0446d2f0d6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e1cbfa9ecd5f1b45f1c6c2125fb95bb6 3x"
         },
         "body": "トイプードルを抱いている女の子をお願い致します。\n女の子は、ピクンの服を着た可愛らいしい子で、にっこり笑っています。\n髪はショートボブです。\nトイプードルもおしゃれしてください！\n背景はお任せします。",
-        "nc": 1,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -144,7 +144,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 129
+        "nc": 128
       },
       {
         "id": 398838,
@@ -171,7 +171,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 161
+        "nc": 49
       },
       {
         "id": 1064737,
@@ -198,7 +198,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 16
       },
       {
         "id": 1324112,
@@ -222,7 +222,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 144
       },
       {
         "id": 3162712,
@@ -246,7 +246,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 1
       },
       {
         "id": 3482170,
@@ -273,7 +273,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 0
+        "nc": 16
       }
     ]
   },

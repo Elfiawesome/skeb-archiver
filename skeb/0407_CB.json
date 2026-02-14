@@ -1,7 +1,7 @@
 {
   "screen_name": "0407_CB",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3377104,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 30,
-    "nc": 1,
+    "nc": 17,
     "twitter_uid": "2016006511173238786",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/190c7f2b/uploads/origins/4123a240-0605-43ce-95f7-89e8958eae8e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6a27a3ad7488801c7bfe3fdaa1e40c7f, https://si.imgix.net/190c7f2b/uploads/origins/4123a240-0605-43ce-95f7-89e8958eae8e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=edbc7a095788d1234cda3d9ead52c554 2x, https://si.imgix.net/190c7f2b/uploads/origins/4123a240-0605-43ce-95f7-89e8958eae8e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=43428721fef414594d6ac0737745e578 3x"
         },
         "body": "Twitterのアイコンをお願いします\n\n性別:女の子\n容姿:ピンク髪それ以外はお任せで\n背景:白\n\nよろしくお願い致します。",
-        "nc": 144,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -158,7 +158,7 @@
           "srcset": "https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=90adcb3b9efdc3803e3b7bb33dd5ac06, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b8be42d9b934cc46fbd54d081b0a2387 2x, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7f7aa6d0b140da27c2aa06186ff6b82b 3x"
         },
         "body": "SDアイコンをよろしくお願いいたしますc⌒っ.ω.)っ",
-        "nc": 1,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 144
       },
       {
         "id": 2121621,
@@ -212,7 +212,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 49
       },
       {
         "id": 2353910,
@@ -236,7 +236,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 145
       },
       {
         "id": 3430796,
@@ -260,7 +260,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 0
       },
       {
         "id": 3585267,
@@ -287,7 +287,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 3779804,
@@ -314,7 +314,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 129
       }
     ]
   },
@@ -353,6 +353,60 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@0407_CB/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3377104,
+      "client_id": 3728849,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f2b621e3953a5647ae809d0446a66358",
+        "srcset": "https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=f2b621e3953a5647ae809d0446a66358, https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9b143d2ba9b1a6d7790b5acec396227b 2x, https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3b0b4e6fc24ba5a3d29ce0e2d58aff0c 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0b32f62f7e24d4ffdae2396a896994ba",
+        "srcset": "https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0b32f62f7e24d4ffdae2396a896994ba, https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=64ca0fc344cd39d320df0ffb98cb0505 2x, https://si.imgix.net/d3a146e0/uploads/origins/55e8b0a6-d178-422b-bb06-ea20e9505f43?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=24e5720524e3a31733c2679c847944e9 3x"
+      },
+      "body": "素敵なイラスト拝見してリクエストさせていただきました。\n資料にいる2人のSDイラストをお願いできませんか？赤髪×茶髪\n\n・左170cm\nこげ茶髪　一つ結び。赤髪の髪色と同じリボン\n両耳・目の下・口・手にピアス\n\n・右185cm\n染めた赤髪　スーツ\n顔に大火傷の痕（完治済み痕が残ってしまっている）\n\n\n背景透過PNGまたはPSDをお願いします。\n\n使用用途\nTRPG立ち絵\n個人観賞用印刷\n\nどうぞご検討お願いします\n\nhttps://drive.google.com/drive/folders/1FKbMhS-g_-FLXbhx_G6ONJzhX5lLkVR0",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@0407_CB/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3377104,
+      "client_id": 3267086,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb93b12b04c1b3a1dd5bdbf67dae4486",
+        "srcset": "https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb93b12b04c1b3a1dd5bdbf67dae4486, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b16126ec08079a5f304c701d1080a6ee 2x, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8c9f4b3db3e874555a12a8644ad8322d 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=90adcb3b9efdc3803e3b7bb33dd5ac06",
+        "srcset": "https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=90adcb3b9efdc3803e3b7bb33dd5ac06, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b8be42d9b934cc46fbd54d081b0a2387 2x, https://si.imgix.net/349dd764/uploads/origins/c39e2156-d33f-401e-9346-1283313e945c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7f7aa6d0b140da27c2aa06186ff6b82b 3x"
+      },
+      "body": "SDアイコンをよろしくお願いいたしますc⌒っ.ω.)っ",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

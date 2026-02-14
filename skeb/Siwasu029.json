@@ -1,7 +1,7 @@
 {
   "screen_name": "Siwasu029",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3189209,
     "acceptable": true,
@@ -332,6 +332,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Siwasu029/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3189209,
+      "client_id": 3197389,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=571cc53fea653b8ad990000febdd3a68",
+        "srcset": "https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=571cc53fea653b8ad990000febdd3a68, https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=98d142d922e32b2e047198a339955832 2x, https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=fc0fc5a4a76644a9f533ee2302cea461 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1b6ab6fac7e6a58519951de32278bf0b",
+        "srcset": "https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1b6ab6fac7e6a58519951de32278bf0b, https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e2e342de02e695111c31689fc9b99050 2x, https://si.imgix.net/31bae710/uploads/origins/d5833551-492c-4a5b-b244-001b41e02fc3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b24cdcf3970f043cab417382f6d4119f 3x"
+      },
+      "body": "ふくまる様\nいつもお世話になっております。\n今回ぜひイラストを描いていただきたいと思い、skebを依頼いたしました。他の方の探索者さんもおりますが、依頼のための利用許可を得ております。\n【依頼内容】\n探索者の一枚絵をお願いしたいです。構図等はふくまる様にご一任させていただければなと思います。\n【参考資料】\nGoogleドライブ内の立ち絵参照\n【使用用途】\n・画像の保存\n・SNSでの納品報告\n・参考資料として他の方へのイラスト依頼時に提示\n・壁紙、SNSのヘッダー等への使用(使用の際は必ずIDを記載します)\n・個人の範囲でのネットプリントなど\n\n金額や条件等難しければキャンセルして頂ければと思います。ご検討のほどよろしくお願いします\n\nhttps://drive.google.com/drive/folders/1-LzBFk647T0_s_ytB58mjSw6ACO6M_cG?usp=drive_link",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

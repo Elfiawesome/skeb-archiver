@@ -1,7 +1,7 @@
 {
   "screen_name": "mrom_tw",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3873731,
     "acceptable": false,
@@ -58,7 +58,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 3000
+        "default_amount": 4000
       }
     ],
     "payment_methods": {
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/cc16ea71/uploads/origins/52bf77fe-6612-4fbb-b9b0-e9bd35654664?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=167f98eb918a72b50c0fccdde15ab487, https://si.imgix.net/cc16ea71/uploads/origins/52bf77fe-6612-4fbb-b9b0-e9bd35654664?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d6e1fbb1770ffdc03559eefe79c5d761 2x, https://si.imgix.net/cc16ea71/uploads/origins/52bf77fe-6612-4fbb-b9b0-e9bd35654664?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=31366e4938ab65325060c7e1572e5a81 3x"
         },
         "body": "初めまして。\n個人勢Vtuberのみどくまと申します。\n\nこの度Xのおすすめ欄にて素敵なイラストを拝見し、是非自分も描いていただきたくリクエストを送らせていただきました！\n\n【内容】\nVtuberの「みどくま」をお願いいたします。\n甘いものと可愛いものが好きな小柄な男の子くまです。\n\n界隈で言う「男の娘」にあたる中性的なキャラクターになりますので、露骨な男性感はいりません。\n※可愛い女の子キャラクターを描くノリでお願いいたします…！\n\n【用途】\n・YouTube等のサムネイル/配信利用\n・おはツイなどのツイート利用\n・個人鑑賞\n\n背景透過バージョンがあると大変助かります…！\n\n衣装は資料のものでもオリジナルでも何でも構いません。\n自由に楽しく描いていただけますと幸いです。\n\nご検討の程よろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/1-JqobW6BRdf934P2WRHMKWrDa4cb9u08",
-        "nc": 129,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 176
       },
       {
         "id": 3246507,
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 3417372,
@@ -210,7 +210,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 129
       },
       {
         "id": 3480191,
@@ -234,7 +234,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 144
       },
       {
         "id": 3619765,
@@ -258,7 +258,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 16
       },
       {
         "id": 3628046,
@@ -285,7 +285,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 49
+        "nc": 176
       }
     ]
   },
@@ -294,6 +294,10 @@
       {
         "amount": 3000,
         "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      },
+      {
+        "amount": 4000,
+        "recorded_at": "2026-02-14T14:57:26.827357+00:00"
       }
     ]
   },

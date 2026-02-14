@@ -1,7 +1,7 @@
 {
   "screen_name": "nao014o",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3363438,
     "acceptable": true,
@@ -411,6 +411,61 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@nao014o/works/5",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/fb2f3b7e/uploads/origins/fcbe8cbf-1a6b-411c-80e3-c9f3dc3ef7bc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=709f876214109b89e54a6016b1eeda7c",
+        "srcset": "https://si.imgix.net/fb2f3b7e/uploads/origins/fcbe8cbf-1a6b-411c-80e3-c9f3dc3ef7bc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=709f876214109b89e54a6016b1eeda7c, https://si.imgix.net/fb2f3b7e/uploads/origins/fcbe8cbf-1a6b-411c-80e3-c9f3dc3ef7bc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=7a0a97479bf06e1e2588060f0378c6a6 2x, https://si.imgix.net/fb2f3b7e/uploads/origins/fcbe8cbf-1a6b-411c-80e3-c9f3dc3ef7bc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f6cd7a5c1206ce90f498aab85808c461 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3363438,
+      "client_id": 2978445,
+      "nc": 16,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@nao014o/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e816a956/uploads/origins/2e3a317a-aee5-4738-9a45-2e3ecd4ddbc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5e23156bf980485ca07c40a958bbc90e",
+        "srcset": "https://si.imgix.net/e816a956/uploads/origins/2e3a317a-aee5-4738-9a45-2e3ecd4ddbc8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5e23156bf980485ca07c40a958bbc90e, https://si.imgix.net/e816a956/uploads/origins/2e3a317a-aee5-4738-9a45-2e3ecd4ddbc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=793d4af68cbe35eb26cf8b58382fadbe 2x, https://si.imgix.net/e816a956/uploads/origins/2e3a317a-aee5-4738-9a45-2e3ecd4ddbc8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1c65233975242346b31b9a746840192f 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3363438,
+      "client_id": 2407512,
+      "nc": 144,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@nao014o/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3363438,
+      "client_id": 3166492,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=50802039b75e52b1892c9bf4457caab7",
+        "srcset": "https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=50802039b75e52b1892c9bf4457caab7, https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=af781529bacc64eb976a4331a333035a 2x, https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e3c9bde1eb1b0f0d1814a9e1e6d85650 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7b112133371cc60102a0148c2a74f714",
+        "srcset": "https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7b112133371cc60102a0148c2a74f714, https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b3a4d2d4c33a87115667773e140dbd0d 2x, https://si.imgix.net/09f448d2/uploads/origins/e1db99d4-036e-40a0-a32a-b5af1343cfaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=04de153f0bba9a51c081c2449f250194 3x"
+      },
+      "body": "はじめまして、vtuberの犬白ましらと申します。\nskebにてな様のイラストを拝見し、是非な様の絵柄にて自身のイラストもご依頼させていただければと思い、ご連絡させていただきました。\n\n【依頼内容】\n〇私、Vtuber犬白ましらのイラストをお願いしたいです。\n〇ポーズ、構図、表情は是非な様のお任せで大丈夫です！表情差分がいくつかあるととてもうれしいです…！！✨\nサムネ利用時に使いやすいよう頭部、顔周りの見切れていない、背景と人物が分かれたPSDデータまたはPNGデータを頂けるととてもありがたいです🙇🏻‍♂️\n\n【使用範囲】\n収益化済YouTubeのサムネイルへの使用、SNS等掲載\n・有料支援サイトでの先行おひろめ、ファンクラブ会員限定壁紙\n・グッズ\nご検討いただけますと幸いです。よろしくお願いいたします！\n\nhttps://drive.google.com/drive/folders/1eBVgg1jxYL5FMOHo3TnBLviFO623jLLi?usp=drive_link",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

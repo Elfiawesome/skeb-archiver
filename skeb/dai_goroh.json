@@ -1,7 +1,7 @@
 {
   "screen_name": "dai_goroh",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3888839,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 30,
-    "nc": 128,
+    "nc": 16,
     "twitter_uid": "377453662",
     "user_service_links": [
       {
@@ -113,7 +113,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 717688,
@@ -137,7 +137,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 1654160,
@@ -161,7 +161,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 1713210,
@@ -185,7 +185,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 33
       },
       {
         "id": 2337786,
@@ -209,7 +209,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 145
       },
       {
         "id": 3060769,
@@ -233,7 +233,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 33
       }
     ]
   },

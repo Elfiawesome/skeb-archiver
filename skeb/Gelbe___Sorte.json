@@ -1,7 +1,7 @@
 {
   "screen_name": "Gelbe___Sorte",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3818285,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 16,
+    "nc": 144,
     "twitter_uid": "1562752923603705860",
     "user_service_links": [
       {
@@ -136,7 +136,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 129
       },
       {
         "id": 2407141,
@@ -163,7 +163,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 161
       },
       {
         "id": 2590674,
@@ -190,7 +190,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 3027697,
@@ -241,7 +241,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 128
       }
     ]
   },

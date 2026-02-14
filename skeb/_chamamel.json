@@ -1,12 +1,12 @@
 {
   "screen_name": "_chamamel",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3736779,
     "acceptable": true,
     "creator": true,
-    "avatar_url": "https://pbs.twimg.com/profile_images/1967216211416199168/347UW71m.jpg",
+    "avatar_url": "https://pbs.twimg.com/profile_images/2022656906050125824/YxqM45_A.jpg",
     "name": "ちゃまめ",
     "nsfw_acceptable": false,
     "screen_name": "_chamamel",
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 129,
+    "nc": 0,
     "twitter_uid": "1921583825425235968",
     "user_service_links": [
       {
@@ -54,7 +54,7 @@
     "banned": false,
     "banned_by": "",
     "complete_rate": null,
-    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2F_chamamel%2Fbackground%3Fd%3Df39e07?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Gh44KD44G-44KB&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=06f8736d70ad63685ea5db6040243040",
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2F_chamamel%2Fbackground%3Fd%3D037405?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Gh44KD44G-44KB&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=1bf4ad0161bebc2bff6da6604ef64e74",
     "skills": [
       {
         "genre": "art",
@@ -115,7 +115,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 152
+        "nc": 24
       },
       {
         "id": 1436624,
@@ -139,7 +139,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 2503019,
@@ -190,7 +190,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 128
       },
       {
         "id": 3730208,
@@ -214,7 +214,7 @@
             "genre": "art"
           }
         ],
-        "nc": 152
+        "nc": 153
       },
       {
         "id": 3796089,
@@ -241,7 +241,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 0
       }
     ]
   },

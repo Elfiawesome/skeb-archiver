@@ -1,7 +1,7 @@
 {
   "screen_name": "nyusi__ha",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3875334,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 30,
     "received_requests_average_response_time": 24398,
     "completing_average_time": 1470380,
-    "nc": 1,
+    "nc": 129,
     "twitter_uid": "1977929397085818880",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/0638e25b/uploads/origins/3d81fa2a-72bc-4173-a442-8a4f9b19180a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=25f23462ded8bc3c7b110c3995f57f55, https://si.imgix.net/0638e25b/uploads/origins/3d81fa2a-72bc-4173-a442-8a4f9b19180a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0a67925055e10b7ef29ab2180fba3973 2x, https://si.imgix.net/0638e25b/uploads/origins/3d81fa2a-72bc-4173-a442-8a4f9b19180a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=28429c981c9e3cea83e7fa7dca6b16ca 3x"
         },
         "body": "こんにちは、あなたの作品がとても気に入りましたので、お願いがあります！キャラクター：ファイアーエムブレム 覚醒のモーガン（参考URLの左画像）。衣装：モーガンにルキナの聖女王衣装を着せてください（参考URLの右画像）。  \n\n表情・ポーズ・背景：可愛らしいテーマのイラストをお願いします。詳細な部分はご自由に決めていただいて結構です。ご自身が得意な方法で描いてください。重要事項：- モーガンの髪と瞳の色はルキナと同じ青色にしてください。- 剣と盾は描かないでください。\n\n参考画像やインスピレーションについては、過去に依頼した事例をご覧ください：https://drive.google.com/drive/u/1/folders/15vlgpWHqhG_XyIYrZw4_dPvMcCHr6Q8sお時間をいただきありがとうございます。https://imgur.com/a/TSAs1uR",
-        "nc": 16,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -141,7 +141,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 2809550,
@@ -165,7 +165,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 2823307,
@@ -234,7 +234,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 16
       },
       {
         "id": 3568294,
@@ -258,7 +258,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 3828433,
@@ -285,7 +285,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 145
       }
     ]
   },

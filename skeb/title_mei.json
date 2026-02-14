@@ -1,7 +1,7 @@
 {
   "screen_name": "title_mei",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3787647,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 14,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 0,
     "twitter_uid": "1367889564019298307",
     "user_service_links": [
       {
@@ -160,7 +160,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 128
       },
       {
         "id": 1481029,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 2402213,
@@ -235,7 +235,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 161
       },
       {
         "id": 3196791,
@@ -259,7 +259,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 128
       }
     ]
   },

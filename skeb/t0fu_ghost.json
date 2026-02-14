@@ -1,7 +1,7 @@
 {
   "screen_name": "t0fu_ghost",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3886761,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 145,
+    "nc": 17,
     "twitter_uid": "2003263135353045003",
     "user_service_links": [
       {
@@ -113,7 +113,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 161
       },
       {
         "id": 1166002,
@@ -137,7 +137,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 33
       },
       {
         "id": 1438247,
@@ -185,7 +185,7 @@
             "genre": "video"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 1703336,
@@ -209,7 +209,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3800211,
@@ -233,7 +233,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 17
       }
     ]
   },

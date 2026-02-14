@@ -1,7 +1,7 @@
 {
   "screen_name": "am_ee_yu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2118592,
     "acceptable": true,
@@ -323,6 +323,20 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@am_ee_yu/works/1",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/680729fe/uploads/origins/c88be5a6-28cd-48af-8658-bb9ecf77b8c5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=aa0e050b7febd7e787bc25696cd88a38",
+        "srcset": "https://si.imgix.net/680729fe/uploads/origins/c88be5a6-28cd-48af-8658-bb9ecf77b8c5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=aa0e050b7febd7e787bc25696cd88a38, https://si.imgix.net/680729fe/uploads/origins/c88be5a6-28cd-48af-8658-bb9ecf77b8c5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c39d83657b431827241fcbcbfa01cbcf 2x, https://si.imgix.net/680729fe/uploads/origins/c88be5a6-28cd-48af-8658-bb9ecf77b8c5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=60814eb97ddd67bcd1dd94a6ab09d0ba 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 2118592,
+      "client_id": 2051291,
+      "nc": 144,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

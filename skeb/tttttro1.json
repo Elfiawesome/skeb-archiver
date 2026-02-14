@@ -1,7 +1,7 @@
 {
   "screen_name": "tttttro1",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3863177,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 129,
     "twitter_uid": "1474095006239830016",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/ca36453b/uploads/origins/faa832e9-a3ab-4a2b-8362-864d21d3cc87?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a806b58033ec00c8b1cde323db6f6769, https://si.imgix.net/ca36453b/uploads/origins/faa832e9-a3ab-4a2b-8362-864d21d3cc87?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8d75d724404ca2877ebbe177f57ba760 2x, https://si.imgix.net/ca36453b/uploads/origins/faa832e9-a3ab-4a2b-8362-864d21d3cc87?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=528523a842c145559997dfc9a0a70f71 3x"
         },
         "body": "オリジナルキャラクターの  新井駿輔（あらいしゅんすけ）を描いていただきたいです。\n  ※立ち絵のURLを貼りました。\n 内容はおまかせなのですが、たまに描かれてる油絵っぽい塗り方が好きなので、もしよければお願いします。\n\nhttps://www.pixiv.net/artworks/134179681",
-        "nc": 128,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -136,7 +136,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 1842953,
@@ -160,7 +160,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 145
       },
       {
         "id": 2672303,
@@ -184,7 +184,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 17
       },
       {
         "id": 3365717,
@@ -208,7 +208,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 3429774,
@@ -232,7 +232,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 3639131,
@@ -262,7 +262,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 1
       }
     ]
   },

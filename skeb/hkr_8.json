@@ -1,7 +1,7 @@
 {
   "screen_name": "hkr_8",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1658240,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 70,
-    "nc": 0,
+    "nc": 144,
     "twitter_uid": "451812725",
     "user_service_links": [
       {
@@ -144,7 +144,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 1475025,
@@ -195,7 +195,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 145
       },
       {
         "id": 2496364,
@@ -222,7 +222,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 160
+        "nc": 177
       },
       {
         "id": 2561461,
@@ -246,7 +246,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 32
       },
       {
         "id": 3773034,
@@ -270,7 +270,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 0
       }
     ]
   },

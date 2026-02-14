@@ -1,7 +1,7 @@
 {
   "screen_name": "atori",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3874828,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 51390,
     "completing_average_time": 1402289,
-    "nc": 16,
+    "nc": 145,
     "twitter_uid": "1293434542250848256",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/3001103f/uploads/origins/28a23235-df0f-4113-b79d-f849fb751d23?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9e8d18b44e8e8aa6ba91dce4f33b5820, https://si.imgix.net/3001103f/uploads/origins/28a23235-df0f-4113-b79d-f849fb751d23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2fee66922c5a5381bc86f753f6cd66a9 2x, https://si.imgix.net/3001103f/uploads/origins/28a23235-df0f-4113-b79d-f849fb751d23?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fa56d02b438861be91aaf6f7fe6fe1b2 3x"
         },
         "body": "こんにちは、イラストのご依頼をさせていただきたいです。キャラクター詳細：名前 - ノーベンバー性格 - 自信に満ちていて気さく。ノーベンバーはデジタルアーカイブを専門とするコンピュータースペシャリストです。\n\n依頼内容：希望衣装 - デジタルサキュバス（マルウェアに身体を乗っ取られサキュバス化した姿）。参考：https://drive.google.com/file/d/1n1fB2FKWFR8L--J-qplE_oxU8AtX1Wme/view?usp=drive_link ポーズと表情は自由にお任せします。\n\nご検討いただきありがとうございます。参考：https://drive.google.com/drive/folders/1kEILmGDGfSdFvATWRkibpwBGrdpVh4LV?usp=drive_link",
-        "nc": 129,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -141,7 +141,7 @@
             "genre": "video"
           }
         ],
-        "nc": 128
+        "nc": 129
       },
       {
         "id": 1178809,
@@ -168,7 +168,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 1551947,
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 2061068,
@@ -219,7 +219,7 @@
             "genre": "video"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 2852727,
@@ -282,7 +282,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 144
       }
     ]
   },

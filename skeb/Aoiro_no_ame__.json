@@ -1,7 +1,7 @@
 {
   "screen_name": "Aoiro_no_ame__",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3890991,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 30,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 145,
+    "nc": 16,
     "twitter_uid": "1236699576481939456",
     "user_service_links": [
       {
@@ -115,7 +115,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 764052,
@@ -142,7 +142,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 48
+        "nc": 32
       },
       {
         "id": 1429132,
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 33
+        "nc": 32
       },
       {
         "id": 1645513,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 49
       },
       {
         "id": 2077671,
@@ -250,7 +250,7 @@
             "genre": "video"
           }
         ],
-        "nc": 17
+        "nc": 129
       }
     ]
   },

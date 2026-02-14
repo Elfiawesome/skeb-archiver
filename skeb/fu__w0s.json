@@ -1,7 +1,7 @@
 {
   "screen_name": "fu__w0s",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3745737,
     "acceptable": true,
@@ -321,6 +321,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@fu__w0s/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3745737,
+      "client_id": 3842878,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dd9b6da8f75397adc8fb1e952dc3fbe3",
+        "srcset": "https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dd9b6da8f75397adc8fb1e952dc3fbe3, https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ea08dc063ec480c7eb13651b14db1d58 2x, https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1314515e7bd8faf990e5d1a2737124a7 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7aa1242e015bdb1e158cae0cc29ea41a",
+        "srcset": "https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7aa1242e015bdb1e158cae0cc29ea41a, https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=45a0d7654d06199b6128b45c0d9ddc70 2x, https://si.imgix.net/2deacb66/uploads/origins/efecd17e-ea7b-432a-a47a-45ef1a31495d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5be79c36d3aff4510101792080db50b2 3x"
+      },
+      "body": "はじめまして！！\nXで見かけたルルネちゃんのイラストに一目ぼれして、リクエストを送らせていただきました！\n\nリクエストの内容ですが、\nVRchatの私のアバターを描いて頂けないでしょうか・・・！！！\n\n改変元はしなのちゃんを使用していて、\nつり目でかっこいい目の表情にしてあることが多いです。\n\n構図等はお任せでお願いします・・・！！\n\n参考に三面図や表情パターンを撮影し格納してみました、\n宜しければご活用ください。\n\n宜しくお願い致します・・・！！！！\n\nhttps://drive.google.com/drive/folders/1QwDsmgSCEIT06wHc_yMFcC_AgXSC9Usz?usp=drive_link\n\nhttps://drive.google.com/drive/folders/1QwDsmgSCEIT06wHc_yMFcC_AgXSC9Usz?usp=drive_link",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

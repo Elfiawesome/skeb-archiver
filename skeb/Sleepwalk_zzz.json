@@ -1,7 +1,7 @@
 {
   "screen_name": "Sleepwalk_zzz",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2345432,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 90,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 16,
+    "nc": 17,
     "twitter_uid": "1511620654205849600",
     "user_service_links": [
       {
@@ -111,7 +111,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 160
       },
       {
         "id": 1706029,
@@ -135,7 +135,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 176
       },
       {
         "id": 2435651,
@@ -162,7 +162,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 3282478,
@@ -189,7 +189,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 3357204,
@@ -222,7 +222,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 33
+        "nc": 160
       },
       {
         "id": 3377842,
@@ -246,7 +246,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 129
       }
     ]
   },

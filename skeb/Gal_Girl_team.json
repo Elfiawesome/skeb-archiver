@@ -1,7 +1,7 @@
 {
   "screen_name": "Gal_Girl_team",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3872028,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 7,
     "complete_expiration_days": 60,
-    "nc": 129,
+    "nc": 0,
     "twitter_uid": "2008460107286548480",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 17
       },
       {
         "id": 401965,
@@ -139,7 +139,7 @@
             "genre": "video"
           }
         ],
-        "nc": 32
+        "nc": 33
       },
       {
         "id": 3443282,
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 129
       },
       {
         "id": 3502604,
@@ -214,7 +214,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 3821293,
@@ -238,7 +238,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 145
       }
     ]
   },

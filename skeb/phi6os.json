@@ -1,7 +1,7 @@
 {
   "screen_name": "phi6os",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3837666,
     "acceptable": true,
@@ -404,6 +404,87 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@phi6os/works/4",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ead61847/uploads/origins/5c1c04bd-1f2a-4b44-827b-a730d9f646e6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9d33e42354e87a53c90a4d3b5d683003",
+        "srcset": "https://si.imgix.net/ead61847/uploads/origins/5c1c04bd-1f2a-4b44-827b-a730d9f646e6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9d33e42354e87a53c90a4d3b5d683003, https://si.imgix.net/ead61847/uploads/origins/5c1c04bd-1f2a-4b44-827b-a730d9f646e6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=83e43ce00bfb88c5857bb6179df8f877 2x, https://si.imgix.net/ead61847/uploads/origins/5c1c04bd-1f2a-4b44-827b-a730d9f646e6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3a2e35ea4025f8d33f0e515062b82706 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837666,
+      "client_id": 3706302,
+      "nc": 128,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@phi6os/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837666,
+      "client_id": 1022702,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=20d3a16398bcc2c88eb045eb694a4f2f",
+        "srcset": "https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=20d3a16398bcc2c88eb045eb694a4f2f, https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f1591e19964f19bf50303997dab87832 2x, https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=eedf3c8f05070d171717827fbcc5d938 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=369f3a4a63b79ee8f139aa5692b8e4f6",
+        "srcset": "https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=369f3a4a63b79ee8f139aa5692b8e4f6, https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c1f181d7354dcab3f86f61b7ba47c6b2 2x, https://si.imgix.net/7c340686/uploads/origins/b5c79afc-86f3-4949-9518-6afedf3b3d07?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=34f1efdf0d74616540fab39a413e79e9 3x"
+      },
+      "body": "Hello dear宗谷-san,\n.\nCould you draw the two girls in the URL？\n\nplease feel free to create\n\nThank you ！\n\nREF:\nhttps://drive.google.com/drive/folders/1-V4S9sXFq1tAKQ6v0jhiKln5qRsNNJ1W",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@phi6os/works/2",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9850e8af/uploads/origins/94727887-1a5e-44b4-9abb-40b034930e3b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=525a666890ec5852d14ec342ba0bc157",
+        "srcset": "https://si.imgix.net/9850e8af/uploads/origins/94727887-1a5e-44b4-9abb-40b034930e3b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=525a666890ec5852d14ec342ba0bc157, https://si.imgix.net/9850e8af/uploads/origins/94727887-1a5e-44b4-9abb-40b034930e3b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d2a8c5ee5af697e24a4fac39949479f6 2x, https://si.imgix.net/9850e8af/uploads/origins/94727887-1a5e-44b4-9abb-40b034930e3b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=003d81d85f8d538472ca3c17f5466e57 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837666,
+      "client_id": 3532369,
+      "nc": 128,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@phi6os/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3837666,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=560faf68b0e74336ce033cd28a63307e",
+        "srcset": "https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=560faf68b0e74336ce033cd28a63307e, https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=2b5cce6e9ea37904d31e81547b6103da 2x, https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6da96990a360449d3c6de474e937cb28 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d49c6108df35ccc8c0e8e0818f2c5dce",
+        "srcset": "https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d49c6108df35ccc8c0e8e0818f2c5dce, https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eda7f47cfa28be91b2b84f1a4bc0f2fe 2x, https://si.imgix.net/950e19f6/uploads/origins/15b096a7-b75e-4622-8e83-26abe49306fe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e7cb1663bd7d68d3935d0b3b164fa374 3x"
+      },
+      "body": "「魔法少女ノ魔女裁判」(まのさば)より\n「橘シェリー」をお願いいたします。水着姿でデザイン等は自由で大丈夫です。",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

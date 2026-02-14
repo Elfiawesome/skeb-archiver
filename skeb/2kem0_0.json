@@ -1,7 +1,7 @@
 {
   "screen_name": "2kem0_0",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3891984,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 144,
+    "nc": 1,
     "twitter_uid": "1482749432034885637",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 33
       },
       {
         "id": 1961264,
@@ -136,7 +136,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 0
       },
       {
         "id": 2017469,
@@ -160,7 +160,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 17
       },
       {
         "id": 2601342,
@@ -184,7 +184,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 2830109,
@@ -208,7 +208,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 3844447,
@@ -235,7 +235,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 16
       }
     ]
   },

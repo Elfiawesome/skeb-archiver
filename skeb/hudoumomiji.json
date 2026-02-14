@@ -1,7 +1,7 @@
 {
   "screen_name": "hudoumomiji",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 2012261,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 39,
     "received_requests_average_response_time": 16613,
     "completing_average_time": 1643148,
-    "nc": 129,
+    "nc": 145,
     "twitter_uid": "1299681086084055042",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/c050170c/uploads/origins/f5f6e33a-f091-44cf-a157-04b797461f68?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=01a789a6c2c607aa4fb58e789b2f9a66, https://si.imgix.net/c050170c/uploads/origins/f5f6e33a-f091-44cf-a157-04b797461f68?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e1b6e4736dfcea3f81d6ec8fae65f15b 2x, https://si.imgix.net/c050170c/uploads/origins/f5f6e33a-f091-44cf-a157-04b797461f68?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=aced9f6554cb59c55ee2f7ad54668939 3x"
         },
         "body": "浮動紅葉様、はじめまして\n\n最近Xで拝見した杏奈ちゃんのイラストがすごく可愛くて、絵柄もとても素敵だと思い、この度リクエストを送らせていただきました。\n\nリクエスト内容も、杏奈ちゃんの一枚のイラストです。プリコネRの氷川鏡華の衣装を着た杏奈ちゃんを描いていただきたいです。髪型は眼鏡SHSのツインテールです。杏奈ちゃんは氷属性の魔法使いのような雰囲気で描いていただけたら嬉しいです。スマホ壁紙用途のため、アスペクト比は５：１１でお願いいたします。それ以外の細かい部分は、お任せてお願いいたします\n\n外国人のため、もし不自然で失礼な言葉がありましたらご容赦ください\nご検討のほど、よろしくお願いいたします",
-        "nc": 145,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -138,7 +138,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 177
       },
       {
         "id": 1288396,
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 1
       },
       {
         "id": 1484986,
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 161
       },
       {
         "id": 1568110,
@@ -213,7 +213,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 0
       },
       {
         "id": 2467586,
@@ -237,7 +237,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 17
       },
       {
         "id": 3114324,
@@ -261,7 +261,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "ZhOhok",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3836674,
     "acceptable": true,
@@ -395,6 +395,87 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@ZhOhok/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3836674,
+      "client_id": 904972,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d3f61b4a05eff871a59082b0b966eba3",
+        "srcset": "https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d3f61b4a05eff871a59082b0b966eba3, https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7b79d6d73913ad7db8034535b53a4c93 2x, https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6e0ebd2501b0b417df0f98f15dde804e 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": true,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbb5100d06d9e0694d849024c2059921",
+        "srcset": "https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbb5100d06d9e0694d849024c2059921, https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0add5a720f900b7648cd3d1cf4fa1e6a 2x, https://si.imgix.net/fe4c5be8/uploads/origins/d5225aae-1fe1-4aa6-870b-22b5de25c4ca?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4101cb2a4f3064ac6641427945d44101 3x"
+      },
+      "body": "アメリアちゃんと、カグラ(OC)でボクシングのイラストを描いて欲しいです。\n\n重いパンチの撃ち合いと、KOシーンを描いて欲しいです。\n\nよろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1oCuruZJ4JWPN8-Yj80D7Rbyplp-wkFTq",
+      "nc": 170,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@ZhOhok/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3836674,
+      "client_id": 1324989,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=910734d33e9e8211e472c353307ca20e",
+        "srcset": "https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=910734d33e9e8211e472c353307ca20e, https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=520f1622d13f3f1b90ef1d06dd82a811 2x, https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=058ee5e6330b7e9381f001f6d2bdd795 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": true,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bd706310fa1454cc8ad8977803382b0c",
+        "srcset": "https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bd706310fa1454cc8ad8977803382b0c, https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=db0ff81f157a1c2a89770391953a7d26 2x, https://si.imgix.net/e69c1586/uploads/origins/468f352d-2046-4468-baaa-44fca788edd1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c4b15385eeae8d1ab47ddafe02b1d1d9 3x"
+      },
+      "body": "また会ったね！\n\n瑠璃ちゃん【https://static.f-list.net/images/charimage/43298910.png｜https://skeb.jp/@ZhOhok/works/1】の依頼をまたお願いしたいと思います。\n\n瑠璃ちゃんには、つむぎちゃん、もしくは同じようなプロポーションの女の子とガチンコ勝負をしてもらいたいです。大きさは同じくらいでお願いします。\n\nあと、値段のつけ方がよくわからなかったので、全戦闘はしなくていいです。残りはいつでも別の機会に提出できますから！画像は4～5枚くらいになると思います。\n\n勝者を選ぶか、コインをひっくり返すかは自由にしてください。\n\n画像1｜瑠璃と対戦相手が睨み合う。遠くから嘲り合っているのか、胸と胸を突き合わせているのか。\n参考文献\n- https://static.f-list.net/images/charimage/43467978.jpg\n- https://static.f-list.net/images/charimage/43468194.png\n\n画像2｜2人の少女は必死にもみ合い、すでに力を振り絞り、汗をかいている。\n参考文献\n- https://static.f-list.net/images/charimage/43467979.jpg\n- https://static.f-list.net/images/charimage/43468196.png\n- https://static.f-list.net/images/charimage/43468205.jpg\n\n画像3｜一人の少女が優位に立ち始め、潰し揉みか乳房潰しで勝ちに行こうとする。\n参考文献\n- https://static.f-list.net/images/charimage/43468114.png\n- https://static.f-list.net/images/charimage/43468116.jpg\n- https://static.f-list.net/images/charimage/43467980.jpg\n\n画像4｜私はあなたが描いたこの画像の大ファンで、敗者が同じような状態で、傷つき、つぶれていたらいいと思う。\n参考になりそうなもの\n- https://static.f-list.net/images/charimage/43467981.jpg\n追加参考文献：\n- https://static.f-list.net/images/charimage/43468128.jpg",
+      "nc": 187,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@ZhOhok/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3836674,
+      "client_id": 1324989,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a27e6ce6011f98a4816c19e261608a2f",
+        "srcset": "https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a27e6ce6011f98a4816c19e261608a2f, https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a5ae0b1394e80e6eaa22b3525fc7ad94 2x, https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5bd9da170a8460207cc6a693f40cc9c9 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=773584a1c854e96c9b418e82922024ba",
+        "srcset": "https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=773584a1c854e96c9b418e82922024ba, https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7e974edd80719c4289883be309fb93e7 2x, https://si.imgix.net/cf8536f1/uploads/origins/e2d5567c-6f79-44f6-8d56-95d63676ce62?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e5f42fd47e764645a03198914522295b 3x"
+      },
+      "body": "こんにちは！お元気ですか？\n\nレスラーの瑠璃 [ https://static.f-list.net/images/charimage/43298910.png ]の画像をお願いします。御社のつむぎちゃん[ https://www.pixiv.net/en/artworks/137745079 ]と同じようなプロポーションでお願いします。\n\nイラストの選択肢を2つあげたいと思います：\n\nオプション1：正面から見た瑠璃 [ https://www.pixiv.net/en/artworks/101751395 ] のようなしゃがんだポーズか、この [ https://www.pixiv.net/en/artworks/109046972 ] のような挑発的なポーズ。\n\nオプション2：瑠璃を後ろから撮った画像で、このように逞しい背中とお尻を見せる [ https://x.com/Arc_Edo11/status/1842325934336098396 ]。彼女の表情はイッているか、ちょっと見下している。",
+      "nc": 177,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

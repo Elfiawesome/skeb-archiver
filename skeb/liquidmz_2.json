@@ -1,7 +1,7 @@
 {
   "screen_name": "liquidmz_2",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3814773,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 145,
+    "nc": 128,
     "twitter_uid": null,
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/188f18bb/uploads/origins/2e2af053-4e18-4fe2-91fe-303b7a30493e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6240e38b4581fe663ff3d27aaebf1e8a, https://si.imgix.net/188f18bb/uploads/origins/2e2af053-4e18-4fe2-91fe-303b7a30493e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=465f2e782c92b0665b64481f5e895615 2x, https://si.imgix.net/188f18bb/uploads/origins/2e2af053-4e18-4fe2-91fe-303b7a30493e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3e82d31c7e2badf216bbbd4dda505e16 3x"
         },
         "body": "ビヲさん、はじめまして！あなたの作品がとても気に入ったので、このリクエストを送ります！\n\nクールでありながら可愛らしいあなたの画風が大好きです。私のキャラクターは毛むくじゃらのドラゴンです。どうぞご自身のスタイルで描いてください！\n\n描き上がりましたら、クラウドドライブ内の「重要な注意点」を確認し、見落としがないか必ずチェックしてください。\n\n温かいご協力に感謝します！\n\nhttps://drive.google.com/drive/folders/1FQCs6QmJ-J79QQ0dfJ4PhDU22m39EOEk",
-        "nc": 16,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=94cbe8291ac8dfaf7d88eb5dd65fad67, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=576ed36ec3f29839cb9a39de4f62d8db 2x, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ccc4aac55dac769ca749cc6c076e7673 3x"
         },
         "body": "こんにちは先生、私のキャラクター画の可愛さをください、お願いします、先生の画風が大好きです\n\nhttps://drive.google.com/drive/folders/1-28AiG6hKUo0hmN94zfuwvLjCbDJVnPJ",
-        "nc": 1,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -165,7 +165,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 177
+        "nc": 160
       },
       {
         "id": 2940431,
@@ -189,7 +189,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 3028509,
@@ -264,7 +264,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 145
       },
       {
         "id": 3719873,
@@ -291,7 +291,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 16
       }
     ]
   },
@@ -330,6 +330,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@liquidmz_2/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3814773,
+      "client_id": 2801412,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ed8abba1e9c997152017535a5d30831a",
+        "srcset": "https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ed8abba1e9c997152017535a5d30831a, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9d537e5589a0cd95530d1f53d413e43a 2x, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2460efd993c2dac075981996a0fd4121 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=94cbe8291ac8dfaf7d88eb5dd65fad67",
+        "srcset": "https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=94cbe8291ac8dfaf7d88eb5dd65fad67, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=576ed36ec3f29839cb9a39de4f62d8db 2x, https://si.imgix.net/2ca70c45/uploads/origins/aa11dce0-3ad5-4c65-bc1e-7b26fb8b9f11?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ccc4aac55dac769ca749cc6c076e7673 3x"
+      },
+      "body": "こんにちは先生、私のキャラクター画の可愛さをください、お願いします、先生の画風が大好きです\n\nhttps://drive.google.com/drive/folders/1-28AiG6hKUo0hmN94zfuwvLjCbDJVnPJ",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

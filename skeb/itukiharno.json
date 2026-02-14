@@ -1,7 +1,7 @@
 {
   "screen_name": "itukiharno",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3663127,
     "acceptable": true,
@@ -335,6 +335,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@itukiharno/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3663127,
+      "client_id": 29106,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=965f5c58ba22aa8fa307c0aa85d5528b",
+        "srcset": "https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=965f5c58ba22aa8fa307c0aa85d5528b, https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=20853e5104c13abe74c728b3c778c190 2x, https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=6a466017670c8ec41754f940575168a7 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8bea4e4452cf40f8cf68421a3397b449",
+        "srcset": "https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8bea4e4452cf40f8cf68421a3397b449, https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6b809ed33689512982c7866dd6b35e0d 2x, https://si.imgix.net/7978a5eb/uploads/origins/25cc907d-78be-4c9f-80f7-300b46f5da82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f2c7b9a86daff9e293df53d2c277be10 3x"
+      },
+      "body": "はじめまして！以前描かれていたオリジナルメダロットのデザインが気になりまして、この度リクエストをお送りさせて頂きました。メダロットとは関係のない、オリジナルのケモノキャラとなってしまうのですが、よろしいでしょうか…？\nキャラクター資料は以下となります。\nhttps://www.dropbox.com/s/b8m3m8ecg3ti3x1/murasame.jpg?dl=0\n\n↓他の参考画\nhttps://www.deviantart.com/new-ja/art/Character-Sketches-of-Murasame-2-746551292\nhttps://www.deviantart.com/new-ja/art/Character-Sketches-of-Murasame-746550967\n\nポーズやデザイン省略など、描きやすい形でお任せ致します。ご無理のない範囲で描いて頂ければ結構です！",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

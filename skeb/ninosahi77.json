@@ -1,7 +1,7 @@
 {
   "screen_name": "ninosahi77",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3279482,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 90,
-    "nc": 17,
+    "nc": 16,
     "twitter_uid": "1693445616947630081",
     "user_service_links": [
       {
@@ -116,7 +116,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 866456,
@@ -140,7 +140,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 128
       },
       {
         "id": 2496364,
@@ -167,7 +167,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 32
+        "nc": 33
       },
       {
         "id": 2828326,
@@ -203,7 +203,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 177
+        "nc": 33
       },
       {
         "id": 3083483,
@@ -230,7 +230,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 136
+        "nc": 153
       },
       {
         "id": 3521942,
@@ -254,7 +254,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "hokuhoku_imo33",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3894675,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 0,
+    "nc": 128,
     "twitter_uid": "1507313943181549576",
     "user_service_links": [
       {
@@ -115,7 +115,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 144
       },
       {
         "id": 1057128,
@@ -139,7 +139,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 161
       },
       {
         "id": 1164599,
@@ -163,7 +163,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 144
       },
       {
         "id": 1708738,
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 17
       },
       {
         "id": 1885046,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 3669698,
@@ -235,7 +235,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 144
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "MisaK_AnotherK",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 1419642,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": false,
     "accept_expiration_days": 30,
     "complete_expiration_days": 70,
-    "nc": 17,
+    "nc": 16,
     "twitter_uid": "2304895092",
     "user_service_links": [
       {
@@ -110,7 +110,7 @@
           "srcset": "https://si.imgix.net/fd9b50b2/uploads/origins/60a37c66-60fe-4d20-be89-8e751692fe1e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a6c591a4d5e3432cfd5ca96df64e220, https://si.imgix.net/fd9b50b2/uploads/origins/60a37c66-60fe-4d20-be89-8e751692fe1e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2c82f07967fd668d726df0d67ce1c33a 2x, https://si.imgix.net/fd9b50b2/uploads/origins/60a37c66-60fe-4d20-be89-8e751692fe1e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8bfb9ab0ac53bc828c5c9f7ba0bb5aa5 3x"
         },
         "body": "こんにちは！原作：綾辻行人『Anotherシリーズ』が大大大好きな長文子ちゃんです！\n早速ですが、アニメ版の赤沢泉美のイラストを描いて頂けないでしょうか？\n本編の様な<ある年>のシリアスな作風や世界観にするか、或いはIf設定の<ない年>の平和な日常系の作風や世界観にするかは、みさK(MisaK)さんにお任せします。\n構図や多少のアレンジも同じくお任せします。\n宜しくお願いします！(ｷﾘｯ\n\nhttps://drive.google.com/drive/folders/1qQzUR9Nf_q99Sf8C1ZxOdChFp8KOXMZ5?usp=drive_link",
-        "nc": 17,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 1
       },
       {
         "id": 2012412,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 2663650,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 16
       },
       {
         "id": 2812049,
@@ -244,7 +244,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 177
+        "nc": 33
       },
       {
         "id": 3242158,
@@ -295,7 +295,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 49
+        "nc": 160
       }
     ]
   },
@@ -340,6 +340,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@MisaK_AnotherK/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 1419642,
+      "client_id": 2616231,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=08a0bb29c393b92c91b593dc1416a1d9",
+        "srcset": "https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=08a0bb29c393b92c91b593dc1416a1d9, https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=503fdcf7c78783ba19d2d7a548d840f9 2x, https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7fbb621c49d005c7c374fa0ffd4275ea 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bc36d5f4d0ed2da308ef5b6007e2ba86",
+        "srcset": "https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bc36d5f4d0ed2da308ef5b6007e2ba86, https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6b3bf97b13624c51e13eae17935a6462 2x, https://si.imgix.net/c9ea6d32/uploads/origins/d53896a2-c484-44b9-85d1-1df820d0501b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7862c4f8593cef71a412ea026e83d348 3x"
+      },
+      "body": "初めまして！原作：綾辻行人『Anotherシリーズ』が大大大好きな長文子ちゃんです！\n早速ですが、アニメ版の見崎鳴のイラストを描いて頂けないでしょうか？\n本編の様な<ある年>のシリアスな作風や世界観にするか、或いはIf設定の<ない年>の平和な日常系の作風や世界観にするかは、みさK(MisaK)さんにお任せします。\n構図や多少のアレンジも同じくお任せします。\n宜しくお願いします！(ｷﾘｯ\n\nhttps://drive.google.com/drive/folders/1qQzUR9Nf_q99Sf8C1ZxOdChFp8KOXMZ5?usp=drive_link",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

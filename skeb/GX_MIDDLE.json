@@ -1,7 +1,7 @@
 {
   "screen_name": "GX_MIDDLE",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3369107,
     "acceptable": true,
@@ -381,6 +381,60 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@GX_MIDDLE/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3369107,
+      "client_id": 2034583,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=09b5e03531c70e837e41b74885eb1c04",
+        "srcset": "https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=09b5e03531c70e837e41b74885eb1c04, https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=10db81fbbb86ee026d60cad1f582d30c 2x, https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=000cbba74372e467bc536a1d3644dcdb 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=55a39315f1d9114f85a97817e7664125",
+        "srcset": "https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=55a39315f1d9114f85a97817e7664125, https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ac3106dd0a42580f1a3eb4bcab66266a 2x, https://si.imgix.net/760dfb41/uploads/origins/e05815ed-aa7c-4490-a2e1-d602d3d10766?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e25777473c49f1326b04e03a5bc2b079 3x"
+      },
+      "body": "お初にお目にかかります。つい最近フォローさせていただいいた所、Skeb募集開始のメールが届いたため、ご依頼をさせていただこうと思いました。\n\n・イラスト内容\n以前GXさんが描かれていたＳＦヴァルキュリアのヴァルキュリア搭乗時のパイロットスーツの設定画をお願いしたいです。\n\n正面・側面・背面の全身三面図でポーズは直立不動でお願いしたいです。\n\n構図の参考の資料にお使いください。\nhttp://nand74132.sblo.jp/s/article/187879478.html\n\n初のご依頼になりますがご検討のほどよろしくお願いいたします。",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@GX_MIDDLE/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "comic",
+      "tipped": true,
+      "creator_id": 3369107,
+      "client_id": 2578652,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=835ef9b3563a7070a3fa935c1faeb7ae",
+        "srcset": "https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=835ef9b3563a7070a3fa935c1faeb7ae, https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=06d179c8ae153e6bd850a4b915c18661 2x, https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=320ac9df413722982e33af06b6175077 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=76687e78db59f40584ce977265250517",
+        "srcset": "https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=76687e78db59f40584ce977265250517, https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d694218904ac3d9847398ef292353742 2x, https://si.imgix.net/12ce1215/uploads/origins/430a1a64-2e2b-487d-a180-afbc662064b2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ec79a129564f89c0908efff88a39cdbb 3x"
+      },
+      "body": "学園アイドルマスターの清夏、リーリヤ、莉波の三人の日常ほんわか漫画をお願いします！\n内容はお任せします！",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

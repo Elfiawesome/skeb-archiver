@@ -1,7 +1,7 @@
 {
   "screen_name": "mamemochi0710",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3862809,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 177,
+    "nc": 160,
     "twitter_uid": "1807421382994829312",
     "user_service_links": [
       {
@@ -115,7 +115,7 @@
           "srcset": "https://si.imgix.net/dce38a9a/uploads/origins/4c90000f-1214-45db-9fce-4b1b41cce379?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7e5b317cd0105085f45f3f96ac66f83d, https://si.imgix.net/dce38a9a/uploads/origins/4c90000f-1214-45db-9fce-4b1b41cce379?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=878a9faeea9102f519d04bae540980e2 2x, https://si.imgix.net/dce38a9a/uploads/origins/4c90000f-1214-45db-9fce-4b1b41cce379?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1670986441263e10ef192c33ef8cebc8 3x"
         },
         "body": "あなたの作品、大好きです！このキャラクターを描いていただけませんか？https://drive.google.com/drive/u/2/folders/1kBTCCdGftszHMb_4YXv1DPXKYUf049Zhポーズのアイデアをいくつか用意しましたが、自由にアレンジしてくださいね！\n\nhttps://drive.google.com/drive/u/2/folders/1mnBxzuHwuqlTpQTATfeREu1-WysSBQRg ご検討いただきありがとうございます！！",
-        "nc": 161,
+        "nc": 177,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -145,7 +145,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 49
       },
       {
         "id": 605197,
@@ -208,7 +208,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 185
+        "nc": 169
       },
       {
         "id": 1536049,
@@ -235,7 +235,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 49
       },
       {
         "id": 2135525,
@@ -259,7 +259,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 32
       },
       {
         "id": 3134887,
@@ -286,7 +286,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 128
+        "nc": 16
       }
     ]
   },

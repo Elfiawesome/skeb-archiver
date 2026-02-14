@@ -1,7 +1,7 @@
 {
   "screen_name": "__mumu__chamu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3844399,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 153,
+    "nc": 25,
     "twitter_uid": "1557715140489150464",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/d667b6d3/uploads/origins/3ae3f7e9-e3ff-4e7c-aed5-9d52686a7af7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cdda17adee4378f51e643ec2433b96fa, https://si.imgix.net/d667b6d3/uploads/origins/3ae3f7e9-e3ff-4e7c-aed5-9d52686a7af7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=649c6501d1621c8900ad210fd7ce03ae 2x, https://si.imgix.net/d667b6d3/uploads/origins/3ae3f7e9-e3ff-4e7c-aed5-9d52686a7af7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cd829f6ecb0091ecaf4884edaa2dca80 3x"
         },
         "body": "こなちちゃんさんの代理くんあるいは代理ちゃんのスチームパンクな衣装が見たいです！\n白衣差分とかあると助かります",
-        "nc": 17,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -136,7 +136,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 176
       },
       {
         "id": 3531664,
@@ -160,7 +160,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3787604,
@@ -187,7 +187,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 0
       },
       {
         "id": 3799076,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 16
       },
       {
         "id": 3817287,
@@ -238,7 +238,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 17
+        "nc": 145
       },
       {
         "id": 3817353,
@@ -265,7 +265,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 16
+        "nc": 17
       }
     ]
   },

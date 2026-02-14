@@ -1,7 +1,7 @@
 {
   "screen_name": "0301_hideo",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3880838,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 10,
     "received_requests_average_response_time": 1709,
     "completing_average_time": 45308,
-    "nc": 16,
+    "nc": 128,
     "twitter_uid": "2016082041746624512",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/93cb1c54/uploads/origins/7f4a079a-5a77-4c5c-a335-f196fa0ba34c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d5498eef08ea66236563d36d3ff3444b, https://si.imgix.net/93cb1c54/uploads/origins/7f4a079a-5a77-4c5c-a335-f196fa0ba34c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1ce2dcfe2ef7ce11c76700b241de8dc8 2x, https://si.imgix.net/93cb1c54/uploads/origins/7f4a079a-5a77-4c5c-a335-f196fa0ba34c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7e46bd0cf5344cd15c26f248c3325566 3x"
         },
         "body": "私のキャラクターに見える限り、何をしても構わない https://drive.google.com/drive/folders/1xPDAjX99EJrNgf0LtkC_tndQmMXKZlYU?usp=sharing",
-        "nc": 0,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -141,7 +141,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 144
       },
       {
         "id": 3097944,
@@ -165,7 +165,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 3396689,
@@ -246,7 +246,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 0
       },
       {
         "id": 3808266,
@@ -273,7 +273,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 17
+        "nc": 16
       }
     ]
   },

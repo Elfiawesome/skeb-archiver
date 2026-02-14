@@ -1,7 +1,7 @@
 {
   "screen_name": "hiyori_tamagoo",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3069202,
     "acceptable": true,
@@ -335,6 +335,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hiyori_tamagoo/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3069202,
+      "client_id": 3400017,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6d630350aa8ce952502aa01b7c32f381",
+        "srcset": "https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6d630350aa8ce952502aa01b7c32f381, https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7352e992028e5736a2c11eb7418eaf1b 2x, https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f40f9043190da78f95d51f70d9a11035 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3cca47d5f00121d9e9f470cd92baa7d9",
+        "srcset": "https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3cca47d5f00121d9e9f470cd92baa7d9, https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b8d6c17fd55fb151f2ba06c5c14a734f 2x, https://si.imgix.net/2725a382/uploads/origins/2c027f7b-7fa3-4fa7-99a3-465761925385?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=10283a3fd6e15e627d7b2364bf723284 3x"
+      },
+      "body": "はじめまして！\nVtuberのまちこてんてーと申します。\nひよりさんのイラストの雰囲気がとっても好きなのでリクエストさせていただきました。\n\nゆるいイラストで全てお任せでお願いいたします。\n衣装もお任せいたします。\nどうぞよろしくお願いいたします。\n\nhttps://x.com/machikori3/status/1979809489412088001?s=46&t=0zgIFH7c-KmAw3U5mYjJ2w",
+      "nc": 128,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "screen_name": "yukaokaokao",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3718742,
     "acceptable": true,
@@ -369,6 +369,60 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@yukaokaokao/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3718742,
+      "client_id": 3377580,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9ac23ed4b20563553be1e192980beb12",
+        "srcset": "https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9ac23ed4b20563553be1e192980beb12, https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b77d187b4ed134cd4ead9c727ca5c758 2x, https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c0743818d95661e2cb93b7970640eae1 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ec0f581e621f6336298cecdce4ec8c0d",
+        "srcset": "https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ec0f581e621f6336298cecdce4ec8c0d, https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eaf0d95b1a9b62148e08135b42f09dcb 2x, https://si.imgix.net/684f3af7/uploads/origins/5f9b9ed0-1861-41c7-a70b-54e7a5c9720d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4f8d10855437cc56cfbaef612e659920 3x"
+      },
+      "body": "こんにちは！僕のOCを描いてほしいんだ。名前はValenta Guan。https://imgur.com/a/mBOLzAW\n筋肉質で、背が高くて、胸が大きいです。\nどんなポーズや表情でもかっこいいと思ってくれたら嬉しいです。\nよろしくお願いします！",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@yukaokaokao/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3718742,
+      "client_id": 2526894,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=478c0013dc2822abe2939e348588650b",
+        "srcset": "https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=478c0013dc2822abe2939e348588650b, https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f948fe257ce85b51c8e67e6792485131 2x, https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3814f5351438da020a7ee7a4d187e3a0 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=30d3d9d645ba44cc938196f4f51cd600",
+        "srcset": "https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=30d3d9d645ba44cc938196f4f51cd600, https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5c7e280c7d95bcee85b849b4417066c3 2x, https://si.imgix.net/219a14a1/uploads/origins/0b59e22d-6f88-4073-a95f-ec14a2581e4c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=079921d3066b7d50c06fa8733ddf9de0 3x"
+      },
+      "body": "ゆかおさんのskeb待ち望んでいました！\nお絵描き配信で使っているアバターを描いていただきたいです。\n構図などはお任せします。\nこれからも応援しています！！\n\nhttps://x.com/haine_ramm/status/1929568203816247541",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T14:57:26.827357+00:00"
     }
   ]
 }

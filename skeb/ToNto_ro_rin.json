@@ -1,7 +1,7 @@
 {
   "screen_name": "ToNto_ro_rin",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3597175,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 144,
     "twitter_uid": "1828337395038855169",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/05616c8d/uploads/origins/d9621b14-2dcb-487c-b092-3624cea9f088?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1ffd27e0699cdc6593890f9968a31aa1, https://si.imgix.net/05616c8d/uploads/origins/d9621b14-2dcb-487c-b092-3624cea9f088?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=014aed21fbda90f4240c1a5ce9b35b25 2x, https://si.imgix.net/05616c8d/uploads/origins/d9621b14-2dcb-487c-b092-3624cea9f088?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=909a98f0cd0605621a4947b4532923f8 3x"
         },
         "body": "うちのうささきを思うままに描いてほしいですわ～！\n\nhttps://x.com/yamato_cub/status/2021150010952516015?s=20",
-        "nc": 144,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -151,7 +151,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 161
+        "nc": 33
       },
       {
         "id": 1014611,
@@ -175,7 +175,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 33
       },
       {
         "id": 1133245,
@@ -202,7 +202,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 49
+        "nc": 48
       },
       {
         "id": 1394696,
@@ -229,7 +229,7 @@
             "genre": "video"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 2759049,
@@ -253,7 +253,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       },
       {
         "id": 3722743,
@@ -277,7 +277,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 128
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "popipu_0u0",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T14:57:26.827357+00:00",
   "profile": {
     "id": 3888927,
     "acceptable": false,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 129,
+    "nc": 144,
     "twitter_uid": "1555934577138745349",
     "user_service_links": [
       {
@@ -115,7 +115,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 176
       },
       {
         "id": 1672774,
@@ -190,7 +190,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 3604105,
@@ -214,7 +214,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 3665297,
@@ -238,7 +238,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 160
       }
     ]
   },
