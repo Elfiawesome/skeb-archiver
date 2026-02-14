@@ -1,0 +1,419 @@
+{
+  "screen_name": "meromuri",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 486211,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/2003728099796738048/OoLRjmyG.jpg",
+    "name": "メロ無",
+    "nsfw_acceptable": false,
+    "screen_name": "meromuri",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1106078013588803584/1749796458/1500x500",
+    "body_size": 1000,
+    "received_works_count": 5,
+    "received_nsfw_works_count": 1,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "おえかきたのしいskeb：https://skeb.jp/@meromuri ご依頼ご相談DM📨♡",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 120,
+    "nc": 33,
+    "twitter_uid": "1106078013588803584",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "meromuri",
+        "url": "https://x.com/meromuri"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fmeromuri%2Fbackground%3Fd%3D5dc9f2?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU55d3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Oh44Ot54Sh&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=4b2c291ea3d7a27f65887d3fe596c591",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 7000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@meromuri/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 486211,
+        "client_id": 3698871,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110a39e5a837aca73819b391a92a6f5a",
+          "srcset": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110a39e5a837aca73819b391a92a6f5a, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4836e8004ec52e6df102517859fa6d53 2x, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=242afbb74d2ef5f70700eb72b16389ee 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d642069d4a6d9279b69f2a41a8728d07",
+          "srcset": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d642069d4a6d9279b69f2a41a8728d07, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1c33bb00205209f53c078c93ff08ee37 2x, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ea2b88e733d114f519dd9b02357a6ad3 3x"
+        },
+        "body": "私はあなたのアートスタイルが大好きで、私のドールキャラクターのイメージをリクエストしたいのです！\n\nこの写真のようなドレスを着せてあげたいのですが、どんな変更でもお直しでもご自由にしてください。https://drive.google.com/file/d/1UZXYzj4gM6MqRj1rfthPsgxgiVzv6uNt/view?usp=sharing\n\nおちゃめな性格なのですが、いつも真面目な顔になりがちです。  好きなポーズで描いてください。\n\n顔のクローズアップ\n正面: https://drive.google.com/file/d/1SrQmA0L0QgsbdSnDclThTtapSbY3Z93b/view?usp=drive_link\n横: https://drive.google.com/file/d/1_dxHYNttc51ETW_eqqQpNzghob1QMkXS/view?usp=drive_link\n\n特筆すべき点は、ひび割れた顔、色の違う目、装飾された角である。\n\nよろしくお願いします！",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@meromuri/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 486211,
+        "client_id": 2648151,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35e124dd016f9937c6ffc06c7d763033",
+          "srcset": "https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35e124dd016f9937c6ffc06c7d763033, https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=79e5ee96f99a326e9acd751c6bc2f6f1 2x, https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9aacc580e51223cee3915e503be93d22 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0f8205b908ab30e0dca21f98f6aebb7b",
+          "srcset": "https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0f8205b908ab30e0dca21f98f6aebb7b, https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=735bdee9fff42996eac48306ffbe212c 2x, https://si.imgix.net/42c9c1a1/uploads/origins/d0be67d6-5335-477f-8fd4-0dbd464eb3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d7f8f43f992893b8e645f43b5ab3a964 3x"
+        },
+        "body": "こんにちは！私のocを描いていただけたら嬉しいです！彼女に似合うと思うポーズや背景を自由にやってください！もし彼女にかわいい服を着せたいなら、自由にやってください！ご検討ありがとうございます！あなたの作品が大好きです。\n\nhttps://toyhou.se/27535943.mei",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@meromuri/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 486211,
+        "client_id": 2198360,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=890ff84529e997ebb43a6c2d52ca88c9",
+          "srcset": "https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=890ff84529e997ebb43a6c2d52ca88c9, https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=57140072b24b65ace2ca9364db56dcd1 2x, https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b919dc949515d2b418cc77232080f878 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=633fd2cbd4d6fb73d1a2d872f7cfc790",
+          "srcset": "https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=633fd2cbd4d6fb73d1a2d872f7cfc790, https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=64eec9dbe05d620f26e2efa65ee74abb 2x, https://si.imgix.net/51bf9519/uploads/origins/545657bb-a147-4c05-84cc-d4f9a68de808?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2ce621dcae4f1510ca524f4d9fe5b500 3x"
+        },
+        "body": "初めまして。Vtuberの春ノまりあと申します。\n\nメロ無様のイラストに一目惚れしてしまいましたので、ご依頼させて頂きました。\n\nイラストイメージ\nVtuberのお姿を描いて頂きたいです。こちらも参照にしていただければと思います。\n\nhttps://x.com/pien_maria/status/1742850794670678438\n\n普段は明るい感じのキャラデザなのですが、ドロドロ、闇、病みな感じで描いて頂けると嬉しいです。\nパンダがモチーフなので、パンダのぬいぐるみを持ってる(？)など、パンダのぬいぐるみをどこかに入れていただけると助かります。流血表現等もとても嬉しいのですが、流血表現ありの場合無しのverもいただけると嬉しいです！表情差分もいくつかいただけるとありがたいです。\n\n使用目的\nYoutubeのサムネイル、歌ってみた(これは確定ではありません)Xの告知等で使用させていただきたいです。透過素材もいただけるととても嬉しいです！\n\nご縁がありましたらよろしくお願い致します。",
+        "nc": 161,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@meromuri/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 486211,
+        "client_id": 1058338,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=19699e346f4451557b9d7fec1410d09e",
+          "srcset": "https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=19699e346f4451557b9d7fec1410d09e, https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=065db368a24f41f17b500f65e5886aa4 2x, https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3c30b82cea856217e6b28095ebd280f4 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a02a3f9c8f9a0566bc7f185e158b1d0",
+          "srcset": "https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a02a3f9c8f9a0566bc7f185e158b1d0, https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ca49bf3524b1a0f0f2e25c71e2d5cf40 2x, https://si.imgix.net/8506c6ab/uploads/origins/9cedf4f9-fd03-4ff8-b6c1-9fbbdef70ead?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=055247b06b6d79ed8dc78d5f9b35f2be 3x"
+        },
+        "body": "こんにちは！あなたのアートスタイルが大好きです！とてもキュートで不気味です！\n\n私のVtuberキャラクターのイラストをお願いしたいです。彼女は生きているぬいぐるみで、紫のボタンの目をしています。彼女はぬいぐるみでいっぱいです！\n\nあなたのダークなアートスタイルが大好きなので、ぜひ彼女を描いてほしいです。また、彼女に新しい服をデザインしてくれたらうれしいです。もしそうでなければ、それでも構いません！胸のハートのワッペンは、息をして見せる必要がある。\n\nキュートで不気味な彼女を描いてください。血、首を切られたテディベアのぬいぐるみ、針と糸、たくさんのフリルなど、人形っぽい要素を自由に加えてください。彼女の紫のボタンの目と胸のハートパッチを忘れないでください。\n\nご検討ありがとうございました\n\nhttps://drive.google.com/drive/folders/1o6Gf1jB4fbn_xvdwsg5vBm8OnHguqW2N",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@meromuri/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 486211,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=02645f05cdbfce8458bead2ef2b5bdb3",
+          "srcset": "https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=02645f05cdbfce8458bead2ef2b5bdb3, https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e86b4d497c5d2c59ac038246506fa834 2x, https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f9f587ab7e9ef991abffb3940401d57a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f35cec2f361aec60f659a3521e3c62a2",
+          "srcset": "https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f35cec2f361aec60f659a3521e3c62a2, https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4af40dbe1fb724b6733f2c5fe77e26b4 2x, https://si.imgix.net/ca09151d/uploads/origins/42905b24-99a0-44a2-ae15-f39ca10b565a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=11f480e732a6877a61e968720aa6f5be 3x"
+        },
+        "body": "メロ無さん\n初めましてリクエスト失礼します💌\n\nメロ無さんの暗くて可愛い絵がとても好きです！もし宜しければ私のOCを描いて頂きたいです♩\n\n【キャラクター資料】\nhttps://drive.google.com/drive/folders/102JlxpDJ6ywHlPU-7KZcOH01OprBmF9f\n\nもしご縁がありましたらよろしくお願いいたします†",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 604119,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "御崎悠",
+        "screen_name": "misaki_yu1522",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1950115471262699520/FJQJo-90.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1267089472346140672/1728965884/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      },
+      {
+        "id": 1252870,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "シロネコバン",
+        "screen_name": "shiro_neko_ban",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1473996618743828482/NesCh48G.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1383329374233976835/1640263155/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 2965238,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "おててやさん🐾「手素材」メインのフリーイラスト",
+        "screen_name": "oteteyasan",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1715507269797052416/pejdWO9o.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1715506316641488896/1698265453/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3222687,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ステラ@ご依頼募集中",
+        "screen_name": "StellaBacopa",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1906811882742370304/9mWVOVXJ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1778907604988882944/1740541194/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 14,
+        "complete_expiration_days": 80,
+        "skills": [
+          {
+            "genre": "video"
+          },
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3487333,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "キャラコ❣️Skeb25%OFF中",
+        "screen_name": "Kyarako_0220",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar/media.misskeyusercontent.jp%2Fio%2Fdacbee81-314a-4c53-b77e-078f775af230.gif?avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/dd44fc02-76e0-48ac-a244-e4bb8942b405.gif",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      },
+      {
+        "id": 3613900,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "あ",
+        "screen_name": "sg_makuri",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1887462409138479104/H1uPcNrt.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1601646248590966784/1745136252/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 16
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 7000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 500,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@meromuri/works/5",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 486211,
+      "client_id": 3698871,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110a39e5a837aca73819b391a92a6f5a",
+        "srcset": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110a39e5a837aca73819b391a92a6f5a, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4836e8004ec52e6df102517859fa6d53 2x, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=242afbb74d2ef5f70700eb72b16389ee 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d642069d4a6d9279b69f2a41a8728d07",
+        "srcset": "https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d642069d4a6d9279b69f2a41a8728d07, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1c33bb00205209f53c078c93ff08ee37 2x, https://si.imgix.net/9b1c52a9/uploads/origins/3653e4fc-2864-42b6-8dff-56966431caf1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ea2b88e733d114f519dd9b02357a6ad3 3x"
+      },
+      "body": "私はあなたのアートスタイルが大好きで、私のドールキャラクターのイメージをリクエストしたいのです！\n\nこの写真のようなドレスを着せてあげたいのですが、どんな変更でもお直しでもご自由にしてください。https://drive.google.com/file/d/1UZXYzj4gM6MqRj1rfthPsgxgiVzv6uNt/view?usp=sharing\n\nおちゃめな性格なのですが、いつも真面目な顔になりがちです。  好きなポーズで描いてください。\n\n顔のクローズアップ\n正面: https://drive.google.com/file/d/1SrQmA0L0QgsbdSnDclThTtapSbY3Z93b/view?usp=drive_link\n横: https://drive.google.com/file/d/1_dxHYNttc51ETW_eqqQpNzghob1QMkXS/view?usp=drive_link\n\n特筆すべき点は、ひび割れた顔、色の違う目、装飾された角である。\n\nよろしくお願いします！",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

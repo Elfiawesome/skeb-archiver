@@ -1,0 +1,564 @@
+{
+  "screen_name": "mimiminomi_333",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 2272014,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://proxy.misskeyusercontent.jp/avatar.webp?url=https%3A%2F%2Fmedia.misskeyusercontent.jp%2Fmisskey%2Fbc6e09b9-545c-42d3-9855-4613c0d4e418.png&avatar=1",
+    "name": "竜巻うどん 🔞",
+    "nsfw_acceptable": true,
+    "screen_name": "mimiminomi_333",
+    "language": "ja",
+    "header_url": null,
+    "body_size": 1000,
+    "received_works_count": 11,
+    "received_nsfw_works_count": 11,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "オリキャラ量産機。\nオリジナルのえっちな絵と漫画描いてます。",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 76952699,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": "tatsumaki-udon",
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://bsky.app/profile/tatsumakiudon.bsky.social",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 49,
+    "twitter_uid": null,
+    "user_service_links": [
+      {
+        "provider": "misskey_io",
+        "screen_name": "Udon_Tatsumaki",
+        "url": "https://misskey.io/@Udon_Tatsumaki"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fmimiminomi_333%2Fbackground%3Fd%3Dc7e123?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU9Dd3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=56uc5be744GG44Gp44KTIPCflJ4&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=2dafc32c0ab067e086ba839d705d174e",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 8000
+      },
+      {
+        "genre": "comic",
+        "default_amount": 15000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@mimiminomi_333/works/11",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2272014,
+        "client_id": 232138,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=214f488695401e263dd9060895abc86e",
+          "srcset": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=214f488695401e263dd9060895abc86e, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=dfe878429a922b6694075663e3c0bc57 2x, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=33ce417458f8938fc8246303722fb134 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=325a25ee01dc600e0c3c0d53abda3000",
+          "srcset": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=325a25ee01dc600e0c3c0d53abda3000, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=98f93d9e1eacbd84d02564b109eb3dcb 2x, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9c931b9679635f3d6dff8618db4b0474 3x"
+        },
+        "body": "先日はありがとうございました。\n\nムク様が下半身丸出しでこたつに入っているイラストをお願いしたいです。\n\n以下細かい要望です。\n・外から見ると健全にのんびりしているように見えるけど、こたつの布団部分をめくるとドスケベになっている、みたいなイメージです。\n・こたつの中の身体はムレムレになっていると嬉しいです。\n\n以上になります。\nよろしくお願いします。",
+        "nc": 176,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/10",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "comic",
+        "tipped": false,
+        "creator_id": 2272014,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d65f7ef836eca250e7fe6e9cac395e43",
+          "srcset": "https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d65f7ef836eca250e7fe6e9cac395e43, https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a02c73d8c6ecf950e8f42f8c06456fbb 2x, https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3a4c56764d7707021bcc5c5cb832c988 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0794ea6efe22b47ebfa07c50ff3cf6f1",
+          "srcset": "https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0794ea6efe22b47ebfa07c50ff3cf6f1, https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a805947f0cb72db90bcc66d5aed6c1f2 2x, https://si.imgix.net/97dbac1a/uploads/origins/bf613729-4056-438a-8659-fe55966a1d80?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=23d51f37a6cb2eb8c3af81571da00827 3x"
+        },
+        "body": "はじめまして、オリジナル作品の萬開団シリーズやskeb作品等を拝見させて頂いております　竜胆さんや椿さんの裸晒し羞恥や野ション、放尿辺りが特に好きです\npixiv.net/artworks/123523314\npixiv.net/artworks/121826387\nskeb.jp/@mimiminomi_333/works/2\n\npixiv.net/artworks/123094480\npixiv.net/artworks/116593483\n鈴蘭くんの設定から同じ屋根の下の集団生活でフェチというかマニアック寄りなのですが、ある種王道な性癖シチュを描いて欲しくなり依頼させて頂きました\n\n※希望の内容を盛り込んで頂くのを優先に、内容OKでもおまかせで不足がありましたら条件付き再送もご検討ください（シチュエーションに応じてor竜巻うどんさんの筆が乗ってボリュームが増えそうでしたら、その辺も加味して頂ければ）\n※ラフやボツ案が出ましたら、個人で愉しむ範疇でそういうのを見るのも好きでして、できるだけpsdに未結合レイヤーなど残してくださると嬉しいです\n\n■お題\n萬開団の雑務で洗濯をすることになった鈴蘭くん（設定的に男にやらせないとかでしたら、何かの手違いorこちらのように紫陽花や藤や菊の誘惑や悪戯で～とかでも興奮します）\npixiv.net/artworks/119284531\npixiv.net/artworks/116982095\n\n顔見知りのお姉様方や同僚の脱ぎたて下着（特にふんどし）に囲まれて視覚も嗅覚も刺激され辛抱たまらず、それらをオカズに嗅いだりしゃぶったりしながら背徳の自慰行為をして気持ちよく盛大にぶちまけ汚してしまう（どうせ洗濯するから・・・とか内心で言い訳したりしなかったり）\n\npixiv.net/artworks/124170121\npixiv.net/artworks/102560566\nふんどしは竜胆さん、お尻に定評のある3人、まとめ②の若手3人辺りを優先順に描けるだけ、「竜胆」みたいな名前だけor極限まで簡略化した顔アイコンで誰のか分かるフキダシや注釈を付けつつ、脱ぎ方や皺、蒸れ感や汗の染み具合、生々しい小便染み（大小濃薄）や縮れ毛など、キャラの個性の出た使用済み感（陰毛や小便染みは多くのキャラに付いてて、黄ばみだけパートカラーだと嬉しいです）",
+        "nc": 33,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/9",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2272014,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b4fa453c2639636bd499f8bb836f1c0d",
+          "srcset": "https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b4fa453c2639636bd499f8bb836f1c0d, https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3abe7ddbfc85156d369caf6bfd58ab2c 2x, https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5e1b65a8367105dd255340d91bb68362 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=23b46ebc077b2eb2ff114638a307c233",
+          "srcset": "https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=23b46ebc077b2eb2ff114638a307c233, https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=96c37c8e591017b02464f3c00fd6515f 2x, https://si.imgix.net/1fd6a5b5/uploads/origins/854d491a-8d10-4535-9578-47f08ad4f7e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d84bee88873cd2d1b00711d1f5dd8724 3x"
+        },
+        "body": "ボクっ娘の幽霊Vtuberの灯火ゆらのエロ絵をお願いします。\n\n・イラストは竜巻うどんさんが描かれたこちらのイラストと同様の構図とシチュエーションです\nhttps://skeb.jp/@mimiminomi_333/works/8\n\n\n・灯火ゆらの服装は赤系の晴れ着で長めの髪はお団子ヘアーでまとめています\nhttps://twitter.com/tomoshibiyura/status/1760109496977039415?t=bnm3_ZS410f5CVXH6zoNFw&s=19\n\n\n・構図とシチュエーションは竜巻うどんさんが描かれた絵と基本同じですが、細かい箇所が異なります\n\n\n1.灯火ゆらは身長147cmのスレンダーな体型で小ぶりな胸と縦へそです\n\n2.身体の落書きの配置はおまかせしますが、「大吉」や「大当たり」、「正」に加えて「2025年 初負け！」と灯火ゆらのファンマークであるオバケとカボチャ「👻🎃」が書いてあります\n\n3.イラスト左下手前の尻アップ絵を無くし、かわりに右後ろにある煽りアングル全裸絵を左下手前に配置でお願いします\n\n\n補足ですが、灯火ゆらはR18ファンアートをOKしています\nhttps://twitter.com/tomoshibiyura/status/1635302314369241089?t=p8JAYpy7c9dkEVQ-TLbCRw&s=19\n\n\n細かい注文が多いですが、ご検討よろしくお願い致します\n\nhttps://twitter.com/tomoshibiyura/status/1764089903468699847?t=ydeekPpEhCx9wDbdMY43IQ&s=19",
+        "nc": 33,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/8",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2272014,
+        "client_id": 232138,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8176679da3a30ee2beb368a8fd469e31",
+          "srcset": "https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8176679da3a30ee2beb368a8fd469e31, https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=bd87c4e0b7ff8d63b6316c31bbb4d36c 2x, https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=a43405387e0373ab64b8ab742e82e216 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b7aaa5cb81b056ed16bc353d8033ca52",
+          "srcset": "https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b7aaa5cb81b056ed16bc353d8033ca52, https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b126ea5384a1a0706f594eabf2cbf373 2x, https://si.imgix.net/8a902fd2/uploads/origins/de0a87d2-00f4-48d5-b52a-881c54f639b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4ba7477d9d896b0345b1c55d2244924e 3x"
+        },
+        "body": "先日はありがとうございました。\n\n創作鬼娘の紫陽花さんが羽根つき勝負にボロ負けし、顔だけでは足りずに身体中に墨を塗られているイラストをお願いしたいです。\n\n以下細かい要望です。\n・ボコボコに負けている事に悔しそうな顔をさせてください。\n・https://www.pixiv.net/artworks/101314251 のような感じで、自分から着物をはだけておっぱい等に落書きされている状態にしてください。\n・キャラ的に違和感があるなら別キャラでも大丈夫です。\n\n以上になります。\nよろしくお願いします。",
+        "nc": 32,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/7",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d8517933/uploads/origins/61599f84-2836-4798-b165-009c54f0ea25?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=32dc5cb5050e1402e6b73e67cfd73390",
+          "srcset": "https://si.imgix.net/d8517933/uploads/origins/61599f84-2836-4798-b165-009c54f0ea25?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=32dc5cb5050e1402e6b73e67cfd73390, https://si.imgix.net/d8517933/uploads/origins/61599f84-2836-4798-b165-009c54f0ea25?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1eeca2cd8c30354c8514b6987cdd7c11 2x, https://si.imgix.net/d8517933/uploads/origins/61599f84-2836-4798-b165-009c54f0ea25?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d75f8971c363c1ad478ff11ca5393b80 3x"
+        },
+        "private": true,
+        "genre": "comic",
+        "tipped": true,
+        "creator_id": 2272014,
+        "nc": 33
+      },
+      {
+        "path": "/@mimiminomi_333/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2272014,
+        "client_id": 232138,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d2c0511536920019c98941953256d6e0",
+          "srcset": "https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d2c0511536920019c98941953256d6e0, https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=8da749fcaf1ed73c2ba7a606a692ec39 2x, https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c8f2a18834628b61cfcca0a9c40509c7 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d1aee250cd5ba9c977bb822ab02f4696",
+          "srcset": "https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d1aee250cd5ba9c977bb822ab02f4696, https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=11ac182262e28e67f5b5b46fa8d58421 2x, https://si.imgix.net/d008b206/uploads/origins/d15e690c-5da2-4833-a6fc-3caab024c676?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=263239da2e8d985e500966ff3bb9e1bc 3x"
+        },
+        "body": "先日はありがとうございました。\n\n少し前に上げられていたスライム娘のメルトちゃんがエッチだったので、彼女がおっぱいから粘液をダラリと垂らして飲ませてくれるイラストをお願いしたいです。\n(ドライアドさんがシロップを飲ませているイラストがあったのでその光景を見て自分も真似してみた…みたいなイメージ？)\n\n以下細かい要望です。\n・ポーズはおっぱいを両手で持ち上げてギュッと握り、粘液を絞り出してる感じでお願いします。\n・表情はイタズラっぽい感じにして下さい。\n\n以上になります。\nよろしくお願いします。",
+        "nc": 33,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/5",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6e04c5d7/uploads/origins/4479ee80-9c97-4626-8d34-778c201c0e2a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d8774ef779184240a6a99860b6381e55",
+          "srcset": "https://si.imgix.net/6e04c5d7/uploads/origins/4479ee80-9c97-4626-8d34-778c201c0e2a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d8774ef779184240a6a99860b6381e55, https://si.imgix.net/6e04c5d7/uploads/origins/4479ee80-9c97-4626-8d34-778c201c0e2a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=da2aa56cf3f004a0ffd5a0553b244fcc 2x, https://si.imgix.net/6e04c5d7/uploads/origins/4479ee80-9c97-4626-8d34-778c201c0e2a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=eadd5c655314293243f0bafcb247b5da 3x"
+        },
+        "private": true,
+        "genre": "comic",
+        "tipped": true,
+        "creator_id": 2272014,
+        "nc": 161
+      },
+      {
+        "path": "/@mimiminomi_333/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2272014,
+        "client_id": 232138,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=db0f093d9ccea66410212bbf5f4dfc0f",
+          "srcset": "https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=db0f093d9ccea66410212bbf5f4dfc0f, https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=424fd88906404ce9f1c4bf16bd262991 2x, https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2fa981f8b9c00d8cb20c933a7ec315a5 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ce3caf933c2d9590115bb4a544a7ca6e",
+          "srcset": "https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ce3caf933c2d9590115bb4a544a7ca6e, https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0ac2271443c37285b5ae2306296b5678 2x, https://si.imgix.net/3fe62cb0/uploads/origins/df850e2c-d781-4390-b734-668671fd2163?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1e1d1b3254879cb707fbc3499f746f0e 3x"
+        },
+        "body": "先日はありがとうございました。\n\n創作鬼娘の睡蓮さんがお酒に酔って着物をはだけ、おっぱいを丸出しにしているイラストをお願いしたいです。\n\n以下細かい要望です。\n・汗をかいて火照っている感じの身体でお願いします。\n・キャラ的に酔わないとか他にこのシチュが似合う娘がいるとかがあったら他の娘でも大丈夫です。\n\n以上になります。\nよろしくお願いします。",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2272014,
+        "client_id": 429321,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7cc355cf6fe394c3551cefbf2c037b30",
+          "srcset": "https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7cc355cf6fe394c3551cefbf2c037b30, https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5fe88fe8fee89e3478832adc90e60c20 2x, https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=456f5c4224c35fbddf51a5fca7d000f3 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=546485175f9fd0a4b857f6ecb2e1396b",
+          "srcset": "https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=546485175f9fd0a4b857f6ecb2e1396b, https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f4fe385c80c881f3adee99fc5a381605 2x, https://si.imgix.net/362ee2a6/uploads/origins/7bfe9354-e143-45ac-9edc-ff8727f420eb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=35eda80e9d164d6a303032a11e6cf090 3x"
+        },
+        "body": "竜巻うどん🔞先生。\nはじめまして。先生の絵柄に魅了された1人です。\nゼルダ新作について、下記を依頼したく、ご検討頂けますでしょうか。\n\n〇キャラクター：ゼルダ姫とソニア女王（ゼルダの伝説 ティアーズ オブ ザ キングダム）\n　※ソニア女王に関しては、資料URLからご参考ください。\n〇体型：AV女優みたいなグラマラスな体型\n〇シチュ：過去のハイラル王国に転移され、侍女としてソニア女王に仕えることになったゼルダ姫。真夜中に女王の寝室に呼び出されて秘密のご奉仕をする。\n\n〇納品物：メインポーズを中心に、各自の差分をお願いしたいです。\n・メインポーズ：熱帯夜で汗をかいた腋を披露するソニア女王。（https://twitter.com/tanuz555/status/1658058216654397445/photo/1の1番目イメージ）\n（上記のように上半身をベースに、①まだ腕を上げていない様子、②腕を上げて両腋を披露する様子が各自一枚ずつあればと思います）\n・差分：腋毛なし、腋毛あり、シースルーランジェリー、裸を差分としてお願い致します。\n（メインポーズのゼルダ姫バージョンも差分としてお願いできますでしょうか。）\n\n物凄く細かい長文のリクエストで大変申し訳ありませんが、\n先生の素敵な絵でこのシチュが見たく、この内容でリクエストさせて頂きます。\n\nご検討のほど、どうぞよろしくお願い致します。\n\nhttps://zelda.fandom.com/wiki/Queen_Sonia",
+        "nc": 176,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2272014,
+        "client_id": 232138,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=34c50db999a090a923f0e1fc9a8e4ea6",
+          "srcset": "https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=34c50db999a090a923f0e1fc9a8e4ea6, https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7928d32a8497ff89f17c1b5e0b4344e0 2x, https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=76e4e7e21d34276c43e3703908d21b23 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dc32efdf5b527d9c8cfb97f8ed2cbad2",
+          "srcset": "https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dc32efdf5b527d9c8cfb97f8ed2cbad2, https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8013ce56b92b61c620b3fb914865b40b 2x, https://si.imgix.net/c026a4b1/uploads/origins/cef4aac4-2aca-4316-ae74-944dfd8a386f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=56559adae2a84c78de782f5f04791ba2 3x"
+        },
+        "body": "はじめまして。\nスケベな体の和装に惹かれたので依頼させていただきます。\n\n創作鬼娘の椿さんが厠でお尻を丸出しにして踏ん張っているイラストをお願いしたいです。\n\n以下細かい要望です。\n・ローアングルでお願いします。\n・おしっこ等を出していると嬉しいですが苦手でしたら描かずにポーズだけでも大丈夫です。\n\n以上になります。\nよろしくお願いします。",
+        "nc": 176,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mimiminomi_333/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2272014,
+        "client_id": 890477,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1846eccce5ab3a62a967fff834aacaed",
+          "srcset": "https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1846eccce5ab3a62a967fff834aacaed, https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d72264989b72bd8605b0b8d05a07692d 2x, https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7002a375b80e47cc33cd5a7d9ca94ae0 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3d0bf76d89d59b40cdb6ee7fbcfca657",
+          "srcset": "https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3d0bf76d89d59b40cdb6ee7fbcfca657, https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2890cdd693ac3f9e572a8994eaf6cb26 2x, https://si.imgix.net/3061dd6d/uploads/origins/873771a7-dac4-4147-b844-0ec2d18e36e1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=56881b94a86fd64d9270d98e0e9e052c 3x"
+        },
+        "body": "はじめまして、\n絵柄が凄く好みだったので、\n早速リクエストしてみたいと思います。\n\ntwitterであげておられる\n創作鬼娘の竜胆さんが\n全裸で激しいセックスをしているイラストをお願いします。\nカラーはモノクロで\n相手役は透けている、\nもしくは描かない状態でお願いします。\n\n絵の構図や体位はお任せするので、\nよろしければ御一考お願いします。",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 325,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "森田つみれ🔞",
+        "screen_name": "morita18megane",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1752673830118871040/b5FExVo-.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1243341732894240769/1753707079/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 56387,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ガタス＠コミティア155つ-06b",
+        "screen_name": "Gatasu313",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1657621071477215233/2NmAKi7W.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/2417330226/1487330087/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 32
+      },
+      {
+        "id": 287770,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "カトウベニ@skebはじめました",
+        "screen_name": "usdk",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1711017940920004608/VYMm8KX7.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/8101792/1696763251/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 33
+      },
+      {
+        "id": 407856,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "kyoneko/🔞/skeb",
+        "screen_name": "catistennsi1",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1676756304214503425/ONBIf11I.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1676739366348267520/1697609616/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 900994,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "sirano",
+        "screen_name": "sirano65494554",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1232620564243550209/eUZQ7b75.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1191248337103552512/1716461520/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "video"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 2632657,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "牛骨てゑる",
+        "screen_name": "ttaeelll",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar/media.misskeyusercontent.jp%2Fio%2Fwebpublic-76760225-a0dd-4e71-bc82-d985b0a76b3b.png%3Fsensitive%3Dtrue?avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/webpublic-5c89810f-777f-4a8a-948b-d40176877d0e.png?sensitive=true",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 49
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 8000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "comic": [
+      {
+        "amount": 15000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@mimiminomi_333/works/11",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2272014,
+      "client_id": 232138,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=214f488695401e263dd9060895abc86e",
+        "srcset": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=214f488695401e263dd9060895abc86e, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=dfe878429a922b6694075663e3c0bc57 2x, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=33ce417458f8938fc8246303722fb134 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=325a25ee01dc600e0c3c0d53abda3000",
+        "srcset": "https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=325a25ee01dc600e0c3c0d53abda3000, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=98f93d9e1eacbd84d02564b109eb3dcb 2x, https://si.imgix.net/8dfe7259/uploads/origins/8e81a508-e0ec-4a14-bf35-c05acf1a189b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9c931b9679635f3d6dff8618db4b0474 3x"
+      },
+      "body": "先日はありがとうございました。\n\nムク様が下半身丸出しでこたつに入っているイラストをお願いしたいです。\n\n以下細かい要望です。\n・外から見ると健全にのんびりしているように見えるけど、こたつの布団部分をめくるとドスケベになっている、みたいなイメージです。\n・こたつの中の身体はムレムレになっていると嬉しいです。\n\n以上になります。\nよろしくお願いします。",
+      "nc": 48,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "screen_name": "koroponzu",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 3741599,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/2000246591316545536/vtzoRRCK.jpg",
+    "name": "ころぽんず",
+    "nsfw_acceptable": false,
+    "screen_name": "koroponzu",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1595539251617112064/1756831713/1500x500",
+    "body_size": 1000,
+    "received_works_count": 10,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "ケモんちゅ🐾Skeb→https://skeb.jp/@koroponzu",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 129,
+    "twitter_uid": "1595539251617112064",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "koroponzu",
+        "url": "https://x.com/koroponzu"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.84,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fkoroponzu%2Fbackground%3Fd%3D3e6cdb?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44GT44KN44G944KT44Ga&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=7358097c85dabce7f9618e063cbb044a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@koroponzu/works/10",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 3219019,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ec95d940ea22913a0f57f9f6122fbbc9",
+          "srcset": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ec95d940ea22913a0f57f9f6122fbbc9, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ad8ce4671d2b3910d8946c0863dfcb4c 2x, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=be59accde3005296d1df3d4ece132978 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fef95c4c1344ed5d36a94a12ca0d58dc",
+          "srcset": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fef95c4c1344ed5d36a94a12ca0d58dc, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c1d57efbc90f70c2738dd598349c9156 2x, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=26f0324a53d8be712ca4ad01636f4189 3x"
+        },
+        "body": "こんにちは、ころぽんず先生、\n先生の画風が大好きです。\n私のキャラクターを先生のスタイルで描いていただけませんか？\n気軽に描いてください。\nありがとうございます。\n\nhttps://drive.google.com/file/d/1lajgNQUQzCePPjyQHcOfQxQXgYLBenGT/view?usp=drivesdk",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/9",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 3470161,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a6ac7fd3bc1c67a4a66ba058750f59f9",
+          "srcset": "https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a6ac7fd3bc1c67a4a66ba058750f59f9, https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0a18526df8339341d30aac6cefe4da84 2x, https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=4094bc011336a871cbe010cdcaafb27f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c5e23cffe875f00239a0fe3f7b968907",
+          "srcset": "https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c5e23cffe875f00239a0fe3f7b968907, https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=613d1d5bb8aa3153df6358d72488149a 2x, https://si.imgix.net/6bfafb18/uploads/origins/6deb07b5-2c40-45ca-bc0d-61ad078cccaf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c1e9ba43f4302a4604c11abf346e9a02 3x"
+        },
+        "body": "こんにちは、あなたのキュートなスタイルがとても好きなので、ストリートウェアやサイバーパンクスタイルの服を着た私のキャラクターを描いてほしいです。  その他はすべてお任せします。\n\nありがとうございました！\n\nhttps://drive.google.com/drive/folders/1IaLHSZgeNiUVAtD1VFFEXeJ0PyLf1TRk",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/8",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 727550,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4dc363c0305c36185176125f977cf9d4",
+          "srcset": "https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4dc363c0305c36185176125f977cf9d4, https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=1741990c1362e80d2199abecc01c423d 2x, https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=03362a0ab2b8f33717f51ce291d82b9f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=546c8a5106dc71f1684bcfcc169eda75",
+          "srcset": "https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=546c8a5106dc71f1684bcfcc169eda75, https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a5a197ca20ac675f4266dc2d33e49ae5 2x, https://si.imgix.net/c0371c51/uploads/origins/fd74dd23-85d5-4301-8b44-acf66b4e64f1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0446d6cc36b9e6923db8b5481a0c5d5b 3x"
+        },
+        "body": "この小さなドラゴンを描くのを手伝ってほしい！\n\nこの小さなドラゴンが舌を出して、いたずらっ子のようなかわいらしさを表現してほしいです。\n\nあとは先生次第です！\n\nhttps://drive.google.com/file/d/1b_EK--ElGkxKNVr3NSrGgE3LUfaUGwqg/view?usp=sharing",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3741599,
+        "client_id": 979255,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=88093f8aedf1830ca9118ab7d10f5032",
+          "srcset": "https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=88093f8aedf1830ca9118ab7d10f5032, https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=608de4200ee1dbc129b51bd57c3c016f 2x, https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=230cee94ca0c596b3749bc68b810f2ab 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6349f4164a213f6a9db88a4ad2d7e10d",
+          "srcset": "https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6349f4164a213f6a9db88a4ad2d7e10d, https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4aacf6dbde97da115e1f55c8ae83b112 2x, https://si.imgix.net/61116cfc/uploads/origins/19330382-871b-4815-adf9-3aed25e246e8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=baa6661b45ad6b931d051bb14460025d 3x"
+        },
+        "body": "こんばんは！イラストのタッチがとても好きなので依頼します！\n\nベースはうちの子、葵(あおい)をお願いします。\n\n背景、ポーズ、シチュエーションなど指定はありませんので全て自由でお願いしますが、NSFWは禁止とさせて頂きます。\nキャラ描写として、「八重歯」と「ツリ目」(※ツリ眉ではありません)はチャームポイントなのでこちらは入れてください。\nまた、マズルは短めです。\n\n服装はデフォルトでは上が虹模様のついたフード付きパーカー、下が短パンとなっていますが変更頂いても構いません（今回上を脱ぐのはOKですが下を脱ぐのはNGとします）\n詳細なキャラ資がありませんので、過去イラストを参考にしてください。\n\nこれらの条件で大丈夫でしたら是非よろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1WPpOR-9nH0twRfLfiPGxSfl7bmM4VgQC",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 674894,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7996aa742d46f24a4bd1d9f8a3a3d013",
+          "srcset": "https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7996aa742d46f24a4bd1d9f8a3a3d013, https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=8024b2d42806e09bb7770bffd36c83ec 2x, https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=28ecb0734d8d2c91c14343596e0aa5b5 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d01c6bde74c0de1b7377641149864c7c",
+          "srcset": "https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d01c6bde74c0de1b7377641149864c7c, https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c3efc4816ec6d87499253b03f0abfde4 2x, https://si.imgix.net/b2c43631/uploads/origins/33e45c7d-fa19-409f-baf8-2977c11c8323?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1265f4b23a64da5aec68c7d475452024 3x"
+        },
+        "body": "こんにちは、失礼します。\n私の2人のOCを描いてほしい。\n\n[https://drive.google.com/file/d/16XtU39STHVAvOAl1-FkZjcA-nVfjx2vf/view?usp=sharing]\n\n[https://drive.google.com/file/d/1yNIi5yLnCP0L6cWTeht7pw12QYetNCMk/view?usp=sharing]\n\n犬と猫\n\nどちらも先生であるあなたに作ってもらいたいので、できれば2つのリクエストを別々にまとめました。\n\n見た目がかわいければ条件はありません。\n\n携帯でメッセージし合うような～。\n\n見てくださってありがとうございます。",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 3550525,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=815cc6543cad4ab5bac4a37830e5a176",
+          "srcset": "https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=815cc6543cad4ab5bac4a37830e5a176, https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c9e8f892f902230c497fd46f819ccdfc 2x, https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3d2146178e7b7ffbff14b1c12e173c84 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4b34f2b1fe9728d4bb6677407113a0ef",
+          "srcset": "https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4b34f2b1fe9728d4bb6677407113a0ef, https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c797a982fd14b686156433fac485726f 2x, https://si.imgix.net/883fab92/uploads/origins/6c4e3127-a808-49a4-8bf4-31e08923b6ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e9ece421dac88c3950dd516a3ec1addb 3x"
+        },
+        "body": "Hello!!\n I absolutely love your style and was so happy to find out you're open for commissions!!\n\nI hope you'll take my commission :D\n\nMy character is a purple and green Scottish Fold dog. I'd like him to wear a bucket hat and a hoodie. Everything else is up to you.\n\n Thank you so much!\n I look forward to seeing your work.\n\nhttps://drive.google.com/drive/folders/15dhkAT22BJ1QxY3mNFri6aqoJaxwBseT?usp=drive_link",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 2539035,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=82e32ae844642164ffd3232e94194873",
+          "srcset": "https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=82e32ae844642164ffd3232e94194873, https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c4bc6004a842b4584a85f046b471fed5 2x, https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=cc6ce7f10b5cbea04bfd666b54250e2f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=edc73414e3afa6f2b1c188408bf73fa2",
+          "srcset": "https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=edc73414e3afa6f2b1c188408bf73fa2, https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f7791a9178c36d27a1a3f5b52e5d2055 2x, https://si.imgix.net/2faeb705/uploads/origins/9e4c337a-be61-4d2b-ad25-c8caf4916afe?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9c41ddf044d64e6218c9c23de5edbb2c 3x"
+        },
+        "body": "体を黒いスライムに変えることができる小さなボーダー・コリーです。片方の手で黒いスライムを下にこぼし、電柱にもたれかかり、もう片方の手で黙らせる仕草をしている絵をお願いします。また、このチビの牧童のために、ハンサムなヒップスター服を描く手助けもお願いしたい。\nhttps://drive.google.com/drive/folders/1pxP8qRYV6VDtbvvBOgwQENANtpGUkXAY?usp=drive_link\n\nhttps://drive.google.com/drive/folders/1pxP8qRYV6VDtbvvBOgwQENANtpGUkXAY?usp=drive_link",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 3608447,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=563c401a43104145f0616ebb68e094f4",
+          "srcset": "https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=563c401a43104145f0616ebb68e094f4, https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9e8fcb8c90af55ff782cb7cb6b263897 2x, https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=80f1461a9b7f5545a3b798cdbdfb5495 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e05363c2c93be146a6596a12b31e2308",
+          "srcset": "https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e05363c2c93be146a6596a12b31e2308, https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8722c891c49bfa9292a3e3f44096d61e 2x, https://si.imgix.net/906a688f/uploads/origins/78234447-b41d-4d22-82b0-dfcc87697fce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cfa25628f9d19abadf93b4e002026d2f 3x"
+        },
+        "body": "こんにちは、\nあなたのアートスタイルがとても好きなので、もし依頼を引き受けてもらえたらとても嬉しいです。\n\n私のキャラクターは犬獣人です。この作品では服を着ないで描いてください。ただ、頭にパイナップルの苗を生やしてほしいです。\nポーズ、表情、構図はお任せします。\n左目の虹彩の色が2種類あるので、その点だけ注意してください。\n\n参考までに、私のキャラクターシートと他のアーティストの作品をGoogle Driveのリンクに載せておきます。\n\n依頼を検討していただき、ありがとうございました！\n\nhttps://drive.google.com/drive/folders/11TUZbK3dIBbg9JX9AbyRaYZjeUcvOusP?usp=drive_link",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 2049184,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c11e6ab923b6792df1a584ac4923807c",
+          "srcset": "https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c11e6ab923b6792df1a584ac4923807c, https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0277f3246285c2d15eb814acadceae0d 2x, https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=a329b872cb5973e6a624e93e985f2344 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2a8021d947b9dff30e0d919f3398e1ca",
+          "srcset": "https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2a8021d947b9dff30e0d919f3398e1ca, https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f4b844b6c77580540be1e058a54b2547 2x, https://si.imgix.net/ac4ea45e/uploads/origins/bcdd4c05-544b-446c-a9bf-d761cf949b2b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d74be6fc00dc6d1e833830f34812919f 3x"
+        },
+        "body": "気軽にプレーしてください！ありがとう！\n私のセッティング集です！\nhttps://drive.google.com/file/d/1HfP_IoI_mXvf1KkWGoQAlChhc6dNoalr/view?usp=sharing",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@koroponzu/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3741599,
+        "client_id": 923207,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b4581e3e5ef3b5c6e8776c881ac1e07e",
+          "srcset": "https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b4581e3e5ef3b5c6e8776c881ac1e07e, https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=1cc36cfdf2b2ea73af6a718b09e49b45 2x, https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c841e4a44224b8f20d6147e9a8bfacce 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc87770006d66491009df6184435d8c5",
+          "srcset": "https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc87770006d66491009df6184435d8c5, https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=20f5d522909933891e812eb1094a895a 2x, https://si.imgix.net/cc281edd/uploads/origins/efa2f02b-842b-4523-8cc3-bbdb44be1112?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9e0ef44fc9318186054a966c1c773a48 3x"
+        },
+        "body": "作家さんが好きなように描いてください\n캐릭터이미지입니다https://twitter.com/crane6407/status/1578324904105381891\n\nhttps://drive.google.com/drive/folders/1JPCiss8eRJBqBMRY2_Nxhj5S5N7vnuga",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 398838,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ヒヨヨ@skeb募集中",
+        "screen_name": "kou_hiyoyo",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1820725109768003584/nFqwhAAN.png",
+        "header_url": "https://pbs.twimg.com/profile_banners/105523086/1725285923/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": 6,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 110,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 161
+      },
+      {
+        "id": 476505,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ねこたろ",
+        "screen_name": "mofumofu_nyaro",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1904717110477283331/vTBi1Vte.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": 29,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 161
+      },
+      {
+        "id": 492195,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "みそ",
+        "screen_name": "milkmilk12_FF14",
+        "avatar_url": "https://pbs.twimg.com/profile_images/954740311716126721/mkUwh1x0.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1690395468/1671718047/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 809012,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ゐえねこ",
+        "screen_name": "wieneko138226",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1831379511113547776/yzLDqiPc.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1322558991386374145/1652477612/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 177
+      },
+      {
+        "id": 1148337,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "明 星",
+        "screen_name": "myojo_8989",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1958558756792651777/-Z1iO7K7.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1144966544260120576/1760523049/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 32
+      },
+      {
+        "id": 2801106,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ぐるみん.sub",
+        "screen_name": "guruminnSuB",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1784195462628872192/Cx17DCoP.png",
+        "header_url": "https://pbs.twimg.com/profile_banners/1780843961621606400/1753335572/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": 60,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@koroponzu/works/10",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3741599,
+      "client_id": 3219019,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ec95d940ea22913a0f57f9f6122fbbc9",
+        "srcset": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ec95d940ea22913a0f57f9f6122fbbc9, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ad8ce4671d2b3910d8946c0863dfcb4c 2x, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=be59accde3005296d1df3d4ece132978 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fef95c4c1344ed5d36a94a12ca0d58dc",
+        "srcset": "https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fef95c4c1344ed5d36a94a12ca0d58dc, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c1d57efbc90f70c2738dd598349c9156 2x, https://si.imgix.net/b4b26c33/uploads/origins/8c005a24-82fc-4297-afc8-ef3ee160abd0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=26f0324a53d8be712ca4ad01636f4189 3x"
+      },
+      "body": "こんにちは、ころぽんず先生、\n先生の画風が大好きです。\n私のキャラクターを先生のスタイルで描いていただけませんか？\n気軽に描いてください。\nありがとうございます。\n\nhttps://drive.google.com/file/d/1lajgNQUQzCePPjyQHcOfQxQXgYLBenGT/view?usp=drivesdk",
+      "nc": 145,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

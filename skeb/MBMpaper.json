@@ -1,0 +1,621 @@
+{
+  "screen_name": "MBMpaper",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 2569046,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/2015812986733289472/K7wQBslO.jpg",
+    "name": "𝘔𝘉𝘔",
+    "nsfw_acceptable": false,
+    "screen_name": "MBMpaper",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1349006298084495367/1760368043/1500x500",
+    "body_size": 1000,
+    "received_works_count": 14,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "Contact ：jgvgumino@gmail.com",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 27035001,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 145,
+    "twitter_uid": "1349006298084495367",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "MBMpaper",
+        "url": "https://x.com/MBMpaper"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.94,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2FMBMpaper%2Fbackground%3Fd%3Da0713f?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU9Dd3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=8J2YlPCdmInwnZiU&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=b7d3e5ce91f900ee0391945f39793215",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 8000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 3000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@MBMpaper/works/14",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2569046,
+        "client_id": 2315112,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35cad093babc5aaf9a8604e55fa2b54e",
+          "srcset": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35cad093babc5aaf9a8604e55fa2b54e, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6a768f6ab53da55f1477f6fce81e1e16 2x, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c252a42f49f6b2a4357146978df8763e 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7d8b60a4139ec6c4080ac4934f215c8e",
+          "srcset": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7d8b60a4139ec6c4080ac4934f215c8e, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6a62bfdeb064ce64434b183e0f61b376 2x, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1f60fcf689f831f0c2a8fed00c8df36b 3x"
+        },
+        "body": "MBM様、先日は素敵な作品をありがとうございました。\n今回は別のOCをリクエストさせていただきます。\n\n【OC詳細】\nレヴィ(20)163cm\n・人間と竜のハーフ、男\n・黒い髪、肩のあたりまでボサっと伸びた感じ(おろす、結ぶはおまかせ)\n・黒い瞳、縦型瞳孔、気の強そうな吊り目\n・頭頂部に小指くらいの長さの二本の角あり\n・犬歯尖ってる\n・細身、畑仕事で少し日焼けした肌、イエベ\n・ツンデレ、活発、すぐ顔に出る、割と社交的\n\n【その他設定等】\n◎竜がいたり、魔法が使えたりするファンタジーな世界観\n◎寒さの厳しい山間部で暮らす\n◎《慶事》《晴れの日》を連想する色合いや飾り、服を希望\n◎資料URL先の表紙右にいる短髪の子(今回のﾘｸｴｽﾄは髪が伸びたver.)\n◎元人間で、竜人(表紙左)と番になった結果、瞳・角・犬歯が変化した\n\n【使用目的】\nシール印刷しステッカーとしてiPadケースに挟む、iPadの壁紙(横長)等を考えています。\n\nご検討よろしくお願いします。\n\nhttps://www.alphapolis.co.jp/novel/64106558/337890015",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/13",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 3015400,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3af510979a78360583a8712607ff522",
+          "srcset": "https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c3af510979a78360583a8712607ff522, https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f9b8b86ed5d0eeb39ac6862d6bba4bab 2x, https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0b76b869049601d56e3b10e210f40fcd 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cff65ece3cf46bfcf3c25bd895df182f",
+          "srcset": "https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cff65ece3cf46bfcf3c25bd895df182f, https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=316879696051123337695d225d32d5c3 2x, https://si.imgix.net/804cbf37/uploads/origins/7f6bac2d-ac97-4bbf-8c7f-d3beb55d46e3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5829aa9d4d33d5f1442470cffb55ab74 3x"
+        },
+        "body": "Hello sensei! I love the vibrant colors in your art. I hope I can request my OC.\n\nJAY (30):\n- A charismatic gentleman who wants to indulge in all of life's pleasures.\n- In his youth, he was arrogant, self-centered, and broke rules for attention. Now, he's more mature, gentle, and patient, having found friends and family to love with his whole heart.\n- He's generous and likes to host lavish dinner parties\n- He owns a company that helps people find cherished items they've lost in supernatural hauntings. His role is like a retriever dog, or guardian spirit.\n- He's a friendly boss, often teasing his employees, but always doing the best for them.\n- Please note his tattoos and skintone!\n\nMotifs: blue skies, clouds, magpies, tangerines, springtime gardens, summer sunlight, painting frames\n\nFeel free to draw him in any outfit you like! Thank you again for considering my request! ٩(｡•́‿•̀｡)۶\n\nReference images: https://drive.google.com/drive/folders/1QdOpVQU8GAfQ9_VVfMt5OvgsY9PLS2qf?usp=sharing",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/12",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cd25e2ee/uploads/origins/5a0d30f2-c984-4a1a-9a5d-bb96f36ed9f8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2675363d5592e0095b8a915d11119ba1",
+          "srcset": "https://si.imgix.net/cd25e2ee/uploads/origins/5a0d30f2-c984-4a1a-9a5d-bb96f36ed9f8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2675363d5592e0095b8a915d11119ba1, https://si.imgix.net/cd25e2ee/uploads/origins/5a0d30f2-c984-4a1a-9a5d-bb96f36ed9f8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=87e5feac145532bcd68863981174ec0c 2x, https://si.imgix.net/cd25e2ee/uploads/origins/5a0d30f2-c984-4a1a-9a5d-bb96f36ed9f8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=468decf24ae0fef6e0df8e139fb1afd0 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 2169292,
+        "nc": 0
+      },
+      {
+        "path": "/@MBMpaper/works/11",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2569046,
+        "client_id": 2315112,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b59da957e545dcf3a30b002e92861da2",
+          "srcset": "https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b59da957e545dcf3a30b002e92861da2, https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0fe5b188484329716725a7aa53a48c72 2x, https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=4ad47bdf2c8018bff4ead4d0081719fd 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a429ba3a2e16148305f09a322d131886",
+          "srcset": "https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a429ba3a2e16148305f09a322d131886, https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f4e0b2050854f20f22b400a8a4f15e41 2x, https://si.imgix.net/0d3bb5a8/uploads/origins/e8278f73-8d1c-45e7-9bd4-c905b47edfe9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=de3ca1fc4d7c2881dc1b3f4e4875d99f 3x"
+        },
+        "body": "𝘔𝘉𝘔様、はじめまして。\n最近Xをフォローさせていただいた者です。\n色合いが素敵で、いつもありがたくイラストを拝見しております。\nもしよろしければわたしのOCを描いていただけないでしょうか。\n\n\n一木春太(29)173cm\n・男性、人間\n・黒髪マンバンヘア(刈り上げなし、前髪を後ろまで流して緩いお団子)\n・黒い瞳、三白眼\n・猫背、少食が故の痩せ型\n・実は目つきの悪さを気にしている優しい男\n・森で一人暮らしをしている『森の番人』(魔法使い)\n・基本人見知り、人と関わらない、森からは極力出ない\n・和菓子が好き\n・趣味は実益も兼ねた家庭菜園\n\n\nリオ・クロード・オヴィリオン(18)187cm\n・男性、鹿の獣人(角と耳はニホンジカ風、人耳必要なし)\n・さらさら薄茶色の髪を一つ結び、前髪あり\n・べっこう飴みたいな薄黄色の瞳、まつ毛長い\n・姿勢いい、引き締まった筋肉質の体\n・国の第一王子、顔のいいTHE王子様\n・誠実で紳士な男だが、春太が好きすぎて春太に対してのみ変質者要素あり\n・幼少期、素性を隠して春太に会っていた(女の子だと思われていた)\n・春太一筋、春太の作ったおはぎが好き\n\n\n◎魔法が使えるファンタジーな世界観\n◎事故的に異世界転移してきた春太と、その国の第一王子リオの話\n◎事情があり約十年間会えなかった二人が再会するも、春太は成長したリオに気づかず、興味さえ持たない(後に同一人物だと明かされパニックになる)\n\n\n使用目的として、小説投稿アプリ、SNS、印刷して個人鑑賞を予定しています。\nお忙しいとは存じますが、ご検討よろしくお願いします。\n\nhttps://www.alphapolis.co.jp/novel/64106558/881979718",
+        "nc": 137,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/10",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 3370878,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0043c697d917a039e22c854a1895eb24",
+          "srcset": "https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0043c697d917a039e22c854a1895eb24, https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=1ed8dca33c4f8e5734de339cf693e20a 2x, https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=648428c623325372b409141b40885ae3 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0142be4f4144ed26694cde1f3e55596f",
+          "srcset": "https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0142be4f4144ed26694cde1f3e55596f, https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=42a7813362ff022e36349896af78a111 2x, https://si.imgix.net/70ce5b2d/uploads/origins/d328114c-d37d-4ef8-bc61-a472deea1186?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1724d3e0208676b6ecf9774e3f2ba07c 3x"
+        },
+        "body": "素敵なイラストをお見かけし、是非お願いしたいと思いリクエストさせていただきます！\n\n描いていただきたいのはVTuber｢海詠りゅゐ｣自分自身のアバターになります。\n\n魔術師見習いをしており、水属性が得意です。現実世界に紛れ込んだファンタジーな雰囲気が好きでその様なイメージでお願いしたいです。\n\n色んな表情や構図など何でも見たいので全てお任せ致します！\n\n服装や髪型は色んな種類があるのでこちらお任せ致します…！アレンジもしてもらって大丈夫です。\n特徴として三角のピンの様なツノがありますのでそちらだけ描写はそのままでお願いしたいです！\n\n描いていただいたイラストはSNSや配信先にて使用させていただきたいので、人物のみ透過したものも一緒にいただけると嬉しいです。（もちろんなくても大丈夫です！）\n\nhttps://x.com/343_ryui/status/1778177098756284730?s=46&t=kmzS4n1Tjgmr4HkvllFgHQ",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/9",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2569046,
+        "client_id": 2957476,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0df4147c33b9d45889923b87a28363ff",
+          "srcset": "https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0df4147c33b9d45889923b87a28363ff, https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=318f6a16ca5bab5fca05102287ec301b 2x, https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=126887c8b762ed85e2a9e3e89cf0448a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=45444351473363ef9dc523eb9434c2bb",
+          "srcset": "https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=45444351473363ef9dc523eb9434c2bb, https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c9b0439ea4eac453ccc157bce099be0e 2x, https://si.imgix.net/defe9039/uploads/origins/4b264431-f2d8-4099-a1c0-69f623177595?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7187196393ac10f93e60c80c72bab6af 3x"
+        },
+        "body": "イラストを拝見しまして是非\n私の一次創作のキャラクターの兄弟を描いていただきたいと思いましてリクエスト致します…！\n\n兄】雷光(らいこう)\n198cm/男性/37歳(見た目年齢になります。本人は300年近く生きています。)\n異界に住む龍の男です。普段は人の姿をしていて、真面目でキッチリした厳格な性格です。\n側から見ると険しい雰囲気があり、本人も少し不器用なところがありますが、弟(弟夫婦)のことを大事に想う優しくて良いお兄さんです。\n\n弟】春光(しゅんこう)\n198cm/男性/35歳(此方も見た目年齢です。)\n雷光の弟で、同じく人の姿で異界に住んでいる龍の男です。話しやすい雰囲気があり、リーダーに相応しく思いやりの深さ、度量があり、優しい人です。\n結婚しており、奥さんがいます。\n\nお話の世界観】2人が出るお話は和の異世界で妖や神様、付喪神達が暮らしています。江戸の雰囲気が強いです。\n\n兄弟の雰囲気】\n2人とも春を取り入れたキャラクターです。\n兄は春の訪れの嵐を、弟は春の訪れの日の光を表しています。\n冬の終わりに自分達の異界と、人間のいる世界に2人で春の訪れを告げに行く役目を持っています。\n雰囲気は全く違う2人ですが、お互いが良い距離感で互いを想っており、兄弟間の仲は良いです。\nたまたま2人とも髪を結わえていたことがあったり、\n同じ食べものを買っていたことがあったり、兄弟らしさが出てしまいお付きの人達に笑われたりすることもあります。\n\n\n希望】\n宜しければ2人のツーショットをお願い致します！\n構図など、全てお任せ致します。\nご都合が合わない場合は遠慮なくキャンセルしてください。\n\nhttps://drive.google.com/drive/folders/1-0JicWfPFl-7ApLN_DizF7UQlAhXeO7U",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/8",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 2499698,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=719e34c4e97eaea812283b68728094dd",
+          "srcset": "https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=719e34c4e97eaea812283b68728094dd, https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=18cea3f93689cda32c1788390ae1c3b7 2x, https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=dd2cdca022e844a5a36e513072c41384 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9f34ddc9c25b98385ee8381e6640feb3",
+          "srcset": "https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9f34ddc9c25b98385ee8381e6640feb3, https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ccda069dcc5d4139716db324a368c374 2x, https://si.imgix.net/42562692/uploads/origins/709929c9-425a-43fe-9300-83f75028981f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e36abcce66bafff5dc093e4d222c5d31 3x"
+        },
+        "body": "初めまして。 個人Vtuberとして活動しております、いろはにヲワリと申します。 𝘔𝘉𝘔様の美麗なイラストに惹かれ、ぜひ描いて頂けないかと思いリクエストさせて頂きました。\n\n  ＜使用用途＞\n ・収益化済チャンネルでのサムネ使用\n・現Xでの公開\n  \n＜希望＞\n・妖のような雰囲気\n・可愛さよりもかっこよさや不気味さ、凶悪さ\n\n ＜キャラクター特徴＞\n・胴の長い龍\n・こちら側から見て右側が黒い角、左側が白い角\n・爪は5本\n・口の中は青く、長い蛇のような舌があります(先分かれ)\n・ギザ歯\n・真ん中から黒白と分かれています\n・首にもふもふとした逆鱗があります\n・爬虫類に近いです\n\n背景透過Verも頂けますととても助かります。\nお忙しいとは存じますが何卒よろしくお願いいたします。\n\n▷youtube https://youtube.com/@Irohani_Wowali?si=poeVy3tSknQQ4ZHr\n\nhttps://drive.google.com/drive/folders/1nR2sbQ3DdOOhcwjURBdQgN4gTuOcCqZr",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 2507340,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ca640717f8d6856e746ce0a6a4587e50",
+          "srcset": "https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ca640717f8d6856e746ce0a6a4587e50, https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=41470fe0cf1febb1032abbad28f1091e 2x, https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=a85b348f2b9b97f7d7eec4c3e54213b2 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3e626233c1d2a7b1fa409f60faa0a368",
+          "srcset": "https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3e626233c1d2a7b1fa409f60faa0a368, https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e764a13ef70790652f5567ddea0616bf 2x, https://si.imgix.net/75938e12/uploads/origins/da35b25f-4be4-4fc1-90cf-12e7649f4423?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2290cea93e223d485657f91c7bf709c9 3x"
+        },
+        "body": "初めまして、MBM様のイラストはとてもステキで是非リクエストを送らさせてください！\n\n詳細はこちらです→ https://drive.google.com/drive/folders/1-o5AISJ4vyqRqrJo6nWw6N4r4bTtnzJ2\n\n自分のオリジナルキャラクターを描いて頂きたいです。こちらには小学生/高校生の姿があります。どちらを描いても構いません、描ける範囲で大丈夫ですので是非描きやすいように描いて頂きたいです！\n小学生の時は忍者大好き、明るい子です。忍者になりたい一心で、おもちゃのクナイをよく持っています。お姉ちゃんが作ってくれるおにぎりも大好きです。高校生になったら髪型を変えましたか、性格は相変わらず元気いっぱいです。\n\n構図や服装はおまかせでお願いいたします。金額が足りない場合は遠慮なく再送依頼をお願いします。難しいようであればお気軽にお断りください。ご検討の程よろしくお願いいたします。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/6",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9a1b89b1/uploads/origins/617d3b55-377d-49d0-9816-c3220e960115?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a290dd19cdb1747f4787d97f795421c1",
+          "srcset": "https://si.imgix.net/9a1b89b1/uploads/origins/617d3b55-377d-49d0-9816-c3220e960115?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a290dd19cdb1747f4787d97f795421c1, https://si.imgix.net/9a1b89b1/uploads/origins/617d3b55-377d-49d0-9816-c3220e960115?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=008ea97ed948cf1ff51617a23f3a8c0e 2x, https://si.imgix.net/9a1b89b1/uploads/origins/617d3b55-377d-49d0-9816-c3220e960115?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=025c0cb0c7f050f83c50c48d3feeae6e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 1164446,
+        "nc": 0
+      },
+      {
+        "path": "/@MBMpaper/works/5",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e5a74248/uploads/origins/c8d1a331-c4c9-41a8-a0b9-9ff2e97699c7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=685bb5d9536839d888c2bd5e8f2b518b",
+          "srcset": "https://si.imgix.net/e5a74248/uploads/origins/c8d1a331-c4c9-41a8-a0b9-9ff2e97699c7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=685bb5d9536839d888c2bd5e8f2b518b, https://si.imgix.net/e5a74248/uploads/origins/c8d1a331-c4c9-41a8-a0b9-9ff2e97699c7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=97055494cdd361d8913f65989930c98c 2x, https://si.imgix.net/e5a74248/uploads/origins/c8d1a331-c4c9-41a8-a0b9-9ff2e97699c7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a87ec755ee4cda22f2ead15dee9d6587 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 1164446,
+        "nc": 129
+      },
+      {
+        "path": "/@MBMpaper/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2569046,
+        "client_id": 1994082,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8ea93be8d2c3db21c81dc197d6131ada",
+          "srcset": "https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8ea93be8d2c3db21c81dc197d6131ada, https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=acfcb3954fd1ceefd82a48e1c768713f 2x, https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2fef61bea9d30803c9fe8f07051775b1 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=464f3658478ab81993a39f1a05b5d808",
+          "srcset": "https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=464f3658478ab81993a39f1a05b5d808, https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d02fd5e18189a4c38c0b1ef5247fa1da 2x, https://si.imgix.net/447d8f45/uploads/origins/a6d69b17-1159-473a-82dd-f3d7df93875e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=12fa2a3a1864437c4337b02331681575 3x"
+        },
+        "body": "こんにちは、私のオリジナルキャラクター、リウとランのアートワークをお願いします。\n彼らは中華街に住んでいます。彼らは地下ファイトクラブのトップクラスのファイターです。\nリウは明るい灰色の髪で、青い目をしています。ナックルというリングのついたグローブで戦う。黒髪のランはナンチャクを使う。\n実は彼らは理不尽な戦い方はしない。いつも一緒に街をぶらぶらしていて、ゲームをするのが好き。\nポーズは自由。衣装は変更可能です。色は青、黒、白でお願いします。\n\nhttps://drive.google.com/drive/folders/1-C9QeU8Sfy-aXXr2tqmBEjKfZxfzvNMw\n\nhttps://drive.google.com/drive/folders/1-C9QeU8Sfy-aXXr2tqmBEjKfZxfzvNMw",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2569046,
+        "client_id": 187973,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a694c2f74f678776fb0bc47aa5600995",
+          "srcset": "https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a694c2f74f678776fb0bc47aa5600995, https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c1a3a14e3bea93fcce97b0f66856b43d 2x, https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=4051b0e1c138f07a4a57b979b95c180b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a43e9a58059902e08774ccdb662d8ecc",
+          "srcset": "https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a43e9a58059902e08774ccdb662d8ecc, https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=078d7be307757c76558540f4cac616b6 2x, https://si.imgix.net/b1f43ee3/uploads/origins/489eceb0-e9c5-4e09-9ae9-ce0fced6bacb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8f0d8a93278d15a900ce528004cb4ea7 3x"
+        },
+        "body": "はじめまして！\n\nこの二人のオリジナルキャラクターのシーンを描いていただけませんか？ヴィクトリア朝（1890年代）のTRPG「コール・オブ・クトゥルフ（CoC）」の設定です。家を持たず、一緒に路上生活をしている親友です。カルト教団の一員で怖い子供たちです。\n\n茶髪の少年シェイは物静かで、普段は無表情か、小さく謎めいた笑みを浮かべている。アロイスをとてもかわいがっている。\n金髪の少年アロイスは大胆でおしゃべり。彼の表情はいつも満面の笑みだ。\n\n以下のようなシーンが考えられます（描きたくなければ描かなくてもかまいません）：\n- 廃墟となった教会を一緒に探検\n- ロウソク、ナイフ、血を使った怖いカルトの儀式を行っている。\n- 怖いモンスターと戦ったり隠れたりしている。\n- お好きなシーン\n\nいずれにせよ、読んでくれて本当にありがとう！\n\nhttps://drive.google.com/drive/folders/1uV4UtcsimuwnNtJvnj3WmLZ-heBRzsN9?usp=sharing",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 2837939,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ee711c4c5a583809dcf8ce5c21af57f8",
+          "srcset": "https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ee711c4c5a583809dcf8ce5c21af57f8, https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=eb14b633373be842c7e8129509af442e 2x, https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=dc8e4ab51acf21a96611d1fb3bfed623 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b24c2dec7f145ed8201028afc331f61f",
+          "srcset": "https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b24c2dec7f145ed8201028afc331f61f, https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f5db69e1e30199963289f178fa143823 2x, https://si.imgix.net/9df48703/uploads/origins/23aa2d1c-2587-4878-b568-0862206133d4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4457b0797be3dc2fa7cfe6641555916f 3x"
+        },
+        "body": "はじめの一歩の木村達也をお願いします！",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@MBMpaper/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2569046,
+        "client_id": 350566,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2c2d59242b1fd23743c60890b277cd7c",
+          "srcset": "https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2c2d59242b1fd23743c60890b277cd7c, https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=44d5ec2f2d3ae2059f533b6bef9485f5 2x, https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=319655929e7485e50191cd9cc0b72852 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=61bb97659e08de9495a26e7385029f9a",
+          "srcset": "https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=61bb97659e08de9495a26e7385029f9a, https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=76ce5d8cfd9cde4c6dce511782995921 2x, https://si.imgix.net/73c6260a/uploads/origins/f91c9524-b6e9-4fde-9bc2-8266382204d0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ac7204b268ae76321592d9786b323ba6 3x"
+        },
+        "body": "MBM様、はじめまして！素敵な絵柄に惹かれまして、可能ならば自キャラを依頼したいと思っております。\n\n【依頼内容】\nキャラ参照は下記のURLをご覧ください。2人の元設定と違って、この度に「妖怪パロ」を依頼したいと思っております。価値観が合わない2人は協力者でありながら、お互いに好意を抱いても味方ではない様な関係性です。\n\n【🦊🌙 1】悪戯好きでよく喋ってる妖狐。身長は179cm。\n➤ 悪でありながら無邪気なところもあって、よく掴めないタイプ。気まぐれな神様のような感じで、その気になったら他の妖怪まで食う。自分が大災いになったら[2]は自分を殺すと知りながら、[2]と一緒にいるのは楽しくていつもちょっかいをかけます。\n➤ 注意点：尻尾は8本です\n➤ 参照画像：https://sta.sh/2aaxzuzfx6w\n\n【🐺🔆 2】お寺の継者。霊力が強い。身長は186cm。\n➤ 不器用でクールな性格。仕事を面倒くさがっても責任感が強い。[1]を観察する命令を受けて、そこから一緒に旅を始めてます。いずれ[1]が自分の手にかかる運命が分かっていても、[1]に段々惹かれ始めて、もっと知りたくなりました。\n➤ 参照画像：https://sta.sh/227tws1wwr3l （ですが、耳と歯の形は人間の方に変えてお願い致します！）\n➤ 上記のURLは元デザインで、衣装はこの様なものを着せてください：https://sta.sh/2cwwrx4ed2p\n\n【テーマ】\n・「運命」か「呪い」のテーマの一枚をお願い致します。和風のモチーフを入れて頂ければ大変嬉しいです！\n・ホラー風、または暗い雰囲気のものでも大丈夫です。\n・その他は何でも構いません、ご自由に描いてください！\n\n依頼に何か難しい点か問題点があれば、是非断ってください。ご検討のほど、何卒よろしくお願い致します。",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 891299,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "kotomaru",
+        "screen_name": "kotokoto_kottan",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2014287795339370496/Ihgy3i3P.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/70083571/1738686666/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 144
+      },
+      {
+        "id": 1193539,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "鮨村📝skeb募集中",
+        "screen_name": "sushimura10",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1935874862892929024/Udww1g0P.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1762152960031928320/1763729569/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 2,
+        "complete_expiration_days": 15,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 32
+      },
+      {
+        "id": 2861850,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "➐⓿",
+        "screen_name": "knkgdisk",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1837484804071477253/TnwzKjI_.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1685491235073777664/1690857047/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 3047407,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "isoi",
+        "screen_name": "isoi00",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1791122954388221952/ubEn_Dd3.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 3243349,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "Alpha",
+        "screen_name": "gopokenohito",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1855515998411190272/VYDUQokC.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1419300249764450315/1732164586/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 7,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 144
+      },
+      {
+        "id": 3874140,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "サブmini🐛",
+        "screen_name": "88sabumau88nii",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2015744461704228864/iZ_Xk6fR.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 20,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 17
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 8000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 3000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@MBMpaper/works/14",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2569046,
+      "client_id": 2315112,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35cad093babc5aaf9a8604e55fa2b54e",
+        "srcset": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=35cad093babc5aaf9a8604e55fa2b54e, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6a768f6ab53da55f1477f6fce81e1e16 2x, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c252a42f49f6b2a4357146978df8763e 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7d8b60a4139ec6c4080ac4934f215c8e",
+        "srcset": "https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7d8b60a4139ec6c4080ac4934f215c8e, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6a62bfdeb064ce64434b183e0f61b376 2x, https://si.imgix.net/b9fd5dd3/uploads/origins/9767663d-14fa-40b7-896c-cf188e1aff82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1f60fcf689f831f0c2a8fed00c8df36b 3x"
+      },
+      "body": "MBM様、先日は素敵な作品をありがとうございました。\n今回は別のOCをリクエストさせていただきます。\n\n【OC詳細】\nレヴィ(20)163cm\n・人間と竜のハーフ、男\n・黒い髪、肩のあたりまでボサっと伸びた感じ(おろす、結ぶはおまかせ)\n・黒い瞳、縦型瞳孔、気の強そうな吊り目\n・頭頂部に小指くらいの長さの二本の角あり\n・犬歯尖ってる\n・細身、畑仕事で少し日焼けした肌、イエベ\n・ツンデレ、活発、すぐ顔に出る、割と社交的\n\n【その他設定等】\n◎竜がいたり、魔法が使えたりするファンタジーな世界観\n◎寒さの厳しい山間部で暮らす\n◎《慶事》《晴れの日》を連想する色合いや飾り、服を希望\n◎資料URL先の表紙右にいる短髪の子(今回のﾘｸｴｽﾄは髪が伸びたver.)\n◎元人間で、竜人(表紙左)と番になった結果、瞳・角・犬歯が変化した\n\n【使用目的】\nシール印刷しステッカーとしてiPadケースに挟む、iPadの壁紙(横長)等を考えています。\n\nご検討よろしくお願いします。\n\nhttps://www.alphapolis.co.jp/novel/64106558/337890015",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

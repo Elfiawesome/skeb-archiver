@@ -1,0 +1,260 @@
+{
+  "screen_name": "runapiero00",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 3892309,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/822054257469714432/4GBiWmv_.jpg",
+    "name": "epi",
+    "nsfw_acceptable": false,
+    "screen_name": "runapiero00",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/822037744796844032/1687969884/1500x500",
+    "body_size": 10000,
+    "received_works_count": 0,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "detail",
+    "asct": null,
+    "description": "@runapiero の絵垢。諸事情により少しだけ鍵外してます。\n現在はブルスカをメインに活動中→https://bsky.app/profile/runapiero.bsky.social",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://bsky.app/profile/runapiero.bsky.social",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 145,
+    "twitter_uid": "822037744796844032",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "runapiero00",
+        "url": "https://x.com/runapiero00"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": null,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Frunapiero00%2Fbackground%3Fd%3Db20cfb?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=ZXBp&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=08ba679b58a757d8e99f1a644d98fe13",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 2516,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ななつめ/ななつめぐり",
+        "screen_name": "nanatum",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1396453336568582144/ij3Gp3JB.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/18454998/1532704677/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 1070793,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "カワトゥー",
+        "screen_name": "NexustheLife",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1774634386425835520/iTuTb3wx.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/967052553321005057/1758123391/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 161
+      },
+      {
+        "id": 1357640,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "まつりのはな",
+        "screen_name": "hana0v0",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1994334856193679360/k3w31NUt.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/112139670/1764325985/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 2598784,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "矢風太郎@絵描き&レトロRPGホラゲ好き",
+        "screen_name": "SCKnoYT",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1844987235269214209/3LeB6Qfo.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1155385022829826048/1769231899/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 2767490,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "浴槽つぼカルビ▷シガフリ連載中",
+        "screen_name": "shabuuma11",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2004209742584107008/qMMgXE6C.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/3021823172/1766675660/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 3448297,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "爽",
+        "screen_name": "FE_uma274",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2011361646149824512/c7TtZzGB.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 17
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": []
+}

@@ -1,0 +1,342 @@
+{
+  "screen_name": "naru050319",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 3813321,
+    "acceptable": false,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1970028354205327360/rZIQUV2C.jpg",
+    "name": "なる",
+    "nsfw_acceptable": false,
+    "screen_name": "naru050319",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1920465743357095938/1766739345/1500x500",
+    "body_size": 1000,
+    "received_works_count": 2,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "好きな絵を描きます/oc/無断転載、無断使用、AI学習・編集禁止❌/skebリクエスト停止中、作業中2件/",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://lit.link/naru050319",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 1,
+    "twitter_uid": "1920465743357095938",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "naru050319",
+        "url": "https://x.com/naru050319"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Ffcdn.skeb.jp%2Fassets%2Fv1%2Fcommons%2Fogp.png?auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fb919ed2f719addcbe44cbdea9c1851a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 2000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@naru050319/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3813321,
+        "client_id": 3864997,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d9885427e988bb56749cbab17a0f96dd",
+          "srcset": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d9885427e988bb56749cbab17a0f96dd, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=08957915005352353ed3f763f717302a 2x, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=540b6013d66c3a470e574eb314daf2ee 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=91ab9281906784bb345f9c207368ebf8",
+          "srcset": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=91ab9281906784bb345f9c207368ebf8, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=82c40313fe2baa7beee915b2767da254 2x, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d6f642b695cd9746b5e994dc286dedf5 3x"
+        },
+        "body": "なるさんの描かれるイラストが本当に大好きで、skebずっと待ってました！！！\n創作が出来ず版権しか描かないのでうちの子みたいな子はいないのでなるさんの世界観第一でお願いさせていただければと思います。\n\n・エルフの男の子（ショタ）\n・森に住んでいそうな雰囲気\n・構図はアップ、全身どちらでも構いません\n・それ以外は全てお任せ\n\n初めてskebを使うため至らない点がありましたら申し訳ございません。\nよろしくお願いいたします！",
+        "nc": 8,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@naru050319/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3813321,
+        "client_id": 2897895,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110425074e5ac8110921c4b0de5fedb9",
+          "srcset": "https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=110425074e5ac8110921c4b0de5fedb9, https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=30938f17670e9e486298b956420f200f 2x, https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e90f84a792a26e562c08a183d8c6bee1 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8938698209390afb6bd2b2fd18b9908e",
+          "srcset": "https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8938698209390afb6bd2b2fd18b9908e, https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=23c9862f7bcc5df8edcdd1d234639ed5 2x, https://si.imgix.net/f67d6990/uploads/origins/47ceb5d8-d789-47a3-a3a4-ee0b5521c60b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3c1a54aa8a88078aadfee8837cf024dc 3x"
+        },
+        "body": "なる様、はじめまして。\nこの度SNSにてなる様の描くファンタジー溢れる世界観のイラストに惹かれぜひ私のOCを描いていただきたいと思いリクエストをさせていただきました。\nリクエスト内容は下記となりますのでご確認をお願いいたします。\n\n◯使用用途\nSNSのアイコン、壁紙等\n個人鑑賞用を目的としたグッズ化\n\n◯キャラクターコンセプト\n名前:簑城 燕-ﾐﾉｼﾛ ﾂﾊﾞﾒ-\n25歳　175㎝\n男女問わず人間と関わり、よく悪戯っぽい笑みを浮かべている。飄々と生きている男。\n人が生み出すものをこよなく愛している。\n自他問わず本人の望む『有終の美』を飾ることを重要視している。\n爪先は青いマニキュアを塗っている。\nよく薬(OD用)と酒を飲んでいる。\n\n◯リクエスト内容\n下記ファイル内の「帽子屋差分」の姿を参考にしていただきたいです。\n構図等は全てお任せいたします。\n不思議な国のアリスのようなモチーフを含んでいただけますと嬉しいです。\n\n◯参考資料\n\nhttps://drive.google.com/drive/folders/1L2N92dPRkh9IJdfrmLR3Zdd8RrusOIAe\n\n金額や資料に不足がございましたら再送させていただきます。\nご縁がございましたら何卒よろしくお願いいたします。",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 349483,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "だゆ",
+        "screen_name": "4kumauo",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2012544484072964096/J8GG5DcA.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1134859666955968512/1757941847/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 572919,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "黒峯ぽむこ",
+        "screen_name": "pomkokuromine",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2016054157262655489/iRCjVPNk.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1091615264494374912/1756647116/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 14,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 969592,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "クレ",
+        "screen_name": "KURE9000",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1555578408964587520/JTwhiVLm.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1251531826545324034/1638434330/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 1239273,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "nunu@skeb募集中",
+        "screen_name": "nunu70386281",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1684359143925354496/-WqxDVE6.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1338035154799927296/1704745625/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 2598961,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "しなびた品",
+        "screen_name": "shinabitashina",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1621149681261903875/t7EzW3R2.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1621149542048727042/1679577604/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 110,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 2853176,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "片白かおる",
+        "screen_name": "katashiro__",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1874697153236586496/7I59LXuJ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1677990549679411200/1766066798/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 0
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 2000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@naru050319/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3813321,
+      "client_id": 3864997,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d9885427e988bb56749cbab17a0f96dd",
+        "srcset": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d9885427e988bb56749cbab17a0f96dd, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=08957915005352353ed3f763f717302a 2x, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=540b6013d66c3a470e574eb314daf2ee 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=91ab9281906784bb345f9c207368ebf8",
+        "srcset": "https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=91ab9281906784bb345f9c207368ebf8, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=82c40313fe2baa7beee915b2767da254 2x, https://si.imgix.net/d21a772b/uploads/origins/c522e26b-3c79-4dc4-af0d-def9cb19387b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d6f642b695cd9746b5e994dc286dedf5 3x"
+      },
+      "body": "なるさんの描かれるイラストが本当に大好きで、skebずっと待ってました！！！\n創作が出来ず版権しか描かないのでうちの子みたいな子はいないのでなるさんの世界観第一でお願いさせていただければと思います。\n\n・エルフの男の子（ショタ）\n・森に住んでいそうな雰囲気\n・構図はアップ、全身どちらでも構いません\n・それ以外は全てお任せ\n\n初めてskebを使うため至らない点がありましたら申し訳ございません。\nよろしくお願いいたします！",
+      "nc": 152,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

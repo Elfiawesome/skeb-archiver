@@ -1,0 +1,974 @@
+{
+  "screen_name": "jobzou1919",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 1489141,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1885035346737717249/9yoLNvX6.jpg",
+    "name": "じょぶぞう",
+    "nsfw_acceptable": true,
+    "screen_name": "jobzou1919",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/2984308568/1695843984/1500x500",
+    "body_size": 1000,
+    "received_works_count": 210,
+    "received_nsfw_works_count": 203,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "佐原っ・・・・・・！\nhttps://www.twitch.tv/jobzou\nhttp://pixiv.net/users/13164439",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 13164439,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://www.twitch.tv/jobzou",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": 356843,
+    "completing_average_time": 1535179,
+    "nc": 176,
+    "twitter_uid": "2984308568",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "jobzou1919",
+        "url": "https://x.com/jobzou1919"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.99,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fjobzou1919%2Fbackground%3Fd%3D47d6b2?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU1pdzFNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44GY44KH44G244Ge44GG&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=bb2b21ea31ad030047c51e8f62281aea",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 2500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@jobzou1919/works/210",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a0e65d808eeae2f56d13d272bd7ca2d7",
+          "srcset": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a0e65d808eeae2f56d13d272bd7ca2d7, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ca8270b4bdfb2c9bdbf7dccc1ec61ef1 2x, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2ad8466b77f4e790caabc8ff6b033ace 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5ab0cbabed9d2bcc9f2b93a34598dcb8",
+          "srcset": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5ab0cbabed9d2bcc9f2b93a34598dcb8, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=422a29d3b69b32be3b1ad84935e97cb5 2x, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=791ecbd50afe629d87c6d2814b55ca50 3x"
+        },
+        "body": "いつも美雪たちの素晴らしいイラストをありがとうございます！\n本当によく抜けます\n\n更なる続きをお願いいたします\nおもちゃで遊ばれる美雪と男たちに輪姦される菜央を見てオナニーを始めた一穂に気づいた男たちは、一穂のオナニーを強制的に止めさせる\nいく寸前だった一穂は男たちにイカせてくださいと懇願する\nそうすると男たちはイカせてやる条件としてアナル開発を絶賛されている美雪に対して自らがおもちゃを選び美雪に潮をふかせることかできればイカせてやるという条件を提示した\n友情とイキたいという衝動で揺れながらも一穂はおもちゃを手にし美雪のアナル開発を手伝った\n美雪は一穂にされるがまま簡単に潮吹きしてしまう。\n見事に美雪をイカせた一穂だったが男たちはその美雪のイキ様をみてもうこいつ終わったかと思ったけどまだこんなに潮ふけるじゃねぇかということに気付き一穂を縛り上げ\nありがとな一穂ちゃん美雪ちゃんまだまだ楽しめそうだからそこで見てな。\nといったあと再び美雪を輪姦し始め美雪がハデにイキ散らかす光景を見させられながら一穂自身は縛られてその光景を見ることしかできずいくこともできない\nといったシチュをお願いいたします",
+        "nc": 40,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/209",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4ad4f7bcf999007cc1ae754ca6c9b553",
+          "srcset": "https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4ad4f7bcf999007cc1ae754ca6c9b553, https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9a304da3527ca0ef4065af392767796d 2x, https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2235cdeff48f7c9c289e0259a2ccacd4 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b0d9d5b533c5699e4d1fed2c9b2bf59b",
+          "srcset": "https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b0d9d5b533c5699e4d1fed2c9b2bf59b, https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=dd38903f805918c1f3cf8808f52c4e41 2x, https://si.imgix.net/c271897a/uploads/origins/e09683a0-8a0f-4c3a-8a8f-f775274b3f5e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=46fe2ec13faf8d4a494492dd05b9719f 3x"
+        },
+        "body": "かぐや様は告らせたいより、藤原三姉妹をお願いします。\n\nおっぱいとすじが丸見えの構図で立っている全裸姿と、下着姿の２パターンをお願いします。",
+        "nc": 33,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/208",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dfdb6da09db0dbf945c98f1dc0b31ae4",
+          "srcset": "https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=dfdb6da09db0dbf945c98f1dc0b31ae4, https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e25380c3d084f8c84fe646379df9bba9 2x, https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=890ef7d0dbe0c6a4848b9808e108222b 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9f0fbff00bef4a953a02ad8eebeb6125",
+          "srcset": "https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9f0fbff00bef4a953a02ad8eebeb6125, https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=59ab8afb29a7dfc41213cdddc01b67e6 2x, https://si.imgix.net/f56b847a/uploads/origins/0515f7f4-5ae7-4fc0-b6ab-3d9060de4b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0858105e8c64fea0aee840adba7f6b27 3x"
+        },
+        "body": "かぐや様は告らせたいから、四宮かぐやのヌードをお願いします。\nおっぱいとすじが丸見えです。\n\n可能なら、下着姿の立ち絵もあると嬉しいです。",
+        "nc": 185,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/207",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=791517ef64f7558730aff2591de342e2",
+          "srcset": "https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=791517ef64f7558730aff2591de342e2, https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=766734729664aadfa6d0ae4aa2813932 2x, https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5a129c8569fc5b4ba1eeae5604ddd0ca 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=153d0d07ebd6f62fd4a89ec38eef3edc",
+          "srcset": "https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=153d0d07ebd6f62fd4a89ec38eef3edc, https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a5bd00ee207e9ccf69a8576ca47eafff 2x, https://si.imgix.net/2cacf680/uploads/origins/2dfeccca-b913-4374-956d-81a7fb829003?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d98bc070fe6faeed4d288cbfb4203276 3x"
+        },
+        "body": "どうも、最近のはやてちゃんの「敵に負けて公共クリボックス化にされてしまった」イラストがめちゃめちゃ好きです。\nよろしければ、ブルアカの【ニヤニヤ教授】と同じような絵の構図とシチュでお願いします。\n\n設定としては、カイザーや他悪い大人に捕まったのお仕置きとか、雑魚スケバンたちのお仕置きとか、エロ先生のお仕置きとか、どれでもいいです。\nはやてちゃんの絵みたい、前・中・後差分があると嬉しいです。彼女の偉い人名・伝説の「キヴォトス犯罪界のマスター」肩書きについて罵倒のセリフとｒｋｇｋも希望します。\n\n上記以外は全てお任せ致します。よろしくお願いいたします！",
+        "nc": 40,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/206",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ef88b7bc8e74edd81264304293bb7c27",
+          "srcset": "https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=ef88b7bc8e74edd81264304293bb7c27, https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=73e13a74b6ece563912f9d2e78e63425 2x, https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=a5f5526ced040578a185127c41efefb2 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=367fbe413340188d1ab74ddc11df6a39",
+          "srcset": "https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=367fbe413340188d1ab74ddc11df6a39, https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4c4ce1de94a837f34a2473d7bc7c7d99 2x, https://si.imgix.net/53c11f11/uploads/origins/3f87ac8a-e414-41bc-b02c-4f4aa2943c45?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=767e355158371c67e3e0212df93efce3 3x"
+        },
+        "body": "今回も素晴らしい美雪たちのイラストありがとうございました\n\n今回も続きをお願いします\n締まりがなくなった美雪を犯してもしょうがないと思った男は美雪の手足を拘束し用意していたバイブをアナルに突っ込みアナル開発をすることにした\n抵抗する気力が残っていない美雪は男たちのなされるがままアナルを開発されてしまう\n一方その横では薬の効果でイきやすくなっている菜央が男たちに輪姦されつづけており、それをただただ見せつけられている一穂も我慢の限界がきてごめんね菜央ちゃん‥美雪ちゃんと言いながらオナニーを始めてしまうという構図をお願いします",
+        "nc": 40,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/205",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/27f94c48/uploads/origins/f50b7a33-a065-49fc-be09-81fc060127be?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=730f5b8ca90bc188812e03d20ca899ca",
+          "srcset": "https://si.imgix.net/27f94c48/uploads/origins/f50b7a33-a065-49fc-be09-81fc060127be?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=730f5b8ca90bc188812e03d20ca899ca, https://si.imgix.net/27f94c48/uploads/origins/f50b7a33-a065-49fc-be09-81fc060127be?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=5749bbe442674121403be0254999f531 2x, https://si.imgix.net/27f94c48/uploads/origins/f50b7a33-a065-49fc-be09-81fc060127be?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a8af3792e480efe0021f54ff1a0cae36 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "nc": 49
+      },
+      {
+        "path": "/@jobzou1919/works/204",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=49f07e33468c05093253bd0c738cf286",
+          "srcset": "https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=49f07e33468c05093253bd0c738cf286, https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=25b957ac92f89a100360b651f25c7af2 2x, https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=555f3921a79fc68534f0754aaa1cbc7f 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=39a9c0c2182a9b8da735a33b1499094c",
+          "srcset": "https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=39a9c0c2182a9b8da735a33b1499094c, https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5b1cb5be678044f83828129bbdd014e4 2x, https://si.imgix.net/e39b5309/uploads/origins/7730f16a-6f47-4629-916c-68771358faf4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4491c384ccd97854ed84b9bf7c773fdf 3x"
+        },
+        "body": "今回も素晴らしい美雪たちのイラストありがとうございました\n\n早速続きのようなものをリクエストできればと思います。\n\n10倍の感度の薬を使われてさすがの美雪もついに完堕ちしてしまう。\n男たちは強情だった美雪すら堕とせてしまうことに喜びを感じ残り1本を一穂と菜央のどちらかにも投与しようと考えた。\nそこで男たちは既に堕ちている一穂と菜央にゲームを仕掛けることにした。\n一穂と菜央を拘束し股間にバイブを当てて先にイッた方にご褒美として薬を投与するゲームを始めた。(そのとなりで男たちに犯され続ける美雪もお願いします)\nそして、開始数分で菜央が潮を吹いてイッてしまいそのご褒美に菜央も薬を投与され美雪と菜央は男たちに輪姦され、イケなかった一穂は拘束されたままぐちゃぐちゃに犯される二人を見ているという構図をお願いします",
+        "nc": 185,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/203",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b1c49fa477544047b997b9f6e97837aa",
+          "srcset": "https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b1c49fa477544047b997b9f6e97837aa, https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=556c2ba498053b5895fd1c262753aa37 2x, https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=20217fbb4b88ae16f9525a367f578d2c 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=057c3eead32426b4bdd11ff3369a44f1",
+          "srcset": "https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=057c3eead32426b4bdd11ff3369a44f1, https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d09588354ef521719270e0e258207fcb 2x, https://si.imgix.net/86589074/uploads/origins/4b4a3cdc-c363-4184-85cf-34d0537b16c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d578750ba86dc96eb22baae7a7a6a710 3x"
+        },
+        "body": "遊戯王OCGのくノ一ウォリアーと一対一のボテ腹中出しエッチ\nhttps://www.pixiv.net/artworks/3063631\nカラーイラスト\n\nイメージ\nhttps://www.pixiv.net/artworks/129727401\nhttps://www.pixiv.net/artworks/130155525\nhttps://www.pixiv.net/artworks/129788274\n顔、おっぱい、お腹、結合部が見えるものでおまかせ\n中出しの瞬間でビューっと射精、結合部から精液溢れる\nボテ腹は大きい、臨月のお腹\n妊娠しているので母乳出る\n相手の男は顔など映らず誰だか分からない\n絶頂でおしっこお漏らし\n\nくノ一ウォリアー\n脚は細くて長い\n\n服装\n赤のロングタイツ、サングラス、鉢巻、赤のアームカバー\n\nセリフはおまかせ、入れる場合は無しバージョンも\n\n・ラブな感じ\n・修正は黒線などモザイク以外\n・真っ白だと寂しいのでグラデーションなど背景\n・キャラクターが難しい場合は再送願います",
+        "nc": 184,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/202",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fd453d4d18d49352c3c87e906911ae52",
+          "srcset": "https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fd453d4d18d49352c3c87e906911ae52, https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6c578a228ee66c172f2b5c765cd4371c 2x, https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2d1abd82d9c357f48a6e93628e25439f 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=70937037f298103440965cdf7e0fafa6",
+          "srcset": "https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=70937037f298103440965cdf7e0fafa6, https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0f794073772166c0c803157c2234d515 2x, https://si.imgix.net/0684cf8f/uploads/origins/bbf8f6ab-64c9-4ef9-8065-2c62ccd423ce?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5f72ff85ab81528bbadbb62cf36143b1 3x"
+        },
+        "body": "どうも、リクエスト失礼します。\nキャラ：八神はやてちゃん（リリカルなのはA'sみたいのぺったん子・ロリ姿）\n参考資料：https://imgur.com/a/70502JH\nシチュ：敵に負けて公共クリボックス化にされてしまったはやて\n\n詳細：\nガンガン使われたの前後差分を希望します\n①前\n・場所のテーマは悪人のラボラトリーかアジトっぽいとか、公衆の面前で打ち捨てられたとか、どっちでもいいです\n・壁の顔写真は普段のきれいで生意気なはやて、資料みたいのksgkドヤ顔かウィンク\n・ボックスの周辺には責める道具、と彼女の色々大切な武器（資料から魔法の本、魔法のペンダント等々）\n②後\n・○○日か月後、全てはザーメンか尿ぶっかけされた\n・色々卑猥な落書き、他の汚れた状態ある\n・新しいはやての顔写真（今のアへ顔か虚ろな顔ポラロイド）は、最初の顔写真の上で貼り付けた\n\n可能なら、色々男から淫語、嘲笑のセリフがあると幸せです。例えば、はやての誇れた偉すぎる肩書き「夜天の主」「SSランク魔導師の天才」と対照的に彼女の無様なクリボックス状態について、等々。\n\nその他構図などはおまかせしま、よろしければご検討よろしくお願いします。",
+        "nc": 41,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/201",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1489141,
+        "client_id": 941071,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b97d064af598dc9e4f20644215d0bff2",
+          "srcset": "https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b97d064af598dc9e4f20644215d0bff2, https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c41550bcf52cd2348bce37ec094a2636 2x, https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0c50840fd4148a178358f2e8b8c96c13 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=601b65428329f77efd0c8b29aa750f4b",
+          "srcset": "https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=601b65428329f77efd0c8b29aa750f4b, https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=77ccd33f4ac59874bf97ff6ae7c5d1b6 2x, https://si.imgix.net/47b7eabb/uploads/origins/548f4df6-0c01-4ada-94c7-e4f6114f4237?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=56a809bd6209aacdb41a00425a81e65a 3x"
+        },
+        "body": "リクエスト失礼します。\n自分のアイコン等に使っているキャラを描いていただけますでしょうか。\n\nhttps://x.com/toku_san_hin/status/1803581331554836659\nhttps://x.com/toku_san_hin/status/1803208359023419670\nhttps://skeb.jp/@KP_810/works/67\nhttps://skeb.jp/@KP_810/works/70\nhttps://skeb.jp/@tokyukazuha/works/37\nhttps://skeb.jp/@GRONGIKBTIT/works/164\n\n内容はお任せしますが、指定があるほうがよければ部屋でくつろいでいるところや食事を楽しんでいるところを描いていただければと思います。\nご検討いただければ幸いです。",
+        "nc": 137,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/200",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1a83023630f50c64d897e2c4ce9e18b3",
+          "srcset": "https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1a83023630f50c64d897e2c4ce9e18b3, https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4973f222318248942679402b775d08bc 2x, https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=82c211bd466fcbbfacaa743eb01107ac 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7e77905a6e6552b98e86bd83b63546a",
+          "srcset": "https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a7e77905a6e6552b98e86bd83b63546a, https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=09acc27f8afd1a91c14f30544451fe9e 2x, https://si.imgix.net/dcd2362c/uploads/origins/1671d50f-e326-401f-a7ea-3249d715056e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=eb0b84521432901d828b947f89b210f4 3x"
+        },
+        "body": "リクエスト失礼します\n\nキャラ：幽乃うつろ\n服装：裸に、資料のURLのチョーカー、ソックス、片足のタイツ。\n特徴：幽 の子なので肌は白く、舌や乳首・乳輪、口内、膣内、アナル、子宮内など粘膜が青～紫系のカラーになっています(参考 https://cdn-ak.f.st-hatena.com/images/fotolife/o/onigirisan07/20240401/20240401112757.jpg)\nシチュ：\n・・エロ蹲踞的なポーズでしゃがみ込んで脚を広げており、片手でくぱぁ、もう片方の手で横に立った男のおちんちんを掴んで手コキしている。\n・表情は顔を赤くしてちょっと恥ずかしそうな、控えめな笑顔で舌をべーっと出している。\n・膣内と精液が溢れており、精液の水たまりができている。\n・ちょろちょろと放尿しており、そちらも水たまりになっている\n・吹き出しやカットインのような感じで、卵子に精子が受精しているところを描いていただきたいです。\n人魂のような感じで紫の火に包まれている卵子に5～6匹の精子が受精しています\n\n受けていただけますと嬉しいです。\nよろしくお願いします。\n\nhttps://pbs.twimg.com/media/FvXw3ydXsAkCO7N?format=jpg&name=large",
+        "nc": 41,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/199",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1489141,
+        "client_id": 1371313,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e90df9824282130d63a2707c196d88b2",
+          "srcset": "https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e90df9824282130d63a2707c196d88b2, https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3247785d237e8cdace20ae7086285efb 2x, https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b150f04fd0622e7877ea80b80a070e25 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d4b4096c65411cbd53bd316bc942b7c0",
+          "srcset": "https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d4b4096c65411cbd53bd316bc942b7c0, https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=968d0d63cc3a0af902d7db32cbd6e80d 2x, https://si.imgix.net/f520ab9b/uploads/origins/05ffa50c-d504-4579-93af-2f79903733c6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=619d18f10a19cd17709b320ef3f52a9f 3x"
+        },
+        "body": "前回も素敵なイラストありがとうございました。とても幸せそうだったので、続きのお話をお願いできればと思った次第です。\n・つい出来心で浮気をしてしまう話とその後という感じです。\n※きれい系おめかし服＋おでこの囚人番号に厚塗りファンデ＋入れ歯で普通のきれい系女性に擬態して浮気のお出かけ準備（入れ歯入れているシーンがうれしいです）\n・不倫が見つかって、売春女子更生センターの不倫更生コース(2年)に入るか、100万円の慰謝料を払うかを提案される（お金を用意する方法として「奇天烈サーカス」再入店が用意されている：入店一時金100万円+売り上げの4割（5割お店、1割本人時給））。\n※奇天烈サーカス再入団後。「奇天烈サーカス」、「不倫便器ママ」、「本○行為旦那様承諾済み」、「【裏引き禁止】奇天烈サーカス団員につき、性的行為を行う際は旦那様も含めて必ず当店を通してください（電話番号）」などの刺青と、片胸の豊胸とオナホ乳首化が行われる。\n・奇天烈サーカスの“アルバイト”がある以外は普通の生活を送っている（ちなみに夫は追加改造に満足して、完全に許している）。\n※妊娠する。医療スタッフさんにドン引きされる。（なお、お客さんの子である）\n・息子さんと娘さんに囲まれてそれなりに幸せな生活を送る。\n\nといった感じのイラストをお願いできませんでしょうか。\n最小限「※」印部だけイラスト化していただければ御の字です。\n\nhttps://skeb.jp/requests/2809398",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/198",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fd64dfe3aa71599d249a2effad3c5959",
+          "srcset": "https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fd64dfe3aa71599d249a2effad3c5959, https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7ca7221542f51c4f782bce9aefd2cc82 2x, https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=48813faefe74ae184263cb20b04d678a 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8dc811237f6a96609797b0dbabac2929",
+          "srcset": "https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8dc811237f6a96609797b0dbabac2929, https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6cc539f43bb8d24c9dc0e165035880cf 2x, https://si.imgix.net/5779a559/uploads/origins/3a3c5d2d-67fd-44e3-93af-2fbb2b8e1463?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=56d2134f3fe32a67b0cd19d9e0d39815 3x"
+        },
+        "body": "いつも美雪たちのイラストをありがとうございます。\n前回3人まとめて犯されて穴奴隷に堕ちたその後のシチュを依頼できればと思います\n\nシチュエーション\n美雪、一穂、菜央の3人が穴奴隷として日々男たちに犯され続けて1ヶ月がたった。\n3人とも快楽の虜になっているかに見えたが美雪だけは快楽にたまに堕ちつつもギリギリのところで理性を保っていた。\nなかなか完全には堕ちない美雪に業を煮やし男たちは感度が10倍になる薬を美雪に投与し\nこれまでよりもさらに激しく犯すことを決めた。\nギリギリのところで理性を保っていた美雪も感度10倍には抗えず快楽堕ちした一穂と菜央の前で思い切り潮を吹き汚い喘ぎ声をあげて完落ちするというシチュをお願いできればと思います。",
+        "nc": 56,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/197",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=57554af4305366726b4b514ac384c167",
+          "srcset": "https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=57554af4305366726b4b514ac384c167, https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=1baa317e16979bbdd6dcdb72ab39519d 2x, https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=41df9a6c2ec95dc34a2c4573ca4dd8f9 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=76459bb296a8e2872958e8e7f1ae9160",
+          "srcset": "https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=76459bb296a8e2872958e8e7f1ae9160, https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3752cfb285e066cf2d1d2e573f7e6d7e 2x, https://si.imgix.net/b9afae55/uploads/origins/eb84c39a-d8b1-420f-96f8-c7ccc9cb4c7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f4f19a9339065c05175dde14e6566a6e 3x"
+        },
+        "body": "遊戯王OCGのアイス·ブリザード·マスターのボテ腹中出しエッチ\nhttps://www.pixiv.net/artworks/30532256\n\nイメージ\n顔、おっぱい、お腹、結合部が見えるものでおまかせ\nhttps://www.pixiv.net/artworks/119991446\nhttps://www.pixiv.net/artworks/114816549\n中出しの瞬間で結合部から精液溢れる、おしっこお漏らし、妊娠しているので母乳出る\n\n＊アイス·ブリザード·マスター\n口は覆われていて変わった冠を被っている\n\n-表情\n険しい表情\nhttps://pbs.twimg.com/media/F19gPDuacAIWI2x?format=jpg&name=4096x4096\n目は閉じない\n\nセリフはおまかせ、入れる場合は無しバージョンも\n\n・カラーイラスト\n・ラブな感じ\n・修正は黒線などモザイク以外\n・真っ白だと寂しいのでグラデーションなど背景\n・キャラクターが難しい場合は再送願います",
+        "nc": 169,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/196",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "client_id": 82839,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=68d08ab3d0cad010a8303805a2b093dd",
+          "srcset": "https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=68d08ab3d0cad010a8303805a2b093dd, https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=62c8ac5c2a8d229b6c440c8ebbdfdf27 2x, https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d1ae5f102901db4776528df2dde79411 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1815c1abdeae1cc7c3160565d3c9ca91",
+          "srcset": "https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1815c1abdeae1cc7c3160565d3c9ca91, https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=70c544f823f4a8acf5942eed7d8c5082 2x, https://si.imgix.net/62ff8d8e/uploads/origins/8009709c-4ed1-4032-89a6-941122f5a902?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=28a2f126b25541ef65e1512bd84d7f2f 3x"
+        },
+        "body": "初めまして、ブルアカキャラを多数描かれているのを拝見し、リクエストさせていただきました。\n以下リクエスト内容です。\n\nキャラクター：小鈎ハレ(ブルーアーカイブ)\n\nコスチューム：\n・透明フィルム質なピッチリチューブトップボディコンドレス(参考：https://images.app.goo.gl/u1YKGsrekywzigGr8 )\n　参考先より丈は上下短め、質感は艶テカ透明質感へ\n・靴は厚底ピンヒール(参考：https://x.com/teerexa8000000/status/1837864822991360490?s=46&t=HLREpzYaC7QiLr5yd12ZQg )\n・ブラは極小チューブブラ(参考：https://images.app.goo.gl/1LqKq6Vh4NAVJiuA8 )\n・パンティは紐パン\n・下着・靴とも艶テカメタリックカラー(カラーはお任せします。)\n・乳首にリングピアス装着\n・前穴にバイブと有線ローター、アナルには極太バイブを仕込んだ状態\n下着は別レイヤで有無選択可能仕様でお願いします。\n\nシチュエーション：\n先生により調教中でオモチャにされているハレなイメージ\n以下大まかな流れです。\n①エロコス着用でシャーレに呼び出され、羞恥心に悶えながら立ち姿を披露\n②きちんと性具を仕込んできたことを証明するため、片足をデスクに乗せて股間を見せつけながらバイブとアナルバイブでオナニーさせられる姿\n③しっかり言いつけを守ったハレにデスク上でまんぐり返し姿勢をとらせご褒美セックス\n　前穴、アナルそれぞれのファック+中出し差分お願いします。\n\n他、指定のない事項はおまかせいたします。\n以上、何卒よろしくお願いいたします。",
+        "nc": 168,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/195",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fbcc937cbb9e39e22857aa380257c1a0",
+          "srcset": "https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fbcc937cbb9e39e22857aa380257c1a0, https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=7eb3674d4e0e30461442dd4fa4d0c4f9 2x, https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=57e9ef3eac160c34c14af1c7d05a6f50 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0f3e8784973c8bef959837add12613ba",
+          "srcset": "https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0f3e8784973c8bef959837add12613ba, https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=dcdb1821e468057fd9348e8d21088a17 2x, https://si.imgix.net/79fff692/uploads/origins/57a19aad-ef0f-4c20-868c-8571b74ae0fc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bdcd467c328604adb350426373806190 3x"
+        },
+        "body": "ふたなり化改造でチンポと金玉を生やされた対魔忍ユキカゼの水城ゆきかぜと秋山凜子が搾精されて魔物の卵に種付けさせられているシチュエーションをセリフ・効果音付きでお願いします。\n\n下記のような感じでお願いします。\n\n研究室のような部屋の真ん中に黒い球体型パーツのある装置が置かれている。\n黒い球体は左右に振動するオナホ状の入口があり、更に上に付いた太い透明の管から大量の白い魔物の卵が球体の中に入り、下に付いた太い透明の管から受精して黒と紫に染まった卵が精液と一緒に排出されている。\nゆきかぜと凜子はそれぞれ左右のオナホにガニ股で立って挿入していて、凜子は自分のおっぱいと同程度にまで肥大化した金玉を自分で揉んで精液を搾り出し、オホ声を上げながら腰をガクガクさせて射精し続けている。\nゆきかぜは装置にベルトで腰を固定されて無理矢理挿入させられ射精し続けていて、ベルトを外そうとしているが快楽で手に力が入っていない。\nゆきかぜは射精快楽に堕ちかけながらも脱出しようとしているような台詞を言っている。\n凜子は既に堕ちきって「魔物のパパになる」事が快楽になってしまっていて、脱出しようとする傍らでの射精で自分の種付け数に勝っているゆきかぜに嫉妬して怒りながら種付けしている。\n背景はそれぞれゆきかぜ側、真ん中、凜子側の壁に画面があり、それぞれの側の画面には卵の受精数が表示されていて、真ん中の画面には球体の内部でそれぞれの精子でぶちゅぶちゅ音を立てながら受精している大量の卵の様子が映されている。",
+        "nc": 168,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/194",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3af8a86dd36058a97f7c3c2c312d4695",
+          "srcset": "https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3af8a86dd36058a97f7c3c2c312d4695, https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=1ed10845f667854236e841fdad643656 2x, https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=115c4defccecd20e0c6402815923b7af 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ea728b090dd236a4d56facba67a9aa29",
+          "srcset": "https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ea728b090dd236a4d56facba67a9aa29, https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7043a8757316c2b096bc80639bc045c8 2x, https://si.imgix.net/5446e8d7/uploads/origins/4796e8b7-92a7-4034-93a8-f5558753c421?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c7cae47cd0ab5a38fe3657d5c3a5fd7b 3x"
+        },
+        "body": "【キャラ】\n女性(わかりやすく呼び名として千恵)：彼氏持ちの新社会人。人当たりが良くノリの良い陽キャな性格だが酒癖が悪い。灰色の髪の短髪。巨乳。衣装はウェディングドレス。キャラや衣装の大まかなイメージは以下の参考画像より\n(https://www.dropbox.com/scl/fo/71dokaxxfff38uqxpxmhv/AJeOz467SwBXYMIa5d1JG08?rlkey=zks1qsfom4896dt1ayql1wkpr&st=m9hj3za8&dl=0)\n彼氏(浩平)：黒髪、親友(秀明)：茶髪。\n\n【内容】\n自宅で彼氏と共通の親友と晩酌をする千恵。自分で購入したウェディングドレスを着て、見せびらかしながら親友とふたりっきりで晩酌するが、次第に酔っていく。\n酔いに任せて親友は千恵抱き着くが千恵もまんざらでもない様子でおり、濃厚なキスまでしてしまう。そのままふたりっきりで浮気SEXをして一晩明かしてしまう。\n翌朝、酔いの冷めた千恵は深く後悔に陥ってしまうが、親友と相談して内密にすることに。しばらくして、彼氏と結婚式をする千恵。秘密を抱えながら、彼氏に謝罪と捨てられたくないという焦燥感で心が埋め尽くされる、というところで終わる。\n可能なら、セリフなしもお願いします。\n\n改めてよろしくお願いします。\n\nhttps://www.dropbox.com/scl/fo/71dokaxxfff38uqxpxmhv/AJeOz467SwBXYMIa5d1JG08?rlkey=zks1qsfom4896dt1ayql1wkpr&st=u7o0lqw7&dl=0",
+        "nc": 185,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/193",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1489141,
+        "client_id": 1371313,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6a2ca8ed442d5461e4be81a5f4af038f",
+          "srcset": "https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6a2ca8ed442d5461e4be81a5f4af038f, https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=203220d99904626229de6cb7cc50c1ba 2x, https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=166bd376547e2f67cca74101a894af7a 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=63a65350c116517f5fce0875c58c3743",
+          "srcset": "https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=63a65350c116517f5fce0875c58c3743, https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f6602844d8545ce58e997751eecd13df 2x, https://si.imgix.net/459545dd/uploads/origins/2d383c93-3c6f-4aa4-9cdb-9335ddf4c166?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1a84428116f9d47540786e1cb9c63dde 3x"
+        },
+        "body": "前回ありがとうございました。とても素敵な女性だったので、続きのお話をお願いできればと思った次第です。\n・だんだん売れなくなり、マニア向けに尖ったカスタムをされていきます。歯も抜かれ、額と左胸に「売春女子更生センター」「2639」と更生施設時代の囚人番号を刺青されたり、下腹部に「犯罪者便器」、内股に2つの堕○マーク、乳首は黒くなり、乳首の周りにまん○マークとか、人権放棄とかなんかいろいろと刺青されて、もうどうしようもない感じにされてしまいます。\n・どういうわけか物好きな元同級生（ちなみに、女性側は忘れてた。見た目普通、そこそこ高収入）と結婚することになった。\n※エロウェディングドレス姿（裸差分いただけると幸いです）\n・普段は女性上位の夫婦関係だけど、体の変形の整復や刺青は消させてもらえない。（どうやら夫の大好きポイントらしい）\n・無事子供が産まれた。内股に出産マークが追加される。\n※子供をつれて出歩いているが、ぱっと見は普通の服を着ているけど服の下は刺青とか垂れ乳、グロマンとか非常に残念な感じになっている。前髪でギリギリ隠れているけど額には囚人番号が見える。（服を着た状態、透過、服なしの三差分いただけると幸いです）\n・基本的には非常に変な趣味に巻き込まれてますが、女性はそこそこ幸せになれましたという続きです。\n\nといった感じのイラストをお願いできませんでしょうか。\n最小限「※」印部だけイラスト化していただければ御の字です。",
+        "nc": 56,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/192",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/84ec609b/uploads/origins/b8f7c25d-57dd-4b30-a4f2-e81983183852?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=41e58178ee781bfce458db3f2b644b37",
+          "srcset": "https://si.imgix.net/84ec609b/uploads/origins/b8f7c25d-57dd-4b30-a4f2-e81983183852?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=41e58178ee781bfce458db3f2b644b37, https://si.imgix.net/84ec609b/uploads/origins/b8f7c25d-57dd-4b30-a4f2-e81983183852?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e14ed754d5f5b7f35e86d74f881b64d1 2x, https://si.imgix.net/84ec609b/uploads/origins/b8f7c25d-57dd-4b30-a4f2-e81983183852?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9466d004d239f9185cac22bc525fe896 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "nc": 177
+      },
+      {
+        "path": "/@jobzou1919/works/191",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/398a43bf/uploads/origins/1d53d2d0-b91d-4c2e-9854-80c1e691bfb7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=67d168af8e7f5c632f0695af35779181",
+          "srcset": "https://si.imgix.net/398a43bf/uploads/origins/1d53d2d0-b91d-4c2e-9854-80c1e691bfb7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=67d168af8e7f5c632f0695af35779181, https://si.imgix.net/398a43bf/uploads/origins/1d53d2d0-b91d-4c2e-9854-80c1e691bfb7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1ad8f1cda9a7be74351dfef993c65354 2x, https://si.imgix.net/398a43bf/uploads/origins/1d53d2d0-b91d-4c2e-9854-80c1e691bfb7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=90b98445b01aa2a2a32a5a29f30357f0 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "nc": 33
+      },
+      {
+        "path": "/@jobzou1919/works/190",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=75b5938334208e3020b650f3a9b22017",
+          "srcset": "https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=75b5938334208e3020b650f3a9b22017, https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e599ea7cc7567c997e59ce9ac4f6d08b 2x, https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=332e8a62c49a4d03066e4603e764e279 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b0e122758af53a3771be7442c679dac4",
+          "srcset": "https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b0e122758af53a3771be7442c679dac4, https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5a7a2b8b4f80d964fcdf6d8b09eb90bd 2x, https://si.imgix.net/b4b40c53/uploads/origins/a5fa314d-f9b2-4bb3-a1a1-a56182066944?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fa4b1afe6640b15865f6067c2d1b8e70 3x"
+        },
+        "body": "遊戯王OCGのヴィシュワ・ランディーのボテ腹中出しラブエッチ\nhttps://www.pixiv.net/artworks/8508972\n\nイメージ\n顔、おっぱい、お腹、結合部が見える\n6本の腕、口の近くで輪を作ったり自分の乳首をつまんだり\nhttps://skeb.jp/@tutinoke3461/works/11\n中出しの瞬間で結合部から精液溢れる、おしっこお漏らし、妊娠しているので母乳出る\n\n＊ヴィシュワ・ランディー\n巨乳\n6本腕のモンスター\n黄色のグローブを着用\n\n-表情\nhttps://www.pixiv.net/artworks/122052660\n目は閉じない\n\nセリフイメージ\nSな感じのせめ\nhttps://www.pixiv.net/artworks/114265714\n無しバージョンも\n\n・カラーイラスト\n・修正は黒線などモザイク以外\n・真っ白だと寂しいのでグラデーションなど背景\n・キャラクターが難しい場合は再送願います",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/189",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=69b0799277d031873dfc0b7c3822b073",
+          "srcset": "https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=69b0799277d031873dfc0b7c3822b073, https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=d1b4a3e26fe2c1ee1a9c07ee954c73a4 2x, https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5de78be05f248101d1503135ff45b8e2 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6a6be479e660d975f1480c42e56d4c3e",
+          "srcset": "https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6a6be479e660d975f1480c42e56d4c3e, https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0ed26f19e30c80f593d82beac85921d4 2x, https://si.imgix.net/9f4c6816/uploads/origins/c4673c54-9123-493c-92a5-4fb6ebdd75fb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5219f17facb44c5dd77e988d979c2bdc 3x"
+        },
+        "body": "いつもひぐらしの美雪たちのイラストをありがとうございます\n\n以前からのさらに続きのような感じでお願いできればと思います\n\n構図\n美雪の変わりに解放された菜央と一穂が我慢できずに助けに来たがそこにいたのは快楽に堕ちて男たちに犯されている美雪であった。\nそんな彼女の様子をみた二人は驚きを隠せないでいると後ろから他の男たちも合流し\n菜央と一穂も脱がされて犯されてしまうという構図をお願いします\n\n可能であれば最後に三人仲良く犯されてしまっている構図があれば嬉しいです\nよろしくお願いいたします",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/188",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=28e0a1080ed2ad262b198b21978699f3",
+          "srcset": "https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=28e0a1080ed2ad262b198b21978699f3, https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=15a8f412bff67f8afbef93821d20902d 2x, https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d5e3ca2df15667ed1e562e140c3d4e98 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1a6833aec48d577ef67d109616f6cecb",
+          "srcset": "https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1a6833aec48d577ef67d109616f6cecb, https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=255534050008e7511c167a56a63dd6ac 2x, https://si.imgix.net/8ad587f1/uploads/origins/0e273f9b-0e96-4a57-a4a9-f445bfbedc7e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8e405f71d1b3f16ae44e380e8983b39c 3x"
+        },
+        "body": "個人Vtuber、卯花柚希さん（R18イラストタグ有り/ドスケベFAリスト四期生）のR18なイラストをお願いしたいです。\n\nキャラクターデザインは資料URLの固定ツイート１枚目を基準にお願いします。\n\nシチュエーション\nトイレの個室、洋式便器の上でまんぐり返しで拘束されている。いわゆる肉便器状態。\n服装は全裸だが乳首ピアス、開口器、局部に極太バイブとアナルにアナルパール。\n表情は虚ろだけど興奮で上気している。\n全身が白い液体にまみれている。\n\n何卒よろしくお願いいたします。\n\nhttps://x.com/yzk_unhn/status/1865561939080012019",
+        "nc": 56,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/187",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1489141,
+        "client_id": 1371313,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bcb96dd9b7b471cf4b25fb670f4a6f0e",
+          "srcset": "https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bcb96dd9b7b471cf4b25fb670f4a6f0e, https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b122dfa4680759215fc101ed7950bf3c 2x, https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b15b589e94bf3c85eaa67c415aad9ce4 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=75bcfcc00f2db732929278dd71602bb1",
+          "srcset": "https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=75bcfcc00f2db732929278dd71602bb1, https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6b3e633668cecb2d1e66aca6a3abe0e4 2x, https://si.imgix.net/2cbc5add/uploads/origins/e39e5701-958d-4947-9d06-78542dd474b1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=52cc0b008ecd6683ff9fdd40dcb9225b 3x"
+        },
+        "body": "はじめまして。https://skeb.jp/@jobzou1919/works/151 こちらの作品を見て是非お願いしたいと思いました。\n癖が強い依頼ですが、可能であればお受けいただけると幸いです。\n・立ちんぼしていた女子大生（黒髪、オバール型メタルフレームメガネ、真面目風）が逮捕されて\n・囚人服を着せられた女囚になり（資料URL。薄ピンクの4つボタンスモック服です）\n・再犯予防のための更生処理として、駄乳化（垂れ乳、汚い乳首化）、グロマン化、口裂け女化など行われます。（更生処理の内容はお好みに応じて変更いただいてかまいません、女性的魅力を削り残念女子にするものであればOKです）\n・出所後は、普通の生活には戻れず、特殊な風俗店で働くことになりました。\n\n※めがねは極力全体を通してかけていてもらえるとうれしいです。\n\nhttps://drive.google.com/drive/folders/1RFkD_b6MgkMRRWl7-zScCyJL8TPcf0DK?usp=sharing",
+        "nc": 171,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/186",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2b82db084d1a9c2735bcd97743064b04",
+          "srcset": "https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=2b82db084d1a9c2735bcd97743064b04, https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6bf641f8b0a27d68234cd7fd9e3db843 2x, https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1b36e0cfc3ff3fcc7d449366fcead803 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ca29b03ba39e23b5c5591f152bbbf81f",
+          "srcset": "https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ca29b03ba39e23b5c5591f152bbbf81f, https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a3a567e7da3d003d8a2ada885aff3472 2x, https://si.imgix.net/1885abfd/uploads/origins/c236a744-c30b-41dc-8ec0-055f62afc539?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b3c0200db820f4112ca8bd6a902629c9 3x"
+        },
+        "body": "お久しぶりです。またリクエストしてもよろしいでしょうか。\n\nプリコネのナナカちゃんを全身すっぽり黒マントの立ち絵でお願いします。\n衣装は以下の参考URLと同じ三角帽子＋仮面に、全身が巨大な引き摺るサイズの黒（裏地は赤）のドラキュラマントに身を包んだ姿で足元まですっぽりと完全にマントで覆われ、前が閉じられて手足も含めて中身もボディーラインも全く分からない、地面に裾が大きく広がった状態で正面向きのアングルで立っている状態でお願いします。（参考資料①・②を参照）\nマントは動画の通りボディーラインが浮き上がらない、彼女の全身をすっぽりと完全に包み隠して足元に裾が広がる（隠すことのできる）大きさにしてください。\nマントの中は全裸に手足に赤い手袋とブーツを履いた状態という設定で、街中で身に纏っているマントを両手で大きく広げて、自らの裸体を露出させる場面で描いてください。その際もマントの裾は地面に広がっている感じでお願いします。（余裕があればで構いません。無理ならば全身マント姿のみでいいです。）\n背景や表情はお任せします。\n以上、よろしくお願いいたします。\n\n【参考資料】\n①\thttps://m.media-amazon.com/images/I/41EDMVGu77L._AC_.jpg\n②\thttps://booth.pximg.net/aa9f22e8-b178-430b-af53-ffee2b605924/i/4717148/2ababf56-fe1a-4c4b-98fc-d6f44d88c90f.jpg\n\nhttps://mantan-web.jp/article/20200501dog00m200028000c/photopage/001.html",
+        "nc": 168,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/185",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=55c65b5f9007467ef4138828f1edfc09",
+          "srcset": "https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=55c65b5f9007467ef4138828f1edfc09, https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=96ae19cbaa9494d75ab42ec61066a3c2 2x, https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0b684162f55f84be8e82a6606fad9074 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4a8dbb120e647e488b9e0165779567ef",
+          "srcset": "https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4a8dbb120e647e488b9e0165779567ef, https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ea60c7b1a1476d68d2539141504a2a68 2x, https://si.imgix.net/126551a6/uploads/origins/92caf1a1-dfb8-41bf-888e-011a388eca8c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cafb7689a6a8245237134797d93e8607 3x"
+        },
+        "body": "遊戯王OCGの恍惚の人魚と一対一ボテ腹中出しエッチ\nhttps://www.pixiv.net/artworks/60006037\n\nイメージ\nhttps://www.pixiv.net/artworks/108696782\nhttps://skeb.jp/@eropowerfullraf/works/34\n顔、おっぱい、お腹、結合部が見える\nびゅーっと射精され結合部から精液溢れる、中出しの瞬間\n男はチンポのみでOK\nおしっこお漏らし\nボテ腹は大きい、臨月のお腹\n母乳出る\n\n恍惚の人魚\n耳はヒレ\n赤いリップで乳首の色は濃い緑\n\n表情\n2枚目の表情、ウィンク\nhttps://www.pixiv.net/artworks/119186146\n目は閉じない\n\nセリフはおまかせ、入れる場合は無しバージョンもお願いします\n\n：ラブな感じ\n：男の顔は映らず誰かなど分からない\n：修正は黒線や精液などモザイク以外\n：色々な場所で色々な人に見てもらいたいです",
+        "nc": 184,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/184",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a5eb05899393d89dbe2b0e4fb29b1005",
+          "srcset": "https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a5eb05899393d89dbe2b0e4fb29b1005, https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b7acc1aab6ab44815b379575e066c8a5 2x, https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1635388510325d75e86f969aecaa3865 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b1f988ee4fbcc6b5032905a4f9c7db45",
+          "srcset": "https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b1f988ee4fbcc6b5032905a4f9c7db45, https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=81214c8fc28bb849bb4b49d66c30638a 2x, https://si.imgix.net/84b9f0bc/uploads/origins/494171d4-8a57-4f0e-b248-a8507ff4810b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=76f2964372a63e2349aa3cd16fd5ec34 3x"
+        },
+        "body": "前回はとても素敵な絵をありがとうございました。\n今回も再び大●豪●大●民●/ V●ン●ィ（https://twitter.com/CareerPoker）のエロイラストをお願いします。\n\n・砂浜で魚か何か、海の生き物に犯され、卵でボテ腹にされるシチュ\n・本人は全裸、既に犯された後で砂浜に倒れており、力が入らず放心状態になっている\n・目は涙目で、さらに目に光のないレイプ目状態で\n・膣に卵を産み付けられてボテ腹になっており、子宮に入りきらなかった分が膣からどんどんあふれ出している\n\n\nその他細かい所はお任せします。よろしくお願いします。",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/183",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3909708462e4595af4b5ad2663f93721",
+          "srcset": "https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3909708462e4595af4b5ad2663f93721, https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b51adcbdc7f82d220229345a3e3b1c15 2x, https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d2d9351f949686d2aa4eba977cd59642 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb2fa54d20ccf9d434b3a48fdd2a7178",
+          "srcset": "https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=cb2fa54d20ccf9d434b3a48fdd2a7178, https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=da6c124ac749cd74654572011426514d 2x, https://si.imgix.net/62301ba2/uploads/origins/2179b4a4-d00b-4699-ac2d-32eb25f8aa40?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=305600240d0320cf9648f79d6d4f8d4b 3x"
+        },
+        "body": "いつもひぐらしのなく頃に命から赤坂美雪たちのイラストをありがとうございます\n\n以前から書いていただいているさらに続きのような感じでお願いできればと思います\n\n構図\n一穂と菜央の代わりに男たちに犯される美雪\n美雪の頑張りにより一穂と菜央は解放されたもののその代わりに毎夜男たちに代わる代わる犯される日々が続く\n最初は快楽に耐えつつ気丈に振る舞っていた美雪もついに限界を迎え自分から求めるようになってしまう\nという快楽堕ちをお願いします\n\n可能であれば毎夜犯されているということをわかりやすくするために美雪に首輪をお願いします",
+        "nc": 41,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@jobzou1919/works/182",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6d8cbb70/uploads/origins/b5818d51-9def-4f0b-b689-fd89f58f1d59?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=16a29a3560a26614225d1554bf19662b",
+          "srcset": "https://si.imgix.net/6d8cbb70/uploads/origins/b5818d51-9def-4f0b-b689-fd89f58f1d59?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=16a29a3560a26614225d1554bf19662b, https://si.imgix.net/6d8cbb70/uploads/origins/b5818d51-9def-4f0b-b689-fd89f58f1d59?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c7910889644a82078008b3375501721e 2x, https://si.imgix.net/6d8cbb70/uploads/origins/b5818d51-9def-4f0b-b689-fd89f58f1d59?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3bfe57dfee1fc0d383565cdf32b43014 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "nc": 160
+      },
+      {
+        "path": "/@jobzou1919/works/181",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2760788d/uploads/origins/3732a0ce-9e0e-49bf-9416-d70a813c7377?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=70cb6bd00f521df821dacda41e7047a2",
+          "srcset": "https://si.imgix.net/2760788d/uploads/origins/3732a0ce-9e0e-49bf-9416-d70a813c7377?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=70cb6bd00f521df821dacda41e7047a2, https://si.imgix.net/2760788d/uploads/origins/3732a0ce-9e0e-49bf-9416-d70a813c7377?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d0b20386ee30313aced59542edb9da3e 2x, https://si.imgix.net/2760788d/uploads/origins/3732a0ce-9e0e-49bf-9416-d70a813c7377?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=956c15af8c89acb1fff7c07a0e3fdfcf 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1489141,
+        "nc": 177
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 183278,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "かけるたろう",
+        "screen_name": "morino_MK2_ver7",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1626797706659377153/mO0a2qbD.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/710105918675890178/1491328587/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 574604,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ればすと2ndGen🔞＠サブ垢",
+        "screen_name": "rebasuto102702",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1792546161016143872/8xcGDu6g.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1116577413163438081/1608736233/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 598327,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "洗濯扇風機",
+        "screen_name": "VNPjq8ocxG4SfAw",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1404732562426122240/sVplgNCQ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1133044557048737793/1717755585/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 32
+      },
+      {
+        "id": 787057,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "ねじ田ふぐり@skeb",
+        "screen_name": "tisssssue1031",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1906172914665422848/TTEFMFwg.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1318498059190300673/1744622829/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 169
+      },
+      {
+        "id": 1662221,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "秋梨@新作固定",
+        "screen_name": "WATASHIHAHENTAl",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1903420828538302464/T_yMMXd9.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1592553813537214465/1750929614/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 20,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 3642913,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "くぐつ🔞",
+        "screen_name": "mrunknown",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1992833089626886144/mNOlLkci.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1827000637604900864/1748683573/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 161
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 2500,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@jobzou1919/works/210",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1489141,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a0e65d808eeae2f56d13d272bd7ca2d7",
+        "srcset": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a0e65d808eeae2f56d13d272bd7ca2d7, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=ca8270b4bdfb2c9bdbf7dccc1ec61ef1 2x, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2ad8466b77f4e790caabc8ff6b033ace 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5ab0cbabed9d2bcc9f2b93a34598dcb8",
+        "srcset": "https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5ab0cbabed9d2bcc9f2b93a34598dcb8, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=422a29d3b69b32be3b1ad84935e97cb5 2x, https://si.imgix.net/53ac2493/uploads/origins/4d8a983e-b502-418c-9865-914c80a9010a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=791ecbd50afe629d87c6d2814b55ca50 3x"
+      },
+      "body": "いつも美雪たちの素晴らしいイラストをありがとうございます！\n本当によく抜けます\n\n更なる続きをお願いいたします\nおもちゃで遊ばれる美雪と男たちに輪姦される菜央を見てオナニーを始めた一穂に気づいた男たちは、一穂のオナニーを強制的に止めさせる\nいく寸前だった一穂は男たちにイカせてくださいと懇願する\nそうすると男たちはイカせてやる条件としてアナル開発を絶賛されている美雪に対して自らがおもちゃを選び美雪に潮をふかせることかできればイカせてやるという条件を提示した\n友情とイキたいという衝動で揺れながらも一穂はおもちゃを手にし美雪のアナル開発を手伝った\n美雪は一穂にされるがまま簡単に潮吹きしてしまう。\n見事に美雪をイカせた一穂だったが男たちはその美雪のイキ様をみてもうこいつ終わったかと思ったけどまだこんなに潮ふけるじゃねぇかということに気付き一穂を縛り上げ\nありがとな一穂ちゃん美雪ちゃんまだまだ楽しめそうだからそこで見てな。\nといったあと再び美雪を輪姦し始め美雪がハデにイキ散らかす光景を見させられながら一穂自身は縛られてその光景を見ることしかできずいくこともできない\nといったシチュをお願いいたします",
+      "nc": 185,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

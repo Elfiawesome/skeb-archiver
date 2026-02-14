@@ -1,0 +1,633 @@
+{
+  "screen_name": "muuhoto",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 20335,
+    "acceptable": false,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1920431486827716608/EHZDZeJY.jpg",
+    "name": "ほとむら",
+    "nsfw_acceptable": false,
+    "screen_name": "muuhoto",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1510811401/1670769879/1500x500",
+    "body_size": 10000,
+    "received_works_count": 14,
+    "received_nsfw_works_count": 2,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "漫画家　ラーメン│もつ鍋│動物",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 22812863,
+    "booth_id": "muuhoto",
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://muuhoto.booth.pm",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": 242165,
+    "completing_average_time": 1903812,
+    "nc": 161,
+    "twitter_uid": "1510811401",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "muuhoto",
+        "url": "https://x.com/muuhoto"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 0.88,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Ffcdn.skeb.jp%2Fassets%2Fv1%2Fcommons%2Fogp.png?auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fb919ed2f719addcbe44cbdea9c1851a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 15000
+      },
+      {
+        "genre": "comic",
+        "default_amount": 18000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 8000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@muuhoto/works/15",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 20335,
+        "client_id": 25570,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e3b0f161cde447305e237e4b7d881c71",
+          "srcset": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e3b0f161cde447305e237e4b7d881c71, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=68817995e981ed3d4bb9d9e75b40f072 2x, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=45ad8bb18345d8dfc12d7af4cafcb73b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8ca7cda590892bce067bc53dd7b2b172",
+          "srcset": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8ca7cda590892bce067bc53dd7b2b172, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7502cf994d5d1409764146525dc4b27e 2x, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e992aa1dd0d0d478c5768940d9951b75 3x"
+        },
+        "body": "ファッションブランド「ほとむら」の最新作、2026年 Winterをお願いします。",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/14",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 20335,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=874b61775c96a89f1ce5a275b963ccec",
+          "srcset": "https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=874b61775c96a89f1ce5a275b963ccec, https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=990863c94181ffb661db8277776c711b 2x, https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bd607f2e59c24590c982b6a472f3ab71 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=669f17c609af23ca9587ae9cf940e384",
+          "srcset": "https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=669f17c609af23ca9587ae9cf940e384, https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ee27029dfbf967d49f7f31288d511bde 2x, https://si.imgix.net/e901f0d8/uploads/origins/91e11451-45da-442b-8462-d73725365253?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5d448b888e795af867eba7ec8cb5d34a 3x"
+        },
+        "body": "ほとむらさんこんばんは！\n\n飼育してるミニレッキスののんきちゃんのイラストをお願いします！   4歳のメスですが現在は去勢して首元のマフが無くなりました😭性格は臆病で食いしん坊です。\n二人っきりだとすごく甘えてきます。\n体も可愛いので全身描いていただけると嬉しいです。\n他は自由に描いていただければと思います。\n\nいつも素敵なイラストありがとうございます。\n作画のお仕事応援してます！\n\nhttps://instagram.com/chankinon0412?igshid=YmMyMTA2M2Y=",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/12",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 65838,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=01a4b688e8abfd408e5e5dad414f011f",
+          "srcset": "https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=01a4b688e8abfd408e5e5dad414f011f, https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=8fd1789e691f72c8d6723455576300b3 2x, https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=319a7c3b59de81a2e192a02de7ffa781 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e1678514bf8316e90f23f891b06f240a",
+          "srcset": "https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e1678514bf8316e90f23f891b06f240a, https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a83de106ae0971bc22591562a5b14fb0 2x, https://si.imgix.net/a701f50a/requests/16512_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=be7f13c38721fa19639cb8573b06a197 3x"
+        },
+        "body": "MEMプロジェクト（@shirayuki_saion）の朝比奈ひなちゃんが歌を高らかに歌っているイラストを依頼します\n片手を胸の前に持ってきて、もう一方の手は広げているポーズでお願いします！",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/11",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 77598,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8c0d08fb68f3015b28a5c97d16ed2ccc",
+          "srcset": "https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8c0d08fb68f3015b28a5c97d16ed2ccc, https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3ebb7c841795dc1433fc74f710a364a8 2x, https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=22379bb9c7524f3426ca638fed4c4167 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d2d1995810770a60adcef222b9ae2507",
+          "srcset": "https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d2d1995810770a60adcef222b9ae2507, https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=232fb254761df62f1d157f4249fdfa2a 2x, https://si.imgix.net/0739e673/requests/15027_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d6573af051ae0c8a32420f9fa173c9b7 3x"
+        },
+        "body": "M45 ガスマスクを顔に装着した女の子",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/10",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 22691,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4d66b1a4eed13aef3c3ffdb3eae1aacd",
+          "srcset": "https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4d66b1a4eed13aef3c3ffdb3eae1aacd, https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b003d15ca323cb5fe2d977920150d9fb 2x, https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e279d4154b0e7d50404d8063cc64d5c3 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b620330e061423e33ff3228244fe4743",
+          "srcset": "https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b620330e061423e33ff3228244fe4743, https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=bc6f91cf2e77edbcec022ca5c9613c15 2x, https://si.imgix.net/f450888f/requests/8059_2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=84e8ef4de2b80c604714816a91c286ee 3x"
+        },
+        "body": "カフェアンダンテの透ツインテールしろボンボンメイド制服状態(@andante_toru)イメージのイラストお願いいたします\nアイコン使用を目的としていますが生誕祭のグッツにも使用してよろしいでしょうか？\n解像度200dpi以上/A5以上/カラー/背景不要",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/9",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 48345,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9c83be97c91ec7a96ad296e71aba26d8",
+          "srcset": "https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9c83be97c91ec7a96ad296e71aba26d8, https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fadfda93e969405324c34c39a85ea0dc 2x, https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7bdc719c266270fdd90bd96222bc8bff 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3609f62c186700c212189459439aa5b9",
+          "srcset": "https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3609f62c186700c212189459439aa5b9, https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b5de62c04edaa91e90355ccfaa55a272 2x, https://si.imgix.net/c9854355/requests/5759_0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=df6cd990c65f218874e17f5bc6ec198e 3x"
+        },
+        "body": "「きのこ」をお題に女の子描いてほしいです！",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/8",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 42894,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=155d9e2d5621bec039c8e9f1b9693a14",
+          "srcset": "https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=155d9e2d5621bec039c8e9f1b9693a14, https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5fb4b3bf93ed2cc41d075952347a88dd 2x, https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8791edcfcaab4b934d0dfb0517db6585 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=60dc1e7a967fcf690474cba8d4db33f3",
+          "srcset": "https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=60dc1e7a967fcf690474cba8d4db33f3, https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f83fec0d0cd6a5ffb84b1afe5fc77ca9 2x, https://si.imgix.net/cb14770e/requests/4383?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9bafafe6dba4b2a4406b0d6c36033226 3x"
+        },
+        "body": "同人音声作品のジャケット用のキャラを描いてもらいたいです。（『転生ささやきダンジョン〜魔道士ねこっ娘とふたりでいちゃいちゃ迷宮探検〜』という作品で、原稿はpixiv上に上げています）。キャラクターは、猫のロリケモ白魔道士、という設定です。ぜひとも宜しくお願い致します。",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 20335,
+        "client_id": 26342,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0bcb5b3290337d6b94363826395a9096",
+          "srcset": "https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0bcb5b3290337d6b94363826395a9096, https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=41ee5519c27cebc6fc0f9401243c10ba 2x, https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9484edf0c9d8467ecbe806901f4c03fa 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8bd60bdfa178bcf31103423833661a10",
+          "srcset": "https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8bd60bdfa178bcf31103423833661a10, https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=85281645003c2f8e396bc32430c6f796 2x, https://si.imgix.net/43414073/requests/4173?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3d41a5a9a3d49b4d4a633bd216ceaec3 3x"
+        },
+        "body": "UNDERTALEのMuffetーちゃんください！",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 25570,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=df8632a6b88cc2d4820fe9e6e2172c9f",
+          "srcset": "https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=df8632a6b88cc2d4820fe9e6e2172c9f, https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9d3b368e6c9f141e5ecf92582f4df4f7 2x, https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1ab37daaf37a7bb102d19fe65f5903bf 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f5668f86aa22696d754373f827f545c4",
+          "srcset": "https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f5668f86aa22696d754373f827f545c4, https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7ddd200bd3488be15fa1a98ea4221e9b 2x, https://si.imgix.net/e0ffc745/requests/4203?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=164dacaede32c20f78b7e951bb1e7300 3x"
+        },
+        "body": "春ですね。ところでほとむらさんの至玉のおねショタが観たいです。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/5",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a09fdfb9/requests/2311?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a14f9e5bda19e9e2fb98f754bf7a0d14",
+          "srcset": "https://si.imgix.net/a09fdfb9/requests/2311?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a14f9e5bda19e9e2fb98f754bf7a0d14, https://si.imgix.net/a09fdfb9/requests/2311?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ef1e70f0e166a9c7f64c3c49fd815e7a 2x, https://si.imgix.net/a09fdfb9/requests/2311?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=14911bb19017a73eaf3c534cac95feb2 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 26083,
+        "nc": 161
+      },
+      {
+        "path": "/@muuhoto/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 25570,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a2088671936d56607656d0cc68477cc0",
+          "srcset": "https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a2088671936d56607656d0cc68477cc0, https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=aa90d95f9342d74ade6431f4a01fff45 2x, https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=56601533206b58c3748f9e5ec5115921 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4432911c0eb857404ece59deda616d99",
+          "srcset": "https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4432911c0eb857404ece59deda616d99, https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ae24e03a6381c5dd2214b6a0ec17719e 2x, https://si.imgix.net/a089578e/requests/1678?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=35c0e5f1cc12a6c1c0ccc10939affba3 3x"
+        },
+        "body": "21:9の比率のディスプレイの背景を描いてもらえませんか？エロティックなお姉さん絵がいいです 。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 15825,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=49eb6e7f4fe40c5d60912a8b00bf3711",
+          "srcset": "https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=49eb6e7f4fe40c5d60912a8b00bf3711, https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=adee6a678567fbba7e5f791ba3e4b1e3 2x, https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3251466052319191a7eea65ba77c7b1e 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c9c69bc9b335fe04bdceb20ea31a2eae",
+          "srcset": "https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c9c69bc9b335fe04bdceb20ea31a2eae, https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e18ffe6520bd2daf6c3d8930fed9727d 2x, https://si.imgix.net/3702400d/requests/1024?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c38be798057bcd61dadf13ae68a8d872 3x"
+        },
+        "body": "紐パンだけ身に着けた胸のデカいメスケモが見たいです",
+        "nc": 176,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@muuhoto/works/2",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5e54b7d2/requests/907?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=afbee463c136db4feebec946d0ea847d",
+          "srcset": "https://si.imgix.net/5e54b7d2/requests/907?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=afbee463c136db4feebec946d0ea847d, https://si.imgix.net/5e54b7d2/requests/907?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=93e64699868bb77c88b74b7bee779f9f 2x, https://si.imgix.net/5e54b7d2/requests/907?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0ae26e87d1e5c6b2f3a2ffbb8e44bbb7 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 25570,
+        "nc": 129
+      },
+      {
+        "path": "/@muuhoto/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 20335,
+        "client_id": 20584,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a5f403d0e7d63eb8e35eea657bdf388f",
+          "srcset": "https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a5f403d0e7d63eb8e35eea657bdf388f, https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=04e940394eb30eead4160dcc641d1fbd 2x, https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8a007e9b879e5a176132058f83ceed4a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0286ec519955dbe60ecccca97211506",
+          "srcset": "https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0286ec519955dbe60ecccca97211506, https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cf88c08a54b1501222a7c2bb0eadf369 2x, https://si.imgix.net/ca8525a7/requests/554?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=426a56d418506fa1eaf183bc0461b431 3x"
+        },
+        "body": "ほとむらさんが描いたオリジナルのツイッターアイコンがほしいです",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 34892,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "𝗲𝗺𝗺𝗮",
+        "screen_name": "kumaema",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1381941489371021314/xgkqC2fm.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1050534321193345025/1711548083/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 84506,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "Az ii",
+        "screen_name": "Azsn10",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1588493306916646912/piPGvH4w.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 87127,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "またんごむ💙",
+        "screen_name": "superganglion",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1990347158902755328/NXsp4aXY.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/922795613816635392/1737897699/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 343369,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "m",
+        "screen_name": "mikoccccchan",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2016923287549530112/RYZz8Rq5.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1231890288848691201/1768894300/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": 41,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 33
+      },
+      {
+        "id": 1998277,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "Ema3",
+        "screen_name": "ema3art",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1532345587542028288/uVzIlIsf.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1295892998912278528/1731802682/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": 70,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 144
+      },
+      {
+        "id": 2343354,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "Syoyo",
+        "screen_name": "syooooyoooo01",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1928308363760390144/-4Y31JRG.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1569995608513216514/1751233216/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 144
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 15000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "comic": [
+      {
+        "amount": 18000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 8000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@muuhoto/works/15",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 20335,
+      "client_id": 25570,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e3b0f161cde447305e237e4b7d881c71",
+        "srcset": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e3b0f161cde447305e237e4b7d881c71, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=68817995e981ed3d4bb9d9e75b40f072 2x, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=45ad8bb18345d8dfc12d7af4cafcb73b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8ca7cda590892bce067bc53dd7b2b172",
+        "srcset": "https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8ca7cda590892bce067bc53dd7b2b172, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7502cf994d5d1409764146525dc4b27e 2x, https://si.imgix.net/dd384b8c/uploads/origins/edd37d73-b9ca-42b8-a31a-7d1ca4f394fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e992aa1dd0d0d478c5768940d9951b75 3x"
+      },
+      "body": "ファッションブランド「ほとむら」の最新作、2026年 Winterをお願いします。",
+      "nc": 128,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "screen_name": "delusion_manage",
+  "first_seen": "2026-02-14T12:25:40.764234+00:00",
+  "last_updated": "2026-02-14T12:25:40.764234+00:00",
+  "profile": {
+    "id": 3876815,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/2007420430580334592/nQ9TxBXP.jpg",
+    "name": "プルが好き",
+    "nsfw_acceptable": true,
+    "screen_name": "delusion_manage",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1932485522343276545/1770030252/1500x500",
+    "body_size": 2000,
+    "received_works_count": 2,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "20↑ ΖΖとエルピー・プルと本多知恵子さんが大好きです！Skeb→ https://skeb.jp/@delusion_manage",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": false,
+    "accept_expiration_days": 7,
+    "complete_expiration_days": 30,
+    "received_requests_average_response_time": 16828,
+    "completing_average_time": 147345,
+    "nc": 145,
+    "twitter_uid": "1932485522343276545",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "delusion_manage",
+        "url": "https://x.com/delusion_manage"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fdelusion_manage%2Fbackground%3Fd%3Dd99147?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU15d3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44OX44Or44GM5aW944GN&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=0d8f32d49d0d667d66c79340841311cb",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 3000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 6,
+    "received_works": [
+      {
+        "path": "/@delusion_manage/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3876815,
+        "client_id": 408908,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=cd6f9a8f2ce399103acca7a068bf4c12",
+          "srcset": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=cd6f9a8f2ce399103acca7a068bf4c12, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=58ad474c35f6348cb4129a15f2024158 2x, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f7437344f3186e79575d4840a2bf7fec 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=990ee193dc9cc1e5c0c0fb8beaf13f71",
+          "srcset": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=990ee193dc9cc1e5c0c0fb8beaf13f71, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e27cf6fcb54fdee112b646a5b77a043b 2x, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f6a1a115c6e06ff9b62650bdb35af4d7 3x"
+        },
+        "body": "こんにちは！リクエストありがとうございます！！ジャミーをそんなに愛してくださって光栄です。ぜひ描いてみてくださいね！！ジャミーはユニバン（ユニコーンとウサギのハーフ）で、人間になったキャラクターです。怠け者で心優しく、コーラと食べ物が大好きで遊び好きだけどおバカさん。芸術と魔法の才能も抜群です。可愛く見えるならどんなポーズや表情でも大歓迎です！ \n\nジャミーの特徴：唇の上にほくろ瞳に瞳孔一本の角頭に耳靴は履かずヘアクリップを二つどこに行くにも必ず靴下を履いています！https://drive.google.com/drive/folders/12JbFEQks5liM-RMdLy69qAZBZj9i1_3C?usp=sharing",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@delusion_manage/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3876815,
+        "client_id": 3317099,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0f936061e0608b232aca0b7829ccea0e",
+          "srcset": "https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0f936061e0608b232aca0b7829ccea0e, https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0d218616e3f7c5e0d1fe057100a30987 2x, https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c920156216cae4fc7ddfe19764a2dd0b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ceee0c3d7411e5da779a516739312090",
+          "srcset": "https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ceee0c3d7411e5da779a516739312090, https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6045cdb4512f78b038b4d0eae0f661ef 2x, https://si.imgix.net/1e267ac5/uploads/origins/3c781d71-e874-48ee-8c68-7275fc8efb8a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cae6e1e07da1d35729d7296cacb17289 3x"
+        },
+        "body": "こんにちは、ご依頼ありがとうございます！私のオリジナルキャラクターのシールキャットを描いていただけると嬉しいです。お好きなように描いてください、よろしくお願いします！参考画像 - https://drive.google.com/file/d/1z708_e8GJ77SCo06Jjm-k737DOoXdBjC/view?usp=sharing",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 62709,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "がさえる (Gasa-L)",
+        "screen_name": "gasa_l",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1817933542514638848/y-UekbVS.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/3525432853/1711626957/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "music"
+          }
+        ],
+        "nc": 145
+      },
+      {
+        "id": 1012777,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "さんせー",
+        "screen_name": "sasansei3",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar/media.misskeyusercontent.jp%2Fio%2Fwebpublic-0dbe0fa8-d405-4e82-ac18-b18747ced827.png?avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/webpublic-3f609aee-553c-4b66-ad8e-5492e503340a.webp",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 1675831,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "おしろん",
+        "screen_name": "omu_oshiron",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1987168819908124672/Vyf1g578.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 144
+      },
+      {
+        "id": 1859342,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ギガポコ",
+        "screen_name": "PMP1150S",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2013594577991548928/FYWP1zWe.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1378705425231536129/1634556691/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 2206266,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "Siesta",
+        "screen_name": "siesta_QwQ",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1798324695407939584/4MrrfmVJ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1543187542941782016/1658132700/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 3711266,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "りんごのうさぎ@skeb募集中",
+        "screen_name": "ringono_usagi",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1954776659565195264/OdyfkaMp.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1515593065096151042/1754912740/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 15,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 16
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 3000,
+        "recorded_at": "2026-02-14T12:25:40.764234+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@delusion_manage/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3876815,
+      "client_id": 408908,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=cd6f9a8f2ce399103acca7a068bf4c12",
+        "srcset": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=cd6f9a8f2ce399103acca7a068bf4c12, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=58ad474c35f6348cb4129a15f2024158 2x, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f7437344f3186e79575d4840a2bf7fec 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=990ee193dc9cc1e5c0c0fb8beaf13f71",
+        "srcset": "https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=990ee193dc9cc1e5c0c0fb8beaf13f71, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e27cf6fcb54fdee112b646a5b77a043b 2x, https://si.imgix.net/b31f5143/uploads/origins/49c8fd6b-a3da-4e64-bc80-f5555815973b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f6a1a115c6e06ff9b62650bdb35af4d7 3x"
+      },
+      "body": "こんにちは！リクエストありがとうございます！！ジャミーをそんなに愛してくださって光栄です。ぜひ描いてみてくださいね！！ジャミーはユニバン（ユニコーンとウサギのハーフ）で、人間になったキャラクターです。怠け者で心優しく、コーラと食べ物が大好きで遊び好きだけどおバカさん。芸術と魔法の才能も抜群です。可愛く見えるならどんなポーズや表情でも大歓迎です！ \n\nジャミーの特徴：唇の上にほくろ瞳に瞳孔一本の角頭に耳靴は履かずヘアクリップを二つどこに行くにも必ず靴下を履いています！https://drive.google.com/drive/folders/12JbFEQks5liM-RMdLy69qAZBZj9i1_3C?usp=sharing",
+      "nc": 129,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T12:25:40.764234+00:00"
+    }
+  ]
+}
