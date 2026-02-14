@@ -1,12 +1,9 @@
 """
 Crawl orchestration.
 
-Discovers users, fetches profiles, gathers works from TWO sources:
-	1. Global /works listing  (recent works across all users)
-	2. Profile embedded received_works + sent_works (per-user, free)
-
-There is NO public /users/{name}/works endpoint — all per-user work
-data comes from the profile response itself.
+Discovers users via global listings, fetches full profiles.
+Works data lives inside the profile response (``received_works``,
+``sent_works``) — we do NOT store a separate works list.
 """
 
 import asyncio
@@ -51,8 +48,6 @@ class SkebCrawler:
 			"users_listed": 0,
 			"profiles_ok": 0,
 			"profiles_err": 0,
-			"profile_works_extracted": 0,
-			"new_works_saved": 0,
 			"files_written": 0,
 		}
 
@@ -118,14 +113,6 @@ class SkebCrawler:
 				names.add(sn)
 		return names
 
-	def _group_works(self, works: List[Dict]) -> Dict[str, List[Dict]]:
-		grouped: Dict[str, List[Dict]] = {}
-		for w in works:
-			m = self._WORK_RE.search(w.get("path", ""))
-			if m:
-				grouped.setdefault(m.group(1), []).append(w)
-		return grouped
-
 	# ── profile fetch ────────────────────────────────────────────
 
 	async def _fetch_profiles(self, names: Set[str]) -> Dict[str, Dict]:
@@ -150,51 +137,11 @@ class SkebCrawler:
 		)
 		return profiles
 
-	# ── extract works embedded in profiles ───────────────────────
-
-	def _extract_profile_works(
-		self,
-		profiles: Dict[str, Dict],
-		works_by_user: Dict[str, List[Dict]],
-	) -> None:
-		"""
-		Pull ``received_works`` and ``sent_works`` from each profile
-		and append them to *works_by_user*.
-
-		The profile response is the ONLY source of per-user works
-		on the public API.  ``received_works_count`` in the profile
-		gives the true total (the embedded array may be a subset).
-		"""
-		count = 0
-		for name, profile in profiles.items():
-			for field in ("received_works", "sent_works"):
-				embedded = profile.get(field)
-				if not isinstance(embedded, list):
-					continue
-				for w in embedded:
-					if w.get("path"):
-						works_by_user.setdefault(name, []).append(w)
-						count += 1
-
-		self._stats["profile_works_extracted"] = count
-		log.info(
-			"Extracted %d works from profile data (no extra requests).",
-			count,
-		)
-
 	# ── persist ──────────────────────────────────────────────────
 
-	def _persist(
-		self,
-		name: str,
-		profile: Optional[Dict],
-		works: List[Dict],
-	) -> None:
+	def _persist(self, name: str, profile: Dict) -> None:
 		ud = self._store.load(name) or self._store.new_user(name, self._ts)
-		if profile:
-			self._store.merge_profile(ud, profile, self._ts)
-		added = self._store.merge_works(ud, works, self._ts)
-		self._stats["new_works_saved"] += added
+		self._store.merge_profile(ud, profile, self._ts)
 		self._store.save(ud)
 		self._stats["files_written"] += 1
 
@@ -206,7 +153,7 @@ class SkebCrawler:
 			log.info("Crawl started  %s", self._ts)
 			log.info("=" * 60)
 
-			# ── 1. Global listings ───────────────────────
+			# 1. Global listings (to discover usernames)
 			works, users = await asyncio.gather(
 				self._paginate(self._client.fetch_works, "works"),
 				self._paginate(self._client.fetch_users, "users"),
@@ -214,28 +161,16 @@ class SkebCrawler:
 			self._stats["global_works_fetched"] = len(works)
 			self._stats["users_listed"] = len(users)
 
-			# ── 2. Discover usernames ────────────────────
+			# 2. Discover usernames
 			names = self._extract_names(works, users)
 			log.info("Unique usernames: %d", len(names))
 
-			# ── 3. Fetch full profiles ───────────────────
+			# 3. Fetch full profiles (includes received_works)
 			profiles = await self._fetch_profiles(names)
 
-			# ── 4. Gather works from both sources ────────
-			# Source A: global /works feed
-			works_by_user = self._group_works(works)
-
-			# Source B: received_works + sent_works in profile (free)
-			self._extract_profile_works(profiles, works_by_user)
-
-			# ── 5. Merge & persist ───────────────────────
-			final_names = sorted(set(profiles) | set(works_by_user))
-			for uname in final_names:
-				self._persist(
-					uname,
-					profiles.get(uname),
-					works_by_user.get(uname, []),
-				)
+			# 4. Persist
+			for uname, profile in sorted(profiles.items()):
+				self._persist(uname, profile)
 
 			self._log_summary()
 

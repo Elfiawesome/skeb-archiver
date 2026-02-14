@@ -16,7 +16,6 @@
 --font:       -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 --mono:       "SF Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
 
-/* thumbnail sizes (single source of truth) */
 --table-thumb: 176px;
 --table-gap:   3px;
 --detail-card-min: 300px;
@@ -92,6 +91,7 @@ display: flex;
 gap: 12px;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 .toolbar input[type="search"] {
 font-size: 13px;
@@ -99,12 +99,17 @@ padding: 6px 10px;
 border: 1px solid var(--border);
 background: var(--bg);
 color: var(--text);
-width: 280px;
+width: 260px;
 outline: none;
 }
 .toolbar input[type="search"]::placeholder { color: var(--text-3); }
 .toolbar input[type="search"]:focus { border-color: var(--accent); }
-.toolbar-end { display: flex; gap: 12px; align-items: center; }
+.toolbar-group {
+display: flex;
+gap: 12px;
+align-items: center;
+flex-wrap: wrap;
+}
 .toolbar label {
 font-size: 12px;
 color: var(--text-3);
@@ -120,6 +125,18 @@ background: var(--surface-2);
 color: var(--text);
 cursor: pointer;
 }
+.toolbar input[type="number"] {
+font-size: 12px;
+font-family: var(--mono);
+padding: 5px 8px;
+border: 1px solid var(--border);
+background: var(--bg);
+color: var(--text);
+width: 90px;
+outline: none;
+}
+.toolbar input[type="number"]::placeholder { color: var(--text-3); }
+.toolbar input[type="number"]:focus { border-color: var(--accent); }
 
 /* ─── table ──────────────────────────────────────────────── */
 .table-wrap { overflow-x: auto; }
@@ -151,22 +168,16 @@ background: var(--bg);
 vertical-align: middle;
 }
 
-/* ══════════════════════════════════════════════════════════
-TABLE PREVIEW CELL — 2×2 grid, 176 px per thumb
-══════════════════════════════════════════════════════════ */
+/* ── table preview cell ──────────────────────────────────── */
 td.cell-preview {
 padding: 6px 8px 6px 16px;
-/* 2 cols + gap + padding */
 width:     calc(var(--table-thumb) * 2 + var(--table-gap) + 24px);
 min-width: calc(var(--table-thumb) * 2 + var(--table-gap) + 24px);
 }
-
 .preview-grid {
 display: grid;
 gap: var(--table-gap);
 }
-
-/* layout variants by count */
 .preview-grid.count-1 {
 grid-template-columns: var(--table-thumb);
 grid-template-rows:    var(--table-thumb);
@@ -180,7 +191,6 @@ grid-template-rows:    var(--table-thumb);
 grid-template-columns: var(--table-thumb) var(--table-thumb);
 grid-template-rows:    var(--table-thumb) var(--table-thumb);
 }
-
 .preview-grid img {
 display: block;
 width:  var(--table-thumb);
@@ -244,7 +254,6 @@ white-space: normal;
 }
 .detail-inner { padding: 20px 24px; }
 
-/* detail header */
 .detail-head {
 display: flex;
 justify-content: space-between;
@@ -292,8 +301,6 @@ font-size: 11px;
 color: var(--text-3);
 font-family: var(--mono);
 }
-
-/* links row */
 .detail-links {
 display: flex;
 flex-wrap: wrap;
@@ -325,7 +332,6 @@ letter-spacing: .03em;
 color: var(--text-3);
 }
 
-/* detail grid */
 .detail-grid {
 display: grid;
 grid-template-columns: 260px 1fr;
@@ -380,9 +386,7 @@ border-bottom: 1px solid var(--border-lt);
 .ph-up   { color: var(--red); }
 .ph-down { color: var(--green); }
 
-/* ══════════════════════════════════════════════════════════
-DETAIL WORKS GRID — large cards, ~300 px each
-══════════════════════════════════════════════════════════ */
+/* ─── works grid (detail) ────────────────────────────────── */
 .works-grid {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(var(--detail-card-min), 1fr));
@@ -397,7 +401,6 @@ transition: border-color .12s;
 overflow: hidden;
 }
 .work-card:hover { border-color: var(--accent); }
-
 .work-thumb-img {
 display: block;
 width: 100%;
@@ -460,6 +463,55 @@ overflow: hidden;
 border-top: 1px solid var(--border-lt);
 }
 
+/* ─── pagination ─────────────────────────────────────────── */
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2px;
+padding: 16px 24px;
+background: var(--surface);
+border-top: 1px solid var(--border);
+flex-wrap: wrap;
+}
+.page-btn {
+font-family: var(--mono);
+font-size: 12px;
+padding: 6px 12px;
+border: 1px solid var(--border);
+background: var(--bg);
+color: var(--text-2);
+cursor: pointer;
+transition: border-color .12s, color .12s;
+min-width: 38px;
+text-align: center;
+}
+.page-btn:hover {
+border-color: var(--accent);
+color: var(--accent);
+}
+.page-btn.active {
+background: var(--accent);
+border-color: var(--accent);
+color: #fff;
+}
+.page-btn.disabled {
+opacity: .3;
+pointer-events: none;
+}
+.page-ellipsis {
+font-family: var(--mono);
+font-size: 12px;
+padding: 6px 4px;
+color: var(--text-3);
+}
+.page-info {
+font-family: var(--mono);
+font-size: 11px;
+color: var(--text-3);
+margin-left: 12px;
+}
+
 /* ─── messages ───────────────────────────────────────────── */
 .msg {
 text-align: center;
@@ -487,12 +539,11 @@ font-size: 12px;
 }
 @media (max-width: 900px) {
 .detail-grid { grid-template-columns: 1fr; }
-.toolbar { flex-wrap: wrap; }
-.toolbar input[type="search"] { width: 100%; }
 }
 @media (max-width: 700px) {
 :root {
 	--table-thumb:     88px;
 	--detail-card-min: 160px;
 }
+.toolbar input[type="search"] { width: 100%; }
 }

@@ -57,7 +57,6 @@ class DataStore:
 			"last_updated": ts,
 			"profile": {},
 			"price_history": {},
-			"works": [],
 		}
 
 	# ── merge helpers ────────────────────────────────────────────
@@ -66,22 +65,6 @@ class DataStore:
 		user["profile"] = profile
 		user["last_updated"] = ts
 		self._update_prices(user, profile, ts)
-
-	def merge_works(self, user: Dict, works: List[Dict], ts: str) -> int:
-		seen: Set[Any] = {
-			w.get("id") or w.get("path") for w in user.get("works", [])
-		}
-		added = 0
-		for w in works:
-			wid = w.get("id") or w.get("path")
-			if wid in seen:
-				continue
-			user["works"].append({**w, "scraped_at": ts})
-			seen.add(wid)
-			added += 1
-		if added:
-			user["last_updated"] = ts
-		return added
 
 	# ── price tracking ───────────────────────────────────────────
 

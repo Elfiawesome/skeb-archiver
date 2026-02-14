@@ -1,20 +1,23 @@
 """
 Static-site data generator.
 
-Reads raw user files from ``data_dir`` and writes:
-	<output_dir>/api/index.json             lightweight table data
-	<output_dir>/api/users/<file>.json      full detail per user (lazy-loaded)
+Works come directly from ``profile.received_works`` (newest first,
+as Skeb returns them).  We do NOT maintain a separate works list.
 
-Works count in the table uses ``received_works_count`` from the
-profile (the true total), NOT len(scraped works) which is always
-a subset.
+Generates paginated index files to avoid loading 10k+ users at once:
+	api/index.json          metadata + page count
+	api/pages/0.json        first N users
+	api/pages/1.json        next N users
+	...
+	api/users/<file>.json   full detail per user (lazy-loaded on click)
 """
 
 import json
+import math
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from .logger import log
 from .store import DataStore
@@ -34,6 +37,8 @@ _PLATFORM_URLS = {
 	"dlsite_id":   ("DLsite",   "https://www.dlsite.com/home/circle/profile/=/maker_id/{}"),
 	"fanza_id":    ("FANZA",    "https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
 }
+
+PAGE_SIZE = 200
 
 
 def _safe(name: str) -> str:
@@ -65,8 +70,12 @@ def _pick_best_url(srcset: str, fallback: str = "") -> str:
 
 
 def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
+	"""
+	Return up to *max_count* thumbnail URLs from the FIRST works in
+	the list (which are newest, as Skeb orders received_works newest-first).
+	"""
 	urls: List[str] = []
-	for w in reversed(works):
+	for w in works:
 		thumb = _extract_thumbnail(w)
 		if thumb["src"]:
 			urls.append(_pick_best_url(thumb["srcset"], thumb["src"]))
@@ -126,19 +135,23 @@ def _price_ranges(ph: Dict[str, list]) -> Dict[str, Dict[str, Any]]:
 	return out
 
 
-# ── works count from profile ─────────────────────────────────
+# ── works from profile ───────────────────────────────────────
+
+def _get_received_works(profile: Dict) -> List[Dict]:
+	"""
+	Return received_works from the profile.
+	Skeb returns these newest-first already.
+	"""
+	rw = profile.get("received_works")
+	if isinstance(rw, list):
+		return rw
+	return []
+
 
 def _true_works_count(profile: Dict) -> int:
-	"""
-	Return the real works count from the profile.
-
-	Uses ``received_works_count`` (the authoritative total from Skeb),
-	NOT len(scraped works) which is always a subset.
-	"""
 	count = profile.get("received_works_count")
 	if isinstance(count, int):
 		return count
-	# fallback: count embedded works
 	rw = profile.get("received_works")
 	if isinstance(rw, list):
 		return len(rw)
@@ -150,13 +163,16 @@ def _true_works_count(profile: Dict) -> int:
 def generate_data(
 	data_dir: str = "skeb",
 	output_dir: str = "docs",
+	page_size: int = PAGE_SIZE,
 ) -> None:
 	store = DataStore(data_dir)
 	all_users = store.load_all()
 
 	api_dir = Path(output_dir) / "api"
 	users_dir = api_dir / "users"
+	pages_dir = api_dir / "pages"
 	users_dir.mkdir(parents=True, exist_ok=True)
+	pages_dir.mkdir(parents=True, exist_ok=True)
 
 	index_entries: List[Dict[str, Any]] = []
 
@@ -169,7 +185,7 @@ def generate_data(
 		profile = u.get("profile", {})
 		avatar = profile.get("avatar_url", "")
 		file_key = _safe(sn)
-		works = u.get("works", [])
+		works = _get_received_works(profile)
 		total_works = _true_works_count(profile)
 
 		# ── lightweight index entry ──────────────────────
@@ -179,7 +195,6 @@ def generate_data(
 				"file": file_key,
 				"avatar_url": avatar,
 				"total_works": total_works,
-				"scraped_works": len(works),
 				"first_seen": u.get("first_seen", ""),
 				"last_updated": u.get("last_updated", ""),
 				"current_prices": _current_prices(ph),
@@ -195,7 +210,6 @@ def generate_data(
 			works_out.append(
 				{
 					"path": w.get("path", ""),
-					"scraped_at": w.get("scraped_at", ""),
 					"thumbnail_src": thumb["src"],
 					"thumbnail_srcset": thumb["srcset"],
 					"genre": w.get("genre", ""),
@@ -227,16 +241,30 @@ def generate_data(
 		with (users_dir / f"{file_key}.json").open("w", encoding="utf-8") as fh:
 			json.dump(detail, fh, ensure_ascii=False)
 
-	# ── write index ──────────────────────────────────────
+	# ── paginated index files ────────────────────────────
+	total_pages = max(1, math.ceil(len(index_entries) / page_size))
+
+	for page_num in range(total_pages):
+		start = page_num * page_size
+		end = start + page_size
+		page_data = {
+			"page": page_num,
+			"users": index_entries[start:end],
+		}
+		with (pages_dir / f"{page_num}.json").open("w", encoding="utf-8") as fh:
+			json.dump(page_data, fh, ensure_ascii=False)
+
+	# ── master index ─────────────────────────────────────
 	index = {
 		"generated_at": datetime.now(timezone.utc).isoformat(),
 		"user_count": len(index_entries),
-		"users": index_entries,
+		"page_size": page_size,
+		"total_pages": total_pages,
 	}
 	with (api_dir / "index.json").open("w", encoding="utf-8") as fh:
 		json.dump(index, fh, ensure_ascii=False)
 
 	log.info(
-		"Site data written to %s  (%d users, %d detail files)",
-		api_dir, len(index_entries), len(index_entries),
+		"Site data: %d users, %d pages, %d detail files -> %s",
+		len(index_entries), total_pages, len(index_entries), api_dir,
 	)

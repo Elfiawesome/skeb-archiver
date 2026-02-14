@@ -17,7 +17,7 @@
 
 <div class="toolbar">
 <input type="search" id="search" placeholder="Filter by username …" spellcheck="false">
-<div class="toolbar-end">
+<div class="toolbar-group">
 	<label>Genre
 	<select id="genre-filter">
 		<option value="all">All</option>
@@ -26,6 +26,12 @@
 		<option value="novel">Novel</option>
 		<option value="comic">Comic</option>
 	</select>
+	</label>
+	<label>Min ¥
+	<input type="number" id="price-min" placeholder="0" min="0" step="1000">
+	</label>
+	<label>Max ¥
+	<input type="number" id="price-max" placeholder="∞" min="0" step="1000">
 	</label>
 </div>
 </div>
@@ -47,6 +53,8 @@
 	</tbody>
 </table>
 </div>
+
+<div class="pagination" id="pagination"></div>
 
 <script src="app.js"></script>
 </body>

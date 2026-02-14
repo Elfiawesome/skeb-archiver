@@ -1,6 +1,5 @@
 "use strict";
 
-/* ── helpers ─────────────────────────────────────────────── */
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 
@@ -21,27 +20,51 @@ if (!s) return "";
 return s.length > n ? s.substring(0, n) + "\u2026" : s;
 }
 
-/* ── application ─────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════ */
+
 const App = {
-users:    [],
+/* data */
+meta:     null,
+pages:    {},       // pageNum -> array of user entries
+allUsers: [],       // fully loaded + merged
 filtered: [],
-cache:    {},
+visible:  [],       // current page slice
+cache:    {},       // user detail cache
 loading:  new Set(),
 expanded: new Set(),
+
+/* state */
 sortKey:  "last_updated",
 sortAsc:  false,
 search:   "",
 genre:    "art",
+priceMin: null,
+priceMax: null,
+page:     0,
+perPage:  50,
 
 /* ── bootstrap ───────────────────────────────────────── */
 async init() {
 	try {
 	const r = await fetch("api/index.json");
 	if (!r.ok) throw new Error("HTTP " + r.status);
-	const data = await r.json();
-	this.users = data.users || [];
-	this.renderMeta(data);
+	this.meta = await r.json();
+	this.renderMeta();
 	this.bind();
+
+	// load all pages concurrently
+	const tasks = [];
+	for (let i = 0; i < this.meta.total_pages; i++) {
+		tasks.push(this.loadPage(i));
+	}
+	await Promise.all(tasks);
+
+	// merge all pages
+	this.allUsers = [];
+	for (let i = 0; i < this.meta.total_pages; i++) {
+		if (this.pages[i]) this.allUsers.push(...this.pages[i]);
+	}
+
 	this.update();
 	} catch (e) {
 	$("#tbody").innerHTML =
@@ -50,24 +73,51 @@ async init() {
 	}
 },
 
-renderMeta(data) {
+async loadPage(num) {
+	try {
+	const r = await fetch("api/pages/" + num + ".json");
+	if (!r.ok) throw new Error("HTTP " + r.status);
+	const data = await r.json();
+	this.pages[num] = data.users || [];
+	} catch (e) {
+	console.error("Failed to load page", num, e);
+	this.pages[num] = [];
+	}
+},
+
+renderMeta() {
+	if (!this.meta) return;
 	$("#meta").textContent =
-	this.users.length + " users \u00b7 " + fmtDate(data.generated_at);
-	const total = this.users.reduce((s, u) => s + (u.total_works || 0), 0);
+	this.meta.user_count + " users \u00b7 " + fmtDate(this.meta.generated_at);
 	$("#stats-bar").innerHTML =
-	"<span>Users <strong>" + this.users.length + "</strong></span>" +
-	"<span>Total works <strong>" + total.toLocaleString() + "</strong></span>" +
-	"<span>Generated <strong>" + fmtDate(data.generated_at) + "</strong></span>";
+	"<span>Users <strong>" + this.meta.user_count + "</strong></span>" +
+	"<span>Generated <strong>" + fmtDate(this.meta.generated_at) + "</strong></span>";
 },
 
 /* ── events ──────────────────────────────────────────── */
 bind() {
+	let searchTimer = null;
 	$("#search").addEventListener("input", (e) => {
-	this.search = e.target.value.toLowerCase().trim();
-	this.update();
+	clearTimeout(searchTimer);
+	searchTimer = setTimeout(() => {
+		this.search = e.target.value.toLowerCase().trim();
+		this.page = 0;
+		this.update();
+	}, 200);
 	});
 	$("#genre-filter").addEventListener("change", (e) => {
 	this.genre = e.target.value;
+	this.page = 0;
+	this.update();
+	});
+	$("#price-min").addEventListener("input", (e) => {
+	this.priceMin = e.target.value ? Number(e.target.value) : null;
+	this.page = 0;
+	this.update();
+	});
+	$("#price-max").addEventListener("input", (e) => {
+	this.priceMax = e.target.value ? Number(e.target.value) : null;
+	this.page = 0;
 	this.update();
 	});
 	$$("th[data-sort]").forEach((th) => {
@@ -75,12 +125,13 @@ bind() {
 		const k = th.dataset.sort;
 		if (this.sortKey === k) this.sortAsc = !this.sortAsc;
 		else { this.sortKey = k; this.sortAsc = k === "screen_name"; }
+		this.page = 0;
 		this.update();
 	});
 	});
 },
 
-/* ── price helper ────────────────────────────────────── */
+/* ── price ───────────────────────────────────────────── */
 getPrice(u) {
 	const cp = u.current_prices || {};
 	if (this.genre !== "all") return cp[this.genre] ?? null;
@@ -92,13 +143,25 @@ getPrice(u) {
 
 /* ── filter + sort ───────────────────────────────────── */
 filter() {
-	let list = this.users;
+	let list = this.allUsers;
+
 	if (this.search)
 	list = list.filter((u) =>
-		u.screen_name.toLowerCase().includes(this.search)
-	);
+		u.screen_name.toLowerCase().includes(this.search));
+
 	if (this.genre !== "all")
 	list = list.filter((u) => (u.current_prices || {})[this.genre] != null);
+
+	// price range filter
+	if (this.priceMin != null || this.priceMax != null) {
+	list = list.filter((u) => {
+		const p = this.getPrice(u);
+		if (p == null) return false;
+		if (this.priceMin != null && p < this.priceMin) return false;
+		if (this.priceMax != null && p > this.priceMax) return false;
+		return true;
+	});
+	}
 
 	const key = this.sortKey;
 	const dir = this.sortAsc ? 1 : -1;
@@ -132,7 +195,16 @@ filter() {
 update() {
 	this.filter();
 	this.renderArrows();
+
+	const totalPages = Math.max(1, Math.ceil(this.filtered.length / this.perPage));
+	if (this.page >= totalPages) this.page = totalPages - 1;
+	if (this.page < 0) this.page = 0;
+
+	const start = this.page * this.perPage;
+	this.visible = this.filtered.slice(start, start + this.perPage);
+
 	this.renderTable();
+	this.renderPagination(totalPages);
 },
 
 renderArrows() {
@@ -144,7 +216,7 @@ renderArrows() {
 	});
 },
 
-/* ── preview thumbnails (2×2 grid, up to 4) ──────────── */
+/* ── preview cell ────────────────────────────────────── */
 renderPreviewCell(thumbs) {
 	if (!thumbs || !thumbs.length) {
 	return '<div class="preview-grid count-1"><div class="preview-empty">' +
@@ -163,30 +235,23 @@ renderPreviewCell(thumbs) {
 /* ── main table ──────────────────────────────────────── */
 renderTable() {
 	const tbody = $("#tbody");
-	if (!this.filtered.length) {
+	if (!this.visible.length) {
 	tbody.innerHTML = '<tr><td colspan="6" class="msg">No users match the filter</td></tr>';
 	return;
 	}
-
 	const rows = [];
-	for (const u of this.filtered) {
+	for (const u of this.visible) {
 	const name  = u.screen_name;
 	const open  = this.expanded.has(name);
 	const busy  = this.loading.has(name);
 	const price = this.getPrice(u);
-	const total = u.total_works || 0;
 
 	rows.push(
 		'<tr class="row-user' + (open ? " active" : "") +
 		'" data-name="' + esc(name) +
 		'" data-file="' + esc(u.file) + '">' +
-
-		/* preview thumbnails */
 		'<td class="cell-preview">' +
-		this.renderPreviewCell(u.latest_thumbnails) +
-		"</td>" +
-
-		/* user */
+		this.renderPreviewCell(u.latest_thumbnails) + "</td>" +
 		'<td><div class="cell-user">' +
 		(u.avatar_url
 			? '<img class="avatar" src="' + esc(u.avatar_url) +
@@ -195,29 +260,21 @@ renderTable() {
 		'<a class="user-link" href="https://skeb.jp/@' + esc(name) +
 			'" target="_blank" rel="noopener">@' + esc(name) + "</a>" +
 		"</div></td>" +
-
 		'<td class="cell-price">' + fmtYen(price) + "</td>" +
-
-		/* works count — real total from profile */
-		'<td class="cell-num">' + total + "</td>" +
-
+		'<td class="cell-num">' + (u.total_works || 0) + "</td>" +
 		'<td class="cell-date">' + fmtDate(u.first_seen) + "</td>" +
 		'<td class="cell-date">' + fmtDate(u.last_updated) + "</td>" +
-
 		"</tr>"
 	);
 
 	if (open) {
 		if (busy) {
-		rows.push(
-			'<tr class="row-detail"><td colspan="6" class="msg">Loading \u2026</td></tr>'
-		);
+		rows.push('<tr class="row-detail"><td colspan="6" class="msg">Loading \u2026</td></tr>');
 		} else if (this.cache[name]) {
 		rows.push(this.renderDetail(this.cache[name]));
 		}
 	}
 	}
-
 	tbody.innerHTML = rows.join("");
 
 	const self = this;
@@ -227,6 +284,62 @@ renderTable() {
 		self.toggle(tr.dataset.name, tr.dataset.file);
 	});
 	});
+},
+
+/* ── pagination ──────────────────────────────────────── */
+renderPagination(totalPages) {
+	const el = $("#pagination");
+	if (totalPages <= 1) { el.innerHTML = ""; return; }
+
+	let html = "";
+
+	// prev
+	html += '<button class="page-btn' + (this.page === 0 ? " disabled" : "") +
+	'" data-p="' + (this.page - 1) + '">\u2190</button>';
+
+	// page buttons with ellipsis
+	const range = this.paginationRange(this.page, totalPages, 2);
+	for (const p of range) {
+	if (p === "...") {
+		html += '<span class="page-ellipsis">\u2026</span>';
+	} else {
+		html += '<button class="page-btn' + (p === this.page ? " active" : "") +
+		'" data-p="' + p + '">' + (p + 1) + "</button>";
+	}
+	}
+
+	// next
+	html += '<button class="page-btn' + (this.page >= totalPages - 1 ? " disabled" : "") +
+	'" data-p="' + (this.page + 1) + '">\u2192</button>';
+
+	// info
+	const start = this.page * this.perPage + 1;
+	const end = Math.min(start + this.perPage - 1, this.filtered.length);
+	html += '<span class="page-info">' + start + "\u2013" + end +
+	" of " + this.filtered.length + "</span>";
+
+	el.innerHTML = html;
+
+	const self = this;
+	el.querySelectorAll(".page-btn:not(.disabled)").forEach((btn) => {
+	btn.addEventListener("click", () => {
+		self.page = parseInt(btn.dataset.p, 10);
+		self.update();
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	});
+	});
+},
+
+paginationRange(current, total, delta) {
+	const range = [];
+	const left  = Math.max(0, current - delta);
+	const right = Math.min(total - 1, current + delta);
+
+	if (left > 0) { range.push(0); if (left > 1) range.push("..."); }
+	for (let i = left; i <= right; i++) range.push(i);
+	if (right < total - 1) { if (right < total - 2) range.push("..."); range.push(total - 1); }
+
+	return range;
 },
 
 /* ── expand / collapse ─────────────────────────────── */
@@ -258,7 +371,6 @@ renderDetail(d) {
 	return '<tr class="row-detail"><td colspan="6" class="msg">Error: ' +
 		esc(d._error) + "</td></tr>";
 	}
-
 	const total   = d.total_works || 0;
 	const scraped = d.scraped_works || (d.works || []).length;
 
@@ -272,8 +384,7 @@ renderDetail(d) {
 			this.renderPrices(d) +
 		"</div>" +
 		'<div class="detail-section">' +
-			"<h3>Works" +
-			" \u2014 " + scraped + " scraped" +
+			"<h3>Works \u2014 " + scraped + " shown" +
 			(total > scraped ? " of " + total + " total" : "") +
 			"</h3>" +
 			this.renderWorks(d) +
@@ -284,7 +395,6 @@ renderDetail(d) {
 	);
 },
 
-/* ── detail header with links ──────────────────────── */
 renderDetailHead(d) {
 	const desc  = d.description ? truncate(d.description, 200) : "";
 	const links = d.links || [];
@@ -293,13 +403,11 @@ renderDetailHead(d) {
 	if (links.length) {
 	linksHtml = '<div class="detail-links">';
 	for (const lk of links) {
-		const display = lk.name || lk.label;
 		linksHtml +=
 		'<a class="detail-link-tag" href="' + esc(lk.url) +
 		'" target="_blank" rel="noopener">' +
 		'<span class="detail-link-label">' + esc(lk.label) + '</span> ' +
-		esc(display) +
-		"</a>";
+		esc(lk.name || lk.label) + "</a>";
 	}
 	linksHtml += "</div>";
 	}
@@ -343,12 +451,11 @@ renderPrices(d) {
 	if (!entries.length) continue;
 	const range = (d.price_range || {})[genre];
 
-	html += '<div class="ph-genre">';
-	html += '<div class="ph-genre-head">';
+	html += '<div class="ph-genre"><div class="ph-genre-head">';
 	html += '<span class="genre-tag">' + esc(genre) + "</span>";
 	if (range && range.min !== range.max)
 		html += '<span class="ph-range">' + fmtRange(range) + "</span>";
-	html += "</div><ul class=\"ph-list\">";
+	html += '</div><ul class="ph-list">';
 
 	for (let i = entries.length - 1; i >= 0; i--) {
 		const e = entries[i];
@@ -360,10 +467,9 @@ renderPrices(d) {
 		else if (curr < prev) cls = " ph-down";
 		}
 		html +=
-		"<li>" +
-		'<span class="ph-val' + cls + '">' + fmtYen(e.amount) + "</span>" +
-		'<span class="ph-date">' + fmtDate(e.recorded_at) + "</span>" +
-		"</li>";
+		'<li><span class="ph-val' + cls + '">' + fmtYen(e.amount) +
+		'</span><span class="ph-date">' + fmtDate(e.recorded_at) +
+		"</span></li>";
 	}
 	html += "</ul></div>";
 	}
@@ -373,16 +479,11 @@ renderPrices(d) {
 /* ── works grid ────────────────────────────────────── */
 renderWorks(d) {
 	const works = d.works || [];
-	if (!works.length) return '<p class="msg-sm">No works scraped yet</p>';
+	if (!works.length) return '<p class="msg-sm">No works data</p>';
 
-	const sorted = works.slice().sort((a, b) => {
-	const da = a.created_at || a.scraped_at || "";
-	const db = b.created_at || b.scraped_at || "";
-	return db.localeCompare(da);
-	});
-
+	// works are already newest-first from the API
 	const MAX = 48;
-	const show = sorted.slice(0, MAX);
+	const show = works.slice(0, MAX);
 
 	let html = '<div class="works-grid">';
 	for (const w of show) {
@@ -391,7 +492,7 @@ renderWorks(d) {
 	const srcset = w.thumbnail_srcset || "";
 	const genre  = w.genre || "";
 	const nsfw   = w.nsfw;
-	const date   = w.created_at || w.scraped_at || "";
+	const date   = w.created_at || "";
 	const body   = w.body || "";
 
 	html += '<a class="work-card" href="https://skeb.jp' + esc(path) +
@@ -403,8 +504,7 @@ renderWorks(d) {
 		if (srcset) html += ' srcset="' + esc(srcset) + '"';
 		html += ">";
 	} else {
-		html +=
-		'<div class="work-thumb-empty"><span>' +
+		html += '<div class="work-thumb-empty"><span>' +
 		esc(path.split("/").pop() || "?") + "</span></div>";
 	}
 
@@ -413,17 +513,16 @@ renderWorks(d) {
 	if (nsfw)  html += '<span class="work-nsfw">NSFW</span>';
 	html += '</span><span class="work-date">' + fmtDate(date) + "</span></div>";
 
-	if (body) {
+	if (body)
 		html += '<div class="work-body">' + esc(truncate(body, 100)) + "</div>";
-	}
 
 	html += "</a>";
 	}
 	html += "</div>";
 
 	if (works.length > MAX)
-	html += '<p class="msg-sm" style="margin-top:8px">' +
-		"Showing " + MAX + " of " + works.length + " scraped</p>";
+	html += '<p class="msg-sm" style="margin-top:8px">Showing ' +
+		MAX + " of " + works.length + "</p>";
 
 	return html;
 },
