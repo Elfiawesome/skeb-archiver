@@ -24,8 +24,8 @@ SITE_DIR = "docs"
 async def _main() -> None:
 	rescraper = Rescraper(
 		data_dir=DATA_DIR,
-		concurrency=10,
-		request_delay=0.05,
+		concurrency=1,
+		request_delay=0.1,
 		retries=3,
 	)
 	await rescraper.run()
