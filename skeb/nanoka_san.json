@@ -1,7 +1,7 @@
 {
   "screen_name": "nanoka_san",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 2000942,
     "acceptable": true,
@@ -13,7 +13,7 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/1262785483630772227/1768367331/1500x500",
     "body_size": 1000,
-    "received_works_count": 192,
+    "received_works_count": 193,
     "received_nsfw_works_count": 0,
     "sent_requests_average_cancel_time": null,
     "appeal_receivable": false,
@@ -43,8 +43,8 @@
     "accept_expiration_days": 30,
     "complete_expiration_days": 75,
     "received_requests_average_response_time": 169651,
-    "completing_average_time": 5121750,
-    "nc": 129,
+    "completing_average_time": 5121479,
+    "nc": 145,
     "twitter_uid": "1262785483630772227",
     "user_service_links": [
       {
@@ -93,6 +93,32 @@
     "total_appeals_count": 0,
     "received_works": [
       {
+        "path": "/@nanoka_san/works/193",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2000942,
+        "client_id": 3830660,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=77375d93993dc38ca9accf6c5a77669d",
+          "srcset": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=77375d93993dc38ca9accf6c5a77669d, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=58d467f5095e5cf88a03fe2ce070eea2 2x, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1c14aeff8e12cce529df26991f366c8b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b972ca9301195b89053775b2c6c0de4d",
+          "srcset": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b972ca9301195b89053775b2c6c0de4d, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2650a33b9b5c2fdbeb226c8550888256 2x, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4d08e2268f63e021bd10d852fff2777d 3x"
+        },
+        "body": "なのかさん、こんにちは！あなたの絵が大好きです！\n\n私のオリジナルキャラクターをお願いしたいのですが、名前は「ヒステリア」です。かわいくて、おしゃれで、ファッションが大好き！彼女はクレイジーで、残酷な笑みを浮かべていることで知られています。多くの人が彼女を怖がり、不気味に感じることもある。可愛い顔で人々を誘い込む（彼女は悪魔である）！チャームポイントはイヤリングと蝶ネクタイ。）\n\nもしこのリクエストを引き受けてくださったら、本当にありがとうございます！素敵な一日をお過ごしください\n\nhttps://drive.google.com/drive/folders/1IxwSVIoGb9MJRxpfTpW9iF10ARJWLiGa",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
         "path": "/@nanoka_san/works/192",
         "private_thumbnail_image_urls": null,
         "private": false,
@@ -138,7 +164,7 @@
           "srcset": "https://si.imgix.net/f01fdd7c/uploads/origins/a39ee4d5-f98c-475e-8ad9-0ad1f41a27d2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c2dbc6e5ca373abb503ef5a505af593a, https://si.imgix.net/f01fdd7c/uploads/origins/a39ee4d5-f98c-475e-8ad9-0ad1f41a27d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1a7fbbac32882a21f3a4aa2d9d08c404 2x, https://si.imgix.net/f01fdd7c/uploads/origins/a39ee4d5-f98c-475e-8ad9-0ad1f41a27d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=24258dbc65d51cca12ef492d670e981f 3x"
         },
         "body": "こんにちは、私のオリジナルキャラクターを描いてください！青、真珠、ウサギ、月にちなんだ小柄でかわいい大学生です。提供された資料をもとに、新しい服を作ってください。ただし、ローファーソックスは白のままで、アクセントの紫をもっと青っぽい色に変えてください。ヘアアクセサリーは変えてもかまいませんが、髪は下ろし、青いリボンはそのままで、三つ編みを結んだままにしてください。\n\n(また、個人用のスタンディにしたいので、背景はダイアナとは別にしていただけると助かります！ありがとうございます)\n\nhttps://melon-scent-ea1.notion.site/nanoka_san-Diana-Modern-Fit-2bb9014dba37808faec7e307332d0afb?source=copy_link",
-        "nc": 129,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -164,7 +190,7 @@
           "srcset": "https://si.imgix.net/a705e1e9/uploads/origins/a7f17c0d-a5f6-452b-aec8-539726e86673?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9c8af8fed604508c1f9b02574084e466, https://si.imgix.net/a705e1e9/uploads/origins/a7f17c0d-a5f6-452b-aec8-539726e86673?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1423b676ce7cba2c1749a7fec246ba6e 2x, https://si.imgix.net/a705e1e9/uploads/origins/a7f17c0d-a5f6-452b-aec8-539726e86673?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=384063925f973d1996b3aa657cac8e4f 3x"
         },
         "body": "先生/女士の作品がとても大好きです！\nこの度、私のオリジナルキャラクターのイラストを描いていただけませんでしょうか。\n\n【使用用途】\n個人での收藏と、自分のSNSに掲載するのが主な用途です。\n\n【キャラ設定】\n海の上に住む妖精猫で、他人の感情や欲望、悪意などを食べ物にしています。異世界に食べ物を探しに行くので、いろいろな服を持っています。お好きな衣装で描いていただいて大丈夫です。\n\n彼のための新しい服装デザイン、または現在の服装の修正・アレンジが可能です。\n\n· 身長： 140～170cmの間で変化（幼く描いていただいてOKです）\n· 性格： ちょっと悪戯で活発\n· 髪： 金茶色で、黒のストリークが入る（魔法を使う時）\n· 特徴：\n  · 右眉の上と右目の下に、それぞれ赤いほくろがあります。\n  · エルフ耳です。\n  · 瞳は、外側が紫で内側が緑色です。\n\n最後までお読みいただき、ありがとうございました。\nお体に気をつけて、素敵な毎日をお過ごしください！\n\nhttps://drive.google.com/drive/folders/1e9Ty2sngj0Ej9EBcr_esRGJ21PEr_ANf\n\nhttps://drive.google.com/drive/folders/1e9Ty2sngj0Ej9EBcr_esRGJ21PEr_ANf",
-        "nc": 17,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -190,7 +216,7 @@
           "srcset": "https://si.imgix.net/e6495406/uploads/origins/3155e219-5b10-4924-89e2-66e632b49eb3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=50141331123bf2f10622e0b5321e16ca, https://si.imgix.net/e6495406/uploads/origins/3155e219-5b10-4924-89e2-66e632b49eb3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=73f2120187b7fe52c69892eff5127d9e 2x, https://si.imgix.net/e6495406/uploads/origins/3155e219-5b10-4924-89e2-66e632b49eb3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d8d82d02f1f3f96c3de73a359c71b9d7 3x"
         },
         "body": "7日先生、こんにちは！\n先生のイラストがとても好きで、今回思い切ってご依頼してみました…！\n\nもし可能でしたら、私のOCの新しい衣装デザインをお願いしたいです。\n全体のテーマは「神聖」「優雅」で、その他の要素は自由にアレンジしていただいて大丈夫です。\n\nどうぞよろしくお願いいたします！\n\nhttps://drive.google.com/drive/folders/1S0r9NKjT8QGk5xlt4jff6fkJvDUNe9HR",
-        "nc": 17,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -206,7 +232,7 @@
         "tipped": true,
         "creator_id": 2000942,
         "client_id": 3505166,
-        "nc": 16
+        "nc": 1
       },
       {
         "path": "/@nanoka_san/works/187",
@@ -229,7 +255,7 @@
           "srcset": "https://si.imgix.net/cd0096cc/uploads/origins/2eeb7c8d-e5e4-4174-bf4b-67a20f1efbc4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e5d06d84424dc977dd52abbead929bff, https://si.imgix.net/cd0096cc/uploads/origins/2eeb7c8d-e5e4-4174-bf4b-67a20f1efbc4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=262486d7fdc9cacd71ba15c25d7cd6cb 2x, https://si.imgix.net/cd0096cc/uploads/origins/2eeb7c8d-e5e4-4174-bf4b-67a20f1efbc4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ef2fcefb87b9b79bf34e5566a50a2352 3x"
         },
         "body": "こんにちは！私のオリジナルキャラクター（OC）の服をデザインしてください。スタイルは「薄手の生地、羽、ヴィンテージ・ブリティッシュ」を参考にし、オプションでゴシックとスチームパンクの要素も加えます。主な要件：軽量な薄手の生地（表地または裏地として）＋プリーツ／レイヤリングを特徴とする羽のような装飾；革、金属、または羽で飾られた小さくて繊細な帽子（ヘッドピース）；傘やバッグなどのお揃いのアクセサリー；キャラクターの髪と目の色とコーディネートしてください。ありがとうございました！\n\n内容が不適切な場合はキャンセルしてください！金額が足りない場合は、再送をお願いします。ご検討のほど、よろしくお願いいたします！\n用途：個人的な閲覧、個人的な非商用印刷。\n\nhttps://drive.google.com/drive/folders/1MWlnvfRX2AUXU5CoC8hKDs30rPPkzRSK",
-        "nc": 129,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -245,7 +271,7 @@
         "tipped": false,
         "creator_id": 2000942,
         "client_id": 3336533,
-        "nc": 129
+        "nc": 17
       },
       {
         "path": "/@nanoka_san/works/185",
@@ -268,7 +294,7 @@
           "srcset": "https://si.imgix.net/6c673828/uploads/origins/3ab447fa-aec6-44f8-8836-5afcefbc41c1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=190dde358a1ce8179e7e460434c53c36, https://si.imgix.net/6c673828/uploads/origins/3ab447fa-aec6-44f8-8836-5afcefbc41c1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=615fc99fd11adf58bb9c2121f810626d 2x, https://si.imgix.net/6c673828/uploads/origins/3ab447fa-aec6-44f8-8836-5afcefbc41c1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=907c71e6a7aadf66dd851860267a3329 3x"
         },
         "body": "7日様\n\nお世話になります。\nVライバーのぱなしえと申します。\n先日は素敵なイラストを製作いただき、ありがとうございました！！\nとっても気に入っております。\n\n今回も私のイラストを制作いただけないでしょうか。\nキャラクターの参考用に、3枚の画像を送付いたします。\n目の形や雰囲気ですが、7日様が3/20にXに投稿されていたメイドさんのような感じを希望します。\n表情は微笑んでいる、または笑っているのがいいです。\n構図などはお任せいたします。\nまた、キャラクターの透過されているものとされていないもの2枚いただけると助かります。\n\n【キャラクターについて】\n・メイド\n・ハーフツイン\n・落ち着いた青緑と白がメインカラー\n・若干太眉\n・タレ目\n・口がω\n\n【使用用途】\nsns投稿、YouTubeサムネ、グッズ作成\n\n何卒よろしくお願いいたします。\n\nhttps://x.com/subpanache/status/1979322968946909538?s=46",
-        "nc": 17,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -294,7 +320,7 @@
           "srcset": "https://si.imgix.net/77748038/uploads/origins/8a97498c-949e-4d07-b8b5-a8d1fdd75b56?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b07c52c511e2f265677840e3dcd2de3c, https://si.imgix.net/77748038/uploads/origins/8a97498c-949e-4d07-b8b5-a8d1fdd75b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6e0f581f653c49086d6b420bdd8f8553 2x, https://si.imgix.net/77748038/uploads/origins/8a97498c-949e-4d07-b8b5-a8d1fdd75b56?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=68bc63a10efd3078c99fc14cfbda5b8f 3x"
         },
         "body": "初めまして。7日さんの描かれるイラストの塗りのリアルさと透明感、キャラクターの質感に憧れています。いつも楽しく拝見いたしております。今回リクエストを送らさせて頂きます。\n\n◆キャラクター\n自創作と他の方の創作とのクロスオーバーでの2人組をお願いしたいです。\n心神喪失状態だった青年と、彼を見つけ立ち直らせてくれた少女の2人です。女の子からの淡い恋心はありましたが恋愛関係ではなく、大きな親愛感情で繋がっています。\n添付ファイルに容姿等まとめております。\n構図、服装すべてお任せいたしますが、風と青空が似合う2人ですので、爽やかかつぬくもりのある空気感ですと嬉しいです。\n\n◆用途\n個人観賞用として相方さんやSNSへの共有になります。並びにアイコン使用等、相方さんとの個人的な非営利のグッズ製作などにも使用させていただくかもしれません。\n\n金額が厳しければ再送要請をぜひお願いしたいです。その他不都合がございましたらキャンセルしてください。\nお忙しい中申し訳ございませんが、ご検討のほど宜しくお願い致します。\n\nhttps://drive.google.com/drive/folders/1a_uR63A0W8Yrvv53iyIHbaKYSE6WyqCY?usp=drive_link",
-        "nc": 0,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -320,7 +346,7 @@
           "srcset": "https://si.imgix.net/a6763c57/uploads/origins/e761a6ef-934a-46df-bc7c-54638ecdacb0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=30e2a1e1239b4c145a7568598e9a1257, https://si.imgix.net/a6763c57/uploads/origins/e761a6ef-934a-46df-bc7c-54638ecdacb0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=30d8d0e8131880e96272e28027cf0a44 2x, https://si.imgix.net/a6763c57/uploads/origins/e761a6ef-934a-46df-bc7c-54638ecdacb0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=99ecf998c21e3a3f1848d41591788227 3x"
         },
         "body": "こんにちは！skebは初めてで不慣れなため、ご迷惑をおかけするかもしれませんがご容赦ください。この二人のキャラのコンビ絵を依頼したいのですが！無理ならキャンセルしてください。\n\n(キャプテン）助っ人黒髪1倍 （ルーキー）AD白髪0倍\n格ゲーチーム「PAX.immi」の元チャンピオン・助っ人黒髪は、チームの成績が悪化している時に新人のAD白髪と出会う。表面的には互いを嫌い、内心では憧れあっている2人は、仲の悪いちょっと幸せなカップル！\n\n黒髪(23)➡️白髪：相手のことを空より高い心を持った毛唐の子だと思っており、同時にチームには逃げ道がないと考えているため、相手を束縛したがらない。他の人に対する態度は比較的穏やかですが、白髪には、他の人が後退することが困難であることを知っていることを故意に希望を刺すでしょう。\n白髪(17)➡️ 黒髪：自分が参加する限り、彼は間違いなく優勝すると考え、黒髪の態度を軽蔑し、彼が元チャンピオンである場合はどうなので、彼はすべてを証明するために自分の力を使用します。\n黒髪のキャプテンとして、年齢が若いこともあり、頼りにしている。\n\n服装：最初の写真の左1か左2の黒の例\n間違えないでください：黒髪・太眉（もっと太くしてください!）/後ろ髪は長短2本に分けて胸にかけ、たまに眼鏡をかけている。\nペルソナ：https://drive.google.com/file/d/1pWXeGun2G9LUyenIGLxrdpqK2KlAXISG/view?usp=drivesdk",
-        "nc": 1,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -346,7 +372,7 @@
           "srcset": "https://si.imgix.net/e48eeb07/uploads/origins/6c4463aa-d8ae-4442-938e-d21f6a0de5d2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=38263f2c9503463c784a089b9c1fab4a, https://si.imgix.net/e48eeb07/uploads/origins/6c4463aa-d8ae-4442-938e-d21f6a0de5d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d276c8e6fde08119cdfade994d57f40e 2x, https://si.imgix.net/e48eeb07/uploads/origins/6c4463aa-d8ae-4442-938e-d21f6a0de5d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7aca979a95f2cf240100941daf90bb70 3x"
         },
         "body": "こんにちは！あなたの衣装デザインが大好きで、ぜひ私もお願いしたいです！\n\n私の2人のOC、アキラ（男の子）とルミナ（女の子）のために新しい服のデザインを作ってほしいです！\n\n髪型は変えないでください。男の子は白い髪に紫の目。女の子は薄いアイスブルーの髪色で、瞳も髪と同じ色です。\n\nまた、ルミナのイヤリングはそのままにしてください！あとはお任せします。できれば、エレガントでビジネスをテーマにしたスタイルがいいですね。\n\n◼︎ キャラクターリファレンス\nhttps://drive.google.com/drive/folders/1A6fDs9U-WwSYEg_O1GAr5dVYz2gNaAlg\n\nご検討いただきありがとうございます！",
-        "nc": 16,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -361,7 +387,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 2000942,
-        "nc": 128
+        "nc": 0
       },
       {
         "path": "/@nanoka_san/works/180",
@@ -387,7 +413,7 @@
         "tipped": false,
         "creator_id": 2000942,
         "client_id": 2787738,
-        "nc": 145
+        "nc": 0
       },
       {
         "path": "/@nanoka_san/works/178",
@@ -410,7 +436,7 @@
           "srcset": "https://si.imgix.net/ed98306a/uploads/origins/82c5d7c1-7738-436a-a573-6ab0235d6576?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c103b86ad74655ba6881fbf17cac756c, https://si.imgix.net/ed98306a/uploads/origins/82c5d7c1-7738-436a-a573-6ab0235d6576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cb903726e8dbbdfcae9100294c10a4e1 2x, https://si.imgix.net/ed98306a/uploads/origins/82c5d7c1-7738-436a-a573-6ab0235d6576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=de3e86c3e4ef0d1b0912eaffc3ee472c 3x"
         },
         "body": "先生、こんにちは！前回作っていただいた衣装がとても気に入ったので、またお願いしに来ました！今回は2人のキャラクターです。女性と男性です。女性は王女。男性は黒魔術師です。\n\n男性の衣装はかわいい参考画像が見つからなかったのですが、雰囲気が合うようにしたいです。衣装はかわいくしてほしい。色や髪型はお任せします！\n\nこの要望を受け入れてくださったら、とてもありがたいです！ありがとうございました！\n\nhttps://drive.google.com/drive/folders/1ROngtLv72VJ34CdDEYAfj-94BhOLBf0F?usp=sharing",
-        "nc": 17,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -426,7 +452,7 @@
         "tipped": false,
         "creator_id": 2000942,
         "client_id": 3581119,
-        "nc": 145
+        "nc": 129
       },
       {
         "path": "/@nanoka_san/works/176",
@@ -449,7 +475,7 @@
           "srcset": "https://si.imgix.net/208282b7/uploads/origins/3fb4a9c5-a01e-4a2b-904f-4407ab332356?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0a948842cb4824a3737b6f17a90aa9f4, https://si.imgix.net/208282b7/uploads/origins/3fb4a9c5-a01e-4a2b-904f-4407ab332356?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=700d009ff9b19d37bb52eedae9b23db1 2x, https://si.imgix.net/208282b7/uploads/origins/3fb4a9c5-a01e-4a2b-904f-4407ab332356?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=35ba0d16f6715ec11c7f22a65b7396b2 3x"
         },
         "body": "初めまして、リクエスト失礼いたします。\n先生の絵柄と塗りの質感がとても好きです。\nもし可能であれば、私のOCの立ち絵を描いていただきたいです。\n\n《OC情報》\n・32歳　中性的な容貌　穏やかで聡明\n・身長170cm程度\n・長い黒髪と黒目、全体的に緑色のハイライト、差し色あり\n・手の爪は黒く鋭い\n\n和装か洋装、あるいはその折衷でも、先生のお好きにデザインいただきたいです。\nフォーマル、もしくは魔術師のようなファンタジーに寄った雰囲気が嬉しいです。\nポーズなども先生の描きやすいようお願いしたいです。\n\n用途は個人鑑賞、TRPGセッションでの使用など、非営利目的での使用となります。\nPSD形式での納品を希望いたします。\n\n用途や金額や資料に問題がございましたら、リクエスト再送をお願いいたします。\nご検討のほど、よろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1WNvNSd7jl5Ga-GaDhIcm9emfHl3DOxWW?usp=drive_link",
-        "nc": 1,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -475,7 +501,7 @@
           "srcset": "https://si.imgix.net/5fa4c391/uploads/origins/53782eac-bb7f-43db-a2d5-071074404fc9?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=776d9519038bef711f1684e78142f8b9, https://si.imgix.net/5fa4c391/uploads/origins/53782eac-bb7f-43db-a2d5-071074404fc9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e7562e96c7faa31948124d484f048e02 2x, https://si.imgix.net/5fa4c391/uploads/origins/53782eac-bb7f-43db-a2d5-071074404fc9?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=74d88bccaa19ffc3157b66e06f1c1e4a 3x"
         },
         "body": "私のVRChatのアバターを描いてもらえませんか？\n\n私のキャラクターは、深夜に現れて人々を秘密の場所に案内する人物です。動機は不明ですが、もし彼女を見かけたら、あなたの夜はとても面白くなりそうです。\n\n彼女の服装は自由に変えてください。あなたの服の描き方にはいつも感心させられるわ。\n\nありがとうございました。\n\nhttps://drive.google.com/drive/folders/1fYIEV1ZmOcQ2wT3_2TYR4hOWb5ZRGw8L?usp=sharing",
-        "nc": 17,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -491,7 +517,7 @@
         "tipped": true,
         "creator_id": 2000942,
         "client_id": 3692323,
-        "nc": 129
+        "nc": 0
       },
       {
         "path": "/@nanoka_san/works/173",
@@ -514,7 +540,7 @@
           "srcset": "https://si.imgix.net/359a1784/uploads/origins/c91b51bf-730e-43a8-acfc-b42155f50364?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e3da8bd9ed9c75c657fe7b7b369f205d, https://si.imgix.net/359a1784/uploads/origins/c91b51bf-730e-43a8-acfc-b42155f50364?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3b440add3f7e8f1d4240a390dcf74cdb 2x, https://si.imgix.net/359a1784/uploads/origins/c91b51bf-730e-43a8-acfc-b42155f50364?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=43298bf0130a8dca26697575565e607b 3x"
         },
         "body": "初めまして。いつも素敵な作品拝見させていただいております。\n今回は宜しければ資料内金髪の女のOCをお願いしたいです。\n金額、資料不足の際はお手数お掛けしますが再送して頂けますと幸いです。\n\n○使用用途\n・個人鑑賞\n・SNSのアイコン等への使用\n・資料への掲載\n・完全個人用にグッズの制作\n\nその他特に決まっている事などありませんので、お好きなように描いて頂けたらと思います！\nご検討よろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1YzArgYu4X_0trzoUR7yjdLJlC5RlN_mq",
-        "nc": 17,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -540,7 +566,7 @@
           "srcset": "https://si.imgix.net/f7a1734b/uploads/origins/1b1a5936-f79a-42fb-bc4f-ff35bd4acbc1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=93463c8875b94efe4839047360fcaed8, https://si.imgix.net/f7a1734b/uploads/origins/1b1a5936-f79a-42fb-bc4f-ff35bd4acbc1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ad4fe032883211017efe9e720d2d244f 2x, https://si.imgix.net/f7a1734b/uploads/origins/1b1a5936-f79a-42fb-bc4f-ff35bd4acbc1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=583158503cfba713a96fbe1ab30a7d18 3x"
         },
         "body": "はじめまして。7日先生の書くお洋服の高級感、ドレープ感が本当に美しく大好きで依頼しに参りました。\n私のOCの絵をお願いしたいです。\n\n人物・性格\n・黒髪でぱっつん、青緑のインナー。\n・青緑のぐるぐる目。\n・人見知りで初対面ではクールに見られるが、気を許すとよく笑顔を見せる。\n・チョコミントアイスが大好き。\n・酔うと泣く。\n・左耳にイヤーカフとピアスをしている(無理に書く必要はありません)\n\nお洋服のデザインを7日先生にお願いしてもよろしいでしょうか。全体的な雰囲気の参考として、文末に資料を添付しておきます。\n・黒基調で、和すぎない和モードっぽい感じ\n・先生が描くスカートのドレープ感やプリーツが大好きなので、スカートか袴を履いているところが見たい\n・靴が革素材の何かだとうれしい\n\nその他\n・髪の長さはお任せします。\n・表情やポーズはお任せします。\n・アクセサリーの有無もお任せいたします。\n・アクセントカラーを使用される場合、シルバーか青緑でお願いいたします。\n\n納品形式\n・背景あり/なし/線画 を含めたpsdでいただけると幸いです。\n\n資料: https://drive.google.com/drive/folders/1ejwR1ateWG0czBY7A8JQYtC1k2V6gYQx?usp=sharing\n\n金額が不足している場合、お手隙ですが金額を指定して再送要請お願いします。\n宜しくお願いいたします！",
-        "nc": 16,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -556,7 +582,7 @@
         "tipped": false,
         "creator_id": 2000942,
         "client_id": 3323045,
-        "nc": 129
+        "nc": 145
       },
       {
         "path": "/@nanoka_san/works/170",
@@ -579,7 +605,7 @@
           "srcset": "https://si.imgix.net/a6bbb0d1/uploads/origins/8fe31285-56a2-4f8c-8811-271ff94d8f3d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6a42cb71d0bb0824df2e6b881a7a4ddc, https://si.imgix.net/a6bbb0d1/uploads/origins/8fe31285-56a2-4f8c-8811-271ff94d8f3d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8332511fdee6d69d723bfe88267e994d 2x, https://si.imgix.net/a6bbb0d1/uploads/origins/8fe31285-56a2-4f8c-8811-271ff94d8f3d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=443417a08685882dd1bf3c30bb8c59d3 3x"
         },
         "body": "こんにちは、先生！\n\n先生のアートスタイルが大好きです！今回は私のオリジナルキャラクター2人（ロマンティックな関係）のリクエストをお願いしたいです。彼らは主従関係であり、パートナーであり、恋人同士でもあります。  \n\n  🦋 Chara 1：エイプリル (April)【攻め/184cm/19歳】\n明るく紳士的で、人当たりが良い性格。シルバーの右腕として、家族を脅かす者を排除します。黒髪で左目を覆う髪型、一本だけ白い髪束があります。両目は緑色、頭には黒い蝶の羽が生えています。シルバーに接する際は感情的で敏感な一面も。\n\n🐺Chara 2：シルバー (Silver)【受け/174cm/16歳】\n黒い狼に変身する能力を持つマフィアのボス。幼少期の辛い経験から冷静で抑制的ですが、エイプリルの行動には非常に寛容です。短い黒髪、低彩度の紫瞳、黒い動物の耳と尻尾を持っています。\n\n関係性 \n\nエイプリル（🦋）は、シルバー（🐺）の顧問（コンシリエーレ）兼守護者として、彼を導き世話をしています。エイプリルはシルバーに深い献身を示していますが、その世話には執着や偏愛が含まれています。一方、ボスであるシルバーは冷静な外見を保ちながらも、エイプリルに対しては完全な信頼を寄せ、彼のあらゆる行動を黙認し、甘んじて受け入れています。\n\n服装やデザインは自由に変更していただいて構いません！もし可能であれば、2人の体格差がわかるように描いていただけると嬉しいです（シルバーはエイプリルより半頭分ほど小柄で、若く見える印象でお願いしたいです）。\n\nこのイラストは、個人利用（SNSアイコンや携帯の壁紙）として使用させていただきます。  リクエストを読んでいただき、そして検討いただき本当にありがとうございます。このリクエストが不適切でしたら、どうぞお気軽にキャンセルしてください。\n\n金額が足りない場合、再送お願いいたします…!  よろしくお願いいたします！\n\nhttps://drive.google.com/drive/folders/1ELhgR-asbNtVhyPQFjL1VpA7wg46wTGJ",
-        "nc": 144,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -605,7 +631,7 @@
           "srcset": "https://si.imgix.net/c72c5c85/uploads/origins/54dc8ae5-fa83-4e76-a41c-ade11fa3cd03?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fe3d652248ff1a78f0e3b642b8673be6, https://si.imgix.net/c72c5c85/uploads/origins/54dc8ae5-fa83-4e76-a41c-ade11fa3cd03?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c6ec5b7a175703075a43c58ca32b86a4 2x, https://si.imgix.net/c72c5c85/uploads/origins/54dc8ae5-fa83-4e76-a41c-ade11fa3cd03?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ea642cd5ddc79723decc3bd345987b75 3x"
         },
         "body": "超過のためキャンセルされてしまったので再送させていただきます（内容は同じです）\n改めてご検討いただければ幸いです。宜しくお願い致します。\n\n\n＝＝＝\n7日さま\n\nこんにちは。良ければ当方のOC「ねね」を描いていただきたいです。\nこちらの魔女の恰好をしている女の子です。\nhttps://www.pixiv.net/artworks/123808613\n※普段は別の恰好をしていますが、ハロウィンの「月の魔女」衣装（上記）で描いていただきたいです\nタロットカードのアルカナ「女教皇」のイメージ\n\n・表情はお姉さんっぽく微笑んでいるか、おしゃまな感じをしていることが多いです\n・「少女」と「大人の女性」どちらの部分もあるキャラ。謎めいて直感に優れ、おしゃれが大好きで、垢抜けた印象を与えますが素は若干ポンコツな部分もあります。いつでも自然体で、柔らかい物腰。振る舞いはネコのように優雅で無駄がありません。\n\n・細部のデザイン、アクセサリーなど、描きやすく・あるいは見栄え良くなるように自由にアレンジしてOKです。分かりづらい部分があれば自由に補完して下さい\n・フリルが特に見たいです…！増量もご随意に行って下さい。\n・スカートはとっても長く、本来は床に引きずるくらい。ただし、月で浮いているので、裾が接地するかどうかはお任せします\n・本、杖、その他小物類は必須ではありません\n・例えば、星のステッキで楽しそうに魔法をかけているところ、品よくお茶を飲んでいる様子など。自由に描写して下さい\n\n必須でお願いしたい所\n・眼鏡がOFFの状態も同梱して欲しい\n・「三日月」に座らせて欲しい\n\n非営利かつ個人的な範囲でのみ、印刷したりして飾りたいと思っています。\nご検討宜しくお願い致します。\n\nhttps://www.pixiv.net/artworks/123808613",
-        "nc": 128,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -621,7 +647,7 @@
         "tipped": false,
         "creator_id": 2000942,
         "client_id": 2787738,
-        "nc": 16
+        "nc": 0
       },
       {
         "path": "/@nanoka_san/works/167",
@@ -711,32 +737,6 @@
         "tipped": false,
         "creator_id": 2000942,
         "nc": 17
-      },
-      {
-        "path": "/@nanoka_san/works/163",
-        "private_thumbnail_image_urls": null,
-        "private": false,
-        "genre": "art",
-        "tipped": false,
-        "creator_id": 2000942,
-        "client_id": 2952596,
-        "vtt_url": null,
-        "thumbnail_image_urls": {
-          "src": "https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b75a4b2ff53ee0ef7f1b0f7b7af357ce",
-          "srcset": "https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=b75a4b2ff53ee0ef7f1b0f7b7af357ce, https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=476cd1589b520813dc3415256d2a2403 2x, https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=12f8665777fb915b54e864e447612b72 3x"
-        },
-        "duration": null,
-        "nsfw": false,
-        "hardcore": false,
-        "consored_thumbnail_image_urls": {
-          "src": "https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c3d03468021adf9b2302fcdaad4cad6f",
-          "srcset": "https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c3d03468021adf9b2302fcdaad4cad6f, https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5e1eb6f2b11fff24bb38c1f17042e6d2 2x, https://si.imgix.net/6c58a67e/uploads/origins/53142fe5-0faf-44f9-bc0f-9d8c252bf576?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4bf2691d51db6c2576abe40b91e6b772 3x"
-        },
-        "body": "はじめまして、7日先生のイラストがとても好きで、今回依頼しに参りました。\n\nクトゥルフ神話TRPG「その真紅に愛を見る」のHO4召使い役の立ち絵として使用を考えております。\n\n希望イラスト:全身立ち絵(ポーズおまかせ)\n使用目的:立ち絵としての使用、個人鑑賞でのグッズ作成やSNSアイコンとしての使用\n希望納品データ:PSD\n\nキャラクター名:演魅 貌(えんび かたち)\n性別:男性\n外見の特徴:白髪、赤い目、美貌\n衣装:ビジューなど装飾がついたテールコート、舞台衣装のためリアルよりも見た目重視だと嬉しいです。\nその他:・「真紅の瞳」という舞台で使用する立ち絵なので真紅や瞳要素、またトレーラーにある薔薇の要素が入っていると嬉しいです。\n・7日様の白の質感が大好きなのでどこかに入れていただけると最高です。\n\n参考資料としてGoogleドライブを貼付します。カラーやデザインは7日様のお好きにアレンジしてください。\n\n金額の不足や資料の不足ありましたら再送お願いいたします。\nお引き受けいただけると嬉しいです。よろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/1ofPOAm46hXBtpEvWyuxxX_yBnYX58UfI?usp=sharing",
-        "nc": 129,
-        "word_count": 0,
-        "transcoder": "image",
-        "creator_acceptable_same_genre": true
       }
     ],
     "sent_works": [],
@@ -763,7 +763,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 32
       },
       {
         "id": 275762,
@@ -787,7 +787,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 936728,
@@ -811,7 +811,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 49
       },
       {
         "id": 1278097,
@@ -838,7 +838,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 160
       },
       {
         "id": 3637311,
@@ -886,7 +886,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 0
       }
     ]
   },
@@ -1574,6 +1574,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@nanoka_san/works/193",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 2000942,
+      "client_id": 3830660,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=77375d93993dc38ca9accf6c5a77669d",
+        "srcset": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=77375d93993dc38ca9accf6c5a77669d, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=58d467f5095e5cf88a03fe2ce070eea2 2x, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1c14aeff8e12cce529df26991f366c8b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b972ca9301195b89053775b2c6c0de4d",
+        "srcset": "https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b972ca9301195b89053775b2c6c0de4d, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2650a33b9b5c2fdbeb226c8550888256 2x, https://si.imgix.net/d0112433/uploads/origins/11cef4ff-4f01-451c-a40d-c13d3cb8d208?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4d08e2268f63e021bd10d852fff2777d 3x"
+      },
+      "body": "なのかさん、こんにちは！あなたの絵が大好きです！\n\n私のオリジナルキャラクターをお願いしたいのですが、名前は「ヒステリア」です。かわいくて、おしゃれで、ファッションが大好き！彼女はクレイジーで、残酷な笑みを浮かべていることで知られています。多くの人が彼女を怖がり、不気味に感じることもある。可愛い顔で人々を誘い込む（彼女は悪魔である）！チャームポイントはイヤリングと蝶ネクタイ。）\n\nもしこのリクエストを引き受けてくださったら、本当にありがとうございます！素敵な一日をお過ごしください\n\nhttps://drive.google.com/drive/folders/1IxwSVIoGb9MJRxpfTpW9iF10ARJWLiGa",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T15:15:40.596063+00:00"
     }
   ]
 }

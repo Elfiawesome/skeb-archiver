@@ -1,7 +1,7 @@
 {
   "screen_name": "okoge_16",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 181285,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 41061,
     "completing_average_time": 423725,
-    "nc": 129,
+    "nc": 1,
     "twitter_uid": "845930409032540160",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/d00335ac/uploads/origins/32a4cf7c-9968-4323-9758-3d83896687c3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e8931681f949056c922aca0433350d27, https://si.imgix.net/d00335ac/uploads/origins/32a4cf7c-9968-4323-9758-3d83896687c3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5cebe572ea1f2f45ba5185020a003983 2x, https://si.imgix.net/d00335ac/uploads/origins/32a4cf7c-9968-4323-9758-3d83896687c3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=162544854a1ac53ff771b3b80ee983c8 3x"
         },
         "body": "こんにちは。アーティスト様にこちらのキャラクターのイラストをお願いしたく思っております。\nhttps://drive.google.com/drive/folders/1LjvsVkuWaxssyFANIXG-ARZLJPe3fHM3?usp=sharing\n\n太った体型のドラゴンではありますが、アーティスト様のスタイルに合わせて体型をある程度アレンジしていただいても構いません。\nもし制作が難しい体型でしたら、どうぞお気軽に依頼をスキップしていただいて大丈夫です。\n\n希望としては、このドラゴンが温泉浴衣のような上衣を着て、お腹を露出している構図を見てみたいです。\n衣装なしで描いていただいてもOKですので、どうぞご自由に描いてください。\n\n衣装の雰囲気としては、こちらのイラストをイメージしてお話ししていました https://x.com/okoge_16/status/1804174732964819148?s=20\n\n\nかなりマイペースで挑発的な性格の子なので、その雰囲気に合うポーズであれば、別の構図でも構いません。\n\nお読みいただき、ありがとうございます。",
-        "nc": 144,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -138,7 +138,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 0
       },
       {
         "id": 476505,
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 48
       },
       {
         "id": 515575,
@@ -186,7 +186,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 33
       },
       {
         "id": 1262446,
@@ -210,7 +210,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 2147500,
@@ -234,7 +234,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 2478852,
@@ -258,7 +258,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 176
       }
     ]
   },

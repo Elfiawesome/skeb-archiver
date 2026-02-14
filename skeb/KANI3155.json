@@ -1,7 +1,7 @@
 {
   "screen_name": "KANI3155",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3159058,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 1446,
     "completing_average_time": 2804400,
-    "nc": 16,
+    "nc": 128,
     "twitter_uid": "1467864571910430725",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
           "srcset": "https://si.imgix.net/bb44addf/uploads/origins/e6d5813b-3c47-4a05-9746-6d000c713b89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=341bcb4e898c15d5ea4eaa26727141a4, https://si.imgix.net/bb44addf/uploads/origins/e6d5813b-3c47-4a05-9746-6d000c713b89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=315f7925d7343c0fa0ea61758e51caad 2x, https://si.imgix.net/bb44addf/uploads/origins/e6d5813b-3c47-4a05-9746-6d000c713b89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=dfd4ddce5339515496cb2418c733adb6 3x"
         },
         "body": "カニさんの可愛いセクシーバニ〜が見て見たい！\n是非YouTubeでお願いします。",
-        "nc": 1,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -138,7 +138,7 @@
           "srcset": "https://si.imgix.net/694e2086/uploads/origins/8f4587ad-95fd-4c42-a84d-852fbdb20d92?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=545ae7d83e66a58ec015dbbdcd20eb87, https://si.imgix.net/694e2086/uploads/origins/8f4587ad-95fd-4c42-a84d-852fbdb20d92?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=97a6f27ae7174539f6f9aa4d5442f25a 2x, https://si.imgix.net/694e2086/uploads/origins/8f4587ad-95fd-4c42-a84d-852fbdb20d92?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f9d3bbef11b228a2d26b7a26f2fb10bd 3x"
         },
         "body": "こんにちは！\n\nあなたのスタイルでVTuber Ninanininのポートレートをお願いしたいのですが！\n\n以下のリンクに参考資料があります。\n\nありがとうございました！\n\nhttps://imgchest.com/p/pg73pqpbzyr",
-        "nc": 0,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -222,7 +222,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       },
       {
         "id": 2649967,
@@ -246,7 +246,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 144
       },
       {
         "id": 3239555,
@@ -270,7 +270,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 33
       },
       {
         "id": 3697620,
@@ -294,7 +294,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 160
       }
     ]
   },

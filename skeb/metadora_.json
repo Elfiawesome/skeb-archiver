@@ -1,7 +1,7 @@
 {
   "screen_name": "metadora_",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3341738,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 0,
     "twitter_uid": "2593142750",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/0a0b43fd/uploads/origins/5a5bd625-7095-4031-8ad5-f58d613da0d8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=76841ab35a30597498b1e35f9979e5bd, https://si.imgix.net/0a0b43fd/uploads/origins/5a5bd625-7095-4031-8ad5-f58d613da0d8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cd67b9d88d0cdb5017e6c5f660027d23 2x, https://si.imgix.net/0a0b43fd/uploads/origins/5a5bd625-7095-4031-8ad5-f58d613da0d8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9932332d2e0a8cdee9665984e61afa37 3x"
         },
         "body": "こんにちは！あなたの作品がとても気に入りました。私のVTuberアバター「リズ」のイラストを描いていただけませんか？彼女は真面目な勉強熱心な魔女なので、ツンデレな表情でお願いします。 彼女の眼鏡は魅力のポイントです。靴は以下のようなデザインにしてください：https://drive.google.com/file/d/1tnTrPOtcSEp1h6g-ZDwEggDzJG4u12lN/view?usp=drivesdk\n\nポーズや構図はご自由に決めてください。参考画像：https://drive.google.com/file/d/1QZyPgULdsaAaWU-8iyw7Bg4zGT_WB6Cy/view?usp=drive_link よろしくお願いします！",
-        "nc": 0,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e0e252e110f98bbdc3657123fce38576, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0e8b8aa3db13e9ca4a152a972a249720 2x, https://si.imgix.net/ef41b935/uploads/origins/b2238b75-a1ee-4438-ac47-a9e7fdc27ca1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c630534b7126246260cb17af79a8ce6d 3x"
         },
         "body": "あなたの作品はとても素敵です！あなたのスタイルで私の娘の作品が欲しいわ～。\n\n特に制限はないのですが、カッコよく仕上げていただけると嬉しいです～>v<\n\nありがとうございました\n\nhttps://www.deviantart.com/stash/21uddkcwk32j",
-        "nc": 17,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -162,7 +162,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 17
       },
       {
         "id": 527624,
@@ -189,7 +189,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 2017661,
@@ -213,7 +213,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 2349622,
@@ -237,7 +237,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 3128982,
@@ -264,7 +264,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 177
       },
       {
         "id": 3596064,
@@ -288,7 +288,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 128
       }
     ]
   },

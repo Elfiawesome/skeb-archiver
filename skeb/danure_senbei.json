@@ -1,7 +1,7 @@
 {
   "screen_name": "danure_senbei",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3679887,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 33,
+    "nc": 48,
     "twitter_uid": "1656240083350212610",
     "user_service_links": [
       {
@@ -110,7 +110,7 @@
           "srcset": "https://si.imgix.net/f4d15c45/uploads/origins/b504f65b-dd9b-468d-bea2-1e8d1ba3a6bd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7b06f99d62d8fa972bf70a0319ce640c, https://si.imgix.net/f4d15c45/uploads/origins/b504f65b-dd9b-468d-bea2-1e8d1ba3a6bd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=365e7e257872d7dff7ccafdce39afc0c 2x, https://si.imgix.net/f4d15c45/uploads/origins/b504f65b-dd9b-468d-bea2-1e8d1ba3a6bd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c6dce1c62eb1df1963f13722f20d1af5 3x"
         },
         "body": "再びこんにちは！前回の作品がとても気に入ったので、またお願いしたいと思います。今回は、前回のリクエスト（https://x.com/danure_senbei/status/1997620749969064047?s=20）のように、牛柄の服を着たブルーアーカイブのプラナを描いてください。胸元は隠さず、両手でハートマークを作ってほしいです（https://x.com/Occimentalis/status/1999449011066142939?s=20）。ほんのり赤ら顔でお願いします。\n\nありがとうございました！",
-        "nc": 187,
+        "nc": 43,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -169,7 +169,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 160
+        "nc": 176
       },
       {
         "id": 1077259,
@@ -193,7 +193,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 177
       },
       {
         "id": 1285374,
@@ -217,7 +217,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 177
       },
       {
         "id": 3167880,
@@ -244,7 +244,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 48
+        "nc": 49
       },
       {
         "id": 3248052,
@@ -268,7 +268,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 160
       },
       {
         "id": 3313250,
@@ -298,7 +298,7 @@
             "genre": "video"
           }
         ],
-        "nc": 176
+        "nc": 49
       }
     ]
   },

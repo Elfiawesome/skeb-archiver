@@ -1,7 +1,7 @@
 {
   "screen_name": "odimimi3",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3609472,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 10,
     "complete_expiration_days": 30,
-    "nc": 0,
+    "nc": 17,
     "twitter_uid": "1237301810978672640",
     "user_service_links": [
       {
@@ -133,7 +133,7 @@
         "tipped": false,
         "creator_id": 3609472,
         "client_id": 3587705,
-        "nc": 144
+        "nc": 129
       },
       {
         "path": "/@odimimi3/works/2",
@@ -146,7 +146,7 @@
         "tipped": false,
         "creator_id": 3609472,
         "client_id": 2573096,
-        "nc": 17
+        "nc": 129
       },
       {
         "path": "/@odimimi3/works/1",
@@ -188,7 +188,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 1256197,
@@ -215,7 +215,7 @@
             "genre": "video"
           }
         ],
-        "nc": 32
+        "nc": 49
       },
       {
         "id": 1411921,
@@ -242,7 +242,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 176
+        "nc": 160
       },
       {
         "id": 2555268,
@@ -269,7 +269,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 3047407,
@@ -293,7 +293,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 3539683,
@@ -323,7 +323,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 1
       }
     ]
   },

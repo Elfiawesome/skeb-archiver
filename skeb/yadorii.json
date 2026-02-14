@@ -1,7 +1,7 @@
 {
   "screen_name": "yadorii",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3797936,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 2,
     "complete_expiration_days": 20,
-    "nc": 0,
+    "nc": 129,
     "twitter_uid": "1933870454147792897",
     "user_service_links": [
       {
@@ -83,7 +83,7 @@
     "acceptable_only_public": false,
     "tip_acceptable": true,
     "yearly_report_client_visible": false,
-    "total_appeals_count": 9,
+    "total_appeals_count": 10,
     "received_works": [
       {
         "path": "/@yadorii/works/2",
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/10260480/uploads/origins/91aa8821-d3fc-4851-8fbd-fb08f485c50a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=27001e7fdda4737a9a7a2d99078b8761, https://si.imgix.net/10260480/uploads/origins/91aa8821-d3fc-4851-8fbd-fb08f485c50a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1f09a10eb10a54c36a5e5e159e964d80 2x, https://si.imgix.net/10260480/uploads/origins/91aa8821-d3fc-4851-8fbd-fb08f485c50a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=788ff50e6555fcbcaa0b392b685cfa81 3x"
         },
         "body": "やどり様アピールありがとうございます。\nうちのそよかを描いていただきたいと思いリクエストを送らせていただきます。\nポーズはご提案頂いた「手を少し広げて無邪気に笑っているようなポーズ」にてお願いします。\nよろしくお願いいたします。\n●名前\n空野そよか\n●紹介文\n天真爛漫で表情豊かなピンク髪の女の子\nいつも前向きでチャームポイントは鋭い牙\n●参考画像\nhttps://drive.google.com/drive/folders/1xcqjQq9_m4CES_1yOIvgp6-Nr6JiIie9",
-        "nc": 17,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +132,7 @@
           "srcset": "https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0285104db1766de445f73ff553de9bfd, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=241876bdfc0a5172f51285dbddea657a 2x, https://si.imgix.net/87a6ac6d/uploads/origins/0a8d2786-22be-4209-a6ae-c03206afb201?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cdeb2bad00e4f799d57a1a54b5b4174b 3x"
         },
         "body": "やどりさん、こんにちは！お声かけありがとうございます。私のキャラクター、モックを描いていただけたら大変嬉しいです！※モックの詳細：• ウサギをモチーフにした陶器の人形を宿す存在• 細身で小柄な体格• 感情を表に出さないが、鋭い眼差しを持つ• 好奇心旺盛だが、探索方法が病的なところがある\n\n構図やポーズはご自由に決めてください。※ キャラクターと背景を別レイヤー（PSD形式）でいただけると大変助かります。ご依頼をご検討いただき、モックを気に入ってくださってありがとうございます！https://drive.google.com/drive/folders/1k3-xjYV96exX_zKOqUb32xcJZRC2vkuQ?usp=sharing",
-        "nc": 144,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -189,7 +189,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 49
       },
       {
         "id": 180873,
@@ -213,7 +213,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 48
       },
       {
         "id": 2058473,
@@ -237,7 +237,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 0
       },
       {
         "id": 2399554,
@@ -261,7 +261,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 3499636,
@@ -285,7 +285,7 @@
             "genre": "art"
           }
         ],
-        "nc": 177
+        "nc": 32
       }
     ]
   },

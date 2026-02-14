@@ -1,7 +1,7 @@
 {
   "screen_name": "Shinosos_vrc",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3437327,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 90,
     "received_requests_average_response_time": 76604,
     "completing_average_time": 7548093,
-    "nc": 1,
+    "nc": 16,
     "twitter_uid": "1607283713586647040",
     "user_service_links": [
       {
@@ -112,7 +112,7 @@
           "srcset": "https://si.imgix.net/b1ffcc6e/uploads/origins/da275d5b-2175-4962-a43d-0660430a5a3f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=29202f3574b369aafcec3a87dffeea0c, https://si.imgix.net/b1ffcc6e/uploads/origins/da275d5b-2175-4962-a43d-0660430a5a3f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a50ea0cdc0e250c9e84cf2d2ffaa8bdf 2x, https://si.imgix.net/b1ffcc6e/uploads/origins/da275d5b-2175-4962-a43d-0660430a5a3f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=edb1190730b7372b43b3de98588d1ee7 3x"
         },
         "body": "こんにちは！この度はVRChatの私のキャラクターのイラストを描いて頂ければ幸いです。容姿は下記URLからダウンロードかXをご確認ください。\n\nhttps://drive.google.com/file/d/1AFG_U0NQfEtcNJ90FYQ2wfjqxt0v1j7Y/view?usp=drive_link\n\n構図等はおまかせします。自由に描いてくださって結構です。\n用途は、クレジット記載の上、各SNSやプロフィール画像等での使用となります。\nよろしければ何卒よろしくお願いします。\n（可能なら、キャラクターと背景などが分かれているファイル等（psdなど）を納品していただけるとありがたいです）",
-        "nc": 129,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -181,7 +181,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 177
       },
       {
         "id": 984148,
@@ -205,7 +205,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 48
       },
       {
         "id": 1920619,
@@ -232,7 +232,7 @@
             "genre": "video"
           }
         ],
-        "nc": 144
+        "nc": 17
       },
       {
         "id": 2614853,
@@ -243,7 +243,7 @@
         "screen_name": "np_nmmm",
         "avatar_url": "https://pbs.twimg.com/profile_images/1633657162206707715/1h1z70rq.jpg",
         "header_url": "https://pbs.twimg.com/profile_banners/1360057262878822401/1722273953/1500x500",
-        "appeal_receivable": false,
+        "appeal_receivable": true,
         "popular_creator_rank": null,
         "request_master_rank": null,
         "first_requester_rank": null,
@@ -256,7 +256,7 @@
             "genre": "art"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 2688676,
@@ -286,7 +286,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 145
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "GX_MIDDLE",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3369107,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 426470,
     "completing_average_time": 4747309,
-    "nc": 17,
+    "nc": 16,
     "twitter_uid": "261259586",
     "user_service_links": [
       {
@@ -116,7 +116,7 @@
           "srcset": "https://si.imgix.net/656dd88d/uploads/origins/932102e2-2ee9-426f-96a5-a4411aa19a76?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b52e45a7db0e1a7facf83ca317247026, https://si.imgix.net/656dd88d/uploads/origins/932102e2-2ee9-426f-96a5-a4411aa19a76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=2a11b879d0f170c0c906dc396744769e 2x, https://si.imgix.net/656dd88d/uploads/origins/932102e2-2ee9-426f-96a5-a4411aa19a76?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=30174446417fd9f40dc85080f3ac9249 3x"
         },
         "body": "古い作品キャラで申し訳ありませんが、以下が可能でしたらお願いします。\n\nキャラクター：マリ（氷河戦士ガイスラッガー）\n服装：戦闘服とヘルメット姿、戦闘服を装着していないノーマル状態姿を\n並べて描いて頂けないでしょうか。ポーズなどはお任せします。\n以下はアニメ本編の画像ですが、Skebで作品名で検索頂いた方が資料になると思います。\nアニメ本編の絵柄に寄せるより、ＧＸ様の絵柄で描いて頂けると幸いです。\n\n戦闘服とヘルメット姿\nhttps://pbs.twimg.com/media/F6omiuaacAA5Vfd?format=png&name=small\nhttps://pbs.twimg.com/media/F6o5VKIb0AA8nPK?format=png&name=small\nhttps://pbs.twimg.com/media/DTLoNR2VAAAQoJm.jpg:medium\nhttps://pbs.twimg.com/media/F7-WMX9bgAAagNL?format=png&name=small\nhttps://pbs.twimg.com/media/F6o-zN5bsAAhx3w?format=png&name=small\n\n戦闘服を装着していないノーマル状態姿\nhttps://pbs.twimg.com/media/F7-bEQ8bkAEtyVs?format=png&name=small\nhttps://pbs.twimg.com/media/FxxXfAEaIAcRKqy?format=jpg&name=large\nhttps://pbs.twimg.com/media/F8d6zjEbYAAxqy3?format=png&name=small\nhttps://pbs.twimg.com/media/DTqJQGtV4AAGU2X.jpg\n\n以上、よろしくお願いします。\n\nhttps://www.youtube.com/watch?v=KHBwef7qTYc",
-        "nc": 145,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -201,7 +201,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 32
+        "nc": 160
       },
       {
         "id": 39199,
@@ -228,7 +228,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 24
+        "nc": 152
       },
       {
         "id": 751038,
@@ -252,7 +252,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 144
       },
       {
         "id": 912443,
@@ -282,7 +282,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 160
+        "nc": 32
       },
       {
         "id": 1611852,
@@ -306,7 +306,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 17
       },
       {
         "id": 3769818,
@@ -330,7 +330,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 0
       }
     ]
   },

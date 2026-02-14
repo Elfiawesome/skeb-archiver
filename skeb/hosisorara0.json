@@ -1,7 +1,7 @@
 {
   "screen_name": "hosisorara0",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3865758,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 61087,
     "completing_average_time": 422025,
-    "nc": 24,
+    "nc": 137,
     "twitter_uid": "2009203119671136261",
     "user_service_links": [
       {
@@ -108,7 +108,7 @@
           "srcset": "https://si.imgix.net/2fddec2b/uploads/origins/a4536c90-e90f-459b-91e4-35b0303d77fa?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=dbd6a3eae76d04129e8721edfbb4456e, https://si.imgix.net/2fddec2b/uploads/origins/a4536c90-e90f-459b-91e4-35b0303d77fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6f6d48ccbbd8d3825eed68f2a8a40d0d 2x, https://si.imgix.net/2fddec2b/uploads/origins/a4536c90-e90f-459b-91e4-35b0303d77fa?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6726d32ee8fe5976a964694d8538cc10 3x"
         },
         "body": "こんにちは、オリジナルキャラクターのコミッション依頼をさせていただきたいです。彼女は水をモチーフにした人魚騎士です。元騎士で現在はジャーナリストの護衛として放浪する剣士です。独自の正義感を持っており、愛する者のために戦います。いつか引退して歌手になりたいと願っています。性格は神経質で静か、内向的ですが、とても優しく甘えん坊でもあります。\n\nポーズや表情はご自由にお決めください。参考資料やフォルダ内のものから選んでも、彼女の性格に合うと思われる独自のものをご考案いただいても結構です。ご依頼をご検討いただきありがとうございます。https://imgur.com/a/lorelei-wendler-reference-images-nb71kvD",
-        "nc": 17,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -164,7 +164,7 @@
             "genre": "art"
           }
         ],
-        "nc": 32
+        "nc": 177
       },
       {
         "id": 209701,
@@ -188,7 +188,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 16
       },
       {
         "id": 1825019,
@@ -212,7 +212,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 17
       },
       {
         "id": 2666389,
@@ -236,7 +236,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 32
       },
       {
         "id": 2852036,
@@ -284,7 +284,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 16
       }
     ]
   },

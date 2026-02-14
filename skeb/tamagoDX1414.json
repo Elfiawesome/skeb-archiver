@@ -1,7 +1,7 @@
 {
   "screen_name": "tamagoDX1414",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 583942,
     "acceptable": true,
@@ -13,8 +13,8 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/1062268016258236422/1621819069/1500x500",
     "body_size": 10000,
-    "received_works_count": 260,
-    "received_nsfw_works_count": 22,
+    "received_works_count": 261,
+    "received_nsfw_works_count": 23,
     "sent_requests_average_cancel_time": 73,
     "appeal_receivable": false,
     "request_master_rank": null,
@@ -43,8 +43,8 @@
     "accept_expiration_days": 30,
     "complete_expiration_days": 120,
     "received_requests_average_response_time": 127056,
-    "completing_average_time": 5928818,
-    "nc": 33,
+    "completing_average_time": 5928966,
+    "nc": 48,
     "twitter_uid": "1062268016258236422",
     "user_service_links": [
       {
@@ -88,6 +88,18 @@
     "total_appeals_count": 0,
     "received_works": [
       {
+        "path": "/@tamagoDX1414/works/261",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d564e8ad21c1bcb7c0fcd5db8872672c",
+          "srcset": "https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d564e8ad21c1bcb7c0fcd5db8872672c, https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=77d55e9b3a6d2fb193ac67d902ceb4e8 2x, https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6404682249e01855513a1bca11670a4d 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 583942,
+        "nc": 33
+      },
+      {
         "path": "/@tamagoDX1414/works/260",
         "private_thumbnail_image_urls": null,
         "private": false,
@@ -108,7 +120,7 @@
           "srcset": "https://si.imgix.net/65fd6cea/uploads/origins/95bd6265-5154-4485-82df-96b61852891a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e21c4eb0f14c40440127155221dfd5a9, https://si.imgix.net/65fd6cea/uploads/origins/95bd6265-5154-4485-82df-96b61852891a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d4b7af8da3ce59497e6f9322c9199aaf 2x, https://si.imgix.net/65fd6cea/uploads/origins/95bd6265-5154-4485-82df-96b61852891a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fa2d8ed9a4151b322be9c3aac474b434 3x"
         },
         "body": "緑川雷同くんに\n黒と白のクラシカルメイド服を着せて欲しいです。スカートが長めのやつです。できるだけシンプルなメイド服だと嬉しいです。\n頭はホワイトブリムの形のカチューシャでお願いします。縦フリルの一般的なやつです。\n\nポーズは地に足がついててもついてなくてもいいのですが、出来れば全身で見たいです。難しければどんなものでも大丈夫です！表情はノリノリでは無ければなんでも嬉しいです。異性装をしろと言われた際に彼がしそうな顔をさせて欲しいです。\n\nアクスタと、ポスターにして部屋に飾りたいな、、と思うので出来れば大きなサイズだと助かります。アクスタにする時にうまく透過できるかわからないので、背景と分離できるとなお嬉しいなと思います。",
-        "nc": 144,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -134,7 +146,7 @@
           "srcset": "https://si.imgix.net/28d8ba91/uploads/origins/4b4d6ce3-11a7-4b30-9e74-bd1fd892b94b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc87b108b43ff9186cc4db43b797b704, https://si.imgix.net/28d8ba91/uploads/origins/4b4d6ce3-11a7-4b30-9e74-bd1fd892b94b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=70fc8014b75fb548b177f0eed5b7672e 2x, https://si.imgix.net/28d8ba91/uploads/origins/4b4d6ce3-11a7-4b30-9e74-bd1fd892b94b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9828dfdabe4a7a2067d3f85bcf8ca784 3x"
         },
         "body": "お世話になっております\n\n何度も依頼して申し訳ございません\n\n好な構図でかいていただければうれしいです。\n\nなんでもいいです。\n\nHO1 洒掃讙\n\nhttps://drive.google.com/drive/folders/1i6v0Y40kA1GcV_ZEulfVxQYZ2oJn3Y6A",
-        "nc": 176,
+        "nc": 48,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -160,7 +172,7 @@
           "srcset": "https://si.imgix.net/715ecd34/uploads/origins/a213ec2a-6705-4e0a-8cad-836420e1b3da?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=67a94213096b666448c2bea66b96b29e, https://si.imgix.net/715ecd34/uploads/origins/a213ec2a-6705-4e0a-8cad-836420e1b3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b07fb70150f6680ab9c08b34585f8c69 2x, https://si.imgix.net/715ecd34/uploads/origins/a213ec2a-6705-4e0a-8cad-836420e1b3da?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=843a30dc598c70aea8d195d8aab2d446 3x"
         },
         "body": "あんどうさん\n\nいつも大変お世話になっております。ば～じるです。\n実は折り入ってご依頼したい件がございまして、お忙しい中とは存じますが\nどうかご検討いただけますと幸いです！\n\n依頼内容ですが、以下箇条書きで失礼いたします！\n\n・キャラクター：cocシナリオイドラの約束HO2（自PC）と雷同(NPC)の二人をお願いしたいです。\n・希望シチュエーション：二人でご飯食べてる所、もしくは自PCが黒猫と白猫を飼っているので二人で猫と戯れてる所\nもしくは、言い争いの喧嘩してる所等…イメージ湧きやすいものお願いできれば幸いです。\n・服装は資料ではスーツですが、好きに描いていただいて構いません。\n\nキャラクター資料(イド約ネタバレ有り）も添付いたします。\nご検討の程どうぞよろしくお願いいたします！ｍｍ\n\nhttps://drive.google.com/drive/folders/1RjlC3BcLRRZxjeZtREWrgqlM_g3PCJf5?usp=drive_link",
-        "nc": 1,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -186,7 +198,7 @@
           "srcset": "https://si.imgix.net/4b1db47e/uploads/origins/99275e4c-8ed9-4b2e-8a75-8ffe3bde698a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=15346a36eae5c015a4d7e1c82682c310, https://si.imgix.net/4b1db47e/uploads/origins/99275e4c-8ed9-4b2e-8a75-8ffe3bde698a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6e372b83ca0aadbcf50fc116984ef00a 2x, https://si.imgix.net/4b1db47e/uploads/origins/99275e4c-8ed9-4b2e-8a75-8ffe3bde698a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=900f368d96d6e2a4dbc43d4c4473ca89 3x"
         },
         "body": "こんばんは！いつもあんどう様のシナリオを楽しく遊ばせていただいております。\n\n某映画の吐血しながらキスをするシーンに性癖を開拓され、それ以降ずっとあんどう様のイラストで見たい景色があり、今回思い切ってリクエストを送らせていただきます……！\n\n\n◆依頼内容について\n『イドラの約束』より、自探索者(HO2)と緑川雷同の1枚絵をお願い致します。\n\n・お互いの血、もしくは雷同の血に塗れてキスをしているシーン。\nこの画が見たい！という欲望のみなので、シチュエーションや背景等はお任せ致します。\n\n・服装は二人ともスーツ、もしくは自探索者:ウェディングドレス/雷同:タキシードだと嬉しいです。\n自探索者について、服装・髪型共に描きやすいよう大幅にアレンジしていただいても構いません。\n\n・苦しいけど幸せ、みたいな雰囲気だとこちらが幸せになります。血がいっぱい出ているとより嬉しいです！\n\n参考資料として簡易的な自探索者(HO2)の説明、CS、HO2外見の資料を添付いたします。\n\nーーーーー\n\n【自探索者(HO2)】\n・159cm。標準体型よりややスリム。\n・典型的ツンデレ女。プライドが高めで委員長のような性格。他人に甘く自分に厳しい。\n・趣味は鍛錬とウィンドウショッピングやメイクの研究など。料理は下手でHO5に教えてもらうことがある。\n・警察学校卒業時に雷同への恋心を自覚し、いまだ伝えられないままでいる。嘘や隠し事が苦手で、普段はきりっとした表情をしているが雷同を見かけると一瞬顔がパアッと綻んでしまう。\n\n【CS】\nhttps://iachara.com/view/9662304\n\n【外見など】\nhttps://drive.google.com/drive/folders/1Jr4a-H0ORJgOcfVTQ1qHxLp11ZFp6SCe?usp=sharing\n\nーーーーー\n\n資料URL等に不備がありましたら申し訳ございません。また、金額が見合わなければ再送依頼をして頂けると助かります。\n御多忙かとは思いますが、ご検討いただけますと幸いです。\nこの景色を見たくて見たくて……。何卒よろしくお願い致します！\n\nhttps://drive.google.com/drive/folders/1Jr4a-H0ORJgOcfVTQ1qHxLp11ZFp6SCe?usp=sharing",
-        "nc": 177,
+        "nc": 49,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -212,7 +224,7 @@
           "srcset": "https://si.imgix.net/5e531024/uploads/origins/02b7c0ce-595e-412f-9bea-6ef5aca8693b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0230413f5f2cfdeaf11ad4d9180ba8ae, https://si.imgix.net/5e531024/uploads/origins/02b7c0ce-595e-412f-9bea-6ef5aca8693b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b8411fc29b1164841a51f1478c689982 2x, https://si.imgix.net/5e531024/uploads/origins/02b7c0ce-595e-412f-9bea-6ef5aca8693b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7c21c95b60f974145f4dac68aa2ff07f 3x"
         },
         "body": "あんどう様\n\nこんばんは。渡瀬と申します。\nこの度、祭りということでぜひあんどう様のイラストで拝見したいものがありリクエストさせていただきました。\nなお、リクエストの内容は以下です。\n\n\n‐-----‐-----‐-----‐-----‐-----‐-----‐--\n\n◆一枚絵\n\n‐-----‐-----‐-----‐-----‐-----‐-----‐--\n\n\n・彁来\n┗HO4（自探索者）\nhttps://iachara.com/view/11675735\n┗NPC白波キリ、ザール\n\n\n\n自探索者、白波キリ(生前)、ザール(大きい方)が手を繋いで幸せそうにしているイラスト。HO4が真ん中だと嬉しいです！\n\nHO4は表面上はぺか～っと笑うタイプなのですが、両親や白波キリが亡くなって以降、本当の意味で笑えなくなりました。なので本当に幸せ、これ以上なにもいらない。という天真爛漫さはもう二度とやっては来ないと思っています。そんな幻覚がみたいです…\n\n可能でしたら、ザールが着ているような白いパーカーをオーバーサイズでHO4に着せて頂き、白波キリにも白い服を着てもらってみんやでぺアルックのようにしているのがみたいです！\n\n\n\n【使用用途】\n観賞用\n┗PCやipadの背景として毎日眺めたいです。\n\n\n‐-----‐-----‐-----‐-----‐-----‐-----‐--\n\n\nお忙しいところ恐れ入りますが、よろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/1qW9RjU1eGuvmx-xHXNttaXqN-C8mizyp",
-        "nc": 129,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -228,7 +240,7 @@
         "tipped": false,
         "creator_id": 583942,
         "client_id": 1571002,
-        "nc": 145
+        "nc": 129
       },
       {
         "path": "/@tamagoDX1414/works/254",
@@ -264,7 +276,7 @@
           "srcset": "https://si.imgix.net/0d9e405f/uploads/origins/819e0e1f-5ffe-4cfd-965d-8e51f290244b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=22ff1d4e3a0b3a1969359f24f5da3811, https://si.imgix.net/0d9e405f/uploads/origins/819e0e1f-5ffe-4cfd-965d-8e51f290244b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9dabb0312ff174d1c3d811cd96a4572d 2x, https://si.imgix.net/0d9e405f/uploads/origins/819e0e1f-5ffe-4cfd-965d-8e51f290244b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=328112eed805bfd02d09f5f61f1627d8 3x"
         },
         "body": "TRPGで使用しているOCの1枚絵をお願いしたいです。\n\nXにて「 #仁那虎琉 」と検索していただくと、立ち絵が2枚貼ってあるツイートが出てきます。そちらの男の子をお願いします。(URLを貼るとどうしても送れなかったのでこのような形で失礼します)\n\n「烏が群れては、極彩色」というシナリオのHo2の男です。一番気に入っている探索者でいつかあんどうさんに頼んでみたくて！！！！\n\n渋谷でカラーギャングをしてます！\n足が早い！\nパルクールできます！\nナイフで戦います！\n素直になれないツンデレボーイです！\n甘いものが好きなのですが、誘われて嬉しいくせにみんなの前ではなんか恥ずかしいので「……ふーん、別にいいかな…」みたいなこと言って、あとから2人の時にやっぱいく。って言いながら裾を引っ張るタイプの男です！\nこんな感じですが女の子には比較的優しいし、女性ファーストです。\n\n構図等々お任せします、顔が見えればありがたいです！ゴーグルは作画コストが高いので無くても問題ありません！あんどうさんが描いてくれるボロボロの男が大好きなので、是非こいつもﾎﾞﾛﾎﾞﾛにしてほしいです！！！！！戦う男なのですがCONが7でよくぶっ倒れたりすぐ怪我したりしてるので、情けない涙目とかしてると嬉しいなと思います。",
-        "nc": 177,
+        "nc": 32,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -279,7 +291,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 583942,
-        "nc": 145
+        "nc": 144
       },
       {
         "path": "/@tamagoDX1414/works/251",
@@ -302,7 +314,7 @@
           "srcset": "https://si.imgix.net/278ebb14/uploads/origins/bb7a11e8-78c8-4f1b-8235-cbadf7440569?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=994085caa7f9b2abbe9d9edbde681163, https://si.imgix.net/278ebb14/uploads/origins/bb7a11e8-78c8-4f1b-8235-cbadf7440569?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3229fea9300e88bbc5885568c8d231e6 2x, https://si.imgix.net/278ebb14/uploads/origins/bb7a11e8-78c8-4f1b-8235-cbadf7440569?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5787f44ab655dc4ba86290eb8c67dd97 3x"
         },
         "body": "ティターニア、リン、R、詐堂がそろっている絵が見たいです！\n人数が多いのでラフ、SD、モノクロなどで適宜工数を削減していただければ助かります。\n\n背中を向けていたり顔が見えない構図でも問題ありません。\n雰囲気はHappyでもBadでもどちらでも構いません！！\n並ぶわけないとも思うのでifでもパロディでも大丈夫です。\n\nご検討いただければ嬉しく思います。",
-        "nc": 144,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -328,7 +340,7 @@
           "srcset": "https://si.imgix.net/eb0aac22/uploads/origins/c23eea99-45da-4bff-8999-4e9b79aa8c79?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8b320840ed334f3d093236b198f05f14, https://si.imgix.net/eb0aac22/uploads/origins/c23eea99-45da-4bff-8999-4e9b79aa8c79?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f6c5cbb21f83e0473179965e073c41ee 2x, https://si.imgix.net/eb0aac22/uploads/origins/c23eea99-45da-4bff-8999-4e9b79aa8c79?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a5b1fa02b2b4ae0e44ab56aa0c17ae03 3x"
         },
         "body": "はじめまして、今回リクエストを再開するとのことで募集させていただきます。\nいつもあんどうさんのシナリオで楽しませていただいており、シナリオ自体のおもしろさだけでなく、魅力的なNPCたちに心を揺さぶられています。特にイドラの約束の緑川雷同くんが大好きです。\n\n今回リクエストしたいのは、イド約のうちの子と、雷同くんのイラストです。\n普段から女装をしている設定の子なので、女装をしている状態の自探索者と雷同くんが見られたらうれしいと思っています。\n特に見てみたいと感じるシチュエーションは以下の通りです。その中でイメージが湧きやすいものがあれば描いていただけるとうれしいです。\n・二人で真剣に仕事をしているところ（コーヒーなどを飲みつつ書類の読み合わせをしていたりなど）\n・二人で遊園地に遊びに来ているところ、表情は笑顔\n・休日に二人で外食に来ているところ（ピザだと嬉しいです）\n\n▼簡単な自探索者設定\n・名前：青柳 眞秀（あおやぎ まほろ）、34歳男性\n・表面上クールなタイプ。基本的に他者には冷たい対応をするが、雷同など、気心の知れた友人相手には明るい。\n・根は気弱だが、気持ちを強く持つ為に女装をしている。\n・女装をしている時でもあまりスカートは履かない。\n・ピザやハンバーガーなど、ジャンクフードが好き。\n\n▼キャラクターシート\nhttps://iachara.com/view/10042276\n▼全身立ち絵\nhttps://drive.google.com/drive/folders/1hpW2sZVt7dOK9T2TK5qIkolve7uqmwGK?usp=sharing\n\nまだ暑い日が続きますので、どうかお身体を大切にしてください。\nご検討いただけますと幸いです。",
-        "nc": 144,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -354,7 +366,7 @@
           "srcset": "https://si.imgix.net/54c15bbf/uploads/origins/5454d512-df57-4b20-a07c-cff7ef8c6ba6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b019d5139842a64f52c837f386fd6dc8, https://si.imgix.net/54c15bbf/uploads/origins/5454d512-df57-4b20-a07c-cff7ef8c6ba6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=98cf87fc63c060f2fafbf67f4a0fc450 2x, https://si.imgix.net/54c15bbf/uploads/origins/5454d512-df57-4b20-a07c-cff7ef8c6ba6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ac9628c5b8dd7ccfc3ca17a222e3f271 3x"
         },
         "body": "あんどう様\n\n平素は素敵シナリオにて大変お世話になっております。\n\n彁来の宮本シンが好きすぎて拗らせているのですが、最近見ている幻覚を是非描いていただきたくリクエストしております。\n\n【リクエスト内容】\nパン食い競争に参加する宮本シンとそれをうちの子であるHO3が応援しているシーンをお願いします。\n宮本シンのほか、うちの子にもジャージを着せていただけると幸いです。\nジャージについては指定はございませんので、描きやすいものを描いていただければと思います。\n\n--読まなくても問題のないあらすじ--\n運動会の出場種目決めで「宮本は足が速い」と言う理由でクラス対抗リレー、パン食い競争など複数種目に勝手にエントリーされていた。\n宮本シンがそのことについて抗議したところ、クラスメイトにせめてどれか一つに参加してほしいと懇願され、仕方なく「パン食い競争」を選ぶ。\nクラス対抗リレーを選ばなかったのは、放課後にリレー練習に参加するのが面倒だったからである。その点、パン食い競争は個人競技なので練習に参加する必要はなかった。\n\n運動会当日、ハチマキをつけジャージを着た宮本シンはパン食い競争に参加する。\n天気は快晴で、絶好の運動会日和である。\nスターターが鳴り、宮本シンは駆け出す。走ること自体は当然順調だった。\nしかし、その行く手を吊るされたパンが阻む。\n果たして、宮本シンは吊るされたパンを咥えることができるのか――。\n--あらすじ　おわり--\n\n・使用用途\n自陣の皆と鑑賞予定です。\n\nキャラクターシート\nhttps://iachara.com/view/8840837\n\nご検討の程よろしくお願いいたします。\n\nhttps://drive.google.com/drive/folders/12O6PpsrIIbnMyrkysi2yg9Ln-WNtLPhi?usp=drive_link",
-        "nc": 0,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -370,7 +382,7 @@
         "tipped": true,
         "creator_id": 583942,
         "client_id": 3346815,
-        "nc": 145
+        "nc": 129
       },
       {
         "path": "/@tamagoDX1414/works/247",
@@ -383,7 +395,7 @@
         "tipped": true,
         "creator_id": 583942,
         "client_id": 2583269,
-        "nc": 161
+        "nc": 176
       },
       {
         "path": "/@tamagoDX1414/works/246",
@@ -396,7 +408,7 @@
         "tipped": false,
         "creator_id": 583942,
         "client_id": 3423790,
-        "nc": 16
+        "nc": 144
       },
       {
         "path": "/@tamagoDX1414/works/245",
@@ -419,7 +431,7 @@
           "srcset": "https://si.imgix.net/dc464923/uploads/origins/7cef9047-8e10-446c-822d-7a3d6c713ee6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=113bb36d2d29a75aaa6059fbd222aa9c, https://si.imgix.net/dc464923/uploads/origins/7cef9047-8e10-446c-822d-7a3d6c713ee6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1a6ddf48fd8d16510cc4853c722b0806 2x, https://si.imgix.net/dc464923/uploads/origins/7cef9047-8e10-446c-822d-7a3d6c713ee6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6b7bc549b9b9d207aedca7536a3e6a6d 3x"
         },
         "body": "あんどうさんこんにちは。\n8月に『MOON-GIFTED』を通過させていただき、シナリオの内容もPLとしての体験もとても楽しかったので、またあの世界観を浴びたいと思い、OC（探索者）の依頼させていただきます。\n\n通過時はHO2を握らせていただき、元より明のような元気でフワフワな少年が好きなので弟を撫でまくりながら、屋敷のパパにメロメロ…となっていました。前編ラストの炎の中で見た景色が本当に本当に大好きです！\n\n今回は下記の内容からあんどう様の気が向いたものを描いていただければと思います。\n\n①明と遊ぶHO2\n微睡の庭や街中で、追いかけっこをしたり脚にしがみついてきた明をぶらぶら揺さぶったりして遊んでいました…。年の離れた小学生の弟、のような距離感でじゃれ合える関係性が楽しかったです。\n\n②幽霊屋敷のみんなとHO2\nもしくは外久を引き渡した後のイゴーロナクパパと別れ際のシーンが見てみたいです。少しお話する機会があったので「いろいろと世話になった、ありがとう」という旨を伝えました。私自身がイゴーロナクパパにメロメロだったのと、HO2との関係性が好きなので、親子揃っている場面をお願いしたいです…！\n\n③HO2と明のSD\nこちらはあんどう様のSDがただ単に大好きなので自PCでも見てみたい！という願望です。\n\n以上になりますが、構図、着色等全てお任せします。\nご参考までに、Googleドライブに資料を添付いたしました。\n\n▶使用用途\n基本的に個人の鑑賞用になります。\n他に、個人で楽しむためのグッズ作成に使用する可能性があります。\n\nここまでお読みいただきありがとうございます。もしも依頼の内容に不備があったり金額が見合わない場合がございましたら、ご遠慮なくキャンセル等の対応をして頂ければと思います。\nよろしくお願いいたします！\n\nhttps://drive.google.com/drive/folders/11gVYoGsEocUHHtYAK2fEO1bHl61Bm4Hy",
-        "nc": 137,
+        "nc": 153,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -445,7 +457,7 @@
           "srcset": "https://si.imgix.net/45b9d610/uploads/origins/620d12ae-30d5-40c7-b75b-609c981a74c5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1edb7808492367940d631e4fc175656b, https://si.imgix.net/45b9d610/uploads/origins/620d12ae-30d5-40c7-b75b-609c981a74c5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6962d1ce4f2859ca39a25602cd951af5 2x, https://si.imgix.net/45b9d610/uploads/origins/620d12ae-30d5-40c7-b75b-609c981a74c5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=734d6a6c6437e15b81993770a7a53f4b 3x"
         },
         "body": "あんどう様連続の依頼失礼します！しょぼぉです！前回のskebが最高だったため再びうちの子と藍くんのイラストを見たく依頼させていただきました！\n\n(連続の依頼の為全然蹴ってくださって構いません)\n\n\nいくつかシチュエーションの候補を提示させていただければと思います。\n下記の候補から、あんどう様が描きやすいと感じたものを描いていただけますと幸いです。  \n\n\n候補① \nニコニコで藍くんを抱き上げて藍くんから文句を言われているHO3(賑やかなコメディタッチだと嬉しいです。)\n\n候補② \n背中合わせで藍くんをかばいながら戦闘するHO3(血まみれでも嬉しいです)\n\n候補③ \nボロボロで死にかけのHO3をなんとか引きずって連れて帰ろうとする藍くん(暗めだと嬉しいです。)\n\n\n それぞれ構図はお任せいたします。 リクエストの方、ご検討の程宜しくお願い致します。  \n\nHO3の性格やNPCとの関係性等(CS)↓\nhttps://iachara.com/view/4894451\n\n外見資料↓\nhttps://drive.google.com/drive/folders/15OwzyuLB2sZJVnGWTvqMF9GvAFCCqxcU",
-        "nc": 33,
+        "nc": 160,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -471,7 +483,7 @@
           "srcset": "https://si.imgix.net/0256eb00/uploads/origins/f285c8d3-b5c0-415a-91de-b419f47a8c36?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6e741e5710c8d136c4c681e64ffa8b58, https://si.imgix.net/0256eb00/uploads/origins/f285c8d3-b5c0-415a-91de-b419f47a8c36?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e442d03daa904d55b2b4b845476dd058 2x, https://si.imgix.net/0256eb00/uploads/origins/f285c8d3-b5c0-415a-91de-b419f47a8c36?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f5e597abdea5fa738acd58c831194045 3x"
         },
         "body": "ベジタリあんどうさん、こんにちは！いつも楽しいシナリオをありがとうございます！\n今回はイド約HO3とムンギフHO3のうちの子を描いていただきたく、ご連絡いたしました！\n\n【依頼内容】\nイド約HO3の寄せ餌体質により、ムンギフHO3のヴルトゥームとしての能力が暴走して襲いかかってる場面を描いていただきたいです！\nムンギフHO3は体から蔦や花が生えており、イド約HO3は血を流しつつも藤刀で受け流して応戦していると嬉しいです！\n\nhttps://drive.google.com/drive/folders/18mEId6Fwt9KgccdxXuxjVoGeqqYcKsNJ",
-        "nc": 161,
+        "nc": 177,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -497,7 +509,7 @@
           "srcset": "https://si.imgix.net/fbeaad4a/uploads/origins/8deaa65a-0790-4904-aef2-841f972ea506?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5bd35b2ef40c86a1e375b9b2669d4582, https://si.imgix.net/fbeaad4a/uploads/origins/8deaa65a-0790-4904-aef2-841f972ea506?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ff3ef6517e656a66978558119cece9df 2x, https://si.imgix.net/fbeaad4a/uploads/origins/8deaa65a-0790-4904-aef2-841f972ea506?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=57a1b5a5341b51bb8b9c39d35419e76a 3x"
         },
         "body": "こんにちは、鎌谷キリと申します。\nいつもありがとうございます。\nうちの子キャンペーンが嬉しすぎて再び依頼させて頂きました。\n\n――――――――\n今回お願いしたいイラストは、\n\n〇OO1/138のPC2人\nどのシーンでも構いませんので二人が仲よくしてるイラストを頂けるとありがたいです。\n\n（一例）\n・二人で手を繋いで笑ってるところ\n・教祖が子供みたいな発言をして吟遊詩人が呆れてるところ\n・吟遊詩人が歌を歌って教祖がニコニコしながら聞いてるところ\n・二人で仲良くご飯を食べているところ（ただし教祖は肉が苦手）\n\n※基本的に教祖が子供のように吟遊詩人にあれやりたいこれやりたいと振りまわりて、吟遊詩人がやれやれとなって付き合ってくれるような関係。\n\n勿論このシーンじゃなくても構いません。\nイラスト詰めでも1シーンでも何でも構いませんのであんどうさんにお任せします。\n\n――――――――\n\n参考イラスト↓\n（ https://drive.google.com/drive/u/0/folders/1awOWnV4g71jwGAkSZZuvkU4pK84Sb9kV ）\n\nHO1　身長178cm　APP18\nHO2　身長157cm　APP15\n\n・基本的に仲良し、友達のような関係。手を繋いだり触れる事に全く抵抗がない（恋愛感情はない）\nお互いに楽しいから旅をしている。教祖がクソガキで吟遊詩人がママみたいなロールが多い。\n\n\n以前依頼させてもらったのですが、あんどうさんのSDが可愛すぎた為次は中良さそうな二人のイラストをお願いしたくて再度依頼させていただきました。\nいまだにOO1/138が刺さりすぎて…本当に最高シナリオをありがとうございます！\nお忙しい中すみませんがよろしくお願い致します。\n\nhttps://drive.google.com/drive/u/0/folders/1awOWnV4g71jwGAkSZZuvkU4pK84Sb9kV",
-        "nc": 16,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -523,7 +535,7 @@
           "srcset": "https://si.imgix.net/41106261/uploads/origins/e1e27791-209f-4564-8318-04159a4cb426?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8344daebd12f469821cb6de16fa84545, https://si.imgix.net/41106261/uploads/origins/e1e27791-209f-4564-8318-04159a4cb426?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=574eaacd4e90bdd01e08e920fce8f5e2 2x, https://si.imgix.net/41106261/uploads/origins/e1e27791-209f-4564-8318-04159a4cb426?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8bf4cff0a2f2d78087b65aa0bb566005 3x"
         },
         "body": "あんどうさんこんにちは、 祭りに乗じてリクエストさせていただきます！\n今回お願いしたいのは私のOCであるニコと、ムンギフ非公開NPCであるニシとの一枚絵になります\n\n\n◾︎使用用途\n個人鑑賞、非商用での個人利用、グッズ作成など\n\n\n▶キャラクター資料\nhttps://drive.google.com/drive/folders/1Ag85bpcOWpVwKfZcuNDD0CEoz6c60yxw\n\n\n▶︎キャラクターについて\nMOON GIFTED/HO3\n如月ニコ\nAPP21/身長182cm/24歳\n花の魔術師を自称するマジシャン\n明るくおおらかで人懐っこく、親しみやすい性格をしている。\n人当たりの良い好青年の印象を受けるが裏を返せば八方美人とも言える。\nさまざまなパフォーマンスをするがどれもアマチュアの所業、愛される以外に取り柄のない男。\n何よりも兄弟を愛している。\n\n多くのものを失い、同時に家族のことを思い出して兄たちと共に前に進もうとしている\n通過前から兄のニシに似ていると周りから騒がれていたらしく、ニシの誕生日が8/24でHO3がV:0825ということもあり、誕生日を8/25に設定して生まれが一日違いの双子の兄弟という設定になっています\n\n\n◾︎構図やシチュエーションなど\nニシと双子で入れ替わりマジックなるものを実践すると約束していたので、二人で一緒にマジックをして楽しんでいるシーンが見たいです！\nうちの子のモチーフに花や蝶があるため、全体的にキラキラしている感じでお願いします！\nニシは反転目の片目隠れ、ニコは片目隠れで青眼か赤眼のどちらかを出してくれると嬉しいです\n(画面内にウサギや南といった他兄弟のモチーフもあるとわくわくです！)\n\n\n何かしら不備がございましたら、御手数ですが再送依頼をお願いいたします\n御多忙の中恐縮ではございますが、ご検討のほどよろしくお願いいたします！",
-        "nc": 129,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -538,7 +550,7 @@
         "genre": "art",
         "tipped": true,
         "creator_id": 583942,
-        "nc": 33
+        "nc": 48
       },
       {
         "path": "/@tamagoDX1414/works/239",
@@ -550,7 +562,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 583942,
-        "nc": 145
+        "nc": 0
       },
       {
         "path": "/@tamagoDX1414/works/238",
@@ -562,7 +574,7 @@
         "genre": "art",
         "tipped": true,
         "creator_id": 583942,
-        "nc": 48
+        "nc": 161
       },
       {
         "path": "/@tamagoDX1414/works/237",
@@ -585,7 +597,7 @@
           "srcset": "https://si.imgix.net/ee9e0c2c/uploads/origins/6b37a203-908c-42c7-8779-384b612d9071?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7c1db514af4ce610512d6c5d407e291b, https://si.imgix.net/ee9e0c2c/uploads/origins/6b37a203-908c-42c7-8779-384b612d9071?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=dbb36b41ef6f89d89d70f1de067e4209 2x, https://si.imgix.net/ee9e0c2c/uploads/origins/6b37a203-908c-42c7-8779-384b612d9071?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=25d1a2fdb539753ee901e525794658ff 3x"
         },
         "body": "二度目のskeb依頼失礼致します。鴨鹿と申します。\nご検討をお手隙の際によろしくお願いいたします…！\n\nこの度はイドラの約束にて。\nHO3とHO4のイドラの約束セッション内で行ったRPのシーンとスーちゃんとHO3とHO4のデフォルメ3体をお願いしたく存じます。\n\n▼HO3とHO4のイドラの約束セッション内で行ったRPのシーン\nHO4が教会に行きシスターと話した後、HO3と会い、「僕は人間ではない。犯人を取り逃してしまってごめんね。」等と話し合った後で、二人で軽く外食に行き、ナポリタンを食べているシーンをお願いします…！\n※資料にある二人の立ち絵等は継続セッションにて更新した状態の物なので、このシーンではHO3は金のイヤリングのみ。HO4はイヤリング無しとなります。ややこしくてすみません！！！；；\n\n▼スーちゃんとHO3とHO4のデフォルメ3体\nデフォルメの絵柄本当に可愛いので是非お願いします！\nポーズは自由で大丈夫です！\n※こちらのHO3とHO4のイヤリングは資料通りで大丈夫です！\n\nHO3の親御さんにはCSリンク及び資料として預ける許可をいただいております。\n不手際があったり、誤字脱字がありましたら申し訳ありません。\n何卒ご検討のほどよろしくお願いいたします…！\n\n↓HO3(浅霧玄十郎さん)とHO4(日暮鳴)の資料データ\nhttps://drive.google.com/drive/folders/1Wf04jOEFvYxAVUzzF9dSmfXBtNZI0jr2?usp=drive_link\n↓HO3のCSリンク(イド約時のメモ欄)\nhttps://charasheet.vampire-blood.net/mebc42e34f7c95302d7049ba41780add8\n↓HO4のCSリンク(イド約時のメモ欄)\nhttps://charasheet.vampire-blood.net/m19b6d43e0a8391659f7a14dd6e9c2440\n\nhttps://drive.google.com/drive/folders/1Wf04jOEFvYxAVUzzF9dSmfXBtNZI0jr2?usp=drive_link",
-        "nc": 1,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -611,7 +623,7 @@
           "srcset": "https://si.imgix.net/15c4d119/uploads/origins/2556702a-e05d-4649-bd09-9c109dcd0616?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ec5efc517265d10999f121144fa31bb9, https://si.imgix.net/15c4d119/uploads/origins/2556702a-e05d-4649-bd09-9c109dcd0616?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=60b3fd18cc285be0138b2a5f6fb11904 2x, https://si.imgix.net/15c4d119/uploads/origins/2556702a-e05d-4649-bd09-9c109dcd0616?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=485f6dd6d3f3d801b8bb239406aadfc1 3x"
         },
         "body": "あんどう様\nねこいちと申します。 依頼させていただくのは2度目になります。前回とても素敵なイラストを描いていただけてすごく嬉しく心に残ったため再度依頼させていただきたくリクエストをおくらせていただきました。\n今回の内容としましては、カプセルトイ（ガシャポン）のリングをリーダーの薬指にひたすら嵌めている自探索者とされるがままのリーダーが見たいです。\n作画コストを考え、大変な場合はおまかせの構図でお願い致します。\nまた、自探索者なのですが女の子の姿と男の子の姿の2種類がありまして、こちらはあんどう様の筆が乗る方で描いていただければと思います。 \n至らない点があればキャンセルしていただいて大丈夫ですので…お時間が許すようであれば、是非ご検討頂けますと幸いです。よろしくお願い致します。\n【立ち絵資料】 https://drive.google.com/drive/folders/1t0IJ2oiA5Z-VL3OQgWspw1B5nNVt2u8P?usp=sharing  \n【CS】 https://charasheet.vampire-blood.net/4737761",
-        "nc": 145,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -637,7 +649,7 @@
           "srcset": "https://si.imgix.net/be15ec71/uploads/origins/c615207c-cccc-4591-9db8-016101b9e54d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e02ac0814ad7b8e58ab50a09b79b9697, https://si.imgix.net/be15ec71/uploads/origins/c615207c-cccc-4591-9db8-016101b9e54d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=82745909f81b5e55cb21dc517797f501 2x, https://si.imgix.net/be15ec71/uploads/origins/c615207c-cccc-4591-9db8-016101b9e54d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7e2efcc39dbd85101914f396f9d28196 3x"
         },
         "body": "あんどうさんこんにちは、いつも素敵なイラストをありがとうございます！\n\n以前アイラスの双眼をHO1、END2で通過し、是非あんどうさんの描く自陣のイラストを見たいと思い今回リクエストをさせて頂きました！（お相手の方に了承を頂いております…！）\n\n𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄\n\n【シチュエーション】\n・天体観測を行う事が出来たifでのho1、ho2、西本さんの3人の様子\n・ho2の提案で本編中に3人でパンケーキを食べに行ったため、その際の様子\n└それぞれho1はシラス（魚）の乗ったパンケーキ、ho2はいちご、西本さんはメープルパンケーキを食べました！\n\n可能であれば上記のうちどちらかのシチュエーションのイラストをお願いしたいです！\n\n【キャラクターの詳細】\n\n■ho1\n・髪:薄いベージュ\n・目:青\n・男性\n・身長185cm\n・美味しそうによく食べる\n・人懐こく明るい大型犬のような性格です\n\n■ho2\n・髪:青、白メッシュ\n・目:紫\n・男性\n・身長174cm\n・パンケーキが好き\n・誰にでも気さくに話しかける陽気な青年です\n\n𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄 𓐄\n\n【資料】\nGoogleドライブ\n【 https://drive.google.com/drive/folders/1-f55UaecFoarncvic6EhBWgryg_n5bLc 】\n\n────────────────────────\n\n細かな構図などに関してはお任せしたく思います。\n上記の内容で問題が無ければご検討いただけましたら幸いです、よろしくお願いいたします…！",
-        "nc": 128,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -665,7 +677,7 @@
         "genre": "art",
         "tipped": true,
         "creator_id": 583942,
-        "nc": 32
+        "nc": 33
       },
       {
         "path": "/@tamagoDX1414/works/232",
@@ -688,33 +700,7 @@
           "srcset": "https://si.imgix.net/3bf8624e/uploads/origins/d8837e1b-c805-4e46-ac02-09dd9957ed5a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=376b08504c46a24d8952dd5682865c18, https://si.imgix.net/3bf8624e/uploads/origins/d8837e1b-c805-4e46-ac02-09dd9957ed5a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=dab81ce87d6cd94f2ff1c4a42bd65015 2x, https://si.imgix.net/3bf8624e/uploads/origins/d8837e1b-c805-4e46-ac02-09dd9957ed5a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5cfd9eb9ce66c63f2d98b5b567798a29 3x"
         },
         "body": "あんどう様、初めまして。\nいつもシナリオを楽しく遊ばせていただいております、浅葱（あさぎ）と申します。\n\nあんどう様作品の世界観や描写の美しさ、神話的事象の無常さに惚れ込んでおります。\n大好きなシナリオばかりで悩みに悩んだ結果、今回は『偶造神環』ラストを飾った『ムーンギフテッド』PCとNPCのイラストをご作成いただきく、ご連絡いたしました。\n\nリクエスト、既にたくさん届いていらっしゃっていることと存じます。\nもし日程や金額等ご都合あわないようでしたら、ご遠慮なくリクエスト拒否のご対応をお願いできますと幸いです。\n\n====================================\n【希望内容】\n・作品：ムーンギフテッド\n・キャラ：狼偉、満守皓（HO1）\n・内容（以下一例です。あんどうさんのお好みに合わせてお描きいただけますと幸いです）\n・満守皓が狼偉の肩を勢いよく組み、楽しそうに笑い合う様子\n・お揃いの狼キーホルダーを持つ二人\n・狼姿の狼偉と満守皓（やや負傷していると大変嬉しく存じます）\n\n※他、もし万が一金額に見合うようでしたら、依頼に含むか悩みに悩んだ朔やゆうじ（外久）の姿もチラと拝見できますと大変ありがたく存じます\n\n【PCの見た目】\nhttps://drive.google.com/drive/folders/1F0O4W9UM3Odi-C8YuPSTynNLsYmkI6OV?usp=drive_link\n\n【PCの情報】\n■HO：HO1\n■氏名：満守 皓（まがみ こう）\n■性別：男性\n■職業：探偵\n■年齢：23\n■身長：170cm\n■体重：56kg\n■ED：「END N」（ニシの記憶保持に失敗）\n■台詞イメージ：「僕がいるから、狼偉は絶対一匹にならないって言ったじゃん。ね、僕たち二匹狼～！！」\n■キャラシ：https://iachara.com/view/7004846\n\n■設定の概要\n明るく朗らか、楽観的思考の天才。\n父ゆうじの愛情を一身に受け、のびのびと育ち、自己肯定感が爆上がりした。\n結果、まっとうな自信に満ちた、ともいえばサイコパスとも取れる我の強さを手に入れた。\nしかし根が善な人間なので、サイコパスみが悪い方向へ働くことはない。少なくとも、ストッパーとなる狼偉と朔、他HOの皆がいるなら大丈夫。\n\n特徴表の大切なものが「狼偉とお揃い（白黒で分かれている。狼偉が黒でPCが白）の狼キーホルダー」だったくらいには、まっすぐながらもどこか執着じみた愛を以て狼偉を探していた。\n狼偉のツンツンしているくせに面倒見がよく、結局は絆されてくれるところが好き。本当の善人とは狼偉のような人間だと思っている。\n\n父ゆうじの行ったことは、悪だと認識している。犠牲になった兄妹たちがいるので、許すつもりはない。\nしかし育ての親に似たのか、満守自身にもどこかゆうじと似た自己中心的な思想があるので、彼の行動指針を理解できてしまう節がある。\nおかげで父さんを倒せるくらいに立派になったよ、と恩と愛を込めて、きちんとゆうじの目論見を終わらせた。\n\nダイスの結果、ニシのことは忘れてしまった（PLはあまりの悔しさに暴れ回る日々です）。\n\n【使用用途】\n■使用用途\n・個人での鑑賞用\n====================================\n\n以上です。\nどうぞよろしくお願いいたします。",
-        "nc": 128,
-        "word_count": 0,
-        "transcoder": "image",
-        "creator_acceptable_same_genre": true
-      },
-      {
-        "path": "/@tamagoDX1414/works/231",
-        "private_thumbnail_image_urls": null,
-        "private": false,
-        "genre": "art",
-        "tipped": false,
-        "creator_id": 583942,
-        "client_id": 1067444,
-        "vtt_url": null,
-        "thumbnail_image_urls": {
-          "src": "https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=698547d553030fffb4eda92bad1dcd05",
-          "srcset": "https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=698547d553030fffb4eda92bad1dcd05, https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c625ce5c16905ba78caf6e4239e96e4e 2x, https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=64499b62c009d3595f96f637c75e87ea 3x"
-        },
-        "duration": null,
-        "nsfw": true,
-        "hardcore": false,
-        "consored_thumbnail_image_urls": {
-          "src": "https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f17248c8f0dee3415bd29937ef98a88b",
-          "srcset": "https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f17248c8f0dee3415bd29937ef98a88b, https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f1a89aecd7bf5e2ea5828a86a3a382c1 2x, https://si.imgix.net/4a6fbfe7/uploads/origins/ff5749dd-1a60-49da-9176-3ddc032544ec?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=87ec5273c361649b4e3212acad2a22e0 3x"
-        },
-        "body": "あんどう様初めまして、しおじゃけと申します。\n初めてのSkebの為、至らぬ点があった場合は申し訳ございません。\nつい先日、イドラの約束を通過しとても楽しむことが出来ました。素敵なシナリオを世に出して頂きありがとうございます。\n\n依頼内容ですがイド約自陣のHO3HO4をお願いしたいです。\n本編も全生還で終了し、継続を重ねて恋人関係になった記念として絵を描いて頂きたいのですがよろしいでしょうか。\n▼構図案\n・職場にて楽しそうに会話している二人\n・HO3への破壊衝動が抑えられず首を絞めたり等加害してしまうHO4\n（案というだけなので従わなくとも問題無いです、好きな様に描いて頂ければ嬉しいです。）\n\n▼用途\n・鑑賞/個人利用\n・SNSへの公開(アイコンヘッダー等での使用を含む　クレジット記載します)\n\n\n▼資料\nhttps://drive.google.com/drive/folders/1kEZ-feYK6jvqv4Do28vzGXu6jHwLOHXG?usp=sharing\n\nHO3：一功 万李(イックウ-バンリ)\n女性/35歳/170cm/顔に火傷 全身に傷有\n穏やかな性格で真面目な男装女子 世話焼きで母親っぽい\n\nHO4：花冠 李正(カカン-リセイ)\n男性/35歳/180cm/オッドアイ\nヘラヘラしていて少し子供っぽい男性 明るい性格\n\n\n何卒ご検討のほどよろしくお願いいたします。",
-        "nc": 161,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -744,7 +730,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 160
       },
       {
         "id": 1126468,
@@ -768,7 +754,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 128
       },
       {
         "id": 2651921,
@@ -792,7 +778,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 144
       },
       {
         "id": 2875278,
@@ -819,7 +805,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 32
+        "nc": 49
       },
       {
         "id": 2991136,
@@ -867,7 +853,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       }
     ]
   },
@@ -1541,6 +1527,19 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@tamagoDX1414/works/261",
+      "private_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d564e8ad21c1bcb7c0fcd5db8872672c",
+        "srcset": "https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d564e8ad21c1bcb7c0fcd5db8872672c, https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=77d55e9b3a6d2fb193ac67d902ceb4e8 2x, https://si.imgix.net/e304acd0/uploads/origins/44cf551a-d08a-4407-84cf-66b12801bad0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=6404682249e01855513a1bca11670a4d 3x"
+      },
+      "private": true,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 583942,
+      "nc": 33,
+      "scraped_at": "2026-02-14T15:15:40.596063+00:00"
     }
   ]
 }

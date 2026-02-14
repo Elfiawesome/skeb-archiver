@@ -1,7 +1,7 @@
 {
   "screen_name": "nekoneko",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 2380110,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 0,
+    "nc": 17,
     "twitter_uid": "1638865876073218051",
     "user_service_links": [
       {
@@ -110,7 +110,7 @@
           "srcset": "https://si.imgix.net/5c154143/uploads/origins/af5a98ca-56c4-46e7-9f17-0b9a9c206050?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d49605f0c849baa70fe77e60b9df988c, https://si.imgix.net/5c154143/uploads/origins/af5a98ca-56c4-46e7-9f17-0b9a9c206050?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=53997ee7cfa2ec0395c016e48103f256 2x, https://si.imgix.net/5c154143/uploads/origins/af5a98ca-56c4-46e7-9f17-0b9a9c206050?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4a71ca866f4276955966bf538226930a 3x"
         },
         "body": "https://skeb.jp/@hio_fs/works/1\nhttps://skeb.jp/@tenn_binn_/works/1\nこの人間を描いてみてください",
-        "nc": 17,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -140,7 +140,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 486726,
@@ -170,7 +170,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 975270,
@@ -194,7 +194,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 1610384,
@@ -221,7 +221,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 2135479,
@@ -248,7 +248,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 3681405,
@@ -272,7 +272,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 16
       }
     ]
   },

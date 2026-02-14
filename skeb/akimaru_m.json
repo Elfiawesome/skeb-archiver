@@ -1,7 +1,7 @@
 {
   "screen_name": "akimaru_m",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3865728,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 90,
-    "nc": 16,
+    "nc": 144,
     "twitter_uid": "1089842753091948545",
     "user_service_links": [
       {
@@ -113,7 +113,7 @@
           "srcset": "https://si.imgix.net/a8a5fc38/uploads/origins/f24f76de-d6fc-45c3-aa3d-027e41a2a8c7?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c4adb8c36482ec9338e05d47be4b4150, https://si.imgix.net/a8a5fc38/uploads/origins/f24f76de-d6fc-45c3-aa3d-027e41a2a8c7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3cdcf16bf432e18c7082be154d104d6b 2x, https://si.imgix.net/a8a5fc38/uploads/origins/f24f76de-d6fc-45c3-aa3d-027e41a2a8c7?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=25fc40521e17bb3fcf2d52d124c8f0d7 3x"
         },
         "body": "初めまして、秋丸様。\n秋丸様のブルアカ漫画が好きなので、今回リクエストを送りました。\n\n【作品】\nブルーアーカイブ\n\n【キャラクター】\n奥空アヤネ\n各務チヒロ\n\n【内容】\nチヒロがアビドスのパソコンのセキュリティを強化している最中で、アヤネがその様子を興味津々に見ている場面。\n\nそれら以外の詳細は秋丸様にお任せします。\n何卒ご検討のほど宜しくお願い致します。",
-        "nc": 25,
+        "nc": 137,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -149,7 +149,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 853932,
@@ -173,7 +173,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 924112,
@@ -197,7 +197,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 2559280,
@@ -245,7 +245,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       },
       {
         "id": 3658457,
@@ -272,7 +272,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 128
       }
     ]
   },

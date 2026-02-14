@@ -1,7 +1,7 @@
 {
   "screen_name": "nonnon_y",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 1807589,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 120,
-    "nc": 128,
+    "nc": 144,
     "twitter_uid": "287041468",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/66a6dd52/uploads/origins/3278334d-edf2-4345-aa18-c307202d2407?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=31d7e1a76440b01fc0a0a42e23acbfdd, https://si.imgix.net/66a6dd52/uploads/origins/3278334d-edf2-4345-aa18-c307202d2407?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f10c8fa5874ed4b20a81683e9813da0a 2x, https://si.imgix.net/66a6dd52/uploads/origins/3278334d-edf2-4345-aa18-c307202d2407?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=63e03064d6126f76f06f39148983002a 3x"
         },
         "body": "お忙しいところ失礼いたします。\nTLにてbunbun🌈様がSkebを始められたのを観測いたしまして、是非クトゥルフ神話TRPGの探索者である二人のイラストをご依頼させていただきたく思いご連絡いたしました。\n\nクトゥルフ神話TRPG 『 VOID 』のHO1とHO2の二人を是非お願いしたいです。\n\nPCの詳細につきましては簡単にまとめたものになりますが資料URLをご確認ください。\n（HO2の方には許可を得てます）\nhttps://drive.google.com/file/d/1vuTHiWKuGQwONj3T8RdmRChlK8yWc23c/view?usp=sharing\n\n構図等はお任せいたします。\n服装等も描きやすいようにしていただけたらと思います。\n不備や金額に不足があまりしたら再申請いただければと思います。\nお忙しいところ恐縮ですが、ご検討いただけますと幸いです。\nよろしくお願いします。\n\nhttps://drive.google.com/file/d/1vuTHiWKuGQwONj3T8RdmRChlK8yWc23c/view?usp=sharing",
-        "nc": 17,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -136,7 +136,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 128
       },
       {
         "id": 788582,
@@ -163,7 +163,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 136
+        "nc": 8
       },
       {
         "id": 1278097,
@@ -190,7 +190,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 49
+        "nc": 176
       },
       {
         "id": 2123885,
@@ -214,7 +214,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 2737337,
@@ -238,7 +238,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 16
       },
       {
         "id": 2860726,
@@ -262,7 +262,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 1
       }
     ]
   },

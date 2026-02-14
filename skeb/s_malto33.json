@@ -1,7 +1,7 @@
 {
   "screen_name": "s_malto33",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3883280,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 90,
-    "nc": 16,
+    "nc": 0,
     "twitter_uid": "1906140008219877376",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/b1472425/uploads/origins/b7931624-758c-46e1-8b46-4ebba528a95d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1f6b26e3bfef35807807f37cb81bd72e, https://si.imgix.net/b1472425/uploads/origins/b7931624-758c-46e1-8b46-4ebba528a95d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=25d379cf46754a187e10343fcface2fe 2x, https://si.imgix.net/b1472425/uploads/origins/b7931624-758c-46e1-8b46-4ebba528a95d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c36237a927e5166c02573e39572624ac 3x"
         },
         "body": "こんにちは！あなたの画風、特にふわふわした生き物の描き方が本当に好きです！私のドラゴンを描いていただけませんか？参考画像の通り、彼女もとてもふわふわしていて、体中にたくさんの毛の房が生えています！ポーズは、猫のように休んでいるような姿勢をお願いできますか？ （過去に描かれたブイゼルのイラストのような感じで：https://x.com/s_malto33/status/1974580284868984975 https://x.com/s_malto33/status/1950457321932681439） また、目を閉じて翼を体の横に折りたたみ、満足した安らかな表情にしていただきたいです。よろしくお願いします！https://drive.google.com/drive/folders/1Fz7SsjHDXUrDCj8ZswOiXia4EIyPXsdZ",
-        "nc": 144,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -136,7 +136,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 17
       },
       {
         "id": 476505,
@@ -160,7 +160,7 @@
             "genre": "art"
           }
         ],
-        "nc": 176
+        "nc": 33
       },
       {
         "id": 934033,
@@ -187,7 +187,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 177
+        "nc": 49
       },
       {
         "id": 973259,
@@ -214,7 +214,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 1011592,
@@ -238,7 +238,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 144
       },
       {
         "id": 2801106,
@@ -262,7 +262,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 49
       }
     ]
   },

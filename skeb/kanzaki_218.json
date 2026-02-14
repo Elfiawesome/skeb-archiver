@@ -1,7 +1,7 @@
 {
   "screen_name": "kanzaki_218",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3659512,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": 1418,
     "completing_average_time": 720583,
-    "nc": 144,
+    "nc": 128,
     "twitter_uid": "1641352000892968962",
     "user_service_links": [
       {
@@ -120,7 +120,7 @@
           "srcset": "https://si.imgix.net/a66e8f2d/uploads/origins/43ff1cbe-5a22-4b80-9e67-1dec45a4f00f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=82cefe0d289cd203e9dba68b029f48d0, https://si.imgix.net/a66e8f2d/uploads/origins/43ff1cbe-5a22-4b80-9e67-1dec45a4f00f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f50c9b8a41868c179f9208053899c9d1 2x, https://si.imgix.net/a66e8f2d/uploads/origins/43ff1cbe-5a22-4b80-9e67-1dec45a4f00f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=69cdc8956cb97e2c732a0668be2a9370 3x"
         },
         "body": "こんにちは、あなたの画風はとても印象的で、ケンタウロスのイラストを描いていただけたら嬉しいです。午年ということで、東方プロジェクトのフラン・スカーレットとレミリア・スカーレットをケンタウロスに変身させてください。馬の体には以下のリンクのような衣装を着せてください。参考リンク: https://www.pixiv.net/artworks/124328063",
-        "nc": 1,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -146,7 +146,7 @@
           "srcset": "https://si.imgix.net/2f044371/uploads/origins/0e86d960-e35c-4547-ac93-6704e5c21854?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=84db1cdd1af19fe98e75c072e626419e, https://si.imgix.net/2f044371/uploads/origins/0e86d960-e35c-4547-ac93-6704e5c21854?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1361f5573fe4acd793dcbfdf8355e435 2x, https://si.imgix.net/2f044371/uploads/origins/0e86d960-e35c-4547-ac93-6704e5c21854?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=43909c2c6cba1babc3d8ef7fb0e7932a 3x"
         },
         "body": "こんにちは！\n東方Projectのナズーリンにドロワーズを着せて描いてくれませんか？\nもし可能なら、お好きなように描いてください！\nよろしくお願いします！\n\nHello!\nWould you be able to draw Nazrin from Touhou Project wearing drawers?\nIf so, please draw it however you wish!\nThank you very much!",
-        "nc": 145,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -176,7 +176,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 145
       },
       {
         "id": 181734,
@@ -203,7 +203,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 129
       },
       {
         "id": 1373384,
@@ -230,7 +230,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 129
       },
       {
         "id": 2696756,
@@ -254,7 +254,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 0
       },
       {
         "id": 2948152,
@@ -278,7 +278,7 @@
             "genre": "art"
           }
         ],
-        "nc": 33
+        "nc": 49
       },
       {
         "id": 3470882,
@@ -302,7 +302,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "screen_name": "YatsugiRamu_01",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 1059095,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 30,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 128,
+    "nc": 129,
     "twitter_uid": "1309862671387222017",
     "user_service_links": [
       {
@@ -118,7 +118,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 24
+        "nc": 9
       },
       {
         "id": 1441514,
@@ -172,7 +172,7 @@
             "genre": "video"
           }
         ],
-        "nc": 177
+        "nc": 32
       },
       {
         "id": 1520692,
@@ -196,7 +196,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 0
       },
       {
         "id": 1549062,
@@ -247,7 +247,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 144
       }
     ]
   },

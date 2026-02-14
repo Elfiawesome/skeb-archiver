@@ -1,7 +1,7 @@
 {
   "screen_name": "ryousanhituji",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3504168,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 128,
+    "nc": 1,
     "twitter_uid": "1830496210635177984",
     "user_service_links": [
       {
@@ -110,7 +110,7 @@
           "srcset": "https://si.imgix.net/5fa17c4e/uploads/origins/de0b86fb-b96e-4f39-95ad-6745a6c584ea?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=13e45c6284090b687016afb04994b275, https://si.imgix.net/5fa17c4e/uploads/origins/de0b86fb-b96e-4f39-95ad-6745a6c584ea?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d5619c2d7fa3f093e14bbc0694fcf2ee 2x, https://si.imgix.net/5fa17c4e/uploads/origins/de0b86fb-b96e-4f39-95ad-6745a6c584ea?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ec44eda1204e0aaad43daa43c9ac1be8 3x"
         },
         "body": "じゃ、そういうことなので、ｱﾘｴｽﾏﾝが酔っ払いの時に使うアイコンを描いていただきたいです。\n使用用途は、IRIAMでアイコンとして使用したいと思います。\nよろしくお願いします。",
-        "nc": 145,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -192,7 +192,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 1650340,
@@ -216,7 +216,7 @@
             "genre": "art"
           }
         ],
-        "nc": 129
+        "nc": 16
       },
       {
         "id": 2496364,
@@ -243,7 +243,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 49
+        "nc": 177
       },
       {
         "id": 3297274,
@@ -267,7 +267,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 161
       },
       {
         "id": 3459086,
@@ -294,7 +294,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3712478,
@@ -321,7 +321,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 144
+        "nc": 17
       }
     ]
   },

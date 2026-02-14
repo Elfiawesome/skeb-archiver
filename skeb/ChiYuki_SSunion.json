@@ -1,7 +1,7 @@
 {
   "screen_name": "ChiYuki_SSunion",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3892042,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 17,
+    "nc": 16,
     "twitter_uid": "2005001433482145793",
     "user_service_links": [
       {
@@ -122,7 +122,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 129
+        "nc": 1
       },
       {
         "id": 1653507,
@@ -146,7 +146,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 1
       },
       {
         "id": 3232739,
@@ -173,7 +173,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 128
       },
       {
         "id": 3392306,
@@ -197,7 +197,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3591898,
@@ -224,7 +224,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 1
       },
       {
         "id": 3869209,
@@ -248,7 +248,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 144
       }
     ]
   },

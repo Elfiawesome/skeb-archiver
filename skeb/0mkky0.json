@@ -1,7 +1,7 @@
 {
   "screen_name": "0mkky0",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3797108,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 1,
+    "nc": 145,
     "twitter_uid": "1252929301722226688",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/e5db656d/uploads/origins/bac341e3-31c2-4c25-a1f5-ec842ff07592?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=64d9b1c0eef84d206a290b900213bc09, https://si.imgix.net/e5db656d/uploads/origins/bac341e3-31c2-4c25-a1f5-ec842ff07592?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=865c15195da92b9ce5f105739dc2d304 2x, https://si.imgix.net/e5db656d/uploads/origins/bac341e3-31c2-4c25-a1f5-ec842ff07592?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7e758cff915cf3c14096aab908af7395 3x"
         },
         "body": "毎度お世話になってます！\n前回納品いただいたイラスト、ずっとずっと大事にさせていただいております\n\nこの度も「灰になってよかった」自陣のイラストをリクエストさせてください！\n構図や服装などにきぼうはありません、もこきよさんのイラストが見られたらうれしいです\n\nなにか問題がありましたら遠慮なくキャンセルお願いします。ご一考よろしくお願いします！",
-        "nc": 145,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -122,7 +122,7 @@
         "tipped": true,
         "creator_id": 3797108,
         "client_id": 1418471,
-        "nc": 128
+        "nc": 129
       },
       {
         "path": "/@0mkky0/works/2",
@@ -160,7 +160,7 @@
         "genre": "art",
         "tipped": false,
         "creator_id": 3797108,
-        "nc": 1
+        "nc": 0
       }
     ],
     "sent_works": [],
@@ -238,7 +238,7 @@
             "genre": "voice"
           }
         ],
-        "nc": 176
+        "nc": 48
       },
       {
         "id": 2838246,
@@ -286,7 +286,7 @@
             "genre": "art"
           }
         ],
-        "nc": 161
+        "nc": 177
       },
       {
         "id": 3225341,
@@ -313,7 +313,7 @@
             "genre": "novel"
           }
         ],
-        "nc": 48
+        "nc": 161
       }
     ]
   },

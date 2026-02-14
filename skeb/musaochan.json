@@ -1,7 +1,7 @@
 {
   "screen_name": "musaochan",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3292214,
     "acceptable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 120,
-    "nc": 144,
+    "nc": 1,
     "twitter_uid": "1668196062451105792",
     "user_service_links": [
       {
@@ -58,7 +58,7 @@
     "skills": [
       {
         "genre": "art",
-        "default_amount": 22000
+        "default_amount": 20000
       }
     ],
     "payment_methods": {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/3a66ce90/uploads/origins/51e82d32-4779-4941-a216-c87607f28dd4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b49a37e43fe19b668cbfcc9ed958993d, https://si.imgix.net/3a66ce90/uploads/origins/51e82d32-4779-4941-a216-c87607f28dd4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=28c86aea32aa839e3ec5999bb57f2f1b 2x, https://si.imgix.net/3a66ce90/uploads/origins/51e82d32-4779-4941-a216-c87607f28dd4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=4f0bfe52d87bd9bd29c7660fac8958ed 3x"
         },
         "body": ". ̝ .さん、こんにちは\nスケブ再開ありがとうございます！\nもしよろしければ、うちの子にかわいいお洋服をデザインしていただきたいです\n\n▼依頼内容\n·無口でちょっと天然っぽい、スイーツとうさぎが大好き、シューティングゲームが上手な14歳の女の子（154cm）\n·表情変化は控えめ（例：微笑み、小さな笑顔OK　大笑いNG）\n·瞳の中の記号が特徴\n·衣装については全ておまかせします、ご自由にお描きください\nhttps://drive.google.com/drive/folders/1KelWog2yf8jMVOIWSem9NOOAuE107cwu?usp=sharing\n\n▼使用用途\n個人観賞\nSNSのアイコンやヘッダー、PCの壁紙等個人的な利用\n他の方へイラスト制作依頼の際の資料としての提示\n\nご検討のほど、よろしくお願いします！",
-        "nc": 144,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": false
@@ -122,7 +122,7 @@
         "tipped": true,
         "creator_id": 3292214,
         "client_id": 3032497,
-        "nc": 144
+        "nc": 16
       }
     ],
     "sent_works": [],
@@ -149,7 +149,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 129
       },
       {
         "id": 2174522,
@@ -173,7 +173,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 129
       },
       {
         "id": 2407130,
@@ -197,7 +197,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 145
       },
       {
         "id": 3552160,
@@ -224,7 +224,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 17
       },
       {
         "id": 3868863,
@@ -251,7 +251,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 0
+        "nc": 144
       },
       {
         "id": 3879156,
@@ -275,7 +275,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 17
       }
     ]
   },
@@ -288,6 +288,10 @@
       {
         "amount": 22000,
         "recorded_at": "2026-02-14T14:57:26.827357+00:00"
+      },
+      {
+        "amount": 20000,
+        "recorded_at": "2026-02-14T15:15:40.596063+00:00"
       }
     ]
   },

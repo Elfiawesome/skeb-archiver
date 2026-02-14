@@ -1,7 +1,7 @@
 {
   "screen_name": "amedama094",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3852359,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 128,
+    "nc": 16,
     "twitter_uid": "3197441293",
     "user_service_links": [
       {
@@ -109,7 +109,7 @@
           "srcset": "https://si.imgix.net/03e9b7f8/uploads/origins/c36799f5-a3e5-46b4-ac73-c72c138a24ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f0c868c26f1a17ee68180db58a18d64b, https://si.imgix.net/03e9b7f8/uploads/origins/c36799f5-a3e5-46b4-ac73-c72c138a24ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=da3d9d4a0fd6a59cde09b10a02af9d1d 2x, https://si.imgix.net/03e9b7f8/uploads/origins/c36799f5-a3e5-46b4-ac73-c72c138a24ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6a26ace54c679d4d9c8c441f7235c696 3x"
         },
         "body": "お好きなポーズを選んでください！詳細はご自由にお任せします！私のキャラクターは海と星が好きな王子様です！ご尽力ありがとうございます！https://i.postimg.cc/V6T3Zt8q/reference-photo1.pnghttps://i.postimg.cc/4y9mCx1G/reference-photo2.png",
-        "nc": 0,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -139,7 +139,7 @@
             "genre": "art"
           }
         ],
-        "nc": 48
+        "nc": 177
       },
       {
         "id": 996143,
@@ -163,7 +163,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 1135536,
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 160
+        "nc": 176
       },
       {
         "id": 1325962,
@@ -211,7 +211,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 1
       },
       {
         "id": 1559219,
@@ -235,7 +235,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 1909740,
@@ -262,7 +262,7 @@
             "genre": "comic"
           }
         ],
-        "nc": 0
+        "nc": 16
       }
     ]
   },

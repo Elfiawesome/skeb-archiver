@@ -1,7 +1,7 @@
 {
   "screen_name": "Ponzu_Mairu",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3894301,
     "acceptable": true,
@@ -44,7 +44,7 @@
     "complete_expiration_days": 60,
     "received_requests_average_response_time": null,
     "completing_average_time": null,
-    "nc": 129,
+    "nc": 1,
     "twitter_uid": "1500698505815670788",
     "user_service_links": [
       {
@@ -118,7 +118,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 8
+        "nc": 24
       },
       {
         "id": 1248987,
@@ -142,7 +142,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 0
       },
       {
         "id": 2817625,
@@ -166,7 +166,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 17
       },
       {
         "id": 2968928,
@@ -241,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 0
+        "nc": 145
       }
     ]
   },

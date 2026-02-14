@@ -1,7 +1,7 @@
 {
   "screen_name": "kantume_tume",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 3695106,
     "acceptable": true,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 120,
-    "nc": 129,
+    "nc": 0,
     "twitter_uid": "1945160725137383424",
     "user_service_links": [
       {
@@ -106,7 +106,7 @@
           "srcset": "https://si.imgix.net/52dbad34/uploads/origins/432f9460-81e4-40ab-aa74-368e6d49218a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=65fb9c7c877422e8e12355440db065af, https://si.imgix.net/52dbad34/uploads/origins/432f9460-81e4-40ab-aa74-368e6d49218a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3fac17aa99f2274def287a666170ac74 2x, https://si.imgix.net/52dbad34/uploads/origins/432f9460-81e4-40ab-aa74-368e6d49218a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b3620febb0809906b3925d876e5b051d 3x"
         },
         "body": "オレンジ色のビキニを着た私のオリジナルキャラクターを描いてください。セクシーなポーズで。\n目の色：グレー\n\n身長: 5'9 \"\n\n年齢: 20\n\n犬耳\n\nアクセサリー：赤い首輪\n\n背景: ビーチ\n\nポーズ: セクシー\n\n表情：浮気\n\n私のオリジナルキャラクターの参考文献はこちら: https://www.deviantart.com/citrusanime/art/My-Offical-DA-Mascot-290687270\n\n他のアーティスト 1. https://sta.sh/023ht6z36vqf 2. https://sta.sh/0278r2mg6ixd 3. https://sta.sh/0k1ja8v3adq\n\nポーズの参考文献 1. https://sta.sh/0ufsyy8di0d 2. https://sta.sh/0sozjsty4p7 3. https://sta.sh/01hzsy3ciyyy\n\nセクシーに描いてください。",
-        "nc": 129,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -163,7 +163,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 129
       },
       {
         "id": 2891102,
@@ -187,7 +187,7 @@
             "genre": "art"
           }
         ],
-        "nc": 145
+        "nc": 16
       },
       {
         "id": 3197493,
@@ -217,7 +217,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 145
+        "nc": 0
       },
       {
         "id": 3407902,
@@ -241,7 +241,7 @@
             "genre": "art"
           }
         ],
-        "nc": 144
+        "nc": 17
       },
       {
         "id": 3527325,
@@ -268,7 +268,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 1
+        "nc": 129
       }
     ]
   },

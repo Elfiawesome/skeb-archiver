@@ -1,7 +1,7 @@
 {
   "screen_name": "rykyukkuri",
   "first_seen": "2026-02-14T13:18:32.161722+00:00",
-  "last_updated": "2026-02-14T14:57:26.827357+00:00",
+  "last_updated": "2026-02-14T15:15:40.596063+00:00",
   "profile": {
     "id": 287439,
     "acceptable": true,
@@ -13,7 +13,7 @@
     "language": "ja",
     "header_url": "https://pbs.twimg.com/profile_banners/701096717823770628/1758121231/1500x500",
     "body_size": 1000,
-    "received_works_count": 23,
+    "received_works_count": 24,
     "received_nsfw_works_count": 0,
     "sent_requests_average_cancel_time": null,
     "appeal_receivable": false,
@@ -42,7 +42,7 @@
     "show_social_profile": true,
     "accept_expiration_days": 30,
     "complete_expiration_days": 60,
-    "nc": 145,
+    "nc": 17,
     "twitter_uid": "701096717823770628",
     "user_service_links": [
       {
@@ -86,6 +86,32 @@
     "total_appeals_count": 0,
     "received_works": [
       {
+        "path": "/@rykyukkuri/works/24",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 287439,
+        "client_id": 430123,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=66b70f5fc78734e9e1d3546749b0c602",
+          "srcset": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=66b70f5fc78734e9e1d3546749b0c602, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b9850cbcb4a4b3390f7ea992b81411ef 2x, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=16a9b1aa479d70e30c4994059482346c 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3f28f2a750e6ed025d01eea37284f735",
+          "srcset": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3f28f2a750e6ed025d01eea37284f735, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1e9296df67e98252e2ee38d68739996d 2x, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=33d5a0497d98665b3964c8108a7a1535 3x"
+        },
+        "body": "アリス・マーガトロイドが椅子に座り、私のVTuberオリジナルキャラクター「ネコタン」（参考リンク）の形をした新しいぬいぐるみを笑顔で縫っているイラストをお願いします。縫製を見守るように、他の2体のぬいぐるみが興味深そうに彼女を見つめている構図にしてください。 \n\nまた、彼女の体型はかなり曲線美のあるものにしてください。背景は不要で、YouTubeサムネイルに使用できるよう透明PNGまたはPSD形式で提供をお願いします。このイラストを使用した動画の説明欄には、あなたのSNSリンクを掲載します。https://x.com/TannerOfDaNorth/status/1628714515796729857",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
         "path": "/@rykyukkuri/works/23",
         "private_thumbnail_image_urls": null,
         "private": false,
@@ -106,7 +132,7 @@
           "srcset": "https://si.imgix.net/eace959e/uploads/origins/ce97b5ce-3df2-4c28-ae6d-04bdec13a196?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fe0b45a9e30122d667371d0e2c803545, https://si.imgix.net/eace959e/uploads/origins/ce97b5ce-3df2-4c28-ae6d-04bdec13a196?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=de68fd4737b1108606b81221723936c3 2x, https://si.imgix.net/eace959e/uploads/origins/ce97b5ce-3df2-4c28-ae6d-04bdec13a196?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8399a8855b5b1cf90023f8bd4742e64c 3x"
         },
         "body": "お世話になっております。\nレミリア(通常衣装)のイラストをお願いします。\n\n黒縁の角眼鏡をかけてドヤ顔している感じで、カリスマポーズでお願いします。\n\n背景は、紅霧異変中のように紅霧が出ていて、紅魔館をバックにして紅い月がある夜の感じでお願いします。\n\n胸に名札を付けており、名札の文字は「たつきん」としてください。\n「※こう見えて血見るの苦手」という文字もどこかにお願いします。\n\n※羽根を忘れないようにお願いします。\n\nまた、アイコンサイズにトリミングしたものもあれば嬉しいです。\n\n何卒、よろしくお願いします。",
-        "nc": 16,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -132,7 +158,7 @@
           "srcset": "https://si.imgix.net/dda3ca42/uploads/origins/1785bce5-e130-4f18-9283-97dfd59376d2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7099b45a188cbc82757f00ed04bd4505, https://si.imgix.net/dda3ca42/uploads/origins/1785bce5-e130-4f18-9283-97dfd59376d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a6623afa980fd8fdfac5878e9d4fd585 2x, https://si.imgix.net/dda3ca42/uploads/origins/1785bce5-e130-4f18-9283-97dfd59376d2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6e93978737cf26d5ab65b021f7cb61d3 3x"
         },
         "body": "以前はありがとうございました。再びリクエストさせていただきます。\n\n古明地こいしのイラストをお願いします。\n黒縁の角眼鏡をかけてドヤ顔している感じでお願いします。\n(できればでいいですが、萌え袖でお願いします)\n胸に名札を付けており、名札の文字は「たつきん」としてください。\n\n背景は地霊殿でお願いします。\n↓地霊殿の参考\nhttps://danmakuwiki.com/%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E5%A0%B4%E6%89%80_%E5%9C%B0%E9%9C%8A%E6%AE%BF\n\n※帽子とサードアイを忘れないようにお願いします。\n\nまた、アイコンサイズにトリミングしたものもあれば嬉しいです。 \n\n何卒、よろしくお願いします。",
-        "nc": 145,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -157,7 +183,7 @@
           "srcset": "https://si.imgix.net/02bb4e8e/uploads/origins/6b70a033-550b-485f-8ac5-071bcd0f6370?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=23de53bb921185b09768b01a05619bfd, https://si.imgix.net/02bb4e8e/uploads/origins/6b70a033-550b-485f-8ac5-071bcd0f6370?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=85e5d5fe4498bf730181dae6a35f1a68 2x, https://si.imgix.net/02bb4e8e/uploads/origins/6b70a033-550b-485f-8ac5-071bcd0f6370?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=80833248945e3b36513aa25d0afe481f 3x"
         },
         "body": "こんにちは\n朝起きたら、東方Projectの大妖精になっていた絵をお願いします\n\n条件は以下の通りです\n\n・湖の水面に映る自分の姿を見て驚く\n・大妖精視点(水面のため左右反転)\n・セリフ「大妖精になってる！？」\n・セリフなしもお願いします\n\n参考\nhttps://hstorage.io/dl/oMEjgB7vtcp6.png\n\nよろしくお願いします",
-        "nc": 128,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -182,7 +208,7 @@
           "srcset": "https://si.imgix.net/12605fb5/uploads/origins/4b800dc3-dc85-4307-8b88-9a169bee08bb?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=af1625bf3238a673867a8c729c23c567, https://si.imgix.net/12605fb5/uploads/origins/4b800dc3-dc85-4307-8b88-9a169bee08bb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f7e19df5ef40da811e5b60807dd81c1e 2x, https://si.imgix.net/12605fb5/uploads/origins/4b800dc3-dc85-4307-8b88-9a169bee08bb?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3390becf2f61483606561abcea492250 3x"
         },
         "body": "饕餮尤魔になってしまったシチュエーションをお願いします\n\n鏡を見ている饕餮尤魔視点で、大泣きしていてかつ青ざめている感じでお願いします\n\nセリフ「饕餮尤魔になってる！？最悪だ…！なりたくなかったのに…！」※セリフなしもお願いします\n\n背景は剛欲異聞で登場する場面のようなものでお願いします\nhttps://livedoor.sp.blogimg.jp/bubble_slime/imgs/f/d/fd4d0aae.png\n\nできれば大きいスプーンは持たせてください\n\nよろしくお願いします",
-        "nc": 17,
+        "nc": 129,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -208,7 +234,7 @@
           "srcset": "https://si.imgix.net/82d45a7d/uploads/origins/6e785b58-e40b-49bf-ab3e-cf6622e9dc2a?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9fa8689177efc03133c84cf00312e0a8, https://si.imgix.net/82d45a7d/uploads/origins/6e785b58-e40b-49bf-ab3e-cf6622e9dc2a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b5b00b0f0989e1bf85c10575430eef90 2x, https://si.imgix.net/82d45a7d/uploads/origins/6e785b58-e40b-49bf-ab3e-cf6622e9dc2a?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8cfe50a390154f312030930867844e31 3x"
         },
         "body": "こんにちは\n\n古明地こいし(通常衣装)のイラストをお願いします\n詳細は以下の通りです\n\n・朝起きて鏡を見るとこいしになっていた。鏡に古明地こいしが映っている(鏡に映っている為、左右反転でお願いします)。こいしになった人視点でお願いします\n・驚いていてかつ困り顔\n・「こいしになってる！？」「可愛すぎる…！」「こんな可愛い存在になっても許されるの…？」(セリフなし差分もお願いします)\n・背景は参考資料のような感じでお願いします\n・服は普段のこいしの服(帽子もあり)で、サードアイも描き忘れないようにお願いします\n\n参考資料\nhttps://1drawstorage.blog.fc2.com/blog-entry-1755.html\n\nまた、可能ならアイコン用に単にこいしが驚いているという差分(アイコンサイズの正方形)もお願いします。\nこちらは鏡に映っているものではない為、左右反転は不要です。\n\nよろしくお願いします\n\nhttps://1drawstorage.blog.fc2.com/blog-entry-1755.html",
-        "nc": 0,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -234,7 +260,7 @@
           "srcset": "https://si.imgix.net/a156aa69/uploads/origins/d817a4e5-d151-4fca-bf96-78aa55ec0682?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0cff94829dcfedfed66391b4d7eba5b9, https://si.imgix.net/a156aa69/uploads/origins/d817a4e5-d151-4fca-bf96-78aa55ec0682?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=20dff6518bff212d5907821eece3cba6 2x, https://si.imgix.net/a156aa69/uploads/origins/d817a4e5-d151-4fca-bf96-78aa55ec0682?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=45fbe545f4e017fd7c4a3d491e942c8f 3x"
         },
         "body": "こんにちは\n\n東方LostWordの白こいし(白貌の無為)のイラストをお願いします\n詳細は以下の通りです\n\n・朝起きて鏡を見ると白こいしになっていた。鏡に白こいしが映っている(鏡に映っている為、左右反転でお願いします)。白こいしになった人視点でお願いします\n・絶望している感じではなく大きく驚いている\n・セリフ差分(セリフは「こいしになってる！？」「何で普通のこいしじゃなくて白こいしなんだろう…？」)あり、服は白こいしの服(帽子もあり)でお願いします\n・背景は水中のような感じ(語彙力)でお願いします\n参考\nhttps://www.pixiv.net/artworks/126632998\nhttps://pbs.twimg.com/media/FlNHt6CakAEtZoD.jpg\n\nまた、アイコン用に単に白こいしが驚いているという差分もお願いします。\nこちらは鏡に映っているものではない為、左右反転は不要です。\nサイズもアイコン用の正方形で、背景は同じでお願いします\n\nよろしくお願いします\n\nhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UsOdMalZqSpv3VEKC0e2Ut3Tus0g44F4mcnysJKCAA9Ax6PL-Y_-Kbs&s=10",
-        "nc": 17,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -259,7 +285,7 @@
           "srcset": "https://si.imgix.net/4dc4025f/uploads/origins/71c16f1c-5a50-4daa-9646-b8f165d30986?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=72a33853daca06dcd70e87d670d1a133, https://si.imgix.net/4dc4025f/uploads/origins/71c16f1c-5a50-4daa-9646-b8f165d30986?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=333e31b0085049977c3386b357741ca3 2x, https://si.imgix.net/4dc4025f/uploads/origins/71c16f1c-5a50-4daa-9646-b8f165d30986?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=50d60826fe6ddaec798fb66bc7aa1870 3x"
         },
         "body": "目を覚ますと、東方LostWordの秘封レミリア(小さな悪魔令嬢)になっていたイラストをお願いします。\n\n・第三者視点(鏡には映らないので)\n・公式の立ち絵にある椅子に座っていて、驚いている\n・帽子、羽根も忘れないようにお願いします。\n・セリフ「レミリアになってる！？」「何で普通のレミリアじゃなくて秘封レミリアなんだろう…？」「これからどうしよう…！」(セリフなしの差分も欲しいです)\n\nよろしくお願いします\n\nhttps://x.com/touhou_lw/status/1672902452088131587?s=46",
-        "nc": 0,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -284,7 +310,7 @@
           "srcset": "https://si.imgix.net/b899fb08/uploads/origins/4a3a9e4a-aa57-4eef-bb0a-863603d92e82?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f0e98e2e4c851c96460690069b42570e, https://si.imgix.net/b899fb08/uploads/origins/4a3a9e4a-aa57-4eef-bb0a-863603d92e82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7e21d3e7491f983c239292cf5fd76d0a 2x, https://si.imgix.net/b899fb08/uploads/origins/4a3a9e4a-aa57-4eef-bb0a-863603d92e82?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=18621411d37ce4c09705d5156a829ac5 3x"
         },
         "body": "目を覚ますと、レミリア・スカーレットになってしまっていたシチュエーションをお願いします\n\n視点：第三者視点(鏡には映らないので)\n表情：驚いている\n容姿：通常のレミリアの服装(帽子もあり)※羽根を描き忘れないでください\n背景：紅魔館の中※難しければ単色(白以外)でもよいです\n(紅魔館の中のイメージ: https://danmakuwiki.com/_detail/pasted/20220814-082454.png?id=%E8%83%8C%E6%99%AF%E4%B8%80%E8%A6%A7)\nセリフ：「レミリアになってる！？」「吸血鬼とか嘘でしょ！」「私、血見るの苦手なんだけど…！」\n※セリフなしもお願いします\n※吹き出しを分けてください(3つに)\n\nよろしくお願いします",
-        "nc": 0,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -335,7 +361,7 @@
           "srcset": "https://si.imgix.net/34d21275/uploads/origins/ac6cc24e-2e2e-4331-b228-4798d6974a39?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0008b7ff14d667cd30698bd60c8a1221, https://si.imgix.net/34d21275/uploads/origins/ac6cc24e-2e2e-4331-b228-4798d6974a39?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=88050f3643a0e9964a9452da2f191427 2x, https://si.imgix.net/34d21275/uploads/origins/ac6cc24e-2e2e-4331-b228-4798d6974a39?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bcad62177d3044a0df1a23ede5dd5f78 3x"
         },
         "body": "こんにちは\n目を覚ますとインターネットレミリアになってしまったイラストをお願いします\n\n・第三者視点(鏡には映らないため)\n・赤面している\n・羽根を忘れないようにお願いします\n・セリフ「レミリアになってる！？」「何でこんな格好なの！？恥ずかしすぎるんだけど…！」※吹き出しを2つに分けてください※セリフなしもお願いします\n・背景は以下のような感じでお願いします※キャラは無視してください\nhttps://pbs.twimg.com/media/FcA2GvYacAAlVDF?format=jpg&name=medium\n\nできればアイコンサイズもあると嬉しいです\n\nよろしくお願いします\n\nhttps://x.com/rasra25/status/1573664729280937984?s=46\nhttps://x.com/zenerat/status/1577275581774692352?s=46",
-        "nc": 128,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -360,7 +386,7 @@
           "srcset": "https://si.imgix.net/aea93448/uploads/origins/6896ad0c-f590-4622-adaf-95f2adc262dc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a29733fb95a76143924fa5f8c623eb3e, https://si.imgix.net/aea93448/uploads/origins/6896ad0c-f590-4622-adaf-95f2adc262dc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e546e4b67c339e827b43c5c89b71c8ca 2x, https://si.imgix.net/aea93448/uploads/origins/6896ad0c-f590-4622-adaf-95f2adc262dc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=1934894e84dd9a62e9399a59dfd90c5d 3x"
         },
         "body": "目を覚ますと、小さな悪魔令嬢の休暇レミリア・スカーレットになっていたイラストをお願いします\n\n・第三者視点(鏡には映らないので)\n・麦茶の水筒を首にかけている(持っていなくてよい)\n・ノーブル・ハート号(ユニコーンの浮き輪)に座っている\n・右足だけサンダルを履いていて、右足が水についている\n・羽根を描き忘れないようにお願いします\n・セリフ「レミリアになってる！？」「何でこんな格好なんだろう…？」※セリフなし差分もお願いします\n\nよろしくお願いします\n\nhttps://pbs.twimg.com/media/GwhwSVIbEAIGiOP?format=png&name=large",
-        "nc": 1,
+        "nc": 144,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -385,7 +411,7 @@
           "srcset": "https://si.imgix.net/6f8374ec/uploads/origins/416c75c3-60ea-47a2-99e5-f4d0ea51c5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=1cd8474f42ea438d418e60f9f03cf37b, https://si.imgix.net/6f8374ec/uploads/origins/416c75c3-60ea-47a2-99e5-f4d0ea51c5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a29f789c8abd1b94b3ddb020453d7fd3 2x, https://si.imgix.net/6f8374ec/uploads/origins/416c75c3-60ea-47a2-99e5-f4d0ea51c5ef?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=5940fd9da37d763ad5adbfa607980c61 3x"
         },
         "body": "朝起きて鏡を見ると、咲夜になっていたというシチュエーションをお願いします\n\n以下の条件でお願いします\n・視点：鏡を見ている咲夜になった人視点\n・顔：咲夜になった自分の姿を見て驚く。少し青ざめている(実際に青みがかった色にしてほしいです)\n・目の色：青色\n・服装：メイド服(パジャマ等ではなく)\n・台詞：「咲夜になってる！？」「メイド長とか嘘でしょ！？」「私、家事とかやったことないんだけど…」(台詞なしの差分もほしいです)\n背景：紅魔館の中\n(紅魔館の中のイメージ: https://danmakuwiki.com/_detail/pasted/20220814-082454.png?id=%E8%83%8C%E6%99%AF%E4%B8%80%E8%A6%A7)\n・変身前の姿等は不要\n\nよろしくお願いします",
-        "nc": 129,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -411,7 +437,7 @@
           "srcset": "https://si.imgix.net/b491022f/uploads/origins/c9d1a823-7b5c-47da-9c04-3d97f23fc54e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c47a7131303cf58cf5da9671c43696ce, https://si.imgix.net/b491022f/uploads/origins/c9d1a823-7b5c-47da-9c04-3d97f23fc54e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c3aae29f059364e093a19a44c56d0c0a 2x, https://si.imgix.net/b491022f/uploads/origins/c9d1a823-7b5c-47da-9c04-3d97f23fc54e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7a4f82af6268cc32f4979b1908f5844d 3x"
         },
         "body": "また「DX玩具で変身遊びをする魂魄妖夢」の内容で2P漫画を描いてもらえませんか？\n⚪︎内容\nナンバーワン戦隊ゴジュウジャーのオリジナルのユニバース戦士のなりきり遊びをしてる妖夢を描いて下さい\n\nなので好きなセンタイリングを1つ選んで下さい\n⚪︎詳細\n①左手にセンタイリングを持ち「エンゲージ！」と叫ぶ\n②リングを銀のテガソードにセットし、『センタイリング！』と音声が流れる\n③変身完了までのポーズを4カット入れて下さい（いずれもテガソード周りのアップで）\n④変身時の待機ポーズをとる\n⑤センタイリングの戦隊名が流れ、変身完了時のポーズを取る\n\n⚪︎その他\nこの依頼をした時点で、↓の戦士の変身者がTV本編に登場してるわけですが\n・クワガタオージャー（キングオージャー） \n・ドンモモタロウ（ドンブラザーズ） \n・リュウソウレッド（リュウソウジャー）\n・ティラノレンジャー（ジュウレンジャー） \n・ガオレッド（ガオレンジャー） \n・バルイーグル（サンバルカン） \n・ジュウオウイーグル（ジュウオウジャー） \n・レッドレーサー（カーレンジャー） \n・シンケンレッド（シンケンジャー） \n・レッドバスター（ゴーバスターズ） \n・ルパンレッド＆パトレン1号（ルパパト）\n・バトルジャパン（バトルフィーバーJ）\n\n↑これらのセンタイリングは選ばない方向でお願いします（この依頼品を描き始めたタイミングで変身者が増えてたら、そちらのリングも除外して下さい）\n\n⚪︎資料\n① https://youtube.com/shorts/797LuiGFevQ?si=5jlN3Dq1gji6RqaO\n② https://youtu.be/YA0QF6ybXbg?feature=shared\n③https://youtube.com/shorts/PjBXKpmzVyM?si=M0AnWmdXki2zh4Ee\n④ https://youtube.com/shorts/JLwPVXZ-ieQ?si=_VujLf8KLw2lThQb",
-        "nc": 1,
+        "nc": 0,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -437,7 +463,7 @@
           "srcset": "https://si.imgix.net/de7e18dd/uploads/origins/9eee1b34-7cfd-42d1-9b43-e32b7465e507?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=89057f954b895d2857dfc9ed540ef3dd, https://si.imgix.net/de7e18dd/uploads/origins/9eee1b34-7cfd-42d1-9b43-e32b7465e507?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ba92a806a327d46e049e0694557257d8 2x, https://si.imgix.net/de7e18dd/uploads/origins/9eee1b34-7cfd-42d1-9b43-e32b7465e507?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=965958cc1da8f3d01098578b821072fa 3x"
         },
         "body": "再び\n【DX玩具で遊ぶ東方キャラ】で2Pの漫画を描いてもらえませんか？\n\n＊キャラクター\n任せますので好きなキャラを選んで下さい\n＊小道具\n・DXヴァレンバスター\n・チョコドンゴチゾウ\n・ヴァレンバックル\n\n⭕️内容\n※腰にベルトを巻き、右手に開いた状態のヴァレンバスター\n左手にチョコドンゴチゾウを持たせたキャラを描いて下さい\n・仮面ライダーヴァレンの変身ポーズをとらせてください\n○ポーズ詳細\n①右腕を内側に曲げた状態で持ったヴァレンバスターにゴチゾウをセット→待機音声「SETチョコ SETチョコ…」が流れる\n②左足を伸ばし、右膝を曲げた立ち方をしつつ、\n曲げた左腕を起動レバーの方へ移動（手の甲は自分側を向けた状態）\n③左手で起動レバーを持ち、閉じた状態に戻すと同時に、左手を前に突き出し（手はパーにする）、右腕を後ろにひいたポーズをとる\n④ゴチゾウが開いた状態になり発光しながら「Wow! Wow Wow!」と待機音が鳴る\n⑤左手をグーにする→立った状態から、勢いよくヴァレンバスターの銃口を地面に当てて、左足を曲げ、右膝を地面につけた感じのしゃがみポーズをとる\n⑥顔をあげて「変身！」と叫んでトリガーを引く",
-        "nc": 145,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -463,7 +489,7 @@
           "srcset": "https://si.imgix.net/79baea8a/uploads/origins/edd79bdb-d25c-40d9-9c44-0004a3a0c4cc?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7722097bcd05ee7fb98615395200e267, https://si.imgix.net/79baea8a/uploads/origins/edd79bdb-d25c-40d9-9c44-0004a3a0c4cc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=07404b7ce48bf750b9215f56c0d800c7 2x, https://si.imgix.net/79baea8a/uploads/origins/edd79bdb-d25c-40d9-9c44-0004a3a0c4cc?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e1f7cc81846bf6c7f2a1c2b68187ee89 3x"
         },
         "body": "また仮面ライダーネタで1P漫画をお願いします\n\n場所→守矢神社の居間\n\n＊内容\n・腰に【DXレイズライザーベルト】を巻き、手に【DXレーザーレイズライザー】を持った『洩矢諏訪子』が仮面ライダーギーツ24話に登場した『仮面ライダーケケラ』の変身遊びをしてる1ページ漫画を描いて下さい\n\n＊詳細\n①ケケラのカードをセット\n②変身時のポーズをとり、「変身！」と叫ぶ諏訪子\n③その後の、左手を地面につけたポーズをとる諏訪子\n\n参考→ https://youtube.com/shorts/SHoi4MGhLyc?si=pX6B1iMtA1UghAlz",
-        "nc": 144,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -515,7 +541,7 @@
           "srcset": "https://si.imgix.net/ad00397c/uploads/origins/fbec4fa9-decf-4d9d-8adb-22d6ce2ab210?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=48e455c08cd4153406fca31ad71f7835, https://si.imgix.net/ad00397c/uploads/origins/fbec4fa9-decf-4d9d-8adb-22d6ce2ab210?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=69f200634008fbaec42d579695c34e5e 2x, https://si.imgix.net/ad00397c/uploads/origins/fbec4fa9-decf-4d9d-8adb-22d6ce2ab210?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=86ef2328bf0e321c0905c24a447762b2 3x"
         },
         "body": "メイド服を着た東方Projectのバカルテット(ルーミア/チルノ/リグル/ミスティア)をお願いします！\nメイド服は胸元が空いていてミニスカートでガーターベルトとニーソを履いている感じでお願いします！\nみんな仲良しで楽しそうな感じだと嬉しいです！",
-        "nc": 17,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -541,7 +567,7 @@
           "srcset": "https://si.imgix.net/040d60de/uploads/origins/f48361e4-ef52-40b2-ab43-14316e1f0395?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b02d057e19255345696e27a99d610bcd, https://si.imgix.net/040d60de/uploads/origins/f48361e4-ef52-40b2-ab43-14316e1f0395?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ba39466e30d3c56340bbec525209e8d0 2x, https://si.imgix.net/040d60de/uploads/origins/f48361e4-ef52-40b2-ab43-14316e1f0395?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=94aa128b4cde81e7ca292732c024c3bb 3x"
         },
         "body": "今回の依頼ですけど、以下の内容をお願いします\n⚪︎キャラ\n魂魄妖夢\n⚪︎小道具\n①DX風双剣翠風\n② DXソードオブロゴスバックル\n◎内容\n腰にソードオブロゴスバックルを巻き、風双剣翠風を手に持って、仮面ライダー剣斬への変身ポーズ遊びをする妖夢を描いてください\n\n※ 楼観剣＆白楼剣は外して下さい\n資料→ https://youtu.be/dGXU-xAhgF8\n\n\n※個人的に妖夢に一番似合いそうなライダーは剣斬だと思うのでこの内容にしました（刀の二刀流、緑色の剣士、剣斬自体が【女性ライダーでもある】、分身攻撃など）",
-        "nc": 0,
+        "nc": 1,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -567,7 +593,7 @@
           "srcset": "https://si.imgix.net/caf9b53d/uploads/origins/1b4e4f7f-2e1b-4b56-94eb-f120f5521e02?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=336bb4930bee6f2001364d148060f808, https://si.imgix.net/caf9b53d/uploads/origins/1b4e4f7f-2e1b-4b56-94eb-f120f5521e02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=bdaca08bf60f4e88e721189f04f869cd 2x, https://si.imgix.net/caf9b53d/uploads/origins/1b4e4f7f-2e1b-4b56-94eb-f120f5521e02?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=34bd6c737849d37c8f3ad32033c497d1 3x"
         },
         "body": "今回の依頼ですが、以下の一枚絵をお願いします\n\n○キャラクター\n八雲藍\n○小道具\n仮面ライダーオーディン版のVバックル\nと\n仮面ライダーオーディンのカードデッキ\n◉絵の詳細\nRIDER_TIME_仮面ライダー龍騎の3話目で初登場した仮面ライダーオーディンへの変身ポーズである以下の内容で描いて下さい\n\n①腰にVバックルを巻いた藍\n②左腕を前に突き出す\n③藍の周りを金色の光を放ちながら浮遊するカードデッキ\n\n資料→ https://youtu.be/nA8ik1b194g\n\n※余談\n今回の内容ですが、先月「東方鏡境郷」という幻想入り動画を見てたんですが、この動画の17話と20話を見てたら思いつきました\n\n詳細\n17話→ https://nico.ms/sm14432862 18:45〜18:52\n20話→ https://nico.ms/sm16080764  3:55〜4:02",
-        "nc": 129,
+        "nc": 16,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -593,7 +619,7 @@
           "srcset": "https://si.imgix.net/fc3092c3/uploads/origins/1e0877e1-6233-4680-b2ac-f2c5f3312b59?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=f8b44483daba772efd0093d20d2e5530, https://si.imgix.net/fc3092c3/uploads/origins/1e0877e1-6233-4680-b2ac-f2c5f3312b59?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=14c1204a5254c5caf1fa5294ce901308 2x, https://si.imgix.net/fc3092c3/uploads/origins/1e0877e1-6233-4680-b2ac-f2c5f3312b59?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0d345a92c0ff7df4ac53b27dd1416ae9 3x"
         },
         "body": "仮面ライダービルドのワンシーンを東方キャラに差し替えたシリーズですが、第3弾をお願いします。\n今回は尺的な関係で2Pになります\n○概要\nビルド38話で鷲尾兄弟と難波会長が死んだ後にエボルトから杖を渡された内海成彰のシーンを以下のようにして下さい\n\n○内容\n\n①杖を持って下を向きながら笑う内海\n②大きく笑い出す内海\n③ 「ならば…答えは1つ！」と叫ぶ内海\n④杖をへし折る内海\n⑤「貴方に…忠誠を、誓おう！」と叫ぶ内海\n\n↑のシーンの内海成彰を【森近霖之助】に差し替えて下さい\n\n※なお難波会長については差し替え先の候補がイマイチ思いつかなかったので、杖はまんまビルド本編の物でいいです。",
-        "nc": 144,
+        "nc": 128,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -645,7 +671,7 @@
           "srcset": "https://si.imgix.net/4ccda548/uploads/origins/e8d72f19-dcbf-4c54-8e92-ff002064b067?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=79c8d476c13583e4a7a1f00f02885e2b, https://si.imgix.net/4ccda548/uploads/origins/e8d72f19-dcbf-4c54-8e92-ff002064b067?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=029d9e6233b6f95b68a638357169c3ec 2x, https://si.imgix.net/4ccda548/uploads/origins/e8d72f19-dcbf-4c54-8e92-ff002064b067?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2ad8b8bf0906b7193298a55e2bbb9720 3x"
         },
         "body": "仮面ライダー×東方Projectの絵を1枚お願いします\n○概要\n・キャラ→ 「東方智霊奇伝　反則探偵さとり」の宮出口瑞霊\n・小道具→「仮面ライダービルド」のエボルドライバー\n○構図\n・大ゴマ二つの2コマ漫画にして下さい。\n・ビルド33話で石動惣一（エボルト）が仮面ライダーエボルに初変身するシーンの\n1コマ目→エボルドライバーを両手で持ち、遂に…と言ってる部分のアップシーン\n2コマ目→ついに戻ってきた‼︎と叫びながら、腰にエボルドライバーを装着させたシーン\n\n⭕️資料→ https://youtu.be/1NcXnFaWzXc\n1コマ目→0:06\n2コマ目→0:11\n\n⭕️宮出口瑞霊のカラーリング\n僕がこの依頼をした時点ではまだ公式カラーが未定ですので、\n特にRYKさんがイメージしている色がなければ、\nこちら↓（僕の他の依頼品です）のカラーリングにして下さい\nhttps://skeb.jp/@gaisurvive/works/40",
-        "nc": 1,
+        "nc": 17,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -671,7 +697,7 @@
           "srcset": "https://si.imgix.net/53cdd5a4/uploads/origins/5104edb7-9145-4a2c-ad11-1ece8a44968c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7179abc5e9456eea1ddfd2caff6e2b46, https://si.imgix.net/53cdd5a4/uploads/origins/5104edb7-9145-4a2c-ad11-1ece8a44968c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7010fc2b46e30e6d3cd24f6740303bcd 2x, https://si.imgix.net/53cdd5a4/uploads/origins/5104edb7-9145-4a2c-ad11-1ece8a44968c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0569e707ebc38df432db1ed4ec5ea156 3x"
         },
         "body": "いつも動画楽しませてもらってます\n応援のつもりで依頼させてもらいます\n\nゆゆみょんが百合百合してる感じで\n(えっちじゃない)\nポーズや構図などはおまかせします\n\nPCの壁紙にしたいので1920×1080で\n\nよろしくお願いします\n例大祭の新刊楽しみにしてます",
-        "nc": 129,
+        "nc": 145,
         "word_count": 0,
         "transcoder": "image",
         "creator_acceptable_same_genre": true
@@ -704,7 +730,7 @@
             "genre": "correction"
           }
         ],
-        "nc": 128
+        "nc": 145
       },
       {
         "id": 716933,
@@ -755,7 +781,7 @@
             "genre": "art"
           }
         ],
-        "nc": 1
+        "nc": 144
       },
       {
         "id": 1724954,
@@ -779,7 +805,7 @@
             "genre": "art"
           }
         ],
-        "nc": 128
+        "nc": 129
       },
       {
         "id": 2825007,
@@ -803,7 +829,7 @@
             "genre": "art"
           }
         ],
-        "nc": 17
+        "nc": 1
       },
       {
         "id": 3810019,
@@ -827,7 +853,7 @@
             "genre": "art"
           }
         ],
-        "nc": 16
+        "nc": 17
       }
     ]
   },
@@ -1453,6 +1479,33 @@
       "transcoder": "image",
       "creator_acceptable_same_genre": true,
       "scraped_at": "2026-02-14T14:57:26.827357+00:00"
+    },
+    {
+      "path": "/@rykyukkuri/works/24",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 287439,
+      "client_id": 430123,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=66b70f5fc78734e9e1d3546749b0c602",
+        "srcset": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=66b70f5fc78734e9e1d3546749b0c602, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b9850cbcb4a4b3390f7ea992b81411ef 2x, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=16a9b1aa479d70e30c4994059482346c 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3f28f2a750e6ed025d01eea37284f735",
+        "srcset": "https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=3f28f2a750e6ed025d01eea37284f735, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1e9296df67e98252e2ee38d68739996d 2x, https://si.imgix.net/58d5d93f/uploads/origins/a9354ab8-97b4-4b79-80ec-9a9f58b6df5c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=33d5a0497d98665b3964c8108a7a1535 3x"
+      },
+      "body": "アリス・マーガトロイドが椅子に座り、私のVTuberオリジナルキャラクター「ネコタン」（参考リンク）の形をした新しいぬいぐるみを笑顔で縫っているイラストをお願いします。縫製を見守るように、他の2体のぬいぐるみが興味深そうに彼女を見つめている構図にしてください。 \n\nまた、彼女の体型はかなり曲線美のあるものにしてください。背景は不要で、YouTubeサムネイルに使用できるよう透明PNGまたはPSD形式で提供をお願いします。このイラストを使用した動画の説明欄には、あなたのSNSリンクを掲載します。https://x.com/TannerOfDaNorth/status/1628714515796729857",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T15:15:40.596063+00:00"
     }
   ]
 }
