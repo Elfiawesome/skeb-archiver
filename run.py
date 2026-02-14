@@ -21,7 +21,7 @@ from src.logger import log
 
 async def _main() -> None:
 	crawler = SkebCrawler(
-		data_dir="skeb",
+		data_dir="/skeb",
 		concurrency=10,
 		request_delay=0.05,
 		page_size=90,
@@ -31,9 +31,8 @@ async def _main() -> None:
 		retries=3,
 	)
 	await crawler.run()
-	generate_data(data_dir="skeb", output_dir="docs")
+	generate_data(data_dir="/skeb", output_dir="docs")
 	log.info("All done.")
-
 
 if __name__ == "__main__":
 	asyncio.run(_main())
