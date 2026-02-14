@@ -26,7 +26,7 @@ async def _main() -> None:
 		request_delay=0.05,
 		page_size=90,
 		pages_per_batch=10,
-		max_items=-1,        # set to e.g. 900 for a quick test
+		max_items=900,
 		genre="art",
 		retries=3,
 	)
