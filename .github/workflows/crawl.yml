@@ -2,8 +2,8 @@ name: Crawl Skeb
 
 on:
   schedule:
-    - cron: "0 6 * * *"        # daily at 06:00 UTC
-  workflow_dispatch:             # manual trigger
+    - cron: "0 6 * * *"          # daily 06:00 UTC
+  workflow_dispatch:               # manual trigger from Actions tab
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -23,16 +23,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run crawler & generate site data
+      - name: Run crawler + generate site data
         run: python -m src.main
 
       - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skeb/ docs/data.json
+          git add skeb/ docs/api/
           if git diff --cached --quiet; then
-            echo "No data changes."
+            echo "No data changes — skipping commit."
           else
             git commit -m "data: crawl $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push

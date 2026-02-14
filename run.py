@@ -1,38 +1,42 @@
 """
-Root-level runner.
+Root-level runner – works from the terminal, Google Colab, or CI.
 
-Works three ways:
-	1.  python run.py
-	2.  In Google Colab:  exec(open("run.py").read())   OR   await _main()
-	3.  python -m src.main   (uses the package entry point instead)
+Usage
+-----
+Terminal            :  python run.py
+Colab (cell)        :  await _main()
+Module              :  python -m src.main
 """
 
 import asyncio
-import sys
 import os
+import sys
 
-# Ensure the project root is on sys.path so ``src`` is importable
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from src.crawler import SkebCrawler
-from src.site import generate_data
 from src.logger import log
+from src.site import generate_data
+
+DATA_DIR = "skeb"
+SITE_DIR = "docs"
 
 
 async def _main() -> None:
 	crawler = SkebCrawler(
-		data_dir="/skeb",
+		data_dir=DATA_DIR,
 		concurrency=10,
 		request_delay=0.05,
 		page_size=90,
 		pages_per_batch=10,
-		max_items=900,
+		max_items=-1,
 		genre="art",
 		retries=3,
 	)
 	await crawler.run()
-	generate_data(data_dir="/skeb", output_dir="docs")
-	log.info("All done.")
+	generate_data(data_dir=DATA_DIR, output_dir=SITE_DIR)
+	log.info("Done.")
+
 
 if __name__ == "__main__":
 	asyncio.run(_main())
