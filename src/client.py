@@ -78,11 +78,7 @@ class SkebClient:
 					wait = 2 ** attempt
 					log.warning(
 						"Retry %d/%d for %s – %s (backoff %ds)",
-						attempt,
-						self._retries,
-						url,
-						exc,
-						wait,
+						attempt, self._retries, url, exc, wait,
 					)
 					await asyncio.sleep(wait)
 		raise last_exc  # type: ignore[misc]
@@ -109,3 +105,13 @@ class SkebClient:
 
 	async def fetch_profile(self, screen_name: str) -> Dict:
 		return await self._get(f"{self.API}/users/{screen_name}")
+
+	async def fetch_user_works(
+		self, screen_name: str, *, offset: int = 0, limit: int = 90
+	) -> List[Dict]:
+		"""Fetch works for a specific user (received commissions)."""
+		url = (
+			f"{self.API}/users/{screen_name}/works"
+			f"?sort=date&offset={offset}&limit={limit}"
+		)
+		return await self._get(url)
