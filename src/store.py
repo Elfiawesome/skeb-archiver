@@ -3,9 +3,14 @@
 import json
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional
 
 from .logger import log
+
+# Keys managed by the system — everything else is a user-defined flag
+SYSTEM_KEYS = frozenset({
+	"screen_name", "first_seen", "last_updated", "profile", "price_history",
+})
 
 
 class DataStore:
@@ -18,8 +23,6 @@ class DataStore:
 		self._root.mkdir(parents=True, exist_ok=True)
 		log.info("Data directory: %s", self._root.resolve())
 
-	# ── path / IO ────────────────────────────────────────────────
-
 	def _path(self, screen_name: str) -> Path:
 		return self._root / f"{self._SAFE.sub('_', screen_name)}.json"
 
@@ -27,8 +30,12 @@ class DataStore:
 		p = self._path(screen_name)
 		if not p.exists():
 			return None
-		with p.open("r", encoding="utf-8") as fh:
-			return json.load(fh)
+		try:
+			with p.open("r", encoding="utf-8") as fh:
+				return json.load(fh)
+		except (json.JSONDecodeError, OSError) as e:
+			log.warning("Corrupt file %s: %s", p, e)
+			return None
 
 	def save(self, data: Dict[str, Any]) -> None:
 		name = data.get("screen_name")
@@ -37,17 +44,31 @@ class DataStore:
 			return
 		p = self._path(name)
 		with p.open("w", encoding="utf-8") as fh:
-			json.dump(data, fh, ensure_ascii=False)
+			json.dump(data, fh, ensure_ascii=False, indent=2)
 
 	def load_all(self) -> List[Dict[str, Any]]:
-		"""Load every user file (for static-site generation)."""
 		users: List[Dict[str, Any]] = []
 		for p in sorted(self._root.glob("*.json")):
-			with p.open("r", encoding="utf-8") as fh:
-				users.append(json.load(fh))
+			try:
+				with p.open("r", encoding="utf-8") as fh:
+					users.append(json.load(fh))
+			except (json.JSONDecodeError, OSError) as e:
+				log.warning("Skipping corrupt file %s: %s", p, e)
 		return users
 
-	# ── new record scaffold ──────────────────────────────────────
+	def list_screen_names(self) -> List[str]:
+		"""Return all screen_names from stored user files."""
+		names: List[str] = []
+		for p in sorted(self._root.glob("*.json")):
+			try:
+				with p.open("r", encoding="utf-8") as fh:
+					data = json.load(fh)
+					sn = data.get("screen_name")
+					if sn:
+						names.append(sn)
+			except (json.JSONDecodeError, OSError) as e:
+				log.warning("Skipping corrupt file %s: %s", p, e)
+		return names
 
 	@staticmethod
 	def new_user(screen_name: str, ts: str) -> Dict[str, Any]:
@@ -59,14 +80,11 @@ class DataStore:
 			"price_history": {},
 		}
 
-	# ── merge helpers ────────────────────────────────────────────
-
 	def merge_profile(self, user: Dict, profile: Dict, ts: str) -> None:
+		"""Update profile and prices.  All custom keys are preserved."""
 		user["profile"] = profile
 		user["last_updated"] = ts
 		self._update_prices(user, profile, ts)
-
-	# ── price tracking ───────────────────────────────────────────
 
 	@staticmethod
 	def _update_prices(user: Dict, profile: Dict, ts: str) -> None:
@@ -79,11 +97,7 @@ class DataStore:
 			amount = sk.get("default_amount")
 			entries = history.setdefault(genre, [])
 			if entries and entries[-1].get("amount") == amount:
-				continue  # unchanged – skip
+				continue
 			entries.append({"amount": amount, "recorded_at": ts})
-			log.debug(
-				"Price change: %s / %s -> %s",
-				user["screen_name"],
-				genre,
-				amount,
-			)
+			log.debug("Price change: %s / %s -> %s",
+					user["screen_name"], genre, amount)

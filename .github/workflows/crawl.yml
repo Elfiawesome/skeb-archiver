@@ -1,39 +1,56 @@
-name: Crawl Skeb
+# name: Crawl & Rescrape
 
-on:
-  schedule:
-    - cron: "0 6 * * *"          # daily 06:00 UTC
-  workflow_dispatch:               # manual trigger from Actions tab
+# on:
+#   schedule:
+#     - cron: "0 6 * * *"             # daily 06:00 UTC
+#   workflow_dispatch:
+#     inputs:
+#       mode:
+#         description: "What to run"
+#         type: choice
+#         options:
+#           - both
+#           - crawl-only
+#           - rescrape-only
+#         default: both
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  crawl:
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
+# jobs:
+#   run:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 60
 
-    steps:
-      - uses: actions/checkout@v4
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.11"
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+#       - name: Install dependencies
+#         run: pip install -r requirements.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+#       - name: Rescrape existing users
+#         if: >-
+#           github.event_name == 'schedule' ||
+#           github.event.inputs.mode != 'crawl-only'
+#         run: python run_rescrape.py
 
-      - name: Run crawler + generate site data
-        run: python -m src.main
+#       - name: Crawl new users
+#         if: >-
+#           github.event_name == 'schedule' ||
+#           github.event.inputs.mode != 'rescrape-only'
+#         run: python run.py
 
-      - name: Commit & push
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skeb/ docs/api/
-          if git diff --cached --quiet; then
-            echo "No data changes — skipping commit."
-          else
-            git commit -m "data: crawl $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          fi
+#       - name: Commit & push
+#         run: |
+#           git config user.name  "github-actions[bot]"
+#           git config user.email "github-actions[bot]@users.noreply.github.com"
+#           git add skeb/ docs/api/
+#           if git diff --cached --quiet; then
+#             echo "No data changes."
+#           else
+#             git commit -m "data: update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+#             git push
+#           fi

@@ -30,8 +30,6 @@ class SkebClient:
 		self._session: Optional[aiohttp.ClientSession] = None
 		self._cookie = ""
 
-	# ── lifecycle ────────────────────────────────────────────────
-
 	async def open(self) -> None:
 		connector = aiohttp.TCPConnector(limit=self._max_conn)
 		self._session = aiohttp.ClientSession(
@@ -60,59 +58,64 @@ class SkebClient:
 	async def __aexit__(self, *_exc):
 		await self.close()
 
-	# ── GET with retries ─────────────────────────────────────────
-
 	async def _get(self, url: str) -> Any:
+		"""
+		GET with retry.
+
+		4xx → raised immediately (no retry — client error / not found).
+		5xx → retried with exponential back-off.
+		Network / timeout → retried.
+		"""
 		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 		last_exc: Optional[Exception] = None
+
 		for attempt in range(1, self._retries + 1):
 			try:
 				async with self._rl:
 					log.debug("GET %s  (attempt %d)", url, attempt)
 					async with self._session.get(url, headers=headers) as resp:
+						if 400 <= resp.status < 500:
+							resp.raise_for_status()  # 4xx — immediate raise
 						resp.raise_for_status()
 						return await resp.json()
+			except aiohttp.ClientResponseError as exc:
+				if exc.status < 500:
+					raise                        # 4xx — don't retry
+				last_exc = exc                   # 5xx — retry
 			except (aiohttp.ClientError, asyncio.TimeoutError) as exc:
-				last_exc = exc
-				if attempt < self._retries:
-					wait = 2 ** attempt
-					log.warning(
-						"Retry %d/%d for %s – %s (backoff %ds)",
-						attempt, self._retries, url, exc, wait,
-					)
-					await asyncio.sleep(wait)
-		raise last_exc  # type: ignore[misc]
+				last_exc = exc                   # network — retry
 
-	# ── endpoint helpers ─────────────────────────────────────────
+			if attempt < self._retries:
+				wait = 2 ** attempt
+				log.warning(
+					"Retry %d/%d for %s – %s (backoff %ds)",
+					attempt, self._retries, url, last_exc, wait,
+				)
+				await asyncio.sleep(wait)
+
+		raise last_exc  # type: ignore[misc]
 
 	async def fetch_works(
 		self, *, offset: int = 0, limit: int = 90, genre: str = "art"
 	) -> List[Dict]:
-		"""Global works listing (recent works across all users)."""
-		url = (
-			f"{self.API}/works"
-			f"?sort=date&genre={genre}&offset={offset}&limit={limit}"
+		return await self._get(
+			f"{self.API}/works?sort=date&genre={genre}"
+			f"&offset={offset}&limit={limit}"
 		)
-		return await self._get(url)
 
 	async def fetch_users(
 		self, *, offset: int = 0, limit: int = 90, genre: str = "art"
 	) -> List[Dict]:
-		"""Global users listing."""
-		url = (
-			f"{self.API}/users"
-			f"?sort=date&genre={genre}&offset={offset}&limit={limit}"
+		return await self._get(
+			f"{self.API}/users?sort=date&genre={genre}"
+			f"&offset={offset}&limit={limit}"
 		)
-		return await self._get(url)
 
 	async def fetch_profile(self, screen_name: str) -> Dict:
 		"""
-		Fetch a single user profile.
+		Fetch a user profile.
 
-		The response includes ``received_works`` and ``sent_works``
-		arrays (the user's actual commission history) plus
-		``received_works_count`` (the true total).  These are the
-		primary source for per-user works — there is no separate
-		``/users/{name}/works`` endpoint on the public API.
+		Raises ``aiohttp.ClientResponseError`` (status 404) if the
+		user no longer exists.  The caller decides how to handle it.
 		"""
 		return await self._get(f"{self.API}/users/{screen_name}")

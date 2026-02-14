@@ -20,28 +20,27 @@ if (!s) return "";
 return s.length > n ? s.substring(0, n) + "\u2026" : s;
 }
 
-/* ══════════════════════════════════════════════════════════ */
-
 const App = {
-/* data */
-meta:     null,
-pages:    {},       // pageNum -> array of user entries
-allUsers: [],       // fully loaded + merged
-filtered: [],
-visible:  [],       // current page slice
-cache:    {},       // user detail cache
-loading:  new Set(),
-expanded: new Set(),
+meta:         null,
+pages:        {},
+allUsers:     [],
+filtered:     [],
+visible:      [],
+cache:        {},
+loading:      new Set(),
+expanded:     new Set(),
 
-/* state */
-sortKey:  "last_updated",
-sortAsc:  false,
-search:   "",
-genre:    "art",
-priceMin: null,
-priceMax: null,
-page:     0,
-perPage:  50,
+sortKey:      "last_updated",
+sortAsc:      false,
+search:       "",
+genre:        "art",
+priceMin:     null,
+priceMax:     null,
+page:         0,
+perPage:      50,
+
+knownFlags:   [],
+flagFilters:  {},          // flag -> null | "require" | "exclude"
 
 /* ── bootstrap ───────────────────────────────────────── */
 async init() {
@@ -49,27 +48,28 @@ async init() {
 	const r = await fetch("api/index.json");
 	if (!r.ok) throw new Error("HTTP " + r.status);
 	this.meta = await r.json();
+	this.knownFlags = this.meta.known_flags || [];
+
+	// Default: exclude "missing"
+	if (this.knownFlags.includes("missing")) {
+		this.flagFilters["missing"] = "exclude";
+	}
+
 	this.renderMeta();
 	this.bind();
 
-	// load all pages concurrently
 	const tasks = [];
-	for (let i = 0; i < this.meta.total_pages; i++) {
-		tasks.push(this.loadPage(i));
-	}
+	for (let i = 0; i < this.meta.total_pages; i++) tasks.push(this.loadPage(i));
 	await Promise.all(tasks);
 
-	// merge all pages
 	this.allUsers = [];
 	for (let i = 0; i < this.meta.total_pages; i++) {
 		if (this.pages[i]) this.allUsers.push(...this.pages[i]);
 	}
-
 	this.update();
 	} catch (e) {
 	$("#tbody").innerHTML =
-		'<tr><td colspan="6" class="msg">Failed to load data \u2014 ' +
-		esc(e.message) + "</td></tr>";
+		'<tr><td colspan="6" class="msg">Failed to load \u2014 ' + esc(e.message) + "</td></tr>";
 	}
 },
 
@@ -80,7 +80,6 @@ async loadPage(num) {
 	const data = await r.json();
 	this.pages[num] = data.users || [];
 	} catch (e) {
-	console.error("Failed to load page", num, e);
 	this.pages[num] = [];
 	}
 },
@@ -96,37 +95,26 @@ renderMeta() {
 
 /* ── events ──────────────────────────────────────────── */
 bind() {
-	let searchTimer = null;
+	let t = null;
 	$("#search").addEventListener("input", (e) => {
-	clearTimeout(searchTimer);
-	searchTimer = setTimeout(() => {
-		this.search = e.target.value.toLowerCase().trim();
-		this.page = 0;
-		this.update();
-	}, 200);
+	clearTimeout(t);
+	t = setTimeout(() => { this.search = e.target.value.toLowerCase().trim(); this.page = 0; this.update(); }, 200);
 	});
 	$("#genre-filter").addEventListener("change", (e) => {
-	this.genre = e.target.value;
-	this.page = 0;
-	this.update();
+	this.genre = e.target.value; this.page = 0; this.update();
 	});
 	$("#price-min").addEventListener("input", (e) => {
-	this.priceMin = e.target.value ? Number(e.target.value) : null;
-	this.page = 0;
-	this.update();
+	this.priceMin = e.target.value ? Number(e.target.value) : null; this.page = 0; this.update();
 	});
 	$("#price-max").addEventListener("input", (e) => {
-	this.priceMax = e.target.value ? Number(e.target.value) : null;
-	this.page = 0;
-	this.update();
+	this.priceMax = e.target.value ? Number(e.target.value) : null; this.page = 0; this.update();
 	});
 	$$("th[data-sort]").forEach((th) => {
 	th.addEventListener("click", () => {
 		const k = th.dataset.sort;
 		if (this.sortKey === k) this.sortAsc = !this.sortAsc;
 		else { this.sortKey = k; this.sortAsc = k === "screen_name"; }
-		this.page = 0;
-		this.update();
+		this.page = 0; this.update();
 	});
 	});
 },
@@ -146,21 +134,29 @@ filter() {
 	let list = this.allUsers;
 
 	if (this.search)
-	list = list.filter((u) =>
-		u.screen_name.toLowerCase().includes(this.search));
+	list = list.filter(u => u.screen_name.toLowerCase().includes(this.search));
 
 	if (this.genre !== "all")
-	list = list.filter((u) => (u.current_prices || {})[this.genre] != null);
+	list = list.filter(u => (u.current_prices || {})[this.genre] != null);
 
-	// price range filter
 	if (this.priceMin != null || this.priceMax != null) {
-	list = list.filter((u) => {
+	list = list.filter(u => {
 		const p = this.getPrice(u);
 		if (p == null) return false;
 		if (this.priceMin != null && p < this.priceMin) return false;
 		if (this.priceMax != null && p > this.priceMax) return false;
 		return true;
 	});
+	}
+
+	// Flag filters
+	for (const [flag, mode] of Object.entries(this.flagFilters)) {
+	if (!mode) continue;
+	if (mode === "require") {
+		list = list.filter(u => !!(u.flags || {})[flag]);
+	} else if (mode === "exclude") {
+		list = list.filter(u => !(u.flags || {})[flag]);
+	}
 	}
 
 	const key = this.sortKey;
@@ -182,8 +178,7 @@ filter() {
 		return ((a.total_works || 0) - (b.total_works || 0)) * dir;
 		case "first_seen":
 		case "last_updated":
-		va = a[key] || "";
-		vb = b[key] || "";
+		va = a[key] || ""; vb = b[key] || "";
 		return va < vb ? -dir : va > vb ? dir : 0;
 		default: return 0;
 	}
@@ -203,16 +198,57 @@ update() {
 	const start = this.page * this.perPage;
 	this.visible = this.filtered.slice(start, start + this.perPage);
 
+	this.renderFlagBar();
 	this.renderTable();
 	this.renderPagination(totalPages);
 },
 
 renderArrows() {
-	$$("th[data-sort]").forEach((th) => {
+	$$("th[data-sort]").forEach(th => {
 	let a = th.querySelector(".arrow");
 	if (!a) { a = document.createElement("span"); a.className = "arrow"; th.appendChild(a); }
 	a.textContent = th.dataset.sort === this.sortKey
 		? (this.sortAsc ? " \u25b2" : " \u25bc") : "";
+	});
+},
+
+/* ── flag bar ────────────────────────────────────────── */
+renderFlagBar() {
+	const el = $("#flag-bar");
+	if (!this.knownFlags.length) { el.innerHTML = ""; return; }
+
+	let html = '<span class="flag-bar-label">Flags</span>';
+	for (const flag of this.knownFlags) {
+	const mode = this.flagFilters[flag] || null;
+	let cls = "flag-btn";
+	let suffix = "";
+	if (mode === "require") { cls += " require"; suffix = " \u2713"; }
+	else if (mode === "exclude") { cls += " exclude"; suffix = " \u00d7"; }
+	html += '<button class="' + cls + '" data-flag="' + esc(flag) + '">' +
+		esc(flag) + suffix + "</button>";
+	}
+
+	// count how many are filtered
+	const activeCount = Object.values(this.flagFilters).filter(v => v).length;
+	if (activeCount) {
+	html += '<span style="font-size:10px;color:var(--text-3);margin-left:8px">' +
+		this.filtered.length + " shown</span>";
+	}
+
+	el.innerHTML = html;
+
+	const self = this;
+	el.querySelectorAll(".flag-btn").forEach(btn => {
+	btn.addEventListener("click", () => {
+		const f = btn.dataset.flag;
+		const cur = self.flagFilters[f] || null;
+		// cycle: null → require → exclude → null
+		if (cur === null)         self.flagFilters[f] = "require";
+		else if (cur === "require") self.flagFilters[f] = "exclude";
+		else                      delete self.flagFilters[f];
+		self.page = 0;
+		self.update();
+	});
 	});
 },
 
@@ -228,7 +264,18 @@ renderPreviewCell(thumbs) {
 	html += '<img src="' + esc(thumbs[i]) + '" loading="lazy" alt=""' +
 		' onerror="this.style.visibility=\'hidden\'">';
 	}
-	html += "</div>";
+	return html + "</div>";
+},
+
+/* ── flag badges for table row ─────────────────────── */
+renderFlagBadges(flags) {
+	if (!flags) return "";
+	let html = "";
+	for (const [k, v] of Object.entries(flags)) {
+	if (!v) continue;
+	const cls = k === "missing" ? "flag-badge-missing" : "flag-badge-default";
+	html += '<span class="flag-badge ' + cls + '">' + esc(k) + "</span>";
+	}
 	return html;
 },
 
@@ -236,7 +283,7 @@ renderPreviewCell(thumbs) {
 renderTable() {
 	const tbody = $("#tbody");
 	if (!this.visible.length) {
-	tbody.innerHTML = '<tr><td colspan="6" class="msg">No users match the filter</td></tr>';
+	tbody.innerHTML = '<tr><td colspan="6" class="msg">No users match the filters</td></tr>';
 	return;
 	}
 	const rows = [];
@@ -248,10 +295,10 @@ renderTable() {
 
 	rows.push(
 		'<tr class="row-user' + (open ? " active" : "") +
-		'" data-name="' + esc(name) +
-		'" data-file="' + esc(u.file) + '">' +
-		'<td class="cell-preview">' +
-		this.renderPreviewCell(u.latest_thumbnails) + "</td>" +
+		'" data-name="' + esc(name) + '" data-file="' + esc(u.file) + '">' +
+
+		'<td class="cell-preview">' + this.renderPreviewCell(u.latest_thumbnails) + "</td>" +
+
 		'<td><div class="cell-user">' +
 		(u.avatar_url
 			? '<img class="avatar" src="' + esc(u.avatar_url) +
@@ -259,7 +306,9 @@ renderTable() {
 			: '<div class="avatar-ph"></div>') +
 		'<a class="user-link" href="https://skeb.jp/@' + esc(name) +
 			'" target="_blank" rel="noopener">@' + esc(name) + "</a>" +
+		this.renderFlagBadges(u.flags) +
 		"</div></td>" +
+
 		'<td class="cell-price">' + fmtYen(price) + "</td>" +
 		'<td class="cell-num">' + (u.total_works || 0) + "</td>" +
 		'<td class="cell-date">' + fmtDate(u.first_seen) + "</td>" +
@@ -278,8 +327,8 @@ renderTable() {
 	tbody.innerHTML = rows.join("");
 
 	const self = this;
-	tbody.querySelectorAll(".row-user").forEach((tr) => {
-	tr.addEventListener("click", (ev) => {
+	tbody.querySelectorAll(".row-user").forEach(tr => {
+	tr.addEventListener("click", ev => {
 		if (ev.target.tagName === "A") return;
 		self.toggle(tr.dataset.name, tr.dataset.file);
 	});
@@ -291,37 +340,27 @@ renderPagination(totalPages) {
 	const el = $("#pagination");
 	if (totalPages <= 1) { el.innerHTML = ""; return; }
 
-	let html = "";
-
-	// prev
-	html += '<button class="page-btn' + (this.page === 0 ? " disabled" : "") +
+	let html = '<button class="page-btn' + (this.page === 0 ? " disabled" : "") +
 	'" data-p="' + (this.page - 1) + '">\u2190</button>';
 
-	// page buttons with ellipsis
-	const range = this.paginationRange(this.page, totalPages, 2);
-	for (const p of range) {
-	if (p === "...") {
-		html += '<span class="page-ellipsis">\u2026</span>';
-	} else {
+	for (const p of this.pageRange(this.page, totalPages, 2)) {
+	if (p === "...") { html += '<span class="page-ellipsis">\u2026</span>'; }
+	else {
 		html += '<button class="page-btn' + (p === this.page ? " active" : "") +
 		'" data-p="' + p + '">' + (p + 1) + "</button>";
 	}
 	}
 
-	// next
 	html += '<button class="page-btn' + (this.page >= totalPages - 1 ? " disabled" : "") +
 	'" data-p="' + (this.page + 1) + '">\u2192</button>';
 
-	// info
-	const start = this.page * this.perPage + 1;
-	const end = Math.min(start + this.perPage - 1, this.filtered.length);
-	html += '<span class="page-info">' + start + "\u2013" + end +
-	" of " + this.filtered.length + "</span>";
+	const s = this.page * this.perPage + 1;
+	const e = Math.min(s + this.perPage - 1, this.filtered.length);
+	html += '<span class="page-info">' + s + "\u2013" + e + " of " + this.filtered.length + "</span>";
 
 	el.innerHTML = html;
-
 	const self = this;
-	el.querySelectorAll(".page-btn:not(.disabled)").forEach((btn) => {
+	el.querySelectorAll(".page-btn:not(.disabled)").forEach(btn => {
 	btn.addEventListener("click", () => {
 		self.page = parseInt(btn.dataset.p, 10);
 		self.update();
@@ -330,25 +369,19 @@ renderPagination(totalPages) {
 	});
 },
 
-paginationRange(current, total, delta) {
-	const range = [];
-	const left  = Math.max(0, current - delta);
-	const right = Math.min(total - 1, current + delta);
-
-	if (left > 0) { range.push(0); if (left > 1) range.push("..."); }
-	for (let i = left; i <= right; i++) range.push(i);
-	if (right < total - 1) { if (right < total - 2) range.push("..."); range.push(total - 1); }
-
-	return range;
+pageRange(cur, total, delta) {
+	const r = [];
+	const l = Math.max(0, cur - delta);
+	const ri = Math.min(total - 1, cur + delta);
+	if (l > 0) { r.push(0); if (l > 1) r.push("..."); }
+	for (let i = l; i <= ri; i++) r.push(i);
+	if (ri < total - 1) { if (ri < total - 2) r.push("..."); r.push(total - 1); }
+	return r;
 },
 
 /* ── expand / collapse ─────────────────────────────── */
 async toggle(name, file) {
-	if (this.expanded.has(name)) {
-	this.expanded.delete(name);
-	this.renderTable();
-	return;
-	}
+	if (this.expanded.has(name)) { this.expanded.delete(name); this.renderTable(); return; }
 	this.expanded.add(name);
 	if (!this.cache[name]) {
 	this.loading.add(name);
@@ -368,48 +401,52 @@ async toggle(name, file) {
 /* ── detail panel ──────────────────────────────────── */
 renderDetail(d) {
 	if (d._error) {
-	return '<tr class="row-detail"><td colspan="6" class="msg">Error: ' +
-		esc(d._error) + "</td></tr>";
+	return '<tr class="row-detail"><td colspan="6" class="msg">Error: ' + esc(d._error) + "</td></tr>";
 	}
-	const total   = d.total_works || 0;
+	const total = d.total_works || 0;
 	const scraped = d.scraped_works || (d.works || []).length;
 
 	return (
-	'<tr class="row-detail"><td colspan="6">' +
-	'<div class="detail-inner">' +
+	'<tr class="row-detail"><td colspan="6"><div class="detail-inner">' +
 		this.renderDetailHead(d) +
 		'<div class="detail-grid">' +
-		'<div class="detail-section">' +
-			"<h3>Price History</h3>" +
-			this.renderPrices(d) +
+		'<div class="detail-section"><h3>Price History</h3>' + this.renderPrices(d) + "</div>" +
+		'<div class="detail-section"><h3>Works \u2014 ' + scraped + " shown" +
+			(total > scraped ? " of " + total + " total" : "") + "</h3>" +
+			this.renderWorks(d) + "</div>" +
 		"</div>" +
-		'<div class="detail-section">' +
-			"<h3>Works \u2014 " + scraped + " shown" +
-			(total > scraped ? " of " + total + " total" : "") +
-			"</h3>" +
-			this.renderWorks(d) +
-		"</div>" +
-		"</div>" +
-	"</div>" +
-	"</td></tr>"
+	"</div></td></tr>"
 	);
 },
 
 renderDetailHead(d) {
-	const desc  = d.description ? truncate(d.description, 200) : "";
+	const desc = d.description ? truncate(d.description, 200) : "";
 	const links = d.links || [];
+	const flags = d.flags || {};
 
+	// Links
 	let linksHtml = "";
 	if (links.length) {
 	linksHtml = '<div class="detail-links">';
 	for (const lk of links) {
-		linksHtml +=
-		'<a class="detail-link-tag" href="' + esc(lk.url) +
-		'" target="_blank" rel="noopener">' +
-		'<span class="detail-link-label">' + esc(lk.label) + '</span> ' +
-		esc(lk.name || lk.label) + "</a>";
+		linksHtml += '<a class="detail-link-tag" href="' + esc(lk.url) +
+		'" target="_blank" rel="noopener"><span class="detail-link-label">' +
+		esc(lk.label) + '</span> ' + esc(lk.name || lk.label) + "</a>";
 	}
 	linksHtml += "</div>";
+	}
+
+	// Flags
+	let flagsHtml = "";
+	const flagEntries = Object.entries(flags);
+	if (flagEntries.length) {
+	flagsHtml = '<div class="detail-flags">';
+	for (const [k, v] of flagEntries) {
+		const cls = v ? "detail-flag detail-flag-true" : "detail-flag detail-flag-false";
+		const val = typeof v === "boolean" ? "" : ": " + v;
+		flagsHtml += '<span class="' + cls + '">' + esc(k) + esc(String(val)) + "</span>";
+	}
+	flagsHtml += "</div>";
 	}
 
 	return (
@@ -420,43 +457,36 @@ renderDetailHead(d) {
 			'" onerror="this.style.display=\'none\'">'
 			: "") +
 		"<div>" +
-			'<div class="detail-display-name">' +
-			esc(d.name || d.screen_name) + "</div>" +
-			'<a class="detail-sn" href="https://skeb.jp/@' +
-			esc(d.screen_name) + '" target="_blank" rel="noopener">@' +
-			esc(d.screen_name) + "</a>" +
+			'<div class="detail-display-name">' + esc(d.name || d.screen_name) + "</div>" +
+			'<a class="detail-sn" href="https://skeb.jp/@' + esc(d.screen_name) +
+			'" target="_blank" rel="noopener">@' + esc(d.screen_name) + "</a>" +
 			(desc ? '<div class="detail-desc">' + esc(desc) + "</div>" : "") +
 			linksHtml +
+			flagsHtml +
 		"</div>" +
 		"</div>" +
-		'<div class="detail-right">' +
-		'<div class="detail-meta">' +
-			"<span>First seen " + fmtDate(d.first_seen) + "</span>" +
-			"<span>Updated " + fmtDate(d.last_updated) + "</span>" +
-		"</div>" +
-		"</div>" +
+		'<div class="detail-right"><div class="detail-meta">' +
+		"<span>First seen " + fmtDate(d.first_seen) + "</span>" +
+		"<span>Updated " + fmtDate(d.last_updated) + "</span>" +
+		"</div></div>" +
 	"</div>"
 	);
 },
 
-/* ── price history ─────────────────────────────────── */
 renderPrices(d) {
 	const ph = d.price_history || {};
 	const genres = Object.keys(ph);
 	if (!genres.length) return '<p class="msg-sm">No price data</p>';
-
 	let html = "";
 	for (const genre of genres) {
 	const entries = ph[genre] || [];
 	if (!entries.length) continue;
 	const range = (d.price_range || {})[genre];
-
 	html += '<div class="ph-genre"><div class="ph-genre-head">';
 	html += '<span class="genre-tag">' + esc(genre) + "</span>";
 	if (range && range.min !== range.max)
 		html += '<span class="ph-range">' + fmtRange(range) + "</span>";
 	html += '</div><ul class="ph-list">';
-
 	for (let i = entries.length - 1; i >= 0; i--) {
 		const e = entries[i];
 		let cls = "";
@@ -466,64 +496,49 @@ renderPrices(d) {
 		if (curr > prev) cls = " ph-up";
 		else if (curr < prev) cls = " ph-down";
 		}
-		html +=
-		'<li><span class="ph-val' + cls + '">' + fmtYen(e.amount) +
-		'</span><span class="ph-date">' + fmtDate(e.recorded_at) +
-		"</span></li>";
+		html += '<li><span class="ph-val' + cls + '">' + fmtYen(e.amount) +
+		'</span><span class="ph-date">' + fmtDate(e.recorded_at) + "</span></li>";
 	}
 	html += "</ul></div>";
 	}
 	return html;
 },
 
-/* ── works grid ────────────────────────────────────── */
 renderWorks(d) {
 	const works = d.works || [];
 	if (!works.length) return '<p class="msg-sm">No works data</p>';
-
-	// works are already newest-first from the API
 	const MAX = 48;
 	const show = works.slice(0, MAX);
-
 	let html = '<div class="works-grid">';
 	for (const w of show) {
-	const path   = w.path || "";
-	const src    = w.thumbnail_src || "";
+	const path = w.path || "";
+	const src = w.thumbnail_src || "";
 	const srcset = w.thumbnail_srcset || "";
-	const genre  = w.genre || "";
-	const nsfw   = w.nsfw;
-	const date   = w.created_at || "";
-	const body   = w.body || "";
+	const genre = w.genre || "";
+	const nsfw = w.nsfw;
+	const date = w.created_at || "";
+	const body = w.body || "";
 
 	html += '<a class="work-card" href="https://skeb.jp' + esc(path) +
 		'" target="_blank" rel="noopener"' +
 		(body ? ' title="' + esc(truncate(body, 300)) + '"' : "") + ">";
-
 	if (src) {
 		html += '<img class="work-thumb-img" loading="lazy" alt="" src="' + esc(src) + '"';
 		if (srcset) html += ' srcset="' + esc(srcset) + '"';
 		html += ">";
 	} else {
-		html += '<div class="work-thumb-empty"><span>' +
-		esc(path.split("/").pop() || "?") + "</span></div>";
+		html += '<div class="work-thumb-empty"><span>' + esc(path.split("/").pop() || "?") + "</span></div>";
 	}
-
 	html += '<div class="work-info"><span>';
 	if (genre) html += '<span class="work-genre">' + esc(genre) + "</span>";
-	if (nsfw)  html += '<span class="work-nsfw">NSFW</span>';
+	if (nsfw) html += '<span class="work-nsfw">NSFW</span>';
 	html += '</span><span class="work-date">' + fmtDate(date) + "</span></div>";
-
-	if (body)
-		html += '<div class="work-body">' + esc(truncate(body, 100)) + "</div>";
-
+	if (body) html += '<div class="work-body">' + esc(truncate(body, 100)) + "</div>";
 	html += "</a>";
 	}
 	html += "</div>";
-
 	if (works.length > MAX)
-	html += '<p class="msg-sm" style="margin-top:8px">Showing ' +
-		MAX + " of " + works.length + "</p>";
-
+	html += '<p class="msg-sm" style="margin-top:8px">Showing ' + MAX + " of " + works.length + "</p>";
 	return html;
 },
 };

@@ -1,15 +1,10 @@
 """
 Static-site data generator.
 
-Works come directly from ``profile.received_works`` (newest first,
-as Skeb returns them).  We do NOT maintain a separate works list.
-
-Generates paginated index files to avoid loading 10k+ users at once:
-	api/index.json          metadata + page count
-	api/pages/0.json        first N users
-	api/pages/1.json        next N users
-	...
-	api/users/<file>.json   full detail per user (lazy-loaded on click)
+Reads raw user files from ``data_dir`` and writes:
+	<output_dir>/api/index.json             metadata + known_flags
+	<output_dir>/api/pages/<n>.json         paginated user entries
+	<output_dir>/api/users/<file>.json      full detail per user
 """
 
 import json
@@ -17,10 +12,10 @@ import math
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set
 
 from .logger import log
-from .store import DataStore
+from .store import DataStore, SYSTEM_KEYS
 
 _SAFE_RE = re.compile(r"[^\w\-.]")
 
@@ -34,8 +29,10 @@ _PLATFORM_URLS = {
 	"patreon_id":  ("Patreon",  "https://patreon.com/{}"),
 	"skima_id":    ("SKIMA",    "https://skima.jp/profile?id={}"),
 	"coconala_id": ("Coconala", "https://coconala.com/users/{}"),
-	"dlsite_id":   ("DLsite",   "https://www.dlsite.com/home/circle/profile/=/maker_id/{}"),
-	"fanza_id":    ("FANZA",    "https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
+	"dlsite_id":   ("DLsite",
+					"https://www.dlsite.com/home/circle/profile/=/maker_id/{}"),
+	"fanza_id":    ("FANZA",
+					"https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
 }
 
 PAGE_SIZE = 200
@@ -43,6 +40,13 @@ PAGE_SIZE = 200
 
 def _safe(name: str) -> str:
 	return _SAFE_RE.sub("_", name)
+
+
+# ── flags ────────────────────────────────────────────────────
+
+def _extract_flags(user: Dict) -> Dict[str, Any]:
+	"""Return all non-system keys (custom flags)."""
+	return {k: v for k, v in user.items() if k not in SYSTEM_KEYS}
 
 
 # ── thumbnail helpers ────────────────────────────────────────
@@ -70,10 +74,6 @@ def _pick_best_url(srcset: str, fallback: str = "") -> str:
 
 
 def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
-	"""
-	Return up to *max_count* thumbnail URLs from the FIRST works in
-	the list (which are newest, as Skeb orders received_works newest-first).
-	"""
 	urls: List[str] = []
 	for w in works:
 		thumb = _extract_thumbnail(w)
@@ -89,7 +89,6 @@ def _latest_thumbnail_urls(works: List[Dict], max_count: int = 4) -> List[str]:
 def _extract_links(profile: Dict) -> List[Dict[str, str]]:
 	links: List[Dict[str, str]] = []
 	seen: set = set()
-
 	for sl in profile.get("user_service_links") or []:
 		url = sl.get("url", "")
 		if url and url not in seen:
@@ -99,12 +98,10 @@ def _extract_links(profile: Dict) -> List[Dict[str, str]]:
 				"name": sl.get("screen_name", ""),
 			})
 			seen.add(url)
-
 	standalone = profile.get("url", "")
 	if standalone and standalone not in seen:
 		links.append({"label": "Website", "url": standalone, "name": ""})
 		seen.add(standalone)
-
 	for key, (label, tmpl) in _PLATFORM_URLS.items():
 		pid = profile.get(key)
 		if pid:
@@ -112,18 +109,13 @@ def _extract_links(profile: Dict) -> List[Dict[str, str]]:
 			if url not in seen:
 				links.append({"label": label, "url": url, "name": str(pid)})
 				seen.add(url)
-
 	return links
 
 
 # ── price helpers ────────────────────────────────────────────
 
 def _current_prices(ph: Dict[str, list]) -> Dict[str, Any]:
-	return {
-		genre: entries[-1].get("amount")
-		for genre, entries in ph.items()
-		if entries
-	}
+	return {g: e[-1].get("amount") for g, e in ph.items() if e}
 
 
 def _price_ranges(ph: Dict[str, list]) -> Dict[str, Dict[str, Any]]:
@@ -135,27 +127,17 @@ def _price_ranges(ph: Dict[str, list]) -> Dict[str, Dict[str, Any]]:
 	return out
 
 
-# ── works from profile ───────────────────────────────────────
-
 def _get_received_works(profile: Dict) -> List[Dict]:
-	"""
-	Return received_works from the profile.
-	Skeb returns these newest-first already.
-	"""
 	rw = profile.get("received_works")
-	if isinstance(rw, list):
-		return rw
-	return []
+	return rw if isinstance(rw, list) else []
 
 
 def _true_works_count(profile: Dict) -> int:
-	count = profile.get("received_works_count")
-	if isinstance(count, int):
-		return count
+	c = profile.get("received_works_count")
+	if isinstance(c, int):
+		return c
 	rw = profile.get("received_works")
-	if isinstance(rw, list):
-		return len(rw)
-	return 0
+	return len(rw) if isinstance(rw, list) else 0
 
 
 # ── main entry point ─────────────────────────────────────────
@@ -175,6 +157,7 @@ def generate_data(
 	pages_dir.mkdir(parents=True, exist_ok=True)
 
 	index_entries: List[Dict[str, Any]] = []
+	all_flag_names: Set[str] = set()
 
 	for u in all_users:
 		sn = u.get("screen_name", "")
@@ -187,6 +170,10 @@ def generate_data(
 		file_key = _safe(sn)
 		works = _get_received_works(profile)
 		total_works = _true_works_count(profile)
+		flags = _extract_flags(u)
+
+		# track discovered flag names
+		all_flag_names.update(flags.keys())
 
 		# ── lightweight index entry ──────────────────────
 		index_entries.append(
@@ -200,6 +187,7 @@ def generate_data(
 				"current_prices": _current_prices(ph),
 				"price_range": _price_ranges(ph),
 				"latest_thumbnails": _latest_thumbnail_urls(works, 4),
+				"flags": flags,
 			}
 		)
 
@@ -235,6 +223,7 @@ def generate_data(
 			"current_prices": _current_prices(ph),
 			"price_range": _price_ranges(ph),
 			"links": _extract_links(profile),
+			"flags": flags,
 			"works": works_out,
 		}
 
@@ -243,14 +232,9 @@ def generate_data(
 
 	# ── paginated index files ────────────────────────────
 	total_pages = max(1, math.ceil(len(index_entries) / page_size))
-
 	for page_num in range(total_pages):
 		start = page_num * page_size
-		end = start + page_size
-		page_data = {
-			"page": page_num,
-			"users": index_entries[start:end],
-		}
+		page_data = {"page": page_num, "users": index_entries[start:start + page_size]}
 		with (pages_dir / f"{page_num}.json").open("w", encoding="utf-8") as fh:
 			json.dump(page_data, fh, ensure_ascii=False)
 
@@ -260,11 +244,12 @@ def generate_data(
 		"user_count": len(index_entries),
 		"page_size": page_size,
 		"total_pages": total_pages,
+		"known_flags": sorted(all_flag_names),
 	}
 	with (api_dir / "index.json").open("w", encoding="utf-8") as fh:
 		json.dump(index, fh, ensure_ascii=False)
 
 	log.info(
-		"Site data: %d users, %d pages, %d detail files -> %s",
-		len(index_entries), total_pages, len(index_entries), api_dir,
+		"Site data: %d users, %d pages, flags %s -> %s",
+		len(index_entries), total_pages, sorted(all_flag_names), api_dir,
 	)
