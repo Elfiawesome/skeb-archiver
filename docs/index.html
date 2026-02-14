@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skeb Tracker</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>SKEB TRACKER</h1>
+	<span class="meta" id="meta">Loading ...</span>
+</header>
+
+<div class="stats-bar" id="stats-bar"></div>
+
+<div class="toolbar">
+	<input type="search" id="search" placeholder="Filter by username ...">
+	<div class="toolbar-end">
+		<label>Genre
+			<select id="genre-filter">
+				<option value="all">All</option>
+				<option value="art" selected>Art</option>
+				<option value="voice">Voice</option>
+				<option value="novel">Novel</option>
+				<option value="comic">Comic</option>
+			</select>
+		</label>
+	</div>
+</div>
+
+<div class="table-wrap" id="content">
+	<table>
+		<thead>
+			<tr>
+				<th data-sort="screen_name">User</th>
+				<th data-sort="price">Price</th>
+				<th data-sort="works_count">Works</th>
+				<th data-sort="first_seen">First Seen</th>
+				<th data-sort="last_updated">Updated</th>
+			</tr>
+		</thead>
+		<tbody id="tbody">
+			<tr><td colspan="5" class="loading">Loading data ...</td></tr>
+		</tbody>
+	</table>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
