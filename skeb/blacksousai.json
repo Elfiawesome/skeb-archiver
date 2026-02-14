@@ -1,0 +1,846 @@
+{
+  "screen_name": "blacksousai",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 2296509,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/827181918600900608/kcgL_Zx-.jpg",
+    "name": "黒創哉",
+    "nsfw_acceptable": true,
+    "screen_name": "blacksousai",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/799348220535021569/1625678995/1500x500",
+    "body_size": 1000,
+    "received_works_count": 42,
+    "received_nsfw_works_count": 39,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "漫画家黒創哉\nBLACK SOUSAI STUDIO\nhttps://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=73382/\nhttps://www.dlsite.com/maniax/circle/profile/=/maker_id/RG34531.html",
+    "nijie_id": null,
+    "dlsite_id": 34531,
+    "fanza_id": 73382,
+    "pixiv_id": 19451593,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 177,
+    "twitter_uid": "799348220535021569",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "blacksousai",
+        "url": "https://x.com/blacksousai"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fblacksousai%2Fbackground%3Fd%3De4c56f?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU1UQXNNREF3SUVwUVdRJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFVKc1lXTnImdHh0YWxpZ249Y2VudGVyJnR4dHNpemU9ODAmdHh0c2hhZD0xMCZmbT1wbmcmdz0xMjAw&marky=415&txt64=6buS5Ym15ZOJ&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=8fe2a9a7fc371e16c743101a1d586215",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 10000
+      },
+      {
+        "genre": "correction",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@blacksousai/works/42",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8943e3aae7c7cec474763e02cf8d92b1",
+          "srcset": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8943e3aae7c7cec474763e02cf8d92b1, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b213ce453c1f66b10ac71c483655ef5b 2x, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=db9bf0e7a705a89fd2b91ee17040891a 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69b7dca89ba58e62c9ae399a1b03002e",
+          "srcset": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69b7dca89ba58e62c9ae399a1b03002e, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=84e3952b345f6b9a60f1096a42d8a5db 2x, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3479f95b2fba5e9973d0db21670c8e39 3x"
+        },
+        "body": "前回の続きをお願いします。",
+        "nc": 187,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/41",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dbd1e64e/uploads/origins/ad16734d-77a9-4133-82db-3866137eecf3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=cbf4436e0a24fecd3613f1449986b1da",
+          "srcset": "https://si.imgix.net/dbd1e64e/uploads/origins/ad16734d-77a9-4133-82db-3866137eecf3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=cbf4436e0a24fecd3613f1449986b1da, https://si.imgix.net/dbd1e64e/uploads/origins/ad16734d-77a9-4133-82db-3866137eecf3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=79f59f52a01e141ab9b9117ea1076668 2x, https://si.imgix.net/dbd1e64e/uploads/origins/ad16734d-77a9-4133-82db-3866137eecf3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=58101657462c40acf01e4d5d66c4b906 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 177
+      },
+      {
+        "path": "/@blacksousai/works/40",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/75bd6588/uploads/origins/3ce6b33e-2783-45f2-a974-2ea1e9184156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=8f43c763ee7ebb0a42f4960df5e65e86",
+          "srcset": "https://si.imgix.net/75bd6588/uploads/origins/3ce6b33e-2783-45f2-a974-2ea1e9184156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=8f43c763ee7ebb0a42f4960df5e65e86, https://si.imgix.net/75bd6588/uploads/origins/3ce6b33e-2783-45f2-a974-2ea1e9184156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3758324916261560df5264f92a0179a8 2x, https://si.imgix.net/75bd6588/uploads/origins/3ce6b33e-2783-45f2-a974-2ea1e9184156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=b7bd4396fbd0c30326519e0a4ba32011 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 35
+      },
+      {
+        "path": "/@blacksousai/works/39",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 3402377,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb97f92677308b4bddf25e7b1e0cbf22",
+          "srcset": "https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb97f92677308b4bddf25e7b1e0cbf22, https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4398fe7326fd7830fb50279b107208b5 2x, https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e501d5dfa74ca1b7be24c4e3ab5374bf 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bf61cf854f366ea85d5d0d0defa500e5",
+          "srcset": "https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bf61cf854f366ea85d5d0d0defa500e5, https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8b921b09f8980064451a3e2dcfb16a26 2x, https://si.imgix.net/ab278a96/uploads/origins/860837e0-67d0-4ad7-a866-c5430035af31?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=40c08ff35550a1a2772218c1e7491f6e 3x"
+        },
+        "body": "ナイトメアパラダイスOZのIFストーリーの続きで、イヴリンの足で口や舌を責められるドロシーをリクエストさせて頂きます。",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/38",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1d4e1776/uploads/origins/a9b1a2e5-6d4d-4b2f-a3f6-5c1b7de3e179?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=741d1d2b03b82a228213a5f8a9795701",
+          "srcset": "https://si.imgix.net/1d4e1776/uploads/origins/a9b1a2e5-6d4d-4b2f-a3f6-5c1b7de3e179?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=741d1d2b03b82a228213a5f8a9795701, https://si.imgix.net/1d4e1776/uploads/origins/a9b1a2e5-6d4d-4b2f-a3f6-5c1b7de3e179?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e3e4e09e3082caa632de254bfdcc1f04 2x, https://si.imgix.net/1d4e1776/uploads/origins/a9b1a2e5-6d4d-4b2f-a3f6-5c1b7de3e179?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9ba4cabe508a6b623a1ee5e21abca6f2 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 179
+      },
+      {
+        "path": "/@blacksousai/works/37",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c0458af2/uploads/origins/7b7a577e-814b-4cec-a32a-f0e5c0e3b561?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=58924a6f1828bac2d1d2b5dbc7a2e1e6",
+          "srcset": "https://si.imgix.net/c0458af2/uploads/origins/7b7a577e-814b-4cec-a32a-f0e5c0e3b561?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=58924a6f1828bac2d1d2b5dbc7a2e1e6, https://si.imgix.net/c0458af2/uploads/origins/7b7a577e-814b-4cec-a32a-f0e5c0e3b561?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=02bb08b941e86936f59c1b20cc33e81b 2x, https://si.imgix.net/c0458af2/uploads/origins/7b7a577e-814b-4cec-a32a-f0e5c0e3b561?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a053396c88f660f57b7fe6fb7b90769e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 50
+      },
+      {
+        "path": "/@blacksousai/works/36",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7112fd213f01d427b36ddba1155f8a07",
+          "srcset": "https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=7112fd213f01d427b36ddba1155f8a07, https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=22ea721548c0f4e69396d1ac535b2457 2x, https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=0d238a76363a9d1c218dba18704c506b 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6127c32e3c9a9129053c7494dfeca25e",
+          "srcset": "https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6127c32e3c9a9129053c7494dfeca25e, https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7343fd653b7a6c71bdd8c3dbc7fdd4d4 2x, https://si.imgix.net/99ce1639/uploads/origins/6598e902-b7c7-4800-845e-3430a3154b99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f405b756d42c27640f00e5664e5c100f 3x"
+        },
+        "body": "前回のニラヤマ編の続きをお願いします。\n美咲のウンチを動画に納めたいニラヤマと絶対に見られたくない美咲のギリギリ我慢バトルをお願いします！",
+        "nc": 171,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/35",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9807a31f/uploads/origins/1363bc35-91d9-4290-9110-bfde79ebfc81?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fef4517cf02d7ba7f3c55190b49c39c4",
+          "srcset": "https://si.imgix.net/9807a31f/uploads/origins/1363bc35-91d9-4290-9110-bfde79ebfc81?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=fef4517cf02d7ba7f3c55190b49c39c4, https://si.imgix.net/9807a31f/uploads/origins/1363bc35-91d9-4290-9110-bfde79ebfc81?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c2b4b176631353a1f60f0604e68c6bc6 2x, https://si.imgix.net/9807a31f/uploads/origins/1363bc35-91d9-4290-9110-bfde79ebfc81?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3e91baca5d759b9fdecbb73b9304e8d3 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 35
+      },
+      {
+        "path": "/@blacksousai/works/34",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6f0ed60c/uploads/origins/5ae64f56-a9c1-4f71-9b12-bbfbd1f3c8b5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=65b5da7b7e918fed5bebc418cccba871",
+          "srcset": "https://si.imgix.net/6f0ed60c/uploads/origins/5ae64f56-a9c1-4f71-9b12-bbfbd1f3c8b5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=65b5da7b7e918fed5bebc418cccba871, https://si.imgix.net/6f0ed60c/uploads/origins/5ae64f56-a9c1-4f71-9b12-bbfbd1f3c8b5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=37c7d8545a4ad4936752ed6c28530945 2x, https://si.imgix.net/6f0ed60c/uploads/origins/5ae64f56-a9c1-4f71-9b12-bbfbd1f3c8b5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=47523cc6935e0ab7fd3248d0ca687e55 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 178
+      },
+      {
+        "path": "/@blacksousai/works/33",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/82b33049/uploads/origins/ecc570fb-c3ad-4f19-8c1e-7a520941d87c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=84da87c5edd27d70b244cc41cef46736",
+          "srcset": "https://si.imgix.net/82b33049/uploads/origins/ecc570fb-c3ad-4f19-8c1e-7a520941d87c?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=84da87c5edd27d70b244cc41cef46736, https://si.imgix.net/82b33049/uploads/origins/ecc570fb-c3ad-4f19-8c1e-7a520941d87c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d2d83c2a790f3e64ab55e8208de8f521 2x, https://si.imgix.net/82b33049/uploads/origins/ecc570fb-c3ad-4f19-8c1e-7a520941d87c?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=aee5824d8a19b5f25e0c0f998e6c091e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 178
+      },
+      {
+        "path": "/@blacksousai/works/32",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 3402377,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=356dc49f0fcfa334045a67123026f92c",
+          "srcset": "https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=356dc49f0fcfa334045a67123026f92c, https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=e83c71568eba59a644aa7bf8bb847167 2x, https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=db9b1b7eacf48265549e8a687355fcfc 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=281246577146e3e557f14ba02599dd67",
+          "srcset": "https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=281246577146e3e557f14ba02599dd67, https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ce39bcef22b9079d4857f98b8c23bddf 2x, https://si.imgix.net/9faa9611/uploads/origins/d319469a-cb59-49f1-94bf-e7ef57519b1b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d1b5be6e6c7fda60831abc47a33b8def 3x"
+        },
+        "body": "ナイトメアパラダイスOZのIFストーリーの続きで、魔法でドロシーとイヴリンの立場が逆転してしまい、イヴリンに責められるドロシーをお願いいたします。\nよろしくお願いします。",
+        "nc": 48,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/31",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/59387372/uploads/origins/d2e03178-673e-43e9-bf4a-e203f663fef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bfdb35dc82dbc2041dc27ac12bfe8816",
+          "srcset": "https://si.imgix.net/59387372/uploads/origins/d2e03178-673e-43e9-bf4a-e203f663fef2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bfdb35dc82dbc2041dc27ac12bfe8816, https://si.imgix.net/59387372/uploads/origins/d2e03178-673e-43e9-bf4a-e203f663fef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=67907a82728d01a4198c31f2608a70fa 2x, https://si.imgix.net/59387372/uploads/origins/d2e03178-673e-43e9-bf4a-e203f663fef2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=24f61fc354b84a96b7bd9389f4659d72 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 34
+      },
+      {
+        "path": "/@blacksousai/works/30",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be39a1617fb182dec4b15c31709ccbf0",
+          "srcset": "https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be39a1617fb182dec4b15c31709ccbf0, https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a669ddbb5a0e7958d1600df0843fd5b4 2x, https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=826e68b6167ed1df54fed3719b7dcf72 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6599f10e4afe46ef2ea49bd1bf006636",
+          "srcset": "https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6599f10e4afe46ef2ea49bd1bf006636, https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=205b957a8bd16ac9fa371ba95630d2b8 2x, https://si.imgix.net/c9f97122/uploads/origins/e339d836-f1d9-4da5-9c92-3b7b2adbe248?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3331c6e301e7bd29738ed235e0861bc0 3x"
+        },
+        "body": "ナイトメアパラダイスOZのIFストーリーでイヴリンが放った手下をドロシーが返り討ちにしイヴリンを挑発する展開のストーリーを希望します。\nその後イヴリンとドロシーの直接対決をみたいと思いますが可能な範囲で構いませんので\nよろしくお願いします！",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/29",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/395a6dcb/uploads/origins/9466ec21-4ff9-4413-aba6-eb00a8d17dbd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=baccf7c5d70631d3e3b7db99fb3ab427",
+          "srcset": "https://si.imgix.net/395a6dcb/uploads/origins/9466ec21-4ff9-4413-aba6-eb00a8d17dbd?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=baccf7c5d70631d3e3b7db99fb3ab427, https://si.imgix.net/395a6dcb/uploads/origins/9466ec21-4ff9-4413-aba6-eb00a8d17dbd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3c5ff00a854958374045f6f2b5db696e 2x, https://si.imgix.net/395a6dcb/uploads/origins/9466ec21-4ff9-4413-aba6-eb00a8d17dbd?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=33b0abb74bf37eb1eaa6da1456b4eb66 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 51
+      },
+      {
+        "path": "/@blacksousai/works/28",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c72aeb3e/uploads/origins/383ffb82-0557-49fe-992b-92b6a04c634e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f46b640ac778b336c6f61479ccf6ecfd",
+          "srcset": "https://si.imgix.net/c72aeb3e/uploads/origins/383ffb82-0557-49fe-992b-92b6a04c634e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f46b640ac778b336c6f61479ccf6ecfd, https://si.imgix.net/c72aeb3e/uploads/origins/383ffb82-0557-49fe-992b-92b6a04c634e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=a8936812e462e4219c7f80667826fae8 2x, https://si.imgix.net/c72aeb3e/uploads/origins/383ffb82-0557-49fe-992b-92b6a04c634e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=b1873c5ba81f6933a7759bb4bc45e2bb 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 178
+      },
+      {
+        "path": "/@blacksousai/works/27",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/102016c9/uploads/origins/ff6ba783-4b68-47c3-a5cc-83adcf6db67f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=75c399a3754ef403680c6663bbeb2f8b",
+          "srcset": "https://si.imgix.net/102016c9/uploads/origins/ff6ba783-4b68-47c3-a5cc-83adcf6db67f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=75c399a3754ef403680c6663bbeb2f8b, https://si.imgix.net/102016c9/uploads/origins/ff6ba783-4b68-47c3-a5cc-83adcf6db67f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=06c16a65fb1fc167e5ed55b2edd46964 2x, https://si.imgix.net/102016c9/uploads/origins/ff6ba783-4b68-47c3-a5cc-83adcf6db67f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f546d8139015471e5a8a6764a0980f4e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 2319801,
+        "nc": 163
+      },
+      {
+        "path": "/@blacksousai/works/26",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c0d7dc46211d878ed77a07ecb31286df",
+          "srcset": "https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c0d7dc46211d878ed77a07ecb31286df, https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b6c122516ec7706ff8d022c7e49e2260 2x, https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3a7ba8ebf519d51316bd988b5d236b2e 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bb1f2181a459749fd8db0018da712652",
+          "srcset": "https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=bb1f2181a459749fd8db0018da712652, https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ca4050d1bdf46f8b3917d68ccad0620a 2x, https://si.imgix.net/0bd4b52f/uploads/origins/cd362ab2-095c-4d6a-a1e6-5300ad7a9670?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a6934b5f7b4ed5f2b35198751e26e915 3x"
+        },
+        "body": "美咲とケイくんのバトル最終話をリクエストさせて頂きます。\nよろしくお願いします！",
+        "nc": 42,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/25",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/379d2b07/uploads/origins/3a618065-97f3-4e20-8a40-ab71874ee357?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ec159bcca7d57c9cd62b4c1e2313e3ba",
+          "srcset": "https://si.imgix.net/379d2b07/uploads/origins/3a618065-97f3-4e20-8a40-ab71874ee357?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=ec159bcca7d57c9cd62b4c1e2313e3ba, https://si.imgix.net/379d2b07/uploads/origins/3a618065-97f3-4e20-8a40-ab71874ee357?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0064baf4d29899f0ce1590c676694c0d 2x, https://si.imgix.net/379d2b07/uploads/origins/3a618065-97f3-4e20-8a40-ab71874ee357?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=91c651621cbf8ed1185c3d146d7d78a5 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 179
+      },
+      {
+        "path": "/@blacksousai/works/24",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/40461e3f/uploads/origins/0eb7179b-47c9-4724-9a1f-966c929baa7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0fe54d2f66e233b433a2eac1f8fb07be",
+          "srcset": "https://si.imgix.net/40461e3f/uploads/origins/0eb7179b-47c9-4724-9a1f-966c929baa7b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0fe54d2f66e233b433a2eac1f8fb07be, https://si.imgix.net/40461e3f/uploads/origins/0eb7179b-47c9-4724-9a1f-966c929baa7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=57eff8d656d4034152fef1d7c6030499 2x, https://si.imgix.net/40461e3f/uploads/origins/0eb7179b-47c9-4724-9a1f-966c929baa7b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=2997b2d83435d33619b227aec3226cc6 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 34
+      },
+      {
+        "path": "/@blacksousai/works/23",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9d88ea5606a07c44002f1f5920e60b8f",
+          "srcset": "https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=9d88ea5606a07c44002f1f5920e60b8f, https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=61ed0e6efb000a600ab7c381893ddadf 2x, https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=2b997ae41ea4da7a0026138ed435938f 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9a34d6f4191b5f051f8cdac4fa37d6a8",
+          "srcset": "https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9a34d6f4191b5f051f8cdac4fa37d6a8, https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cc83778fc4ba81399d22d18d047e703c 2x, https://si.imgix.net/b28cc945/uploads/origins/0b7c8403-33ff-4b4f-9d84-3076e81b3cd8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=43ea113b4eae226951fe216e280de6e6 3x"
+        },
+        "body": "以前のリクエストの続きです！\n挑発を続ける美咲と反撃するケイ君をお願いいたします！",
+        "nc": 59,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/22",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6a7321bc/uploads/origins/48894334-7cfc-4dee-9ff7-13617d6c22f0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0bed08e12c8d1e601754dcc689aac2c0",
+          "srcset": "https://si.imgix.net/6a7321bc/uploads/origins/48894334-7cfc-4dee-9ff7-13617d6c22f0?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=0bed08e12c8d1e601754dcc689aac2c0, https://si.imgix.net/6a7321bc/uploads/origins/48894334-7cfc-4dee-9ff7-13617d6c22f0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=efffd40099ea02f7a9f536608faffe60 2x, https://si.imgix.net/6a7321bc/uploads/origins/48894334-7cfc-4dee-9ff7-13617d6c22f0?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=9f0d467889e3e72ae9fedf8e9656686e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 179
+      },
+      {
+        "path": "/@blacksousai/works/21",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6aa1592e/uploads/origins/39771424-d154-4635-9de1-251fe6d2d952?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=58af3931b997d4c17630884a20af5e47",
+          "srcset": "https://si.imgix.net/6aa1592e/uploads/origins/39771424-d154-4635-9de1-251fe6d2d952?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=58af3931b997d4c17630884a20af5e47, https://si.imgix.net/6aa1592e/uploads/origins/39771424-d154-4635-9de1-251fe6d2d952?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=10469450c5e6cf9c52394dff1e088749 2x, https://si.imgix.net/6aa1592e/uploads/origins/39771424-d154-4635-9de1-251fe6d2d952?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c49a1e709f3a2b828d0b1af236e0746e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 548231,
+        "nc": 179
+      },
+      {
+        "path": "/@blacksousai/works/20",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 3402377,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb82249521ce3744254bbd7ae5c4b451",
+          "srcset": "https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eb82249521ce3744254bbd7ae5c4b451, https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=973f1438255394f25e9f671f89789b76 2x, https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=e5c0b6d677dafe929d13e2923ff9c810 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a52bb96e8c9ce42be7d2fe4022fb3b3f",
+          "srcset": "https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a52bb96e8c9ce42be7d2fe4022fb3b3f, https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a4020d1579378dbe2c7ea17acea722a3 2x, https://si.imgix.net/890a90ea/uploads/origins/562c88cf-1f6b-4363-bd94-1f7ca68c608f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0b1ef48df831aa21b7dbe45f17c436a9 3x"
+        },
+        "body": "以前のリクエストの続きです！\nフェラで絞りとった後、ケイ君にザーメンキスをして精飲させ、挑発を続ける美咲と反撃するケイ君をお願いいたします。",
+        "nc": 59,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/19",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/934cf6ed/uploads/origins/3bf094d9-ea84-436b-966f-9494d99e3c47?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=72c4fa10b447fb1e10651b3d4a240e64",
+          "srcset": "https://si.imgix.net/934cf6ed/uploads/origins/3bf094d9-ea84-436b-966f-9494d99e3c47?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=72c4fa10b447fb1e10651b3d4a240e64, https://si.imgix.net/934cf6ed/uploads/origins/3bf094d9-ea84-436b-966f-9494d99e3c47?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=c63b84497c828790c536714700953c27 2x, https://si.imgix.net/934cf6ed/uploads/origins/3bf094d9-ea84-436b-966f-9494d99e3c47?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=630ae882b5146c77cebe0ed8d4a40820 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "nc": 42
+      },
+      {
+        "path": "/@blacksousai/works/18",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0d6df98d6ec5f099d6f05bea4311691",
+          "srcset": "https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=d0d6df98d6ec5f099d6f05bea4311691, https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=31c6814a1a718de7fd58b240e0ecbe03 2x, https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f1908e77cc08155eb8cc2c7cd6dd8d87 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=af923c8e4f3f782bad9119e11df8181e",
+          "srcset": "https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=af923c8e4f3f782bad9119e11df8181e, https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a91d753df2a30614643295fab9ce125a 2x, https://si.imgix.net/6d3ed17f/uploads/origins/677c8441-f9b0-44dd-811b-50d4e7635737?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bc2f51bbb5860265f4879d18176b40ef 3x"
+        },
+        "body": "前作の続きをお願いします。\n必死に抵抗する美咲のお腹をニラヤマが無理矢理押して、腸内のウンチが出口に向かって少しずつ進んでいく展開をお願いします。",
+        "nc": 58,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/17",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/aa9147b3/uploads/origins/a3f6d36e-63e6-4ff6-a5ee-6405b80ef05d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3b7322bd76c146d40bb3a53f45162115",
+          "srcset": "https://si.imgix.net/aa9147b3/uploads/origins/a3f6d36e-63e6-4ff6-a5ee-6405b80ef05d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3b7322bd76c146d40bb3a53f45162115, https://si.imgix.net/aa9147b3/uploads/origins/a3f6d36e-63e6-4ff6-a5ee-6405b80ef05d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e0ab4aa645ed42ce44017202050b9ef6 2x, https://si.imgix.net/aa9147b3/uploads/origins/a3f6d36e-63e6-4ff6-a5ee-6405b80ef05d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bc6cdf901cf271bf34c3656a4a6f998e 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "nc": 170
+      },
+      {
+        "path": "/@blacksousai/works/16",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=10dddca4e0dfae19335aca1c32f95b6e",
+          "srcset": "https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=10dddca4e0dfae19335aca1c32f95b6e, https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=34039292a89d55972fbfae1414947a91 2x, https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=ae5eed9ad9d117c85dda3d1a7a1d8151 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=30897bf0686a05b74291333b8586a803",
+          "srcset": "https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=30897bf0686a05b74291333b8586a803, https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d381d50e34b4a5e209093b6b72ffb399 2x, https://si.imgix.net/5fe8f94e/uploads/origins/c3b73b00-c209-4d63-a92d-3d3e71891156?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=225b8a58be50890b9df445cd26ca94cc 3x"
+        },
+        "body": "前回の続きをお願いします。\nニラヤマがさらに水鉄砲で見えてしまう寸前のとこまで追い込み、ギリギリのところで、次の用務員室に移動して第2ラウンドという流れをお願いします。",
+        "nc": 58,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/15",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2296509,
+        "client_id": 169828,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ec4df5259f2f9a4cbc228ff5eab917e",
+          "srcset": "https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ec4df5259f2f9a4cbc228ff5eab917e, https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=fcb18eb7522df4d78547d92e6331039c 2x, https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8a45493f923bcfd17a332fbe8e4c3c2e 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ab3f022ec63177cd08425308bcd691b9",
+          "srcset": "https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=ab3f022ec63177cd08425308bcd691b9, https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7e25f28358a227de41d73edb39fafaf3 2x, https://si.imgix.net/45947dd0/uploads/origins/6c7685e0-388a-4e70-a1c4-92d2df330bee?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0ab048acfb6b6a831d00ba4d3d9c5dae 3x"
+        },
+        "body": "貴方様の素晴らしい漫画や、けばけばしい作画が気になったので、リクエストを送らせて頂きます。\n【オリキャラ男「リーフィ」が、黒ギャル風俗嬢として、男としても人としても堕落していく漫画】\n繁華街を歩いていると、すごい格好の嬢が。\n思わずこっそり撮影すると、嬢に呼び止められる。\n・盗撮したでしょ、と恐喝\nデータ削除の代わりに「そこの部屋でこれを着なさい」と、女性用の衣装を渡される。\n・狭い部屋に入ったリーフィ。衣装を着て鏡の前に立つと、パツパツな衣装を着た女装男が。\n突然体に熱が走る。\n体中に変化が走り、気づいたら、巨乳むちむち女性に変身していた。\n・女性からLINEが。\n元に戻してほしければ、その衣装を着ながら、電車で２時間の●●という風俗店に来るように。とのメッセージ。\n・女体の羞恥に塗れながら、町中を歩くと、突然男に犯される。\n必死こいて抵抗するが、性行為の快楽に脳が焼かれる。\n解放されたと思ったら、次の男が。しばらくそこで快楽にふけってしまうのであった。\n・電車に乗って目的地まで向かう。\nすると、今度は扇情的な衣装を着ているということで、男が痴漢を。\n痴漢です、と言っても、誰も聞く耳もたない。それどころか、周りの男が全員で犯しにくる。\n気づいたら何時間も電車で犯され続けていた。\n・様々な箇所でだんだんと犯され続ける日々に、気づいたら、少しずつ楽しんでおり、金欠を自らの身体で稼ぐようになってしまった。\n・行為を重ねるたび身体がいやらしく成長。\n風俗店に着いたころには、１００㎝をも超える爆乳デカケツむちむちビッチに\n・店に着くまで１週間。店に到着すると、そこにはギャル風俗嬢が。\n成長したわね、と言い放つギャル風俗嬢。\n・風俗嬢が、衣装を渡す。\nその衣装は、現実離れした力が込められている。\n・ギャル風俗嬢は、選択肢を言い放つ。\n１つは男に戻る選択肢。もう一つは、ここで風俗嬢として永遠に生きる選択肢。\n・２ヶ月後、そこには店No1の風俗嬢として活躍しているリーフィが。名前も「リリス」に改名。\nお店で上役を受付たのち、お店からの要望で、ビラ配りに。\n・ふと気づくと、写真を撮られた音が。\nかつての自分を重ねたリリスは、その男を脅すのだった。\n\nよろしくおねがいいたします\n\nhttps://drive.google.com/drive/folders/1wnctUpDIi74uUKP-ImtiOyEZKJQjEgLD",
+        "nc": 171,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/14",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8036c3c22d09c5df889d87f14cfd9b85",
+          "srcset": "https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8036c3c22d09c5df889d87f14cfd9b85, https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=c71f1245562159b83a02d8bd65bc050e 2x, https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9ca9c8554f1b3c2f9bf993798385a4dd 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=38d6385056b2d1be970b7d81452e4a10",
+          "srcset": "https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=38d6385056b2d1be970b7d81452e4a10, https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=96c259d6541f255f2966b8bd961b65c4 2x, https://si.imgix.net/b67edd1a/uploads/origins/e3ab3bf1-270c-43ad-a414-eee474826c38?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d6ed7154bbff8afdeb215354adb5d14c 3x"
+        },
+        "body": "前回の続きをお願いします。\nティッシュでぎりぎり隠す様子を色々な方向からじっくりと撮影されて、言葉責めで羞恥心を煽られる展開をお願いします。",
+        "nc": 187,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@blacksousai/works/13",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 2296509,
+        "client_id": 3498540,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8900cde6d2bd632c9e59d9ab2dedec42",
+          "srcset": "https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8900cde6d2bd632c9e59d9ab2dedec42, https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=27e0e897f0cdf7ec338a1b170f270b0e 2x, https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=fb5762cd0dae96c0c5243e1a8b8b4310 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": true,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc2d6ed75503645ef3ae0c615a29f602",
+          "srcset": "https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fc2d6ed75503645ef3ae0c615a29f602, https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f0543973c259f55f0210a3a45c305435 2x, https://si.imgix.net/c61136de/uploads/origins/494d3d31-c650-4a17-b895-e9c03ef3e85e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0cbbd915278bd7a74006a4713113e760 3x"
+        },
+        "body": "前作の続きをお願いします。\n嫌がる美咲をじっくり責める描写をお願いします！",
+        "nc": 186,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 191653,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "おいまんじ",
+        "screen_name": "oimanji",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar/media.misskeyusercontent.jp%2Fio%2Feb3d5ade-cb81-486e-a7c0-ee056047db21.png%3Fsensitive%3Dtrue?avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/e8470dd3-1823-4864-b041-2e1f665d72b3.png",
+        "appeal_receivable": true,
+        "popular_creator_rank": 28,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 2,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 214907,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "クラニス",
+        "screen_name": "crcranis",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1539863099972677632/EUWDW2J8.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/3705246913/1579059430/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 14,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 230278,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "スズラメ",
+        "screen_name": "suzurame_ro",
+        "avatar_url": "https://pbs.twimg.com/profile_images/896350830390943745/J1a5vAdW.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/896348213334097922/1658042902/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 330731,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "Yesman",
+        "screen_name": "CvbnYesman",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1809159192730816512/RNjSqeNZ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1234359699585171457/1718090816/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 161
+      },
+      {
+        "id": 574604,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ればすと2ndGen🔞＠サブ垢",
+        "screen_name": "rebasuto102702",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1792546161016143872/8xcGDu6g.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1116577413163438081/1608736233/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 855696,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "うらはるこん筒林⊿46箱推",
+        "screen_name": "powderskin",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1542043996205481985/gMkGRwgv.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/14077208/1656488713/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 177
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 10000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ],
+    "correction": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@blacksousai/works/42",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 2296509,
+      "client_id": 3498540,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8943e3aae7c7cec474763e02cf8d92b1",
+        "srcset": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8943e3aae7c7cec474763e02cf8d92b1, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b213ce453c1f66b10ac71c483655ef5b 2x, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=db9bf0e7a705a89fd2b91ee17040891a 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": true,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69b7dca89ba58e62c9ae399a1b03002e",
+        "srcset": "https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=69b7dca89ba58e62c9ae399a1b03002e, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=84e3952b345f6b9a60f1096a42d8a5db 2x, https://si.imgix.net/96be959f/uploads/origins/678912d6-d674-4ad6-af4d-4388f7a148f3?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3479f95b2fba5e9973d0db21670c8e39 3x"
+      },
+      "body": "前回の続きをお願いします。",
+      "nc": 170,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

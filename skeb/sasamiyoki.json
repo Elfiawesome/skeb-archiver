@@ -1,0 +1,413 @@
+{
+  "screen_name": "sasamiyoki",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 1509721,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1825600409706311682/kFLlaF-T.jpg",
+    "name": "ヒロム",
+    "nsfw_acceptable": false,
+    "screen_name": "sasamiyoki",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1222876072829583362/1729260481/1500x500",
+    "body_size": 300,
+    "received_works_count": 5,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "最推しはdnd👑(kbdn🐉👑)/主にdndばっかり描いてる/その他イラスト⇒@hiromu_pedaru /スケブ⇒https://skeb.jp/@sasamiyoki",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "nc": 1,
+    "twitter_uid": "1222876072829583362",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "sasamiyoki",
+        "url": "https://x.com/sasamiyoki"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fsasamiyoki%2Fbackground%3Fd%3D33eed0?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5Td3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44OS44Ot44Og&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=08b4a935b7e76c7f5fd5178de975a6ae",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@sasamiyoki/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1509721,
+        "client_id": 3665160,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4e570b2ff3e3c7ba551de41fb294a800",
+          "srcset": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4e570b2ff3e3c7ba551de41fb294a800, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6d37156b0cb25c98705f9d12f7fc01af 2x, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d1b48305871d0ed08de848c3c4bb4bc9 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a40a9e2e3726c47d53c3935d6b4b23f",
+          "srcset": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a40a9e2e3726c47d53c3935d6b4b23f, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9fafe1a465661adc09ba65f561d23bfc 2x, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2ae18b9e744b4cc7f18d07e96a4ef376 3x"
+        },
+        "body": "僕のロードバイクを擬人化してほしいです。ヒロムの絵が大好きです。描いているところをとなりで酒でも飲みながら見ていたいほどに。そして酔っ払ってちょっかいだして怒られる未来。\n\n冗談はさておき、直感のイメージとしてはメンズキャラ、細身？そんなデカくも小さくもない？そんなところ。とはいえ基本的にはもうヒロムのイメージを先行させてほち。思いのままに。\n\n画像添付ができそうでできない。",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@sasamiyoki/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1509721,
+        "client_id": 3758839,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0edbf86b7770a8c41c3002650645b3f8",
+          "srcset": "https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=0edbf86b7770a8c41c3002650645b3f8, https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=910749b3c6fee6838c2207d5fdb05b99 2x, https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3b8b5f5a7cc3b32b2c78582eff3aa533 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=88e87e439b57674c8027fbe2cdc257a8",
+          "srcset": "https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=88e87e439b57674c8027fbe2cdc257a8, https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=56de8d0eda05e4e8c4eccec84aa01bb1 2x, https://si.imgix.net/f0d2a9b8/uploads/origins/4176e0bc-c05f-472c-9d0a-0f93921ae9ac?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6f8d16c3373ca59662be28f079fa3eb2 3x"
+        },
+        "body": "こんぬづわ！\n車買ったら乗っけてください！",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@sasamiyoki/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1509721,
+        "client_id": 3478203,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c48b186cd4d940eb00d9d33c884258ca",
+          "srcset": "https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c48b186cd4d940eb00d9d33c884258ca, https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=91c05a54510525ef0979d9726eb43daf 2x, https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1c04a10294bf4e3e3bc835a2b1fc9eb4 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbdfc3d187639cc21559235783211cda",
+          "srcset": "https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fbdfc3d187639cc21559235783211cda, https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=262dc09e92fbbf6112bda1a17b0a0bb5 2x, https://si.imgix.net/1cf7f5e3/uploads/origins/cb8ea82b-7ec8-410f-9070-d99f6574d789?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f32390bfc5a9db6dd3497d698942ec27 3x"
+        },
+        "body": "こんにちは！元気にしているかな？\n\n私のoc【みる】のイラストをお願いしたいです。\n\n年齢は30歳、189cm。木ノ葉隠れで医療忍者として働いている。長時間の勤務で疲れていることが多い。\n\nよろしくお願いします！\n\nhttps://drive.google.com/drive/folders/17MSCb5JZqBEl8PKDPxGqrZImgECr-HMV?usp=share_link",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@sasamiyoki/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 1509721,
+        "client_id": 3166948,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=caa02565868b608c7349fd60337e5175",
+          "srcset": "https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=caa02565868b608c7349fd60337e5175, https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b317261d88f3ee0a0cde9d46c49f3397 2x, https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c6c7f545510b1a7d60c80ab79bfea887 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=53c65f7372f3a367264080cfa941e872",
+          "srcset": "https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=53c65f7372f3a367264080cfa941e872, https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=025c0fe4d265a216e1d30156910b5070 2x, https://si.imgix.net/77e24a10/uploads/origins/f0f58ccc-14e9-4e72-8ab3-7f0074452de8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=594a220a5e3bfc6819f34eae25bc3460 3x"
+        },
+        "body": "ヒロムさん、こんばんは！ミカンです！\nSkebのリクエストを受け付けていらっしゃるのを拝見して、さっそく伺いました！\n\n以下のリンクは私の自創作キャラになります。\nぜひぜひ、彼女を描いていただけたら嬉しいです…！\nとても楽しみにしています🥺🥺\n\nhttps://drive.google.com/drive/folders/18R6BZ5gvPanDZ3n-WrQE2Cp4VvZH6QtT",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@sasamiyoki/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 1509721,
+        "client_id": 334314,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1ded47dc3efb5fc83f32f3512566bb0c",
+          "srcset": "https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=1ded47dc3efb5fc83f32f3512566bb0c, https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=cdad3b6c337a1fad0149355868a2abf3 2x, https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b74cb66d3ef40786ed03e9379557ee38 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4054843cf61d256e79561257f1cf095b",
+          "srcset": "https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4054843cf61d256e79561257f1cf095b, https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a2059cdd7804fb78ab494ed613225467 2x, https://si.imgix.net/f4d6b8c2/uploads/origins/e0cac2b6-f868-413c-927e-919558733880?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=58a915cd1340ad6c9ec3057451edc04f 3x"
+        },
+        "body": "こんにちは！お元気ですか？\n\nOCのアートワークをお願いしたいです！\n\n名前はアロワナです！ポケモンのOCです。とても優しくて元気で、でも繊細。ポケモンが大好きで、特にイワンコが大好き。身長は190cm！\n\n好きなように描いてね！\n\nよろしくお願いします！\n\nhttps://drive.google.com/drive/folders/1i0lnPicf74PdLt0UOvJkwd9JsS0MUBeb?usp=share_link",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 561587,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "工場長🏭",
+        "screen_name": "Osa_kouzyou",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2012026667779440641/GmhodiOe.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1280333687578476544/1768539488/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 14,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 1688710,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "KiiKo @アニメ原画風skeb",
+        "screen_name": "Kiiko_clip",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar.webp?url=https%3A%2F%2Fmedia.misskeyusercontent.jp%2Fio%2Fd4b360a8-1c07-44f9-b59a-94c6982e2227.gif&avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/fb207f67-3c6c-47bb-9795-c6d4b3977f4a.webp",
+        "appeal_receivable": false,
+        "popular_creator_rank": 32,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "none",
+        "accept_expiration_days": 8,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 2014628,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ふろんとほっく",
+        "screen_name": "front_hook",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1995123993586868224/aY4PwYmI.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1503559052491911172/1742359515/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 2613680,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "無法地帯",
+        "screen_name": "es_tra_",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1690586158722654208/GMb-U8TP.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 145
+      },
+      {
+        "id": 2620286,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "いかわさ🦑(チゲ味)",
+        "screen_name": "Midori_annte23",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1772462509385269248/3WO5dS3i.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1288136668696809473/1711452276/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 110,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 33
+      },
+      {
+        "id": 3636157,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "きくどん",
+        "screen_name": "Kicdon_smash",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1066648952836022273/VpjiqMi8.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/936058140944039937/1700651325/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 160
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@sasamiyoki/works/5",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 1509721,
+      "client_id": 3665160,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4e570b2ff3e3c7ba551de41fb294a800",
+        "srcset": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4e570b2ff3e3c7ba551de41fb294a800, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=6d37156b0cb25c98705f9d12f7fc01af 2x, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=d1b48305871d0ed08de848c3c4bb4bc9 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a40a9e2e3726c47d53c3935d6b4b23f",
+        "srcset": "https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8a40a9e2e3726c47d53c3935d6b4b23f, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9fafe1a465661adc09ba65f561d23bfc 2x, https://si.imgix.net/227c6b25/uploads/origins/d2c8e711-64f9-45f0-a67c-908b5b4e268e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2ae18b9e744b4cc7f18d07e96a4ef376 3x"
+      },
+      "body": "僕のロードバイクを擬人化してほしいです。ヒロムの絵が大好きです。描いているところをとなりで酒でも飲みながら見ていたいほどに。そして酔っ払ってちょっかいだして怒られる未来。\n\n冗談はさておき、直感のイメージとしてはメンズキャラ、細身？そんなデカくも小さくもない？そんなところ。とはいえ基本的にはもうヒロムのイメージを先行させてほち。思いのままに。\n\n画像添付ができそうでできない。",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

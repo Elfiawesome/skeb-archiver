@@ -1,0 +1,468 @@
+{
+  "screen_name": "hoppete1129",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 3839519,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1993027632020307972/_Tg6kz2d.jpg",
+    "name": "ほっぺて",
+    "nsfw_acceptable": false,
+    "screen_name": "hoppete1129",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1495789931045998594/1645460270/1500x500",
+    "body_size": 1600,
+    "received_works_count": 4,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "ねこがねころんだ。http://skeb.jp/@hoppete1129",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 14,
+    "complete_expiration_days": 60,
+    "nc": 144,
+    "twitter_uid": "1495789931045998594",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "hoppete1129",
+        "url": "https://x.com/hoppete1129"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fhoppete1129%2Fbackground%3Fd%3D394f0a?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU15d3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44G744Gj44G644Gm&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=32a7efa26f5f035892d44b8ff6f1abd1",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 3000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@hoppete1129/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3839519,
+        "client_id": 300145,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e41262d8429047012a9ac062533ca0f5",
+          "srcset": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e41262d8429047012a9ac062533ca0f5, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5d44f3a589417777cf2542c208afcde8 2x, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9613cca1886bb47e3cf37c05db51d166 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c76dc98c27ea3e0b498c6867e79b1f57",
+          "srcset": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c76dc98c27ea3e0b498c6867e79b1f57, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ef04cd7c9f052c1489926ab7553a9579 2x, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=60316aa2a8f8772fb7eaa667342c0f46 3x"
+        },
+        "body": "オレンジ色のビキニを着た私のオリジナルキャラクターを描いてください。セクシーなポーズで。\n目の色：グレー\n\n身長: 5'9 \"\n\n年齢: 20\n\n犬耳\n\nアクセサリー：赤い首輪\n\n背景: ビーチ\n\nポーズ: セクシー\n\n表情：浮気\n\n私のオリジナルキャラクターの参考文献はこちら: https://www.deviantart.com/citrusanime/art/My-Offical-DA-Mascot-290687270\n\n他のアーティスト 1. https://sta.sh/023ht6z36vqf 2. https://sta.sh/0278r2mg6ixd 3. https://sta.sh/0k1ja8v3adq\n\nポーズの参考文献 1. https://sta.sh/0ufsyy8di0d 2. https://sta.sh/0sozjsty4p7 3. https://sta.sh/01hzsy3ciyyy\n\nセクシーに描いてください。",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@hoppete1129/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3839519,
+        "client_id": 3451321,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c4debdb5942245078e1103235025713e",
+          "srcset": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c4debdb5942245078e1103235025713e, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=503ddea8ab8d4e73e2fe7c122b28bb3e 2x, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1d2a42c399772919382e5edfa40bbac9 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b1381982ac68cf0ee7b0d4f01a6503c",
+          "srcset": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b1381982ac68cf0ee7b0d4f01a6503c, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9a052be08b095b9efef67310b9784ad8 2x, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c7a62444029d101b215dcd1bf6a18085 3x"
+        },
+        "body": "Hello\n\nI'd like to commission an illustration of my VTuber, Hanamar0u, with her Kibana plushie.\n\nIn the scene, Hanamar0u is holding the plushie close and giving it a little kiss, either on the cheek or the head.\n\nHanamar0u's expression should be tender and affectionate:\n\n– slightly closed or smiling eyes,\n– rosy cheeks,\n\n– a very cute and warm atmosphere.\n\nShe should keep her usual design: her bear ears and tail, her hairstyle, and her outfit (anything you like).\n\nThe Kibana plushie should be recognizable but stylized as a plushie.\n\nThe overall atmosphere should be soft, cozy, and full of affection.\n\nThank you very much.\n\nhttps://drive.google.com/drive/folders/1oPSrj8XzLydXvGRs7a6Dkclc-dQYrJWZ?usp=sharing",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@hoppete1129/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3839519,
+        "client_id": 3527993,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4269d7962a5711b2ead89e75f13fcdd2",
+          "srcset": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4269d7962a5711b2ead89e75f13fcdd2, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a0cdba6ae40c34e0a0c996bb62dec46a 2x, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7696251e9f90fabb611aa42feb2df247 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=93687a2133e703890ab79a009aa6dcf1",
+          "srcset": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=93687a2133e703890ab79a009aa6dcf1, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=00395eaae1d8d3b3949f8b2cfed9e89c 2x, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d53ad44aed54fc2e0fa1ff137d83d836 3x"
+        },
+        "body": "ほっぺて様、はじめまして\nXでの素敵なイラストに惹かれてリクエストを送らせていただきました\n\n依頼内容としては、VSingerのルワ♢ruwaさんの（@ruwanouta）の\nファンアートをお願いしたいです\n\n【構図・ポーズ】\n口元に百合の花を当てている\nイラストを依頼したいです\n\n立ち絵（2種類ありますが、下側の新衣装でお願いいたします）\nhttps://lit.link/ruwanouta\n\nx\nhttps://x.com/ruwanouta\n\n【使用用途】\nskebに依頼したFA絵として、ほっぺて様のお名前を明記した上でXへ投稿いたします。\nルワ♢ruwaさんのYouTubeやSNSを含む活動にて使用する可能性があります\n・SNSでの投稿\n・収益化済YouTubeチャンネルでの使用\n・配信での使用\n・歌ってみた等の動画での使用\n・サムネイル\n・メンバーシップやFANBOX等の加入者特典としての配布\n・グッズ製作\n\n・可能であれば頭部の切れていない背景透過を頂きたいです。\n\n■特徴\n紫色の瞳に水色の光\n髪色は紫がかった薄いグレーに、毛先が紫色\n鎖骨上のほくろ\n\n何卒ご検討のほどよろしくお願いいたします。",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@hoppete1129/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3839519,
+        "client_id": 2495946,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6e125772c8ddc9c45d5acfa17881ca81",
+          "srcset": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6e125772c8ddc9c45d5acfa17881ca81, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5d5ee249b6673b535cee5109398bb622 2x, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3516d2574670cb49e87f06657cd76f5b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=294bca0811cd6528b73459d24b103354",
+          "srcset": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=294bca0811cd6528b73459d24b103354, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b9cb19bead048e8e27ee70e0fb80ac76 2x, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0fc145393f5e9661b54189c14b5e3763 3x"
+        },
+        "body": "先生、こんにちは！はじめまして。お願いがあります。\n\n✨️ 登場人物\n[1] クイン\n男性。168cm。\n最初はあまり親切ではなく、しばしば皮肉屋で、舌鋒鋭く他人を批判する。人を遠ざけ、気にかけるのは難しいが、いったん気にかけると思慮深くなり、それが恥ずかしいと感じる。\n- 目は異色症で、片方の色がもう片方より薄い。\n- 髪の宝石に注意してください。\n- いつも黒い手袋をしている。\n\n[2] アルファルド\n男性。170cm。\n自分の素晴らしさを自慢したがり、ナルシストな目立ちたがり屋に見える。にもかかわらず、他人のことはとても気にかける。\n- 普段は \"デフォルトの衣装 \"を着ている。マントは描いてほしい。\n- 青い目と黄色い目があり、目のライトがキラキラして見える。\n- いつも黒い手袋をしている。\n\nポーズや構図は自由に選んでください。\n\n✨️リクエスト\nあなたのこの作品が一番好きです：\nhttps://x.com/hoppete1129/status/1998034045754880100/photo/1\nhttps://x.com/hoppete1129/status/1997516601206428144/photo/1\n\n色がとてもきれいで、水彩画のようです！\n同じようなスタイルのキャラクターを見てみたいです！\n\n✨️参考文献\nhttps://peapup.notion.site/quinoa-26a8ee95900280d99005cd1403e53953\nhttps://toyhou.se/35486195.alphard-sinclair-pwr/gallery?key=aTpCSoxuAVJuCNc\n\nご検討ありがとうございました！",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 1711709,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "Stella",
+        "screen_name": "SStella_JP",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1948232322844938240/vukz--jz.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1098147966429188097/1689637181/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      },
+      {
+        "id": 1948730,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "あまうあめ",
+        "screen_name": "ameameame",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1902001972888367104/x0eyI9d1.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/828879537387679744/1733566866/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 2303209,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "もも寝子@イラストレーター",
+        "screen_name": "Momone_cco",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1764539494366339072/6vCjR3M6.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1557925763533647874/1759419269/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 2514579,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "吉備団子🍡",
+        "screen_name": "kibitanko",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1625027851157377024/Rt2GhWrj.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1572966897179512832/1670770337/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3574547,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "✨️@S⊃E→✨️",
+        "screen_name": "RfNBmm7jJD58422",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1934977540898398209/QbGM8Wgp.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1905187883692224512/1750028615/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 21,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 3661644,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "encha🐾",
+        "screen_name": "enncha_2",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1950153196007280643/vnteJqLB.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1863430951218688000/1754296045/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 128
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 3000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@hoppete1129/works/4",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3839519,
+      "client_id": 300145,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e41262d8429047012a9ac062533ca0f5",
+        "srcset": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=e41262d8429047012a9ac062533ca0f5, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5d44f3a589417777cf2542c208afcde8 2x, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=9613cca1886bb47e3cf37c05db51d166 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c76dc98c27ea3e0b498c6867e79b1f57",
+        "srcset": "https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c76dc98c27ea3e0b498c6867e79b1f57, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ef04cd7c9f052c1489926ab7553a9579 2x, https://si.imgix.net/02144bd5/uploads/origins/3f37462d-4a23-47e8-8fc5-f505368044d5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=60316aa2a8f8772fb7eaa667342c0f46 3x"
+      },
+      "body": "オレンジ色のビキニを着た私のオリジナルキャラクターを描いてください。セクシーなポーズで。\n目の色：グレー\n\n身長: 5'9 \"\n\n年齢: 20\n\n犬耳\n\nアクセサリー：赤い首輪\n\n背景: ビーチ\n\nポーズ: セクシー\n\n表情：浮気\n\n私のオリジナルキャラクターの参考文献はこちら: https://www.deviantart.com/citrusanime/art/My-Offical-DA-Mascot-290687270\n\n他のアーティスト 1. https://sta.sh/023ht6z36vqf 2. https://sta.sh/0278r2mg6ixd 3. https://sta.sh/0k1ja8v3adq\n\nポーズの参考文献 1. https://sta.sh/0ufsyy8di0d 2. https://sta.sh/0sozjsty4p7 3. https://sta.sh/01hzsy3ciyyy\n\nセクシーに描いてください。",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hoppete1129/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3839519,
+      "client_id": 3451321,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c4debdb5942245078e1103235025713e",
+        "srcset": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=c4debdb5942245078e1103235025713e, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=503ddea8ab8d4e73e2fe7c122b28bb3e 2x, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=1d2a42c399772919382e5edfa40bbac9 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b1381982ac68cf0ee7b0d4f01a6503c",
+        "srcset": "https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=5b1381982ac68cf0ee7b0d4f01a6503c, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9a052be08b095b9efef67310b9784ad8 2x, https://si.imgix.net/58deebd4/uploads/origins/a3cd77d8-7eb9-4053-a2f0-fbeeae689fd2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c7a62444029d101b215dcd1bf6a18085 3x"
+      },
+      "body": "Hello\n\nI'd like to commission an illustration of my VTuber, Hanamar0u, with her Kibana plushie.\n\nIn the scene, Hanamar0u is holding the plushie close and giving it a little kiss, either on the cheek or the head.\n\nHanamar0u's expression should be tender and affectionate:\n\n– slightly closed or smiling eyes,\n– rosy cheeks,\n\n– a very cute and warm atmosphere.\n\nShe should keep her usual design: her bear ears and tail, her hairstyle, and her outfit (anything you like).\n\nThe Kibana plushie should be recognizable but stylized as a plushie.\n\nThe overall atmosphere should be soft, cozy, and full of affection.\n\nThank you very much.\n\nhttps://drive.google.com/drive/folders/1oPSrj8XzLydXvGRs7a6Dkclc-dQYrJWZ?usp=sharing",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hoppete1129/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3839519,
+      "client_id": 3527993,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4269d7962a5711b2ead89e75f13fcdd2",
+        "srcset": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4269d7962a5711b2ead89e75f13fcdd2, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a0cdba6ae40c34e0a0c996bb62dec46a 2x, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=7696251e9f90fabb611aa42feb2df247 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=93687a2133e703890ab79a009aa6dcf1",
+        "srcset": "https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=93687a2133e703890ab79a009aa6dcf1, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=00395eaae1d8d3b3949f8b2cfed9e89c 2x, https://si.imgix.net/46b47aac/uploads/origins/bbfa681e-abd1-463c-9852-f05e1585b796?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d53ad44aed54fc2e0fa1ff137d83d836 3x"
+      },
+      "body": "ほっぺて様、はじめまして\nXでの素敵なイラストに惹かれてリクエストを送らせていただきました\n\n依頼内容としては、VSingerのルワ♢ruwaさんの（@ruwanouta）の\nファンアートをお願いしたいです\n\n【構図・ポーズ】\n口元に百合の花を当てている\nイラストを依頼したいです\n\n立ち絵（2種類ありますが、下側の新衣装でお願いいたします）\nhttps://lit.link/ruwanouta\n\nx\nhttps://x.com/ruwanouta\n\n【使用用途】\nskebに依頼したFA絵として、ほっぺて様のお名前を明記した上でXへ投稿いたします。\nルワ♢ruwaさんのYouTubeやSNSを含む活動にて使用する可能性があります\n・SNSでの投稿\n・収益化済YouTubeチャンネルでの使用\n・配信での使用\n・歌ってみた等の動画での使用\n・サムネイル\n・メンバーシップやFANBOX等の加入者特典としての配布\n・グッズ製作\n\n・可能であれば頭部の切れていない背景透過を頂きたいです。\n\n■特徴\n紫色の瞳に水色の光\n髪色は紫がかった薄いグレーに、毛先が紫色\n鎖骨上のほくろ\n\n何卒ご検討のほどよろしくお願いいたします。",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@hoppete1129/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3839519,
+      "client_id": 2495946,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6e125772c8ddc9c45d5acfa17881ca81",
+        "srcset": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=6e125772c8ddc9c45d5acfa17881ca81, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5d5ee249b6673b535cee5109398bb622 2x, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=3516d2574670cb49e87f06657cd76f5b 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=294bca0811cd6528b73459d24b103354",
+        "srcset": "https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=294bca0811cd6528b73459d24b103354, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b9cb19bead048e8e27ee70e0fb80ac76 2x, https://si.imgix.net/8920a2c1/uploads/origins/12bb27b6-6f45-4367-acc3-0544c538ef28?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0fc145393f5e9661b54189c14b5e3763 3x"
+      },
+      "body": "先生、こんにちは！はじめまして。お願いがあります。\n\n✨️ 登場人物\n[1] クイン\n男性。168cm。\n最初はあまり親切ではなく、しばしば皮肉屋で、舌鋒鋭く他人を批判する。人を遠ざけ、気にかけるのは難しいが、いったん気にかけると思慮深くなり、それが恥ずかしいと感じる。\n- 目は異色症で、片方の色がもう片方より薄い。\n- 髪の宝石に注意してください。\n- いつも黒い手袋をしている。\n\n[2] アルファルド\n男性。170cm。\n自分の素晴らしさを自慢したがり、ナルシストな目立ちたがり屋に見える。にもかかわらず、他人のことはとても気にかける。\n- 普段は \"デフォルトの衣装 \"を着ている。マントは描いてほしい。\n- 青い目と黄色い目があり、目のライトがキラキラして見える。\n- いつも黒い手袋をしている。\n\nポーズや構図は自由に選んでください。\n\n✨️リクエスト\nあなたのこの作品が一番好きです：\nhttps://x.com/hoppete1129/status/1998034045754880100/photo/1\nhttps://x.com/hoppete1129/status/1997516601206428144/photo/1\n\n色がとてもきれいで、水彩画のようです！\n同じようなスタイルのキャラクターを見てみたいです！\n\n✨️参考文献\nhttps://peapup.notion.site/quinoa-26a8ee95900280d99005cd1403e53953\nhttps://toyhou.se/35486195.alphard-sinclair-pwr/gallery?key=aTpCSoxuAVJuCNc\n\nご検討ありがとうございました！",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

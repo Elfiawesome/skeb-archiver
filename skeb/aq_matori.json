@@ -1,0 +1,452 @@
+{
+  "screen_name": "aq_matori",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 2871285,
+    "acceptable": false,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1690322518098509824/bXHHKM-B.png",
+    "name": "秋悠",
+    "nsfw_acceptable": true,
+    "screen_name": "aq_matori",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1460060357704454148/1690984284/1500x500",
+    "body_size": 10000,
+    "received_works_count": 7,
+    "received_nsfw_works_count": 1,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "描いたファンアートとひとりごと。成人雑食。何でも許せる人向け。Skeb: https://skeb.jp/@aq_matori",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 14,
+    "complete_expiration_days": 90,
+    "nc": 33,
+    "twitter_uid": "1460060357704454148",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "aq_matori",
+        "url": "https://x.com/aq_matori"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Ffcdn.skeb.jp%2Fassets%2Fv1%2Fcommons%2Fogp.png?auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fb919ed2f719addcbe44cbdea9c1851a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 5000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 1,
+    "received_works": [
+      {
+        "path": "/@aq_matori/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 3231989,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5249e595ffcfad33a406549b5def9a8e",
+          "srcset": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5249e595ffcfad33a406549b5def9a8e, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=24f9f25033d1f18da153aa1c9db10e96 2x, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5fb85b02736345bfbad78210f152f471 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6f3aa2a5d3a5f464736d29621f43b441",
+          "srcset": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6f3aa2a5d3a5f464736d29621f43b441, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1895ea7253062d6d96924f19dda5eb8c 2x, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=246603bee25069341cbfeff9bea2a5a8 3x"
+        },
+        "body": "またまたこんにちは、前回も本当にありがとうございました。🥰\nボニーさんは食べ物の絵がとてもお上手で、食欲をそそるような絵を描かれるので、ボニーさんのイラストで食べ物のイラストを描いていただけませんか？\n\n以下、参考資料です：\nhttps://x.com/TorinoAqua/status/1374662566673149953\nwww.pixiv.net/artworks/100668580\nhttps://drive.google.com/file/d/14sh2Gt2i7kJoALPxHL9rSd2E2mUrR2n-/view?usp=sharing\n\n今回は背景を描いてほしい。あまり複雑なものでなくていいので、屋内（レストラン、食堂、カフェテリア）にいるような印象を与えるものでいい。\n\nボニーの服装については、この服を着ているところを描いてほしい：\nhttps://drive.google.com/file/d/1NTovLSg2FTvcEOv7e8fhBTxMqucxDXqI/view?usp=sharing\n\n必要であれば、自由に変更してください。よろしくお願いします。🤗",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@aq_matori/works/6",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/727b7aed/uploads/origins/6c8fdcf5-316a-4f75-bc7b-3a0c4fcb821b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d5570e365ecdc5684bdc60e3f4c0bcc1",
+          "srcset": "https://si.imgix.net/727b7aed/uploads/origins/6c8fdcf5-316a-4f75-bc7b-3a0c4fcb821b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d5570e365ecdc5684bdc60e3f4c0bcc1, https://si.imgix.net/727b7aed/uploads/origins/6c8fdcf5-316a-4f75-bc7b-3a0c4fcb821b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=70f66269379c8d54ad13ab8525e88208 2x, https://si.imgix.net/727b7aed/uploads/origins/6c8fdcf5-316a-4f75-bc7b-3a0c4fcb821b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f2f655ecf3b6f24369bc2d5f0ce73697 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 3231989,
+        "nc": 129
+      },
+      {
+        "path": "/@aq_matori/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 604664,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4d0cd7809d26fde48065548165bf4331",
+          "srcset": "https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=4d0cd7809d26fde48065548165bf4331, https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0c98e12be0023ffa480e93dda68dd206 2x, https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b81596e40503d8343fe97048ff30a74e 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b57d779e00144be987db8725ce74c911",
+          "srcset": "https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b57d779e00144be987db8725ce74c911, https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ecb7564a13cee2cf0a8d899755d36add 2x, https://si.imgix.net/dccbfe33/uploads/origins/c1d726d2-84e3-4625-a29e-0db8e38e51bf?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=184da587d07f7a74ea3c3893dafe7d87 3x"
+        },
+        "body": "こんにちは！\n\n先日、ドン・キホーテが憎しみの女王のドレスを着て、リンバス社のアイデンティティとして発表されました。\n\nそして、ベティ（ニューラルクラウド）がこのかわいい魔法少女の服を着たら、どんな風に見えるんだろう？\nベティはサイドスクリーンに簡単なイメージを描くことができる。もしそれが表示されているなら、彼女はおそらく憎しみの女王のハートのヘアピン（彼女のウェディングドレスのアートに似ているもの）を描くことができるだろう。\nベティ\nhttps://imgur.com/a/betty-refs-OAf9PnG\n憎悪の女王：ルイーナ図書館バージョンもいい参考になる！\nhttps://lobotomycorp.fandom.com/wiki/The_Queen_of_Hatred\n\nポーズはお任せします～！\n\nリクエスト読んでくれてありがとう",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@aq_matori/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 604664,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bc4874af0a897afec744731bc73b6618",
+          "srcset": "https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=bc4874af0a897afec744731bc73b6618, https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=41292466e2d878b632c6ca6debe6dda0 2x, https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=8fec03edad3ae04c173baf3c4d11fc77 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c8471f051da8d9cf49b5437e7ca1c288",
+          "srcset": "https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c8471f051da8d9cf49b5437e7ca1c288, https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6fcadb90d5bc96aa5978d65a803d93a7 2x, https://si.imgix.net/1319b9c9/uploads/origins/4903559f-8c4c-4f78-a35c-d1e07d28fcc5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e6a31084019a37b4a0ed5eeede96d3ea 3x"
+        },
+        "body": "ベティとニューラル・クラウドの女教授についてお願いがあります。\n\nベティ\nhttps://imgur.com/a/betty-refs-GH9B76m\n女教授\nhttps://imgur.com/a/professor-refs-jUDfykx\n\nベティが教授の上で寝ている、こんな感じ：\nhttps://imgbox.com/UU6CPdDr\n\nおそらく裸なので、NSFWタグに印をつけた！\n\nベティに関して細かいことを言うと、彼女は頭の横に小さなドットマトリックスを表示できるスクリーンをいくつか持っている。\n\nリクエストを読んでくれてありがとう！",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@aq_matori/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 3231989,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be13dca5d032a34fe33002a8e9f64c01",
+          "srcset": "https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=be13dca5d032a34fe33002a8e9f64c01, https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=60fee58d931907eb8f8784951a3a78d9 2x, https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=06e9961a4700f2ec21017951a06d63da 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b629d80bd2a1b9778b39fe9c2443d1f6",
+          "srcset": "https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b629d80bd2a1b9778b39fe9c2443d1f6, https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=ad990398e127025ac086fe3463903651 2x, https://si.imgix.net/947b2933/uploads/origins/1a2e1ac9-e506-4fad-b732-bbba96c88e53?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=8a17653a0972a02f884d754be57829cb 3x"
+        },
+        "body": "今回もまた、あなたの描くアートワークが大好きなので、Neural Cloudのボニーについてリクエストしたいと思います。\"ボニー(ニューラルクラウド)\"\n\nhttps://imgur.com/a/bonee-qxifzvH\n小柄で、臆病で、純粋で、無邪気な女の子。\n\n前の作品で描いていただいた服装が気に入ったので、冬の日のデートに着ていくような服装で描いていただきたい。\nできれば、彼女のような性格の女の子が着るような服がいいです。\n\nポーズもかわいければなんでもいいです。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@aq_matori/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 3231989,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=21984db2f17d27624a1b1019463e882b",
+          "srcset": "https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=21984db2f17d27624a1b1019463e882b, https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=58cb54f9db0aaab9c893b1afdf5e96b8 2x, https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=c64e90d37c0d853e25960a57d1a6a51a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b609d140f44b491cee2e7d5b04144b84",
+          "srcset": "https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b609d140f44b491cee2e7d5b04144b84, https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f67222ba282a9c2fbba07ee0fa064074 2x, https://si.imgix.net/76fc28fd/uploads/origins/9f44cc8d-83e9-4083-8013-5ece12580b15?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e4bd1bb5a847f870df5f13427d4c6251 3x"
+        },
+        "body": "こんにちは、Neural CloudのBoneeについてお願いがあります。\"ボニー(ニューラルクラウド)\"\n\nhttps://imgur.com/a/B196rqQ\n彼女はとても小さくて臆病です。\n\nハロウィンをテーマにしたコスチュームを着せたいのですが、参考までにhttps://imgur.com/a/q4NqfeH。\nハロウィンがテーマであることを確認してください。\n\nできれば、このように腰から上を描いてほしいです：\nhttps://x.com/aq_matori/status/1650084045576077314\nhttps://x.com/aq_matori/status/1677734057868918785\n\nどんなポーズでも構いません。",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@aq_matori/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 2871285,
+        "client_id": 604664,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=25473a9074d3e314d5ff5c647a5271fa",
+          "srcset": "https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=25473a9074d3e314d5ff5c647a5271fa, https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=5a516ff22130e01aaa9656042dfded5d 2x, https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5ba13a1e7e517379a46889cdda3228ff 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7eaca257ee9352941143d605c1c8bebe",
+          "srcset": "https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=7eaca257ee9352941143d605c1c8bebe, https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=83c45a5daee5fea547fc52f28e7e7aed 2x, https://si.imgix.net/ceb684a3/uploads/origins/0806b603-6c2c-4d44-92bf-5b140b9b549d?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=cb4e463c9ac6a0b1e52519ad517a987f 3x"
+        },
+        "body": "こんにちは、ニューラルクラウドのボニーについてお願いがあります。\"ボニー(ニューラルクラウド)\"\n\nhttps://x.com/NeuralCloudEN/status/1563103963523649537\nhttps://x.com/NeuralCloudEN/status/1562999908969611264\nhttps://iopwiki.com/index.php?title=Bonee&mobileaction=toggle_view_desktop#Gallery\n\nこのようなポーズで武器を構える。\nhttps://imgbox.com/kz340Y6T\n\nリクエストを読んでくれてありがとう！",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 221268,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "その",
+        "screen_name": "sonosoru",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2000092848247709696/LPeM4bcD.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1957466795344093184/1759358659/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 177
+      },
+      {
+        "id": 2375940,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "大野修汰(Skeb募集中)",
+        "screen_name": "SakuraIbuki",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1908012331789148160/psOB137m.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/121733159/1748146805/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 2551381,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "あずお",
+        "screen_name": "a961nu",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2019044488132575232/KGz0ekGu.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1386533466943025155/1734175057/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 2552075,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "とら",
+        "screen_name": "Maid_Tiger",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2010535886627459072/LhUbKnrP.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1298817322942046209/1715346110/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 25,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "novel"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 2778953,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ねじゅみ企画",
+        "screen_name": "nejumipro",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1324826032109580294/Q7lFWc7D.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/977511810784874497/1648189073/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3029083,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ちこちゃん⛺️",
+        "screen_name": "chico_suke_",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2012832999994200064/7pcQtkDy.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1731509548094296064/1770139950/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 5000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@aq_matori/works/7",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 2871285,
+      "client_id": 3231989,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5249e595ffcfad33a406549b5def9a8e",
+        "srcset": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=5249e595ffcfad33a406549b5def9a8e, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=24f9f25033d1f18da153aa1c9db10e96 2x, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5fb85b02736345bfbad78210f152f471 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6f3aa2a5d3a5f464736d29621f43b441",
+        "srcset": "https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=6f3aa2a5d3a5f464736d29621f43b441, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1895ea7253062d6d96924f19dda5eb8c 2x, https://si.imgix.net/4e2dfafc/uploads/origins/bea7e3ef-46a5-45bb-9f59-7e9424523321?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=246603bee25069341cbfeff9bea2a5a8 3x"
+      },
+      "body": "またまたこんにちは、前回も本当にありがとうございました。🥰\nボニーさんは食べ物の絵がとてもお上手で、食欲をそそるような絵を描かれるので、ボニーさんのイラストで食べ物のイラストを描いていただけませんか？\n\n以下、参考資料です：\nhttps://x.com/TorinoAqua/status/1374662566673149953\nwww.pixiv.net/artworks/100668580\nhttps://drive.google.com/file/d/14sh2Gt2i7kJoALPxHL9rSd2E2mUrR2n-/view?usp=sharing\n\n今回は背景を描いてほしい。あまり複雑なものでなくていいので、屋内（レストラン、食堂、カフェテリア）にいるような印象を与えるものでいい。\n\nボニーの服装については、この服を着ているところを描いてほしい：\nhttps://drive.google.com/file/d/1NTovLSg2FTvcEOv7e8fhBTxMqucxDXqI/view?usp=sharing\n\n必要であれば、自由に変更してください。よろしくお願いします。🤗",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

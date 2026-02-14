@@ -1,0 +1,443 @@
+{
+  "screen_name": "FuteiAnser",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 3645883,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1990740369630527488/kngg8d_s.jpg",
+    "name": "不定アンサー◇個人V",
+    "nsfw_acceptable": false,
+    "screen_name": "FuteiAnser",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1819937119378542592/1723455098/1500x500",
+    "body_size": 1000,
+    "received_works_count": 5,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "さあ、何者か探しにいこう。趣味で個人勢Vしているよ！ビジュ→on℃さま（@ondo_info）３Ｄ→マッディさま（@dead_maddy）Live2D→なかばちさま（@itu_2022） skeb（イラスト&ボイス→ https://skeb.jp/@FuteiAnser）",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": "https://www.youtube.com/@Anser-Futei",
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 10,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": 66987,
+    "completing_average_time": 3813251,
+    "nc": 17,
+    "twitter_uid": "1819937119378542592",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "FuteiAnser",
+        "url": "https://x.com/FuteiAnser"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2FFuteiAnser%2Fbackground%3Fd%3D7c4321?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU1pd3dNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=5LiN5a6a44Ki44Oz44K144O84peH5YCL5Lq6Vg&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=990b6c2aafa08fe8fe46d5b717712f9d",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 2000
+      },
+      {
+        "genre": "voice",
+        "default_amount": 500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@FuteiAnser/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "voice",
+        "tipped": false,
+        "creator_id": 3645883,
+        "client_id": 1676532,
+        "vtt_url": "https://fcdn.skeb.jp/uploads/outputs/a5c12097-346d-49cb-a8f8-f4b7c86edace?response-content-disposition=inline&Expires=1771678876&Signature=MCo4fTL0HSa~NW0-Qq6A2dMAOAPG0SrfbAJ7-qoqCAHv~7~qfoOilv5Xkym7lG-RNc~AXAwcWBMrGq7pXef~HHHnQEj4IJjLsdGa3ZnA5WBPkefvAoyWDn4wM0gc1gkuqAXsC8QiM-FuysXaauB3EU3QJnr9~cHjEZ~nv-qQTp6PtxYMlkC2GlxlXD0D-qtUBs4A87V58aAQGhI2Ou8LRPhMxY4Vhl8XEpxMCv6mnbFsNAuVW5Vd1aKzYE5zUIU9PsMH45Z3qmsRIMvppVlvsK9JPJnULwtMavAbvcq8W6mMwYTy6D2mguqKe6~drlGFpJ-cSSRLieR11boMbSaVvA__&Key-Pair-Id=K1GS3H53SEO647",
+        "thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a567f43b432f3b199870554ade2b275b 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bbd87139bafd96d0c48e04db928f0262 3x"
+        },
+        "preview_url": "https://fcdn.skeb.jp/uploads/outputs/a6863a95-2a87-45c4-b4a3-2d03f6fd2e40?response-content-disposition=inline&Expires=1771678876&Signature=fJ7ffwoNjLvOvVOvcVQ9b943JEAGLwdy5a6x4ym6P8nK9tfpMjrI5TwdxYF6lmXcxm8oc4Vhw4SK8lc7JDM26LcHMgTwC-j781cLfxYZjvlgq9CNBFnDs8cpMCUK~Y5mN0h97zG-Tm07gCulxCXM9wjp~HTTQ1mHUJ1yVi06os~e0k8y41knM~MyQrelI0xjdzqv6f9fjj5apwhIu79zFDbcEUy88HGgJOaPQVIAci43QTmDoq5JEy1wF~BhwfYGfqQkUSp9NSR9F4FAntm~9QmYx4sbpzMZdiP5Ui9y9w5ch4cmfXfkR-gsS2RzqsIMbF-2P7FiZPCXpwna1kKS4w__&Key-Pair-Id=K1GS3H53SEO647",
+        "duration": 73,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=50b21fabdc72583bd87a71180f456116 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d7fc5f2d20f3b1ab5827d9ca68c88117 3x"
+        },
+        "body": "Hello! I like your voice. I wanted to get an audio recording for a script. The concept is magical and mysterious.  [not read fast] \"shadow within the beauty.\" [low and mysterious] [pause] \"I’ve lived among the trees, where the sunlight dances on leaves, but even here, the shadow follows me.\" [soft, low, intense] [pause] \"It lingers in the quiet spaces between the branches...\" [short pause] \"a reminder that beauty is never without its darkness.\" [mysterious, soft]  [pause] \"For in the forest...\" [bright and low] [short pause] \"the brightest bloom always hides the deepest.\" [soft] \"and the light...\" [short pause] [soft and mysterious] \"though pure...\" [short pause] \"cannot exist without the shadow within.” [mysterious, low, and fading]  Thank you for your consideration!",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "audio",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@FuteiAnser/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "voice",
+        "tipped": false,
+        "creator_id": 3645883,
+        "client_id": 3265673,
+        "vtt_url": "https://fcdn.skeb.jp/uploads/outputs/62bd80a0-4987-49a0-9033-a0e0ad14b1a4?response-content-disposition=inline&Expires=1771678876&Signature=QA2qihZkRCFjWBttK0Njhyan-68CiVlDmoDn-3ShXM-GR5n01lW0SkLFh3QoSN09Hjc9Mceco51-TDLiXvvVVydgXZ7-KqZF2fdyZ7jCA9XhKPIZ2HbdJ1ZiCiSFOmSvD~oXSbaUqqLkKwyN4ZFR~E--XCyX3tP7FLBYpyz2B0-pOlJXn302bchNfisD0KpotwKszOWCGR7UQuXKgTMsSul2rm88IUZYHuQFcKDLFtBgWljenyFPNCJ5hYAMBFLnnz8-x2j83OfUzmvpgiUwnprqWDYUv~3J10iN09crqmEBumfJbqUziWuNb5GNpfO6WlySL04GCXKdPRrzWdD1wg__&Key-Pair-Id=K1GS3H53SEO647",
+        "thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a567f43b432f3b199870554ade2b275b 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bbd87139bafd96d0c48e04db928f0262 3x"
+        },
+        "preview_url": "https://fcdn.skeb.jp/uploads/outputs/d4ab56fa-1f24-4743-a68f-e0807c61d044?response-content-disposition=inline&Expires=1771678876&Signature=JSuS8sVUdbyTSmFSXzN0C23IaC9tCH55mxtIQTmdcWUn5h1ZyrUn8zv2wlW0CXaoyIjOEZ5jXqJ7c7D4SiDRJOCaYehX9sPkn5rwzexhwgyJkXl7uepJ05xv7uN3ZJVgLaI-g6IADteOBvcblLCYQEPgwAwsOvBsSrlUdDC-rmh9shA9DaDW6aV59itMMr~lXZQ7MdMd6LwtpQHU6kksoRHpwLQnDrGZD-fcd50fDonF8~yQKJVYJhXW~XRqy7Zlk7vhBJhXu7KLGfy8gBNJLTBkl3v223wRTCuhLa8W~5DXW~DKoSGL9RrciZXSS~oMjzkQNSphv6EElxmIJUOqwA__&Key-Pair-Id=K1GS3H53SEO647",
+        "duration": 46,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=50b21fabdc72583bd87a71180f456116 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d7fc5f2d20f3b1ab5827d9ca68c88117 3x"
+        },
+        "body": "やぁ\nこんな所に迷い込むなんて、キミって変わり者だね？…え？ここはどこかだって？\n\nなるほど、知らず知らずのうちにということか…なんだい？自分だけわかってないで説明しろ？言葉に気をつけなよ、不安なのは分かるけどボクの機嫌を損ねてここから出られる保証…あるのかい？\n\nよろしい\nじゃあクイズを始めようか！なーに、ちょっとした暇つぶしと、キミへ分かりやすく説明するためのクイズさ…ハイハイ文句を言わずに、いくよ？\n\nお初になります。\nボイスリクエストをお見かけしたので、今回ご依頼させていただきました。",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "audio",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@FuteiAnser/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3645883,
+        "client_id": 1322497,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8dd07e29260c880060bd58720a302430",
+          "srcset": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8dd07e29260c880060bd58720a302430, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=40441a2a184773b4535bb4b1f5577f6c 2x, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bec71b84f6a7928a262e5058f54d4b68 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62fe63903e30ca0bb61ecada1ea1062a",
+          "srcset": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62fe63903e30ca0bb61ecada1ea1062a, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e745573a10e6ffa5725b0ab58a522768 2x, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6f78438b1cbea87c022b6222f0feb4e2 3x"
+        },
+        "body": "skeb開設お疲れ様です！\nこちらのVtuber、もうふさんがウェイトレス衣装で料理を運んで居るイラストをお願いしても良いですか？\nトレイは肩の位置で片手で持ち上げるポーズ、料理はハンバーガーとフライドポテトのセット、衣装はミニスカート気味で可愛いもの（詳細はお任せします）でお願いします！\n\nhttps://x.com/moufu_ofuton?s=21",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@FuteiAnser/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3645883,
+        "client_id": 2949873,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eaff40301667faf1a28a9b6c0c9eda28",
+          "srcset": "https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=eaff40301667faf1a28a9b6c0c9eda28, https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=43bc930252784f75d62a4dc42a012b8c 2x, https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=cdfdf51da25cdb825f28fe13c53adc7a 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c52f1e1a3aa490fc997c2aba58a0912d",
+          "srcset": "https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=c52f1e1a3aa490fc997c2aba58a0912d, https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=880632f212dcd5bf5b7e80d7ab87b05a 2x, https://si.imgix.net/4b76ea97/uploads/origins/0310cfa3-240f-4f94-b7ef-d3a371947161?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=33cd4818645877f66e0c56ed1c86801e 3x"
+        },
+        "body": "お世話になります。\nVtuberの「エドモン・グッド」です。\n是非とも私の一枚絵をご相談させていただければと思いました。\n\nポーズや構図、表情等は全てお任せいたします。\n基本は「おはV」等のポストや、サムネイルでの利用を予定しています。\nもしよろしければ、PNGにて透過バージョンのデータもいただければ幸いです。\n\nデザインの詳細は、リンク先のポストを参照していただければと思います。\n\nご検討いただければ幸いです。\n\nhttps://x.com/Edmond_Good0510/status/1928989080806646084",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@FuteiAnser/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "voice",
+        "tipped": false,
+        "creator_id": 3645883,
+        "client_id": 3628491,
+        "vtt_url": "https://fcdn.skeb.jp/uploads/outputs/9752d953-f29e-41f4-a278-c6e3c47b2f57?response-content-disposition=inline&Expires=1771678876&Signature=qXw4wUwz4HEfbdmLAEUr-DGYjom1NlD8zGBzwMy4Bv16slXTGAdhKwELl1idvBVuYF7IqjTff9vSGiyCcG5RkMoZ5hfvQtLIpkSyPoHSsmi7e8eEvcV7yQAGEX3ykLK1ucoFDGpw-GfzllCUu0OivBoHu9CekFUOZZPVTtnezcF1nqz49CVXeEaro0AGLeCCZCYG-5862QfsMv4KvH0GOhgM4M~SJbvr35NwhdjL256BaHaAhV3ics0etU6Xw~frs55rHUP9b6hMDtKjnJV6frjAS-8PRMiISJ6KPJkgFdgDATZD589vq3gm-eF2DehF7PKpVv4yNeyBbBEKgbUzKA__&Key-Pair-Id=K1GS3H53SEO647",
+        "thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3ae80ead05682a57f3c97ea8268d915f, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=a567f43b432f3b199870554ade2b275b 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bbd87139bafd96d0c48e04db928f0262 3x"
+        },
+        "preview_url": "https://fcdn.skeb.jp/uploads/outputs/9fb116f3-78d6-4fac-a7f4-9677211465cd?response-content-disposition=inline&Expires=1771678876&Signature=AppE9kApFg3VQamXHpji6M93Ugez7Ctm1FMtNS1ZZRtuyC97zAStbJcUFG7EQGwP4X58kUSyOe61WcTo18~ec~dyCYsaKsvBojrxmMJxSHReK09pX~u9gjPeVV6mCm9hzX~gaTmS8LwMj8Ly-zWrZxrQYMvAmDks8Upx0-uubimdlxsXMpbokUko~H0EoshxjHHjoyOeq45qP5nTQob9G58Vp2wTk69YILCPN8hFUCW-JthKt3hSN6quX1POGH-pgHmJpKFKeLgvFpbv~SExMoGoP6nS8OPrxGIvINyJyny0j-hsh7lG4j63cnQHaiq5zO3T6BJu9dDxvJGnYhK3SA__&Key-Pair-Id=K1GS3H53SEO647",
+        "duration": 32,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35",
+          "srcset": "https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=b2e2af0c025fb7debeef2e8957b8ed35, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=50b21fabdc72583bd87a71180f456116 2x, https://skeb-avatar.imgix.net/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990740369630527488%2Fkngg8d_s.jpg?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d7fc5f2d20f3b1ab5827d9ca68c88117 3x"
+        },
+        "body": "VTuberとしての自己紹介的なものがあればお願いします",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "audio",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 757442,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "戌吉コタ",
+        "screen_name": "_INUYOSHI_",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1395619938346225670/1qeD04OX.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1186269035433869313/1634300114/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 1112628,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "りゅーき",
+        "screen_name": "Ryuki_shake540",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1499437530332413953/XoPvDkgE.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1499436827593551873/1726586115/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "video"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 1476392,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "稲垣まこと@新作準備中",
+        "screen_name": "mn_k_ca",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1784595131569696768/GA2AA3qS.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/788292181672927232/1714315621/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          },
+          {
+            "genre": "novel"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 2735250,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "仄々あしゅら🐾🍼",
+        "screen_name": "ashura870",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1948415278016286720/9S3OVEbQ.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1598470896456384513/1684652870/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "voice"
+          },
+          {
+            "genre": "video"
+          }
+        ],
+        "nc": 152
+      },
+      {
+        "id": 3085436,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "邉しゅんか",
+        "screen_name": "llhotorill",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar.webp?url=https%3A%2F%2Fmedia.misskeyusercontent.jp%2Fio%2Fwebpublic-edbf21e3-05bf-4c92-ade7-465afc0cd47e.webp&avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/webpublic-dc6f70e0-cb6a-49be-9318-9684aa0a88df.png",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 15,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 160
+      },
+      {
+        "id": 3564015,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ふんわり雲☁skeb募集中",
+        "screen_name": "funnwari_ku",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2011696503778418688/j5lLDn0Q.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1638378301/1755345249/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 7,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 2000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ],
+    "voice": [
+      {
+        "amount": 500,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@FuteiAnser/works/3",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3645883,
+      "client_id": 1322497,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8dd07e29260c880060bd58720a302430",
+        "srcset": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=8dd07e29260c880060bd58720a302430, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=40441a2a184773b4535bb4b1f5577f6c 2x, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=bec71b84f6a7928a262e5058f54d4b68 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62fe63903e30ca0bb61ecada1ea1062a",
+        "srcset": "https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=62fe63903e30ca0bb61ecada1ea1062a, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e745573a10e6ffa5725b0ab58a522768 2x, https://si.imgix.net/6428e117/uploads/origins/b19430b9-7983-41b7-bfa5-4b7ee5aee5a6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6f78438b1cbea87c022b6222f0feb4e2 3x"
+      },
+      "body": "skeb開設お疲れ様です！\nこちらのVtuber、もうふさんがウェイトレス衣装で料理を運んで居るイラストをお願いしても良いですか？\nトレイは肩の位置で片手で持ち上げるポーズ、料理はハンバーガーとフライドポテトのセット、衣装はミニスカート気味で可愛いもの（詳細はお任せします）でお願いします！\n\nhttps://x.com/moufu_ofuton?s=21",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

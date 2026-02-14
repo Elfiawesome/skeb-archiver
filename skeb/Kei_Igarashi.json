@@ -1,0 +1,655 @@
+{
+  "screen_name": "Kei_Igarashi",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 3776980,
+    "acceptable": false,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1983725001187717125/Mak73CfM.jpg",
+    "name": "五十嵐K",
+    "nsfw_acceptable": true,
+    "screen_name": "Kei_Igarashi",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1666555886/1574389105/1500x500",
+    "body_size": 10000,
+    "received_works_count": 17,
+    "received_nsfw_works_count": 15,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "detail",
+    "asct": null,
+    "description": "だいたいシンデレラガールズお絵描きしてる人。鬱以降身体的や目の問題もあるので残された時間1枚でも多く絵を描きたいです。クリエイター収益配分感謝　サブスクリプションの収益化達成しましたがやらない方向です",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 60,
+    "received_requests_average_response_time": 3606,
+    "completing_average_time": 1672576,
+    "nc": 160,
+    "twitter_uid": "1666555886",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "Kei_Igarashi",
+        "url": "https://x.com/Kei_Igarashi"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Ffcdn.skeb.jp%2Fassets%2Fv1%2Fcommons%2Fogp.png?auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=fb919ed2f719addcbe44cbdea9c1851a",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 12000
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@Kei_Igarashi/works/17",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3776980,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=47dff8a7f90dde47bf3aedb881bd0b84",
+          "srcset": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=47dff8a7f90dde47bf3aedb881bd0b84, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0234b646534318de490e523516fec3ac 2x, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=aa99abb2bdafe087205120c5706b1cde 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0388c52cd8e8506eaea39c9ff03a1256",
+          "srcset": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0388c52cd8e8506eaea39c9ff03a1256, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c5d5f8b982c57fdf5d56085c43d7b04a 2x, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c41c8b7b6ad87165f9a4b69aa190c285 3x"
+        },
+        "body": "アイドルマスターシンデレラガールズの大石泉がPにバストと乳輪のサイズを測られているイラストをお願いします。\n\n・水着のお仕事の都合で急にバストサイズのデータが必要になり、今すぐ測定を頼める相手がPしか居ない状況\n・服装はSR[ネイビーウェーブ]特訓前の私服。上は黒のインナーだけの状態で、自分でインナーをたくし上げて胸を露出させている\n・親愛度はまだお仕事のためにギリギリ測定を許してもらえる程度で、仕方なく胸を見せている\n・お仕事のためとはいえ、胸をじっくり見られているのを我慢しながらPのことをジトッとにらんでいる\n・バストはメジャー、乳輪はノギスで測定\n・バストサイズはプロフィールより何cmか成長している\n\n台詞については、自分の胸を見たり触ったりしても変なことを考えないようにPに釘を刺すような内容が台詞があると嬉しいです。\n\n何卒ご検討の程、よろしくお願い致します。\n\nhttps://imas.gamedbs.jp/cg/idol/detail/123?h=7d9e8adf8a5a5b22d5219e08745affb5",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/16",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cd6e1672/uploads/origins/5436686e-a317-4072-a88a-4940e84146ed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=909eae7cc8890692af353f23a36cbe15",
+          "srcset": "https://si.imgix.net/cd6e1672/uploads/origins/5436686e-a317-4072-a88a-4940e84146ed?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=909eae7cc8890692af353f23a36cbe15, https://si.imgix.net/cd6e1672/uploads/origins/5436686e-a317-4072-a88a-4940e84146ed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=089a2acb0f4e3581f361c7d96e726bbf 2x, https://si.imgix.net/cd6e1672/uploads/origins/5436686e-a317-4072-a88a-4940e84146ed?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=4db88383a525cff0c6a018bae094c689 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3776980,
+        "nc": 32
+      },
+      {
+        "path": "/@Kei_Igarashi/works/15",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 3835244,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fec3975bd9542cc162375b97a4e20ec9",
+          "srcset": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fec3975bd9542cc162375b97a4e20ec9, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=da22a2fa69d675af1606d2da74955462 2x, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=fce70f10269e8b9b690fbbb6c9f1b031 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e09217d5230edaba48d6858289e815d5",
+          "srcset": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e09217d5230edaba48d6858289e815d5, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=10afa1da8ef58f55a728920d9cf435d6 2x, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=dbfe62b04184a0a0e3205e8d30768974 3x"
+        },
+        "body": "はじめまして。\n五十嵐Kさまが描くイラストをいつも楽しく拝見しています。 \n\n\n■依頼内容\n依田芳乃のイラスト \n\n■衣装\nバニーガール衣装(耳付き)でニーソックス着用\n\n■髪型\n低めのポニーテール\n\n■構図\n昨年、五十嵐さまが描いた「バニー衣装の三村かな子」の様な下から見上げた構図\n\n■ポーズ・表情\n恥ずかしそうに衣装が食い込んでいるお尻を手で隠そうとしながらも、意外と満更ではない表情でお願いします。\n\n■その他\nなるべくでよいのですがバニーの耳などは、先端まで切れないように作画していただけますと大変嬉しいです。\n\nその他につきましては五十嵐さまにお任せをいたしますのでよろしくお願いします。\n\n■使用用途\n個人鑑賞です\n\nわがままな依頼で恐縮ではございますが、何卒ご検討のほどよろしくお願いいたします。",
+        "nc": 8,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/14",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 631069,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=185da683ee0739ca5ac2e3483866f5a7",
+          "srcset": "https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=185da683ee0739ca5ac2e3483866f5a7, https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=60108389309daf35bf76cc0045d37329 2x, https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=da55b5415a00eef36a2e0f16455cc53f 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a767355156063ef91833d13f525bdb4a",
+          "srcset": "https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=a767355156063ef91833d13f525bdb4a, https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7e7a045902294abb34107ef8b7ac32f5 2x, https://si.imgix.net/22115214/uploads/origins/2821f978-0132-4ba2-9ae8-f3a81fe97110?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=18df890b2fbc6fbecbf81df8d7ae0850 3x"
+        },
+        "body": "リクエストよろしくお願いします。\n\nデレマス 乙倉悠貴\n\n手ブラと言うより指ブラ(人差し指と中指)姿で照れながら困り眉でこちらを見ている。\nパンツは無しorシンプルなスポーツタイプかノーマルでリボンがフロントに付いているものでお願いします。\n\nそれ以外はお任せします。",
+        "nc": 169,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/13",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cd03ad2e/uploads/origins/5125c6d3-3eeb-46a4-8636-4cc48442023e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3ac3adc2c8aa3c76f86aa81a539a905a",
+          "srcset": "https://si.imgix.net/cd03ad2e/uploads/origins/5125c6d3-3eeb-46a4-8636-4cc48442023e?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3ac3adc2c8aa3c76f86aa81a539a905a, https://si.imgix.net/cd03ad2e/uploads/origins/5125c6d3-3eeb-46a4-8636-4cc48442023e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=adceb6685b169315420aee3bf9895cf6 2x, https://si.imgix.net/cd03ad2e/uploads/origins/5125c6d3-3eeb-46a4-8636-4cc48442023e?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3dc60ce610b2045a7018683880da5ab2 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3776980,
+        "nc": 177
+      },
+      {
+        "path": "/@Kei_Igarashi/works/12",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/05909a72/uploads/origins/ec9d4a64-49c2-41c4-8b0e-7ad0b4536f83?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=aef847da5beb41d8ad660a5475a6ae15",
+          "srcset": "https://si.imgix.net/05909a72/uploads/origins/ec9d4a64-49c2-41c4-8b0e-7ad0b4536f83?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=aef847da5beb41d8ad660a5475a6ae15, https://si.imgix.net/05909a72/uploads/origins/ec9d4a64-49c2-41c4-8b0e-7ad0b4536f83?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e5e64e837f13b34b283e95afb9a38b51 2x, https://si.imgix.net/05909a72/uploads/origins/ec9d4a64-49c2-41c4-8b0e-7ad0b4536f83?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d04a4afb6b89cf889666fe5d8be16adf 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3776980,
+        "client_id": 1104883,
+        "nc": 33
+      },
+      {
+        "path": "/@Kei_Igarashi/works/11",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=79707e65b8968a250b6625a862659090",
+          "srcset": "https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=79707e65b8968a250b6625a862659090, https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3e041ea7f0e662af3eb1692189bbff5b 2x, https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=b64e92109a77a9f26899cb0e300a5f9c 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fcded2fa78f7820b666ba5d1ffd86950",
+          "srcset": "https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=fcded2fa78f7820b666ba5d1ffd86950, https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d71ade113f78e7729a72cb76483f3073 2x, https://si.imgix.net/4488d560/uploads/origins/ef47c05e-c940-46de-87bc-3f366601a89b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f18a89beb5a5bfc3f489a689cd900429 3x"
+        },
+        "body": "アイドルマスターシンデレラガールズの小早川紗枝のイラストをリクエストします。\n衣装はスク水で髪型はポニーテールでポーズはおまかせします。\nよろしくお願いします。",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/10",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d283454e/uploads/origins/143b1413-09dd-4985-ac33-d71520a1634f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=34d8359b27cc94a8273d30baa1622d33",
+          "srcset": "https://si.imgix.net/d283454e/uploads/origins/143b1413-09dd-4985-ac33-d71520a1634f?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=34d8359b27cc94a8273d30baa1622d33, https://si.imgix.net/d283454e/uploads/origins/143b1413-09dd-4985-ac33-d71520a1634f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d2aedccbb22e1fe3e9429f934a29bf89 2x, https://si.imgix.net/d283454e/uploads/origins/143b1413-09dd-4985-ac33-d71520a1634f?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=258232d9001767692d8683de3d97c31c 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 453962,
+        "nc": 34
+      },
+      {
+        "path": "/@Kei_Igarashi/works/9",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/9c5da27c/uploads/origins/4b3e92cb-a316-446b-ba2b-e011ea6c7ec4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1c3555a4f073d9d855ea20f0c27bc082",
+          "srcset": "https://si.imgix.net/9c5da27c/uploads/origins/4b3e92cb-a316-446b-ba2b-e011ea6c7ec4?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=1c3555a4f073d9d855ea20f0c27bc082, https://si.imgix.net/9c5da27c/uploads/origins/4b3e92cb-a316-446b-ba2b-e011ea6c7ec4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=f4c37b74b2c235b84d207ec79317cfca 2x, https://si.imgix.net/9c5da27c/uploads/origins/4b3e92cb-a316-446b-ba2b-e011ea6c7ec4?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=efa6b6459e6f58641eaf90a30f106994 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 1104889,
+        "nc": 51
+      },
+      {
+        "path": "/@Kei_Igarashi/works/8",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/6b50fa23/uploads/origins/6c63e41f-f41c-4b02-ab36-e1a91bc1f2a1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e32ee2a450e9fbcead246624eb543fc1",
+          "srcset": "https://si.imgix.net/6b50fa23/uploads/origins/6c63e41f-f41c-4b02-ab36-e1a91bc1f2a1?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=e32ee2a450e9fbcead246624eb543fc1, https://si.imgix.net/6b50fa23/uploads/origins/6c63e41f-f41c-4b02-ab36-e1a91bc1f2a1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=147c4a07822eb36e37ddd05a1ee2073c 2x, https://si.imgix.net/6b50fa23/uploads/origins/6c63e41f-f41c-4b02-ab36-e1a91bc1f2a1?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=500d355a4a76e6d528f14ae98bfa08c1 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 44759,
+        "nc": 162
+      },
+      {
+        "path": "/@Kei_Igarashi/works/7",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 1397712,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=515855f53a8ba0537636292f6cafc373",
+          "srcset": "https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=515855f53a8ba0537636292f6cafc373, https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=b07df0f73db075a923fae21554ca72b2 2x, https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=38506166f67c084dc20a1c281538abb5 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8907c48a8b33772f63fb5390bd655b38",
+          "srcset": "https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=8907c48a8b33772f63fb5390bd655b38, https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5c606c0cbf51735eeef1e3cc89de88df 2x, https://si.imgix.net/41d52306/uploads/origins/efe1e6e2-3d2b-4a81-9b1c-75cbe496ae42?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=afc88c21272e4f9e6a8f156a545db1a3 3x"
+        },
+        "body": "前回は大石泉ちゃんのイラストをありがとうございました\n\nリクエストを再開されたということで\n今回はアイドルマスターシンデレラガールズの\n鷺沢文香のイラストをリクエストします。\n\n今回は文香とプロデューサーがコスプレエッチを\nするというシチュエーションをお願いしたいです。\n\nプロデューサーが文香に頼み込んで\nエッチな衣装に着替えてもらい 文香はベットの上に\n仰向けで寝ている状態をお願いします・\n\n衣装は\nバニー衣装\nhttps://www.pixiv.net/artworks/124784119\nシスター姿\nhttps://www.pixiv.net/artworks/117977100\nどちらかをお願いします。\n\nどちらもかなり過激な衣装なので\n文香本人は戸惑いながらも恥ずかしそうな\n表情や仕草をおねがいします。\n「私の破廉恥な格好にプロデューサーさんが\n獣のような目で見つめている」というモノローグも\nお願いしたいです（台詞の改変や加筆も大歓迎）\n\n構図やポーズなどはお任せのでクリエーター様が\n思うよりエッチな姿を希望しますので\nご検討よろしくお願いします",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/6",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 1778588,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3a47057cca37d85e836a8867d9e9477f",
+          "srcset": "https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=3a47057cca37d85e836a8867d9e9477f, https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=9e5fa2f94d3a17eebce4fad738312974 2x, https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=65b1aa8ba6b334cdc1d75dd744d33b5b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9baac257c90da76750920f783280dc28",
+          "srcset": "https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9baac257c90da76750920f783280dc28, https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=e4972fbbf0a03c4e4ca518d27799badf 2x, https://si.imgix.net/7c82197b/uploads/origins/75e5ae4c-6565-4cf8-9d63-9953814b50c2?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a6580a7c1d09e792313d784464db45eb 3x"
+        },
+        "body": "初めまして。\nアイドルマスターシンデレラガールズの黒埼ちとせのイラストをリクエストさせて頂きます。\n\n衣装は去年の愛梨ちゃん、周子さん、美穂ちゃんのイラストで描かれていたチャイナドレスで、\nこちらを誘惑しているような表情をしており、両腕を上げていて脇が見えるポーズでお願いします。\n\n他は全てお任せします。ご検討よろしくお願いします。",
+        "nc": 16,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/5",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=558eee50c33033c290715449dc00b88e",
+          "srcset": "https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=558eee50c33033c290715449dc00b88e, https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=4702f26465b8a8d333a12ba37a90727b 2x, https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=53977fa351ef8d8487725bdbc3ebc38e 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=39bf931e02481c06edb02acdc4a0870a",
+          "srcset": "https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=39bf931e02481c06edb02acdc4a0870a, https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=5d1ec8b0a26133ffb39a3c37260787cf 2x, https://si.imgix.net/bd5dfefb/uploads/origins/4ddaeb39-8375-4232-8fe2-cdc799a457b8?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d22bf7a301d7915f700a67f2504529a0 3x"
+        },
+        "body": "前回と同じ人物でリクエストします。\n\n作品名　ギルティクラウン\n\n人物　校条　祭(めんじょう　はれ)\n\nアニメでは廃校舎(廃屋？)で慰めを求めた集に平手打ちした祭ですが、\n「いのりへの対抗心と焦燥感に駆られて大胆な行動をしてしまったら」という設定です。\n\n\n・構図は集からの視点(祭の顔から挿入している局部含めふとももまで)\n\n・先生が描かれた大石泉、喜多日菜子、水野翠の構図のイメージ\n\n・騎乗位＋四つん這いで立て膝をして集にまたがる(上半身を集の側に寄せている)\n\n・祭はショーツのみ(ソックスとローファーは恐らく構図に納まらないかと)\n\n・集は制服(夏服)を脱がず、ズボンのファスナーから陰茎が出ている\n\n・集の手で祭の胸を揉ませ、もう片方の手でラブ握り(恋人つなぎ)\n\n・ガーリーなショーツ(派手過ぎない花柄デザイン)\n\n・ショーツのクロッチ部分を横にずらし、陰茎を局部に挿入して処女喪失(出血微量)\n\n・祭の陰毛は無し\n\n・痛みで涙目だが繋がった喜びを感じ微笑む\n\n・嬌声をあげている\n\n・アニメの散り際台詞を流用「集に……あげる。私の……」\n\n祭　画像\nhttps://drive.google.com/file/d/1J7q5N2k47sgGNP5gjv2iF5_D-XJGS5m5/view?usp=sharing\n\n\n前回からの設定継続\n・キャラデザインはアニメ版準拠\n\n・スタイル抜群\n\n・縦型のへそ\n\n\nお手数をおかけして恐縮ですが宜しくお願いします。",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/4",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=05c729b6f78878dc44832fe0e78e31a8",
+          "srcset": "https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=05c729b6f78878dc44832fe0e78e31a8, https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=3c70550e14ed3abaa39809a227be316d 2x, https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=986e3153257c4ba4e1bd9e43c2028b42 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d73ae07ae25fd62db608773baa5a50de",
+          "srcset": "https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=d73ae07ae25fd62db608773baa5a50de, https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=3ea94ee930b74f6560ae7444323c42bc 2x, https://si.imgix.net/c3ebbe0e/uploads/origins/b33415bc-e8e7-4bce-9791-e1ebf34240f6?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a71e4d1d9a78dc4f8f4d98ea83b50100 3x"
+        },
+        "body": "大石泉のイラストに触発されたのでリクエストします。\n\n作品名　ギルティクラウン\n\nキャラ　校条　祭(めんじょう　はれ)\n\nhttps://drive.google.com/file/d/1MICLSYZSaPi2S-x6ppK8cPiEuiULuHs0/view?usp=sharing\n\n・キャラデザインはアニメ版準拠\n・スタイル抜群\n・ポーズはぺたんこ座り(アヒル座り)で股間は隠さない\n・可愛らしい水着姿(城ヶ崎美嘉のような)\n・縦型のへそ\n・上目遣いで主人公(桜満　集)に恥ずかしがりながら精一杯のアピール\n\n宜しくお願いします。",
+        "nc": 57,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/3",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 1397712,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=461e9fe5d489ba063a9317e22c65e437",
+          "srcset": "https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=461e9fe5d489ba063a9317e22c65e437, https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=dce78b1d59d32af6948f17891fa98f83 2x, https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=67a2c0ec1aadedd3c6036a01caa3115e 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9612e2507b853f4e6977d64f9948f957",
+          "srcset": "https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9612e2507b853f4e6977d64f9948f957, https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9f99d08c23999d8f83753a15596191fc 2x, https://si.imgix.net/0aed26b9/uploads/origins/d45413cc-9f7a-4220-8b85-fd0846203799?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2114dc0896ecc463ed710801a8c54678 3x"
+        },
+        "body": "宜しければリクエストをお願いします。\n\n今回はデレマスの大石泉ちゃんをリクエストします。\n\n泉がメイドビキニ姿か裸エプロン姿\nでお出迎えして\n「Pおかえり、お風呂にしますか、\nそれとも食事にしますか\n　それとも　あ・た・し　にします」\n\n「それと仕事場にパソコンの履歴は\nちゃんと消した方がいいですよ」\n(泉はプロデューサーの性癖を色々\n調べて実行したという形です)\n\nこんな感じのやり取りも一緒にお願いしたいです。\nセリフのアレンジなどは全然オーケーですので\nよろしくお願いします",
+        "nc": 169,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      },
+      {
+        "path": "/@Kei_Igarashi/works/2",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/8c7d0adb/uploads/origins/2e4c74ab-9730-4f34-90c5-68ed58103873?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d36620066615b9a6f0d2b44e19801ccf",
+          "srcset": "https://si.imgix.net/8c7d0adb/uploads/origins/2e4c74ab-9730-4f34-90c5-68ed58103873?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=d36620066615b9a6f0d2b44e19801ccf, https://si.imgix.net/8c7d0adb/uploads/origins/2e4c74ab-9730-4f34-90c5-68ed58103873?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=3ed3f6c7237d1185b237fec61f00fdf2 2x, https://si.imgix.net/8c7d0adb/uploads/origins/2e4c74ab-9730-4f34-90c5-68ed58103873?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=dd6ad2bec6f989b149c42b570b48bcd9 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "client_id": 1104889,
+        "nc": 161
+      },
+      {
+        "path": "/@Kei_Igarashi/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 3776980,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a7564811c577a64c9a3986061a0b3c6c",
+          "srcset": "https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=a7564811c577a64c9a3986061a0b3c6c, https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=f915ed5d477e655ee92915f410d62925 2x, https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=5261a6116fb53f9e085a37857b60e7b9 3x"
+        },
+        "duration": null,
+        "nsfw": true,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2089e1e6386a8eb5dbf710d5b0dd56dd",
+          "srcset": "https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=2089e1e6386a8eb5dbf710d5b0dd56dd, https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=4e3ce149f20a066c94a0dcc61bee4222 2x, https://si.imgix.net/a02142c6/uploads/origins/04efd9bb-5956-4b2d-9758-dc74277b9e04?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=e6780e5356df8026083c07681cf1389f 3x"
+        },
+        "body": "はじめまして。\nアイドルマスターシンデレラガールズの鷺沢文香のイラストをお願いしたいです。\n詳細は以下の通りです。\n\n▼服装\n上半身は裸、下は普段着(N特訓前)のスカート\n\n▼ポーズ、表情\n後ろを向いた状態で両腕を頭の上で組んだまま振り返り、胸を描いていただけるギリギリまで魅せるようなポージング。\n表情は恥じらいつつもこちらを誘惑しようとしているようなイメージでお願いします。",
+        "nc": 49,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": false
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 54,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "すけべおばけ🔞",
+        "screen_name": "sukebey_obake",
+        "avatar_url": "https://pbs.twimg.com/profile_images/999148490499371008/zL9pIMES.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/903760338/1625328342/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 25137,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "あり👼C107新刊🍈委託中",
+        "screen_name": "youbun",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1871308441958203392/PlP-TJR-.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/17445528/1732460357/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "comic"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 398742,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ひなな@skeb募集中",
+        "screen_name": "amuyamu815",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1999451294512353280/xGBaQSe0.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/2643264109/1638401073/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 176
+      },
+      {
+        "id": 489300,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "紙🔞",
+        "screen_name": "PaperCraft8559",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1965110923426996225/cpM2THeu.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/2797661648/1766945849/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 21,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 49
+      },
+      {
+        "id": 1661104,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": false,
+        "name": "チョコたべたい",
+        "screen_name": "puyochocolate",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1959559147311300608/GdJ_IQiP.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/706415476079878144/1748825137/1500x500",
+        "appeal_receivable": true,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 3,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 48
+      },
+      {
+        "id": 1686381,
+        "creator": true,
+        "nsfw_acceptable": true,
+        "acceptable": true,
+        "name": "ティー@skeb募集中！",
+        "screen_name": "teaaaaa511",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1612084170087624707/xreLpPd5.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1333885952/1684792567/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 5,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 160
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 12000,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@Kei_Igarashi/works/17",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3776980,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=47dff8a7f90dde47bf3aedb881bd0b84",
+        "srcset": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=47dff8a7f90dde47bf3aedb881bd0b84, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=0234b646534318de490e523516fec3ac 2x, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=aa99abb2bdafe087205120c5706b1cde 3x"
+      },
+      "duration": null,
+      "nsfw": true,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0388c52cd8e8506eaea39c9ff03a1256",
+        "srcset": "https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=0388c52cd8e8506eaea39c9ff03a1256, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c5d5f8b982c57fdf5d56085c43d7b04a 2x, https://si.imgix.net/1c6f9b96/uploads/origins/cb7403c1-38a6-432e-99b9-325c3374ad99?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=c41c8b7b6ad87165f9a4b69aa190c285 3x"
+      },
+      "body": "アイドルマスターシンデレラガールズの大石泉がPにバストと乳輪のサイズを測られているイラストをお願いします。\n\n・水着のお仕事の都合で急にバストサイズのデータが必要になり、今すぐ測定を頼める相手がPしか居ない状況\n・服装はSR[ネイビーウェーブ]特訓前の私服。上は黒のインナーだけの状態で、自分でインナーをたくし上げて胸を露出させている\n・親愛度はまだお仕事のためにギリギリ測定を許してもらえる程度で、仕方なく胸を見せている\n・お仕事のためとはいえ、胸をじっくり見られているのを我慢しながらPのことをジトッとにらんでいる\n・バストはメジャー、乳輪はノギスで測定\n・バストサイズはプロフィールより何cmか成長している\n\n台詞については、自分の胸を見たり触ったりしても変なことを考えないようにPに釘を刺すような内容が台詞があると嬉しいです。\n\n何卒ご検討の程、よろしくお願い致します。\n\nhttps://imas.gamedbs.jp/cg/idol/detail/123?h=7d9e8adf8a5a5b22d5219e08745affb5",
+      "nc": 33,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@Kei_Igarashi/works/15",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": true,
+      "creator_id": 3776980,
+      "client_id": 3835244,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fec3975bd9542cc162375b97a4e20ec9",
+        "srcset": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=fec3975bd9542cc162375b97a4e20ec9, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=da22a2fa69d675af1606d2da74955462 2x, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=fce70f10269e8b9b690fbbb6c9f1b031 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e09217d5230edaba48d6858289e815d5",
+        "srcset": "https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=e09217d5230edaba48d6858289e815d5, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=10afa1da8ef58f55a728920d9cf435d6 2x, https://si.imgix.net/bf1c1438/uploads/origins/cefa38f9-cf9c-45b7-bfa0-4d31c7a43f89?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=dbfe62b04184a0a0e3205e8d30768974 3x"
+      },
+      "body": "はじめまして。\n五十嵐Kさまが描くイラストをいつも楽しく拝見しています。 \n\n\n■依頼内容\n依田芳乃のイラスト \n\n■衣装\nバニーガール衣装(耳付き)でニーソックス着用\n\n■髪型\n低めのポニーテール\n\n■構図\n昨年、五十嵐さまが描いた「バニー衣装の三村かな子」の様な下から見上げた構図\n\n■ポーズ・表情\n恥ずかしそうに衣装が食い込んでいるお尻を手で隠そうとしながらも、意外と満更ではない表情でお願いします。\n\n■その他\nなるべくでよいのですがバニーの耳などは、先端まで切れないように作画していただけますと大変嬉しいです。\n\nその他につきましては五十嵐さまにお任せをいたしますのでよろしくお願いします。\n\n■使用用途\n個人鑑賞です\n\nわがままな依頼で恐縮ではございますが、何卒ご検討のほどよろしくお願いいたします。",
+      "nc": 8,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": false,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

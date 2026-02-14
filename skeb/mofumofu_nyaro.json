@@ -1,0 +1,1117 @@
+{
+  "screen_name": "mofumofu_nyaro",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 476505,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1904717110477283331/vTBi1Vte.jpg",
+    "name": "ねこたろ",
+    "nsfw_acceptable": true,
+    "screen_name": "mofumofu_nyaro",
+    "language": "ja",
+    "header_url": null,
+    "body_size": 1000,
+    "received_works_count": 2734,
+    "received_nsfw_works_count": 147,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": 29,
+    "instruction": "unspecified",
+    "asct": null,
+    "description": "自由に活動するためのアカウント。ゆる〜くがんばります うちの子「名ー(ナー)」君のFA→ #ナー君アート　リクエストはこちらからhttps://skeb.jp/@mofumofu_nyaro",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": 41376765,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": true,
+    "accept_expiration_days": 30,
+    "complete_expiration_days": 120,
+    "nc": 32,
+    "twitter_uid": "1893598384109522944",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "mofumofu_nyaro",
+        "url": "https://x.com/mofumofu_nyaro"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fmofumofu_nyaro%2Fbackground%3Fd%3D6ed0f0?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU55dzFNREFnU2xCWiZ0eHRjbHI9ZmZmJnR4dGZvbnQ2ND1RWFpsYm1seUxVSnNZV05yJnR4dGFsaWduPWNlbnRlciZ0eHRzaXplPTgwJnR4dHNoYWQ9MTAmZm09cG5nJnc9MTIwMA&marky=415&txt64=44Gt44GT44Gf44KN&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=782f3addf61c1c0c3a3a3aad5d665012",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 7500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@mofumofu_nyaro/works/2735",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 2524919,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=06532e4e6559c3824380b01543a01345",
+          "srcset": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=06532e4e6559c3824380b01543a01345, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=903b896a8c8e90a94bc54a9841a33850 2x, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=20ab9f568946b2a5d0267dd443e89691 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=10ffd7bc1ad2fbf80ab1cd7039b0f8a2",
+          "srcset": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=10ffd7bc1ad2fbf80ab1cd7039b0f8a2, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f60ad6007df57fbd398cc2a579426f18 2x, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6931a929c32aa20b28c5428528021d12 3x"
+        },
+        "body": "こんにちは、ねこたろさん。\nねこたろさんの絵がとても可愛くて今回新たに要請を申請することになりました！\n私のキャラクターLeciが踊れるように手伝っていただけますか？\n\nリクエストしたいダンスはLemon Melon cookieです。\n参考映像 : https://youtu.be/VA2f1PXuyMA?si=16FZCUtDL9Kat4ML\n\n私のキャラクターの資料は以下のリンクを確認してください。\nhttps://drive.google.com/drive/folders/1y_9oncumUKvwu6nEJXIXmlmRBMVfJr97?usp=sharing\n顔にオレンジ色のチークがあり、お腹にレモンのかけらの模様があります。\n\nダンス全体を描いていただければ本当にいいのですが、ダンスの長さが長すぎるなら半分だけしてくださってもいいですよ！ どうぞよろしくお願いします。",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2734",
+        "private_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/70c6ef63/uploads/origins/a5432476-ec8d-43e5-84d3-9c0dc29e7b23?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bc5e6d9adb05b5714c571bbe0f108397",
+          "srcset": "https://si.imgix.net/70c6ef63/uploads/origins/a5432476-ec8d-43e5-84d3-9c0dc29e7b23?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=bc5e6d9adb05b5714c571bbe0f108397, https://si.imgix.net/70c6ef63/uploads/origins/a5432476-ec8d-43e5-84d3-9c0dc29e7b23?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=b44e7ad3ff288b2858a558e75cc87f0e 2x, https://si.imgix.net/70c6ef63/uploads/origins/a5432476-ec8d-43e5-84d3-9c0dc29e7b23?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&px=200&txtfont=bold&txtshad=50&txtclr=FFFFFF&txtalign=middle%2Ccenter&txtsize=30&txt=PRIVATE&s=382ca5e7acfb4a6a59e0f3e1e1733a32 3x"
+        },
+        "private": true,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1986463,
+        "nc": 160
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2733",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a5acda08192b016978ed219ecc037ce3",
+          "srcset": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a5acda08192b016978ed219ecc037ce3, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=a610fee259934c3ccbb44aba3bb73fd8 2x, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=e57fad92b1833461899066527068c6fa 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=a81e5c808eb588e235bf197bc814ae09",
+          "srcset": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=a81e5c808eb588e235bf197bc814ae09, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eb9d1d004b96096ddb24a30b22db124f 2x, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0077cb49700d534862769de97959be06 3x"
+        },
+        "body": "こんにちは！あなたがバースデーカードとして作ってくれたリモンのアートが、コミュニティでとても好評だったので、これにインスパイアされた彼が歌っているアートをまた作ってもらえたら嬉しいです : https://files.catbox.moe/h84deb.mp4\n\n参考文献はこちら : https://imgur.com/a/limon-Exf9Z7l\n\nありがとうございました！",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2732",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=345de4f9bca99d5c1fdf753216feafea",
+          "srcset": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=345de4f9bca99d5c1fdf753216feafea, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=433ba536ab62905468325494db84607e 2x, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=c034d77a6b369cf842779160f27be441 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d3d86de09f84825fc65cdbe41db204dd",
+          "srcset": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d3d86de09f84825fc65cdbe41db204dd, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eed544c50f0aeba21803ed3210cf5c1b 2x, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3af228ad9428abacd97fc6c3d78e136e 3x"
+        },
+        "body": "前回描いてくださったこちらのイラストのように、\n今回は【上がミロネちゃん（うちのこ）、下がゼラオラ】という感じです。\n\n2匹を膨らましたイラストをお願いします！\n\n【ミロネちゃん（うちのこ、ミロメの姉）】\nhttps://x.com/sn7xtq6hbmq7ybt/status/1801589404408103161?s=46\n\n【前回描いてくださったイラスト】\nhttps://x.com/sn7xtq6hbmq7ybt/status/1895875773703340304?s=46",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2731",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3829194,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=574e980883a615b6a98cd54df48d9a7e",
+          "srcset": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=574e980883a615b6a98cd54df48d9a7e, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=2ad14f3ff230e9a36b7cff29448aaf6b 2x, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=ba5fd4fa6c6587105c6de5405e0ab8f5 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e203949533431933b9ea2727aebad29b",
+          "srcset": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e203949533431933b9ea2727aebad29b, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=552f67225af408afe46545675b44440c 2x, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=70ce0d7d32b5c8bd413c0782c6698999 3x"
+        },
+        "body": "We want to have two characters having a cute, and playful magic fight.  The characters can be smiling, happy, whatever you think looks the cutest! Totally okay with some simplification as well ^^\n\nThe characters are linked below: Lexi is the Female Kobold (Pink) and Saphir is the Male Kobold (Orange)\nhttps://drive.google.com/drive/folders/1_PNzhK_g2VOH3jyJ_orf0eotODGP9-va?usp=sharing\n\nThanks so much!\n\nhttps://drive.google.com/drive/folders/1_PNzhK_g2VOH3jyJ_orf0eotODGP9-va?usp=sharing",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2730",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 2386965,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=af0fd3a37fe83960710d3317d177058c",
+          "srcset": "https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=af0fd3a37fe83960710d3317d177058c, https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=4d8080421704b27d8571046609d8f8f2 2x, https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=5748c773468debcc83753421b19a9da2 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=9848f20e445ef27f276d1ca2c1be2b70",
+          "srcset": "https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=9848f20e445ef27f276d1ca2c1be2b70, https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=48e5f832a19e65791387426b0a3f63ab 2x, https://si.imgix.net/d1b52bdf/uploads/origins/a4c545b1-0b45-40fa-9e73-7d3001c6c390?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=494f843edd75b990f6c055fd2e693715 3x"
+        },
+        "body": "こんにちは！私のファーソナをとても大きく膨らませて、左右に揺らしてほしいです。彼女は幸せそうに、こんな風に膨らんでいるはずです：\nhttps://www.furaffinity.net/view/62785778/\n\nhttps://www.furaffinity.net/view/60803561/",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2729",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3346804,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=0a4715af33415ff8e580bbc59c653750",
+          "srcset": "https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=0a4715af33415ff8e580bbc59c653750, https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=87493f53104baa43e826e6ac386b5f31 2x, https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=bc758e2d38a8d8843a737b2ca50c5507 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=15caace72185eb67c38fe427526585b9",
+          "srcset": "https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=15caace72185eb67c38fe427526585b9, https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7f8f39c5eec34dc5c4d9f34cd0c49952 2x, https://si.imgix.net/71112343/uploads/origins/e716fa4f-d22c-43cb-80c8-0e3f9b6d577e?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0335936f377d88c32bc6e1df0b4953e5 3x"
+        },
+        "body": "こんにちは、私のキャラクターが普段の姿と、大きな目と大きな帽子、そして燃えるような紫色の尻尾を持つもう一つの姿に切り替わるところを描いていただけないでしょうか。彼らは普通に立っていて、紫色の炎のフラッシュで切り替わる。これで大丈夫だといいのだが！\n\nhttps://drive.google.com/drive/folders/1iqPZcTXZKoKu0qMhpFMr7WARIzM1DYpb",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2728",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1101981,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=623547da882b3b80c2c166f5275061df",
+          "srcset": "https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=623547da882b3b80c2c166f5275061df, https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=80c10c94423f554d0eb2855b0afccdbf 2x, https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=1fa7a8dece8f8bc603cb3621f4fa6a5c 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e302e07349aa7fb2ecf39e9b94f96fd9",
+          "srcset": "https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e302e07349aa7fb2ecf39e9b94f96fd9, https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a174ddf33c810e178075dbca5766acbc 2x, https://si.imgix.net/e5d67dc0/uploads/origins/9573a457-20e7-4782-a3f8-d654b5d75ea0?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=44de03c608c585f1af7ac8d16ed65263 3x"
+        },
+        "body": "hello, could you draw me and my girlfriend's characters nuzzling their noses together?  \nhttps://sta.sh/029lsoinux0a",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2727",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3826440,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=6e1fd749c77aabaf6e437624f26a8333",
+          "srcset": "https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=6e1fd749c77aabaf6e437624f26a8333, https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=69b4f87667491fba88fa57e7a23a11a4 2x, https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=84b3cf8899d47a539b442dde56d6709f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b71b496eab4dd47af4f7149fbfb0022d",
+          "srcset": "https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b71b496eab4dd47af4f7149fbfb0022d, https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f7313c096d2c4621cce40acf09bdbf9a 2x, https://si.imgix.net/2dfa2152/uploads/origins/e175deb7-f195-4cce-a547-76cce1cfece1?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a2d00a9d39fb62ae8020adbdcfee50ad 3x"
+        },
+        "body": "こんにちは！私の友人が（そして私も）、あなたのキュートなアートスタイルにとても憧れていて、友人へのプレゼントとして、私の友人のニャンコなソナのアニメーションをお願いできないかと思いました！彼女が辺りを見回しているところから、見ている人に気づいて、第四の壁をブーブー言うところを描いていただけませんか？ありがとうございました！\n\nhttps://x.com/USV_02/status/1953818487484559548",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2726",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3632865,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=3ba132315f6281d9d714794129c4c670",
+          "srcset": "https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=3ba132315f6281d9d714794129c4c670, https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=e2a33c5d33060c773d4eccd6f3e82635 2x, https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=330cd0d1ef260f5ed467874efc9854c5 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=195e51c7abf165d7130792b991520b9b",
+          "srcset": "https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=195e51c7abf165d7130792b991520b9b, https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6e6b7576e43e834c0cbd9866dc74bc1a 2x, https://si.imgix.net/5ae611fc/uploads/origins/2346a37e-2602-4c53-aa33-44751a5d01cd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=2dde31d84d54c8a83b68736cb154fc70 3x"
+        },
+        "body": "私のOCを描いていただきたいです！\n内容はお任せします！\n\nhttps://x.com/aqqapan/status/1986420900204585248?s=61",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2725",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3810032,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=48a096d1a94dfa691c1eaa9dc8e35956",
+          "srcset": "https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=48a096d1a94dfa691c1eaa9dc8e35956, https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=f835892bbb2e73734c2629c017f37485 2x, https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=2b8eaf73a5161f5d09e34cf7fb5057f5 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=348c4a433c4027deee3933a489367287",
+          "srcset": "https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=348c4a433c4027deee3933a489367287, https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=9d8a03ce43401fe742f1e1621f70558d 2x, https://si.imgix.net/653f2494/uploads/origins/309a647f-fe6d-4d81-87b0-acb9ae5694ab?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7f2045d3db971086b703613aea576af9 3x"
+        },
+        "body": "こんにちは！絵がとても可愛いので、コミッションを申請します！可愛くて短い青いドラゴンを着せてください！尻尾は紙のように太くしてください！尻尾を少し恥ずかしそうに振ってください！ポーズは自由にどうぞ！恥ずかしそうに振ってくださいね。https://drive.google.com/file/d/17hAocCIzZgJMMBpk6meSfJEWP5uyBhT-/view?usp=drivesdk",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2724",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1740929,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=1fe81bc7c7b58aa4ed0e881cf35a5f53",
+          "srcset": "https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=1fe81bc7c7b58aa4ed0e881cf35a5f53, https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=9d96251b20b746ec247bf1255277b1d2 2x, https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=0bc5e84b11cdcf6df8ebd04709588ff5 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=525e02de94e2a0117516cd030cfe5fdc",
+          "srcset": "https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=525e02de94e2a0117516cd030cfe5fdc, https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=77215fc045d04233f5e6de73b606cf49 2x, https://si.imgix.net/97643bca/uploads/origins/81d56a82-f7b2-4972-96d6-bef4f4a76e17?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=bc8437285fec4476e937111a360eb5d6 3x"
+        },
+        "body": "こんにちは。この2人のキャラクターが抱き合っているところを描いていただけませんか？好きなポーズを選んでください。シェイミはゼラオラより背が低いです。ありがとうございます！ https://drive.google.com/drive/u/0/folders/1OVrNrBCK4788y9TYGu-UVn7obOrSXOKz",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2723",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 476505,
+        "client_id": 614393,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=240dfe8f4c08897bb672b57d01f9a390",
+          "srcset": "https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=240dfe8f4c08897bb672b57d01f9a390, https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=280230579abe433dcdad563c343b4451 2x, https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=95638f66c69bf8b965ea5db6f03e3fa3 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b9fcf51190892065111b875062c9d84d",
+          "srcset": "https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b9fcf51190892065111b875062c9d84d, https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=b9ff92f85ae1df8701019fa805515ce7 2x, https://si.imgix.net/cf222cb0/uploads/origins/6268637c-7a80-460c-a88d-b0a18bc14976?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=b6221779111236934096cf6ee90ac6c5 3x"
+        },
+        "body": "こんばんはー！個人配信者として活動している右近あすかと申します。\n\n今回は、活動で使用する「動くイラスト」を依頼したくリクエストさせていただきました。\nねこたろさんの、いつもながらの可愛らしいケモな子のイラストや、そのキュートな仕草がとっても好きです！\n\n【依頼内容】\n右近あすかの動くイラスト\n今回は、こちらのような(https://skeb.jp/@mofumofu_nyaro/works/2605)\n歌、テトリス風の回るイラストを描いて頂きたいです！\n差分として、焦り顔、笑顔、黒塗りを\n透過ファイルか、ブルーバック画像としていただけたらと思います。\n\nまた、衣装なのですが\n２衣装のうち、たろさんが可愛く描けそうだなと思った方か、こっちのが描きやすいな\nって思った方、どちらかを描いて頂けると嬉しいです！\n\n今回の衣装分のTポーズの正面、横、後ろ姿、三面図を撮影しましたので、衣装の参考になれば幸いです。\n\n\n【使用用途】\nゲーム内でのプロフィール画像\nSNSでの掲載/アイコン/ヘッダー/グッズ\n配信・動画内での使用/サムネイル\n\n【備考】\n\n下記リンク(googleドライブ)を参考にしてください。\nご検討いただければ幸いです。\nよろしくお願いいたします。\n\n(googleドライブ)\n部屋着\nhttps://drive.google.com/drive/folders/1zIaJVXItvglivWteKbklAek74waIN1LU?usp=drive_link\nアイドル服\nhttps://drive.google.com/drive/folders/14b5G5aRCGJYsnTyjsdlx6QtTiu7q2_JY?usp=drive_link",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2722",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3802520,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=f4f64444f123a28dbd710aadbd5f6de0",
+          "srcset": "https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=f4f64444f123a28dbd710aadbd5f6de0, https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=85f000c10732b2bf720ffe4a08d2680e 2x, https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=7776a4435d88d8b4dc2b5dcef83b7ff7 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c37023245a21da0e4b2e478e7bcf6dd1",
+          "srcset": "https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c37023245a21da0e4b2e478e7bcf6dd1, https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=cae62fdfd2b5038655459c3d7bd362db 2x, https://si.imgix.net/f2cda115/uploads/origins/050716fc-faf3-4ff2-bb8b-800daec55355?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9eeec468e17a1a509ba6fceba7a9d5cf 3x"
+        },
+        "body": "私のキャラクターは太っていて、座っていて、見る人の方を向いていてほしい。片方の前足は開いた口を指している。もう片方の前足は彼の腹をゆっくりと何度も叩いている。\n\nサイズとポーズの例：https://skeb.jp/@mofumofu_nyaro/works/2264\n\n私のレフシート: https://drive.google.com/file/d/1Uxq2VLbQ3b3ckAeNo4xd8XoVJ_MbDW_m/view?usp=drive_link",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2721",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 2011251,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=c674bdff62e02fb0a1ce379f8c943d22",
+          "srcset": "https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=c674bdff62e02fb0a1ce379f8c943d22, https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=cf0bb11d2be71582a30154bca94243c0 2x, https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=ec4b36b7c111ab4bbaafdedc6cb3a0c0 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b4e3af7ce5a329cd834ed7522aba5905",
+          "srcset": "https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=b4e3af7ce5a329cd834ed7522aba5905, https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=760f3e0afdde7fca49a492bc2ed05d3f 2x, https://si.imgix.net/83925a48/uploads/origins/b35bb0a3-546c-49b4-9df9-64ec3bcfa51f?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=de7d98dfd1a3cf0a5873202d56f6c1f9 3x"
+        },
+        "body": "こんにちは、あなたの作品が大好きです！https://skeb.jp/@mofumofu_nyaro/works/2542 にあるようなgifで私のリーフェオンの作品が欲しいです。\nコスチュームは必要ありません！\n\nhttps://drive.google.com/drive/folders/1mw15csQkvesHFh2Fno9uVgbjSTBpM9rp?usp=sharing\n\nhttps://drive.google.com/drive/folders/1mw15csQkvesHFh2Fno9uVgbjSTBpM9rp?usp=sharing",
+        "nc": 144,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2720",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3601013,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=33071b527796a982fb509558b8275b2e",
+          "srcset": "https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=33071b527796a982fb509558b8275b2e, https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=abf87b3c7d63a7d5750775ed50fe27a6 2x, https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=1c1035890d306337b1e193cda70463d3 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=60672583fe136134f3c425638f8f77cf",
+          "srcset": "https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=60672583fe136134f3c425638f8f77cf, https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c0b89f6c20c50ffc3000ff3c7d876e31 2x, https://si.imgix.net/ae420be4/uploads/origins/e06a9d82-5ab5-4141-abc3-f8c0b634d346?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0fa5a21b672193655176fb5ff5cd90ee 3x"
+        },
+        "body": "こんにちは、なおです\nうちの子のアニメを依頼したいです。\nなおは温泉に入るのアニメ欲しいです。\n\nよろしくお願いします。\n\nhttps://drive.google.com/drive/folders/1t8FBWTny8zum46YtGr-Q-rVUkfrmjDCO?usp=sharing",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2719",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": true,
+        "creator_id": 476505,
+        "client_id": 3819040,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=0ed7ab3561cea4fedd020b28f84669a6",
+          "srcset": "https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=0ed7ab3561cea4fedd020b28f84669a6, https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=ffdd743f158c368fbc3a905f7de9e4b5 2x, https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=c6860f68e3938b919088aa53e0eef616 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=f7810ef9ba3db8833b03c53f34cf7311",
+          "srcset": "https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=f7810ef9ba3db8833b03c53f34cf7311, https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=6427dd9077f0588fbb485b437b063ba1 2x, https://si.imgix.net/e3d12065/uploads/origins/00a4161e-e766-4341-93c2-a0f209aece57?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0ae75fb1fd05d5d0a6b35a2bb1eb5246 3x"
+        },
+        "body": "私のゼラオラオリジナルキャラクターのゼラオラつんが、新しいゼラオラにメガ進化して、両手でピースサインをするところが見たい。\n\n参考：https://drive.google.com/drive/folders/1rD6upRDrthPa8pa9SVZkUyQp83Oyz3_a?usp=drive_link",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2718",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1878402,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=1f71c833303dc37bd9647743bea1ae93",
+          "srcset": "https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=1f71c833303dc37bd9647743bea1ae93, https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=536e6012004e43b979b4951694b37bee 2x, https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=457b5eda5352a08274140f5bcb303067 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d13f319fbff1443ad301138a2765f9ff",
+          "srcset": "https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d13f319fbff1443ad301138a2765f9ff, https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=d496da32de2bd4e37098cf5957d2b2f2 2x, https://si.imgix.net/15486489/uploads/origins/307809c3-566b-4a44-bcb4-f6da4bc52be3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=42b2d7fffce41d7376f99da16e7c849f 3x"
+        },
+        "body": "こんにちは！私のゼラオラキャラクター、マーカスのアニメーションを探していました。\n\n誰かがマーカスの前にレーザーポインターを向けていて、マーカスが手で光をキャッチしようとすると、マーカスはまた光を掴もうとして横に動いてしまいます。\n\n彼の参考文献はこちら：\nhttps://drive.google.com/drive/folders/1O6CKZMLx1FCj1E0gG3qFsaF-j1LS21nv?usp=sharing",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2717",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3816248,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=807c56f211ad49c48c0e2a8579f4a6a7",
+          "srcset": "https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=807c56f211ad49c48c0e2a8579f4a6a7, https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=f2e5762fae1aecd02b565af130b4212a 2x, https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=dac15902d7f3e2ea851a76c23eb6f849 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=3133cd9c2c042518236ed986e51918b0",
+          "srcset": "https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=3133cd9c2c042518236ed986e51918b0, https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=aaa714842a291c6415cc7caa5d0dd3ef 2x, https://si.imgix.net/f241bec8/uploads/origins/7e6af438-991a-4cdc-8ccd-35792ba4e103?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d0af0334e13ea1de3c1589bc23934c7f 3x"
+        },
+        "body": "こんにちは！\n作家さんの絵のスタイルがとても気に入ったので、申請しようと思います！\n私のOCがぐっすり眠っている姿を作家さんのスタイルで描いていただければと思って申請してみます！\n\nhttps://drive.google.com/drive/folders/1L54O0Chm7Srfz3UUi5nDO6jLuAQCJgjG?usp=drive_link",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2716",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1377745,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=cf1ed3cc153b24f49c0023ceb80f4dcc",
+          "srcset": "https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=cf1ed3cc153b24f49c0023ceb80f4dcc, https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=f7820ad432a23018f04382661755e70c 2x, https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=9bd2c9c70a8300a9d1e2a2c857343d58 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c692521f2d3aee1a6c5ca5fc2985cac9",
+          "srcset": "https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c692521f2d3aee1a6c5ca5fc2985cac9, https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=628bc29e410510f77ffa7585e3031488 2x, https://si.imgix.net/4b7a8041/uploads/origins/c2f52e22-5e95-4a2f-9134-de1961ed3eb6?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7d5c397ae77ae7bbf5f3422f7250df2d 3x"
+        },
+        "body": "Hello, sensai!\nThis is my friend's characters' reference, and he also really likes your arts:\nhttps://1drv.ms/f/c/6a8e65b6d252f7b8/EgBWEXSUP4VMpDHXe88Z17oBfFa3ZJBr1MTC4UQVpk3XVA\n\n【situation】The white tiger lay sprawled on the ground, belly up, its top half stripped bare as someone kneaded its stomach. Its paws clenched and relaxed like a cat kneading dough, one ear twitching, the tip of its tail swaying from side to side. Its mouth hung slightly open in blissful relaxation, exhaling a stream of air and dripping a bit of saliva. (Note: The character's tail is notably large.)\n\nAnd really love your artworks, thanks for the chance!",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2715",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3812474,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=045bc512fc1eb465b3872353c61fcdd5",
+          "srcset": "https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=045bc512fc1eb465b3872353c61fcdd5, https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=ac36a000bae8628184b0345ff1d22dbc 2x, https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=028c585fa1adafaddef34570feac908f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=894c22ac3fd214bb5c15c55d6099b305",
+          "srcset": "https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=894c22ac3fd214bb5c15c55d6099b305, https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=699feb7ab1862d873c37257808d87102 2x, https://si.imgix.net/e4b288a0/uploads/origins/c1c52bb1-3f21-47bb-bef8-8560b4f365f3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=f7a3925265ffd6d9278dbe506e8cae4e 3x"
+        },
+        "body": "こんにちは、あなたの絵がとても好きなので、私のキャラクターを描いていただけないでしょうか。彼は少しぽっちゃりしています。眼鏡をかけていてもいなくても構いません。眼鏡がない場合は、彼の目を好きなように描くことができます。\n\nこれが私のキャラクター・リファレンスです：\nhttps://drive.google.com/drive/folders/1JaQKMn8MfHuBuF3bZUZjRF995_z3hcat?usp=sharing",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2714",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3459558,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=3857b7bce136e319f6de6ea7e0cc9322",
+          "srcset": "https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=3857b7bce136e319f6de6ea7e0cc9322, https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=9912e664baa18f66264cd94f6fd3e901 2x, https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=25a44e6aee193b765aedb03f9e481f9e 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c85bc8cf775ff165a90b95ddfb2ca676",
+          "srcset": "https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c85bc8cf775ff165a90b95ddfb2ca676, https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=1d058c3d96a7f289fd7acbd96222fef3 2x, https://si.imgix.net/1c51b7d4/uploads/origins/e649817a-5f57-4ea6-8f44-e6f5213d8ec2?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=7aa0a311bde43ac48a45487c901dd7db 3x"
+        },
+        "body": "ソルスティス、太った腹を少し持ち上げては落とし、1トンぐらつかせる\n\nhttps://www.dropbox.com/scl/fi/zycg13z8tj8a19ggl2sxm/Photo-Nov-13-2025-2-45-47-AM.png?rlkey=z2r25ipxz48hksekjrs7byhgd&st=6wj91gcx&dl=0",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2713",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1377745,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=4c0557c425027ae82c47c9834755bcab",
+          "srcset": "https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=4c0557c425027ae82c47c9834755bcab, https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=e1ccdc9b359abcfc91746b92882eeeb1 2x, https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=1acb99db5c6ac050afe5fbb5a687f904 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=8ce1aa44e46da5c88733e14caea623f4",
+          "srcset": "https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=8ce1aa44e46da5c88733e14caea623f4, https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=679eaf015fde5fdeef4a483b80db5f6d 2x, https://si.imgix.net/04e03461/uploads/origins/186dec9f-dba2-44e9-a182-5ab74afb7930?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=9e9247ca5674b7306574182a419543be 3x"
+        },
+        "body": "Hello, sensai!\nThis is my other characters' reference:\nhttps://1drv.ms/f/c/6a8e65b6d252f7b8/EhG8yarZy2ZHi9mWZiOJAEoB_IrjKtAimRfYBe9Aqcu0Zg?e=Iw9GnC\n\n【situation】I want you to reference this movement, but while standing with pants on and swaying his hips.\nreference:https://1drv.ms/i/c/6a8e65b6d252f7b8/EX6UIikgPS9OohH6d7uL744BEWySI9EB7SDNa-k3-C7Rqw?e=SXVJlV\nAnd really love your artworks, thanks for the chance!",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2712",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1152783,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=acdbd9da97245504a6f061b9fb03e7ca",
+          "srcset": "https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=acdbd9da97245504a6f061b9fb03e7ca, https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=e47fe3d02d9d4bc41f3afb8953e4d050 2x, https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=7e1c2d5ec3b5dde9efdf77b2b8d57a43 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=38b72c063ae80b9a41095ea12f825114",
+          "srcset": "https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=38b72c063ae80b9a41095ea12f825114, https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=a9c1f355838f41d3b7027a94d3ecc228 2x, https://si.imgix.net/f06685a4/uploads/origins/3f5b968a-7ed8-4dbe-b809-b41993df4e12?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ae3fe709bc21f805b72a8d5059c97f36 3x"
+        },
+        "body": "こんにちは、私のウサギがVibeRabbit GIFミームをしているアニメーションが欲しいです。\n\n小さな金色のニンジンの鈴がついた赤い首輪もお願いします。それ以外は、前回あなたが描いた方法で完璧でした！\n\nGIFリファレンス : https://tenor.com/search/rabbit-vibe-gifs\nhttps://tenor.com/view/bunny-gif-27562509\n\nうさぎの参考文献\nhttps://www.dropbox.com/scl/fi/cbeayzjopvp3x53gtuoq3/Ref2.png?rlkey=4drpeqq9l0rwbbw25qi9br74e&st=zclzle8f&dl=0\nhttps://www.dropbox.com/scl/fo/9kkbeon30i1z6zfa65xcm/AJwvo_4VXw4it2ZZwoS_t6s?rlkey=obhwfhwbecio5q7wyntngwu52&st=dctjydej&dl=0",
+        "nc": 17,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2711",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3459558,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a1bc7e535ab6468aae5fca2a3b18d755",
+          "srcset": "https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a1bc7e535ab6468aae5fca2a3b18d755, https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=4fac370a5c916c516f4f5d2bdeb4e9d5 2x, https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=ce04d4befcb058fbc2f4dcc87643a799 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c0e2894f601aee755b186db7310eac19",
+          "srcset": "https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=c0e2894f601aee755b186db7310eac19, https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=8f688807308f6c11bcf729d2d4cd7ea0 2x, https://si.imgix.net/86def437/uploads/origins/6f8c5b29-bd70-40ef-9536-b5db712b3a5a?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=646982af7862138baed738e215559ad3 3x"
+        },
+        "body": "ゾルアのソルスティスの尻尾を噛むリオルのリュカと、少し困った表情で振り返るソルスティス。\nソルスティスもかなり太っている\n\nhttps://www.dropbox.com/scl/fo/rrh4x37dumkg1yppljqiu/AIOCcbonTccoO6OqxhgYa1U?rlkey=cz8071rj7zqtqvmgqg7bqgchx&st=60xp9mxl&dl=0",
+        "nc": 145,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2710",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 1161464,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=f4301d24cb0d4c94c0af6f6bc5dc62fe",
+          "srcset": "https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=f4301d24cb0d4c94c0af6f6bc5dc62fe, https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=99a93f988c0ec2b136d9e0ff1cd19c49 2x, https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=01e5bc3e5f960b34fed7e1fea0a9eec9 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=1c5f999cb063846a75c823be339b7b61",
+          "srcset": "https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=1c5f999cb063846a75c823be339b7b61, https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=085dbeadea4536923ad4e909083d6a31 2x, https://si.imgix.net/5104e6ff/uploads/origins/3c93a092-8e34-46c3-9a98-11b938f89e8e?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=415688da9b726ea732d57b0d89f03bfb 3x"
+        },
+        "body": "こんにちは、そしてこんばんは！あなたの作品が大好きで、私のキャラクター「ニカ」の可愛いアニメーションを作ってほしいです！アニメーションについては、ラーメンを食べているところを描いていただけないでしょうか？あとは、あなたの好きなように、彼女の行動に合わせて描いてください！ https://toyhou.se/22523687.mercy-nika/gallery#87120930 https://toyhou.se/22523687.mercy-nika/gallery#68048786 https://toyhou.se/22523687.mercy-nika/gallery#68541516",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2709",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 3163573,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=6b5d34fc2819d45fa947ef9de6c5e60c",
+          "srcset": "https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=6b5d34fc2819d45fa947ef9de6c5e60c, https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=cdf7385af9bba8a05104703b62d592ac 2x, https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=767ee53bddfc2126f73bca7e07751842 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=002c7c31426ee5834350fd1d4430a498",
+          "srcset": "https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=002c7c31426ee5834350fd1d4430a498, https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=48357d2df60d76b921967748abc0606b 2x, https://si.imgix.net/0c531855/uploads/origins/8b469a10-04cc-45ce-b79c-a0740136d1e4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=fccaebdba45152ecfe1026799b319922 3x"
+        },
+        "body": "こんにちは！\nあなたの作品はとても愛らしいですね！\n\n私のVTuberキャラクターのアニメーション作品をお願いしたいです！\nhttps://drive.google.com/file/d/1ewp0MtjzSLlmr-biWzNOnfdX5HhNMN_f\n\nキツネのしっぽと耳を振って興奮しているような感じがとても好きです！\nhttps://i.pinimg.com/originals/ee/bd/03/eebd030b6d9e70693e5a300405157d5a.gif。\n\n用途はDiscordステッカーです！\n\nこの度はありがとうございました！🤍🦊",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2708",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 190135,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=e3fb754fc6c65fbf62ecbe97364de756",
+          "srcset": "https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=e3fb754fc6c65fbf62ecbe97364de756, https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=4955bf7625c55f7fb5caac81f046b44c 2x, https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=bc56dfaf85fd8814de5a77b1e2e16d8b 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=36191bb9937dbae83af3bc28c3788579",
+          "srcset": "https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=36191bb9937dbae83af3bc28c3788579, https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=de1dc1e82263c141a5194e5ae9e15a00 2x, https://si.imgix.net/e5ea9711/uploads/origins/a3995c3b-e272-42a4-b9d9-182752163034?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=d2eb61c027e51f6ae0fdfffa341f2e67 3x"
+        },
+        "body": "過去に依頼したsmooooch・∀・の走ってるやつのうちの子(別のキャラクター)版をお願いします。\nhttps://skeb.jp/@mofumofu_nyaro/works/2592\n前回のキャラクターの弟です。\n服はボーイスーツ\n背景を透過&過去と同じサイズにしてあると助かります\nキャラクターページの読み込み時に使う予定です。\n\nhttps://rukaruko.nekonikoban.org/character/brother/",
+        "nc": 128,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2707",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=8c4eefce8eadabbaad8f9571b6821874",
+          "srcset": "https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=8c4eefce8eadabbaad8f9571b6821874, https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=538604e1bfdd3cc64ba54828cb3f3925 2x, https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=e2ae787951cd3fe6acb0127c63a214ce 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=f0b67aeb56a480ae7d35263984224a2a",
+          "srcset": "https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=f0b67aeb56a480ae7d35263984224a2a, https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0cdee0492b8e40e71276016401f88f67 2x, https://si.imgix.net/b3658486/uploads/origins/062dbca0-819a-4b81-96a1-c236e581f1e6?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=140ffe863577f09091d2320497f49fc1 3x"
+        },
+        "body": "こんにちは。私のキャラクターを、コートのポケットに手を入れ、ニヤニヤしながらカメラを見て立っているように描いていただけませんか？\n\nhttps://d.furaffinity.net/art/gambitfox/1762511182/1762511182.gambitfox_gafo.png",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@mofumofu_nyaro/works/2706",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 476505,
+        "client_id": 2801816,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=7d6374d03dc84a75d6bce1150db793fd",
+          "srcset": "https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=7d6374d03dc84a75d6bce1150db793fd, https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=59890bcbc458dc7565810d05a0971021 2x, https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=d6e16299dd8784dab3dda063b72e4717 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=cb8343195dbc4c60f4eaf06954cc0d00",
+          "srcset": "https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=cb8343195dbc4c60f4eaf06954cc0d00, https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=0a561b45dde1172f0ca2a9eb84f3cf91 2x, https://si.imgix.net/1c25b266/uploads/origins/59eb952f-4180-4dd0-990b-ca0450b675f3?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ba577751be8d2a21c4c84a4ed9516aa7 3x"
+        },
+        "body": "私のリクエストにたくさん応えてくれてありがとう！\n\n私の2人のキャラクターが、あなたが過去に行ったこのアニメーションと同じようにアニメーション化されるような、別のアニメーションを本当に楽しみにしています ->https://bsky.app/profile/tontarotaro.bsky.social/post/3m4pnsl5wec2p\n\nキャラクター#1参照：\nhttps://www.dropbox.com/scl/fi/wdl0fh9okfh0lmiy46n09/YuumoNewRef.png?rlkey=bt7devybefjp4ln5av67seeym&dl=0\n\nキャラクター#2参考\nhttps://www.dropbox.com/scl/fi/pls2kyx04ig8o73tu9wic/VRChat_2024-12-21_15-08-07.722_3840x2160.jpg?rlkey=v8nk6pgcrklv1yp9bs597k6c8&dl=0\n\nキャラクターその1は、猫を撫でている\n猫を撫でている手はキャラクター#2のものである。",
+        "nc": 129,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 482850,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "らぴす教授🍮",
+        "screen_name": "RPS_dot",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1906831474487427073/pRU0GNWB.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1078044407188750337/1714597547/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      },
+      {
+        "id": 861514,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ケチョンさん🐕",
+        "screen_name": "Ktyon3",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1683007057044307969/WW_SOcHJ.png",
+        "header_url": "https://pbs.twimg.com/profile_banners/524100714/1520683912/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 17
+      },
+      {
+        "id": 866185,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": false,
+        "name": "ふー",
+        "screen_name": "monufun_f",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2009715123418738693/zwbuUVdA.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1155770178237390848/1636534771/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 90,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 1
+      },
+      {
+        "id": 2344035,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "健やか",
+        "screen_name": "ko8kyo",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1641999998186565632/ps4uMezv.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1454696376219025408/1714478102/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 2659354,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "つなしゃけ",
+        "screen_name": "tyuna_24",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1782079026137636865/loghRxJz.jpg",
+        "header_url": null,
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 2,
+        "complete_expiration_days": 30,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 3011655,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "kyupo(浜山きゅぽ)🖥✍️Emotes",
+        "screen_name": "9pokamoyo",
+        "avatar_url": "https://proxy.misskeyusercontent.jp/avatar.webp?url=https%3A%2F%2Fmedia.misskeyusercontent.jp%2Fio%2Fa85a6de6-cf6e-4773-bf6a-fc6d2e1ff488.gif&avatar=1",
+        "header_url": "https://media.misskeyusercontent.jp/io/9ee03d86-b956-4a78-8eac-0e34ec82ae9f.gif",
+        "appeal_receivable": false,
+        "popular_creator_rank": 61,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 10,
+        "complete_expiration_days": 20,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 16
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 7500,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@mofumofu_nyaro/works/2735",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 476505,
+      "client_id": 2524919,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=06532e4e6559c3824380b01543a01345",
+        "srcset": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=06532e4e6559c3824380b01543a01345, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=903b896a8c8e90a94bc54a9841a33850 2x, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=20ab9f568946b2a5d0267dd443e89691 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=10ffd7bc1ad2fbf80ab1cd7039b0f8a2",
+        "srcset": "https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=10ffd7bc1ad2fbf80ab1cd7039b0f8a2, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=f60ad6007df57fbd398cc2a579426f18 2x, https://si.imgix.net/66dd76cd/uploads/origins/568eb2ad-26bb-4566-8304-43b37a0ff8bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=6931a929c32aa20b28c5428528021d12 3x"
+      },
+      "body": "こんにちは、ねこたろさん。\nねこたろさんの絵がとても可愛くて今回新たに要請を申請することになりました！\n私のキャラクターLeciが踊れるように手伝っていただけますか？\n\nリクエストしたいダンスはLemon Melon cookieです。\n参考映像 : https://youtu.be/VA2f1PXuyMA?si=16FZCUtDL9Kat4ML\n\n私のキャラクターの資料は以下のリンクを確認してください。\nhttps://drive.google.com/drive/folders/1y_9oncumUKvwu6nEJXIXmlmRBMVfJr97?usp=sharing\n顔にオレンジ色のチークがあり、お腹にレモンのかけらの模様があります。\n\nダンス全体を描いていただければ本当にいいのですが、ダンスの長さが長すぎるなら半分だけしてくださってもいいですよ！ どうぞよろしくお願いします。",
+      "nc": 144,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@mofumofu_nyaro/works/2733",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 476505,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a5acda08192b016978ed219ecc037ce3",
+        "srcset": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=a5acda08192b016978ed219ecc037ce3, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=a610fee259934c3ccbb44aba3bb73fd8 2x, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=e57fad92b1833461899066527068c6fa 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=a81e5c808eb588e235bf197bc814ae09",
+        "srcset": "https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=a81e5c808eb588e235bf197bc814ae09, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eb9d1d004b96096ddb24a30b22db124f 2x, https://si.imgix.net/0c08b526/uploads/origins/acfc924a-fce5-4db9-a9d0-673168ed80bd?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=0077cb49700d534862769de97959be06 3x"
+      },
+      "body": "こんにちは！あなたがバースデーカードとして作ってくれたリモンのアートが、コミュニティでとても好評だったので、これにインスパイアされた彼が歌っているアートをまた作ってもらえたら嬉しいです : https://files.catbox.moe/h84deb.mp4\n\n参考文献はこちら : https://imgur.com/a/limon-Exf9Z7l\n\nありがとうございました！",
+      "nc": 0,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@mofumofu_nyaro/works/2732",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 476505,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=345de4f9bca99d5c1fdf753216feafea",
+        "srcset": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=345de4f9bca99d5c1fdf753216feafea, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=433ba536ab62905468325494db84607e 2x, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=c034d77a6b369cf842779160f27be441 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d3d86de09f84825fc65cdbe41db204dd",
+        "srcset": "https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=d3d86de09f84825fc65cdbe41db204dd, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=eed544c50f0aeba21803ed3210cf5c1b 2x, https://si.imgix.net/dc7b7f36/uploads/origins/ca158948-3a3b-4656-9828-7b3091a0c3c4?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=3af228ad9428abacd97fc6c3d78e136e 3x"
+      },
+      "body": "前回描いてくださったこちらのイラストのように、\n今回は【上がミロネちゃん（うちのこ）、下がゼラオラ】という感じです。\n\n2匹を膨らましたイラストをお願いします！\n\n【ミロネちゃん（うちのこ、ミロメの姉）】\nhttps://x.com/sn7xtq6hbmq7ybt/status/1801589404408103161?s=46\n\n【前回描いてくださったイラスト】\nhttps://x.com/sn7xtq6hbmq7ybt/status/1895875773703340304?s=46",
+      "nc": 128,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@mofumofu_nyaro/works/2731",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 476505,
+      "client_id": 3829194,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=574e980883a615b6a98cd54df48d9a7e",
+        "srcset": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&s=574e980883a615b6a98cd54df48d9a7e, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&s=2ad14f3ff230e9a36b7cff29448aaf6b 2x, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&s=ba5fd4fa6c6587105c6de5405e0ab8f5 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e203949533431933b9ea2727aebad29b",
+        "srcset": "https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&fit=crop&crop=top&w=200&h=200&blur=200&s=e203949533431933b9ea2727aebad29b, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=552f67225af408afe46545675b44440c 2x, https://si.imgix.net/d7197cbc/uploads/origins/9efd7583-2041-4eb2-b464-7b8c8d2ed3d8?bg=%23fff&fm=webp&auto=compress&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=70ce0d7d32b5c8bd413c0782c6698999 3x"
+      },
+      "body": "We want to have two characters having a cute, and playful magic fight.  The characters can be smiling, happy, whatever you think looks the cutest! Totally okay with some simplification as well ^^\n\nThe characters are linked below: Lexi is the Female Kobold (Pink) and Saphir is the Male Kobold (Orange)\nhttps://drive.google.com/drive/folders/1_PNzhK_g2VOH3jyJ_orf0eotODGP9-va?usp=sharing\n\nThanks so much!\n\nhttps://drive.google.com/drive/folders/1_PNzhK_g2VOH3jyJ_orf0eotODGP9-va?usp=sharing",
+      "nc": 1,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}

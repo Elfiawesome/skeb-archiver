@@ -1,0 +1,365 @@
+{
+  "screen_name": "yano3x",
+  "first_seen": "2026-02-14T13:18:32.161722+00:00",
+  "last_updated": "2026-02-14T13:18:32.161722+00:00",
+  "profile": {
+    "id": 3398599,
+    "acceptable": true,
+    "creator": true,
+    "avatar_url": "https://pbs.twimg.com/profile_images/1949196024947646464/tNNp7Pzm.jpg",
+    "name": "🐧",
+    "nsfw_acceptable": false,
+    "screen_name": "yano3x",
+    "language": "ja",
+    "header_url": "https://pbs.twimg.com/profile_banners/1038143417765642240/1767436672/1500x500",
+    "body_size": 1000,
+    "received_works_count": 2,
+    "received_nsfw_works_count": 0,
+    "sent_requests_average_cancel_time": null,
+    "appeal_receivable": false,
+    "request_master_rank": null,
+    "first_requester_rank": null,
+    "sent_first_works_count": 0,
+    "sent_public_works_count": 0,
+    "popular_creator_rank": null,
+    "instruction": "brief",
+    "asct": null,
+    "description": "自我と進捗！ツイ消し多め 配慮無し 鍵は気分@ynyk3x",
+    "nijie_id": null,
+    "dlsite_id": null,
+    "fanza_id": null,
+    "pixiv_id": null,
+    "booth_id": null,
+    "fantia_id": null,
+    "fanbox_id": null,
+    "skima_id": null,
+    "coconala_id": null,
+    "patreon_id": null,
+    "busy": false,
+    "url": null,
+    "wishlist_id": null,
+    "youtube_id": null,
+    "show_social_profile": false,
+    "accept_expiration_days": 3,
+    "complete_expiration_days": 15,
+    "nc": 16,
+    "twitter_uid": "1038143417765642240",
+    "user_service_links": [
+      {
+        "provider": "twitter",
+        "screen_name": "yk_bsab",
+        "url": "https://x.com/yk_bsab"
+      }
+    ],
+    "banned": false,
+    "banned_by": "",
+    "complete_rate": 1.0,
+    "og_image_url": "https://skeb-avatar.imgix.net/https%3A%2F%2Fskeb.jp%2Fapi%2Fusers%2Fyano3x%2Fbackground%3Fd%3D7737c7?blend64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PVVrVkRUMDFOUlU1RVJVUWdVRkpKUTBVJnR4dGNscj1mZmYmdHh0Zm9udDY0PVFYWmxibWx5TFUxbFpHbDFiUSZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT00MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&bm=normal&by=360&mark64=aHR0cHM6Ly9hc3NldHMuaW1naXgubmV0L350ZXh0P3R4dDY0PU5UQXdJRXBRV1EmdHh0Y2xyPWZmZiZ0eHRmb250NjQ9UVhabGJtbHlMVUpzWVdOciZ0eHRhbGlnbj1jZW50ZXImdHh0c2l6ZT04MCZ0eHRzaGFkPTEwJmZtPXBuZyZ3PTEyMDA&marky=415&txt64=8J-Qpw&txtclr=fff&txtfont64=QXZlbmlyLUJsYWNr&txtfit=max&txtalign=middle%2Ccenter&txtsize=60&txtshad=10&auto=format%2Ccompress&fit=crop&crop=top&w=1200&h=630&s=a9075d7134125015e17dac38b7896276",
+    "skills": [
+      {
+        "genre": "art",
+        "default_amount": 500
+      }
+    ],
+    "payment_methods": {
+      "credit_cards": {
+        "jcb": {
+          "nsfw": true
+        },
+        "master_card": {
+          "nsfw": true
+        },
+        "visa": {
+          "nsfw": true
+        },
+        "discover": {
+          "nsfw": true
+        },
+        "american_express": {
+          "nsfw": true
+        }
+      }
+    },
+    "acceptable_only_public": false,
+    "tip_acceptable": true,
+    "yearly_report_client_visible": false,
+    "total_appeals_count": 0,
+    "received_works": [
+      {
+        "path": "/@yano3x/works/2",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3398599,
+        "client_id": 3572079,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=26397251e48c303e9af0cab58e8b0341",
+          "srcset": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=26397251e48c303e9af0cab58e8b0341, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=71c0895b90c78801d64a4125f4556265 2x, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f63de0abe4fbf9928f0296c1b13419ff 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4bda6294851ba2e73aee7f8860589a8e",
+          "srcset": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4bda6294851ba2e73aee7f8860589a8e, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7f477e0441c7463333d3ed64ee5afd59 2x, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ca4606823f0a54b6d2503b9743c0c879 3x"
+        },
+        "body": "初めまして。先生のちみこい命、デフォルメの絵柄をお見かけして、惹かれて是非うちの子達、創作男女2人をお願い出来たらと思いリクエストさせて頂きました。\n\n・もし大丈夫でしたらデフォルメをお願いさせて頂ければ幸いです！\n\n ・服装…資料通りのお洋服でお願い致します。描きやすいようアレンジ等は大歓迎でございます。\n\n・構図、雰囲気等は先生の自由にうちの子達を描いて頂けたら嬉しいです。\n\n資料、金額等不備ありましたら、再送して頂ければ幸いです。ご検討よろしくお願い致します。\n\nhttps://lit.link/Tukiusa",
+        "nc": 0,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      },
+      {
+        "path": "/@yano3x/works/1",
+        "private_thumbnail_image_urls": null,
+        "private": false,
+        "genre": "art",
+        "tipped": false,
+        "creator_id": 3398599,
+        "client_id": 3568813,
+        "vtt_url": null,
+        "thumbnail_image_urls": {
+          "src": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=aee88c75a31ab2470c260380b95bc9fe",
+          "srcset": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=aee88c75a31ab2470c260380b95bc9fe, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=272dbfa862973dabdeed4b2d8f100403 2x, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f7a09e6ee889d899602e7a03cfc2912f 3x"
+        },
+        "duration": null,
+        "nsfw": false,
+        "hardcore": false,
+        "consored_thumbnail_image_urls": {
+          "src": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9d053e6ced86e53c7a0f04ba11ac2414",
+          "srcset": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9d053e6ced86e53c7a0f04ba11ac2414, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c91f34386257d605921955a6bb1c7f3a 2x, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a830b7d71ad6c8bd4522b1c91ad84069 3x"
+        },
+        "body": "私のキャラクターに見える限り、何をしても構わない https://drive.google.com/drive/folders/1xPDAjX99EJrNgf0LtkC_tndQmMXKZlYU?usp=sharing",
+        "nc": 1,
+        "word_count": 0,
+        "transcoder": "image",
+        "creator_acceptable_same_genre": true
+      }
+    ],
+    "sent_works": [],
+    "similar_creators": [
+      {
+        "id": 1661952,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "榎木ふたば",
+        "screen_name": "enk_futaba",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1452221258767077376/DpyoqfYn.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1406500584044171275/1631618027/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 1930491,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "ぱだまる",
+        "screen_name": "PA_LOTS",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1618138420857167873/-qrTA9h3.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1498899714347274242/1690911329/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 129
+      },
+      {
+        "id": 3020945,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "おくらん",
+        "screen_name": "okuran_0",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1893969402631958528/81MetGrD.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1609841293546643456/1706597926/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 3220531,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "あきらか",
+        "screen_name": "ki_ra_bi",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1623448692647927808/cWzDCLRE.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1603050106831667200/1675861908/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 120,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 128
+      },
+      {
+        "id": 3231595,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "滝川琉々",
+        "screen_name": "sewo_hayami_77",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1840356419058688001/_UlFK5NA.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1349945864375005186/1765895876/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 15,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 0
+      },
+      {
+        "id": 3451901,
+        "creator": true,
+        "nsfw_acceptable": false,
+        "acceptable": true,
+        "name": "海月 蓮",
+        "screen_name": "kaizuki_ren",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1919299842364559360/kTPaqmBT.jpg",
+        "header_url": "https://pbs.twimg.com/profile_banners/1847625306687025152/1746431669/1500x500",
+        "appeal_receivable": false,
+        "popular_creator_rank": null,
+        "request_master_rank": null,
+        "first_requester_rank": null,
+        "deleted_at": null,
+        "tip_acceptable_by": "all",
+        "accept_expiration_days": 30,
+        "complete_expiration_days": 60,
+        "skills": [
+          {
+            "genre": "art"
+          },
+          {
+            "genre": "correction"
+          }
+        ],
+        "nc": 1
+      }
+    ]
+  },
+  "price_history": {
+    "art": [
+      {
+        "amount": 500,
+        "recorded_at": "2026-02-14T13:18:32.161722+00:00"
+      }
+    ]
+  },
+  "works": [
+    {
+      "path": "/@yano3x/works/2",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3398599,
+      "client_id": 3572079,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=26397251e48c303e9af0cab58e8b0341",
+        "srcset": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=26397251e48c303e9af0cab58e8b0341, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=71c0895b90c78801d64a4125f4556265 2x, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f63de0abe4fbf9928f0296c1b13419ff 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4bda6294851ba2e73aee7f8860589a8e",
+        "srcset": "https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=4bda6294851ba2e73aee7f8860589a8e, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=7f477e0441c7463333d3ed64ee5afd59 2x, https://si.imgix.net/ba2d7543/uploads/origins/1770d17e-98cf-4adb-a039-aacf6525e64b?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=ca4606823f0a54b6d2503b9743c0c879 3x"
+      },
+      "body": "初めまして。先生のちみこい命、デフォルメの絵柄をお見かけして、惹かれて是非うちの子達、創作男女2人をお願い出来たらと思いリクエストさせて頂きました。\n\n・もし大丈夫でしたらデフォルメをお願いさせて頂ければ幸いです！\n\n ・服装…資料通りのお洋服でお願い致します。描きやすいようアレンジ等は大歓迎でございます。\n\n・構図、雰囲気等は先生の自由にうちの子達を描いて頂けたら嬉しいです。\n\n資料、金額等不備ありましたら、再送して頂ければ幸いです。ご検討よろしくお願い致します。\n\nhttps://lit.link/Tukiusa",
+      "nc": 17,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    },
+    {
+      "path": "/@yano3x/works/1",
+      "private_thumbnail_image_urls": null,
+      "private": false,
+      "genre": "art",
+      "tipped": false,
+      "creator_id": 3398599,
+      "client_id": 3568813,
+      "vtt_url": null,
+      "thumbnail_image_urls": {
+        "src": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=aee88c75a31ab2470c260380b95bc9fe",
+        "srcset": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&s=aee88c75a31ab2470c260380b95bc9fe, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&s=272dbfa862973dabdeed4b2d8f100403 2x, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&s=f7a09e6ee889d899602e7a03cfc2912f 3x"
+      },
+      "duration": null,
+      "nsfw": false,
+      "hardcore": false,
+      "consored_thumbnail_image_urls": {
+        "src": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9d053e6ced86e53c7a0f04ba11ac2414",
+        "srcset": "https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&fit=crop&crop=top&w=200&h=200&blur=200&s=9d053e6ced86e53c7a0f04ba11ac2414, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=2&fit=crop&crop=top&w=200&h=200&blur=200&s=c91f34386257d605921955a6bb1c7f3a 2x, https://si.imgix.net/44bb9e51/uploads/origins/c0081f39-dc96-4b3e-a804-bb2b77e79ad5?bg=%23fff&auto=format%2Ccompress&fm=webp&dpr=3&fit=crop&crop=top&w=200&h=200&blur=200&s=a830b7d71ad6c8bd4522b1c91ad84069 3x"
+      },
+      "body": "私のキャラクターに見える限り、何をしても構わない https://drive.google.com/drive/folders/1xPDAjX99EJrNgf0LtkC_tndQmMXKZlYU?usp=sharing",
+      "nc": 16,
+      "word_count": 0,
+      "transcoder": "image",
+      "creator_acceptable_same_genre": true,
+      "scraped_at": "2026-02-14T13:18:32.161722+00:00"
+    }
+  ]
+}
