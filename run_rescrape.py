@@ -33,11 +33,12 @@ async def _main() -> None:
 	def f(data: dict) -> bool:
 		last_updated_string = data.get("last_updated")
 		if not last_updated_string:
-			return True 
+			return True
 		last_update = datetime.datetime.fromisoformat(last_updated_string)
-		print(last_updated_string)
-		today = datetime.datetime.now().astimezone(last_update.tzinfo)
-		print(last_update.utcoffset(), " - ",today.utcoffset())
+		today = datetime.datetime.now(tz=datetime.timezone.utc)
+		
+		print(last_update, " - ",today)
+		
 		if (today - last_update) > datetime.timedelta(days=5):
 			return True
 		return False
