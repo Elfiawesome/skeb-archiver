@@ -37341,7 +37341,12 @@ async def _main() -> None:
 		retries=3,
 	)
 	async with crawler._client:
-		names = OLD_USERS.split("\n")
+		names = []
+		for name in OLD_USERS.split("\n"):
+			if name == "":
+				continue
+			if not crawler._store.load(name):
+				names.append(name)
 		profiles = await crawler._fetch_profiles(names)
 
 		for uname, profile in sorted(profiles.items()):
