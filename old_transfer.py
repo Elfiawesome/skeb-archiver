@@ -37348,7 +37348,7 @@ async def _main() -> None:
 			if not crawler._store.load(name):
 				names.append(name)
 		log.info(f"Total to scrape is at {len(names)}")
-		names = names[:3000]
+		names = names[:400]
 		profiles = await crawler._fetch_profiles(names)
 
 		for uname, profile in sorted(profiles.items()):
