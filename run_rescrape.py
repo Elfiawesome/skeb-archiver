@@ -29,14 +29,17 @@ async def _main() -> None:
 		retries=3,
 	)
 	# Additional filter to only updaate those who are more than 5 day old
+	import datetime
 	def f(data: dict) -> bool:
-		import datetime
-		last_updated_string =  data.get("last_updated")
+		last_updated_string = data.get("last_updated")
+		if not last_updated_string:
+			return True 
 		last_update = datetime.datetime.fromisoformat(last_updated_string)
-		today = datetime.datetime.now()
-		if (last_update - today) > datetime.timedelta(days=5):
+		today = datetime.datetime.now(datetime.timezone.utc)
+		if (today - last_update) > datetime.timedelta(days=5):
 			return True
 		return False
+	
 	await rescraper.run(f)
 
 	log.info("Regenerating static-site data ...")
