@@ -2,7 +2,6 @@ from pathlib import Path
 import json
 import datetime
 BASE_DIR = Path().resolve() / "skeb"
-print(BASE_DIR)
 
 for file in BASE_DIR.glob("*.json"):
 	data: dict = {}
@@ -26,6 +25,6 @@ for file in BASE_DIR.glob("*.json"):
 		data["first_seen"] = first_seen.isoformat()
 		need_update = True
 	
-	# if need_update:
-	# 	with file.open("w", encoding="utf-8") as f:
-	# 		json.dump(data, f, ensure_ascii=False)
+	if need_update:
+		with file.open("w", encoding="utf-8") as f:
+			json.dump(data, f, ensure_ascii=False)
