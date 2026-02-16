@@ -13,7 +13,7 @@ Usage::
 
 import asyncio
 from datetime import datetime, timezone
-from typing import Dict
+from typing import Dict, Optional, Callable
 
 import aiohttp
 
@@ -64,13 +64,13 @@ class Rescraper:
 		except Exception as exc:
 			return exc
 
-	async def run(self) -> None:
+	async def run(self, name_filter: Optional[Callable[[dict], bool]] = None) -> None:
 		async with self._client:
 			log.info("=" * 60)
 			log.info("Rescrape started  %s", self._ts)
 			log.info("=" * 60)
 
-			names = self._store.list_screen_names()
+			names = self._store.list_screen_names(filter_func=name_filter)
 			self._stats["total"] = len(names)
 			log.info("Users to rescrape: %d", len(names))
 

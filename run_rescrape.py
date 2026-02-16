@@ -28,7 +28,16 @@ async def _main() -> None:
 		request_delay=0.05,
 		retries=3,
 	)
-	await rescraper.run()
+	# Additional filter to only updaate those who are more than 5 day old
+	def f(data: dict) -> bool:
+		import datetime
+		last_updated_string =  data.get("last_updated")
+		last_update = datetime.datetime.fromisoformat(last_updated_string)
+		today = datetime.datetime.now()
+		if (last_update - today) > datetime.timedelta(days=5):
+			return True
+		return False
+	await rescraper.run(f)
 
 	log.info("Regenerating static-site data ...")
 	generate_data(data_dir=DATA_DIR, output_dir=SITE_DIR)

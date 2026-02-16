@@ -3,7 +3,7 @@
 import json
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Callable
 
 from .logger import log
 
@@ -56,7 +56,7 @@ class DataStore:
 				log.warning("Skipping corrupt file %s: %s", p, e)
 		return users
 
-	def list_screen_names(self) -> List[str]:
+	def list_screen_names(self, filter_func: Optional[Callable[[dict], bool]] = None) -> List[str]:
 		"""Return all screen_names from stored user files."""
 		names: List[str] = []
 		for p in sorted(self._root.glob("*.json")):
@@ -64,8 +64,9 @@ class DataStore:
 				with p.open("r", encoding="utf-8") as fh:
 					data = json.load(fh)
 					sn = data.get("screen_name")
-					if sn:
-						names.append(sn)
+					if filter_func is None or filter_func(data):
+						if sn:
+							names.append(sn)
 			except (json.JSONDecodeError, OSError) as e:
 				log.warning("Skipping corrupt file %s: %s", p, e)
 		return names
