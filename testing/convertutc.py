@@ -17,11 +17,11 @@ for file in BASE_DIR.glob("*.json"):
 	need_update = False
 
 	if last_updated.utcoffset() == None:
-		last_updated = last_updated.astimezone(datetime.timezone.utc)
+		last_updated = last_updated.replace(tzinfo=datetime.timezone.utc)
 		data["last_updated"] = last_updated.isoformat()
 		need_update = True
 	if first_seen.utcoffset() == None:
-		first_seen = first_seen.astimezone(datetime.timezone.utc)
+		first_seen = first_seen.replace(tzinfo=datetime.timezone.utc)
 		data["first_seen"] = first_seen.isoformat()
 		need_update = True
 	
