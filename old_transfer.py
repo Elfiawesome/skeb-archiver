@@ -37345,8 +37345,11 @@ async def _main() -> None:
 		for name in OLD_USERS.split("\n"):
 			if name == "":
 				continue
+			if len(names) > 300:
+				break
 			if not crawler._store.load(name):
 				names.append(name)
+		
 		profiles = await crawler._fetch_profiles(names)
 
 		for uname, profile in sorted(profiles.items()):
