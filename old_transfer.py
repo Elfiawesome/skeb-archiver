@@ -45,7 +45,6 @@ async def _main() -> None:
 				names.append(line_datas)
 				continue
 		
-		names.insert(1, ["uyo507"])
 		for name in names:
 			if len(name) == 1:
 				try:
