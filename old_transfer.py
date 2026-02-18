@@ -48,13 +48,14 @@ async def _main() -> None:
 				names.append(line_datas)
 				continue
 		
-		for name in names:
+		for i in range(names):
+			name = names[i]
 			if len(name) == 1:
 				try:
 					data = await crawler._client.fetch_profile(name[0])
 					crawler._persist(name[0], data)
 				except Exception as e:
-					name.append(str(e).replace("\n", "-").replace(",", "-"))
+					names[i] = [name[0], str(e).replace("\n", "-").replace(",", "-")]
 
 		with open("old_users.txt", "w") as f:
 			for name in names:
