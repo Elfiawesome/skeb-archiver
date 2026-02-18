@@ -53,8 +53,6 @@ async def _main() -> None:
 					crawler._persist(name[0], data)
 				except Exception as e:
 					name.append(str(e).replace("\n", "-").replace(",", "-"))
-					continue
-				break
 
 		with open("old_users.txt", "w") as f:
 			for name in names:
