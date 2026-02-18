@@ -48,8 +48,7 @@ async def _main() -> None:
 				names.append(line_datas)
 				continue
 		
-		for i in range(names):
-			name = names[i]
+		for i, name in enumerate(names):
 			if len(name) == 1:
 				try:
 					data = await crawler._client.fetch_profile(name[0])
