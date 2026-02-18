@@ -42,6 +42,9 @@ async def _main() -> None:
 				continue
 
 			if len(line_datas) == 2:
+				if line_datas[1].startswith("429"):
+					names.append([line_datas[0]])
+					continue
 				names.append(line_datas)
 				continue
 		
