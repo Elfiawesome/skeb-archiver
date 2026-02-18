@@ -60,6 +60,7 @@ async def _main() -> None:
 			for name in names:
 				f.write(",".join(name) + "\n")
 	
+		crawler._log_summary()
 	generate_data(data_dir=DATA_DIR, output_dir=SITE_DIR)
 	log.info("Done.")
 
