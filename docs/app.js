@@ -79,7 +79,7 @@ const App = {
 	/* ── bootstrap ───────────────────────────────────────── */
 	async init() {
 		try {
-			const r = await fetch("api/index.json");
+			const r = await this.fetch("api/index.json");
 			if (!r.ok) throw new Error("HTTP " + r.status);
 			this.meta = await r.json();
 			this.knownFlags = this.meta.known_flags || [];
@@ -109,7 +109,7 @@ const App = {
 
 	async loadPage(num) {
 		try {
-			const r = await fetch("api/pages/" + num + ".json");
+			const r = await this.fetch("api/pages/" + num + ".json");
 			if (!r.ok) throw new Error("HTTP " + r.status);
 			const data = await r.json();
 			this.pages[num] = data.users || [];
@@ -421,7 +421,7 @@ const App = {
 			this.loading.add(name);
 			this.renderTable();
 			try {
-				const resp = await fetch("api/users/" + encodeURIComponent(file) + ".json");
+				const resp = await this.fetch("api/users/" + encodeURIComponent(file) + ".json");
 				if (!resp.ok) throw new Error("HTTP " + resp.status);
 				this.cache[name] = await resp.json();
 			} catch (e) {
@@ -575,6 +575,14 @@ const App = {
 			html += '<p class="msg-sm" style="margin-top:8px">Showing ' + MAX + " of " + works.length + "</p>";
 		return html;
 	},
+
+	async fetch(url) {
+		var data = await fetch(url);
+		if (!data.ok) {
+			data = await fetch("https://raw.githubusercontent.com/Elfiawesome/skeb-archiver/refs/heads/main/docs/" + url);
+		}
+		return data;
+	}
 };
 
 document.addEventListener("DOMContentLoaded", () => App.init());
