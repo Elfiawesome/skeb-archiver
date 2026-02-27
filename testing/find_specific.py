@@ -6,11 +6,15 @@ SKEB_DIR = (BASE_DIR / "skeb")
 OUTPUT_FILE = (BASE_DIR / "find_specific_output.csv")
 
 KEYWORDS = [
-	"ケモノ",
-	"けもの",
-	"ケモカス",
-	"fursona",
-	"furry"
+	# "ケモノ",
+	# "けもの",
+	# "ケモカス",
+	# "fursona",
+	# "furry",
+	
+	# "キャラデザ",
+	
+	"スタンプ"
 ]
 
 items: list[tuple[str, int]] = []
@@ -25,7 +29,8 @@ for i in SKEB_DIR.rglob("*.json"):
 		price = data["price_history"].get("art", [])
 		if price:
 			price_amt = int(price[0]["amount"])
-
+		if not price_amt:
+			continue
 		
 		for work in data["profile"]["received_works"]:
 			text = work.get("body", {})
