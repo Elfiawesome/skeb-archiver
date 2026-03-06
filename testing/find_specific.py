@@ -14,7 +14,8 @@ KEYWORDS = [
 	
 	# "キャラデザ",
 	
-	"スタンプ"
+	"スタンプ",
+	"emote"
 ]
 
 items: list[tuple[str, int]] = []
