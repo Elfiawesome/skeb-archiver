@@ -4,6 +4,7 @@ Package entry point.
 	python -m src.main
 
 The crawler writes raw per-user JSON to ``DATA_DIR`` (``skeb/``).
+The discoverer scrapes similar_creators not yet stored.
 The site generator reads from the *same* ``DATA_DIR`` and writes
 derived lightweight files to ``SITE_DIR/api/`` (``docs/api/``).
 """
@@ -11,6 +12,7 @@ derived lightweight files to ``SITE_DIR/api/`` (``docs/api/``).
 import asyncio
 
 from .crawler import SkebCrawler
+from .discover import Discoverer
 from .logger import log
 from .site import generate_data
 
@@ -30,6 +32,15 @@ async def main() -> None:
 		retries=3,
 	)
 	await crawler.run()
+
+	log.info("Discovering similar creators ...")
+	discoverer = Discoverer(
+		data_dir=DATA_DIR,
+		concurrency=10,
+		request_delay=0.05,
+		retries=3,
+	)
+	await discoverer.run()
 
 	log.info("Generating static-site data ...")
 	generate_data(data_dir=DATA_DIR, output_dir=SITE_DIR)

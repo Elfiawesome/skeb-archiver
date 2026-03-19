@@ -10,6 +10,7 @@ from .logger import log
 # Keys managed by the system — everything else is a user-defined flag
 SYSTEM_KEYS = frozenset({
 	"screen_name", "first_seen", "last_updated", "profile", "price_history",
+	"missing",
 })
 
 
