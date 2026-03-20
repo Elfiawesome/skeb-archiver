@@ -16,7 +16,7 @@ Options:
 	--concurrency N	Max parallel requests (default: 10)
 	--delay SECS	   Per-request delay in seconds (default: 0.05)
 	--retries N		Max retries per request (default: 3)
-	--max-user N		Max users (default: -1)
+	--max-users N		Max users (default: -1)
 
 Colab:
 	await _main()				   Run all steps with defaults
@@ -153,6 +153,7 @@ def _parse_args() -> dict:
 	p.add_argument("--concurrency", type=int, default=_DEFAULTS["concurrency"])
 	p.add_argument("--delay", type=float, default=_DEFAULTS["delay"])
 	p.add_argument("--retries", type=int, default=_DEFAULTS["retries"])
+	p.add_argument("--max-users", type=int, default=_DEFAULTS["max_users"])
 	a = p.parse_args()
 	return dict(
 		mode=a.mode,
