@@ -171,8 +171,6 @@ def generate_data(
 		works = _get_received_works(profile)
 		total_works = _true_works_count(profile)
 		flags = _extract_flags(u)
-		acceptable = profile.get("acceptable")
-		missing = u.get("missing", False)
 
 		# track discovered flag names
 		all_flag_names.update(flags.keys())
@@ -183,8 +181,6 @@ def generate_data(
 				"screen_name": sn,
 				"file": file_key,
 				"avatar_url": avatar,
-				"acceptable": acceptable,
-				"missing": missing,
 				"total_works": total_works,
 				"first_seen": u.get("first_seen", ""),
 				"last_updated": u.get("last_updated", ""),
@@ -219,8 +215,6 @@ def generate_data(
 			"avatar_url": avatar,
 			"header_url": profile.get("header_url", ""),
 			"description": profile.get("description", ""),
-			"acceptable": acceptable,
-			"missing": missing,
 			"total_works": total_works,
 			"scraped_works": len(works),
 			"first_seen": u.get("first_seen", ""),
