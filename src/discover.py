@@ -12,6 +12,7 @@ Usage::
 import asyncio
 from datetime import datetime, timezone
 from typing import Dict, Set
+import itertools
 
 import aiohttp
 
@@ -74,7 +75,7 @@ class Discoverer:
 
 		new_names = candidates - existing
 		if self.max_users!=-1:
-			new_names = new_names[:self.max_users]
+			new_names = set(itertools.islice(new_names, self.max_users))
 		
 		self._stats["new_to_fetch"] = len(new_names)
 		return new_names
