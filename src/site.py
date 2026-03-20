@@ -33,7 +33,7 @@ _PLATFORM_URLS = {
 					"https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
 }
 
-PAGE_SIZE = 200
+PAGE_SIZE = 2000
 
 
 # ── flags ────────────────────────────────────────────────────
