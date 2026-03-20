@@ -171,6 +171,7 @@ def generate_data(
 		works = _get_received_works(profile)
 		total_works = _true_works_count(profile)
 		flags = _extract_flags(u)
+		acceptable = bool(profile.get("acceptable", False))
 
 		# track discovered flag names
 		all_flag_names.update(flags.keys())
@@ -188,6 +189,7 @@ def generate_data(
 				"price_range": _price_ranges(ph),
 				"latest_thumbnails": _latest_thumbnail_urls(works, 4),
 				"flags": flags,
+				"acceptable": acceptable,
 			}
 		)
 
@@ -224,6 +226,7 @@ def generate_data(
 			"price_range": _price_ranges(ph),
 			"links": _extract_links(profile),
 			"flags": flags,
+			"acceptable": acceptable,
 			"works": works_out,
 		}
 

@@ -112,6 +112,59 @@ width: 90px; outline: none;
 .toolbar input[type="number"]::placeholder { color: var(--text-3); }
 .toolbar input[type="number"]:focus { border-color: var(--accent); }
 
+/* ─── acceptable filter button ───────────────────────────── */
+.acceptable-btn {
+font-family: var(--mono);
+font-size: 11px;
+padding: 5px 12px;
+border: 1px solid var(--border);
+background: var(--bg);
+color: var(--text-3);
+cursor: pointer;
+white-space: nowrap;
+letter-spacing: .02em;
+transition: all .12s;
+}
+.acceptable-btn:hover {
+border-color: var(--text-3);
+color: var(--text-2);
+}
+.acceptable-btn.require {
+border-color: var(--green);
+color: var(--green);
+background: rgba(34, 197, 94, .08);
+}
+.acceptable-btn.exclude {
+border-color: var(--red);
+color: var(--red);
+background: rgba(239, 68, 68, .08);
+}
+
+/* ─── acceptable badge (table row) ───────────────────────── */
+.acceptable-badge {
+display: inline-block;
+font-size: 9px;
+font-family: var(--mono);
+padding: 0 4px;
+border: 1px solid var(--green);
+color: var(--green);
+margin-left: 6px;
+text-transform: lowercase;
+letter-spacing: .02em;
+vertical-align: middle;
+}
+
+/* ─── acceptable status (detail panel) ───────────────────── */
+.detail-acceptable-true {
+border-color: var(--green) !important;
+color: var(--green) !important;
+}
+.detail-acceptable-false {
+border-color: var(--border) !important;
+color: var(--text-3) !important;
+opacity: .5;
+}
+
 /* ─── flag bar ───────────────────────────────────────────── */
 .flag-bar {
 background: var(--surface);

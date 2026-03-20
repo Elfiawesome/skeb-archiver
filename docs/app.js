@@ -76,6 +76,8 @@ const App = {
 	knownFlags: [],
 	flagFilters: {},          // flag -> null | "require" | "exclude"
 
+	acceptableFilter: null,   // null = all, "require" = only acceptable, "exclude" = only not acceptable
+
 	/* ── bootstrap ───────────────────────────────────────── */
 	async init() {
 		try {
@@ -151,6 +153,14 @@ const App = {
 				this.page = 0; this.update();
 			});
 		});
+		$("#acceptable-filter").addEventListener("click", () => {
+			const cur = this.acceptableFilter;
+			if (cur === null) this.acceptableFilter = "require";
+			else if (cur === "require") this.acceptableFilter = "exclude";
+			else this.acceptableFilter = null;
+			this.page = 0;
+			this.update();
+		});
 	},
 
 	/* ── price ───────────────────────────────────────────── */
@@ -181,6 +191,13 @@ const App = {
 				if (this.priceMax != null && p > this.priceMax) return false;
 				return true;
 			});
+		}
+
+		// Acceptable filter
+		if (this.acceptableFilter === "require") {
+			list = list.filter(u => u.acceptable === true);
+		} else if (this.acceptableFilter === "exclude") {
+			list = list.filter(u => !u.acceptable);
 		}
 
 		// Flag filters
@@ -224,6 +241,7 @@ const App = {
 	update() {
 		this.filter();
 		this.renderArrows();
+		this.renderAcceptableBtn();
 
 		const totalPages = Math.max(1, Math.ceil(this.filtered.length / this.perPage));
 		if (this.page >= totalPages) this.page = totalPages - 1;
@@ -244,6 +262,23 @@ const App = {
 			a.textContent = th.dataset.sort === this.sortKey
 				? (this.sortAsc ? " \u25b2" : " \u25bc") : "";
 		});
+	},
+
+	/* ── acceptable button ───────────────────────────────── */
+	renderAcceptableBtn() {
+		const btn = $("#acceptable-filter");
+		if (!btn) return;
+		const mode = this.acceptableFilter;
+		btn.className = "acceptable-btn";
+		if (mode === "require") {
+			btn.className += " require";
+			btn.textContent = "Accepting \u2713";
+		} else if (mode === "exclude") {
+			btn.className += " exclude";
+			btn.textContent = "Not Accepting \u00d7";
+		} else {
+			btn.textContent = "Accepting Requests";
+		}
 	},
 
 	/* ── flag bar ────────────────────────────────────────── */
@@ -341,6 +376,9 @@ const App = {
 				'<a class="user-link" href="https://skeb.jp/@' + esc(name) +
 				'" target="_blank" rel="noopener">@' + esc(name) + "</a>" +
 				this.renderFlagBadges(u.flags) +
+				(u.acceptable
+					? '<span class="acceptable-badge">open</span>'
+					: '') +
 				"</div></td>" +
 
 				'<td class="cell-price">' + fmtYen(price) + "</td>" +
@@ -483,6 +521,14 @@ const App = {
 			flagsHtml += "</div>";
 		}
 
+		// Acceptable status
+		let acceptableHtml = "";
+		if (d.acceptable) {
+			acceptableHtml = '<span class="detail-flag detail-acceptable-true">accepting requests</span>';
+		} else {
+			acceptableHtml = '<span class="detail-flag detail-acceptable-false">not accepting</span>';
+		}
+
 		return (
 			'<div class="detail-head">' +
 			'<div class="detail-identity">' +
@@ -497,6 +543,7 @@ const App = {
 			(desc ? '<div class="detail-desc">' + esc(desc) + "</div>" : "") +
 			linksHtml +
 			flagsHtml +
+			'<div class="detail-flags" style="margin-top:4px">' + acceptableHtml + "</div>" +
 			"</div>" +
 			"</div>" +
 			'<div class="detail-right"><div class="detail-meta">' +
