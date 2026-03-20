@@ -16,6 +16,7 @@ Options:
 	--concurrency N	Max parallel requests (default: 10)
 	--delay SECS	   Per-request delay in seconds (default: 0.05)
 	--retries N		Max retries per request (default: 3)
+	--max-user N		Max users (default: -1)
 
 Colab:
 	await _main()				   Run all steps with defaults
@@ -48,6 +49,7 @@ _DEFAULTS = dict(
 	retries=3,
 	stale_days=5,
 	no_site=False,
+	max_users=-1,
 )
 
 _ALL_MODES = ["crawl", "discover", "rescrape"]
@@ -87,6 +89,7 @@ async def _run_discover(concurrency, delay, retries, **_kw) -> None:
 		concurrency=concurrency,
 		request_delay=delay,
 		retries=retries,
+		max_users=_kw["max_users"],
 	)
 	await discoverer.run()
 

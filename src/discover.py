@@ -30,6 +30,7 @@ class Discoverer:
 		concurrency: int = 10,
 		request_delay: float = 0.05,
 		retries: int = 3,
+		max_users: int = -1,
 	) -> None:
 		self._store = DataStore(data_dir)
 		self._rl = RateLimiter(concurrency, request_delay)
@@ -38,6 +39,7 @@ class Discoverer:
 			max_retries=retries,
 			max_connections=concurrency * 2,
 		)
+		self.max_users = max_users
 		self._ts = datetime.now(timezone.utc).isoformat()
 		self._stats: Dict[str, int] = {
 			"existing_users": 0,
@@ -71,6 +73,9 @@ class Discoverer:
 		self._stats["candidates"] = len(candidates)
 
 		new_names = candidates - existing
+		if self.max_users!=-1:
+			new_names = new_names[:self.max_users]
+		
 		self._stats["new_to_fetch"] = len(new_names)
 		return new_names
 
