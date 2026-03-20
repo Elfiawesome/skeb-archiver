@@ -17,8 +17,6 @@ from typing import Any, Dict, List, Set
 from .logger import log
 from .store import DataStore, SYSTEM_KEYS
 
-_SAFE_RE = re.compile(r"[^\w\-.]")
-
 _PLATFORM_URLS = {
 	"pixiv_id":    ("Pixiv",    "https://www.pixiv.net/users/{}"),
 	"nijie_id":    ("Nijie",    "https://nijie.info/members.php?id={}"),
@@ -36,10 +34,6 @@ _PLATFORM_URLS = {
 }
 
 PAGE_SIZE = 200
-
-
-def _safe(name: str) -> str:
-	return _SAFE_RE.sub("_", name)
 
 
 # ── flags ────────────────────────────────────────────────────
@@ -167,7 +161,7 @@ def generate_data(
 		ph = u.get("price_history", {})
 		profile = u.get("profile", {})
 		avatar = profile.get("avatar_url", "")
-		file_key = _safe(sn)
+		file_key = DataStore.username_safe(sn)
 		works = _get_received_works(profile)
 		total_works = _true_works_count(profile)
 		flags = _extract_flags(u)

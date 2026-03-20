@@ -2,6 +2,7 @@
 
 import json
 import re
+import hashlib
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Callable
 
@@ -12,11 +13,10 @@ SYSTEM_KEYS = frozenset({
 	"screen_name", "first_seen", "last_updated", "profile", "price_history",
 })
 
+USERNAME_SAFE_RE = re.compile(r"[^\w\-.]")
 
 class DataStore:
 	"""One JSON file per user under *base_dir*."""
-
-	_SAFE = re.compile(r"[^\w\-.]")
 
 	def __init__(self, base_dir: str = "skeb") -> None:
 		self._root = Path(base_dir)
@@ -24,7 +24,7 @@ class DataStore:
 		log.info("Data directory: %s", self._root.resolve())
 
 	def _path(self, screen_name: str) -> Path:
-		return self._root / f"{self._SAFE.sub('_', screen_name)}.json"
+		return self._root / f"{DataStore.username_safe(screen_name)}.json"
 
 	def load(self, screen_name: str) -> Optional[Dict[str, Any]]:
 		p = self._path(screen_name)
@@ -102,3 +102,10 @@ class DataStore:
 			entries.append({"amount": amount, "recorded_at": ts})
 			log.debug("Price change: %s / %s -> %s",
 					user["screen_name"], genre, amount)
+	
+	@staticmethod
+	def username_safe(name: str) -> str:
+		safe_name = USERNAME_SAFE_RE.sub("_", name)
+		
+		h = hashlib.md5(name.encode('utf-8')).hexdigest()[:6]
+		return f"{safe_name}-{h}"
