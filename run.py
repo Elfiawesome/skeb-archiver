@@ -162,6 +162,7 @@ def _parse_args() -> dict:
 		concurrency=a.concurrency,
 		delay=a.delay,
 		retries=a.retries,
+		max_users=a.max_users,
 	)
 
 
