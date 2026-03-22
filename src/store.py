@@ -19,7 +19,8 @@ class DataStore:
 	"""One JSON file per user under *base_dir*."""
 
 	def __init__(self, base_dir: str = "skeb") -> None:
-		self._root = Path(base_dir)
+		self._doc_root = Path("docs")
+		self._root = self._doc_root / base_dir
 		self._root.mkdir(parents=True, exist_ok=True)
 		log.info("Data directory: %s", self._root.resolve())
 
@@ -72,7 +73,7 @@ class DataStore:
 		return names
 
 	@staticmethod
-	def new_user(screen_name: str, ts: str) -> Dict[str, Any]:
+	def new_user(screen_name: str, ts: float) -> Dict[str, Any]:
 		return {
 			"screen_name": screen_name,
 			"first_seen": ts,
@@ -81,14 +82,14 @@ class DataStore:
 			"price_history": {},
 		}
 
-	def merge_profile(self, user: Dict, profile: Dict, ts: str) -> None:
+	def merge_profile(self, user: Dict, profile: Dict, ts: float) -> None:
 		"""Update profile and prices.  All custom keys are preserved."""
 		user["profile"] = profile
 		user["last_updated"] = ts
 		self._update_prices(user, profile, ts)
 
 	@staticmethod
-	def _update_prices(user: Dict, profile: Dict, ts: str) -> None:
+	def _update_prices(user: Dict, profile: Dict, ts: float) -> None:
 		history: Dict[str, list] = user.setdefault("price_history", {})
 		skills = profile.get("skills")
 		if not isinstance(skills, list):

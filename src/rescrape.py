@@ -38,7 +38,7 @@ class Rescraper:
 			max_retries=retries,
 			max_connections=concurrency * 2,
 		)
-		self._ts = datetime.now(timezone.utc).isoformat()
+		self._ts = datetime.now(timezone.utc).timestamp()
 		self._stats: Dict[str, int] = {
 			"total": 0,
 			"updated": 0,

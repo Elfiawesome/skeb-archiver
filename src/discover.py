@@ -41,7 +41,7 @@ class Discoverer:
 			max_connections=concurrency * 2,
 		)
 		self.max_users = max_users
-		self._ts = datetime.now(timezone.utc).isoformat()
+		self._ts = datetime.now(timezone.utc).timestamp()
 		self._stats: Dict[str, int] = {
 			"existing_users": 0,
 			"candidates": 0,

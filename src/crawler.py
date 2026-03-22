@@ -42,7 +42,7 @@ class SkebCrawler:
 		self._batch = pages_per_batch
 		self._cap = max_items
 		self._genre = genre
-		self._ts = datetime.now(timezone.utc).isoformat()
+		self._ts = datetime.now(timezone.utc).timestamp()
 		self._stats: Dict[str, int] = {
 			"global_works_fetched": 0,
 			"users_listed": 0,
