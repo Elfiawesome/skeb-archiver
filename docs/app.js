@@ -13,7 +13,7 @@ function esc(s) {
 function fmtDate(iso) {
 	if (!iso) return "\u2014";
 
-	const date = new Date(iso);
+	const date = new Date(iso * 1000);
 	const now = App.currentdate;
 
 	const dateStr = date.toLocaleDateString('en-GB', {
@@ -459,7 +459,7 @@ const App = {
 			this.loading.add(name);
 			this.renderTable();
 			try {
-				const resp = await this.fetch("api/users/" + encodeURIComponent(file) + ".json");
+				const resp = await this.fetch("skeb/" + encodeURIComponent(file) + ".json");
 				if (!resp.ok) throw new Error("HTTP " + resp.status);
 				this.cache[name] = await resp.json();
 			} catch (e) {
@@ -586,19 +586,30 @@ const App = {
 	},
 
 	renderWorks(d) {
-		const works = d.works || [];
+		const works = d.profile.received_works || [];
+		console.log(d); //TODO REMOVE
 		if (!works.length) return '<p class="msg-sm">No works data</p>';
 		const MAX = 48;
 		const show = works.slice(0, MAX);
 		let html = '<div class="works-grid">';
 		for (const w of show) {
 			const path = w.path || "";
-			const src = w.thumbnail_src || "";
-			const srcset = w.thumbnail_srcset || "";
 			const genre = w.genre || "";
 			const nsfw = w.nsfw;
-			const date = w.created_at || "";
+			const date = w.created_at || ""; // Never seen before...
 			const body = w.body || "";
+
+			// Get src & srcset
+			var src = ""
+			var srcset = ""
+			for (const key of ["thumbnail_image_urls", "private_thumbnail_image_urls"]) {
+				console.log(key);
+				const urls = w[key];
+				if (!urls) continue;
+				if (urls['src']) { src = urls['src']; }
+				if (urls['srcset']) { srcset = urls['srcset']; }
+				if (src && srcset) { break; }
+			}
 
 			html += '<a class="work-card" href="https://skeb.jp' + esc(path) +
 				'" target="_blank" rel="noopener"' +

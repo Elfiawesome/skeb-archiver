@@ -26,7 +26,7 @@ from .store import DataStore
 class Rescraper:
 	def __init__(
 		self,
-		data_dir: str = "skeb",
+		data_dir: str = "docs/skeb",
 		concurrency: int = 10,
 		request_delay: float = 0.05,
 		retries: int = 3,

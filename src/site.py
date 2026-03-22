@@ -137,7 +137,7 @@ def _true_works_count(profile: Dict) -> int:
 # ── main entry point ─────────────────────────────────────────
 
 def generate_data(
-	data_dir: str = "skeb",
+	data_dir: str = "docs/skeb",
 	output_dir: str = "docs",
 	page_size: int = PAGE_SIZE,
 ) -> None:
@@ -145,9 +145,9 @@ def generate_data(
 	all_users = store.load_all()
 
 	api_dir = Path(output_dir) / "api"
-	users_dir = api_dir / "users"
+	# users_dir = api_dir / "users"
 	pages_dir = api_dir / "pages"
-	users_dir.mkdir(parents=True, exist_ok=True)
+	# users_dir.mkdir(parents=True, exist_ok=True)
 	pages_dir.mkdir(parents=True, exist_ok=True)
 
 	index_entries: List[Dict[str, Any]] = []
@@ -187,45 +187,45 @@ def generate_data(
 			}
 		)
 
-		# ── full detail file ─────────────────────────────
-		works_out: List[Dict[str, Any]] = []
-		for w in works:
-			thumb = _extract_thumbnail(w)
-			works_out.append(
-				{
-					"path": w.get("path", ""),
-					"thumbnail_src": thumb["src"],
-					"thumbnail_srcset": thumb["srcset"],
-					"genre": w.get("genre", ""),
-					"nsfw": w.get("nsfw", False),
-					"body": w.get("body", ""),
-					"created_at": w.get("created_at", ""),
-					"completed_at": w.get("completed_at", ""),
-				}
-			)
+		# # ── full detail file ─────────────────────────────
+		# works_out: List[Dict[str, Any]] = []
+		# for w in works:
+		# 	thumb = _extract_thumbnail(w)
+		# 	works_out.append(
+		# 		{
+		# 			"path": w.get("path", ""),
+		# 			"thumbnail_src": thumb["src"],
+		# 			"thumbnail_srcset": thumb["srcset"],
+		# 			"genre": w.get("genre", ""),
+		# 			"nsfw": w.get("nsfw", False),
+		# 			"body": w.get("body", ""),
+		# 			"created_at": w.get("created_at", ""),
+		# 			"completed_at": w.get("completed_at", ""),
+		# 		}
+		# 	)
 
-		detail = {
-			"screen_name": sn,
-			"file": file_key,
-			"name": profile.get("name", ""),
-			"avatar_url": avatar,
-			"header_url": profile.get("header_url", ""),
-			"description": profile.get("description", ""),
-			"total_works": total_works,
-			"scraped_works": len(works),
-			"first_seen": u.get("first_seen", ""),
-			"last_updated": u.get("last_updated", ""),
-			"price_history": ph,
-			"current_prices": _current_prices(ph),
-			"price_range": _price_ranges(ph),
-			"links": _extract_links(profile),
-			"flags": flags,
-			"acceptable": acceptable,
-			"works": works_out,
-		}
+		# detail = {
+		# 	"screen_name": sn,
+		# 	"file": file_key,
+		# 	"name": profile.get("name", ""),
+		# 	"avatar_url": avatar,
+		# 	"header_url": profile.get("header_url", ""),
+		# 	"description": profile.get("description", ""),
+		# 	"total_works": total_works,
+		# 	"scraped_works": len(works),
+		# 	"first_seen": u.get("first_seen", ""),
+		# 	"last_updated": u.get("last_updated", ""),
+		# 	"price_history": ph,
+		# 	"current_prices": _current_prices(ph),
+		# 	"price_range": _price_ranges(ph),
+		# 	"links": _extract_links(profile),
+		# 	"flags": flags,
+		# 	"acceptable": acceptable,
+		# 	"works": works_out,
+		# }
 
-		with (users_dir / f"{file_key}.json").open("w", encoding="utf-8") as fh:
-			json.dump(detail, fh, ensure_ascii=False)
+		# with (users_dir / f"{file_key}.json").open("w", encoding="utf-8") as fh:
+		# 	json.dump(detail, fh, ensure_ascii=False)
 
 	# ── paginated index files ────────────────────────────
 	total_pages = max(1, math.ceil(len(index_entries) / page_size))
@@ -237,7 +237,7 @@ def generate_data(
 
 	# ── master index ─────────────────────────────────────
 	index = {
-		"generated_at": datetime.now(timezone.utc).isoformat(),
+		"generated_at": datetime.now(timezone.utc).timestamp(),
 		"user_count": len(index_entries),
 		"page_size": page_size,
 		"total_pages": total_pages,

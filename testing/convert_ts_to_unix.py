@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 from datetime import datetime
 
-BASE_DIR = Path().resolve() / "skeb"
+BASE_DIR = Path().resolve() / "docs" / "skeb"
 
 for file in BASE_DIR.glob("*.json"):
 	first_seen: datetime = 0.0
@@ -29,8 +29,8 @@ for file in BASE_DIR.glob("*.json"):
 			recorded_at = datetime.fromisoformat(work_price["recorded_at"])
 			work_price["recorded_at"] = recorded_at.timestamp()
 
-	with file.open("w", encoding="utf-8") as f: json.dump(d, f)
+	with file.open("w", encoding="utf-8") as f: json.dump(d, f, ensure_ascii=False)
 
 
-# 3.20 GB
-# 3.39 GB
+# 3.20 GB -> 3.20 GB
+# 3.39 GB -> 3.39 GB

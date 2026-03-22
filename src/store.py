@@ -18,9 +18,8 @@ USERNAME_SAFE_RE = re.compile(r"[^\w\-.]")
 class DataStore:
 	"""One JSON file per user under *base_dir*."""
 
-	def __init__(self, base_dir: str = "skeb") -> None:
-		self._doc_root = Path("docs")
-		self._root = self._doc_root / base_dir
+	def __init__(self, base_dir: str = "docs/skeb") -> None:
+		self._root = Path(base_dir)
 		self._root.mkdir(parents=True, exist_ok=True)
 		log.info("Data directory: %s", self._root.resolve())
 
