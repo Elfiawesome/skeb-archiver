@@ -537,7 +537,7 @@ const App = {
 			if (pid) {
 				const label = PLATFORM_URLS[key][0]
 				const tmpl = PLATFORM_URLS[key][1]
-				const url = tmpl.format(pid)
+				const url = tmpl.replaceAll("{}", pid)
 				if (url && !seen.has(url)) {
 					links.push({ label: label, url: url, name: pid })
 					seen.add(url)
