@@ -9,7 +9,7 @@ Reads raw user files from ``data_dir`` and writes:
 
 import json
 import math
-import re
+import gzip
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Set
@@ -33,7 +33,7 @@ _PLATFORM_URLS = {
 					"https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"),
 }
 
-PAGE_SIZE = 2000
+PAGE_SIZE = 20000
 
 
 # ── flags ────────────────────────────────────────────────────
@@ -232,7 +232,7 @@ def generate_data(
 	for page_num in range(total_pages):
 		start = page_num * page_size
 		page_data = {"page": page_num, "users": index_entries[start:start + page_size]}
-		with (pages_dir / f"{page_num}.json").open("w", encoding="utf-8") as fh:
+		with (pages_dir / f"{page_num}.json.gz").open("wb") as f_out, gzip.open(f_out, "wt", encoding="utf-8") as fh:
 			json.dump(page_data, fh, ensure_ascii=False)
 
 	# ── master index ─────────────────────────────────────

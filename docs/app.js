@@ -109,11 +109,17 @@ const App = {
 		}
 	},
 
+	decompressRequest(resp) {
+		const decompressedStream = resp.body.pipeThrough(new DecompressionStream("gzip"));
+		return new Response(decompressedStream)
+	},
+
 	async loadPage(num) {
 		try {
-			const r = await this.fetch("api/pages/" + num + ".json");
+			const r = await this.fetch("api/pages/" + num + ".json.gz");
 			if (!r.ok) throw new Error("HTTP " + r.status);
-			const data = await r.json();
+			const resp = this.decompressRequest(r);
+			const data = await resp.json()
 			this.pages[num] = data.users || [];
 		} catch (e) {
 			this.pages[num] = [];
