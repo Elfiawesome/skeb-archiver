@@ -40,7 +40,7 @@ from src.rescrape import Rescraper
 from src.site import generate_data
 from src.logger import log
 
-DATA_DIR = "skeb"
+DATA_DIR = "docs/skeb"
 SITE_DIR = "docs"
 
 _DEFAULTS = dict(

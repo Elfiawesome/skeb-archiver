@@ -16,7 +16,7 @@ from .discover import Discoverer
 from .logger import log
 from .site import generate_data
 
-DATA_DIR = "skeb"
+DATA_DIR = "docs/skeb"
 SITE_DIR = "docs"
 
 
