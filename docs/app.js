@@ -499,7 +499,52 @@ const App = {
 
 	renderDetailHead(d) {
 		const desc = d.description ? truncate(d.description, 200) : "";
-		const links = d.links || [];
+
+		// Get Links and format them
+		var links = [];
+		var seen = new Set();
+		for (const sl of d.profile.user_service_links) {
+			const url = sl.url || "";
+			if (url && !seen.has(url)) {
+				links.push({
+					label: (sl.provider || "link").toUpperCase(),
+					url: url,
+					name: sl.screen_name || "",
+				});
+				seen.add(url);
+			}
+		}
+		var standalone = d.profile.url;
+		if (standalone && !seen.has(standalone)) {
+			links.push({ label: "Website", url: standalone, name: "" })
+			seen.add(standalone)
+		}
+		const PLATFORM_URLS = {
+			"pixiv_id": ["Pixiv", "https://www.pixiv.net/users/{}"],
+			"nijie_id": ["Nijie", "https://nijie.info/members.php?id={}"],
+			"booth_id": ["BOOTH", "https://{}.booth.pm"],
+			"fantia_id": ["Fantia", "https://fantia.jp/fanclubs/{}"],
+			"fanbox_id": ["Fanbox", "https://{}.fanbox.cc"],
+			"youtube_id": ["YouTube", "https://youtube.com/channel/{}"],
+			"patreon_id": ["Patreon", "https://patreon.com/{}"],
+			"skima_id": ["SKIMA", "https://skima.jp/profile?id={}"],
+			"coconala_id": ["Coconala", "https://coconala.com/users/{}"],
+			"dlsite_id": ["DLsite", "https://www.dlsite.com/home/circle/profile/=/maker_id/{}"],
+			"fanza_id": ["FANZA", "https://www.dmm.co.jp/dc/doujin/-/detail/=/keyword={}"],
+		}
+		for (const key in PLATFORM_URLS) {
+			const pid = d.profile[key]
+			if (pid) {
+				const label = PLATFORM_URLS[key][0]
+				const tmpl = PLATFORM_URLS[key][1]
+				const url = tmpl.format(pid)
+				if (url && !seen.has(url)) {
+					links.push({ label: label, url: url, name: pid })
+					seen.add(url)
+				}
+			}
+		}
+		
 		const flags = d.flags || {};
 
 		// Links
@@ -593,7 +638,6 @@ const App = {
 
 	renderWorks(d) {
 		const works = d.profile.received_works || [];
-		console.log(d); //TODO REMOVE
 		if (!works.length) return '<p class="msg-sm">No works data</p>';
 		const MAX = 48;
 		const show = works.slice(0, MAX);
@@ -609,7 +653,6 @@ const App = {
 			var src = ""
 			var srcset = ""
 			for (const key of ["thumbnail_image_urls", "private_thumbnail_image_urls"]) {
-				console.log(key);
 				const urls = w[key];
 				if (!urls) continue;
 				if (urls['src']) { src = urls['src']; }
