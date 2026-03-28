@@ -3,15 +3,16 @@ from pathlib import Path
 import json
 
 BASE_DIR = Path().resolve()
-SKEB_DIR = BASE_DIR / "skeb"
+SKEB_DIR = BASE_DIR / "docs" / "skeb"
 
 total_list: list[tuple[int, str, str]] = []
 
 i = 0
+total_users = len(list(SKEB_DIR.glob("*.json")))
 for file in SKEB_DIR.glob("*.json"):
 	with file.open("r", encoding='utf-8') as f:
 		i+=1
-		print(f"{i} / 105092 [{float(i)/105092*100:.2}%]" )
+		print(f"{i} / {total_users} [{float(i)/total_users*100:.2f}%]" )
 		u: dict = json.load(f)
 		p: dict = u.get("profile", {})
 

@@ -3,7 +3,7 @@ from typing import Callable, Any
 import json
 
 BASE_DIR = Path().resolve()
-SKEB_DIR = BASE_DIR / "skeb"
+SKEB_DIR = BASE_DIR/ "docs" / "skeb"
 
 existing: set[str] = set()
 candidates: set[str] = set()
