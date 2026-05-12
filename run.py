@@ -63,7 +63,7 @@ def _stale_filter(days: int):
 		ts = data.get("last_updated")
 		if not ts:
 			return True
-		last = datetime.datetime.fromisoformat(ts)
+		last = datetime.datetime.fromtimestamp(ts)
 		now = datetime.datetime.now(tz=datetime.timezone.utc)
 		return (now - last) > datetime.timedelta(days=days)
 	return _filter
