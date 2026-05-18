@@ -16,8 +16,6 @@ class RescrapeSource(Source):
 					yield user["screen_name"]
 
 
-				
-
 	def stale_filtered(self, user: dict[str]) -> bool:
 		if self.stale_days <= 0: return True
 		ts: float = user.get("last_updated")
