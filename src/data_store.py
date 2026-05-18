@@ -60,17 +60,17 @@ class DataStore:
 		new_data["last_updated"] = self.timestamp		
 		
 		# Update price
-		price_history: dict[str, list[dict]] = new_data.get("price_history", {})
+		price_history: dict[str, list[dict]] = new_data.get("price_history", {})# TODO : If price history doesn't exist in a existing data, we wont do anythin
 		profile: dict = new_data.get("profile", {})
 		skills: list[dict[str]] = profile.get("skills", [])
 		for sk in skills:
 			genre: str = sk.get("genre", "unknown")
-			amt: float = sk.get("default_amount", 0)
+			amt: float | None = sk.get("default_amount", None)
 			
 			if not genre in price_history: price_history[genre] = []
 			history_entires = price_history.get(genre)
 			
-			if len(history_entires) > 0:
+			if len(history_entires) > 0 and amt != None:
 				if history_entires[-1].get("amount") == amt: continue
 			
 			history_entires.append({"amount": amt, "recorded_at": self.timestamp})

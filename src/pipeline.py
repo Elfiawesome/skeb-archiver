@@ -1,5 +1,5 @@
 from .extension.extension_plugin import ExtensionPlugin
-from .event.event import Event, StartEvent, SourceRetreivedEvent, ProfilFetchedEvent, ProfileMissingEvent, EndEvent
+from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, EndEvent
 from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
@@ -27,7 +27,7 @@ class Pipeline:
 			async for user in source.get_sources(self.context):
 				if user in to_scrape: continue
 				
-				evnt = SourceRetreivedEvent(user, to_scrape_count)
+				evnt = SourceRetrievedEvent(user, to_scrape_count)
 				
 				self.raise_event(evnt)
 				if evnt.allow: to_scrape.add(user)

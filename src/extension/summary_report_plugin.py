@@ -1,5 +1,5 @@
 from ..context import PipelineContext
-from ..event.event import Event, ProfilFetchedEvent, SourceRetreivedEvent, ProfileMissingEvent, EndEvent
+from ..event.event import Event, ProfilFetchedEvent, SourceRetrievedEvent, ProfileMissingEvent, EndEvent
 from .extension_plugin import ExtensionPlugin
 from ..logger import log
 
@@ -12,7 +12,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 	
 	def on_event(self, context: PipelineContext, event: Event):
 		
-		if isinstance(event, SourceRetreivedEvent):
+		if isinstance(event, SourceRetrievedEvent):
 			self.sources_retreived += 1
 			event.user
 

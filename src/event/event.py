@@ -11,7 +11,7 @@ class StartEvent(Event):
 
 
 @dataclass
-class SourceRetreivedEvent(Event):
+class SourceRetrievedEvent(Event):
 	user: str
 	current_count: int = 0
 	allow: bool = True

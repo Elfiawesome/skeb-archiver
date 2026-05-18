@@ -13,6 +13,7 @@ class SkebClient():
 		self.max_sync_request: int = 5
 		self.max_retries: int = 3
 		self.timeout_sec: int = 30
+		self.rate_limit_sleep: float = 0.05
 
 		self._session: aiohttp.ClientSession | None = None
 		self._semaphore: asyncio.Semaphore | None = None
@@ -45,6 +46,7 @@ class SkebClient():
 		url = f"{self.API}/{endpoint}"
 		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 
+		await asyncio.sleep(self.rate_limit_sleep)
 		async with self._semaphore:
 			for attempt in range(1, self.max_retries + 1):
 				try:
@@ -56,7 +58,7 @@ class SkebClient():
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					if attempt == self.max_retries:
 						log.error(f"Error on requesting {url} with error {e}")
-						return {"error": str(e), "endpoint": endpoint, "failed": True}
+						return {"error": e, "endpoint": endpoint, "failed": True}
 					
 					await asyncio.sleep(1 * attempt)
 
