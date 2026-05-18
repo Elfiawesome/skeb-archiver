@@ -87,7 +87,7 @@ class SkebClient():
 				req_batch.append(f"{type}?sort=date&genre={genre}&offset={offset}&limit={limit}")
 				offset += limit
 			
-			async for data in self.stream_batch(req_batch):
+			for data in await self.fetch_batch(req_batch):
 				if (len(data) < 1) or (cur_amt > max_amt and max_amt > 0):
 					no_more_pagination = True
 					break
