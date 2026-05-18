@@ -41,6 +41,7 @@ class SkebClient():
 	async def __aexit__(self, exc_type, exc_val, exc_tb) -> None:
 		if self._session:
 			await self._session.close()
+		self._cookie = None
 
 	async def _fetch_single(self, endpoint: str, **kwargs) -> dict:
 		url = f"{self.API}/{endpoint}"
