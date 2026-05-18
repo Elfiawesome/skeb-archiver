@@ -7,10 +7,11 @@ from .context import PipelineContext
 from .logger import log
 
 class Pipeline:
-	sources: list[Source] = []
-	extensions: list[ExtensionPlugin] = []
 	
 	def __init__(self, store: DataStore, client: SkebClient):
+		self.sources: list[Source] = []
+		self.extensions: list[ExtensionPlugin] = []
+	
 		self.context: PipelineContext = PipelineContext()
 		self.context.store = store
 		self.context.client = client

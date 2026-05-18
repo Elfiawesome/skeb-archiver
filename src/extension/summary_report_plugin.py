@@ -5,10 +5,13 @@ from ..logger import log
 
 class SummaryReportPlugin(ExtensionPlugin):
 	priority = 100
-	fetched_names: list[str] = []
-	profiles_fetched: int = 0
-	sources_retreived: int = 0
-	profile_missing: int = 0
+
+	def __init__(self):
+		super().__init__()
+		self.fetched_names: list[str] = []
+		self.profiles_fetched: int = 0
+		self.sources_retreived: int = 0
+		self.profile_missing: int = 0
 	
 	def on_event(self, context: PipelineContext, event: Event):
 		
