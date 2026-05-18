@@ -49,7 +49,7 @@ class SkebClient():
 			for attempt in range(1, self.max_retries + 1):
 				try:
 					async with self._session.get(url, headers=headers, **kwargs) as response:
-						log.debug(f"Requesting {url}...")
+						log.info(f"Requesting {url}...")
 						response.raise_for_status()
 						return await response.json()
 						
@@ -102,3 +102,4 @@ class SkebClient():
 	async def fetch_profiles(self, screen_names: list[str]) -> AsyncGenerator[dict, None]:
 		async for profile in self.stream_batch("users/" + sc for sc in screen_names):
 			yield profile
+		log.info("Finished batch profiles!")
