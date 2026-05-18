@@ -13,7 +13,8 @@ class StartEvent(Event):
 @dataclass
 class SourceRetreivedEvent(Event):
 	user: str
-
+	current_count: int = 0
+	allow: bool = True
 
 @dataclass
 class ProfilFetchedEvent(Event):

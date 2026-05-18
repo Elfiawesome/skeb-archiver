@@ -4,6 +4,7 @@ from .extension_plugin import ExtensionPlugin
 from ..logger import log
 
 class SummaryReportPlugin(ExtensionPlugin):
+	priority = 100
 	profiles_fetched: int = 0
 	sources_retreived: int = 0
 	profile_missing: int = 0
