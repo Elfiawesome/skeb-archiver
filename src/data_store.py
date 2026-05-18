@@ -57,7 +57,7 @@ class DataStore:
 		
 		# Uppdate what is needed
 		new_data["profile"] = profile_data
-		new_data["last_updated"] = self.timestamp		
+		new_data["last_updated"] = self.timestamp
 		
 		# Update price
 		price_history: dict[str, list[dict]] = new_data.get("price_history", {})# TODO : If price history doesn't exist in a existing data, we wont do anythin
