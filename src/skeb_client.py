@@ -56,7 +56,7 @@ class SkebClient():
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					if attempt == self.max_retries:
 						log.error(f"Error on requesting {url} with error {e}")
-						return {"error": str(e), "endpoint": endpoint, "failed": True, "response": response}
+						return {"error": str(e), "endpoint": endpoint, "failed": True}
 					
 					await asyncio.sleep(1 * attempt)
 
