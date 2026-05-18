@@ -12,9 +12,7 @@ class Pipeline:
 		self.sources: list[Source] = []
 		self.extensions: list[ExtensionPlugin] = []
 	
-		self.context: PipelineContext = PipelineContext()
-		self.context.store = store
-		self.context.client = client
+		self.context: PipelineContext = PipelineContext(client=client, store=store)
 	
 	async def run(self) -> None:
 		# 0. Setup process
