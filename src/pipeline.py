@@ -15,30 +15,43 @@ class Pipeline:
 		self.context: PipelineContext = PipelineContext()
 		self.context.store = store
 		self.context.client = client
-
+	
 	async def run(self) -> None:
-		self.extensions.sort(key=lambda x: x.priority)
+		# 0. Setup process
+		self._setup()
 
+		# 1. Get sources from all
+		sources = await self.get_sources()
+		log.info(f"Ready to scrape {len(sources)} items")
+
+		# 2. Fetch all profiles
+		await self._fetch_profiles_from_sources(sources)
+
+		# 4. End!
+		self.raise_event(EndEvent())
+
+	def _setup(self) -> None:
+		self.extensions.sort(key=lambda x: x.priority)
 		self.raise_event(StartEvent())
-		
-		# Get who to scrape
-		to_scrape: set[str] = set()
-		to_scrape_count = 0
+
+	async def get_sources(self) -> set[str]:
+		sources: set[str] = set()
+		sources_count = 0
 		for source in self.sources:
 			async for user in source.get_sources(self.context):
-				if user in to_scrape: continue
+				if user in sources: continue
 				
-				evnt = SourceRetrievedEvent(user, to_scrape_count)
+				evnt = SourceRetrievedEvent(user, sources_count)
 				
 				self.raise_event(evnt)
-				if evnt.allow: to_scrape.add(user)
+				if evnt.allow: sources.add(user)
 				
-				to_scrape_count += 1
+				sources_count += 1
 		
-		log.info(f"Ready to scrape {len(to_scrape)} items")
+		return sources
 
-		# Run the scraping
-		async for user in self.context.client.fetch_profiles(to_scrape):
+	async def _fetch_profiles_from_sources(self, sources: set[str]) -> None:
+		async for user in self.context.client.fetch_profiles(sources):
 			if user.get("failed", False):
 				sn: str = user.get("endpoint", "").replace("users/", "")
 				sc: int | None = user.get("status_code")
@@ -46,9 +59,6 @@ class Pipeline:
 				elif sc == 404: self.raise_event(ProfileMissingEvent(screen_name=sn))
 			else:
 				self.raise_event(ProfilFetchedEvent(user))
-		
-
-		self.raise_event(EndEvent())
 
 	def raise_event(self, event: Event) -> None:
 		for ext in self.extensions:
