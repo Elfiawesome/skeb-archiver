@@ -21,7 +21,7 @@ class Pipeline:
 		self._setup()
 
 		# 1. Get sources from all
-		sources = await self.get_sources()
+		sources = await self._get_sources()
 		log.info(f"Ready to scrape {len(sources)} items")
 
 		# 2. Fetch all profiles
@@ -34,7 +34,7 @@ class Pipeline:
 		self.extensions.sort(key=lambda x: x.priority)
 		self.raise_event(StartEvent())
 
-	async def get_sources(self) -> set[str]:
+	async def _get_sources(self) -> set[str]:
 		sources: set[str] = set()
 		sources_count = 0
 		for source in self.sources:
