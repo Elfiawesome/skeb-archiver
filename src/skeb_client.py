@@ -96,7 +96,7 @@ class SkebClient():
 					cur_amt += 1
 			
 			if no_more_pagination:
-				log.info(f"Completed pagination for work type '{type}' and genre '{genre}")
+				log.info(f"Completed pagination for work type '{type}' and genre '{genre} for a total of {cur_amt} items")
 				break
 	
 	async def fetch_profiles(self, screen_names: list[str]) -> AsyncGenerator[dict, None]:
