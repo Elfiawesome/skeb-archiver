@@ -1,11 +1,8 @@
-"""Centralised logging configuration."""
-
 import logging
 import sys
 from typing import Optional
 
 _CONFIGURED = False
-
 
 def get_logger(
 	name: str = "skeb",
