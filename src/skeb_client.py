@@ -100,6 +100,6 @@ class SkebClient():
 				log.info(f"Completed pagination for work type '{type}' and genre '{genre} for a total of {cur_amt} items.")
 				break
 	
-	async def fetch_profiles(self, screen_names: list[str]) -> AsyncGenerator[dict, None]:
+	async def fetch_profiles(self, screen_names: set[str]) -> AsyncGenerator[dict, None]:
 		async for profile in self.stream_batch("users/" + sc for sc in screen_names):
 			yield profile

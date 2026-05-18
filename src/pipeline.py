@@ -19,11 +19,11 @@ class Pipeline:
 		self.raise_event(StartEvent())
 		
 		# Get who to scrape
-		to_scrape: list[str] = []
+		to_scrape: set[str] = set()
 		for source in self.sources:
 			async for user in source.get_sources(self.context):
 				self.raise_event(SourceRetreivedEvent(user))
-				to_scrape.append(user)
+				to_scrape.add(user)
 		log.info(f"Ready to scrape {len(to_scrape)} items")
 
 		# Run the scraping
