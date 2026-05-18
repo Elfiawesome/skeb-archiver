@@ -26,14 +26,15 @@ class SummaryReportPlugin(ExtensionPlugin):
 			self.profile_missing += 1
 		
 		if isinstance(event, ProfileTooManyRequestsFetchedEvent):
-		self.profile_rate_limited += 1
+			self.profile_rate_limited += 1
 
 		if isinstance(event, EndEvent):
-			log.info(" --- SUMMARY REPORT --- ")
-			log.info("  %-20s : %d", "Sources Retreived", self.sources_retreived)
-			log.info("  %-20s : %d", "Profiles Fetched", self.profiles_fetched)
-			log.info("  %-20s : %d", "Profile Missing", self.profile_missing)
-			log.info("  %-20s : %d", "Profile Rate Limited", self.profile_rate_limited)
+			log_text: str = " --- SUMMARY REPORT --- "
+			log_text += "  %-20s : %d", "Sources Retreived", self.sources_retreived
+			log_text += "  %-20s : %d", "Profiles Fetched", self.profiles_fetched
+			log_text += "  %-20s : %d", "Profile Missing", self.profile_missing
+			log_text += "  %-20s : %d", "Profile Rate Limited", self.profile_rate_limited
+			log.info(log_text)
 
 			with (context.store._root.parent / "output.txt").open("w", encoding="utf-8") as f:
-				f.write("Test output")
+				f.write(log_text)
