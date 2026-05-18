@@ -13,7 +13,7 @@ class SkebCrawlSource(Source):
 				if m:
 					yield m.group(1)
 			
-		# async for item in context.client.fetch_paginate(type="users", genre="art"):
-		# 	if "screen_name" in item:
-		# 		yield item["screen_name"]
+		async for item in context.client.fetch_paginate(type="users", genre="art"):
+			if "screen_name" in item:
+				yield item["screen_name"]
 

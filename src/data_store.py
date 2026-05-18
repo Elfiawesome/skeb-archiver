@@ -43,11 +43,11 @@ class DataStore:
 			log.warning("Cannot save record without screen_name.")
 			return
 		p = self._path(name)
+		log.info(f"Saving at {p}")
 		with p.open("w", encoding="utf-8") as fh:
 			json.dump(data, fh, ensure_ascii=False)
 	
 	def update_save(self, screen_name: str, profile_data: dict[str]) -> None:
-		log.info(f"Overwriting with data size {profile_data}")
 		ori_data = self.load(screen_name)
 		new_data: dict[str]
 		if ori_data:
