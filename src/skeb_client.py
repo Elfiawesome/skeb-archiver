@@ -73,7 +73,7 @@ class SkebClient():
 
 	async def fetch_paginate(self, type: str, sort: str = "date", genre: str = "art", max_amt: int = -1) -> AsyncGenerator[dict, None]:
 		log.info(f"Start pagination for work type '{type}' and genre '{genre}'.")
-		paginate_per_loop = 2
+		paginate_per_loop = 10
 		
 		offset = 0
 		limit = 90
