@@ -30,11 +30,12 @@ class SummaryReportPlugin(ExtensionPlugin):
 
 		if isinstance(event, EndEvent):
 			log_text: str = " --- SUMMARY REPORT --- "
-			log_text += "  %-20s : %d".format("Sources Retreived", self.sources_retreived)
-			log_text += "  %-20s : %d".format("Profiles Fetched", self.profiles_fetched)
-			log_text += "  %-20s : %d".format("Profile Missing", self.profile_missing)
-			log_text += "  %-20s : %d".format("Profile Rate Limited", self.profile_rate_limited)
+			log_text += "  %-20s : %d" % "Sources Retreived", self.sources_retreived
+			log_text += "  %-20s : %d" % "Profiles Fetched", self.profiles_fetched
+			log_text += "  %-20s : %d" % "Profile Missing", self.profile_missing
+			log_text += "  %-20s : %d" % "Profile Rate Limited", self.profile_rate_limited
 			log.info(log_text)
+			
 
 			with (context.store._root.parent / "output.txt").open("w", encoding="utf-8") as f:
 				f.write(log_text)
