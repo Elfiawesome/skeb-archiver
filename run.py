@@ -12,7 +12,7 @@ async def main() -> None:
 		orchestrator = Pipeline(DataStore("docs/skeb"), client)
 		orchestrator.sources.append(SkebCrawlSource())
 		orchestrator.extensions.append(StoragePlugin())
-		orchestrator.extensions.append(SourcingLimitPlugin())
+		# orchestrator.extensions.append(SourcingLimitPlugin(10))
 		orchestrator.extensions.append(SummaryReportPlugin())
 
 		await orchestrator.run()
