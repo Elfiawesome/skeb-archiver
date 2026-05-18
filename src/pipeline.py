@@ -1,5 +1,5 @@
 from .extension.extension_plugin import ExtensionPlugin
-from .event.event import Event, StartEvent, SourceRetreivedEvent, ProfilFetchedEvent
+from .event.event import Event, StartEvent, SourceRetreivedEvent, ProfilFetchedEvent, ProfileMissingEvent
 from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
@@ -28,7 +28,10 @@ class Pipeline:
 
 		# Run the scraping
 		async for user in self.context.client.fetch_profiles(to_scrape):
-			self.raise_event(ProfilFetchedEvent(user))
+			if user.get("failed", False):
+				self.raise_event(ProfileMissingEvent(screen_name=user.get("endpoint", "").replace("users/", "")))
+			else:
+				self.raise_event(ProfilFetchedEvent(user))
 
 	def raise_event(self, event: Event) -> None:
 		for ext in self.extensions:
