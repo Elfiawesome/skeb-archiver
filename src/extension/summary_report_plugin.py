@@ -17,7 +17,6 @@ class SummaryReportPlugin(ExtensionPlugin):
 		
 		if isinstance(event, SourceRetrievedEvent):
 			self.sources_retreived += 1
-			event.user
 
 		if isinstance(event, ProfilFetchedEvent):
 			self.profiles_fetched += 1
