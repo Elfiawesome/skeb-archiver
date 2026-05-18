@@ -5,6 +5,7 @@ from ..logger import log
 
 class SummaryReportPlugin(ExtensionPlugin):
 	priority = 100
+	fetched_names: list[str] = []
 	profiles_fetched: int = 0
 	sources_retreived: int = 0
 	profile_missing: int = 0
@@ -13,6 +14,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 		
 		if isinstance(event, SourceRetreivedEvent):
 			self.sources_retreived += 1
+			event.user
 
 		if isinstance(event, ProfilFetchedEvent):
 			self.profiles_fetched += 1
@@ -25,3 +27,6 @@ class SummaryReportPlugin(ExtensionPlugin):
 			log.info("  %-20s : %d", "Sources Retreived", self.sources_retreived)
 			log.info("  %-20s : %d", "Profiles Fetched", self.profiles_fetched)
 			log.info("  %-20s : %d", "Profile Missing", self.profile_missing)
+
+			with (context.store._root.parent / "output.txt").open("w", encoding="utf-8") as f:
+				f.write("Test output")

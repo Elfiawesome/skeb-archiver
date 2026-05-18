@@ -25,9 +25,13 @@ class Pipeline:
 		to_scrape_count = 0
 		for source in self.sources:
 			async for user in source.get_sources(self.context):
+				if user in to_scrape: continue
+				
 				evnt = SourceRetreivedEvent(user, to_scrape_count)
+				
 				self.raise_event(evnt)
 				if evnt.allow: to_scrape.add(user)
+				
 				to_scrape_count += 1
 		
 		log.info(f"Ready to scrape {len(to_scrape)} items")
