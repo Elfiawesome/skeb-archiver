@@ -1,5 +1,5 @@
 from .extension.extension_plugin import ExtensionPlugin
-from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, EndEvent
+from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, EndEvent
 from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
@@ -40,8 +40,10 @@ class Pipeline:
 		# Run the scraping
 		async for user in self.context.client.fetch_profiles(to_scrape):
 			if user.get("failed", False):
-				# Realize that if its just a 429 it reports as missing too which isn't intended
-				self.raise_event(ProfileMissingEvent(screen_name=user.get("endpoint", "").replace("users/", "")))
+				sn: str = user.get("endpoint", "").replace("users/", "")
+				sc: int | None = user.get("status_code")
+				if sc == 429: self.raise_event(ProfileTooManyRequestsFetchedEvent(screen_name=sn))
+				elif sc == 404: self.raise_event(ProfileMissingEvent(screen_name=sn))
 			else:
 				self.raise_event(ProfilFetchedEvent(user))
 		

@@ -25,5 +25,10 @@ class ProfileMissingEvent(Event):
 	screen_name: str
 
 @dataclass
+class ProfileTooManyRequestsFetchedEvent(Event):
+	screen_name: str
+
+
+@dataclass
 class EndEvent(Event):
 	pass
