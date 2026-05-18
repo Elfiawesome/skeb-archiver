@@ -52,10 +52,12 @@ class DataStore:
 		new_data: dict[str]
 		if ori_data:
 			new_data = ori_data
-			new_data["profile"] = profile_data
-			new_data["last_updated"] = self.timestamp
 		else:
 			new_data = self.new_user(screen_name, self.timestamp)
+		
+		# Uppdate what is needed
+		new_data["profile"] = profile_data
+		new_data["last_updated"] = self.timestamp		
 		
 		# Update price
 		price_history: dict[str, list[dict]] = new_data.get("price_history", {})
