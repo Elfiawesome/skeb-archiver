@@ -22,6 +22,6 @@ class SummaryReportPlugin(ExtensionPlugin):
 
 		if isinstance(event, EndEvent):
 			log.info(" --- SUMMARY REPORT --- ")
-			log.info("  %-20s : %d", "Profiles Fetched", self.profiles_fetched)
 			log.info("  %-20s : %d", "Sources Retreived", self.sources_retreived)
+			log.info("  %-20s : %d", "Profiles Fetched", self.profiles_fetched)
 			log.info("  %-20s : %d", "Profile Missing", self.profile_missing)
