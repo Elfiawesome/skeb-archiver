@@ -4,6 +4,7 @@ from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
 from .context import PipelineContext
+from .logger import log
 
 class Pipeline:
 	sources: list[Source] = []
@@ -23,6 +24,7 @@ class Pipeline:
 			async for user in source.get_sources(self.context):
 				self.raise_event(SourceRetreivedEvent(user))
 				to_scrape.append(user)
+		log.info(f"Read to scrape {len(to_scrape)} items")
 
 		# Run the scraping
 		async for user in self.context.client.fetch_profiles(to_scrape):

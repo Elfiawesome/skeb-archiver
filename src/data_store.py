@@ -52,8 +52,8 @@ class DataStore:
 		new_data: dict[str]
 		if ori_data:
 			new_data = ori_data
-			ori_data["profile"] = profile_data
-			ori_data["last_updated"] = self.timestamp
+			new_data["profile"] = profile_data
+			new_data["last_updated"] = self.timestamp
 		else:
 			new_data = self.new_user(screen_name, self.timestamp)
 		
