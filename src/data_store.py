@@ -12,9 +12,12 @@ class DataStore:
 	def __init__(self, base_dir: str) -> None:
 		self._root = Path(base_dir)
 		self._root.mkdir(parents=True, exist_ok=True)
-		self.timestamp = datetime.now(timezone.utc).timestamp()
+		self.start_time = self.timestamp_now()
 		log.info("Initialized Data Store.")
 	
+	def timestamp_now() -> float:
+		return datetime.now(timezone.utc).timestamp()
+
 	def _path(self, file_name: str) -> Path:
 		return self._root / f"{DataStore._username_safe(file_name)}.json"
 
@@ -48,16 +51,17 @@ class DataStore:
 			json.dump(data, fh, ensure_ascii=False)
 	
 	def update_save(self, screen_name: str, profile_data: dict[str]) -> None:
+		ts = self.timestamp_now()
 		ori_data = self.load(screen_name)
 		new_data: dict[str]
 		if ori_data:
 			new_data = ori_data
 		else:
-			new_data = self.new_user(screen_name, self.timestamp)
+			new_data = self.new_user(screen_name, ts)
 		
 		# Uppdate what is needed
 		new_data["profile"] = profile_data
-		new_data["last_updated"] = self.timestamp
+		new_data["last_updated"] = ts
 		
 		# Update price
 		price_history: dict[str, list[dict]] = new_data.get("price_history", {})# TODO : If price history doesn't exist in a existing data, we wont do anythin
@@ -73,7 +77,7 @@ class DataStore:
 			if len(history_entires) > 0 and amt != None:
 				if history_entires[-1].get("amount") == amt: continue
 			
-			history_entires.append({"amount": amt, "recorded_at": self.timestamp})
+			history_entires.append({"amount": amt, "recorded_at": ts})
 
 		self.save(new_data)
 
