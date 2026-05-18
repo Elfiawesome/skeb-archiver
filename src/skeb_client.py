@@ -72,7 +72,7 @@ class SkebClient():
 
 
 	async def fetch_paginate(self, type: str, sort: str = "date", genre: str = "art", max_amt: int = -1) -> AsyncGenerator[dict, None]:
-		log.info(f"Start pagination for work type '{type}' and genre '{genre}")
+		log.info(f"Start pagination for work type '{type}' and genre '{genre}'.")
 		paginate_per_loop = 2
 		
 		offset = 0
@@ -87,6 +87,7 @@ class SkebClient():
 				offset += limit
 			
 			async for data in self.stream_batch(req_batch):
+				log.info(f"Successfully received {len(data)} pagination content.")
 				if (len(data) < 1) or (cur_amt > max_amt and max_amt > 0):
 					no_more_pagination = True
 					break
@@ -96,7 +97,7 @@ class SkebClient():
 					cur_amt += 1
 			
 			if no_more_pagination:
-				log.info(f"Completed pagination for work type '{type}' and genre '{genre} for a total of {cur_amt} items")
+				log.info(f"Completed pagination for work type '{type}' and genre '{genre} for a total of {cur_amt} items.")
 				break
 	
 	async def fetch_profiles(self, screen_names: list[str]) -> AsyncGenerator[dict, None]:
