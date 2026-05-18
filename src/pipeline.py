@@ -28,9 +28,6 @@ class Pipeline:
 		async for user in self.context.client.fetch_profiles(to_scrape):
 			self.raise_event(ProfilFetchedEvent(user))
 
-		# Save the data
-
-
 	def raise_event(self, event: Event) -> None:
 		for ext in self.extensions:
 			ext.on_event(self.context, event)
