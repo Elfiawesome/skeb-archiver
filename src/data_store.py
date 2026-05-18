@@ -15,7 +15,7 @@ class DataStore:
 		self.start_time = self.timestamp_now()
 		log.info("Initialized Data Store.")
 	
-	def timestamp_now() -> float:
+	def timestamp_now(self) -> float:
 		return datetime.now(timezone.utc).timestamp()
 
 	def _path(self, file_name: str) -> Path:
