@@ -24,6 +24,7 @@ class Pipeline:
 			async for user in source.get_sources(self.context):
 				self.raise_event(SourceRetreivedEvent(user))
 				to_scrape.append(user)
+				log.info("Got user to scrape: " + user)
 		log.info(f"Read to scrape {len(to_scrape)} items")
 
 		# Run the scraping
