@@ -29,11 +29,11 @@ class SummaryReportPlugin(ExtensionPlugin):
 			self.profile_rate_limited += 1
 
 		if isinstance(event, EndEvent):
-			log_text: str = " --- SUMMARY REPORT --- "
-			log_text += "  %-20s : %d" % ("Sources Retreived", self.sources_retreived)
-			log_text += "  %-20s : %d" % ("Profiles Fetched", self.profiles_fetched)
-			log_text += "  %-20s : %d" % ("Profile Missing", self.profile_missing)
-			log_text += "  %-20s : %d" % ("Profile Rate Limited", self.profile_rate_limited)
+			log_text: str = " --- SUMMARY REPORT --- \n"
+			log_text += "  %-20s : %d" % ("Sources Retreived", self.sources_retreived) + "\n"
+			log_text += "  %-20s : %d" % ("Profiles Fetched", self.profiles_fetched) + "\n"
+			log_text += "  %-20s : %d" % ("Profile Missing", self.profile_missing) + "\n"
+			log_text += "  %-20s : %d" % ("Profile Rate Limited", self.profile_rate_limited) + "\n"
 			log.info(log_text)
 			
 
