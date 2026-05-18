@@ -19,5 +19,10 @@ class SourceRetreivedEvent(Event):
 class ProfilFetchedEvent(Event):
 	data: dict[str]
 
+@dataclass
 class ProfileMissingEvent(Event):
 	screen_name: str
+
+@dataclass
+class EndEvent(Event):
+	pass
