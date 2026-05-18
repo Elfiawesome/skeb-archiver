@@ -70,7 +70,8 @@ class DataStore:
 			if not genre in price_history: price_history[genre] = []
 			history_entires = price_history.get(genre)
 			
-			if history_entires[-1].get("amount") == amt: continue
+			if len(history_entires) > 0:
+				if history_entires[-1].get("amount") == amt: continue
 			
 			history_entires.append({"amount": amt, "recorded_at": self.timestamp})
 

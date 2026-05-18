@@ -83,7 +83,7 @@ class SkebClient():
 		while True:
 			req_batch: list[str] = []
 			for i in range(paginate_per_loop):
-				req_batch.append(f"users?sort=date&genre={genre}&offset={offset}&limit={limit}")
+				req_batch.append(f"{type}?sort=date&genre={genre}&offset={offset}&limit={limit}")
 				offset += limit
 			
 			async for data in self.stream_batch(req_batch):
