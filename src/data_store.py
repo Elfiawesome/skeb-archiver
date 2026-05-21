@@ -9,9 +9,13 @@ from datetime import datetime, timezone
 USERNAME_SAFE_RE = re.compile(r"[^\w\-.]")
 
 class DataStore:
-	def __init__(self, base_dir: str) -> None:
-		self._root = Path(base_dir)
-		self._root.mkdir(parents=True, exist_ok=True)
+	def __init__(self, skeb_dir: str, persistance_dir: str = None) -> None:
+		self._skeb_dir = Path(skeb_dir)
+		self._skeb_dir.mkdir(parents=True, exist_ok=True)
+		
+		self._persistance_dir  = Path(persistance_dir)
+		self._persistance_dir.mkdir(parents=True, exist_ok=True)
+		
 		self.start_time = self.timestamp_now()
 		log.info("Initialized Data Store.")
 	
@@ -19,7 +23,7 @@ class DataStore:
 		return datetime.now(timezone.utc).timestamp()
 
 	def _path(self, file_name: str) -> Path:
-		return self._root / f"{DataStore._username_safe(file_name)}.json"
+		return self._skeb_dir / f"{DataStore._username_safe(file_name)}.json"
 
 	def load(self, screen_name: str) -> dict[str] | None:
 		p = self._path(screen_name)
@@ -33,7 +37,7 @@ class DataStore:
 			return None
 		
 	def load_all(self) -> Generator[dict[str], None, None]:
-		for p in sorted(self._root.glob("*.json")):
+		for p in sorted(self._skeb_dir.glob("*.json")):
 			try:
 				with p.open("r", encoding="utf-8") as fh:
 					yield json.load(fh)
@@ -96,3 +100,8 @@ class DataStore:
 		safe_name = USERNAME_SAFE_RE.sub("_", name)
 		h = hashlib.md5(name.encode('utf-8')).hexdigest()[:6]
 		return f"{safe_name}-{h}"
+
+	def open_session_date_folder(self) -> Path:
+		new_path: Path = self._persistance_dir / datetime.fromtimestamp(self.start_time, tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+		new_path.mkdir(parents=True, exist_ok=True)
+		return new_path

@@ -42,6 +42,8 @@ class SummaryReportPlugin(ExtensionPlugin):
 			log_text += "  %-20s : %d" % ("Profile Error Others", self.profile_error_others) + "\n"
 			log.info(log_text)
 			
-
-			with (context.store._root.parent / "output.txt").open("w", encoding="utf-8") as f:
-				f.write(log_text)
+			session_folder = context.store.open_session_date_folder()
+			with (session_folder / "summary.txt").open("w", encoding="utf-8") as f: f.write(log_text)
+			
+			# with (session_folder / "summary.txt").open("w", encoding="utf-8") as f:
+			# 	f.write(log_text)
