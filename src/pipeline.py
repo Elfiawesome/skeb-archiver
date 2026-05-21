@@ -1,5 +1,5 @@
 from .extension.extension_plugin import ExtensionPlugin
-from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, EndEvent
+from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, EndEvent, ProfileErrorFetchEvent
 from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
@@ -61,6 +61,11 @@ class Pipeline:
 				sc: int | None = user.get("status_code")
 				if sc == 429: self.raise_event(ProfileTooManyRequestsFetchedEvent(screen_name=sn))
 				elif sc == 404: self.raise_event(ProfileMissingEvent(screen_name=sn))
+				else: self. raise_event(ProfileErrorFetchEvent(
+						error=user.get("error", ""),
+						status_code=user.get("status_code", ""),
+						endpoint=user.get("endpoint", "")
+					))
 			else:
 				self.raise_event(ProfilFetchedEvent(user))
 

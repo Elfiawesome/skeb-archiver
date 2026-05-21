@@ -27,6 +27,12 @@ class ProfileMissingEvent(Event):
 class ProfileTooManyRequestsFetchedEvent(Event):
 	screen_name: str
 
+@dataclass
+class ProfileErrorFetchEvent(Event):
+	error: str
+	status_code: int
+	endpoint: str
+
 
 @dataclass
 class EndEvent(Event):
