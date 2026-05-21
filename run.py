@@ -12,14 +12,14 @@ import asyncio
 async def main() -> None:
 	async with SkebClient() as client:		
 		orchestrator = Pipeline(DataStore("docs/skeb"), client)
+
+		orchestrator.add_source(SkebCrawlSource())
+		# orchestrator.add_source(RescrapeSource())
+		# orchestrator.add_source(RediscoverSource())
 		
-		orchestrator.sources.append(SkebCrawlSource())
-		# orchestrator.sources.append(RescrapeSource())
-		# orchestrator.sources.append(RediscoverSource())
-		
-		orchestrator.extensions.append(StoragePlugin())
-		# orchestrator.extensions.append(SourcingLimitPlugin(10))
-		orchestrator.extensions.append(SummaryReportPlugin())
+		orchestrator.add_extension(StoragePlugin())
+		# orchestrator.add_extension(SourcingLimitPlugin(10))
+		orchestrator.add_extension(SummaryReportPlugin())
 
 		await orchestrator.run()
 

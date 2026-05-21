@@ -8,12 +8,18 @@ from .logger import log
 
 class Pipeline:
 	
-	def __init__(self, store: DataStore, client: SkebClient):
+	def __init__(self, store: DataStore, client: SkebClient) -> None:
 		self.sources: list[Source] = []
 		self.extensions: list[ExtensionPlugin] = []
 	
 		self.context: PipelineContext = PipelineContext(client=client, store=store)
-	
+
+	def add_source(self, source: Source) -> None:
+		self.sources.append(source)
+
+	def add_extension(self, extension: ExtensionPlugin) -> None:
+		self.extensions.append(extension)
+
 	async def run(self) -> None:
 		# 0. Setup process
 		self._setup()
