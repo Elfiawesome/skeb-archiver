@@ -1,5 +1,5 @@
 from ..context import PipelineContext
-from ..event.event import Event, ProfilFetchedEvent, SourceRetrievedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, EndEvent
+from ..event.event import Event, ProfilFetchedEvent, SourceRetrievedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, ProfileErrorFetchEvent, EndEvent
 from .extension_plugin import ExtensionPlugin
 from ..logger import log
 
@@ -13,6 +13,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 		self.sources_retreived: int = 0
 		self.profile_missing: int = 0
 		self.profile_rate_limited: int = 0
+		self.profile_error_others: int = 0
 	
 	def on_event(self, context: PipelineContext, event: Event):
 		
@@ -27,6 +28,10 @@ class SummaryReportPlugin(ExtensionPlugin):
 		
 		if isinstance(event, ProfileTooManyRequestsFetchedEvent):
 			self.profile_rate_limited += 1
+		
+		if isinstance(event, ProfileErrorFetchEvent):
+			self.profile_error_others += 1
+
 
 		if isinstance(event, EndEvent):
 			log_text: str = " --- SUMMARY REPORT --- \n"
@@ -34,6 +39,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 			log_text += "  %-20s : %d" % ("Profiles Fetched", self.profiles_fetched) + "\n"
 			log_text += "  %-20s : %d" % ("Profile Missing", self.profile_missing) + "\n"
 			log_text += "  %-20s : %d" % ("Profile Rate Limited", self.profile_rate_limited) + "\n"
+			log_text += "  %-20s : %d" % ("Profile Error Others", self.profile_error_others) + "\n"
 			log.info(log_text)
 			
 
