@@ -1,4 +1,3 @@
-from ..skeb_client import SkebClient
 from abc import ABC
 from dataclasses import dataclass
 
