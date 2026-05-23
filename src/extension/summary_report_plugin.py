@@ -1,5 +1,5 @@
 from ..context import PipelineContext
-from ..event.event import Event, ProfilFetchedEvent, SourceRetrievedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, ProfileErrorFetchEvent, EndEvent
+from ..event.event import *
 from .extension_plugin import ExtensionPlugin
 from ..logger import log
 

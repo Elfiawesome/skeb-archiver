@@ -1,5 +1,5 @@
 from .extension.extension_plugin import ExtensionPlugin
-from .event.event import Event, StartEvent, SourceRetrievedEvent, ProfilFetchedEvent, ProfileMissingEvent, ProfileTooManyRequestsFetchedEvent, ProfileErrorFetchEvent, EndEvent
+from .event.event import *
 from .source.source import Source
 from .data_store import DataStore
 from .skeb_client import SkebClient
