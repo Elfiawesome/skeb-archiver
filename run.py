@@ -57,6 +57,10 @@ PRESETS: dict[str, dict[str, list[tuple[str, dict]]]] = {
 		"sources": [("rediscover", {})],
 		"extensions": [("storage", {}), ("summary_report", {})],
 	},
+	"build_site": {
+		"sources": [],
+		"extensions": [("storage", {}), ("summary_report", {})],
+	},
 	"custom": {
 		"sources": [("custom", {"names": []})],  # names will be set via --names
 		"extensions": [("storage", {}), ("summary_report", {})],
