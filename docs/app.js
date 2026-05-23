@@ -474,8 +474,11 @@ const App = {
 				// Prevent closing if clicking on the name link
 				if (e.target.closest('a')) return;
 				const isOpen = detailDiv.classList.contains('open');
-				this.closeAllDetails();
-				if (!isOpen) {
+
+				if (isOpen) {
+					detailDiv.classList.remove('open');
+					card.classList.remove('expanded');
+				} else {
 					detailDiv.classList.add('open');
 					card.classList.add('expanded');
 					if (!detailDiv.dataset.loaded) {
@@ -487,7 +490,8 @@ const App = {
 			// Close when clicking inside the expanded detail area itself
 			detailDiv.addEventListener('click', (e) => {
 				e.stopPropagation();
-				this.closeAllDetails();
+				detailDiv.classList.remove('open');
+				card.classList.remove('expanded');
 			});
 		});
 	},
