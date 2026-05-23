@@ -9,10 +9,15 @@ from datetime import datetime, timezone
 USERNAME_SAFE_RE = re.compile(r"[^\w\-.]")
 
 class DataStore:
-	def __init__(self, skeb_dir: str, persistance_dir: str = None) -> None:
-		self._skeb_dir = Path(skeb_dir)
-		self._skeb_dir.mkdir(parents=True, exist_ok=True)
+	def __init__(self, docs_dir: str, persistance_dir: str = None) -> None:
+		self._docs_dir = Path(docs_dir)
 		
+		self._skeb_dir = self._docs_dir / "skeb"
+		self._skeb_dir.mkdir(parents=True, exist_ok=True)
+
+		self._api_dir = self._docs_dir / "api"
+		self._api_dir.mkdir(parents=True, exist_ok=True)
+
 		self._persistance_dir = Path(persistance_dir) if persistance_dir else Path(self._skeb_dir.parent)
 		self._persistance_dir.mkdir(parents=True, exist_ok=True)
 		

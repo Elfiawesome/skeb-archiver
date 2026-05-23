@@ -12,7 +12,7 @@ import asyncio
 
 async def main() -> None:
 	async with SkebClient() as client:		
-		orchestrator = Pipeline(DataStore("docs/skeb"), client)
+		orchestrator = Pipeline(DataStore(docs_dir="docs", persistance_dir="persistance"), client)
 
 		orchestrator.add_source(SkebCrawlSource())
 		# orchestrator.add_source(RescrapeSource(stale_days=5))
