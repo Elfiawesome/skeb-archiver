@@ -17,11 +17,14 @@ class RescrapeSource(Source):
 
 
 	def stale_filtered(self, user: dict[str]) -> bool:
-		if self.stale_days <= 0: return True
+		if self.stale_days <= 0:
+			return True # Include all if no stale filter
+
 		ts: float = user.get("last_updated")
-		if ts:
-			last = datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
-			now = datetime.datetime.now(tz=datetime.timezone.utc)
-			if (now - last) > datetime.timedelta(days=self.stale_days):
-				return False
-		return False
+		if not ts:
+			return True		
+		
+
+		last = datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
+		now = datetime.datetime.now(tz=datetime.timezone.utc)
+		return (now - last) > datetime.timedelta(days=self.stale_days)  # Include if stale
