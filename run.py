@@ -219,7 +219,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 	)
 	parser.add_argument(
 		"--persistance-dir",
-		default=None,
+		default="persistance",
 		help="Directory for session logs / summaries (default: same as docs-dir)",
 	)
 	parser.add_argument(

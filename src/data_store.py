@@ -186,6 +186,8 @@ class DataStore:
 				return parts[0].split()[0]
 			return fallback
 
+		log.info("Started creating static api pages.")
+
 		pages_dir = self._api_dir / "pages"
 		pages_dir.mkdir(parents=True, exist_ok=True)
 	
@@ -239,3 +241,5 @@ class DataStore:
 		}
 		with (self._api_dir / "index.json").open("w", encoding="utf-8") as fh:
 			json.dump(index, fh, ensure_ascii=False)
+		
+		log.info(f"Finished api pages wih {index['user_count']} users.")
