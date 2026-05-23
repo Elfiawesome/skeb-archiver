@@ -1,7 +1,9 @@
 from ..context import PipelineContext
 from ..event.event import Event, SourceRetrievedEvent
+from ..registry import register_extension
 from .extension_plugin import ExtensionPlugin
 
+@register_extension("sourcing_limit")
 class SourcingLimitPlugin(ExtensionPlugin):
 	def __init__(self, limit: int = 10):
 		super().__init__()

@@ -1,8 +1,10 @@
 from typing import AsyncGenerator
+from ..registry import register_source
 from .source import Source
 from ..context import PipelineContext
 import re
 
+@register_source("skeb_crawl")
 class SkebCrawlSource(Source):
 	_WORK_RE = re.compile(r"/@([^/]+)/works/(\d+)")
 	

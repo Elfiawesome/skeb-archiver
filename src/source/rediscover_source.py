@@ -1,7 +1,9 @@
 from typing import AsyncGenerator
 from .source import Source
+from ..registry import register_source
 from ..context import PipelineContext
 
+@register_source("rediscover")
 class RediscoverSource(Source):
 	
 	def __init__(self):

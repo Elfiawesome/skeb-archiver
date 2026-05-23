@@ -1,8 +1,10 @@
 from typing import AsyncGenerator
 from .source import Source
+from ..registry import register_source
 from ..context import PipelineContext
 import datetime
 
+@register_source("rescrape")
 class RescrapeSource(Source):
 	
 	def __init__(self, stale_days):

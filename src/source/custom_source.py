@@ -1,7 +1,9 @@
 from typing import AsyncGenerator
 from .source import Source
+from ..registry import register_source
 from ..context import PipelineContext
 
+@register_source("custom")
 class CustomSource(Source):
 	def __init__(self, names: tuple[str] = ()):
 		super().__init__()

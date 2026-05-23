@@ -1,8 +1,10 @@
 from ..context import PipelineContext
 from ..event.event import *
 from .extension_plugin import ExtensionPlugin
+from ..registry import register_extension
 from ..logger import log
 
+@register_extension("summary_report")
 class SummaryReportPlugin(ExtensionPlugin):
 	priority = 100
 

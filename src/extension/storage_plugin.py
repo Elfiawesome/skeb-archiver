@@ -1,7 +1,10 @@
+
 from ..context import PipelineContext
 from ..event.event import *
+from ..registry import register_extension
 from .extension_plugin import ExtensionPlugin
 
+@register_extension("storage")
 class StoragePlugin(ExtensionPlugin):
 	def on_event(self, context: PipelineContext, event: Event):
 		if isinstance(event, ProfilFetchedEvent):
