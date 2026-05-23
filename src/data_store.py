@@ -203,6 +203,7 @@ class DataStore:
 			total_works = _true_works_count(profile)
 			custom_data = u.get("custom", {})
 			acceptable = bool(profile.get("acceptable", False))
+			nsfw_acceptable = bool(profile.get("nsfw_acceptable", False))
 			
 			index_entries.append({
 				"screen_name": sn,
@@ -216,6 +217,7 @@ class DataStore:
 				"latest_thumbnails": _latest_thumbnail_urls(works, 4),
 				"custom": custom_data,
 				"acceptable": acceptable,
+				"nsfw": nsfw_acceptable,
 			})
 
 		import math, gzip
