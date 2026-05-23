@@ -124,6 +124,6 @@ class DataStore:
 		return f"{safe_name}-{h}"
 
 	def open_session_date_folder(self) -> Path:
-		new_path: Path = self._persistance_dir / datetime.fromtimestamp(self.start_time, tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+		new_path: Path = self._persistance_dir / datetime.fromtimestamp(self.start_time, tz=timezone.utc).strftime("%Y-%m-%d_%H-%M-%S")
 		new_path.mkdir(parents=True, exist_ok=True)
 		return new_path
