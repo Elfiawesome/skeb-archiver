@@ -59,14 +59,14 @@ class DataStore:
 		old_data = self.load(screen_name)
 		new_data: dict[str] = None
 		if old_data:
-			# Create new save
-			new_data = self.new_user(screen_name, ts)
-			new_data["profile"] = new_profile_data
-		else:
 			# Update what is needed
 			old_data["profile"] = new_profile_data
 			old_data["last_updated"] = ts
 			new_data = old_data
+		else:
+			# Create new save
+			new_data = self.new_user(screen_name, ts)
+			new_data["profile"] = new_profile_data
 		
 		self._update_price(new_data, ts)
 
@@ -86,8 +86,8 @@ class DataStore:
 			if not genre in price_history: price_history[genre] = []
 			history_entires = price_history.get(genre)
 			
-			if len(history_entires) > 0 and amt != None:
-				if history_entires[-1].get("amount") == amt: continue
+			if history_entires and history_entires[-1].get("amount") == amt:
+				continue
 			
 			history_entires.append({"amount": amt, "recorded_at": ts})
 
