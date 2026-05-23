@@ -13,7 +13,7 @@ class DataStore:
 		self._skeb_dir = Path(skeb_dir)
 		self._skeb_dir.mkdir(parents=True, exist_ok=True)
 		
-		self._persistance_dir  = Path(persistance_dir)
+		self._persistance_dir = Path(persistance_dir) if persistance_dir else Path(self._skeb_dir.parent)
 		self._persistance_dir.mkdir(parents=True, exist_ok=True)
 		
 		self.start_time = self.timestamp_now()
