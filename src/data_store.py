@@ -54,27 +54,35 @@ class DataStore:
 		with p.open("w", encoding="utf-8") as fh:
 			json.dump(data, fh, ensure_ascii=False)
 	
-	def update_save(self, screen_name: str, profile_data: dict[str]) -> None:
+	def update_save(self, screen_name: str, new_profile_data: dict[str]) -> None:
 		ts = self.timestamp_now()
-		ori_data = self.load(screen_name)
-		new_data: dict[str]
-		if ori_data:
-			new_data = ori_data
-		else:
+		old_data = self.load(screen_name)
+		new_data: dict[str] = None
+		if old_data:
+			# Create new save
 			new_data = self.new_user(screen_name, ts)
+			new_data["profile"] = new_profile_data
+		else:
+			# Update what is needed
+			old_data["profile"] = new_profile_data
+			old_data["last_updated"] = ts
+			new_data = old_data
 		
-		# Uppdate what is needed
-		new_data["profile"] = profile_data
-		new_data["last_updated"] = ts
-		
-		# Update price
-		price_history: dict[str, list[dict]] = new_data.get("price_history", {})# TODO : If price history doesn't exist in a existing data, we wont do anythin
-		profile: dict = new_data.get("profile", {})
+		self._update_price(new_data, ts)
+
+		self.save(new_data)
+
+	def _update_price(self, user_data: dict[str], ts: float) -> None:
+		if "price_history" not in user_data:
+			user_data["price_history"] = {}
+		price_history: dict[str, list[dict[str]]] = user_data["price_history"]
+
+		profile: dict = user_data.get("profile", {})
 		skills: list[dict[str]] = profile.get("skills", [])
 		for sk in skills:
 			genre: str = sk.get("genre", "unknown")
 			amt: float | None = sk.get("default_amount", None)
-			
+
 			if not genre in price_history: price_history[genre] = []
 			history_entires = price_history.get(genre)
 			
@@ -82,8 +90,6 @@ class DataStore:
 				if history_entires[-1].get("amount") == amt: continue
 			
 			history_entires.append({"amount": amt, "recorded_at": ts})
-
-		self.save(new_data)
 
 	@staticmethod
 	def new_user(screen_name: str, ts: float) -> dict[str]:
@@ -93,6 +99,7 @@ class DataStore:
 			"last_updated": ts,
 			"profile": {},
 			"price_history": {},
+			"custom": {} # Transfer flags here
 		}
 
 	@staticmethod
