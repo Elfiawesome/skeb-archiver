@@ -302,10 +302,6 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 				)
 				sources_specs.append(("custom", {"names": list(args.names)}))
 
-	# Final sanity check: no sources → error
-	if not sources_specs:
-		parser.error("No sources configured – nothing to run.")
-
 	# Run the pipeline
 	asyncio.run(
 		run_pipeline(sources_specs, extensions_specs, docs_dir, persistance_dir)
