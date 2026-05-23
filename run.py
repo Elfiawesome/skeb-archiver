@@ -278,12 +278,6 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 			]
 
 	else:
-		# Manual mode – at least one source must be specified
-		if not args.sources:
-			parser.error(
-				"No sources specified. Use --source, or choose --preset / --config."
-			)
-
 		for spec_str in args.sources:
 			name, kwargs = parse_spec(spec_str)
 			sources_specs.append((name, kwargs))
