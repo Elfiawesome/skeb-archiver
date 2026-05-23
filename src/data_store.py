@@ -54,7 +54,21 @@ class DataStore:
 		with p.open("w", encoding="utf-8") as fh:
 			json.dump(data, fh, ensure_ascii=False)
 	
-	def update_save(self, screen_name: str, new_profile_data: dict[str]) -> None:
+	def get_custom_data(self, screen_name: str, key: str):
+		user_data = self.load(screen_name)
+		if "custom" not in user_data: user_data["custom"] = {}
+		return user_data["custom"]
+	
+	def update_custom_data(self, screen_name: str, key: str, data: object | None) -> None:
+		user_data: dict[str] = self.load(screen_name)
+		
+		if data is None:
+			user_data["custom"].pop(key)
+		else:
+			user_data["custom"][key] = data
+		self.save(user_data)
+
+	def update_save(self, screen_name: str, new_profile_data: dict[str]) -> dict[str]:
 		ts = self.timestamp_now()
 		old_data = self.load(screen_name)
 		new_data: dict[str] = None
@@ -71,6 +85,7 @@ class DataStore:
 		self._update_price(new_data, ts)
 
 		self.save(new_data)
+		return new_data
 
 	def _update_price(self, user_data: dict[str], ts: float) -> None:
 		if "price_history" not in user_data:

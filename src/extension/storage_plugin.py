@@ -1,11 +1,19 @@
 from ..context import PipelineContext
-from ..event.event import Event, ProfilFetchedEvent
+from ..event.event import *
 from .extension_plugin import ExtensionPlugin
 
 class StoragePlugin(ExtensionPlugin):
 	def on_event(self, context: PipelineContext, event: Event):
 		if isinstance(event, ProfilFetchedEvent):
 			if "screen_name" in event.data:
-				context.store.update_save(event.data["screen_name"], event.data)
-			else:
-				pass
+				udpated_data = context.store.update_save(event.data["screen_name"], event.data)
+				
+				# Update missing data if it was found again
+				custom_data: dict[str] =  udpated_data.get("custom")
+				if "missing" in custom_data:
+					if custom_data["missing_flag"] == True:
+						context.store.update_custom_data(event.data["screen_name"], "missing", None)
+		
+		if isinstance(event, ProfileMissingEvent):
+			if event.screen_name:
+				context.store.update_custom_data(event.screen_name, "missing", True)
