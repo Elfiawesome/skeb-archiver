@@ -11,7 +11,7 @@ class StoragePlugin(ExtensionPlugin):
 				# Update missing data if it was found again
 				custom_data: dict[str] =  udpated_data.get("custom")
 				if "missing" in custom_data:
-					if custom_data["missing_flag"] == True:
+					if custom_data["missing"] == True:
 						context.store.update_custom_data(event.data["screen_name"], "missing", None)
 		
 		if isinstance(event, ProfileMissingEvent):
