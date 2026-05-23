@@ -12,7 +12,7 @@ class RescrapeSource(Source):
 	async def get_sources(self, context: PipelineContext) -> AsyncGenerator[str, None]:
 		for user in context.store.load_all():
 			if "screen_name" in user:
-				if self.stale_filtered():
+				if self.stale_filtered(user):
 					yield user["screen_name"]
 
 
