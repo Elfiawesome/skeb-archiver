@@ -132,3 +132,108 @@ class DataStore:
 		new_path: Path = self._persistance_dir / datetime.fromtimestamp(self.start_time, tz=timezone.utc).strftime("%Y-%m-%d_%H-%M-%S")
 		new_path.mkdir(parents=True, exist_ok=True)
 		return new_path
+	
+	def create_api_data(self) -> None:
+		def _true_works_count(profile: dict) -> int:
+			c = profile.get("received_works_count")
+			if isinstance(c, int): return c
+			rw = profile.get("received_works")
+			return len(rw) if isinstance(rw, list) else 0
+
+		def _get_received_works(profile: dict) -> list[dict[str]]:
+			rw = profile.get("received_works")
+			return rw if isinstance(rw, list) else []
+		
+		def _current_prices(ph: dict[str, list]) -> dict[str]:
+			return {g: e[-1].get("amount") for g, e in ph.items() if e}
+
+		def _price_ranges(ph: dict[str, list]) -> dict[str, dict[str]]:
+			out: dict[str, dict[str]] = {}
+			for genre, entries in ph.items():
+				amounts = [e["amount"] for e in entries if e.get("amount") is not None]
+				if amounts:
+					out[genre] = {"min": min(amounts), "max": max(amounts)}
+			return out
+	
+		def _latest_thumbnail_urls(works: list[dict], max_count: int = 4) -> list[str]:
+			urls: list[str] = []
+			for w in works:
+				thumb = _extract_thumbnail(w)
+				if thumb["src"]:
+					urls.append(_pick_best_url(thumb["srcset"], thumb["src"]))
+					if len(urls) >= max_count:
+						break
+			return urls
+		
+		def _extract_thumbnail(work: dict) -> dict[str, str]:
+			for key in ("thumbnail_image_urls", "private_thumbnail_image_urls"):
+				urls = work.get(key)
+				if isinstance(urls, dict) and urls.get("src"):
+					return {"src": urls["src"], "srcset": urls.get("srcset", "")}
+			return {"src": "", "srcset": ""}
+
+
+		def _pick_best_url(srcset: str, fallback: str = "") -> str:
+			if not srcset:
+				return fallback
+			parts = [p.strip() for p in srcset.split(",") if p.strip()]
+			for target in ("3x", "2x"):
+				for part in parts:
+					tokens = part.rsplit(None, 1)
+					if len(tokens) == 2 and tokens[1] == target:
+						return tokens[0]
+			if parts:
+				return parts[0].split()[0]
+			return fallback
+
+		pages_dir = self._api_dir / "pages"
+		pages_dir.mkdir(parents=True, exist_ok=True)
+	
+		index_entries: list[dict[str]] = []
+
+		for u in self.load_all():
+			sn = u.get("screen_name", "")
+			if not sn: continue
+			
+			ph = u.get("price_history", {})
+			profile: dict = u.get("profile", {})
+			avatar = profile.get("avatar_url", "")
+			file_key = DataStore._username_safe(sn)
+			works = _get_received_works(profile)
+			total_works = _true_works_count(profile)
+			custom_data = u.get("custom", {})
+			acceptable = bool(profile.get("acceptable", False))
+			
+			index_entries.append({
+				"screen_name": sn,
+				"file": file_key,
+				"avatar_url": avatar,
+				"total_works": total_works,
+				"first_seen": u.get("first_seen", ""),
+				"last_updated": u.get("last_updated", ""),
+				"current_prices": _current_prices(ph),
+				"price_range": _price_ranges(ph),
+				"latest_thumbnails": _latest_thumbnail_urls(works, 4),
+				"custom": custom_data,
+				"acceptable": acceptable,
+			})
+
+		import math, gzip
+		PAGE_SIZE = 20000
+		page_size = PAGE_SIZE
+		total_pages = max(1, math.ceil(len(index_entries) / page_size))
+		for page_num in range(total_pages):
+			start = page_num * page_size
+			page_data = {"page": page_num, "users": index_entries[start:start + page_size]}
+			with (pages_dir / f"{page_num}.json.gz").open("wb") as f_out, gzip.open(f_out, "wt", encoding="utf-8") as fh:
+				json.dump(page_data, fh, ensure_ascii=False)
+
+		index = {
+			"generated_at": datetime.now(timezone.utc).timestamp(),
+			"user_count": len(index_entries),
+			"page_size": page_size,
+			"total_pages": total_pages,
+			# "known_flags": sorted(all_flag_names),
+		}
+		with (self._api_dir / "index.json").open("w", encoding="utf-8") as fh:
+			json.dump(index, fh, ensure_ascii=False)

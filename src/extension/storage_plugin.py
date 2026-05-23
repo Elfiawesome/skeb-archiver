@@ -17,3 +17,6 @@ class StoragePlugin(ExtensionPlugin):
 		if isinstance(event, ProfileMissingEvent):
 			if event.screen_name:
 				context.store.update_custom_data(event.screen_name, "missing", True)
+		
+		if isinstance(event, EndEvent):
+			context.store.create_api_data()
