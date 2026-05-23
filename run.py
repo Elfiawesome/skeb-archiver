@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Skeb Archiver Pipeline Runner
 
@@ -28,6 +27,14 @@ import json
 import sys
 from pathlib import Path
 from typing import Any
+
+from src.source.skeb_crawl_source import SkebCrawlSource
+from src.source.rescrape_source import RescrapeSource
+from src.source.rediscover_source import RediscoverSource
+from src.source.custom_source import CustomSource
+from src.extension.storage_plugin import StoragePlugin
+from src.extension.summary_report_plugin import SummaryReportPlugin
+from src.extension.sourcing_limit_plugin import SourcingLimitPlugin
 
 from src.pipeline import Pipeline
 from src.data_store import DataStore
