@@ -340,10 +340,10 @@ const App = {
 
 		if (this.filterPriceMin !== null || this.filterPriceMax !== null) {
 			filtered = filtered.filter(u => {
-				if (!u.current_prices || Object.keys(u.current_prices).length === 0) return false;
-				const prices = Object.values(u.current_prices);
-				const minP = Math.min(...prices);
-				const maxP = Math.max(...prices);
+				const currentPrices = this.getUserPricesByGenre(u, this.filterGenre)
+				if (!currentPrices) return false;
+				const minP = Math.min(...currentPrices);
+				const maxP = Math.max(...currentPrices);
 				if (this.filterPriceMin !== null && maxP < this.filterPriceMin) return false;
 				if (this.filterPriceMax !== null && minP > this.filterPriceMax) return false;
 				return true;
@@ -377,18 +377,24 @@ const App = {
 		this.renderPagination();
 	},
 
+	getUserPricesByGenre(u, genre) {
+		if (!u.current_prices || Object.keys(u.current_prices).length === 0) return null;
+		if (genre) {
+			if (genre in u.current_prices) {
+				return [u.current_prices[genre]]
+			} else {
+				return null;
+			}
+		} else {
+			return Object.values(u.current_prices);
+		}
+	},
+
 	compareBy(a, b, sort) {
 		const getPrice = (u) => {
-			if (!u.current_prices || Object.keys(u.current_prices).length === 0) return Infinity;
-			if (this.filterGenre) {
-				if (this.filterGenre in u.current_prices) {
-					return u.current_prices[this.filterGenre]
-				} else {
-					return Infinity;
-				}
-			} else {
-				return Math.min(...Object.values(u.current_prices));
-			}
+			const currentPrices = this.getUserPricesByGenre(u, this.filterGenre);
+			if (!currentPrices) { return Infinity; }
+			else { return Math.min(...currentPrices);} // TODO: Issue here because how to compare and sort if there is a range of prices?
 		};
 		const getWorks = (u) => u.total_works || 0;
 		const getUpdated = (u) => u.last_updated || 0;
