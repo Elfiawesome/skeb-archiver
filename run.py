@@ -34,6 +34,7 @@ from src.source.rediscover_source import RediscoverSource
 from src.source.custom_source import CustomSource
 from src.extension.abort_on_too_many_rate_limit import AbortOnTooManyRateLimit
 from src.extension.sourcing_limit_plugin import SourcingLimitPlugin
+from src.extension.sourcing_state_filter_plugin import SourcingStateFilterPlugin
 from src.extension.storage_plugin import StoragePlugin
 from src.extension.summary_report_plugin import SummaryReportPlugin
 
