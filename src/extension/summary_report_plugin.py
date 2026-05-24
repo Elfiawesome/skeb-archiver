@@ -22,7 +22,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 		if isinstance(event, SourceRetrievedEvent):
 			self.sources_retreived += 1
 
-		if isinstance(event, ProfilFetchedEvent):
+		if isinstance(event, ProfileFetchedEvent):
 			self.profiles_fetched += 1
 		
 		if isinstance(event, ProfileMissingEvent):
