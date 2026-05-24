@@ -56,6 +56,10 @@ class Pipeline:
 
 	async def _fetch_profiles_from_sources(self, sources: set[str]) -> None:
 		async for user in self.context.client.fetch_profiles(sources):
+			if self.context.cancel_pipeline_flag:
+				log.info("Ending pipeline prematurely")
+				break
+
 			if user.get("failed", False):
 				sn: str = user.get("endpoint", "").replace("users/", "")
 				sc: int | None = user.get("status_code")

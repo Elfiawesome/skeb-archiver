@@ -8,3 +8,4 @@ from .skeb_client import SkebClient
 class PipelineContext:
 	client: SkebClient
 	store: DataStore
+	cancel_pipeline_flag: bool = False
