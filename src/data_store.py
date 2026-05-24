@@ -61,11 +61,14 @@ class DataStore:
 	
 	def get_custom_data(self, screen_name: str, key: str):
 		user_data = self.load(screen_name)
+		if not user_data: return # If user doesn't exist
+		
 		if "custom" not in user_data: user_data["custom"] = {}
 		return user_data["custom"]
 	
 	def update_custom_data(self, screen_name: str, key: str, data: object | None) -> None:
 		user_data: dict[str] = self.load(screen_name)
+		if not user_data: return # If user doesn't exist
 		
 		if data is None:
 			user_data["custom"].pop(key)
