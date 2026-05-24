@@ -10,10 +10,25 @@ class RediscoverSource(Source):
 		super().__init__()
 	
 	async def get_sources(self, context: PipelineContext) -> AsyncGenerator[str, None]:
+		existing: set[str] = ()
+		candidates: set[str] = ()
+
 		for user in context.store.load_all():
 			profile: dict[str] = user.get("profile", {})
 			similar_creators: list[dict[str]] = profile.get("similar_creators", [])
+			
+			user_sn: str = user.get("screen_name", None)
+			if user_sn:
+				existing.add(user_sn)
+
 			for sc in similar_creators:
-				sn: str = sc.get("screen_name", None)
-				if sn:
-					yield sn
+				sc_sn: str = sc.get("screen_name", None)
+				if sc_sn:
+					candidates.add(sc_sn)
+			
+			new_names = candidates - existing
+
+			for n in new_names:
+				yield n
+					
+
