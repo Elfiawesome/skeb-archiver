@@ -19,16 +19,19 @@ const App = {
 	genreList: [],
 	loadingComplete: false,
 	detailCache: {},
+	timeNow: new Date(),
 
 	async init() {
 		try {
+			this.timeNow = new Date()
+			
 			const r = await this.fetch("api/index.json");
 			if (!r.ok) throw new Error("HTTP " + r.status);
 			this.meta = await r.json();
 
 			document.querySelector('#statsBadge span').textContent =
 				`${this.meta.user_count?.toLocaleString() || '?'} users · ${this.meta.total_pages} pages` +
-				(this.meta.generated_at ? ` · Generated ${this.relativeTime(this.meta.generated_at)}` : '');
+				(this.meta.generated_at ? ` · ${this.fmtDate(this.meta.generated_at)}` : '');
 
 			this.readURLParams();
 			this.bindEvents();
@@ -73,29 +76,38 @@ const App = {
 
 	async fetch(url) { return await fetch(url); },
 
-	relativeTime(timestamp) {
-		if (!timestamp) return '';
-		const nowSec = Date.now() / 1000;
-		const diff = nowSec - timestamp;
-		if (diff < 0) return 'future';
+	fmtDate(iso) {
+		if (!iso) return "\u2014";
 
-		const seconds = Math.floor(diff);
-		if (seconds < 60) return 'just now';
+		const date = new Date(iso * 1000);
+		const now = new Date();
 
-		const minutes = Math.floor(seconds / 60);
-		if (minutes < 60) return `${minutes}m ago`;
+		const dateStr = date.toLocaleDateString('en-GB', {
+			day: '2-digit',
+			month: 'short',
+			year: 'numeric'
+		});
 
-		const hours = Math.floor(minutes / 60);
-		if (hours < 24) return `${hours}h ago`;
+		const diff = Math.floor((now - date) / 1000);
+		let agoString = "just now";
 
-		const days = Math.floor(hours / 24);
-		if (days < 30) return `${days}d ago`;
+		const units = [
+			{ label: "year", sec: 31536000 },
+			{ label: "month", sec: 2592000 },
+			{ label: "day", sec: 86400 },
+			{ label: "hour", sec: 3600 },
+			{ label: "minute", sec: 60 }
+		];
 
-		const months = Math.floor(days / 30);
-		if (months < 12) return `${months}mo ago`;
+		for (const unit of units) {
+			const amount = Math.floor(diff / unit.sec);
+			if (amount >= 1) {
+				agoString = `${amount} ${unit.label}${amount > 1 ? 's' : ''} ago`;
+				break;
+			}
+		}
 
-		const years = Math.floor(days / 365);
-		return `${years}y ago`;
+		return `${dateStr} (${agoString})`;
 	},
 
 	extractGenres() {
@@ -396,7 +408,7 @@ const App = {
 		const getPrice = (u) => {
 			const currentPrices = this.getUserPricesByGenre(u, this.filterGenre);
 			if (!currentPrices) { return Infinity; }
-			else { return Math.min(...currentPrices);} // TODO: Issue here because how to compare and sort if there is a range of prices?
+			else { return Math.min(...currentPrices); } // TODO: Issue here because how to compare and sort if there is a range of prices?
 		};
 		const getWorks = (u) => u.total_works || 0;
 		const getUpdated = (u) => u.last_updated || 0;
@@ -434,8 +446,8 @@ const App = {
 			'<div style="height:100px;background:var(--surface3);display:flex;align-items:center;justify-content:center;color:var(--text-secondary);">No previews</div>';
 
 		const totalWorks = user.total_works || 0;
-		const lastUpdate = user.last_updated ? new Date(user.last_updated * 1000).toLocaleDateString() : '?';
-		const firstSeen = user.first_seen ? new Date(user.first_seen * 1000).toLocaleDateString() : '?';
+		const lastUpdate = this.fmtDate(user.last_updated);
+		const firstSeen = this.fmtDate(user.first_seen);
 
 		return `
                 <div class="user-card" data-screenname="${screenName}" data-file="${user.file || ''}">
@@ -565,7 +577,7 @@ const App = {
                             <div style="margin-bottom:0.8rem;">
                                 <strong style="color:var(--accent)">${genre}</strong>
                                 <table style="width:100%;border-collapse:collapse;font-size:0.8rem;">
-                                    ${entries.map(e => `<tr><td style="padding:0.25rem;">${new Date(e.recorded_at * 1000).toLocaleDateString()}</td><td>¥${e.amount.toLocaleString()}</td></tr>`).join('')}
+                                    ${entries.map(e => `<tr><td style="padding:0.25rem;">${this.fmtDate(e.recorded_at)}</td><td>¥${e.amount.toLocaleString()}</td></tr>`).join('')}
                                 </table>
                             </div>
                         `).join('') : '<p>No history</p>'}
