@@ -71,7 +71,7 @@ class Pipeline:
 						endpoint=user.get("endpoint", "")
 					))
 			else:
-				self.raise_event(ProfilFetchedEvent(user))
+				self.raise_event(ProfileFetchedEvent(user))
 
 	def raise_event(self, event: Event) -> None:
 		for ext in self.extensions:
