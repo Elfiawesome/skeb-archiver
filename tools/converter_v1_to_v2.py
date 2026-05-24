@@ -1,5 +1,4 @@
 from pathlib import Path
-import gzip
 import json
 
 BASE_DIR = Path().resolve()
@@ -22,4 +21,4 @@ for i in SKEB_DIR.rglob("*.json"):
 	data["custom"] = merged_custom
 
 	with i.open("w", encoding="utf-8") as f:
-		json.dump(data, f)
+		json.dump(data, f, ensure_ascii=False)
