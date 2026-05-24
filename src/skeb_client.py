@@ -10,7 +10,7 @@ class SkebClient():
 	_COOKIE_RE: re.Pattern = re.compile(r"(request_key=.*?;)")
 	
 	def __init__(self) -> None:
-		self.max_sync_request: int = 5
+		self.max_sync_request: int = 10
 		self.max_retries: int = 3
 		self.timeout_sec: int = 30
 		self.rate_limit_sleep: float = 0.05
@@ -47,8 +47,8 @@ class SkebClient():
 		url = f"{self.API}/{endpoint}"
 		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 
-		await asyncio.sleep(self.rate_limit_sleep)
 		async with self._semaphore:
+			await asyncio.sleep(self.rate_limit_sleep)
 			for attempt in range(1, self.max_retries + 1):
 				try:
 					async with self._session.get(url, headers=headers, **kwargs) as response:
