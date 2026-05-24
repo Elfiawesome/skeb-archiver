@@ -4,7 +4,7 @@ from ..event.event import Event, SourceRetrievedEvent
 from ..registry import register_extension
 from .extension_plugin import ExtensionPlugin
 
-@register_extension("stale_filter")
+@register_extension("sourcing_stale_stale_filter")
 class SourcingStateFilterPlugin(ExtensionPlugin):
 	def __init__(self, stale_days: int = 5):
 		super().__init__()

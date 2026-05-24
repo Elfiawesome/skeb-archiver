@@ -3,7 +3,7 @@ from ..event.event import Event, ProfilFetchedEvent, ProfileTooManyRequestsFetch
 from ..registry import register_extension
 from .extension_plugin import ExtensionPlugin
 
-@register_extension("abort_on_total_failure")
+@register_extension("abort_on_too_many_rate_limit")
 class AbortOnTooManyRateLimit(ExtensionPlugin):
 	def __init__(self, threshold: int = 20):
 		super().__init__()
