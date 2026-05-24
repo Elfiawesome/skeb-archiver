@@ -10,8 +10,8 @@ class RediscoverSource(Source):
 		super().__init__()
 	
 	async def get_sources(self, context: PipelineContext) -> AsyncGenerator[str, None]:
-		existing: set[str] = ()
-		candidates: set[str] = ()
+		existing: set[str] = set()
+		candidates: set[str] = set()
 
 		for user in context.store.load_all():
 			profile: dict[str] = user.get("profile", {})
