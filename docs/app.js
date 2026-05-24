@@ -134,7 +134,9 @@ const App = {
 
 		const sortStr = params.get('sort') || '';
 		this.sortChain = sortStr ? sortStr.split(',').map(s => {
-			const [key, dir] = s.split('_');
+			const dir = s.split('_').at(-1);
+			const key = s.replace("_" + dir, "");
+			console.log(key);
 			return { key, dir: dir === 'desc' ? 'desc' : 'asc' };
 		}).filter(s => s.key) : [];
 
