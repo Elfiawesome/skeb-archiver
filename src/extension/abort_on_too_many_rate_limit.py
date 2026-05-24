@@ -1,5 +1,5 @@
 from ..context import PipelineContext
-from ..event.event import Event, ProfilFetchedEvent, ProfileTooManyRequestsFetchedEvent
+from ..event.event import Event, ProfileFetchedEvent, ProfileTooManyRequestsFetchedEvent
 from ..registry import register_extension
 from .extension_plugin import ExtensionPlugin
 
@@ -11,7 +11,7 @@ class AbortOnTooManyRateLimit(ExtensionPlugin):
 		self.number_success_since_error: int = 0
 
 	def on_event(self, context: PipelineContext, event: Event) -> None:
-		if isinstance(event, ProfilFetchedEvent):
+		if isinstance(event, ProfileFetchedEvent):
 			self.number_success_since_error = 0
 			self.check(context)
 

@@ -16,7 +16,7 @@ class SourceRetrievedEvent(Event):
 	allow: bool = True
 
 @dataclass
-class ProfilFetchedEvent(Event):
+class ProfileFetchedEvent(Event):
 	data: dict[str]
 
 @dataclass

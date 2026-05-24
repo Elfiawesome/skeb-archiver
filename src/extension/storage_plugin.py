@@ -7,7 +7,7 @@ from .extension_plugin import ExtensionPlugin
 @register_extension("storage")
 class StoragePlugin(ExtensionPlugin):
 	def on_event(self, context: PipelineContext, event: Event):
-		if isinstance(event, ProfilFetchedEvent):
+		if isinstance(event, ProfileFetchedEvent):
 			if "screen_name" in event.data:
 				udpated_data = context.store.update_save(event.data["screen_name"], event.data)
 				
