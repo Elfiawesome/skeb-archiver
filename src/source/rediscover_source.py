@@ -26,9 +26,9 @@ class RediscoverSource(Source):
 				if sc_sn:
 					candidates.add(sc_sn)
 			
-			new_names = candidates - existing
+		new_names = candidates - existing
 
-			for n in new_names:
-				yield n
+		for n in new_names:
+			yield n
 					
 
