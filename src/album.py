@@ -13,3 +13,6 @@ class Album:
 
 	def to_dict(self) -> dict[str]:
 		return asdict(self)
+	
+	def is_empty(self) -> bool:
+		return len(self.entires) == 0

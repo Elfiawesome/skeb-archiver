@@ -61,6 +61,8 @@ class SummaryReportPlugin(ExtensionPlugin):
 			with (session_folder / "summary.txt").open("w", encoding="utf-8") as f: f.write(log_text)
 			
 			import json
-			with (session_folder / "success.album").open("w", encoding="utf-8") as f: json.dump(self.albums["success"].to_dict(), f)
-			with (session_folder / "error.album").open("w", encoding="utf-8") as f: json.dump(self.albums["error"].to_dict(), f)
-			with (session_folder / "rate_limited.album").open("w", encoding="utf-8") as f: json.dump(self.albums["rate_limited"].to_dict(), f)
+			for album_name in self.albums:
+				a = self.albums[album_name]
+				if a.is_empty(): continue
+				with (session_folder / f"{album_name}.album").open("w", encoding="utf-8") as f:
+					json.dump(a.to_dict(), f)
