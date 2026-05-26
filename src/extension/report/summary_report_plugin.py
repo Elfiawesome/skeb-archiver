@@ -53,8 +53,8 @@ class SummaryReportPlugin(ExtensionPlugin):
 			log_text += "  %-20s : %d" % ("Sources Retreived", self.sources_retreived) + "\n"
 			log_text += "  %-20s : %d" % ("Profiles Fetched", len(self.albums["success"].entires)) + "\n"
 			log_text += "  %-20s : %d" % ("Profile Missing", self.profile_missing) + "\n"
-			log_text += "  %-20s : %d" % ("Profile Rate Limited", len(self.albums["rate_limited"])) + "\n"
-			log_text += "  %-20s : %d" % ("Profile Error Others", len(self.albums["erro"])) + "\n"
+			log_text += "  %-20s : %d" % ("Profile Rate Limited", len(self.albums["rate_limited"].entires)) + "\n"
+			log_text += "  %-20s : %d" % ("Profile Error Others", len(self.albums["erro"].entires)) + "\n"
 			log.info(log_text)
 			
 			session_folder = context.store.open_session_date_folder()
