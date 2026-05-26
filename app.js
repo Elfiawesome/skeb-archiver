@@ -24,7 +24,7 @@ const App = {
 	async init() {
 		try {
 			this.timeNow = new Date()
-			
+
 			const r = await this.fetch("api/index.json");
 			if (!r.ok) throw new Error("HTTP " + r.status);
 			this.meta = await r.json();
@@ -507,8 +507,8 @@ const App = {
 				}
 			});
 
-			// Close when clicking inside the expanded detail area itself
 			detailDiv.addEventListener('click', (e) => {
+				if (e.target.closest('a, button, input, select, textarea, [role="button"]')) return;
 				e.stopPropagation();
 				detailDiv.classList.remove('open');
 				card.classList.remove('expanded');
