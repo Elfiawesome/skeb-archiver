@@ -19,7 +19,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 		self.albums: dict[str, Album] = {
 			"success": Album(),
 			"rate_limited": Album(),
-			"errors": Album()
+			"error": Album()
 		}
 		
 	def on_event(self, context: PipelineContext, event: Event):
