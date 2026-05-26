@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 
 @dataclass
 class Entry:
@@ -10,3 +10,6 @@ class Entry:
 @dataclass
 class Album:
 	entires: list[Entry] = field(default_factory=list[Entry])
+
+	def to_dict(self) -> dict[str]:
+		return asdict(self)
