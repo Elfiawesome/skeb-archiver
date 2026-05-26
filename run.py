@@ -280,9 +280,10 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 			]
 
 	else:
-		for spec_str in args.sources:
-			name, kwargs = parse_spec(spec_str)
-			sources_specs.append((name, kwargs))
+		if args.sources:
+			for spec_str in args.sources:
+				name, kwargs = parse_spec(spec_str)
+				sources_specs.append((name, kwargs))
 
 		if args.extensions:
 			for spec_str in args.extensions:
