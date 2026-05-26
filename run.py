@@ -32,11 +32,11 @@ from src.source.skeb_crawl_source import SkebCrawlSource
 from src.source.rescrape_source import RescrapeSource
 from src.source.rediscover_source import RediscoverSource
 from src.source.custom_source import CustomSource
-from src.extension.abort_on_too_many_rate_limit import AbortOnTooManyRateLimit
-from src.extension.sourcing_limit_plugin import SourcingLimitPlugin
-from src.extension.sourcing_state_filter_plugin import SourcingStateFilterPlugin
-from src.extension.storage_plugin import StoragePlugin
-from src.extension.summary_report_plugin import SummaryReportPlugin
+from src.extension.request.stop_on_rate_limit_plugin import StopOnRateLimit
+from src.extension.source.source_limit_plugin import SourceLimitPlugin
+from src.extension.source.source_state_filter_plugin import SourceStateFilterPlugin
+from src.extension.core.storage_plugin import StoragePlugin
+from src.extension.report.summary_report_plugin import SummaryReportPlugin
 
 from src.pipeline import Pipeline
 from src.data_store import DataStore

@@ -1,11 +1,11 @@
 from datetime import datetime, timezone, timedelta
-from ..context import PipelineContext
-from ..event.event import Event, SourceRetrievedEvent
-from ..registry import register_extension
-from .extension_plugin import ExtensionPlugin
+from ...context import PipelineContext
+from ...event.event import Event, SourceRetrievedEvent
+from ...registry import register_extension
+from ..extension_plugin import ExtensionPlugin
 
-@register_extension("sourcing_stale_filter")
-class SourcingStateFilterPlugin(ExtensionPlugin):
+@register_extension("source_stale_filter")
+class SourceStateFilterPlugin(ExtensionPlugin):
 	def __init__(self, stale_days: int = 5):
 		super().__init__()
 		self.stale_days = stale_days

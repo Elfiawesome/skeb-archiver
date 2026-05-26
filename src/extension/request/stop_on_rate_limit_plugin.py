@@ -1,10 +1,10 @@
-from ..context import PipelineContext
-from ..event.event import Event, ProfileFetchedEvent, ProfileTooManyRequestsFetchedEvent
-from ..registry import register_extension
-from .extension_plugin import ExtensionPlugin
+from ...context import PipelineContext
+from ...event.event import Event, ProfileFetchedEvent, ProfileTooManyRequestsFetchedEvent
+from ...registry import register_extension
+from ..extension_plugin import ExtensionPlugin
 
-@register_extension("abort_on_too_many_rate_limit")
-class AbortOnTooManyRateLimit(ExtensionPlugin):
+@register_extension("stop_on_rate_limit")
+class StopOnRateLimit(ExtensionPlugin):
 	def __init__(self, threshold: int = 20):
 		super().__init__()
 		self.threshold = threshold

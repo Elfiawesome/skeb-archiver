@@ -1,9 +1,9 @@
-from ..context import PipelineContext
-from ..event.event import *
-from .extension_plugin import ExtensionPlugin
-from ..registry import register_extension
-from ..album import Album, Entry
-from ..logger import log
+from ...context import PipelineContext
+from ...event.event import *
+from ..extension_plugin import ExtensionPlugin
+from ...registry import register_extension
+from ...album import Album, Entry
+from ...logger import log
 
 @register_extension("summary_report")
 class SummaryReportPlugin(ExtensionPlugin):
