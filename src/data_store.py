@@ -74,6 +74,10 @@ class DataStore:
 			user_data["custom"].pop(key)
 		else:
 			user_data["custom"][key] = data
+		
+		ts = self.timestamp_now()
+		user_data["last_updated"] = ts
+		
 		self.save(user_data)
 
 	def update_save(self, screen_name: str, new_profile_data: dict[str]) -> dict[str]:
