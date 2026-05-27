@@ -540,11 +540,15 @@ const App = {
 		const headerImg = p.header_url ? `<img src="${p.header_url}" style="width:100%;height:120px;object-fit:cover;margin-bottom:0.8rem;border:1px solid var(--border);" alt="header">` : '';
 
 		const socialLinks = [];
-		if (p.twitter_uid) socialLinks.push(`<a href="https://x.com/${p.screen_name}" target="_blank">𝕏 Twitter</a>`);
 		if (p.pixiv_id) socialLinks.push(`<a href="https://pixiv.me/${p.pixiv_id}" target="_blank">Pixiv</a>`);
 		if (p.url) socialLinks.push(`<a href="${p.url}" target="_blank">Website</a>`);
 		(p.user_service_links || []).forEach(link => {
-			if (link.url && link.provider !== 'twitter') socialLinks.push(`<a href="${link.url}" target="_blank">${link.provider}</a>`);
+			if (!link.url) continue;
+			if (link.provider == 'twitter') {
+				socialLinks.unshift(`<a href="https://x.com/${link.url}" target="_blank">𝕏 Twitter</a>`);
+			} else {
+				socialLinks.push(`<a href="${link.url}" target="_blank">${link.provider}</a>`);
+			}
 		});
 
 		const skills = p.skills || data.skills || [];
