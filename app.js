@@ -551,7 +551,7 @@ const App = {
 		(p.user_service_links || []).forEach(link => {
 			if (!link.url) { return; }
 			if (link.provider == 'twitter') {
-				socialLinks.unshift(`<a href="https://x.com/${link.url}" target="_blank">𝕏 Twitter</a>`);
+				socialLinks.unshift(`<a href="${link.url}" target="_blank">𝕏 Twitter</a>`);
 			} else {
 				socialLinks.push(`<a href="${link.url}" target="_blank">${link.provider}</a>`);
 			}
