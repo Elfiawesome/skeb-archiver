@@ -549,7 +549,7 @@ const App = {
 		if (p.pixiv_id) socialLinks.push(`<a href="https://pixiv.me/${p.pixiv_id}" target="_blank">Pixiv</a>`);
 		if (p.url) socialLinks.push(`<a href="${p.url}" target="_blank">Website</a>`);
 		(p.user_service_links || []).forEach(link => {
-			if (!link.url) continue;
+			if (!link.url) { continue; }
 			if (link.provider == 'twitter') {
 				socialLinks.unshift(`<a href="https://x.com/${link.url}" target="_blank">𝕏 Twitter</a>`);
 			} else {
