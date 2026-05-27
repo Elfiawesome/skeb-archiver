@@ -74,7 +74,13 @@ const App = {
 		return new Response(resp.body.pipeThrough(ds));
 	},
 
-	async fetch(url) { return await fetch(url); },
+	async fetch(url) {
+		var data = await fetch(url);
+		if (!data.ok) {
+			data = await fetch("https://raw.githubusercontent.com/Elfiawesome/skeb-archiver/refs/heads/archive/skeb/" + url);
+		}
+		return data;
+	},
 
 	fmtDate(iso) {
 		if (!iso) return "\u2014";
