@@ -5,13 +5,13 @@ on:
     branches:
       - main
     paths:
-      - 'site/**'          # only run when something inside site/ changes
+      - 'site/**'   # run only when site/ changes
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # needed to push to the repo
+      contents: write
 
     steps:
       - name: Checkout repository with full history
@@ -24,18 +24,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Switch to archive branch and update site files
+      - name: Sync site/ into archive branch root
         run: |
-          # Move to archive branch
+          # Switch to archive branch
           git checkout archive
 
-          # Copy site/ contents into the root, but never touch api/
-          rsync -av site/ ./ --exclude='api/'
+          # Pull the site/ directory from the main branch into this working tree
+          git checkout main -- site/
 
-          # If you only want to sync the three known files, use:
-          # cp site/index.html site/style.css site/app.js .
+          # Copy everything from site/ into the current directory,
+          # preserving the existing api/ folder untouched.
+          # --delete removes files in root that no longer exist in site/,
+          # but --exclude='api/' prevents api/ from being deleted.
+          rsync -av --delete site/ ./ --exclude='api/'
 
-          # Stage all changes (new files, modifications, but not api/)
+          # Remove the temporary site/ folder
+          rm -rf site/
+
+          # Stage all changes (new, modified, deleted files)
           git add -A
 
           # Only commit and push if something changed
