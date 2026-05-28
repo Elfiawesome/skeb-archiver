@@ -1,0 +1,47 @@
+name: Sync site/ to archive branch
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'site/**'          # only run when something inside site/ changes
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # needed to push to the repo
+
+    steps:
+      - name: Checkout repository with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # all branches and history
+
+      - name: Set up Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Switch to archive branch and update site files
+        run: |
+          # Move to archive branch
+          git checkout archive
+
+          # Copy site/ contents into the root, but never touch api/
+          rsync -av site/ ./ --exclude='api/'
+
+          # If you only want to sync the three known files, use:
+          # cp site/index.html site/style.css site/app.js .
+
+          # Stage all changes (new files, modifications, but not api/)
+          git add -A
+
+          # Only commit and push if something changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync site/ from main branch [skip ci]"
+            git push origin archive
+          fi
