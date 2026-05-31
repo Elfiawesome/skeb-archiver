@@ -63,6 +63,30 @@ PRESETS: dict[str, dict[str, list[tuple[str, dict]]]] = {
 		"sources": [],
 		"extensions": [("storage", {}), ("summary_report", {})],
 	},
+	# testing only
+	"debug-me": {
+		"sources": [("custom", {"names": [
+			"EV_shiro",
+			"grrrrrwf",
+			"ImasimeNai",
+			"masso_nullbuilt",
+			"miripesosan",
+			"nanzuyo",
+			"nectar_x_x",
+			"nomeoir",
+			"Phcatss",
+			"sg_makuri",
+			"skeb_k4",
+			"slumpa1008",
+			"susu__hu0o",
+			"touhinyut",
+			"tunral",
+			"uenomigi",
+			"usahana101",
+			"ve_0ekaki",
+		]})],
+		"extensions": [("storage", {}), ("summary_report", {}), ("source_limit", {"limit": 5})],
+	},
 	"custom": {
 		"sources": [("custom", {"names": []})],  # names will be set via --names
 		"extensions": [("storage", {}), ("summary_report", {})],

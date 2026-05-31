@@ -21,39 +21,103 @@ const App = {
 	detailCache: {},
 	timeNow: new Date(),
 
+	async getAlbum(urlPath, name) {
+		let currentIndex = 1;
+		let currentSize = 0;
+		let totalSize = null;
+		const batchSize = 10;
+		const chunks = [];
+		const fullUrl = `${urlPath}/${name}.album/${name}.`;
+
+		while (totalSize === null || currentSize < totalSize) {
+			const fetches = [];
+			for (let i = 0; i < batchSize; i++) {
+				fetches.push(
+					this.fetch(`${fullUrl}${currentIndex + i}`)
+				);
+			}
+
+			const responses = await Promise.all(fetches);
+
+			for (const [idx, resp] of responses.entries()) {
+				if (!resp.ok) { continue; }
+
+				const buffer = await resp.arrayBuffer();
+
+				if (totalSize === null) {
+					const view = new DataView(buffer);
+					totalSize = view.getUint32(0, false) + 4;
+				}
+
+				chunks.push(buffer);
+				currentSize += buffer.byteLength;
+			}
+			currentIndex += batchSize;
+
+			console.log(`Fetched up to chunk ${currentIndex - 1}, downloaded ${currentSize} / ${totalSize} bytes`);
+		}
+
+		const finalBuffer = new Uint8Array(totalSize);
+		let offset = 0;
+		for (const chunk of chunks) {
+			finalBuffer.set(new Uint8Array(chunk), offset);
+			offset += chunk.byteLength;
+		}
+
+		const compressedData = finalBuffer.slice(4);
+		const decompressedStream = new Response(compressedData)
+			.body
+			.pipeThrough(new DecompressionStream('gzip'));
+		const decompressedBuffer = await new Response(decompressedStream).arrayBuffer();
+		const textDecoder = new TextDecoder('utf-8');
+		const jsonString = textDecoder.decode(decompressedBuffer);
+		const data = JSON.parse(jsonString);
+		
+		data.name
+		data.timestamp
+		
+		console.log(data);
+		return data;
+	},
+
+
 	async init() {
 		try {
-			this.timeNow = new Date()
+			this.getAlbum('albums', 'main_index')
+			// this.timeNow = new Date();
 
-			const r = await this.fetch("api/index.json");
-			if (!r.ok) throw new Error("HTTP " + r.status);
-			this.meta = await r.json();
+			// const r = await this.fetch("api/index.json");
+			// if (!r.ok) throw new Error("HTTP " + r.status);
+			// this.meta = await r.json();
 
-			document.querySelector('#statsBadge span').textContent =
-				`${this.meta.user_count?.toLocaleString() || '?'} users · ${this.meta.total_pages} pages` +
-				(this.meta.generated_at ? ` · ${this.fmtDate(this.meta.generated_at)}` : '');
+			// document.querySelector('#statsBadge span').textContent =
+			// 	`${this.meta.user_count?.toLocaleString() || '?'} users · ${this.meta.total_pages} pages` +
+			// 	(this.meta.generated_at ? ` · ${this.fmtDate(this.meta.generated_at)}` : '');
 
-			this.readURLParams();
-			this.bindEvents();
-			this.renderSortStates();
+			// this.readURLParams();
+			// this.bindEvents();
+			// this.renderSortStates();
 
-			const totalPages = this.meta.total_pages || 0;
-			document.getElementById('progressContainer').classList.remove('hidden');
-			for (let i = 0; i < totalPages; i++) {
-				await this.loadPage(i);
-				const progress = ((i + 1) / totalPages) * 100;
-				document.getElementById('progressFill').style.width = progress + '%';
-				if (this.pages[i]) this.allUsers.push(...this.pages[i]);
-			}
-			document.getElementById('progressContainer').classList.add('hidden');
-			this.loadingComplete = true;
+			// const totalPages = this.meta.total_pages || 0;
+			// document.getElementById('progressContainer').classList.remove('hidden');
+			// for (let i = 0; i < totalPages; i++) {
+			// 	await this.loadPage(i);
+			// 	const progress = ((i + 1) / totalPages) * 100;
+			// 	document.getElementById('progressFill').style.width = progress + '%';
+			// 	if (this.pages[i]) this.allUsers.push(...this.pages[i]);
+			// }
+			// document.getElementById('progressContainer').classList.add('hidden');
+			// this.loadingComplete = true;
 
-			this.extractGenres();
-			this.applyFilters();
+			// this.extractGenres();
+			// this.applyFilters();
 		} catch (e) {
 			console.error("Init failed:", e);
-			// document.querySelector('#statsBadge span').textContent = 'Error loading data.';
 		}
+	},
+
+	async loadAlbum() {
+
 	},
 
 	async loadPage(num) {
