@@ -80,7 +80,7 @@ class UserDataExt:
 	
 	@property
 	def avatar_url(self) -> str:
-		avatar_url = self.data.get("avatar_url", "")
+		avatar_url = self.profile.get("avatar_url", "")
 		return avatar_url if isinstance(avatar_url, str) else ""
 
 	@property
