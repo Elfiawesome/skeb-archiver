@@ -5,9 +5,11 @@ class AlbumBuilder:
 		self.data = []
 		self.time: float = 0.0
 		self.name: str = ""
+		self.label: str = ""
+		self.album_type: str = "full"
 
 	def add_entry(self, raw_user: dict[str]) -> 'AlbumBuilder':
-		user = UserDataExt(raw_user) # Wraper
+		user = UserDataExt(raw_user)
 		screen_name = user.screen_name
 		if screen_name == "": return self
 		
@@ -35,6 +37,10 @@ class AlbumBuilder:
 
 		self.data.append(i)
 		return self
+
+	def add_sparse_entry(self, entry: dict[str]) -> 'AlbumBuilder':
+		self.data.append(entry)
+		return self
 	
 	def set_date(self, timestamp: float) -> 'AlbumBuilder':
 		self.time = timestamp
@@ -44,18 +50,45 @@ class AlbumBuilder:
 		self.name = name
 		return self
 
-	def build(self) -> bytes:
-		bytes_data = json.dumps({
+	def set_label(self, label: str) -> 'AlbumBuilder':
+		self.label = label
+		return self
+
+	def set_type(self, album_type: str) -> 'AlbumBuilder':
+		self.album_type = album_type
+		return self
+
+	def build_metadata_bytes(self) -> bytes:
+		return json.dumps({
 			"name": self.name,
-			"timestamp": self.time,
-			"data":self.data
+			"label": self.label or self.name,
+			"type": self.album_type,
+			"timestamp": self.time
 		}, ensure_ascii=False).encode("utf-8")
-		compressed_bytes_data = gzip.compress(bytes_data)
-		size_bytes = struct.pack('>I', len(compressed_bytes_data))
-		return size_bytes + compressed_bytes_data
+
+	def build(self) -> bytes:
+		meta_bytes = self.build_metadata_bytes()
+		data_json = json.dumps(self.data, ensure_ascii=False).encode("utf-8")
+		compressed_data = gzip.compress(data_json)
+
+		result = struct.pack('>I', len(meta_bytes))
+		result += meta_bytes
+		result += struct.pack('>I', len(compressed_data))
+		result += compressed_data
+		return result
 	
 	def is_empty(self) -> bool:
 		return len(self.data) == 0
+
+	@staticmethod
+	def parse_metadata_from_bytes(data: bytes) -> dict[str]:
+		if len(data) < 8:
+			return {}
+		meta_size = struct.unpack('>I', data[:4])[0]
+		if len(data) < 4 + meta_size:
+			return {}
+		meta_bytes = data[4:4 + meta_size]
+		return json.loads(meta_bytes.decode("utf-8"))
 
 
 
@@ -121,9 +154,9 @@ class UserDataExt:
 		return fs if isinstance(fs, int) else 0
 
 	@property
-	def last_updated(self) -> int:
-		lu = self.data.get("last_updated", 0)
-		return lu if isinstance(lu, int) else 0
+	def last_updated(self) -> float:
+		lu = float(self.data.get("last_updated", 0))
+		return lu 
 	
 	@property
 	def current_prices(self) -> dict[str]:

@@ -142,16 +142,44 @@ class DataStore:
 		return new_path
 	
 	def create_api_data(self, max_chunk_mb: int = 1) -> None:
-		log.info("Started creating static api pages.")
+		log.info("Started creating static api data.")
 
 		album = AlbumBuilder() \
 			.set_name("main_index") \
+			.set_label("All Artists") \
+			.set_type("full") \
 			.set_date(datetime.now(tz=timezone.utc).timestamp())
 
 		for u in self.load_all():
 			album.add_entry(u)
 
 		self.store_album(album, self._albums_dir, max_chunk_mb)
+		self._build_album_index()
+
+	def _build_album_index(self) -> None:
+		import struct
+		index: dict[str, dict] = {}
+		for album_dir in sorted(self._albums_dir.glob("*.album")):
+			name = album_dir.name.replace(".album", "")
+			chunk1 = album_dir / f"{name}.1"
+			if not chunk1.exists():
+				continue
+			try:
+				with open(chunk1, "rb") as f:
+					header = f.read(1024 * 64)
+				meta = AlbumBuilder.parse_metadata_from_bytes(header)
+				index[name] = {
+					"label": meta.get("label", name),
+					"type": meta.get("type", "curated")
+				}
+			except (json.JSONDecodeError, UnicodeDecodeError, struct.error) as e:
+				log.warning("Skipping album %s (old format?): %s", name, e)
+				index[name] = {"label": name, "type": "unknown"}
+
+		index_path = self._albums_dir / "index.json"
+		with index_path.open("w", encoding="utf-8") as f:
+			json.dump(index, f, ensure_ascii=False, indent=2)
+		log.info("Album index written to %s (%d albums)", index_path, len(index))
 
 	def store_album(self, album: AlbumBuilder, path: Path, max_chunk_mb: int = 1) -> None:
 		album_dir = path / f"{album.name}.album"

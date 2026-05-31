@@ -6,5 +6,8 @@ __pycache__/
 *.log
 .DS_Store
 .vscode
-site/skeb
 Thumbs.db
+
+site/skeb
+site/albums
+site/persistance

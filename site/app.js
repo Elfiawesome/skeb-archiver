@@ -1,6 +1,5 @@
 const App = {
-	meta: null,
-	pages: {},
+	mainData: [],
 	allUsers: [],
 	filteredUsers: [],
 	currentPage: 1,
@@ -21,15 +20,80 @@ const App = {
 	detailCache: {},
 	timeNow: new Date(),
 
+	albumIndex: {},
+	currentAlbum: null,
+	albumEntries: [],
+	albumTags: [],
+	filterAlbumTags: [],
+
+	async init() {
+		try {
+			this.timeNow = new Date();
+			this.readURLParams();
+
+			await this.loadAlbumIndex();
+
+			const albumUrl = this.currentAlbum._externalUrl || null;
+
+			const mainAlbum = await this.getAlbum('albums', 'main_index');
+			this.mainData = mainAlbum.data || [];
+
+			if (albumUrl) {
+				try {
+					const extAlbum = await this.getAlbumFromUrl(albumUrl);
+					this.albumEntries = extAlbum.data || [];
+					this.currentAlbum = { name: extAlbum.name || '_external', label: extAlbum.label || extAlbum.name || 'External', type: extAlbum.type || 'curated', _externalUrl: albumUrl };
+				} catch (e) {
+					console.error('Failed to load external album:', e);
+					this.albumEntries = [];
+					this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+				}
+			} else if (this.currentAlbum && this.currentAlbum.name !== 'main_index') {
+				try {
+					const albumData = await this.getAlbum('albums', this.currentAlbum.name);
+					this.albumEntries = albumData.data || [];
+					const info = this.albumIndex[this.currentAlbum.name] || {};
+					this.currentAlbum = { ...this.currentAlbum, label: info.label || albumData.label || this.currentAlbum.name, type: info.type || albumData.type || 'curated' };
+				} catch (e) {
+					console.error('Failed to load album:', e);
+					this.albumEntries = [];
+					this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+				}
+			} else {
+				this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+			}
+
+			this.mergeWithMain();
+			this.collectAlbumTags();
+
+			document.querySelector('#statsBadge span').textContent =
+				`${this.allUsers.length?.toLocaleString() || '?'} users` +
+				(mainAlbum.timestamp ? ` · ${this.fmtDate(mainAlbum.timestamp)}` : '');
+
+			this.extractGenres();
+			this.bindEvents();
+			this.renderSortStates();
+			this.applyFilters();
+			this.renderAlbumButton();
+
+			this.loadingComplete = true;
+		} catch (e) {
+			console.error("Init failed:", e);
+		}
+	},
+
 	async getAlbum(urlPath, name) {
 		let currentIndex = 1;
 		let currentSize = 0;
-		let totalSize = null;
+		let metadataSize = null;
+		let dataSize = null;
+		let headerSize = 0;
+		let metadata = null;
 		const batchSize = 10;
 		const chunks = [];
 		const fullUrl = `${urlPath}/${name}.album/${name}.`;
 
-		while (totalSize === null || currentSize < totalSize) {
+		while (metadataSize === null || currentSize < headerSize + dataSize) {
 			const fetches = [];
 			for (let i = 0; i < batchSize; i++) {
 				fetches.push(
@@ -44,19 +108,22 @@ const App = {
 
 				const buffer = await resp.arrayBuffer();
 
-				if (totalSize === null) {
+				if (metadataSize === null) {
 					const view = new DataView(buffer);
-					totalSize = view.getUint32(0, false) + 4;
+					metadataSize = view.getUint32(0, false);
+					const metaBytes = new Uint8Array(buffer.slice(4, 4 + metadataSize));
+					metadata = JSON.parse(new TextDecoder('utf-8').decode(metaBytes));
+					dataSize = new DataView(buffer.slice(4 + metadataSize, 4 + metadataSize + 4)).getUint32(0, false);
+					headerSize = 4 + metadataSize + 4;
 				}
 
 				chunks.push(buffer);
 				currentSize += buffer.byteLength;
 			}
 			currentIndex += batchSize;
-
-			console.log(`Fetched up to chunk ${currentIndex - 1}, downloaded ${currentSize} / ${totalSize} bytes`);
 		}
 
+		const totalSize = headerSize + dataSize;
 		const finalBuffer = new Uint8Array(totalSize);
 		let offset = 0;
 		for (const chunk of chunks) {
@@ -64,7 +131,7 @@ const App = {
 			offset += chunk.byteLength;
 		}
 
-		const compressedData = finalBuffer.slice(4);
+		const compressedData = finalBuffer.slice(headerSize);
 		const decompressedStream = new Response(compressedData)
 			.body
 			.pipeThrough(new DecompressionStream('gzip'));
@@ -72,70 +139,239 @@ const App = {
 		const textDecoder = new TextDecoder('utf-8');
 		const jsonString = textDecoder.decode(decompressedBuffer);
 		const data = JSON.parse(jsonString);
-		
-		data.name
-		data.timestamp
-		
-		console.log(data);
-		return data;
+
+		const result = { ...metadata, data: Array.isArray(data) ? data : [] };
+		return result;
+	},
+
+	async getAlbumFromUrl(url) {
+		let resp = await fetch(url);
+		if (!resp.ok) throw new Error(`Failed to fetch album from URL: ${resp.status}`);
+		const buffer = await resp.arrayBuffer();
+		const view = new DataView(buffer);
+		const metadataSize = view.getUint32(0, false);
+		const metaBytes = new Uint8Array(buffer.slice(4, 4 + metadataSize));
+		const metadata = JSON.parse(new TextDecoder('utf-8').decode(metaBytes));
+		const dataSize = new DataView(buffer.slice(4 + metadataSize, 4 + metadataSize + 4)).getUint32(0, false);
+		const headerSize = 4 + metadataSize + 4;
+		const compressedData = buffer.slice(headerSize);
+		const decompressedStream = new Response(compressedData)
+			.body
+			.pipeThrough(new DecompressionStream('gzip'));
+		const decompressedBuffer = await new Response(decompressedStream).arrayBuffer();
+		const jsonString = new TextDecoder('utf-8').decode(decompressedBuffer);
+		const data = JSON.parse(jsonString);
+		return { ...metadata, data: Array.isArray(data) ? data : [] };
 	},
 
 
-	async init() {
+	async loadAlbumIndex() {
 		try {
-			this.getAlbum('albums', 'main_index')
-			// this.timeNow = new Date();
-
-			// const r = await this.fetch("api/index.json");
-			// if (!r.ok) throw new Error("HTTP " + r.status);
-			// this.meta = await r.json();
-
-			// document.querySelector('#statsBadge span').textContent =
-			// 	`${this.meta.user_count?.toLocaleString() || '?'} users · ${this.meta.total_pages} pages` +
-			// 	(this.meta.generated_at ? ` · ${this.fmtDate(this.meta.generated_at)}` : '');
-
-			// this.readURLParams();
-			// this.bindEvents();
-			// this.renderSortStates();
-
-			// const totalPages = this.meta.total_pages || 0;
-			// document.getElementById('progressContainer').classList.remove('hidden');
-			// for (let i = 0; i < totalPages; i++) {
-			// 	await this.loadPage(i);
-			// 	const progress = ((i + 1) / totalPages) * 100;
-			// 	document.getElementById('progressFill').style.width = progress + '%';
-			// 	if (this.pages[i]) this.allUsers.push(...this.pages[i]);
-			// }
-			// document.getElementById('progressContainer').classList.add('hidden');
-			// this.loadingComplete = true;
-
-			// this.extractGenres();
-			// this.applyFilters();
+			const r = await this.fetch('albums/index.json');
+			if (r.ok) {
+				this.albumIndex = await r.json();
+			}
 		} catch (e) {
-			console.error("Init failed:", e);
+			console.warn('Could not load album index:', e);
+			this.albumIndex = { main_index: { label: 'All Artists', type: 'full' } };
 		}
 	},
 
-	async loadAlbum() {
+	async switchAlbum(name) {
+		this.currentPage = 1;
+		this.filterAlbumTags = [];
 
+		if (name === 'main_index') {
+			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+			this.albumEntries = [];
+		} else {
+			try {
+				const albumData = await this.getAlbum('albums', name);
+				this.albumEntries = albumData.data || [];
+				const info = this.albumIndex[name] || {};
+				this.currentAlbum = { name, label: info.label || albumData.label || name, type: info.type || albumData.type || 'curated' };
+			} catch (e) {
+				console.error('Failed to load album:', e);
+				return;
+			}
+		}
+
+		this.mergeWithMain();
+		this.collectAlbumTags();
+		this.updateURL();
+		this.applyFilters();
+		this.renderAlbumButton();
 	},
 
-	async loadPage(num) {
+	async loadExternalAlbum(url) {
+		this.currentPage = 1;
+		this.filterAlbumTags = [];
+
 		try {
-			const r = await this.fetch(`api/pages/${num}.json.gz`);
-			if (!r.ok) throw new Error("HTTP " + r.status);
-			const resp = this.decompressRequest(r);
-			const data = await resp.json();
-			this.pages[num] = data.users || [];
+			const extAlbum = await this.getAlbumFromUrl(url);
+			this.albumEntries = extAlbum.data || [];
+			this.currentAlbum = {
+				name: extAlbum.name || '_external',
+				label: extAlbum.label || extAlbum.name || 'External',
+				type: extAlbum.type || 'curated',
+				_externalUrl: url
+			};
 		} catch (e) {
-			console.warn(`Page ${num} failed:`, e);
-			this.pages[num] = [];
+			console.error('Failed to load external album:', e);
+			return;
+		}
+
+		this.mergeWithMain();
+		this.collectAlbumTags();
+		this.updateURL();
+		this.applyFilters();
+		this.renderAlbumButton();
+	},
+
+	mergeWithMain() {
+		if (!this.currentAlbum || this.currentAlbum.type === 'full' || this.albumEntries.length === 0) {
+			this.allUsers = [...this.mainData];
+			return;
+		}
+
+		const mainMap = {};
+		for (const u of this.mainData) {
+			mainMap[u.screen_name] = u;
+		}
+
+		const merged = [];
+		for (const entry of this.albumEntries) {
+			const sn = entry.screen_name;
+			if (!sn) continue;
+
+			const full = mainMap[sn];
+			if (full) {
+				const copy = { ...full };
+				if (entry.tags) copy._tags = entry.tags;
+				if (entry.notes) copy._notes = entry.notes;
+				merged.push(copy);
+			} else {
+				merged.push({
+					screen_name: sn,
+					_tags: entry.tags || [],
+					_notes: entry.notes || ''
+				});
+			}
+		}
+
+		this.allUsers = merged;
+	},
+
+	collectAlbumTags() {
+		const tagSet = new Set();
+		for (const u of this.allUsers) {
+			if (u._tags) {
+				for (const t of u._tags) {
+					tagSet.add(t);
+				}
+			}
+		}
+		this.albumTags = Array.from(tagSet).sort();
+	},
+
+	openAlbumModal() {
+		document.getElementById('albumModal').classList.remove('hidden');
+		document.getElementById('albumModalSearch').value = '';
+		this.renderAlbumModalList('');
+		document.getElementById('albumModalSearch').focus();
+	},
+
+	closeAlbumModal() {
+		document.getElementById('albumModal').classList.add('hidden');
+	},
+
+	renderAlbumModalList(filterText) {
+		const listEl = document.getElementById('albumModalList');
+		const items = [];
+		const searchLower = (filterText || '').toLowerCase();
+
+		if (!searchLower || 'all artists'.includes(searchLower)) {
+			items.push({ name: 'main_index', label: 'All Artists', type: 'full' });
+		}
+
+		for (const [name, info] of Object.entries(this.albumIndex)) {
+			if (name === 'main_index') continue;
+			if (searchLower && !name.toLowerCase().includes(searchLower) && !info.label.toLowerCase().includes(searchLower)) continue;
+			items.push({ name, ...info });
+		}
+
+		if (items.length === 0) {
+			listEl.innerHTML = '<div class="album-modal-item" style="color:var(--text-secondary);cursor:default;">No albums found</div>';
+			return;
+		}
+
+		const isActive = this.currentAlbum;
+		listEl.innerHTML = items.map(item => {
+			const activeClass = isActive && isActive.name === item.name ? ' active' : '';
+			const typeBadge = item.type === 'full'
+				? '<span class="album-type-badge badge-full">full</span>'
+				: '<span class="album-type-badge badge-curated">curated</span>';
+			return `<div class="album-modal-item${activeClass}" data-album="${item.name}">
+				<div class="album-modal-item-label">${item.label} ${typeBadge}</div>
+				<div class="album-modal-item-name">${item.name}</div>
+			</div>`;
+		}).join('');
+
+		listEl.querySelectorAll('.album-modal-item').forEach(el => {
+			el.addEventListener('click', () => {
+				const name = el.dataset.album;
+				this.closeAlbumModal();
+				if (name && (!isActive || isActive.name !== name)) {
+					this.switchAlbum(name);
+				}
+			});
+		});
+	},
+
+	handleExternalAlbumPrompt() {
+		const url = prompt('Enter album URL:');
+		if (url) {
+			this.closeAlbumModal();
+			this.loadExternalAlbum(url.trim());
 		}
 	},
 
-	decompressRequest(resp) {
-		const ds = new DecompressionStream("gzip");
-		return new Response(resp.body.pipeThrough(ds));
+	renderAlbumButton() {
+		const btn = document.getElementById('albumSelectBtn');
+		if (this.currentAlbum) {
+			btn.innerHTML = `<iconify-icon icon="mdi:book-open-page-variant-outline"></iconify-icon> ${this.currentAlbum.label} <span class="album-arrow">▾</span>`;
+		} else {
+			btn.innerHTML = `<iconify-icon icon="mdi:book-open-page-variant-outline"></iconify-icon> Albums <span class="album-arrow">▾</span>`;
+		}
+
+		const tagBar = document.getElementById('albumTagBar');
+		if (this.currentAlbum && this.currentAlbum.type !== 'full' && this.albumTags.length > 0) {
+			tagBar.classList.remove('hidden');
+			tagBar.innerHTML = '<span style="font-size:0.75rem;color:var(--text-secondary);margin-right:0.3rem;">Tags:</span>' +
+				this.albumTags.map(t => {
+					const active = this.filterAlbumTags.includes(t);
+					return `<span class="album-tag-chip ${active ? 'active' : ''}" data-tag="${t}">${t}</span>`;
+				}).join('');
+			tagBar.querySelectorAll('.album-tag-chip').forEach(chip => {
+				chip.addEventListener('click', () => {
+					this.toggleAlbumTag(chip.dataset.tag);
+				});
+			});
+		} else {
+			tagBar.classList.add('hidden');
+			tagBar.innerHTML = '';
+		}
+	},
+
+	toggleAlbumTag(tag) {
+		const idx = this.filterAlbumTags.indexOf(tag);
+		if (idx === -1) {
+			this.filterAlbumTags.push(tag);
+		} else {
+			this.filterAlbumTags.splice(idx, 1);
+		}
+		this.currentPage = 1;
+		this.applyFilters();
 	},
 
 	async fetch(url) {
@@ -218,9 +454,20 @@ const App = {
 		this.sortChain = sortStr ? sortStr.split(',').map(s => {
 			const dir = s.split('_').at(-1);
 			const key = s.replace("_" + dir, "");
-			console.log(key);
 			return { key, dir: dir === 'desc' ? 'desc' : 'asc' };
 		}).filter(s => s.key) : [];
+
+		this.filterAlbumTags = params.get('album_tag') ? params.get('album_tag').split(',').filter(Boolean) : [];
+
+		const albumParam = params.get('album') || '';
+		const albumUrlParam = params.get('album_url') || '';
+		if (albumUrlParam) {
+			this.currentAlbum = { name: '_external', label: 'External', type: 'curated', _externalUrl: albumUrlParam };
+		} else if (albumParam && albumParam !== 'main_index') {
+			this.currentAlbum = { name: albumParam, label: albumParam, type: 'curated' };
+		} else {
+			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+		}
 
 		this.updateFilterButtonsUI();
 	},
@@ -239,6 +486,14 @@ const App = {
 		if (this.filterUpdatedWithinDays !== null) params.set('updatedWithin', this.filterUpdatedWithinDays);
 		if (this.sortChain.length) params.set('sort', this.sortChain.map(s => s.key + '_' + s.dir).join(','));
 		if (this.currentPage > 1) params.set('page', this.currentPage);
+		if (this.filterAlbumTags.length) params.set('album_tag', this.filterAlbumTags.join(','));
+		if (this.currentAlbum) {
+			if (this.currentAlbum._externalUrl) {
+				params.set('album_url', this.currentAlbum._externalUrl);
+			} else if (this.currentAlbum.name !== 'main_index') {
+				params.set('album', this.currentAlbum.name);
+			}
+		}
 		const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
 		history.replaceState(null, '', newUrl);
 	},
@@ -328,6 +583,7 @@ const App = {
 			this.filterSeenOlderDays = null;
 			this.filterUpdatedWithinDays = null;
 			this.sortChain = [];
+			this.filterAlbumTags = [];
 			this.currentPage = 1;
 			document.getElementById('searchInput').value = '';
 			this.updateFilterButtonsUI();
@@ -348,11 +604,42 @@ const App = {
 			}
 		});
 
+		document.getElementById('albumSelectBtn').addEventListener('click', () => {
+			this.openAlbumModal();
+		});
+
+		document.getElementById('albumModalBg').addEventListener('click', () => {
+			this.closeAlbumModal();
+		});
+
+		document.getElementById('albumModalClose').addEventListener('click', () => {
+			this.closeAlbumModal();
+		});
+
+		document.getElementById('albumModalSearch').addEventListener('input', this.debounce(() => {
+			this.renderAlbumModalList(document.getElementById('albumModalSearch').value);
+		}, 200));
+
+		document.getElementById('albumModalExternal').addEventListener('click', () => {
+			this.handleExternalAlbumPrompt();
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') {
+				this.closeAlbumModal();
+			}
+		});
+
 		window.addEventListener('popstate', () => {
 			this.readURLParams();
 			if (this.loadingComplete) {
-				this.renderSortStates();
-				this.applyFilters();
+				if (this.currentAlbum && this.currentAlbum._externalUrl) {
+					this.loadExternalAlbum(this.currentAlbum._externalUrl);
+				} else if (this.currentAlbum && this.currentAlbum.name !== 'main_index') {
+					this.switchAlbum(this.currentAlbum.name);
+				} else {
+					this.switchAlbum('main_index');
+				}
 			}
 		});
 	},
@@ -414,6 +701,13 @@ const App = {
 		let filtered = [...this.allUsers];
 		const now = Date.now() / 1000;
 
+		if (this.filterAlbumTags.length > 0) {
+			filtered = filtered.filter(u => {
+				const utags = u._tags || [];
+				return this.filterAlbumTags.some(t => utags.includes(t));
+			});
+		}
+
 		if (this.searchTerm) {
 			const term = this.searchTerm;
 			filtered = filtered.filter(u => u.screen_name && u.screen_name.toLowerCase().includes(term));
@@ -459,6 +753,7 @@ const App = {
 		this.updateURL();
 		this.renderUsers();
 		this.renderPagination();
+		this.renderAlbumButton();
 	},
 
 	getUserPricesByGenre(u, genre) {
@@ -478,7 +773,7 @@ const App = {
 		const getPrice = (u) => {
 			const currentPrices = this.getUserPricesByGenre(u, this.filterGenre);
 			if (!currentPrices) { return Infinity; }
-			else { return Math.min(...currentPrices); } // TODO: Issue here because how to compare and sort if there is a range of prices?
+			else { return Math.min(...currentPrices); }
 		};
 		const getWorks = (u) => u.total_works || 0;
 		const getUpdated = (u) => u.last_updated || 0;
@@ -505,8 +800,12 @@ const App = {
 
 		let badges = '';
 		if (user.acceptable) badges += '<span class="badge badge-open">Open</span>';
-		else badges += '<span class="badge badge-closed">Closed</span>';
+		else if (user.acceptable !== undefined) badges += '<span class="badge badge-closed">Closed</span>';
 		if (user.nsfw) badges += '<span class="badge badge-nsfw">NSFW</span>';
+
+		if (user._tags && user._tags.length) {
+			badges += user._tags.map(t => `<span class="badge badge-tag">${t}</span>`).join('');
+		}
 
 		const thumbs = user.latest_thumbnails || [];
 		const thumbHtml = thumbs.length ?
@@ -559,9 +858,7 @@ const App = {
 			const detailDiv = card.querySelector('.detail-expand');
 			const mainArea = card.querySelector('.card-main');
 
-			// Toggle detail on main click
 			mainArea.addEventListener('click', (e) => {
-				// Prevent closing if clicking on the name link
 				if (e.target.closest('a')) return;
 				const isOpen = detailDiv.classList.contains('open');
 
@@ -587,6 +884,10 @@ const App = {
 	},
 
 	async loadAndRenderDetail(screenName, filePath, container) {
+		if (!filePath) {
+			container.innerHTML = '<div style="padding:1rem;color:var(--text-secondary)">No detailed data available for this entry.</div>';
+			return;
+		}
 		container.innerHTML = '<div class="loader"><div class="spinner"></div></div>';
 		try {
 			if (this.detailCache[screenName]) {
@@ -610,7 +911,7 @@ const App = {
 		const headerImg = p.header_url ? `<img src="${p.header_url}" style="width:100%;height:120px;object-fit:cover;margin-bottom:0.8rem;border:1px solid var(--border);" alt="header">` : '';
 
 		const socialLinks = [];
-		if (p.pixiv_id) socialLinks.push(`<a href="https://pixiv.me/${p.pixiv_id}" target="_blank">Pixiv</a>`);
+		if (p.pixiv_id) socialLinks.push(`<a href="https://www.pixiv.net/en/users/${p.pixiv_id}" target="_blank">Pixiv</a>`);
 		if (p.url) socialLinks.push(`<a href="${p.url}" target="_blank">Website</a>`);
 		(p.user_service_links || []).forEach(link => {
 			if (!link.url) { return; }
@@ -625,7 +926,6 @@ const App = {
 		const priceHistory = data.price_history || {};
 		const works = p.received_works || [];
 		const worksHtml = works.length ? works.map(w => {
-			// Priority: thumbnail > private > censored
 			const thumbSrc = w.thumbnail_image_urls?.src || w.private_thumbnail_image_urls?.src || w.censored_thumbnail_image_urls?.src || '';
 			const workUrl = w.path ? `https://skeb.jp${w.path}` : '#';
 			return thumbSrc ? `<a href="${workUrl}" target="_blank"><img class="work-thumb" src="${thumbSrc}" alt="work" loading="lazy"></a>` : '';

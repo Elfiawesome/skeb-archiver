@@ -114,11 +114,240 @@ select:focus {
 	color: white;
 }
 
+/* ===== Header Album Button ===== */
+
+.header-left {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.album-select-btn {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+	background: var(--accent);
+	border: 1px solid var(--accent);
+	color: white;
+	padding: 0.35rem 0.9rem;
+	font-size: 0.85rem;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.album-select-btn:hover {
+	background: var(--accent-hover);
+}
+
+.album-arrow {
+	font-size: 0.7rem;
+	opacity: 0.8;
+}
+
 .reset-btn {
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	gap: 0.3rem;
+}
+
+/* ===== Album Modal Overlay ===== */
+
+.album-modal {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.album-modal.hidden {
+	display: none;
+}
+
+.album-modal-bg {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.album-modal-panel {
+	position: relative;
+	width: 440px;
+	max-width: 95vw;
+	max-height: 80vh;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+.album-modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1.2rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.album-modal-header h2 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin: 0;
+	color: var(--text);
+}
+
+.album-modal-close {
+	background: none;
+	border: none;
+	color: var(--text-secondary);
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 0;
+	line-height: 1;
+}
+
+.album-modal-close:hover {
+	color: var(--text);
+}
+
+.album-modal-search {
+	padding: 0.7rem 1.2rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.album-modal-search input {
+	width: 100%;
+}
+
+.album-modal-list {
+	flex: 1;
+	overflow-y: auto;
+	max-height: 400px;
+}
+
+.album-modal-item {
+	padding: 0.7rem 1.2rem;
+	cursor: pointer;
+	border-bottom: 1px solid var(--border);
+	transition: background 0.15s;
+}
+
+.album-modal-item:hover {
+	background: var(--surface2);
+}
+
+.album-modal-item.active {
+	background: var(--surface3);
+	border-left: 3px solid var(--accent);
+	padding-left: calc(1.2rem - 3px);
+}
+
+.album-modal-item-label {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: var(--text);
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.album-modal-item-name {
+	font-size: 0.75rem;
+	color: var(--text-secondary);
+	margin-top: 0.2rem;
+}
+
+.album-modal-footer {
+	padding: 0.7rem 1.2rem;
+	border-top: 1px solid var(--border);
+}
+
+.album-modal-external {
+	width: 100%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4rem;
+	background: var(--surface2);
+	border: 1px dashed var(--border);
+	color: var(--text-secondary);
+	padding: 0.5rem;
+	font-size: 0.85rem;
+	transition: border-color 0.2s, color 0.2s;
+}
+
+.album-modal-external:hover {
+	border-color: var(--accent);
+	color: var(--text);
+}
+
+/* ===== Album Type Badges ===== */
+
+.album-type-badge {
+	font-size: 0.6rem;
+	padding: 0.1rem 0.4rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.album-type-badge.badge-full {
+	background: var(--accent);
+	color: white;
+}
+
+.album-type-badge.badge-curated {
+	border: 1px solid var(--yellow);
+	color: var(--yellow);
+}
+
+/* ===== Album Tag Bar ===== */
+
+.album-tag-bar {
+	background: var(--surface);
+	border-bottom: 1px solid var(--border);
+	padding: 0.5rem 2rem;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	flex-wrap: wrap;
+}
+
+.album-tag-bar.hidden {
+	display: none;
+}
+
+.album-tag-chip {
+	cursor: pointer;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid var(--border);
+	background: var(--surface2);
+	font-size: 0.72rem;
+	user-select: none;
+	transition: background 0.15s, border-color 0.15s;
+}
+
+.album-tag-chip:hover {
+	border-color: var(--accent);
+}
+
+.album-tag-chip.active {
+	background: var(--accent);
+	border-color: var(--accent);
+	color: white;
+}
+
+/* ===== Card Tag Badges ===== */
+
+.badge-tag {
+	border-color: var(--accent);
+	color: var(--accent);
+	text-transform: none;
 }
 
 .range-group {

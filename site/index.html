@@ -12,7 +12,12 @@
 
 <body>
 	<header>
-		<div class="logo">Skeb <span>Tracker</span></div>
+		<div class="header-left">
+			<div class="logo">Skeb <span>Tracker</span></div>
+			<button class="album-select-btn" id="albumSelectBtn">
+				<iconify-icon icon="mdi:book-open-page-variant-outline"></iconify-icon> Albums <span class="album-arrow">▾</span>
+			</button>
+		</div>
 		<div class="stats-badge" id="statsBadge">
 			<iconify-icon icon="mdi:account-group"></iconify-icon>
 			<span>Loading...</span>
@@ -66,6 +71,8 @@
 		<div class="active-sorts" id="activeSorts"></div>
 	</div>
 
+	<div class="album-tag-bar hidden" id="albumTagBar"></div>
+
 	<div class="progress-container hidden" id="progressContainer">
 		<div class="progress-bar">
 			<div class="progress-fill" id="progressFill"></div>
@@ -74,6 +81,25 @@
 
 	<div class="grid-container" id="userGrid"></div>
 	<div class="pagination" id="pagination"></div>
+
+	<div class="album-modal hidden" id="albumModal">
+		<div class="album-modal-bg" id="albumModalBg"></div>
+		<div class="album-modal-panel">
+			<div class="album-modal-header">
+				<h2>Select Album</h2>
+				<button class="album-modal-close" id="albumModalClose">&times;</button>
+			</div>
+			<div class="album-modal-search">
+				<input type="text" class="search-input" id="albumModalSearch" placeholder="Search albums...">
+			</div>
+			<div class="album-modal-list" id="albumModalList"></div>
+			<div class="album-modal-footer">
+				<button class="album-modal-external" id="albumModalExternal">
+					<iconify-icon icon="mdi:link"></iconify-icon> Load from URL...
+				</button>
+			</div>
+		</div>
+	</div>
 
 	<script src="app.js"></script>
 </body>
