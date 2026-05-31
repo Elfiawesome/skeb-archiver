@@ -223,6 +223,33 @@ select:focus {
 	width: 100%;
 }
 
+.album-modal-type-filters {
+	display: flex;
+	gap: 0.4rem;
+	padding: 0.5rem 1.2rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.album-type-chip {
+	cursor: pointer;
+	padding: 0.25rem 0.65rem;
+	border: 1px solid var(--border);
+	background: var(--surface2);
+	font-size: 0.75rem;
+	user-select: none;
+	transition: background 0.15s, border-color 0.15s;
+}
+
+.album-type-chip:hover {
+	border-color: var(--accent);
+}
+
+.album-type-chip.active {
+	background: var(--accent);
+	border-color: var(--accent);
+	color: white;
+}
+
 .album-modal-list {
 	flex: 1;
 	overflow-y: auto;
