@@ -159,22 +159,25 @@ class DataStore:
 	def _build_album_index(self) -> None:
 		import struct
 		index: dict[str, dict] = {}
-		for album_dir in sorted(self._albums_dir.glob("*.album")):
+		for album_dir in sorted(self._docs_dir.glob("**/*.album")):
 			name = album_dir.name.replace(".album", "")
 			chunk1 = album_dir / f"{name}.1"
 			if not chunk1.exists():
 				continue
+			parent_rel = str(album_dir.parent.relative_to(self._docs_dir)).replace("\\", "/")
+			rel_path = f"{parent_rel}/{name}" if parent_rel != "." else name
 			try:
 				with open(chunk1, "rb") as f:
 					header = f.read(1024 * 64)
 				meta = AlbumBuilder.parse_metadata_from_bytes(header)
-				index[name] = {
+				print(meta)
+				index[rel_path] = {
 					"label": meta.get("label", name),
 					"type": meta.get("type", "curated")
 				}
 			except (json.JSONDecodeError, UnicodeDecodeError, struct.error) as e:
 				log.warning("Skipping album %s (old format?): %s", name, e)
-				index[name] = {"label": name, "type": "unknown"}
+				index[rel_path] = {"label": name, "type": "unknown"}
 
 		index_path = self._albums_dir / "index.json"
 		with index_path.open("w", encoding="utf-8") as f:

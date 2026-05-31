@@ -47,16 +47,16 @@ const App = {
 
 			await this._loadAlbumIndex();
 
-			const mainAlbum = await this._getAlbum('albums', 'main_index');
+			const mainAlbum = await this._getAlbum('albums/main_index');
 			this.mainData = mainAlbum.data || [];
 
 			const extUrl = this.currentAlbum._externalUrl || null;
 			if (extUrl) {
 				await this._tryLoadExternal(extUrl);
-			} else if (this.currentAlbum && this.currentAlbum.name !== 'main_index') {
+			} else if (this.currentAlbum && this.currentAlbum.name !== 'albums/main_index') {
 				await this._tryLoadAlbum(this.currentAlbum.name);
 			} else {
-				this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+				this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 			}
 
 			this._mergeWithMain();
@@ -111,8 +111,12 @@ const App = {
 		return JSON.parse(new TextDecoder('utf-8').decode(buf));
 	},
 
-	async _getAlbum(urlPath, name) {
-		const base = `${urlPath}/${name}.album/${name}.`;
+	async _getAlbum(relativePath) {
+		const i = relativePath.lastIndexOf('/');
+		const dir = i >= 0 ? relativePath.substring(0, i) : '';
+		const name = i >= 0 ? relativePath.substring(i + 1) : relativePath;
+		const prefix = dir ? `${dir}/` : '';
+		const base = `${prefix}${name}.album/${name}.`;
 		let idx = 1;
 		let downloaded = 0;
 		let meta = null;
@@ -166,7 +170,7 @@ const App = {
 			if (r.ok) this.albumIndex = await r.json();
 		} catch (e) {
 			console.warn('Could not load album index:', e);
-			this.albumIndex = { main_index: { label: 'All Artists', type: 'full' } };
+			this.albumIndex = { 'albums/main_index': { label: 'All Artists', type: 'full' } };
 		}
 	},
 
@@ -176,7 +180,7 @@ const App = {
 
 	async _tryLoadAlbum(name) {
 		try {
-			const d = await this._getAlbum('albums', name);
+			const d = await this._getAlbum(name);
 			this.albumEntries = d.data || [];
 			const info = this.albumIndex[name] || {};
 			this.currentAlbum = {
@@ -187,7 +191,7 @@ const App = {
 		} catch (e) {
 			console.error('Failed to load album:', e);
 			this.albumEntries = [];
-			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+			this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 		}
 	},
 
@@ -204,7 +208,7 @@ const App = {
 		} catch (e) {
 			console.error('Failed to load external album:', e);
 			this.albumEntries = [];
-			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+			this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 		}
 	},
 
@@ -212,8 +216,8 @@ const App = {
 		this.currentPage = 1;
 		this.filterAlbumTags = [];
 
-		if (name === 'main_index') {
-			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+		if (name === 'albums/main_index') {
+			this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 			this.albumEntries = [];
 		} else {
 			await this._tryLoadAlbum(name);
@@ -311,20 +315,20 @@ const App = {
 		const items = [];
 
 		const addIfMatch = (name, info) => {
-			if (name === 'main_index' && items.find(x => x.name === 'main_index')) return;
+			if (name === 'albums/main_index' && items.find(x => x.name === 'albums/main_index')) return;
 			if (filterType !== 'all' && info.type !== filterType) return;
 			if (search) {
 				const matchName = name.toLowerCase().includes(search);
 				const matchLabel = (info.label || '').toLowerCase().includes(search);
-				if (name === 'main_index' && 'all artists'.includes(search)) { /* allow */ }
+				if (name === 'albums/main_index' && 'all artists'.includes(search)) { /* allow */ }
 				else if (!matchName && !matchLabel) return;
 			}
 			items.push({ name, ...info });
 		};
 
-		addIfMatch('main_index', { label: 'All Artists', type: 'full' });
+		addIfMatch('albums/main_index', { label: 'All Artists', type: 'full' });
 		for (const [name, info] of Object.entries(this.albumIndex)) {
-			if (name === 'main_index') continue;
+			if (name === 'albums/main_index') continue;
 			addIfMatch(name, info);
 		}
 
@@ -425,10 +429,10 @@ const App = {
 		const albumUrl = p.get('album_url') || '';
 		if (albumUrl) {
 			this.currentAlbum = { name: '_external', label: 'External', type: 'curated', _externalUrl: albumUrl };
-		} else if (album && album !== 'main_index') {
+		} else if (album && album !== 'albums/main_index') {
 			this.currentAlbum = { name: album, label: album, type: 'curated' };
 		} else {
-			this.currentAlbum = { name: 'main_index', label: 'All Artists', type: 'full' };
+			this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 		}
 
 		this._updateFilterButtonsUI();
@@ -452,7 +456,7 @@ const App = {
 		if (this.currentAlbum) {
 			if (this.currentAlbum._externalUrl) {
 				p.set('album_url', this.currentAlbum._externalUrl);
-			} else if (this.currentAlbum.name !== 'main_index') {
+			} else if (this.currentAlbum.name !== 'albums/main_index') {
 				p.set('album', this.currentAlbum.name);
 			}
 		}
@@ -909,10 +913,10 @@ const App = {
 			if (!this.loadingComplete) return;
 			if (this.currentAlbum && this.currentAlbum._externalUrl) {
 				this._loadExternalAlbum(this.currentAlbum._externalUrl);
-			} else if (this.currentAlbum && this.currentAlbum.name !== 'main_index') {
+			} else if (this.currentAlbum && this.currentAlbum.name !== 'albums/main_index') {
 				this._switchAlbum(this.currentAlbum.name);
 			} else {
-				this._switchAlbum('main_index');
+				this._switchAlbum('albums/main_index');
 			}
 		});
 	},

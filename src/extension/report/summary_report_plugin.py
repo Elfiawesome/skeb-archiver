@@ -15,8 +15,8 @@ class SummaryReportPlugin(ExtensionPlugin):
 		self.sources_retreived: int = 0
 		self.profile_missing: int = 0
 		self.albums: dict[str, AlbumBuilder] = {
-			"success": AlbumBuilder().set_name("success"),
-			"rate_limited": AlbumBuilder().set_name("rate_limited"),
+			"success": AlbumBuilder().set_name("success").set_label("Success").set_type("curated"),
+			"rate_limited": AlbumBuilder().set_name("rate_limited").set_label("Rate Limited").set_type("curated"),
 		}
 		self.error_list: list[str] = []
 		
