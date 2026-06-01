@@ -116,7 +116,7 @@ App._readURLParams = function() {
 	var albumUrl = p.get('album_url') || '';
 	if (albumUrl) {
 		App.currentAlbum = { name: '_external', label: 'External', type: 'curated', _externalUrl: albumUrl };
-	} else if (album && album !== 'albums/main_index' && album !== '_file') {
+	} else if (album && album.replace(/\/$/, '') !== 'albums/main_index' && album !== '_file') {
 		App.currentAlbum = { name: album, label: album, type: 'curated' };
 	} else {
 		App.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
@@ -145,7 +145,7 @@ App._updateURL = function() {
 			// file-loaded albums don't have a URL
 		} else if (App.currentAlbum._externalUrl) {
 			p.set('album_url', App.currentAlbum._externalUrl);
-		} else if (App.currentAlbum.name !== 'albums/main_index') {
+		} else if ((App.currentAlbum.name || '').replace(/\/$/, '') !== 'albums/main_index') {
 			p.set('album', App.currentAlbum.name);
 		}
 	}
