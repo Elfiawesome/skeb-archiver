@@ -95,9 +95,138 @@ select:focus {
 	border-color: var(--accent);
 }
 
-.search-input {
+.search-wrapper {
 	flex: 2;
 	min-width: 180px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.search-input {
+	flex: 1;
+	min-width: 0;
+}
+
+.search-help-btn {
+	background: none;
+	border: none;
+	color: var(--text-dim, #888);
+	cursor: pointer;
+	padding: 0.25rem 0.35rem;
+	font-size: 1rem;
+	line-height: 1;
+	opacity: 0.6;
+	transition: opacity 0.2s, color 0.2s;
+	flex-shrink: 0;
+}
+.search-help-btn:hover {
+	opacity: 1;
+	color: var(--text);
+}
+
+.search-help-tooltip {
+	display: none;
+	position: absolute;
+	top: calc(100% + 8px);
+	right: 0;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	padding: 0.7rem 0.9rem;
+	font-size: 0.8rem;
+	line-height: 1.6;
+	z-index: 100;
+	min-width: 280px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.search-help-tooltip.visible {
+	display: block;
+}
+
+.tooltip-title {
+	font-weight: 600;
+	margin-bottom: 0.3rem;
+	color: var(--accent);
+}
+
+.tooltip-row {
+	white-space: nowrap;
+}
+.tooltip-row code {
+	background: var(--surface2);
+	padding: 0.1rem 0.35rem;
+	font-size: 0.75rem;
+}
+
+/* autocomplete dropdown */
+.autocomplete-dropdown {
+	display: none;
+	position: absolute;
+	top: calc(100% + 4px);
+	left: 0;
+	right: 0;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	z-index: 200;
+	max-height: 240px;
+	overflow-y: auto;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.autocomplete-dropdown.visible {
+	display: block;
+}
+
+.ac-item {
+	padding: 0.4rem 0.7rem;
+	cursor: pointer;
+	font-size: 0.85rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.ac-item:hover,
+.ac-item.selected {
+	background: var(--surface2);
+}
+
+.ac-icon {
+	font-size: 0.65rem;
+	font-weight: 700;
+	width: 18px;
+	height: 18px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	flex-shrink: 0;
+}
+.ac-icon-key {
+	background: var(--accent);
+	color: #fff;
+}
+.ac-icon-user {
+	background: var(--surface3);
+	color: var(--text-secondary);
+}
+.ac-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* card notes */
+.card-notes {
+	padding: 0.3rem 0.6rem;
+	font-size: 0.78rem;
+	color: var(--text-secondary);
+	font-style: italic;
+	line-height: 1.4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border-left: 2px solid var(--accent);
+	margin: 0 0.3rem;
 }
 
 .filter-btn {
@@ -138,6 +267,24 @@ select:focus {
 
 .album-select-btn:hover {
 	background: var(--accent-hover);
+}
+
+.editor-link-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	background: var(--surface2);
+	border: 1px solid var(--border);
+	color: var(--text-secondary);
+	text-decoration: none;
+	font-size: 1rem;
+	transition: background 0.2s, color 0.2s;
+}
+.editor-link-btn:hover {
+	background: var(--surface3);
+	color: var(--text);
 }
 
 .album-arrow {
@@ -331,6 +478,11 @@ select:focus {
 .album-type-badge.badge-curated {
 	border: 1px solid var(--yellow);
 	color: var(--yellow);
+}
+
+.album-type-badge.badge-reports {
+	border: 1px solid var(--green);
+	color: var(--green);
 }
 
 /* ===== Album Tag Bar ===== */
@@ -589,6 +741,12 @@ select:focus {
 	object-fit: cover;
 	background: var(--surface3);
 	border: 1px solid var(--border);
+}
+
+img.img-broken {
+	background: var(--surface3);
+	border: 1px dashed var(--border);
+	opacity: 0.5;
 }
 
 .card-footer {
