@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,15 @@
 
 <body>
 	<header>
-		<div class="logo">Skeb <span>Tracker</span></div>
+		<div class="header-left">
+			<div class="logo">Skeb <span>Tracker</span></div>
+			<button class="album-select-btn" id="albumSelectBtn">
+				<iconify-icon icon="mdi:book-open-page-variant-outline"></iconify-icon> Albums <span class="album-arrow">▾</span>
+			</button>
+			<a href="editor.html" class="editor-link-btn" title="Album Editor">
+				<iconify-icon icon="mdi:pencil-box-outline"></iconify-icon>
+			</a>
+		</div>
 		<div class="stats-badge" id="statsBadge">
 			<iconify-icon icon="mdi:account-group"></iconify-icon>
 			<span>Loading...</span>
@@ -19,7 +28,21 @@
 	</header>
 
 	<div class="filters-bar">
-		<input type="text" class="search-input" id="searchInput" placeholder="Search screen name...">
+		<div class="search-wrapper">
+			<input type="text" class="search-input" id="searchInput" placeholder="Search..." autocomplete="off">
+			<div class="autocomplete-dropdown" id="acDropdown"></div>
+			<button class="search-help-btn" id="searchHelpBtn" title="Query syntax" aria-label="Search help">
+				<iconify-icon icon="mdi:help-circle-outline"></iconify-icon>
+			</button>
+			<div class="search-help-tooltip" id="searchHelpTooltip">
+				<div class="tooltip-title">Query syntax</div>
+				<div class="tooltip-row"><code>text</code> screen_name contains text</div>
+				<div class="tooltip-row"><code>missing:true</code> custom.missing is true</div>
+				<div class="tooltip-row"><code>-missing:true</code> negate</div>
+				<div class="tooltip-row"><code>path.to.key&gt;5</code> nested custom data</div>
+				<div class="tooltip-row">Operators: <code>=</code> <code>!=</code> <code>&gt;</code> <code>&gt;=</code> <code>&lt;</code> <code>&lt;=</code></div>
+			</div>
+		</div>
 		<button class="filter-btn" id="filterAcceptable">
 			<iconify-icon icon="mdi:check-circle-outline"></iconify-icon> Accepting
 		</button>
@@ -65,6 +88,8 @@
 		<div class="active-sorts" id="activeSorts"></div>
 	</div>
 
+	<div class="album-tag-bar hidden" id="albumTagBar"></div>
+
 	<div class="progress-container hidden" id="progressContainer">
 		<div class="progress-bar">
 			<div class="progress-fill" id="progressFill"></div>
@@ -74,7 +99,40 @@
 	<div class="grid-container" id="userGrid"></div>
 	<div class="pagination" id="pagination"></div>
 
+	<div class="album-modal hidden" id="albumModal">
+		<div class="album-modal-bg" id="albumModalBg"></div>
+		<div class="album-modal-panel">
+			<div class="album-modal-header">
+				<h2>Select Album</h2>
+				<button class="album-modal-close" id="albumModalClose">&times;</button>
+			</div>
+			<div class="album-modal-search">
+				<input type="text" class="search-input" id="albumModalSearch" placeholder="Search albums...">
+			</div>
+			<div class="album-modal-type-filters" id="albumModalTypeFilters">
+				<span class="album-type-chip active" data-type="all">All</span>
+				<span class="album-type-chip" data-type="full">Full</span>
+				<span class="album-type-chip" data-type="curated">Curated</span>
+				<span class="album-type-chip" data-type="reports">Reports</span>
+			</div>
+			<div class="album-modal-list" id="albumModalList"></div>
+			<div class="album-modal-footer">
+				<button class="album-modal-external" id="albumModalExternal">
+					<iconify-icon icon="mdi:link"></iconify-icon> Load from URL...
+				</button>
+				<button class="album-modal-external" id="albumModalFile">
+					<iconify-icon icon="mdi:file-upload-outline"></iconify-icon> Load .album file...
+				</button>
+			</div>
+		</div>
+	</div>
+
 	<script src="app.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/query.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/ui.js"></script>
 </body>
 
 </html>
