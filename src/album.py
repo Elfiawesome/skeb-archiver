@@ -149,9 +149,9 @@ class UserDataExt:
 		return bool(na)
 	
 	@property
-	def first_seen(self) -> int:
+	def first_seen(self) -> float:
 		fs = self.data.get("first_seen", 0)
-		return fs if isinstance(fs, int) else 0
+		return fs if isinstance(fs, float) else 0
 
 	@property
 	def last_updated(self) -> float:
