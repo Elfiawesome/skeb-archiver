@@ -128,3 +128,25 @@ App._computeFileKey = function(screenName) {
 	var hash6 = App._md5(screenName).substring(0, 6);
 	return safe + '-' + hash6;
 };
+
+App._showProgress = function() {
+	var pc = document.getElementById('progressContainer');
+	if (pc) { pc.classList.remove('hidden'); document.getElementById('progressFill').style.width = '0%'; }
+};
+
+App._updateProgress = function(pct) {
+	var pf = document.getElementById('progressFill');
+	if (!pf) return;
+	if (pct < 0) {
+		pf.classList.add('indeterminate');
+		pf.style.width = '';
+	} else {
+		pf.classList.remove('indeterminate');
+		pf.style.width = Math.min(100, Math.max(0, pct)) + '%';
+	}
+};
+
+App._hideProgress = function() {
+	var pc = document.getElementById('progressContainer');
+	if (pc) { pc.classList.add('hidden'); document.getElementById('progressFill').style.width = '0%'; }
+};

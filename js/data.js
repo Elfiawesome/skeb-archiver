@@ -62,6 +62,11 @@ App._getAlbum = async function(relativePath) {
 			chunks.push(buf);
 			downloaded += buf.byteLength;
 		}
+		if (meta !== null && dataSize !== null) {
+			App._updateProgress(downloaded / (headerSize + dataSize) * 100);
+		} else {
+			App._updateProgress(-1);
+		}
 		idx += 10;
 	}
 
@@ -113,11 +118,13 @@ App._loadAlbumIndex = async function() {
 App._tryLoadAlbum = async function(name) {
 	try {
 		var info = App.albumIndex[name] || {};
+		App._showProgress();
 		if (info._file) {
 			var d = await App._getAlbumFromFile(name + '.album');
 		} else {
 			var d = await App._getAlbum(name);
 		}
+		App._hideProgress();
 		App.albumEntries = d.data || [];
 		App.currentAlbum = {
 			name: name,
@@ -126,6 +133,7 @@ App._tryLoadAlbum = async function(name) {
 		};
 	} catch (e) {
 		console.error('Failed to load album:', e);
+		App._hideProgress();
 		App.albumEntries = [];
 		App.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 	}
@@ -133,7 +141,9 @@ App._tryLoadAlbum = async function(name) {
 
 App._tryLoadExternal = async function(url) {
 	try {
+		App._showProgress();
 		var d = await App._getAlbumFromUrl(url);
+		App._hideProgress();
 		App.albumEntries = d.data || [];
 		App.currentAlbum = {
 			name: d.name || '_external',
@@ -143,6 +153,7 @@ App._tryLoadExternal = async function(url) {
 		};
 	} catch (e) {
 		console.error('Failed to load external album:', e);
+		App._hideProgress();
 		App.albumEntries = [];
 		App.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 	}

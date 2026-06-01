@@ -44,7 +44,9 @@ var App = {
 
 			await this._loadAlbumIndex();
 
+			this._showProgress();
 			var mainAlbum = await this._getAlbum('albums/main_index');
+			this._hideProgress();
 			this.mainData = mainAlbum.data || [];
 
 			var extUrl = (this.currentAlbum && this.currentAlbum._externalUrl) || null;
