@@ -247,12 +247,12 @@ App._renderAlbumModalList = function(filterText) {
 	var items = [];
 
 	function addIfMatch(name, info) {
-		if (name === 'albums/main_index' && items.find(function(x) { return x.name === 'albums/main_index'; })) return;
+		if (name.replace(/\/$/, '') === 'albums/main_index' && items.find(function(x) { return x.name.replace(/\/$/, '') === 'albums/main_index'; })) return;
 		if (filterType !== 'all' && info.type !== filterType) return;
 		if (search) {
 			var matchName = name.toLowerCase().includes(search);
 			var matchLabel = (info.label || '').toLowerCase().includes(search);
-			if (name === 'albums/main_index' && 'all artists'.includes(search)) { /* allow */ }
+			if (name.replace(/\/$/, '') === 'albums/main_index' && 'all artists'.includes(search)) { /* allow */ }
 			else if (!matchName && !matchLabel) return;
 		}
 		items.push(Object.assign({ name: name }, info));
@@ -260,7 +260,7 @@ App._renderAlbumModalList = function(filterText) {
 
 	addIfMatch('albums/main_index', { label: 'All Artists', type: 'full' });
 	Object.entries(App.albumIndex).forEach(function(e) {
-		if (e[0] === 'albums/main_index') return;
+		if (e[0].replace(/\/$/, '') === 'albums/main_index') return;
 		addIfMatch(e[0], e[1]);
 	});
 

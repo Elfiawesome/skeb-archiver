@@ -33,9 +33,10 @@ App._decompressAndParse = async function(compressed) {
 };
 
 App._getAlbum = async function(relativePath) {
-	var i = relativePath.lastIndexOf('/');
-	var dir = i >= 0 ? relativePath.substring(0, i) : '';
-	var name = i >= 0 ? relativePath.substring(i + 1) : relativePath;
+	var cleanPath = relativePath.endsWith('/') ? relativePath.slice(0, -1) : relativePath;
+	var i = cleanPath.lastIndexOf('/');
+	var dir = i >= 0 ? cleanPath.substring(0, i) : '';
+	var name = i >= 0 ? cleanPath.substring(i + 1) : cleanPath;
 	var prefix = dir ? dir + '/' : '';
 	var base = prefix + name + '.album/' + name + '.';
 	var idx = 1;
@@ -112,7 +113,7 @@ App._loadAlbumIndex = async function() {
 		if (r.ok) App.albumIndex = await r.json();
 	} catch (e) {
 		console.warn('Could not load album index:', e);
-		App.albumIndex = { 'albums/main_index': { label: 'All Artists', type: 'full' } };
+		App.albumIndex = { 'albums/main_index/': { label: 'All Artists', type: 'full' } };
 	}
 };
 
@@ -120,10 +121,10 @@ App._tryLoadAlbum = async function(name) {
 	try {
 		var info = App.albumIndex[name] || {};
 		App._showProgress();
-		if (info._file) {
-			var d = await App._getAlbumFromFile(name + '.album');
-		} else {
+		if (name.endsWith('/')) {
 			var d = await App._getAlbum(name);
+		} else {
+			var d = await App._getAlbumFromFile(name + '.album');
 		}
 		App._hideProgress();
 		App.albumEntries = d.data || [];
@@ -164,7 +165,7 @@ App._switchAlbum = async function(name) {
 	App.currentPage = 1;
 	App.filterAlbumTags = [];
 
-	if (name === 'albums/main_index') {
+	if (name.replace(/\/$/, '') === 'albums/main_index') {
 		App.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 		App.albumEntries = [];
 	} else {

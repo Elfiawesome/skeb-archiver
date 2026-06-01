@@ -55,7 +55,7 @@ var App = {
 			} else if (this.currentAlbum && this.currentAlbum._fromFile) {
 				this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 				this.albumEntries = [];
-			} else if (this.currentAlbum && this.currentAlbum.name !== 'albums/main_index') {
+			} else if (this.currentAlbum && (this.currentAlbum.name || '').replace(/\/$/, '') !== 'albums/main_index') {
 				await this._tryLoadAlbum(this.currentAlbum.name);
 			} else {
 				this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
@@ -225,7 +225,7 @@ var App = {
 				self._switchAlbum('albums/main_index');
 			} else if (self.currentAlbum && self.currentAlbum._externalUrl) {
 				self._loadExternalAlbum(self.currentAlbum._externalUrl);
-			} else if (self.currentAlbum && self.currentAlbum.name !== 'albums/main_index') {
+			} else if (self.currentAlbum && (self.currentAlbum.name || '').replace(/\/$/, '') !== 'albums/main_index') {
 				self._switchAlbum(self.currentAlbum.name);
 			} else {
 				self._switchAlbum('albums/main_index');

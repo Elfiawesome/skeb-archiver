@@ -1,4 +1,5 @@
 import json, gzip, struct
+from .logger import log
 
 class AlbumBuilder:
 	def __init__(self) -> None:
@@ -57,7 +58,11 @@ class AlbumBuilder:
 	def set_type(self, album_type: str) -> 'AlbumBuilder':
 		self.album_type = album_type
 		return self
+	
+	def is_empty(self) -> bool:
+		return len(self.data) == 0
 
+	#  Metadata builders/unbuilders
 	def build_metadata_bytes(self) -> bytes:
 		return json.dumps({
 			"name": self.name,
@@ -66,6 +71,14 @@ class AlbumBuilder:
 			"timestamp": self.time
 		}, ensure_ascii=False).encode("utf-8")
 
+	def unbuild_metadata(self, meta: dict[str]) -> 'AlbumBuilder':
+		self.name = meta.get("name", "")
+		self.label = meta.get("label", "")
+		self.album_type = meta.get("type", "full")
+		self.time = meta.get("timestamp", 0.0)
+		return self
+
+	# Full builders/unbuilders
 	def build(self) -> bytes:
 		meta_bytes = self.build_metadata_bytes()
 		data_json = json.dumps(self.data, ensure_ascii=False).encode("utf-8")
@@ -76,20 +89,42 @@ class AlbumBuilder:
 		result += struct.pack('>I', len(compressed_data))
 		result += compressed_data
 		return result
-	
-	def is_empty(self) -> bool:
-		return len(self.data) == 0
 
 	@staticmethod
-	def parse_metadata_from_bytes(data: bytes) -> dict[str]:
-		if len(data) < 8:
-			return {}
-		meta_size = struct.unpack('>I', data[:4])[0]
-		if len(data) < 4 + meta_size:
-			return {}
-		meta_bytes = data[4:4 + meta_size]
-		return json.loads(meta_bytes.decode("utf-8"))
+	def unpack_metadata(data: bytes) -> tuple[int, bytes] | None:
+		try:
+			if len(data) < 8: return None
+			meta_size = struct.unpack('>I', data[:4])[0]
+			if len(data) < 4 + meta_size: return None
+			meta_bytes = data[4:4 + meta_size]
+			return meta_size, meta_bytes
+		except (struct.error, UnicodeDecodeError, json.JSONDecodeError):
+			return None
 
+	@staticmethod
+	def unbuild(data: bytes) -> 'AlbumBuilder':
+		try:
+			meta_size, meta_bytes = AlbumBuilder.unpack_metadata(data)
+			meta_dict = json.loads(meta_bytes.decode("utf-8"))
+
+			compressed_start = 4 + meta_size
+			compressed_size = struct.unpack('>I', data[compressed_start:compressed_start + 4])[0]
+			if len(data) < compressed_start + 4 + compressed_size:
+				return None
+			compressed_data = data[compressed_start + 4 : compressed_start + 4 + compressed_size]
+
+			json_data = gzip.decompress(compressed_data)
+			entries = json.loads(json_data.decode("utf-8"))
+			
+			if not isinstance(entries, list): return None
+
+			ab = AlbumBuilder()
+			ab.unbuild_metadata(meta_dict)
+			ab.data = entries
+			return ab
+
+		except (struct.error, UnicodeDecodeError, json.JSONDecodeError, gzip.BadGzipFile, OSError) as e:
+			return None
 
 
 class UserDataExt:
