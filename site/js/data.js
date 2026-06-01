@@ -61,6 +61,7 @@ App._getAlbum = async function(relativePath) {
 			}
 			chunks.push(buf);
 			downloaded += buf.byteLength;
+			if (downloaded >= headerSize + dataSize) break;
 		}
 		if (meta !== null && dataSize !== null) {
 			App._updateProgress(downloaded / (headerSize + dataSize) * 100);
