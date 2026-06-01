@@ -6,6 +6,8 @@ from ..extension_plugin import ExtensionPlugin
 
 @register_extension("storage")
 class StoragePlugin(ExtensionPlugin):
+	priority = 120
+	
 	def on_event(self, context: PipelineContext, event: Event):
 		if isinstance(event, ProfileFetchedEvent):
 			if "screen_name" in event.data:

@@ -170,7 +170,6 @@ class DataStore:
 				with open(chunk1, "rb") as f:
 					header = f.read(1024 * 64)
 				meta = AlbumBuilder.parse_metadata_from_bytes(header)
-				print(meta)
 				index[rel_path] = {
 					"label": meta.get("label", name),
 					"type": meta.get("type", "curated")
