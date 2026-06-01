@@ -627,6 +627,17 @@ select:focus {
 	transition: width 0.3s;
 }
 
+.progress-fill.indeterminate {
+	width: 30%;
+	animation: progressIndeterminate 1.5s ease-in-out infinite;
+}
+
+@keyframes progressIndeterminate {
+	0% { width: 10%; }
+	50% { width: 40%; }
+	100% { width: 10%; }
+}
+
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));

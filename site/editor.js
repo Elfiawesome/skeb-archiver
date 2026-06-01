@@ -55,8 +55,9 @@
 	// --- main data ---
 	async function loadMainData() {
 		var btn=document.getElementById('btnLoadData'); btn.textContent='Loading...';btn.disabled=true;
-		try { var album=await App._getAlbum('albums/main_index'); state.mainData=album.data||[]; state.mainLoaded=true; btn.textContent='Data Loaded';btn.classList.add('loaded'); document.getElementById('editorSearch').placeholder='Search '+state.mainData.length+' artists...'; for(var i=0;i<state.entries.length;i++) enrichEntry(state.entries[i]); renderAll(); }
-		catch(e) { console.error(e); btn.textContent='Load Failed';btn.disabled=false; }
+		App._showProgress();
+		try { var album=await App._getAlbum('albums/main_index'); App._hideProgress(); state.mainData=album.data||[]; state.mainLoaded=true; btn.textContent='Data Loaded';btn.classList.add('loaded'); document.getElementById('editorSearch').placeholder='Search '+state.mainData.length+' artists...'; for(var i=0;i<state.entries.length;i++) enrichEntry(state.entries[i]); renderAll(); }
+		catch(e) { App._hideProgress(); console.error(e); btn.textContent='Load Failed';btn.disabled=false; }
 	}
 
 	// --- search ---
@@ -246,7 +247,7 @@
 	async function handleFile(file){
 		if(!file)return; uploadZone.textContent='Loading '+file.name+'...';
 		try{var buf=await file.arrayBuffer(),h=parseHeader(buf); state.meta=h.meta; var entries=await decompress(buf.slice(h.headerSize)); state.entries=Array.isArray(entries)?entries:[]; for(var i=0;i<state.entries.length;i++){state.entries[i].notes=state.entries[i].notes||'';state.entries[i].tags=state.entries[i].tags||[];state.entries[i].latest_thumbnails=state.entries[i].latest_thumbnails||[];}
-			if(!state.mainLoaded){try{var album=await App._getAlbum('albums/main_index');state.mainData=album.data||[];state.mainLoaded=true;var btn=document.getElementById('btnLoadData');btn.textContent='Data Loaded';btn.classList.add('loaded');document.getElementById('editorSearch').placeholder='Search '+state.mainData.length+' artists...';}catch(e){console.warn('Could not auto-load main data:',e);}}
+			if(!state.mainLoaded){try{App._showProgress();var album=await App._getAlbum('albums/main_index');App._hideProgress();state.mainData=album.data||[];state.mainLoaded=true;var btn=document.getElementById('btnLoadData');btn.textContent='Data Loaded';btn.classList.add('loaded');document.getElementById('editorSearch').placeholder='Search '+state.mainData.length+' artists...';}catch(e){App._hideProgress();console.warn('Could not auto-load main data:',e);}}
 			for(var k=0;k<state.entries.length;k++) enrichEntry(state.entries[k]);
 			state.selectedIdx=-1;state.checked={}; uploadZone.innerHTML='<p><strong>'+file.name+'</strong> loaded ('+state.entries.length+' entries)</p>';uploadZone.classList.add('has-file'); document.getElementById('metaLabel').value=state.meta.label||'Untitled';document.getElementById('metaType').value=state.meta.type||'reports';renderAll();}
 		catch(e){uploadZone.classList.remove('has-file');uploadZone.innerHTML='<p style="color:var(--red)">Failed: '+e.message+'</p><p>Drop .album file here</p>';}
