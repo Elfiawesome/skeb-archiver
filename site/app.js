@@ -60,8 +60,6 @@ var App = {
 			} else {
 				this.currentAlbum = { name: 'albums/main_index', label: 'All Artists', type: 'full' };
 			}
-			console.log('this.albumEntries');
-			console.log(this.albumEntries);
 
 			this._mergeWithMain();
 			this._collectAlbumTags();
