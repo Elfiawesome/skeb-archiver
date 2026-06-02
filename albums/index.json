@@ -30,5 +30,13 @@
   "persistance/2026-06-02_11-01-54/success/": {
     "label": "Success",
     "type": "curated"
+  },
+  "persistance/2026-06-02_12-23-10/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_12-23-10/success/": {
+    "label": "Success",
+    "type": "curated"
   }
 }
