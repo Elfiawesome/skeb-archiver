@@ -3,6 +3,10 @@
    Album fetching, parsing, decompression, merging
    ================================================================ */
 
+App._BUILTIN_ALBUMS = {
+	'https://raw.githubusercontent.com/Elfiawesome/skeb-archiver/refs/heads/main/bookmark/bookmarks.md': { label: 'Bookmarks', type: 'reports' }
+};
+
 App._fetch = async function(url) {
 	var res = await fetch(url);
 	if (!res.ok) {
@@ -85,6 +89,12 @@ App._getAlbum = async function(relativePath) {
 };
 
 App._getAlbumFromUrl = async function(url) {
+	if (/\.md$/i.test(url)) {
+		var tr = await fetch(url);
+		if (!tr.ok) throw new Error('HTTP ' + tr.status);
+		var mdText = await tr.text();
+		return App._parseMarkdownAlbum(mdText, url);
+	}
 	var r;
 	if (url.indexOf('://') >= 0) {
 		r = await fetch(url);
@@ -107,13 +117,86 @@ App._getAlbumFromFile = async function(relativePath) {
 	return Object.assign({}, h.meta, { data: Array.isArray(data) ? data : [] });
 };
 
+App._extractScreenNameFromUrl = function(url) {
+	if (!/skeb\.jp\//.test(url)) return null;
+	var match = url.match(/\/@([\w._-]+)/);
+	return match ? match[1] : null;
+};
+
+App._parseMarkdownAlbum = function(mdText, sourcePath) {
+	var lines = mdText.split('\n');
+	var entries = [];
+	var current = null;
+
+	for (var i = 0; i < lines.length; i++) {
+		var trimmed = lines[i].trim();
+
+		if (!trimmed) continue;
+		if (trimmed.startsWith('//')) continue;
+
+		if (trimmed.startsWith('# ')) {
+			if (current && current.screen_name) {
+				entries.push(current);
+			}
+			var url = trimmed.substring(2).trim();
+			var sn = App._extractScreenNameFromUrl(url);
+			current = sn ? { screen_name: sn, latest_thumbnails: [], notes: '' } : null;
+			continue;
+		}
+
+		if (!current) continue;
+
+		if (/^https?:\/\//.test(trimmed)) {
+			current.latest_thumbnails.push(trimmed);
+			continue;
+		}
+
+		var note = trimmed.startsWith('- ') ? trimmed.substring(2).trim() : trimmed;
+		current.notes = current.notes ? current.notes + ' ' + note : note;
+	}
+
+	if (current && current.screen_name) {
+		entries.push(current);
+	}
+
+	var deduped = {};
+	for (var e = 0; e < entries.length; e++) {
+		deduped[entries[e].screen_name] = entries[e];
+	}
+	entries = Object.values(deduped);
+
+	var name = sourcePath.replace(/^.*[\\\/]/, '').replace(/\.md$/i, '');
+	var label = name.charAt(0).toUpperCase() + name.slice(1);
+
+	return {
+		name: name,
+		label: label,
+		type: 'reports',
+		timestamp: Date.now() / 1000,
+		data: entries
+	};
+};
+
+App._getAlbumFromMarkdown = async function(path) {
+	var r = await App._fetch(path);
+	if (!r.ok) throw new Error('HTTP ' + r.status);
+	var mdText = await r.text();
+	return App._parseMarkdownAlbum(mdText, path);
+};
+
 App._loadAlbumIndex = async function() {
+	App.albumIndex = Object.assign({}, App._BUILTIN_ALBUMS);
 	try {
 		var r = await App._fetch('albums/index.json');
-		if (r.ok) App.albumIndex = await r.json();
+		if (r.ok) {
+			var loaded = await r.json();
+			Object.assign(App.albumIndex, loaded);
+		}
 	} catch (e) {
 		console.warn('Could not load album index:', e);
-		App.albumIndex = { 'albums/main_index/': { label: 'All Artists', type: 'full' } };
+	}
+	if (!App.albumIndex['albums/main_index/']) {
+		App.albumIndex['albums/main_index/'] = { label: 'All Artists', type: 'full' };
 	}
 };
 
@@ -123,6 +206,8 @@ App._tryLoadAlbum = async function(name) {
 		App._showProgress();
 		if (name.endsWith('/')) {
 			var d = await App._getAlbum(name);
+		} else if (name.endsWith('.md')) {
+			var d = await App._getAlbumFromMarkdown(name);
 		} else {
 			var d = await App._getAlbumFromFile(name + '.album');
 		}

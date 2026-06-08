@@ -1,7 +1,3 @@
-# https://skeb.jp/@jahopotto
-
-
-
 # https://skeb.jp/@siratori_kbu
 https://pbs.twimg.com/media/Gg9LSxbbkAA6Xjt?format=jpg&name=large
 https://pbs.twimg.com/media/GaIVsnEaEAA3m_2?format=jpg&name=large
@@ -161,7 +157,7 @@ https://pbs.twimg.com/media/G_9ePgFbEAQBTgU?format=jpg&name=4096x4096
 # https://skeb.jp/@chani_531
 - 2.5k solid rendering but face only?
 
-// Comments ignored
+// Example Comment that is ignored
 
 # https://skeb.jp/@jahopotto
 https://si.imgix.net/661a2b81/uploads/origins/c4342390-1624-48a8-9ad4-6e13067e0507?bg=%23fff&auto=format&fm=webp&w=800&s=0ed947386748041eeea63c8e6f72a0e8
