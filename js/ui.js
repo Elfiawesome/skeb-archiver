@@ -302,21 +302,33 @@ App._handleExternalAlbumPrompt = function() {
 App._handleFileAlbumPrompt = function() {
 	var input = document.createElement('input');
 	input.type = 'file';
-	input.accept = '.album';
+	input.accept = '.album,.md';
 	input.addEventListener('change', async function() {
 		var file = input.files[0];
 		if (!file) return;
 		try {
-			var buf = await file.arrayBuffer();
-			var h = App._parseAlbumHeader(buf);
-			var data = await App._decompressAndParse(buf.slice(h.headerSize));
-			App.albumEntries = Array.isArray(data) ? data : [];
-			App.currentAlbum = {
-				name: h.meta.name || '_file',
-				label: h.meta.label || h.meta.name || file.name,
-				type: h.meta.type || 'curated',
-				_fromFile: true
-			};
+			if (file.name.endsWith('.md')) {
+				var mdText = await file.text();
+				var d = App._parseMarkdownAlbum(mdText, file.name);
+				App.albumEntries = d.data || [];
+				App.currentAlbum = {
+					name: d.name || '_file',
+					label: d.label || file.name,
+					type: d.type || 'reports',
+					_fromFile: true
+				};
+			} else {
+				var buf = await file.arrayBuffer();
+				var h = App._parseAlbumHeader(buf);
+				var data = await App._decompressAndParse(buf.slice(h.headerSize));
+				App.albumEntries = Array.isArray(data) ? data : [];
+				App.currentAlbum = {
+					name: h.meta.name || '_file',
+					label: h.meta.label || h.meta.name || file.name,
+					type: h.meta.type || 'curated',
+					_fromFile: true
+				};
+			}
 			App._closeAlbumModal();
 			App._onAlbumChanged();
 		} catch (e) {
