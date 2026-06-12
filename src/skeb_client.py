@@ -57,9 +57,10 @@ class SkebClient():
 						return await response.json()
 						
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-					if attempt == self.max_retries:
-						status_code: int | None = None
-						if isinstance(e, aiohttp.ClientResponseError): status_code = e.status
+					status_code: int | None = None
+					if isinstance(e, aiohttp.ClientResponseError): status_code = e.status
+					
+					if (attempt == self.max_retries) or (status_code == 429):
 						log.error(f"Error on requesting {url} with error {e}")
 						return {"error": e, "endpoint": endpoint, "failed": True, "status_code": status_code}
 					
