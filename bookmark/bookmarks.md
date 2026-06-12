@@ -39,7 +39,7 @@ https://pbs.twimg.com/media/HHDHjTpbsAAJPtc?format=jpg&name=large
 https://pbs.twimg.com/media/GcisgE-a4AAoDjR?format=jpg&name=medium
 - cool rendering style
 
-# https://x.com/shiratori_NK
+# https://skeb.jp/@shiratori_NK
 https://pbs.twimg.com/media/HH4tGBgaMAAizBq?format=jpg&name=large
 https://pbs.twimg.com/media/HE_G2_RaAAAPUGC?format=jpg&name=large
 https://pbs.twimg.com/media/HJFKy1NbEAABb5Y?format=jpg&name=large
@@ -395,3 +395,66 @@ Basing of this art alone, it looks quite good. But proportions is slightly off
 https://pbs.twimg.com/media/F_7scQ1aEAAI9kE?format=jpg&name=large
 https://pbs.twimg.com/media/F8dRZB3bEAAq5nO?format=jpg&name=large
 Style feels very webtoon like and BL-coded
+
+# https://skeb.jp/@hanako0055
+https://si.imgix.net/df44250b/uploads/origins/c0e5b9bd-baf7-475f-8d19-aef29310fd57?bg=%23fff&auto=format&fm=webp&w=800&s=5d310218cbdeb54a5907cfabe80cc7f3
+- Apparently his x.com is gone but it was really cute bl yaoi art NSFW
+
+# https://skeb.jp/@Kuroumea_108
+https://pbs.twimg.com/media/HKdl2vcagAEaiIk?format=jpg&name=4096x4096
+- alr sent as his first order :))
+
+# https://skeb.jp/@tayoshi_miyako
+https://pbs.twimg.com/media/HE3p4BvaYAAnH6g?format=jpg&name=large
+https://pbs.twimg.com/media/HKmDoHybwAIy_PA?format=jpg&name=medium
+https://pbs.twimg.com/media/HKmOJMxaAAAX2Ha?format=jpg&name=large
+- Really stylized sketchy style. Has good anatomy knowledge too
+
+# https://skeb.jp/@sushiumasugiwww
+https://pbs.twimg.com/media/Gggv2yubwAAHZqW?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/Gz_7ONubEAAfaG5?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/G2uPGv1a4AAs5X6?format=jpg&name=4096x4096
+- super cute girly good quality design
+
+# https://skeb.jp/@Hang12000
+https://pbs.twimg.com/media/GRfqc0cb0AAfdVi?format=jpg&name=large
+https://pbs.twimg.com/media/GRJzNspa8AAq3Rn?format=jpg&name=large
+https://pbs.twimg.com/media/GZ7BM9ib0AMFzCR?format=jpg&name=large
+- super stylized style and good anatomy
+
+# https://skeb.jp/@nayucoc
+https://si.imgix.net/10bcc563/uploads/origins/9a2d5be1-d367-4649-b939-4ba24e5509a3?bg=%23fff&txtfont=bold&txtshad=70&txtclr=BFFFFFFF&txtalign=middle%2Ccenter&txtsize=150&txt=SAMPLE&auto=format&fm=webp&w=800&s=7ba7adae93c92551ab45360d5fd9c395
+- Has done skeb before and I saw 1 BL and was immediately yes for 840 Yen
+
+# https://skeb.jp/@umennuro
+https://pbs.twimg.com/media/HJpzQ3hbUAAGfoZ?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HJVUM98bwAA21ru?format=jpg&name=large
+- used to be 1000 but not anymore ...
+
+# https://skeb.jp/@Karix2umedesu
+https://pbs.twimg.com/media/Gb6nC-zbwAUqXLa?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HFdbNkLbwAAID7a?format=jpg&name=4096x4096
+- used to be 1000 but not anymore ...
+
+# https://skeb.jp/@nayakakka
+- I saw the same blue guy on him with 1000yen but it got increased :/
+
+# https://skeb.jp/@ONIGIRI_jm02
+- used to be 1000 yen but got increased
+
+# https://skeb.jp/@kyookasyo_28_
+- the potraait designs are quite cute i guess
+
+# https://skeb.jp/@ShiragikuGayu
+- Remember seeing this long ago suprised someone are still requesting this person for 1k and quite high details
+
+# https://skeb.jp/@sbxu_0076
+- gone?
+
+# https://skeb.jp/@momoiruriu37a
+https://pbs.twimg.com/media/HIDa7_lbQAAVyrp?format=jpg&name=small
+https://pbs.twimg.com/media/HJLU1MqbIAAxOXm?format=jpg&name=large
+- that sp guy lol
+
+# https://skeb.jp/@iusn_dethyo/works/1
+- used to be 1k but got increased ... was previously the enstars guy
