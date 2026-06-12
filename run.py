@@ -184,12 +184,14 @@ async def run_pipeline(
 	extensions_specs: list[tuple[str, dict]],
 	docs_dir: str = "docs",
 	persistance_dir: str | None = None,
+	client_sleep: float = 0.05
 ) -> None:
 	"""Create and run the pipeline with given specifications."""
 	store = DataStore(docs_dir=docs_dir, persistance_dir=persistance_dir)
 	sources, extensions = build_sources_extensions(sources_specs, extensions_specs)
 
 	async with SkebClient() as client:
+		client.rate_limit_sleep = client_sleep
 		pipeline = Pipeline(store, client)
 
 		for src in sources:
@@ -256,6 +258,11 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		"--names",
 		nargs="*",
 		help="List of screen names for the 'custom' source (used with --preset custom or manual --source custom)",
+	)
+	parser.add_argument(
+		"--sleep",
+		default=0.05,
+		help="Modify SkebClient's rate_limit_sleep"
 	)
 
 	args = parser.parse_args()
@@ -331,7 +338,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 
 	# Run the pipeline
 	asyncio.run(
-		run_pipeline(sources_specs, extensions_specs, docs_dir, persistance_dir)
+		run_pipeline(sources_specs, extensions_specs, docs_dir, persistance_dir, args.sleep)
 	)
 
 
