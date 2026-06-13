@@ -37,6 +37,7 @@ from src.extension.source.source_limit_plugin import SourceLimitPlugin
 from src.extension.source.source_state_filter_plugin import SourceStateFilterPlugin
 from src.extension.core.storage_plugin import StoragePlugin
 from src.extension.report.summary_report_plugin import SummaryReportPlugin
+from src.extension.report.price_drop_album_plugin import PriceDropAlbumPlugin
 
 from src.pipeline import Pipeline
 from src.data_store import DataStore
