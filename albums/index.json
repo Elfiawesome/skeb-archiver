@@ -746,5 +746,13 @@
   "persistance/2026-06-18_15-51-00/success/": {
     "label": "Success",
     "type": "curated"
+  },
+  "persistance/2026-06-18_17-08-07/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_17-08-07/success/": {
+    "label": "Success",
+    "type": "curated"
   }
 }
