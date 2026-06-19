@@ -27,6 +27,12 @@ https://pbs.twimg.com/media/Gxm1zBsaoAAWGhD?format=jpg&name=4096x4096
 https://pbs.twimg.com/media/GxTx0IybMAAKqrj?format=jpg&name=4096x4096
 - Look at this guy, he obviously only draws male not female like his only skeb work
 
+# https://skeb.jp/@simpa_i_NNN
+https://pbs.twimg.com/media/HKVbSqebcAAwClz?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HHPggpzaIAAuLGf?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/G1QZZ2obQAATCTo?format=jpg&name=4096x4096
+- SUPER good rendering! focuses more on realism?
+
 # https://skeb.jp/@mitei221
 https://pbs.twimg.com/media/HJ09mBnaMAAJKpS?format=jpg&name=large
 https://pbs.twimg.com/media/HICAko4aYAA8X6D?format=jpg&name=large
@@ -456,5 +462,75 @@ https://pbs.twimg.com/media/HIDa7_lbQAAVyrp?format=jpg&name=small
 https://pbs.twimg.com/media/HJLU1MqbIAAxOXm?format=jpg&name=large
 - that sp guy lol
 
-# https://skeb.jp/@iusn_dethyo/works/1
+# https://skeb.jp/@iusn_dethyo
 - used to be 1k but got increased ... was previously the enstars guy
+
+// Another set
+# https://skeb.jp/@tora31957618
+https://pbs.twimg.com/media/HEACoMHagAAjTZP?format=jpg&name=large
+https://pbs.twimg.com/media/FalcuqHUUAAiGhi?format=jpg&name=large
+- NSFW allow guy but its ok. Good anatomy
+
+# https://skeb.jp/@nogiTRPG
+- NSFW somwhat good rendering
+
+# https://skeb.jp/@maaaaaaa_am
+- NSFW and good rendering guy
+
+# https://skeb.jp/@net_stoker3
+https://pbs.twimg.com/media/GTeGSQGagAALCjG?format=jpg&name=large
+https://pbs.twimg.com/media/GT9JzRcacAATWiU?format=jpg&name=large
+https://pbs.twimg.com/media/GidkY_XagAEcEGz?format=jpg&name=large
+- NSFW not that good but decent enough. Likes to draw Kazan from Omega Strikers
+
+# https://skeb.jp/@yua__vv
+https://pbs.twimg.com/media/HHGe0eYbcAAnBRv?format=jpg&name=large
+https://pbs.twimg.com/media/HK3oHJZaoAAC2-D?format=jpg&name=large
+- NSFW however likes to draw Oboro Shirakumo x Shōta Aizawa stuff
+
+# https://skeb.jp/@Kakasi1004
+https://pbs.twimg.com/media/Gbd7uCBboAAztpn?format=jpg&name=large
+https://pbs.twimg.com/media/HFe1Ej-aoAABllY?format=jpg&name=large
+https://pbs.twimg.com/media/HFeY6ElbEAAettU?format=jpg&name=large
+- I just like the artstyle :)
+
+# https://skeb.jp/@n_nanasi_
+https://pbs.twimg.com/media/GYFux9aaEAAWciU?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/GWZSxRPXAAAEWzN?format=jpg&name=4096x4096
+- Somewhat good but only female main?
+
+# https://skeb.jp/@AKSTNacchi
+- NSFW possible guy. Alr bought and it increase to 3k alr
+
+# https://skeb.jp/@Nei_skeb
+- some good rendering
+
+# https://skeb.jp/@homare_appare
+- another shota-ish style
+
+# https://skeb.jp/@kassyokuuuuu
+- potential NSFW guy with good rendering + BL
+
+# https://skeb.jp/@_abeabea_
+https://pbs.twimg.com/media/G-wXxs_a0AAB4rN?format=jpg&name=large
+https://pbs.twimg.com/media/G2Z36qYaMAA5k7g?format=jpg&name=large
+https://pbs.twimg.com/media/G6z6I64a0AAK44g?format=jpg&name=medium
+- Good rendering
+
+# https://skeb.jp/@yomo0712
+https://pbs.twimg.com/media/HF86XoUbYAAd1nx?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HEphEBcaEAAGbSv?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HDX5RbIbkAAp47Z?format=jpg&name=4096x4096
+- VERY GOOD RENDERING +potential BL
+
+# https://skeb.jp/@sun_sad_sun
+https://pbs.twimg.com/media/HIK1lvuaEAAKv1a?format=jpg&name=large
+https://pbs.twimg.com/media/G_W6n4mbAAUrWXp?format=jpg&name=large
+https://pbs.twimg.com/media/G9QoYk7bgAArVVl?format=jpg&name=medium
+- sketchy but i like the style
+
+# https://skeb.jp/@tafu1219
+https://pbs.twimg.com/media/HJy5KpbagAAU-rA?format=jpg&name=large
+https://pbs.twimg.com/media/HH7Ue_JbAAArB_Q?format=jpg&name=large
+https://pbs.twimg.com/media/HDdUbuZbsAAFXjv?format=jpg&name=large
+- COC guy but i feel like the eyes are not for me tho. Rendering is ok!
