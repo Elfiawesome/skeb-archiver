@@ -970,5 +970,9 @@
   "persistance/2026-06-19_17-04-17/price_drop_art/": {
     "label": "Price Drop: art (>=¥500)",
     "type": "curated"
+  },
+  "persistance/2026-06-20_04-18-37/success/": {
+    "label": "Success",
+    "type": "curated"
   }
 }
