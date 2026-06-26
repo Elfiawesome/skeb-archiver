@@ -3,16 +3,16 @@ import aiohttp
 import asyncio
 from typing import AsyncGenerator
 from .logger import log
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
 class FetchRequest:
 	endpoint: str
-	headers: dict[str] = {
+	headers: dict[str] = field(default_factory=lambda: {
 		"Authorization": "Bearer null",
 		# "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-	}
+	})
 
 class SkebClient():
 	BASE: str = "https://skeb.jp"
