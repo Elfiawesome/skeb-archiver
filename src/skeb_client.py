@@ -1,6 +1,4 @@
 import re
-import random
-import json
 import aiohttp
 import asyncio
 from typing import AsyncGenerator
@@ -50,43 +48,26 @@ class SkebClient():
 		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 
 		async with self._semaphore:
-			actual_sleep = max(self.rate_limit_sleep, 0.05)
-			jitter = max(0.1, 1 + random.uniform(-0.3, 0.3))
-			await asyncio.sleep(actual_sleep * jitter)
+			await asyncio.sleep(self.rate_limit_sleep)
 			for attempt in range(1, self.max_retries + 1):
 				try:
 					async with self._session.get(url, headers=headers, **kwargs) as response:
 						log.info(f"Requesting {url}" + ("" if attempt == 1 else f"({attempt}x)"))
-						
-						set_cookie = response.headers.get("Set-Cookie")
-						if set_cookie:
-							match = self._COOKIE_RE.search(set_cookie)
-							if match:
-								self._cookie = match.group(1)
-						
 						response.raise_for_status()
-						return await response.json()
+						data = await response.json()
+						if isinstance(data, list):
+							return {"error": ValueError(f"Unexpected list response: {data}"), "endpoint": endpoint, "failed": True, "status_code": response.status}
+						return data
 						
-				except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError, ValueError) as e:
+				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					status_code: int | None = None
-					retry_after: int | None = None
-					if isinstance(e, aiohttp.ClientResponseError):
-						status_code = e.status
-						if e.headers:
-							retry_str = e.headers.get("Retry-After")
-							if retry_str:
-								retry_after = int(retry_str)
+					if isinstance(e, aiohttp.ClientResponseError): status_code = e.status
 					
-					if attempt == self.max_retries:
+					if (attempt == self.max_retries) or (status_code == 429):
 						log.error(f"Error on requesting {url} with error {e}")
 						return {"error": e, "endpoint": endpoint, "failed": True, "status_code": status_code}
 					
-					if status_code == 429:
-						wait = retry_after if retry_after else min(5 * (2 ** (attempt - 1)), 60)
-						log.info(f"429 on {url}, retrying in {wait}s (attempt {attempt})")
-						await asyncio.sleep(wait)
-					else:
-						await asyncio.sleep(1 * attempt)
+					await asyncio.sleep(1 * attempt)
 
 	async def fetch_batch(self, endpoints: list[str]) -> list[dict | None]:
 		tasks = [self._fetch_single(endpoint) for endpoint in endpoints]
@@ -121,10 +102,6 @@ class SkebClient():
 				offset += limit
 			
 			for data in await self.fetch_batch(req_batch):
-				if not isinstance(data, list):
-					log.error(f"Did not receive a 'list' when requesting paginated data. Got `{data}`")
-					continue
-
 				if (len(data) < 1) or (cur_amt > max_amt and max_amt > 0):
 					no_more_pagination = True
 					break

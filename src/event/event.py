@@ -33,12 +33,6 @@ class ProfileErrorFetchEvent(Event):
 	status_code: int
 	endpoint: str
 
-@dataclass
-class WrongTypeFetchEvent(Event):
-	expected_type: type
-	received_type: type
-	received_data: dict | list | None
-
 
 @dataclass
 class EndEvent(Event):
