@@ -3,6 +3,16 @@ import aiohttp
 import asyncio
 from typing import AsyncGenerator
 from .logger import log
+from dataclasses import dataclass
+
+
+@dataclass
+class FetchRequest:
+	endpoint: str
+	headers: dict[str] = {
+		"Authorization": "Bearer null",
+		# "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+	}
 
 class SkebClient():
 	BASE: str = "https://skeb.jp"
@@ -43,15 +53,15 @@ class SkebClient():
 			await self._session.close()
 		self._cookie = None
 
-	async def _fetch_single(self, endpoint: str, **kwargs) -> dict | list:
-		url = f"{self.API}/{endpoint}"
-		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
+	async def _fetch_single(self, fr: FetchRequest) -> dict | list:
+		url = f"{self.API}/{fr.endpoint}"
+		fr.headers["Cookie"]= self._cookie
 
 		async with self._semaphore:
 			await asyncio.sleep(self.rate_limit_sleep)
 			for attempt in range(1, self.max_retries + 1):
 				try:
-					async with self._session.get(url, headers=headers, **kwargs) as response:
+					async with self._session.get(url, headers=fr.headers) as response:
 						log.info(f"Requesting {url}" + ("" if attempt == 1 else f"({attempt}x)"))
 						response.raise_for_status()
 						return await response.json()
@@ -62,15 +72,15 @@ class SkebClient():
 					
 					if (attempt == self.max_retries) or (status_code == 429):
 						log.error(f"Error on requesting {url} with error {e}")
-						return {"error": e, "endpoint": endpoint, "failed": True, "status_code": status_code}
+						return {"error": e, "endpoint": fr.endpoint, "failed": True, "status_code": status_code}
 					
 					await asyncio.sleep(1 * attempt)
 
-	async def fetch_batch(self, endpoints: list[str]) -> list[dict | list | None]:
+	async def fetch_batch(self, endpoints: list[FetchRequest]) -> list[dict | list | None]:
 		tasks = [self._fetch_single(endpoint) for endpoint in endpoints]
 		return await asyncio.gather(*tasks)
 
-	async def stream_batch(self, endpoints: list[str]) -> AsyncGenerator[dict | list | None , None]:
+	async def stream_batch(self, endpoints: list[FetchRequest]) -> AsyncGenerator[dict | list | None , None]:
 		tasks = [asyncio.create_task(self._fetch_single(endpoint)) for endpoint in endpoints]
 		try:
 			for coro in asyncio.as_completed(tasks):
@@ -93,9 +103,11 @@ class SkebClient():
 		no_more_pagination: bool = False
 		cur_amt: int = 0
 		while True:
-			req_batch: list[str] = []
+			req_batch: list[FetchRequest] = []
 			for i in range(paginate_per_loop):
-				req_batch.append(f"{type}?sort=date&genre={genre}&offset={offset}&limit={limit}")
+				fr = FetchRequest(endpoint=f"{type}?sort=date&genre={genre}&offset={offset}&limit={limit}")
+				fr.headers["Referer"] = f"{self.BASE}/{type}?sort=date&genre={genre}"
+				req_batch.append(fr)
 				offset += limit
 			
 			for data in await self.fetch_batch(req_batch):
