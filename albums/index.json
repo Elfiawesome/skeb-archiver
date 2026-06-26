@@ -1134,11 +1134,6 @@
   "persistance/2026-06-24_06-33-08/success/": {
     "label": "Success",
     "type": "curated"
-<<<<<<< HEAD
-  },
-  "persistance/2026-06-24_13-10-12/success/": {
-    "label": "Success",
-    "type": "curated"
   },
   "persistance/2026-06-24_22-59-33/rate_limited/": {
     "label": "Rate Limited",
@@ -1407,7 +1402,9 @@
   "persistance/2026-06-26_14-34-54/success/": {
     "label": "Success",
     "type": "curated"
-=======
->>>>>>> parent of 71d7383ae5 (Updated: --preset crawl --extension stop_on_rate_limit:threshold=3 --sleep 0.0001 on 2026-06-24T13:13:41.059692)
+  },
+  "persistance/2026-06-26_15-16-51/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
   }
 }
