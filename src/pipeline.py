@@ -60,6 +60,10 @@ class Pipeline:
 				log.info("Ending pipeline prematurely")
 				break
 
+			if not isinstance(user, dict):
+				log.error(f"Did not receive a 'dict' when requesting user specific data. Got `{user}`")
+				break
+
 			if user.get("failed", False):
 				sn: str = user.get("endpoint", "").replace("users/", "")
 				sc: int | None = user.get("status_code")

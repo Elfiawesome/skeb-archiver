@@ -54,10 +54,7 @@ class SkebClient():
 					async with self._session.get(url, headers=headers, **kwargs) as response:
 						log.info(f"Requesting {url}" + ("" if attempt == 1 else f"({attempt}x)"))
 						response.raise_for_status()
-						data = await response.json()
-						if isinstance(data, list):
-							return {"error": ValueError(f"Unexpected list response: {data}"), "endpoint": endpoint, "failed": True, "status_code": response.status}
-						return data
+						return await response.json()
 						
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					status_code: int | None = None
@@ -102,6 +99,10 @@ class SkebClient():
 				offset += limit
 			
 			for data in await self.fetch_batch(req_batch):
+				if not isinstance(data, list):
+					log.error(f"Did not receive a 'list' when requesting paginated data. Got `{data}`")
+					continue
+
 				if (len(data) < 1) or (cur_amt > max_amt and max_amt > 0):
 					no_more_pagination = True
 					break
