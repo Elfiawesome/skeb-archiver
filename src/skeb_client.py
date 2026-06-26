@@ -1,5 +1,6 @@
 import re
 import random
+import json
 import aiohttp
 import asyncio
 from typing import AsyncGenerator
@@ -66,7 +67,7 @@ class SkebClient():
 						response.raise_for_status()
 						return await response.json()
 						
-				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+				except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError, ValueError) as e:
 					status_code: int | None = None
 					retry_after: int | None = None
 					if isinstance(e, aiohttp.ClientResponseError):
