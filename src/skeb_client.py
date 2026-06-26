@@ -46,15 +46,7 @@ class SkebClient():
 
 	async def _fetch_single(self, endpoint: str, **kwargs) -> dict:
 		url = f"{self.API}/{endpoint}"
-		headers = {
-			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-			"Accept": "application/json, text/plain, */*",
-			"Accept-Language": "en-US,en;q=0.9",
-			"Referer": "https://skeb.jp/",
-			"Origin": "https://skeb.jp",
-			"Authorization": "Bearer null",
-			"Cookie": self._cookie,
-		}
+		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 
 		async with self._semaphore:
 			actual_sleep = max(self.rate_limit_sleep, 0.05)
