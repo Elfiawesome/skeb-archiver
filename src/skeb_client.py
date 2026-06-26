@@ -128,7 +128,7 @@ class SkebClient():
 				break
 	
 	async def fetch_profiles(self, screen_names: set[str]) -> AsyncGenerator[dict, None]:
-		async for profile in self.stream_batch("users/" + sc for sc in screen_names):
+		async for profile in self.stream_batch(FetchRequest("users/" + sc) for sc in screen_names):
 			if not isinstance(profile, dict):
 				log.error(f"Received a non-dict type during fetch_profiles: {profile}")
 				continue
