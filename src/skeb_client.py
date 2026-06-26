@@ -43,7 +43,7 @@ class SkebClient():
 			await self._session.close()
 		self._cookie = None
 
-	async def _fetch_single(self, endpoint: str, **kwargs) -> dict:
+	async def _fetch_single(self, endpoint: str, **kwargs) -> dict | list:
 		url = f"{self.API}/{endpoint}"
 		headers = {"Authorization": "Bearer null", "Cookie": self._cookie}
 
@@ -54,10 +54,7 @@ class SkebClient():
 					async with self._session.get(url, headers=headers, **kwargs) as response:
 						log.info(f"Requesting {url}" + ("" if attempt == 1 else f"({attempt}x)"))
 						response.raise_for_status()
-						data = await response.json()
-						if isinstance(data, list):
-							return {"error": ValueError(f"Unexpected list response: {data}"), "endpoint": endpoint, "failed": True, "status_code": response.status}
-						return data
+						return await response.json()
 						
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					status_code: int | None = None
@@ -69,11 +66,11 @@ class SkebClient():
 					
 					await asyncio.sleep(1 * attempt)
 
-	async def fetch_batch(self, endpoints: list[str]) -> list[dict | None]:
+	async def fetch_batch(self, endpoints: list[str]) -> list[dict | list | None]:
 		tasks = [self._fetch_single(endpoint) for endpoint in endpoints]
 		return await asyncio.gather(*tasks)
 
-	async def stream_batch(self, endpoints: list[str]) -> AsyncGenerator[dict | None , None]:
+	async def stream_batch(self, endpoints: list[str]) -> AsyncGenerator[dict | list | None , None]:
 		tasks = [asyncio.create_task(self._fetch_single(endpoint)) for endpoint in endpoints]
 		try:
 			for coro in asyncio.as_completed(tasks):
@@ -102,6 +99,10 @@ class SkebClient():
 				offset += limit
 			
 			for data in await self.fetch_batch(req_batch):
+				if not isinstance(data, list):
+					log.error(f"Received a none list type during fetch_paginate: {data}")
+					continue
+
 				if (len(data) < 1) or (cur_amt > max_amt and max_amt > 0):
 					no_more_pagination = True
 					break
@@ -116,4 +117,7 @@ class SkebClient():
 	
 	async def fetch_profiles(self, screen_names: set[str]) -> AsyncGenerator[dict, None]:
 		async for profile in self.stream_batch("users/" + sc for sc in screen_names):
+			if not isinstance(profile, dict):
+				log.error(f"Received a non-dict type during fetch_profiles: {profile}")
+				continue
 			yield profile
