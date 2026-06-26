@@ -54,7 +54,10 @@ class SkebClient():
 					async with self._session.get(url, headers=headers, **kwargs) as response:
 						log.info(f"Requesting {url}" + ("" if attempt == 1 else f"({attempt}x)"))
 						response.raise_for_status()
-						return await response.json()
+						data = await response.json()
+						if isinstance(data, list):
+							return {"error": ValueError(f"Unexpected list response: {data}"), "endpoint": endpoint, "failed": True, "status_code": response.status}
+						return data
 						
 				except (aiohttp.ClientError, asyncio.TimeoutError) as e:
 					status_code: int | None = None
@@ -72,10 +75,15 @@ class SkebClient():
 
 	async def stream_batch(self, endpoints: list[str]) -> AsyncGenerator[dict | None , None]:
 		tasks = [asyncio.create_task(self._fetch_single(endpoint)) for endpoint in endpoints]
-		
-		for coro in asyncio.as_completed(tasks):
-			result = await coro
-			yield result
+		try:
+			for coro in asyncio.as_completed(tasks):
+				result = await coro
+				yield result
+		finally:
+			for t in tasks:
+				if not t.done():
+					t.cancel()
+			await asyncio.gather(*tasks, return_exceptions=True)
 
 
 	async def fetch_paginate(self, type: str, sort: str = "date", genre: str = "art", max_amt: int = -1) -> AsyncGenerator[dict, None]:
