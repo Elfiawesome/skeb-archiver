@@ -14,6 +14,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 		self.fetched_names: list[str] = []
 		self.sources_retreived: int = 0
 		self.profile_missing: int = 0
+		self.wrong_type_fetched: int = 0
 		self.albums: dict[str, AlbumBuilder] = {
 			"success": AlbumBuilder().set_name("success").set_label("Success").set_type("curated"),
 			"rate_limited": AlbumBuilder().set_name("rate_limited").set_label("Rate Limited").set_type("curated"),
@@ -39,6 +40,10 @@ class SummaryReportPlugin(ExtensionPlugin):
 		if isinstance(event, ProfileErrorFetchEvent):
 			self.error_list.append(event.endpoint)
 
+		if isinstance(event, WrongTypeFetchEvent):
+			self.wrong_type_fetched += 1
+		
+
 		if isinstance(event, EndEvent):
 			log_text: str = " --- SUMMARY REPORT --- \n"
 			log_text += "  %-20s : %d" % ("Sources Retreived", self.sources_retreived) + "\n"
@@ -46,6 +51,7 @@ class SummaryReportPlugin(ExtensionPlugin):
 			log_text += "  %-20s : %d" % ("Profile Missing", self.profile_missing) + "\n"
 			log_text += "  %-20s : %d" % ("Profile Rate Limited", len(self.albums["rate_limited"].data)) + "\n"
 			log_text += "  %-20s : %d" % ("Profile Error Others", len(self.error_list)) + "\n"
+			log_text += "  %-20s : %d" % ("Wrong Type Fetched", len(self.wrong_type_fetched)) + "\n"
 			log.info(log_text)
 			
 			session_folder = context.store.open_session_date_folder()

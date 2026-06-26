@@ -62,7 +62,12 @@ class Pipeline:
 
 			if not isinstance(user, dict):
 				log.error(f"Did not receive a 'dict' when requesting user specific data. Got `{user}`")
-				break
+				self. raise_event(WrongTypeFetchEvent(
+					expected_type=dict,
+					received_type=type(user),
+					received_data=user
+				))
+				continue
 
 			if user.get("failed", False):
 				sn: str = user.get("endpoint", "").replace("users/", "")
@@ -74,8 +79,9 @@ class Pipeline:
 						status_code=user.get("status_code", ""),
 						endpoint=user.get("endpoint", "")
 					))
-			else:
-				self.raise_event(ProfileFetchedEvent(user))
+				continue
+
+			self.raise_event(ProfileFetchedEvent(user))
 
 	def raise_event(self, event: Event) -> None:
 		for ext in self.extensions:
