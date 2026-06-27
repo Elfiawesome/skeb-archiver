@@ -218,6 +218,7 @@ class SkebClient:
 				for work in data:
 					if self._is_work_banned_image(work):
 						log.error("paginate work page received is a blur banned image: " + str(work))
+						raise ValueError("Fetched a blur image")
 						continue
 
 					yield work
@@ -234,6 +235,7 @@ class SkebClient:
 				continue
 			if self._is_profile_banned_image(profile):
 				log.error("fetch profile received is a blur banned image: " + str(profile))
+				raise ValueError("Fetched a blur image")
 				continue
 
 			yield profile
