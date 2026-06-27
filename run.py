@@ -192,6 +192,7 @@ async def run_pipeline(
 	sleep_min: float = 0.02,
 	sleep_max: float = 0.10,
 	paginate_batch_size: int = 10,
+	cipher: str | None = None,
 ) -> None:
 	"""Create and run the pipeline with given specifications."""
 	store = DataStore(docs_dir=docs_dir, persistance_dir=persistance_dir)
@@ -204,6 +205,7 @@ async def run_pipeline(
 		rate_limit_sleep_min=sleep_min,
 		rate_limit_sleep_max=sleep_max,
 		paginate_batch_size=paginate_batch_size,
+		cipher=cipher,
 	) as client:
 		pipeline = Pipeline(store, client)
 
@@ -313,6 +315,12 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		default=10,
 		help="Number of pagination pages per batch (default: 10)",
 	)
+	parser.add_argument(
+		"--cipher",
+		type=str,
+		default=None,
+		help="Pin a specific OpenSSL cipher string (default: random from pool)",
+	)
 
 	args = parser.parse_args()
 
@@ -398,6 +406,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 	client_kwargs["sleep_min"] = sleep_min
 	client_kwargs["sleep_max"] = sleep_max
 	client_kwargs["paginate_batch_size"] = args.paginate_batch_size
+	client_kwargs["cipher"] = args.cipher
 
 	# Run the pipeline
 	asyncio.run(
