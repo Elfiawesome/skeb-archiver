@@ -109,23 +109,29 @@ class SkebClient:
 			self._session = None
 
 	async def _extract_cookie(self) -> None:
-		try:
-			r = await self._session.get(self.BASE, timeout=self.timeout_sec)
-			r.raise_for_status()
-			body = r.text
+		for attempt in range(1, 4):
+			try:
+				r = await self._session.get(self.BASE, timeout=self.timeout_sec)
+				log.info("Homepage GET status=%d (attempt %d/3)", r.status_code, attempt)
+				body = r.text
 
-			match = self._COOKIE_RE.search(body)
-			if match:
-				cookie_str = match.group(1).rstrip(";")
-				name, _, value = cookie_str.partition("=")
-				self._session.cookies.set(name, value, domain="skeb.jp")
-				display = value[:25] + "..." if len(value) > 25 else value
-				log.info("Cookie extracted [%s=%s].", name, display)
-			else:
-				log.warning("Could not extract request_key from homepage HTML.")
-		except RequestsError as e:
-			log.error("Failed fetching homepage for cookie: %s", e)
-			raise
+				match = self._COOKIE_RE.search(body)
+				if match:
+					cookie_str = match.group(1).rstrip(";")
+					name, _, value = cookie_str.partition("=")
+					self._session.cookies.set(name, value, domain="skeb.jp")
+					log.info("Cookie extracted [%s=...].", name)
+					return
+
+				log.warning("request_key not found in homepage HTML (status=%d).", r.status_code)
+				return
+
+			except Exception as e:
+				log.warning("Homepage fetch failed (attempt %d/3): %s", attempt, e)
+				if attempt < 3:
+					await asyncio.sleep(3 * attempt)
+
+		log.warning("Could not extract cookie after 3 attempts. Relying on curl_cffi session cookies.")
 
 	async def _refresh_cookie(self) -> None:
 		log.info("Refreshing request_key cookie...")
