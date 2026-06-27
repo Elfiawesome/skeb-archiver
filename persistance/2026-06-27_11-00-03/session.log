@@ -1,0 +1,24 @@
+2026-06-27 11:00:03 | INFO     | Initialized Data Store.
+2026-06-27 11:00:03 | INFO     | Client cookie found [request_key=a757fac5:a4755dc5;].
+2026-06-27 11:00:03 | INFO     | Initialized Skeb Client with cipher: TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:ECDHE+AESGCM:ECDHE+CHACHA20:!aNULL:!MD5:!DSS
+2026-06-27 11:01:28 | INFO     | Ready to scrape 109816 items
+2026-06-27 11:01:31 | INFO     | Requesting https://skeb.jp/api/users/hidzuchi_18
+2026-06-27 11:01:31 | ERROR    | fetch profile received is a blur banned image: {'id': 3358613, 'acceptable': True, 'creator': True, 'avatar_url': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd1412049bf96bd6541e52dd54', 'name': 'hidzuchi_18', 'nsfw_acceptable': False, 'screen_name': 'hidzuchi_18', 'language': 'ja', 'header_url': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd1412049bf96bd6541e52dd55', 'body_size': 4500, 'received_works_count': 88, 'received_nsfw_works_count': 58, 'sent_requests_average_cancel_time': None, 'appeal_receivable': True, 'request_master_rank': 37, 'first_requester_rank': 61, 'sent_first_works_count': 69, 'sent_public_works_count': 73, 'popular_creator_rank': 22, 'instruction': 'unspecified', 'asct': None, 'description': '', 'busy': False, 'url': None, 'show_social_profile': False, 'accept_expiration_days': 30, 'complete_expiration_days': 60, 'received_requests_average_response_time': 57009, 'completing_average_time': 87834, 'nc': 119, 'twitter_uid': '859805083', 'user_service_links': [], 'banned': False, 'banned_by': '', 'complete_rate': 1.0, 'og_image_url': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd1412049bf96bd6541e52dd57', 'nijie_id': None, 'dlsite_id': None, 'fanza_id': None, 'pixiv_id': None, 'booth_id': None, 'fantia_id': None, 'fanbox_id': None, 'skima_id': None, 'coconala_id': None, 'patreon_id': None, 'wishlist_id': None, 'youtube_id': None, 'acceptable_only_public': False, 'tip_acceptable': True, 'yearly_report_client_visible': False, 'total_appeals_count': 0, 'skills': [{'genre': 'art', 'default_amount': 14000}], 'payment_methods': {}, 'received_works': [], 'sent_works': [], 'similar_creators': []}
+2026-06-27 11:01:31 | ERROR    | Pipeline crashed unexpectedly
+Traceback (most recent call last):
+  File "/content/m/src/pipeline.py", line 33, in run
+    await self._fetch_profiles_from_sources(sources)
+  File "/content/m/src/pipeline.py", line 64, in _fetch_profiles_from_sources
+    async for user in self.context.client.fetch_profiles(sources):
+  File "/content/m/src/skeb_client.py", line 238, in fetch_profiles
+    raise ValueError("Fetched a blur image")
+ValueError: Fetched a blur image
+2026-06-27 11:01:31 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 109816
+  Profiles Fetched     : 0
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-06-27 11:01:31 | INFO     | Started creating static api data.
+2026-06-27 11:03:03 | INFO     | Album index written to a/albums/index.json (300 albums)
