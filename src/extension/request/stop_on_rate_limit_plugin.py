@@ -5,7 +5,7 @@ from ..extension_plugin import ExtensionPlugin
 
 @register_extension("stop_on_rate_limit")
 class StopOnRateLimit(ExtensionPlugin):
-	def __init__(self, threshold: int = 20):
+	def __init__(self, threshold: int = 10):
 		super().__init__()
 		self.threshold = threshold
 		self.number_success_since_error: int = 0

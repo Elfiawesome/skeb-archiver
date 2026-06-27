@@ -189,10 +189,9 @@ async def run_pipeline(
 	max_concurrency: int = 10,
 	max_retries: int = 3,
 	timeout_sec: int = 30,
-	sleep_min: float = 0.02,
-	sleep_max: float = 0.10,
+	rate_per_sec: float = 3.0,
 	paginate_batch_size: int = 10,
-	cipher: str | None = None,
+	impersonate: str = "chrome120",
 ) -> None:
 	"""Create and run the pipeline with given specifications."""
 	store = DataStore(docs_dir=docs_dir, persistance_dir=persistance_dir)
@@ -202,10 +201,9 @@ async def run_pipeline(
 		max_concurrency=max_concurrency,
 		max_retries=max_retries,
 		timeout_sec=timeout_sec,
-		rate_limit_sleep_min=sleep_min,
-		rate_limit_sleep_max=sleep_max,
 		paginate_batch_size=paginate_batch_size,
-		cipher=cipher,
+		rate_per_sec=rate_per_sec,
+		impersonate=impersonate,
 	) as client:
 		pipeline = Pipeline(store, client)
 
@@ -293,33 +291,22 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		help="HTTP request timeout in seconds (default: 30)",
 	)
 	parser.add_argument(
-		"--sleep-min",
+		"--rate",
 		type=float,
-		default=0.02,
-		help="Minimum rate-limit sleep in seconds (default: 0.02)",
+		default=3.0,
+		help="Max requests per second (default: 3.0)",
 	)
 	parser.add_argument(
-		"--sleep-max",
-		type=float,
-		default=0.10,
-		help="Maximum rate-limit sleep in seconds (default: 0.10)",
-	)
-	parser.add_argument(
-		"--sleep",
-		type=float,
-		help="Shorthand that sets both --sleep-min and --sleep-max to the same value",
+		"--impersonate",
+		type=str,
+		default="chrome120",
+		help="Browser TLS fingerprint to impersonate: chrome110, chrome120, firefox110, safari17_0, edge101, etc. (default: chrome120)",
 	)
 	parser.add_argument(
 		"--paginate-batch-size",
 		type=int,
 		default=10,
 		help="Number of pagination pages per batch (default: 10)",
-	)
-	parser.add_argument(
-		"--cipher",
-		type=str,
-		default=None,
-		help="Pin a specific OpenSSL cipher string (default: random from pool)",
 	)
 
 	args = parser.parse_args()
@@ -394,19 +381,14 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 				)
 				sources_specs.append(("custom", {"names": list(args.names)}))
 
-	# Resolve sleep params (--sleep overrides both min and max)
-	sleep_min = args.sleep if args.sleep is not None else args.sleep_min
-	sleep_max = args.sleep if args.sleep is not None else args.sleep_max
-
 	# Merge: config file provides baseline, CLI args override
 	client_kwargs: dict[str, Any] = {**config_client_params}
 	client_kwargs["max_concurrency"] = args.max_concurrency
 	client_kwargs["max_retries"] = args.max_retries
 	client_kwargs["timeout_sec"] = args.timeout
-	client_kwargs["sleep_min"] = sleep_min
-	client_kwargs["sleep_max"] = sleep_max
+	client_kwargs["rate_per_sec"] = args.rate
+	client_kwargs["impersonate"] = args.impersonate
 	client_kwargs["paginate_batch_size"] = args.paginate_batch_size
-	client_kwargs["cipher"] = args.cipher
 
 	# Run the pipeline
 	asyncio.run(

@@ -66,15 +66,18 @@ class Pipeline:
 				log.info("Ending pipeline prematurely")
 				break
 
-			if user.get("failed", False):
-				sn: str = user.get("endpoint", "").replace("users/", "")
-				sc: int | None = user.get("status_code")
-				if sc == 429: self.raise_event(ProfileTooManyRequestsFetchedEvent(screen_name=sn))
-				elif sc == 404: self.raise_event(ProfileMissingEvent(screen_name=sn))
-				else: self. raise_event(ProfileErrorFetchEvent(
-						error=user.get("error", ""),
-						status_code=user.get("status_code", ""),
-						endpoint=user.get("endpoint", "")
+			if isinstance(user, dict) and user.get("failed", False):
+				sn: str = str(user.get("endpoint", "")).replace("users/", "")
+				sc = user.get("status_code")
+				if sc == 429:
+					self.raise_event(ProfileTooManyRequestsFetchedEvent(screen_name=sn))
+				elif sc == 404:
+					self.raise_event(ProfileMissingEvent(screen_name=sn))
+				else:
+					self.raise_event(ProfileErrorFetchEvent(
+						error=str(user.get("error", "")),
+						status_code=sc if isinstance(sc, int) else 0,
+						endpoint=str(user.get("endpoint", ""))
 					))
 			else:
 				self.raise_event(ProfileFetchedEvent(user))
