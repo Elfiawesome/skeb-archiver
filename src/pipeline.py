@@ -21,18 +21,24 @@ class Pipeline:
 		self.extensions.append(extension)
 
 	async def run(self) -> None:
-		# 0. Setup process
-		self._setup()
+		try:
+			# 0. Setup process
+			self._setup()
 
-		# 1. Get sources from all
-		sources = await self._get_sources()
-		log.info(f"Ready to scrape {len(sources)} items")
+			# 1. Get sources from all
+			sources = await self._get_sources()
+			log.info(f"Ready to scrape {len(sources)} items")
 
-		# 2. Fetch all profiles
-		await self._fetch_profiles_from_sources(sources)
+			# 2. Fetch all profiles
+			await self._fetch_profiles_from_sources(sources)
 
-		# 4. End!
-		self.raise_event(EndEvent())
+		except Exception:
+			log.exception("Pipeline crashed unexpectedly")
+			raise
+
+		finally:
+			# 4. End!
+			self.raise_event(EndEvent())
 
 	def _setup(self) -> None:
 		self.extensions.sort(key=lambda x: x.priority)

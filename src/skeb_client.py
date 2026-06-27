@@ -124,7 +124,7 @@ class SkebClient:
 		))
 	
 	def _is_contain_banned_image_url(self, urls: list[str] | tuple[str]):
-		return any(u.startswith(self.BAN_IMAGE_URL) for u in urls)
+		return any(u and u.startswith(self.BAN_IMAGE_URL) for u in urls)
 
 	def _build_paginate_batch(self, *, type_: str, genre: str, offset: int, limit: int) -> list[FetchRequest]:
 		batch: list[FetchRequest] = []
