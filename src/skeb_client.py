@@ -107,15 +107,23 @@ class SkebClient:
 					t.cancel()
 			await asyncio.gather(*tasks, return_exceptions=True)
 
-	def _is_banned_image(self, work: dict) -> bool:
+	def _is_profile_banned_image(self, profile: dict) -> bool:
+		au = profile.get("avatar_url", "")
+		hu = profile.get("header_url", "")
+		oiu = profile.get("og_image_url", "")
+		return self._is_contain_banned_image_url((au, hu, oiu))
+
+	def _is_work_banned_image(self, work: dict) -> bool:
 		tiu = work.get("thumbnail_image_urls", {})
 		ctiu = work.get("consored_thumbnail_image_urls", {})
-		urls = (
+		return self._is_contain_banned_image_url((
 			tiu.get("src", ""),
 			tiu.get("srcset", ""),
 			ctiu.get("src", ""),
 			ctiu.get("srcset", ""),
-		)
+		))
+	
+	def _is_contain_banned_image_url(self, urls: list[str] | tuple[str]):
 		return any(u.startswith(self.BAN_IMAGE_URL) for u in urls)
 
 	def _build_paginate_batch(self, *, type_: str, genre: str, offset: int, limit: int) -> list[FetchRequest]:
@@ -157,7 +165,7 @@ class SkebClient:
 					break
 
 				for work in data:
-					if self._is_banned_image(work):
+					if self._is_work_banned_image(work):
 						log.error("paginate work page received is a blur banned image: " + str(work))
 						continue
 
@@ -173,4 +181,8 @@ class SkebClient:
 			if not isinstance(profile, dict):
 				log.error(f"Received a non-dict type during fetch_profiles: {profile}")
 				continue
+			if self._is_profile_banned_image(profile):
+				log.error("fetch profile received is a blur banned image: " + str(profile))
+				continue
+
 			yield profile
