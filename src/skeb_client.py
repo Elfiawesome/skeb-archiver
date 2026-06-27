@@ -132,11 +132,11 @@ class SkebClient():
 				for work in data:
 					# Check for image limiting
 					tiu = work.get("thumbnail_image_urls", {})
-					tiu_src: str = tiu.get("src")
-					tiu_srcset: str = tiu.get("srcset")
+					tiu_src: str = tiu.get("src", "")
+					tiu_srcset: str = tiu.get("srcset", "")
 					ctiu = work.get("consored_thumbnail_image_urls", {})
-					ctiu_src: str = tiu.get("src")
-					ctiu_srcset: str = tiu.get("srcset")
+					ctiu_src: str = tiu.get("src", "")
+					ctiu_srcset: str = tiu.get("srcset", "")
 					BAN_IMAGE_CHECKER = "https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41"
 					if tiu_src.startswith(BAN_IMAGE_CHECKER) or tiu_srcset.startswith(BAN_IMAGE_CHECKER) or ctiu_src.startswith(BAN_IMAGE_CHECKER) or ctiu_srcset.startswith(BAN_IMAGE_CHECKER):
 						log.error("paginate work page received is a blur banned image: "+str(work))
