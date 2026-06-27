@@ -1,6 +1,7 @@
 import re
 import aiohttp
 import asyncio
+import ssl
 from typing import AsyncGenerator
 from .logger import log
 from dataclasses import dataclass, field
@@ -16,6 +17,7 @@ class FetchRequest:
 class SkebClient():
 	BASE: str = "https://skeb.jp"
 	API: str = f"{BASE}/api"
+	DEFAULT_OPENSSL_CIPHER = "ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:!aNULL:!MD5:!DSS"
 	_COOKIE_RE: re.Pattern = re.compile(r"(request_key=.*?;)")
 	
 	def __init__(self) -> None:
@@ -31,7 +33,6 @@ class SkebClient():
 			self.rate_limit_sleep: float = 0.5
 			self.paginate_per_loop = 1
 
-
 		self._session: aiohttp.ClientSession | None = None
 		self._semaphore: asyncio.Semaphore | None = None
 
@@ -39,7 +40,10 @@ class SkebClient():
 	
 	async def __aenter__(self) -> 'SkebClient':
 		timeout = aiohttp.ClientTimeout(total=self.timeout_sec)
-		self._session = aiohttp.ClientSession(timeout=timeout)
+		ssl_ctx = ssl.create_default_context()
+		ssl_ctx.set_ciphers(self.DEFAULT_OPENSSL_CIPHER)
+		connector = aiohttp.TCPConnector(ssl=ssl_ctx)
+		self._session = aiohttp.ClientSession(timeout=timeout, connector=connector)
 		
 		async with self._session.get(self.BASE) as r:
 			body = await r.text()
