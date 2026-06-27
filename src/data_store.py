@@ -4,7 +4,7 @@ import hashlib
 from typing import Generator
 from pathlib import Path
 from unicodedata import name
-from .logger import log
+from .logger import log, add_file_handler
 from .album import AlbumBuilder
 from datetime import datetime, timezone
 
@@ -24,6 +24,8 @@ class DataStore:
 		self._persistance_dir.mkdir(parents=True, exist_ok=True)
 		
 		self.start_time = self.timestamp_now()
+		self._session_folder = self.open_session_date_folder()
+		add_file_handler(str(self._session_folder / "session.log"))
 		log.info("Initialized Data Store.")
 	
 	def timestamp_now(self) -> float:

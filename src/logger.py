@@ -4,6 +4,16 @@ import sys
 
 _CONFIGURED = False
 
+def add_file_handler(log_file: str) -> None:
+	logger = logging.getLogger("skeb")
+	fh = logging.FileHandler(log_file, encoding="utf-8")
+	fh.setFormatter(logging.Formatter(
+		fmt="%(asctime)s | %(levelname)-8s | %(message)s",
+		datefmt="%Y-%m-%d %H:%M:%S",
+	))
+	logger.addHandler(fh)
+
+
 def get_logger(
 	name: str = "skeb",
 	level: int = logging.INFO,
