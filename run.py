@@ -158,8 +158,8 @@ def load_config(filepath: str) -> dict[str, Any]:
 	return config
 
 
-def config_to_specs(config: dict) -> tuple[list[tuple[str, dict]], list[tuple[str, dict]], str | None, str | None]:
-	"""Extract source/extension specs and directory settings from config dict."""
+def config_to_specs(config: dict) -> tuple[list[tuple[str, dict]], list[tuple[str, dict]], str | None, str | None, dict[str, Any]]:
+	"""Extract source/extension specs, directory settings, and client params from config dict."""
 	source_specs = []
 	for src in config["sources"]:
 		name = src["name"]
@@ -174,7 +174,8 @@ def config_to_specs(config: dict) -> tuple[list[tuple[str, dict]], list[tuple[st
 
 	docs_dir = config.get("docs_dir", "docs")
 	persistance_dir = config.get("persistance_dir", None)
-	return source_specs, ext_specs, docs_dir, persistance_dir
+	client_params = config.get("client", {})
+	return source_specs, ext_specs, docs_dir, persistance_dir, client_params
 
 
 # ---------------------------------------------------------------------------
@@ -185,14 +186,25 @@ async def run_pipeline(
 	extensions_specs: list[tuple[str, dict]],
 	docs_dir: str = "docs",
 	persistance_dir: str | None = None,
-	client_sleep: float = 0.05
+	max_concurrency: int = 10,
+	max_retries: int = 3,
+	timeout_sec: int = 30,
+	sleep_min: float = 0.02,
+	sleep_max: float = 0.10,
+	paginate_batch_size: int = 10,
 ) -> None:
 	"""Create and run the pipeline with given specifications."""
 	store = DataStore(docs_dir=docs_dir, persistance_dir=persistance_dir)
 	sources, extensions = build_sources_extensions(sources_specs, extensions_specs)
 
-	async with SkebClient() as client:
-		client.rate_limit_sleep = client_sleep
+	async with SkebClient(
+		max_concurrency=max_concurrency,
+		max_retries=max_retries,
+		timeout_sec=timeout_sec,
+		rate_limit_sleep_min=sleep_min,
+		rate_limit_sleep_max=sleep_max,
+		paginate_batch_size=paginate_batch_size,
+	) as client:
 		pipeline = Pipeline(store, client)
 
 		for src in sources:
@@ -261,9 +273,45 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		help="List of screen names for the 'custom' source (used with --preset custom or manual --source custom)",
 	)
 	parser.add_argument(
+		"--max-concurrency",
+		type=int,
+		default=10,
+		help="Maximum concurrent requests (default: 10)",
+	)
+	parser.add_argument(
+		"--max-retries",
+		type=int,
+		default=3,
+		help="Maximum retry attempts per request (default: 3)",
+	)
+	parser.add_argument(
+		"--timeout",
+		type=int,
+		default=30,
+		help="HTTP request timeout in seconds (default: 30)",
+	)
+	parser.add_argument(
+		"--sleep-min",
+		type=float,
+		default=0.02,
+		help="Minimum rate-limit sleep in seconds (default: 0.02)",
+	)
+	parser.add_argument(
+		"--sleep-max",
+		type=float,
+		default=0.10,
+		help="Maximum rate-limit sleep in seconds (default: 0.10)",
+	)
+	parser.add_argument(
 		"--sleep",
-		default=0.05,
-		help="Modify SkebClient's rate_limit_sleep"
+		type=float,
+		help="Shorthand that sets both --sleep-min and --sleep-max to the same value",
+	)
+	parser.add_argument(
+		"--paginate-batch-size",
+		type=int,
+		default=10,
+		help="Number of pagination pages per batch (default: 10)",
 	)
 
 	args = parser.parse_args()
@@ -273,6 +321,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 	extensions_specs: list[tuple[str, dict]] = []
 	docs_dir = args.docs_dir
 	persistance_dir = args.persistance_dir
+	config_client_params: dict[str, Any] = {}
 
 	if args.config:
 		# Config mode – ignore preset and manual args
@@ -282,7 +331,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 			)
 		try:
 			config = load_config(args.config)
-			sources_specs, extensions_specs, docs_dir, persistance_dir = config_to_specs(config)
+			sources_specs, extensions_specs, docs_dir, persistance_dir, config_client_params = config_to_specs(config)
 		except Exception as e:
 			print(f"Error loading config file: {e}", file=sys.stderr)
 			sys.exit(1)
@@ -337,9 +386,25 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 				)
 				sources_specs.append(("custom", {"names": list(args.names)}))
 
+	# Resolve sleep params (--sleep overrides both min and max)
+	sleep_min = args.sleep if args.sleep is not None else args.sleep_min
+	sleep_max = args.sleep if args.sleep is not None else args.sleep_max
+
+	# Merge: config file provides baseline, CLI args override
+	client_kwargs: dict[str, Any] = {**config_client_params}
+	client_kwargs["max_concurrency"] = args.max_concurrency
+	client_kwargs["max_retries"] = args.max_retries
+	client_kwargs["timeout_sec"] = args.timeout
+	client_kwargs["sleep_min"] = sleep_min
+	client_kwargs["sleep_max"] = sleep_max
+	client_kwargs["paginate_batch_size"] = args.paginate_batch_size
+
 	# Run the pipeline
 	asyncio.run(
-		run_pipeline(sources_specs, extensions_specs, docs_dir, persistance_dir, float(args.sleep))
+		run_pipeline(
+			sources_specs, extensions_specs, docs_dir, persistance_dir,
+			**client_kwargs,
+		)
 	)
 
 

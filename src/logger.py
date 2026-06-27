@@ -1,13 +1,13 @@
 import logging
 import sys
-from typing import Optional
+
 
 _CONFIGURED = False
 
 def get_logger(
 	name: str = "skeb",
 	level: int = logging.INFO,
-	log_file: Optional[str] = None,
+	log_file: str | None = None,
 ) -> logging.Logger:
 	global _CONFIGURED
 	logger = logging.getLogger(name)
