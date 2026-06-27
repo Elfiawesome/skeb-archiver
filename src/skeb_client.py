@@ -69,7 +69,7 @@ class SkebClient:
 		"https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41",
 	]
 
-	REQUIRED_WORK_FIELDS: set[str] = {"id", "path", "thumbnail_image_urls"}
+	REQUIRED_WORK_FIELDS: set[str] = set()
 	REQUIRED_PROFILE_FIELDS: set[str] = {"screen_name", "id", "skills"}
 
 	def __init__(
@@ -251,16 +251,18 @@ class SkebClient:
 	def _validate_work(self, work: dict) -> bool:
 		if not isinstance(work, dict):
 			return False
-		if not self.REQUIRED_WORK_FIELDS.issubset(work.keys()):
-			missing = self.REQUIRED_WORK_FIELDS - work.keys()
-			log.warning("Work missing fields: %s", missing)
-			return False
+		if self.REQUIRED_WORK_FIELDS:
+			if not self.REQUIRED_WORK_FIELDS.issubset(work.keys()):
+				missing = self.REQUIRED_WORK_FIELDS - work.keys()
+				log.warning("Work missing fields: %s", missing)
+				return False
 		return True
 
 	def _is_valid_work(self, work: dict) -> bool:
 		if not self._validate_work(work):
 			return False
-		if self._is_work_banned_image(work):
+		has_images = any(k in work for k in ("thumbnail_image_urls", "censored_thumbnail_image_urls"))
+		if has_images and self._is_work_banned_image(work):
 			return False
 		return True
 
