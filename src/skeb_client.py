@@ -11,7 +11,6 @@ class FetchRequest:
 	endpoint: str
 	headers: dict[str] = field(default_factory=lambda: {
 		"Authorization": "Bearer null",
-		# "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
 	})
 
 class SkebClient():
@@ -20,10 +19,18 @@ class SkebClient():
 	_COOKIE_RE: re.Pattern = re.compile(r"(request_key=.*?;)")
 	
 	def __init__(self) -> None:
+		self.safe_mode = False
 		self.max_sync_request: int = 10
 		self.max_retries: int = 3
 		self.timeout_sec: int = 30
 		self.rate_limit_sleep: float = 0.05
+		self.paginate_per_loop = 10
+
+		if self.safe_mode:
+			self.max_sync_request: int = 1
+			self.rate_limit_sleep: float = 0.5
+			self.paginate_per_loop = 1
+
 
 		self._session: aiohttp.ClientSession | None = None
 		self._semaphore: asyncio.Semaphore | None = None
@@ -95,7 +102,6 @@ class SkebClient():
 
 	async def fetch_paginate(self, type: str, sort: str = "date", genre: str = "art", max_amt: int = -1) -> AsyncGenerator[dict, None]:
 		log.info(f"Start pagination for work type '{type}' and genre '{genre}'.")
-		paginate_per_loop = 10
 		
 		offset = 0
 		limit = 90
@@ -104,7 +110,7 @@ class SkebClient():
 		cur_amt: int = 0
 		while True:
 			req_batch: list[FetchRequest] = []
-			for i in range(paginate_per_loop):
+			for i in range(self.paginate_per_loop):
 				fr = FetchRequest(endpoint=f"{type}?sort=date&genre={genre}&offset={offset}&limit={limit}")
 				fr.headers["Referer"] = f"{self.BASE}/{type}?sort=date&genre={genre}"
 				req_batch.append(fr)
@@ -120,6 +126,18 @@ class SkebClient():
 					break
 				
 				for work in data:
+					# Check for image limiting
+					tiu = work.get("thumbnail_image_urls", {})
+					tiu_src: str = tiu.get("src")
+					tiu_srcset: str = tiu.get("srcset")
+					ctiu = work.get("consored_thumbnail_image_urls", {})
+					ctiu_src: str = tiu.get("src")
+					ctiu_srcset: str = tiu.get("srcset")
+					BAN_IMAGE_CHECKER = "https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41"
+					if tiu_src.startswith(BAN_IMAGE_CHECKER) or tiu_srcset.startswith(BAN_IMAGE_CHECKER) or ctiu_src.startswith(BAN_IMAGE_CHECKER) or ctiu_srcset.startswith(BAN_IMAGE_CHECKER):
+						log.error("paginate work page received is a blur banned image: "+str(work))
+						continue
+					
 					yield work
 					cur_amt += 1
 			
