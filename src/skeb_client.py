@@ -22,7 +22,7 @@ class RateLimiter:
 		self.base_rate = rate_per_sec
 		self.current_rate = rate_per_sec
 		self.min_rate = max(0.3, rate_per_sec * 0.1)
-		self.max_cooldown = 30.0
+		self.max_cooldown = 10.0
 		self.tokens = rate_per_sec
 		self.last_refill = time.monotonic()
 		self._lock = asyncio.Lock()
@@ -36,7 +36,7 @@ class RateLimiter:
 
 				if now >= self._cooldown_until:
 					elapsed = now - self.last_refill
-					self.tokens = min(self.current_rate, self.tokens + elapsed * self.current_rate)
+					self.tokens = min(self.base_rate, self.tokens + elapsed * self.current_rate)
 					self.last_refill = now
 
 					if self.tokens >= 1.0:
