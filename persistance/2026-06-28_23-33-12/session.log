@@ -1,0 +1,128 @@
+2026-06-28 23:33:12 | INFO     | Initialized Data Store.
+2026-06-28 23:33:13 | INFO     | Homepage GET status=429 (attempt 1/3)
+2026-06-28 23:33:13 | INFO     | Cookie extracted [request_key=...].
+2026-06-28 23:33:13 | INFO     | SkebClient ready (impersonate=chrome120, rate=3.0/s, concurrency=10, max_runtime=2700s)
+2026-06-28 23:33:13 | INFO     | Pagination start: type='works' genre='art'.
+2026-06-28 23:33:13 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=180&limit=90
+2026-06-28 23:33:13 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=0&limit=90
+2026-06-28 23:33:13 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=90&limit=90
+2026-06-28 23:33:14 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=810&limit=90
+2026-06-28 23:33:14 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=630&limit=90
+2026-06-28 23:33:14 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=450&limit=90
+2026-06-28 23:33:15 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=360&limit=90
+2026-06-28 23:33:15 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=540&limit=90
+2026-06-28 23:33:15 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=270&limit=90
+2026-06-28 23:33:16 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=720&limit=90
+2026-06-28 23:33:16 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=900&limit=90
+2026-06-28 23:33:16 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1530&limit=90
+2026-06-28 23:33:17 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1170&limit=90
+2026-06-28 23:33:17 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1350&limit=90
+2026-06-28 23:33:17 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1080&limit=90
+2026-06-28 23:33:18 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1710&limit=90
+2026-06-28 23:33:18 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1260&limit=90
+2026-06-28 23:33:18 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1440&limit=90
+2026-06-28 23:33:19 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=990&limit=90
+2026-06-28 23:33:19 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1620&limit=90
+2026-06-28 23:33:19 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1800&limit=90
+2026-06-28 23:33:20 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2610&limit=90
+2026-06-28 23:33:20 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1890&limit=90
+2026-06-28 23:33:20 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2070&limit=90
+2026-06-28 23:33:21 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=1980&limit=90
+2026-06-28 23:33:21 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2430&limit=90
+2026-06-28 23:33:22 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2340&limit=90
+2026-06-28 23:33:22 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2160&limit=90
+2026-06-28 23:33:22 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2520&limit=90
+2026-06-28 23:33:22 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2250&limit=90
+2026-06-28 23:33:23 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2700&limit=90
+2026-06-28 23:33:23 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3150&limit=90
+2026-06-28 23:33:23 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3240&limit=90
+2026-06-28 23:33:24 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2970&limit=90
+2026-06-28 23:33:24 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2880&limit=90
+2026-06-28 23:33:24 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3510&limit=90
+2026-06-28 23:33:25 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=2790&limit=90
+2026-06-28 23:33:25 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3420&limit=90
+2026-06-28 23:33:25 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3060&limit=90
+2026-06-28 23:33:26 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3330&limit=90
+2026-06-28 23:33:26 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3960&limit=90
+2026-06-28 23:33:26 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3780&limit=90
+2026-06-28 23:33:26 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=4320&limit=90
+2026-06-28 23:33:27 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=4230&limit=90
+2026-06-28 23:33:27 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=4410&limit=90
+2026-06-28 23:33:28 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3600&limit=90
+2026-06-28 23:33:28 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=4140&limit=90
+2026-06-28 23:33:28 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3690&limit=90
+2026-06-28 23:33:29 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=3870&limit=90
+2026-06-28 23:33:29 | INFO     | OK https://skeb.jp/api/works?sort=date&genre=art&offset=4050&limit=90
+2026-06-28 23:33:29 | INFO     | Empty page (consecutive=1)
+2026-06-28 23:33:29 | INFO     | Empty page (consecutive=2)
+2026-06-28 23:33:29 | INFO     | End of pagination (2 empty pages).
+2026-06-28 23:33:29 | INFO     | Pagination done: 4000 items for 'works'.
+2026-06-28 23:33:29 | INFO     | Pagination start: type='users' genre='art'.
+2026-06-28 23:33:29 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=720&limit=90
+2026-06-28 23:33:29 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=0&limit=90
+2026-06-28 23:33:30 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=270&limit=90
+2026-06-28 23:33:30 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=90&limit=90
+2026-06-28 23:33:30 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=630&limit=90
+2026-06-28 23:33:31 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=450&limit=90
+2026-06-28 23:33:31 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=180&limit=90
+2026-06-28 23:33:31 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=540&limit=90
+2026-06-28 23:33:32 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=810&limit=90
+2026-06-28 23:33:32 | INFO     | OK https://skeb.jp/api/users?sort=date&genre=art&offset=360&limit=90
+2026-06-28 23:33:32 | INFO     | Empty page (consecutive=1)
+2026-06-28 23:33:32 | INFO     | Empty page (consecutive=2)
+2026-06-28 23:33:32 | INFO     | End of pagination (2 empty pages).
+2026-06-28 23:33:32 | INFO     | Pagination done: 400 items for 'users'.
+2026-06-28 23:33:32 | INFO     | Ready to scrape 3527 items
+2026-06-28 23:33:32 | INFO     | OK https://skeb.jp/api/users/monyamonya78
+2026-06-28 23:33:32 | INFO     | Saving at a/skeb/monyamonya78-dd6401.json
+2026-06-28 23:33:33 | INFO     | OK https://skeb.jp/api/users/minakamin90
+2026-06-28 23:33:33 | INFO     | Saving at a/skeb/minakamin90-68c558.json
+2026-06-28 23:33:33 | INFO     | OK https://skeb.jp/api/users/ywyw_MNTL
+2026-06-28 23:33:33 | INFO     | Saving at a/skeb/ywyw_MNTL-44a8e3.json
+2026-06-28 23:33:33 | INFO     | OK https://skeb.jp/api/users/y_zp_113
+2026-06-28 23:33:33 | INFO     | Saving at a/skeb/y_zp_113-7f1b4c.json
+2026-06-28 23:33:34 | INFO     | OK https://skeb.jp/api/users/YUU_tkmin
+2026-06-28 23:33:34 | INFO     | Saving at a/skeb/YUU_tkmin-756a9e.json
+2026-06-28 23:33:34 | INFO     | OK https://skeb.jp/api/users/5legDog
+2026-06-28 23:33:34 | INFO     | Saving at a/skeb/5legDog-ccee11.json
+2026-06-28 23:33:35 | INFO     | OK https://skeb.jp/api/users/Keine_yuusya
+2026-06-28 23:33:35 | INFO     | Saving at a/skeb/Keine_yuusya-4a4853.json
+2026-06-28 23:33:35 | INFO     | OK https://skeb.jp/api/users/nekochan_kawai1
+2026-06-28 23:33:35 | INFO     | Saving at a/skeb/nekochan_kawai1-a2247b.json
+2026-06-28 23:33:35 | INFO     | OK https://skeb.jp/api/users/uchicoonigiri
+2026-06-28 23:33:35 | INFO     | Saving at a/skeb/uchicoonigiri-30011a.json
+2026-06-28 23:33:35 | INFO     | OK https://skeb.jp/api/users/toribado03
+2026-06-28 23:33:35 | INFO     | Saving at a/skeb/toribado03-ef0def.json
+2026-06-28 23:33:36 | INFO     | OK https://skeb.jp/api/users/kasabo0
+2026-06-28 23:33:36 | INFO     | Saving at a/skeb/kasabo0-66a414.json
+2026-06-28 23:33:36 | INFO     | OK https://skeb.jp/api/users/_ko_oketi5
+2026-06-28 23:33:36 | INFO     | Saving at a/skeb/_ko_oketi5-d027eb.json
+2026-06-28 23:33:37 | INFO     | OK https://skeb.jp/api/users/zimasanda2
+2026-06-28 23:33:37 | INFO     | Saving at a/skeb/zimasanda2-699d9d.json
+2026-06-28 23:33:37 | INFO     | OK https://skeb.jp/api/users/b900_x6
+2026-06-28 23:33:37 | INFO     | Saving at a/skeb/b900_x6-093d64.json
+2026-06-28 23:33:37 | INFO     | OK https://skeb.jp/api/users/kitagime_omega
+2026-06-28 23:33:37 | INFO     | Saving at a/skeb/kitagime_omega-94ef92.json
+2026-06-28 23:33:38 | INFO     | OK https://skeb.jp/api/users/usaneko_aihj
+2026-06-28 23:33:38 | INFO     | Saving at a/skeb/usaneko_aihj-5d3919.json
+2026-06-28 23:33:38 | INFO     | OK https://skeb.jp/api/users/draw_hokunori
+2026-06-28 23:33:38 | INFO     | Saving at a/skeb/draw_hokunori-61821a.json
+2026-06-28 23:33:38 | INFO     | OK https://skeb.jp/api/users/robatakahiro
+2026-06-28 23:33:38 | INFO     | Saving at a/skeb/robatakahiro-bd09fa.json
+2026-06-28 23:33:38 | INFO     | OK https://skeb.jp/api/users/sitautoy
+2026-06-28 23:33:38 | INFO     | Saving at a/skeb/sitautoy-4a5dec.json
+2026-06-28 23:33:39 | INFO     | OK https://skeb.jp/api/users/MoMoMo_0629
+2026-06-28 23:33:39 | INFO     | Saving at a/skeb/MoMoMo_0629-320cc1.json
+2026-06-28 23:33:39 | INFO     | OK https://skeb.jp/api/users/_M_0_T_H_
+2026-06-28 23:33:39 | INFO     | Saving at a/skeb/_M_0_T_H_-29f631.json
+2026-06-28 23:33:40 | INFO     | OK https://skeb.jp/api/users/BlytheCd
+2026-06-28 23:33:40 | INFO     | Saving at a/skeb/BlytheCd-6aaa48.json
+2026-06-28 23:33:40 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 3527
+  Profiles Fetched     : 22
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-06-28 23:33:40 | INFO     | Started creating static api data.
+2026-06-28 23:33:40 | INFO     | Album index written to a/albums/index.json (2 albums)
