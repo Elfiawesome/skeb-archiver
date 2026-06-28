@@ -1,0 +1,27 @@
+2026-06-27 17:52:42 | INFO     | Initialized Data Store.
+2026-06-27 17:52:42 | INFO     | Client cookie found [request_key=be59b463:907658ed;].
+2026-06-27 17:52:42 | INFO     | Initialized Skeb Client with cipher: ECDHE+CHACHA20:ECDHE+AES256:ECDHE+AES128:!aNULL:!MD5:!DSS
+2026-06-27 17:52:42 | INFO     | Start pagination for work type 'works' and genre 'art'.
+2026-06-27 17:52:42 | INFO     | Requesting https://skeb.jp/api/works?sort=date&genre=art&offset=0&limit=90
+2026-06-27 17:52:42 | ERROR    | paginate work page received is a blur banned image: {'path': '/@DLYCuEmPVW/works/190', 'private_thumbnail_image_urls': None, 'private': False, 'genre': 'art', 'tipped': False, 'creator_id': 7449003, 'vtt_url': None, 'thumbnail_image_urls': {'src': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a6', 'srcset': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a7,https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a2x,https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a3x,'}, 'duration': None, 'nsfw': False, 'hardcore': False, 'consored_thumbnail_image_urls': {'src': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a6', 'srcset': 'https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a7,https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a2x,https://si.imgix.net/867e437f/uploads/origins/a9275de5-30c2-424c-9c23-ac3b9e52da41?w=4&h=4&blur=1576&s=a15f3ffc880a9c57016f1a5bd141204951cb038a57966e3a3x,'}, 'body': '%fc%87%65%1a%68%d9%99%69%6c%95%d9%3a%ce%7a%4d%d1%70%a3%a4%5b%57%da%bf%81%3b%87%37%f9%d4%30%30%69%9f%ba%7b%0d%e6%57%2f%2f%12%bb%79%cb%ab%5a%8e%03%c7%42', 'nc': 65, 'word_count': 0, 'transcoder': 'image', 'creator_acceptable_same_genre': True}
+2026-06-27 17:52:42 | ERROR    | Pipeline crashed unexpectedly
+Traceback (most recent call last):
+  File "/content/m/src/pipeline.py", line 29, in run
+    sources = await self._get_sources()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/m/src/pipeline.py", line 51, in _get_sources
+    async for user in source.get_sources(self.context):
+  File "/content/m/src/source/skeb_crawl_source.py", line 12, in get_sources
+    async for item in context.client.fetch_paginate(type_="works", genre="art"):
+  File "/content/m/src/skeb_client.py", line 221, in fetch_paginate
+    raise ValueError("Fetched a blur image")
+ValueError: Fetched a blur image
+2026-06-27 17:52:42 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 0
+  Profiles Fetched     : 0
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-06-27 17:52:42 | INFO     | Started creating static api data.
+2026-06-27 17:54:39 | INFO     | Album index written to a/albums/index.json (300 albums)

@@ -1,9 +1,1217 @@
 {
+  "albums/bookmarks": {
+    "label": "Bookmarks",
+    "type": "reports"
+  },
   "albums/main_index/": {
     "label": "All Artists",
     "type": "full"
   },
-  "persistance/2026-06-28_23-33-12/success/": {
+  "persistance/2026-06-01_15-26-27/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-01_17-56-57/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-01_22-39-41/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-01_23-06-29/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-01_23-45-42/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_11-01-54/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_12-23-10/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_12-23-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_12-38-27/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_12-38-27/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_16-32-01/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_16-32-01/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_16-47-38/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_16-47-38/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_17-14-13/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_17-14-13/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_17-28-22/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_17-28-22/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_22-56-17/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-02_22-56-17/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_05-02-11/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_10-35-30/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_10-35-30/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_10-52-01/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-10-47/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-10-47/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-26-15/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-26-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-43-07/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_14-43-07/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_15-05-44/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-03_15-05-44/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_05-15-27/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_05-15-27/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_10-14-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_10-28-17/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_10-54-37/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_10-54-37/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_11-23-06/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_11-23-06/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_11-52-54/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_11-52-54/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_16-35-50/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_16-35-50/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_16-53-29/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-04_16-53-29/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-05_18-57-01/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-05_19-49-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-05_21-01-39/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-05_21-50-13/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-05_21-50-13/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-06_02-48-51/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-06_12-32-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-06_14-32-28/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-07_01-25-35/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-07_01-25-35/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-07_01-38-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-07_12-50-11/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-07_13-38-43/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_02-14-49/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_02-37-17/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_06-31-33/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_10-24-18/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_10-45-47/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_11-10-55/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-08_11-10-55/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-09_07-34-03/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-09_11-27-47/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-09_12-46-50/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-09_22-24-26/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-10_00-24-42/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-10_21-01-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-10_23-53-27/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_07-44-33/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_08-40-57/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_08-40-57/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_12-55-49/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_12-55-49/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-11_22-46-04/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_06-37-34/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_06-37-34/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_08-42-55/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_09-09-48/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_09-39-06/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_09-39-06/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-10-05/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-10-05/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-37-20/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-37-20/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-55-06/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_10-55-06/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_11-27-06/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_11-27-06/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_12-03-04/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_12-03-04/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_12-18-23/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_12-18-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-02-24/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-02-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-20-56/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-20-56/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-42-25/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_13-42-25/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_14-01-34/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_14-01-34/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_15-13-58/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_15-13-58/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-00-32/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-00-32/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-16-40/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-16-40/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-32-33/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_16-32-33/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_17-06-09/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_17-06-09/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_17-21-55/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-12_17-21-55/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_03-41-22/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_03-41-22/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_03-59-21/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_03-59-21/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_04-39-31/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_04-39-31/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_04-52-09/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_04-52-09/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_06-44-16/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_06-44-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_06-57-45/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_06-57-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_07-10-08/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_07-10-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_07-23-08/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_07-23-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-00-21/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-00-21/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-12-32/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-12-32/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-35-16/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_08-35-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_09-31-34/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_10-10-48/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_11-28-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_12-14-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_12-23-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_12-41-11/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_12-41-11/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-13_16-51-43/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_07-01-46/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_07-01-46/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_08-24-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_08-36-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_12-00-03/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_12-00-03/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_14-29-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_15-36-09/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-14_16-11-13/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_02-51-12/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_03-27-36/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_07-34-46/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_07-34-46/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_07-59-28/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_07-59-28/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_08-09-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-15_08-38-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-16_04-03-18/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-16_07-14-01/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-16_08-23-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-16_14-12-54/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-16_23-27-58/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-17_12-18-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-17_12-41-18/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-17_12-55-57/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-17_14-51-21/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_00-24-59/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_03-48-30/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_12-45-55/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_13-33-35/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-05-36/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-05-36/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-27-22/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-27-22/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-56-10/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_14-56-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_15-51-00/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_15-51-00/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_17-08-07/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_17-08-07/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_17-34-25/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_17-34-25/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_18-38-32/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-18_18-38-32/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-01-28/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-01-28/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-14-56/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-14-56/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-38-07/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_06-38-07/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_07-20-30/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_07-20-30/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_07-45-05/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_07-45-05/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_08-02-23/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_08-02-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_08-13-10/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_08-13-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-04-45/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-04-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-27-04/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-27-04/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-43-15/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_09-43-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_10-08-56/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_10-08-56/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_10-23-56/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_10-23-56/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-16-23/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-16-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-32-40/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-32-40/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-44-37/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_12-44-37/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-01-51/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-01-51/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-18-47/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-18-47/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-32-38/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-32-38/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-45-03/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_13-45-03/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_14-02-19/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_14-02-19/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_14-16-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_14-42-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_15-24-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_15-35-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_15-46-29/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_15-55-19/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_15-55-19/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_16-21-34/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_16-37-26/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-19_17-04-17/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_04-18-37/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_04-34-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_04-43-55/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_06-47-24/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_16-04-39/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_16-40-03/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-20_16-51-49/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-21_18-30-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-21_19-38-23/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-21_22-17-50/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-21_22-46-46/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-22_00-50-37/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-22_02-52-10/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-22_16-55-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-22_17-12-20/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-22_18-03-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_07-53-54/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_14-24-43/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_15-02-03/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_15-46-48/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_15-46-48/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-06-11/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-06-11/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-43-29/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-43-29/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-54-52/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_16-54-52/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-00-45/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-00-45/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-15-05/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-15-05/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-29-30/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-49-13/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_18-49-13/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_19-10-46/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-23_20-08-27/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_04-32-52/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_04-52-40/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_05-28-39/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_05-37-40/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_06-33-08/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-24_13-10-12/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_06-24-13/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_06-24-13/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_07-01-42/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_07-15-39/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_07-29-16/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-21-42/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-21-42/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-38-36/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-38-36/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-56-15/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_09-56-15/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_10-25-49/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_10-25-49/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_10-42-32/rate_limited/": {
+    "label": "Rate Limited",
+    "type": "curated"
+  },
+  "persistance/2026-06-27_10-42-32/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-28_07-44-09/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-28_08-01-14/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-28_09-07-04/success/": {
+    "label": "Success",
+    "type": "curated"
+  },
+  "persistance/2026-06-28_21-49-31/success/": {
     "label": "Success",
     "type": "curated"
   }
