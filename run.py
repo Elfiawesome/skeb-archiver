@@ -192,6 +192,7 @@ async def run_pipeline(
 	rate_per_sec: float = 3.0,
 	paginate_batch_size: int = 10,
 	impersonate: str = "chrome120",
+	max_runtime_sec: float = 0,
 ) -> None:
 	"""Create and run the pipeline with given specifications."""
 	store = DataStore(docs_dir=docs_dir, persistance_dir=persistance_dir)
@@ -204,6 +205,7 @@ async def run_pipeline(
 		paginate_batch_size=paginate_batch_size,
 		rate_per_sec=rate_per_sec,
 		impersonate=impersonate,
+		max_runtime_sec=max_runtime_sec,
 	) as client:
 		pipeline = Pipeline(store, client)
 
@@ -308,6 +310,12 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		default=10,
 		help="Number of pagination pages per batch (default: 10)",
 	)
+	parser.add_argument(
+		"--max-runtime",
+		type=float,
+		default=45.0,
+		help="Max runtime in minutes before graceful exit (0=unlimited). Saves all progress on exit.",
+	)
 
 	args = parser.parse_args()
 
@@ -389,6 +397,7 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 	client_kwargs["rate_per_sec"] = args.rate
 	client_kwargs["impersonate"] = args.impersonate
 	client_kwargs["paginate_batch_size"] = args.paginate_batch_size
+	client_kwargs["max_runtime_sec"] = args.max_runtime * 60 if args.max_runtime > 0 else 0
 
 	# Run the pipeline
 	asyncio.run(

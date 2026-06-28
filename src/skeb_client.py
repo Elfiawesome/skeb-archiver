@@ -21,6 +21,8 @@ class RateLimiter:
 	def __init__(self, rate_per_sec: float = 3.0):
 		self.base_rate = rate_per_sec
 		self.current_rate = rate_per_sec
+		self.min_rate = max(0.3, rate_per_sec * 0.1)
+		self.max_cooldown = 30.0
 		self.tokens = rate_per_sec
 		self.last_refill = time.monotonic()
 		self._lock = asyncio.Lock()
@@ -49,8 +51,8 @@ class RateLimiter:
 
 	def report_429(self):
 		self._consecutive_429s += 1
-		self.current_rate = max(0.3, self.current_rate * 0.5)
-		cooldown = min(120, 6 * (2 ** min(self._consecutive_429s - 1, 4)))
+		self.current_rate = max(self.min_rate, self.current_rate * 0.5)
+		cooldown = min(self.max_cooldown, 6 * (2 ** min(self._consecutive_429s - 1, 4)))
 		self._cooldown_until = time.monotonic() + cooldown
 		self.tokens = 0.0
 
@@ -80,6 +82,7 @@ class SkebClient:
 		paginate_batch_size: int = 10,
 		rate_per_sec: float = 3.0,
 		impersonate: str = "chrome120",
+		max_runtime_sec: float = 0,
 	) -> None:
 		self.max_concurrency = max_concurrency
 		self.max_retries = max_retries
@@ -87,20 +90,24 @@ class SkebClient:
 		self.paginate_batch_size = paginate_batch_size
 		self.rate_per_sec = rate_per_sec
 		self.impersonate = impersonate
+		self.max_runtime_sec = max_runtime_sec
 
 		self._session: AsyncSession | None = None
 		self._semaphore: asyncio.Semaphore | None = None
 		self._rate_limiter: RateLimiter | None = None
+		self._start_time: float = 0.0
 
 	async def __aenter__(self) -> 'SkebClient':
+		self._start_time = time.monotonic()
 		self._session = AsyncSession(impersonate=self.impersonate)
 		self._rate_limiter = RateLimiter(rate_per_sec=self.rate_per_sec)
 
 		await self._extract_cookie()
 
 		self._semaphore = asyncio.Semaphore(self.max_concurrency)
-		log.info("SkebClient ready (impersonate=%s, rate=%.1f/s, concurrency=%d)",
-			self.impersonate, self.rate_per_sec, self.max_concurrency)
+		log.info("SkebClient ready (impersonate=%s, rate=%.1f/s, concurrency=%d, max_runtime=%s)",
+			self.impersonate, self.rate_per_sec, self.max_concurrency,
+			f"{self.max_runtime_sec:.0f}s" if self.max_runtime_sec > 0 else "unlimited")
 		return self
 
 	async def __aexit__(self, exc_type, exc_val, exc_tb) -> None:
@@ -140,11 +147,26 @@ class SkebClient:
 		except Exception as e:
 			log.error("Cookie refresh failed: %s", e)
 
+	def _is_deadline_exceeded(self) -> bool:
+		if self.max_runtime_sec <= 0:
+			return False
+		return time.monotonic() - self._start_time > self.max_runtime_sec
+
 	async def _fetch_single(self, fr: FetchRequest) -> dict | list:
 		url = f"{self.API}/{fr.endpoint}"
 
 		async with self._semaphore:
 			for attempt in range(1, self.max_retries + 1):
+				if self._is_deadline_exceeded():
+					log.info("Max runtime exceeded, cancelling request %s.", url)
+					return {
+						"error": "Max runtime exceeded",
+						"endpoint": fr.endpoint,
+						"failed": True,
+						"cancelled": True,
+						"status_code": None,
+					}
+
 				await self._rate_limiter.acquire()
 
 				try:

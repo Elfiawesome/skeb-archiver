@@ -69,6 +69,15 @@ class Pipeline:
 			if isinstance(user, dict) and user.get("failed", False):
 				sn: str = str(user.get("endpoint", "")).replace("users/", "")
 				sc = user.get("status_code")
+				if user.get("cancelled"):
+					log.info("Pipeline cancelled (max runtime). Stopping.")
+					self.context.cancel_pipeline_flag = True
+					self.raise_event(ProfileErrorFetchEvent(
+						error=str(user.get("error", "Max timed reached!")),
+						status_code=0,
+						endpoint=str(user.get("endpoint", ""))
+					))
+					continue
 				if sc == 429:
 					self.raise_event(ProfileTooManyRequestsFetchedEvent(screen_name=sn))
 				elif sc == 404:
