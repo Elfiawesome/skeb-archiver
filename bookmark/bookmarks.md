@@ -2,13 +2,13 @@
 https://pbs.twimg.com/media/Gg9LSxbbkAA6Xjt?format=jpg&name=large
 https://pbs.twimg.com/media/GaIVsnEaEAA3m_2?format=jpg&name=large
 https://pbs.twimg.com/media/GlvPGXlXEAAgYZD?format=jpg&name=large
-- good rendering and no one follows this guy too
+- [REJECTED] good rendering and no one follows this guy too
 
 # https://skeb.jp/@gnome0310
 https://pbs.twimg.com/media/HEanzeFaYAApz5q?format=jpg&name=large
 https://pbs.twimg.com/media/G_Q81YjbwAA4kR4?format=jpg&name=large
 https://pbs.twimg.com/media/GtYpPbdaIAALhJO?format=jpg&name=medium
-- super good rendering! JOJO art guy 
+- [Waiting] super good rendering! JOJO art guy 
 
 # https://skeb.jp/@myorufu49422
 https://pbs.twimg.com/media/G9d4EuYWgAIQpwH?format=jpg&name=medium
@@ -20,7 +20,7 @@ https://pbs.twimg.com/profile_banners/1933738612140699648/1749991919/1500x500
 https://pbs.twimg.com/media/HGgR3rsbAAAREEl?format=jpg&name=large
 https://pbs.twimg.com/media/HIdCsg8bwAAZDwj?format=jpg&name=large
 https://pbs.twimg.com/media/HFn7KQ2akAUG5VC?format=jpg&name=large
-- holy shit thats some good rendering 
+- holy shit thats some good rendering. But 
 
 # https://skeb.jp/@R28Sm47
 https://pbs.twimg.com/media/Gxm1zBsaoAAWGhD?format=jpg&name=4096x4096
@@ -49,6 +49,7 @@ https://pbs.twimg.com/media/GcisgE-a4AAoDjR?format=jpg&name=medium
 https://pbs.twimg.com/media/HH4tGBgaMAAizBq?format=jpg&name=large
 https://pbs.twimg.com/media/HE_G2_RaAAAPUGC?format=jpg&name=large
 https://pbs.twimg.com/media/HJFKy1NbEAABb5Y?format=jpg&name=large
+https://pbs.twimg.com/media/HK9s6hLa0AAKbkM?format=jpg&name=large
 - cute boy
 
 # https://skeb.jp/@GOmash_kun
@@ -533,4 +534,100 @@ https://pbs.twimg.com/media/G9QoYk7bgAArVVl?format=jpg&name=medium
 https://pbs.twimg.com/media/HJy5KpbagAAU-rA?format=jpg&name=large
 https://pbs.twimg.com/media/HH7Ue_JbAAArB_Q?format=jpg&name=large
 https://pbs.twimg.com/media/HDdUbuZbsAAFXjv?format=jpg&name=large
-- COC guy but i feel like the eyes are not for me tho. Rendering is ok!
+- COC guy but i feel like the eyes are not for me tho. Update: HE DRAWS POTRIT THO :( Rendering is ok!
+
+
+# https://skeb.jp/@shiFenn1210
+https://pbs.twimg.com/media/HIfQaUtacAAjsLD?format=jpg&name=large
+https://pbs.twimg.com/media/HHRV5btawAAqgSw?format=jpg&name=large
+- BL but somehow doesnt do NSFW??
+
+# https://skeb.jp/@mehishiba_
+- Good rendering but I don't think he's active anymore
+
+# https://skeb.jp/@osada_neteru
+https://pbs.twimg.com/media/GsHf8IqaUAQ8xsy?format=jpg&name=small
+https://pbs.twimg.com/media/Goaoyh7WYAAXuY1?format=jpg&name=large
+https://pbs.twimg.com/media/HHx7IMUaQAArAps?format=jpg&name=large
+- The proportion isnt too good but rendering is fine
+
+# https://skeb.jp/@Nanai7
+https://pbs.twimg.com/media/GUoZp96XkAAW9P8?format=jpg&name=large
+https://pbs.twimg.com/media/GWyaf_DXUAEokFi?format=jpg&name=large
+- Full body + positioning? but rendering isnt too good
+
+# https://skeb.jp/@mangazuki97
+https://pbs.twimg.com/media/GpqXU_pbEAAWrvD?format=jpg&name=large
+https://pbs.twimg.com/media/GapkWk4aMAAssPl?format=jpg&name=large
+https://pbs.twimg.com/media/GDPfO_xbMAAp_WY?format=jpg&name=large
+https://pbs.twimg.com/media/GCTrJbfa8AEibMP?format=jpg&name=360x360
+- Could draw pokemon for wh design!!!!
+
+# https://skeb.jp/@K_sera92art
+https://pbs.twimg.com/media/GaaQ3f3bYAAAGtR?format=jpg&name=medium
+https://pbs.twimg.com/media/G5UJ5NIa0AETxiJ?format=jpg&name=medium
+https://pbs.twimg.com/media/HISRshUbAAAnuZA?format=jpg&name=large
+- SUPER GOOD NSFW WORKS! BL included!
+
+# https://skeb.jp/@asa_pple
+https://pbs.twimg.com/media/G1JpV7HbAAAUL0H?format=jpg&name=4096x4096
+- Full body sketchy? Maybe not...
+
+# https://skeb.jp/@_meguri_meguru_
+https://pbs.twimg.com/media/G5tnGGFa4AEzWZR?format=jpg&name=medium
+https://pbs.twimg.com/media/HCj1bvCawAcTbvs?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/E62UBmqVcAI_C95?format=jpg&name=large
+- Proportion isnt there but we could work with this artstyle for fluffy characters
+
+# https://skeb.jp/@_mitoku
+https://pbs.twimg.com/media/HJBpBUnbEAAmdqR?format=jpg&name=large
+https://pbs.twimg.com/media/HI29xxXbkAA8Orc?format=jpg&name=large
+https://pbs.twimg.com/media/HJJavPMa0AAO2r8?format=jpg&name=large
+- GOod proportion and sketchy artstyle. Might use for BY/Hacker design
+
+# https://skeb.jp/@kenomasu_9991
+https://pbs.twimg.com/media/HLpitbKbkAAb28O?format=jpg&name=large
+https://pbs.twimg.com/media/HIlX-X_aIAAa1xb?format=jpg&name=large
+https://pbs.twimg.com/media/HIWnf2ra8AEIV0h?format=jpg&name=large
+- NSFW but proportion are not that nice
+
+# https://skeb.jp/@kido_402G
+https://pbs.twimg.com/media/G_WoAhNXsAEhCr7?format=jpg&name=large
+https://pbs.twimg.com/media/G3nx6Y4WMAAA6hE?format=jpg&name=large
+https://pbs.twimg.com/media/GyPZJ9OaUAAWV6z?format=jpg&name=large
+https://pbs.twimg.com/media/G7qG3gUbQAAIg1P?format=jpg&name=large
+- NSFW Blue Lock & BL guy!
+
+# https://skeb.jp/@tt_czm
+- No color sketchy cute style!
+
+# https://skeb.jp/@L_eeid
+https://pbs.twimg.com/media/HI5h4n-awAAZGeK?format=jpg&name=medium
+https://pbs.twimg.com/media/HJuTdbkaMAEPXxQ?format=jpg&name=medium
+https://pbs.twimg.com/media/HJtfdL6aIAAwTCl?format=jpg&name=medium
+https://pbs.twimg.com/media/HIAkShFbwAAYXLM?format=jpg&name=medium
+- Floyd Leech from Disney Twisted Wonderland. Holy Insane rendering
+
+# https://skeb.jp/@LQ_liberty
+https://pbs.twimg.com/media/HAK0DuVbMAAriiH?format=jpg&name=large
+https://si.imgix.net/e1b7e731/uploads/origins/a9e9105a-e310-419c-ae99-ae8b32d0d4c7?bg=%23fff&txtfont=bold&txtshad=70&txtclr=BFFFFFFF&txtalign=middle%2Ccenter&txtsize=150&txt=SAMPLE&auto=format&fm=webp&w=800&s=0fff4db51d6dcdb3f318cfcce27593a9
+https://si.imgix.net/2c9f9c8e/uploads/origins/788774e5-b24a-4b20-9876-a3231734f3a3?bg=%23fff&txtfont=bold&txtshad=70&txtclr=BFFFFFFF&txtalign=middle%2Ccenter&txtsize=150&txt=SAMPLE&auto=format&fm=webp&w=800&s=8b876238399499197e7ef80ce88a1fbe
+https://pbs.twimg.com/media/HMElWb7WMAAuOW1?format=jpg&name=large
+- Some really good rendering from splatoon. He already has orders but the x.com looks good too!
+
+# https://skeb.jp/@Kanata_Iku
+https://pbs.twimg.com/media/GYB9dNmagAAaRLZ?format=jpg&name=large
+https://pbs.twimg.com/media/GUhsk4ha8AUev9E?format=jpg&name=large
+https://pbs.twimg.com/media/GSaoUhAW8AA-1Bf?format=jpg&name=large
+- Doing realism sketchy color now but used to have a simple nice artstyle
+
+# https://skeb.jp/@2ni_0601
+https://pbs.twimg.com/media/HH9uIxzakAA0DmK?format=jpg&name=large
+https://pbs.twimg.com/media/G1FRIMIaQAEiReB?format=jpg&name=large
+- ANOTHER Dottore only artist?
+
+# https://skeb.jp/@tAIVUD7H57
+https://pbs.twimg.com/media/HL-PvyJaAAA7yWM?format=jpg&name=large
+https://pbs.twimg.com/media/HMN4LbNaAAEZrFS?format=jpg&name=large
+https://pbs.twimg.com/media/HL0Xx-8bcAAMPIi?format=jpg&name=large
+- Never knew we could ship these 2 🇨🇳🇰🇵 countries ._. So far has only send reqeust of chibis, so he might have a mindset that 1k is chibi 
