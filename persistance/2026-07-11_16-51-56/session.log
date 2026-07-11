@@ -1,0 +1,12 @@
+2026-07-12 00:51:56 | INFO     | Initialized Data Store.
+2026-07-12 00:51:56 | INFO     | Homepage GET status=429 (attempt 1/3)
+2026-07-12 00:51:56 | INFO     | Cookie extracted [request_key=...].
+2026-07-12 00:51:56 | INFO     | SkebClient ready (impersonate=chrome120, rate=1.0/s, concurrency=10, max_runtime=39600s)
+2026-07-12 00:52:00 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 3115
+  Profiles Fetched     : 0
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-07-12 00:52:00 | INFO     | Started creating static api data.

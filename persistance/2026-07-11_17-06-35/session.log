@@ -1,0 +1,231 @@
+2026-07-12 01:06:35 | INFO     | Initialized Data Store.
+2026-07-12 01:06:35 | INFO     | Homepage GET status=429 (attempt 1/3)
+2026-07-12 01:06:35 | INFO     | Cookie extracted [request_key=...].
+2026-07-12 01:06:35 | INFO     | SkebClient ready (impersonate=chrome120, rate=1.0/s, concurrency=10, max_runtime=39600s)
+2026-07-12 01:07:34 | INFO     | Ready to scrape 86 items
+2026-07-12 01:07:34 | INFO     | OK https://skeb.jp/api/users/kakisen
+2026-07-12 01:07:34 | INFO     | Saving at archive\skeb\kakisen-32ac17.json
+2026-07-12 01:07:35 | INFO     | OK https://skeb.jp/api/users/valstrax445
+2026-07-12 01:07:35 | INFO     | Saving at archive\skeb\valstrax445-70e82a.json
+2026-07-12 01:07:36 | INFO     | OK https://skeb.jp/api/users/U4Sfo
+2026-07-12 01:07:36 | INFO     | Saving at archive\skeb\U4Sfo-440a27.json
+2026-07-12 01:07:37 | WARNING  | 404 on https://skeb.jp/api/users/ronn_irai (attempt 1/3)
+2026-07-12 01:07:38 | INFO     | OK https://skeb.jp/api/users/f69mtm
+2026-07-12 01:07:38 | INFO     | Saving at archive\skeb\f69mtm-812fcc.json
+2026-07-12 01:07:39 | INFO     | OK https://skeb.jp/api/users/b7z_mu
+2026-07-12 01:07:39 | INFO     | Saving at archive\skeb\b7z_mu-0b15ac.json
+2026-07-12 01:07:40 | WARNING  | 404 on https://skeb.jp/api/users/ronn_irai (attempt 2/3)
+2026-07-12 01:07:41 | WARNING  | 404 on https://skeb.jp/api/users/p_pfp5 (attempt 1/3)
+2026-07-12 01:07:42 | WARNING  | 404 on https://skeb.jp/api/users/77_t2w (attempt 1/3)
+2026-07-12 01:07:43 | INFO     | OK https://skeb.jp/api/users/toyotama_0714
+2026-07-12 01:07:43 | INFO     | Saving at archive\skeb\toyotama_0714-8d973b.json
+2026-07-12 01:07:44 | WARNING  | 404 on https://skeb.jp/api/users/kokorono_376 (attempt 1/3)
+2026-07-12 01:07:45 | WARNING  | 404 on https://skeb.jp/api/users/ronn_irai (attempt 3/3)
+2026-07-12 01:07:46 | INFO     | OK https://skeb.jp/api/users/hadakabuton
+2026-07-12 01:07:46 | INFO     | Saving at archive\skeb\hadakabuton-801e24.json
+2026-07-12 01:07:47 | INFO     | OK https://skeb.jp/api/users/doraEnm
+2026-07-12 01:07:47 | INFO     | Saving at archive\skeb\doraEnm-ddc68c.json
+2026-07-12 01:07:48 | WARNING  | 404 on https://skeb.jp/api/users/meguru_nero (attempt 1/3)
+2026-07-12 01:07:49 | WARNING  | 404 on https://skeb.jp/api/users/77_t2w (attempt 2/3)
+2026-07-12 01:07:50 | WARNING  | 404 on https://skeb.jp/api/users/kokorono_376 (attempt 2/3)
+2026-07-12 01:07:51 | INFO     | OK https://skeb.jp/api/users/sodaro_Yahari
+2026-07-12 01:07:51 | INFO     | Saving at archive\skeb\sodaro_Yahari-646740.json
+2026-07-12 01:07:52 | INFO     | OK https://skeb.jp/api/users/punita
+2026-07-12 01:07:52 | INFO     | Saving at archive\skeb\punita-a18894.json
+2026-07-12 01:07:53 | WARNING  | 404 on https://skeb.jp/api/users/meguru_nero (attempt 2/3)
+2026-07-12 01:07:55 | INFO     | OK https://skeb.jp/api/users/1jinocrm
+2026-07-12 01:07:55 | INFO     | Saving at archive\skeb\1jinocrm-12f9f8.json
+2026-07-12 01:07:55 | WARNING  | 404 on https://skeb.jp/api/users/se3ifinal (attempt 1/3)
+2026-07-12 01:07:56 | INFO     | OK https://skeb.jp/api/users/kashiwa_147
+2026-07-12 01:07:56 | INFO     | Saving at archive\skeb\kashiwa_147-ccd4c7.json
+2026-07-12 01:07:58 | INFO     | OK https://skeb.jp/api/users/tyyn_hy
+2026-07-12 01:07:58 | INFO     | Saving at archive\skeb\tyyn_hy-c2491a.json
+2026-07-12 01:07:59 | WARNING  | 404 on https://skeb.jp/api/users/kokorono_376 (attempt 3/3)
+2026-07-12 01:08:00 | WARNING  | 404 on https://skeb.jp/api/users/Uo_oU_us (attempt 1/3)
+2026-07-12 01:08:01 | WARNING  | 404 on https://skeb.jp/api/users/meguru_nero (attempt 3/3)
+2026-07-12 01:08:02 | WARNING  | 404 on https://skeb.jp/api/users/77_t2w (attempt 3/3)
+2026-07-12 01:08:03 | WARNING  | 404 on https://skeb.jp/api/users/m3x3_sk (attempt 1/3)
+2026-07-12 01:08:04 | WARNING  | 404 on https://skeb.jp/api/users/sakayama_lazuli (attempt 1/3)
+2026-07-12 01:08:05 | WARNING  | 404 on https://skeb.jp/api/users/se3ifinal (attempt 2/3)
+2026-07-12 01:08:06 | INFO     | OK https://skeb.jp/api/users/Genryu_R18_2
+2026-07-12 01:08:06 | INFO     | Saving at archive\skeb\Genryu_R18_2-df8341.json
+2026-07-12 01:08:07 | WARNING  | 404 on https://skeb.jp/api/users/p_pfp5 (attempt 2/3)
+2026-07-12 01:08:08 | WARNING  | 404 on https://skeb.jp/api/users/fukafuka_no_inu (attempt 1/3)
+2026-07-12 01:08:09 | WARNING  | 404 on https://skeb.jp/api/users/se3ifinal (attempt 3/3)
+2026-07-12 01:08:10 | WARNING  | 404 on https://skeb.jp/api/users/Uo_oU_us (attempt 2/3)
+2026-07-12 01:08:11 | WARNING  | 404 on https://skeb.jp/api/users/vHoo__ (attempt 1/3)
+2026-07-12 01:08:12 | INFO     | OK https://skeb.jp/api/users/kokuchi_nono38
+2026-07-12 01:08:12 | INFO     | Saving at archive\skeb\kokuchi_nono38-57c4b2.json
+2026-07-12 01:08:13 | WARNING  | 404 on https://skeb.jp/api/users/p_pfp5 (attempt 3/3)
+2026-07-12 01:08:14 | WARNING  | 404 on https://skeb.jp/api/users/m3x3_sk (attempt 2/3)
+2026-07-12 01:08:15 | WARNING  | 404 on https://skeb.jp/api/users/vHoo__ (attempt 2/3)
+2026-07-12 01:08:16 | WARNING  | 404 on https://skeb.jp/api/users/8oSSUHCnXXz4tBp (attempt 1/3)
+2026-07-12 01:08:17 | INFO     | OK https://skeb.jp/api/users/houma_sss
+2026-07-12 01:08:17 | INFO     | Saving at archive\skeb\houma_sss-8d962f.json
+2026-07-12 01:08:18 | WARNING  | 404 on https://skeb.jp/api/users/ghcfujfc1 (attempt 1/3)
+2026-07-12 01:08:19 | WARNING  | 404 on https://skeb.jp/api/users/polar_kuma62 (attempt 1/3)
+2026-07-12 01:08:20 | WARNING  | 404 on https://skeb.jp/api/users/Llu_ulg (attempt 1/3)
+2026-07-12 01:08:21 | WARNING  | 404 on https://skeb.jp/api/users/8oSSUHCnXXz4tBp (attempt 2/3)
+2026-07-12 01:08:22 | WARNING  | 404 on https://skeb.jp/api/users/ghcfujfc1 (attempt 2/3)
+2026-07-12 01:08:23 | WARNING  | 404 on https://skeb.jp/api/users/Uo_oU_us (attempt 3/3)
+2026-07-12 01:08:24 | WARNING  | 404 on https://skeb.jp/api/users/m3x3_sk (attempt 3/3)
+2026-07-12 01:08:25 | WARNING  | 404 on https://skeb.jp/api/users/sakayama_lazuli (attempt 2/3)
+2026-07-12 01:08:26 | WARNING  | 404 on https://skeb.jp/api/users/pgpcvDCE9G (attempt 1/3)
+2026-07-12 01:08:27 | WARNING  | 404 on https://skeb.jp/api/users/Llu_ulg (attempt 2/3)
+2026-07-12 01:08:28 | WARNING  | 404 on https://skeb.jp/api/users/polar_kuma62 (attempt 2/3)
+2026-07-12 01:08:29 | WARNING  | 404 on https://skeb.jp/api/users/aki_ra3_ (attempt 1/3)
+2026-07-12 01:08:30 | WARNING  | 404 on https://skeb.jp/api/users/8oSSUHCnXXz4tBp (attempt 3/3)
+2026-07-12 01:08:31 | WARNING  | 404 on https://skeb.jp/api/users/fukafuka_no_inu (attempt 2/3)
+2026-07-12 01:08:32 | INFO     | OK https://skeb.jp/api/users/mi__re_n
+2026-07-12 01:08:32 | INFO     | Saving at archive\skeb\mi__re_n-912041.json
+2026-07-12 01:08:33 | WARNING  | 404 on https://skeb.jp/api/users/sakayama_lazuli (attempt 3/3)
+2026-07-12 01:08:34 | WARNING  | 404 on https://skeb.jp/api/users/EDO__nyan (attempt 1/3)
+2026-07-12 01:08:35 | WARNING  | 404 on https://skeb.jp/api/users/aki_ra3_ (attempt 2/3)
+2026-07-12 01:08:36 | WARNING  | 404 on https://skeb.jp/api/users/polar_kuma62 (attempt 3/3)
+2026-07-12 01:08:37 | WARNING  | 404 on https://skeb.jp/api/users/EDO__nyan (attempt 2/3)
+2026-07-12 01:08:38 | WARNING  | 404 on https://skeb.jp/api/users/pgpcvDCE9G (attempt 2/3)
+2026-07-12 01:08:39 | WARNING  | 404 on https://skeb.jp/api/users/vHoo__ (attempt 3/3)
+2026-07-12 01:08:40 | WARNING  | 404 on https://skeb.jp/api/users/nyatta_san (attempt 1/3)
+2026-07-12 01:08:41 | INFO     | OK https://skeb.jp/api/users/bulaiga
+2026-07-12 01:08:41 | INFO     | Saving at archive\skeb\bulaiga-527c82.json
+2026-07-12 01:08:42 | WARNING  | 404 on https://skeb.jp/api/users/Llu_ulg (attempt 3/3)
+2026-07-12 01:08:43 | WARNING  | 404 on https://skeb.jp/api/users/pgpcvDCE9G (attempt 3/3)
+2026-07-12 01:08:44 | WARNING  | 404 on https://skeb.jp/api/users/EDO__nyan (attempt 3/3)
+2026-07-12 01:08:45 | WARNING  | 404 on https://skeb.jp/api/users/T4k73gqSZ26h5si (attempt 1/3)
+2026-07-12 01:08:46 | WARNING  | 404 on https://skeb.jp/api/users/3hankikan0220 (attempt 1/3)
+2026-07-12 01:08:47 | WARNING  | 404 on https://skeb.jp/api/users/fukafuka_no_inu (attempt 3/3)
+2026-07-12 01:08:48 | WARNING  | 404 on https://skeb.jp/api/users/aki_ra3_ (attempt 3/3)
+2026-07-12 01:08:49 | INFO     | OK https://skeb.jp/api/users/Fika83164456
+2026-07-12 01:08:49 | INFO     | Saving at archive\skeb\Fika83164456-66447e.json
+2026-07-12 01:08:50 | WARNING  | 404 on https://skeb.jp/api/users/923kaku (attempt 1/3)
+2026-07-12 01:08:51 | WARNING  | 404 on https://skeb.jp/api/users/mimamorichan (attempt 1/3)
+2026-07-12 01:08:52 | WARNING  | 404 on https://skeb.jp/api/users/ghcfujfc1 (attempt 3/3)
+2026-07-12 01:08:53 | WARNING  | 404 on https://skeb.jp/api/users/nyatta_san (attempt 2/3)
+2026-07-12 01:08:54 | INFO     | OK https://skeb.jp/api/users/rion_727
+2026-07-12 01:08:54 | INFO     | Saving at archive\skeb\rion_727-30bbfe.json
+2026-07-12 01:08:55 | WARNING  | 404 on https://skeb.jp/api/users/mimamorichan (attempt 2/3)
+2026-07-12 01:08:56 | WARNING  | 404 on https://skeb.jp/api/users/oshino_Iriss (attempt 1/3)
+2026-07-12 01:08:57 | WARNING  | 404 on https://skeb.jp/api/users/toxizaki (attempt 1/3)
+2026-07-12 01:08:58 | WARNING  | 404 on https://skeb.jp/api/users/T4k73gqSZ26h5si (attempt 2/3)
+2026-07-12 01:08:59 | INFO     | OK https://skeb.jp/api/users/Circle_Xray
+2026-07-12 01:08:59 | INFO     | Saving at archive\skeb\Circle_Xray-871e2f.json
+2026-07-12 01:09:00 | INFO     | OK https://skeb.jp/api/users/hanatairo17
+2026-07-12 01:09:00 | INFO     | Saving at archive\skeb\hanatairo17-d5fd28.json
+2026-07-12 01:09:01 | WARNING  | 404 on https://skeb.jp/api/users/mimamorichan (attempt 3/3)
+2026-07-12 01:09:02 | WARNING  | 404 on https://skeb.jp/api/users/3hankikan0220 (attempt 2/3)
+2026-07-12 01:09:03 | WARNING  | 404 on https://skeb.jp/api/users/oshino_Iriss (attempt 2/3)
+2026-07-12 01:09:04 | WARNING  | 404 on https://skeb.jp/api/users/T4k73gqSZ26h5si (attempt 3/3)
+2026-07-12 01:09:05 | INFO     | OK https://skeb.jp/api/users/quachill
+2026-07-12 01:09:05 | INFO     | Saving at archive\skeb\quachill-cb497b.json
+2026-07-12 01:09:06 | WARNING  | 404 on https://skeb.jp/api/users/toxizaki (attempt 2/3)
+2026-07-12 01:09:07 | INFO     | OK https://skeb.jp/api/users/ichi_0204_
+2026-07-12 01:09:07 | INFO     | Saving at archive\skeb\ichi_0204_-911f6b.json
+2026-07-12 01:09:08 | WARNING  | 404 on https://skeb.jp/api/users/3hankikan0220 (attempt 3/3)
+2026-07-12 01:09:09 | WARNING  | 404 on https://skeb.jp/api/users/yamin_himamo23 (attempt 1/3)
+2026-07-12 01:09:10 | INFO     | OK https://skeb.jp/api/users/manamana_ai
+2026-07-12 01:09:10 | INFO     | Saving at archive\skeb\manamana_ai-d8e436.json
+2026-07-12 01:09:11 | WARNING  | 404 on https://skeb.jp/api/users/923kaku (attempt 2/3)
+2026-07-12 01:09:12 | WARNING  | 404 on https://skeb.jp/api/users/oshino_Iriss (attempt 3/3)
+2026-07-12 01:09:13 | WARNING  | 404 on https://skeb.jp/api/users/nyatta_san (attempt 3/3)
+2026-07-12 01:09:14 | WARNING  | 404 on https://skeb.jp/api/users/toxizaki (attempt 3/3)
+2026-07-12 01:09:15 | WARNING  | 404 on https://skeb.jp/api/users/kotonesansukida (attempt 1/3)
+2026-07-12 01:09:16 | INFO     | OK https://skeb.jp/api/users/63gooh
+2026-07-12 01:09:16 | INFO     | Saving at archive\skeb\63gooh-750316.json
+2026-07-12 01:09:17 | WARNING  | 404 on https://skeb.jp/api/users/923kaku (attempt 3/3)
+2026-07-12 01:09:18 | INFO     | OK https://skeb.jp/api/users/Aikureru0720
+2026-07-12 01:09:18 | INFO     | Saving at archive\skeb\Aikureru0720-c9616f.json
+2026-07-12 01:09:19 | INFO     | OK https://skeb.jp/api/users/kasukamisuke
+2026-07-12 01:09:19 | INFO     | Saving at archive\skeb\kasukamisuke-226af2.json
+2026-07-12 01:09:20 | WARNING  | 404 on https://skeb.jp/api/users/Ryuzi_27 (attempt 1/3)
+2026-07-12 01:09:21 | WARNING  | 404 on https://skeb.jp/api/users/kotonesansukida (attempt 2/3)
+2026-07-12 01:09:22 | WARNING  | 404 on https://skeb.jp/api/users/yamin_himamo23 (attempt 2/3)
+2026-07-12 01:09:23 | WARNING  | 404 on https://skeb.jp/api/users/kasha0927 (attempt 1/3)
+2026-07-12 01:09:24 | WARNING  | 404 on https://skeb.jp/api/users/Ryuzi_27 (attempt 2/3)
+2026-07-12 01:09:26 | WARNING  | 404 on https://skeb.jp/api/users/lkjeudnduy44 (attempt 1/3)
+2026-07-12 01:09:26 | WARNING  | 404 on https://skeb.jp/api/users/yamin_himamo23 (attempt 3/3)
+2026-07-12 01:09:28 | INFO     | OK https://skeb.jp/api/users/hi_koboshi_07
+2026-07-12 01:09:28 | INFO     | Saving at archive\skeb\hi_koboshi_07-3d2541.json
+2026-07-12 01:09:28 | WARNING  | 404 on https://skeb.jp/api/users/kasha0927 (attempt 2/3)
+2026-07-12 01:09:30 | INFO     | OK https://skeb.jp/api/users/Joe80815553
+2026-07-12 01:09:30 | INFO     | Saving at archive\skeb\Joe80815553-b733b8.json
+2026-07-12 01:09:31 | WARNING  | 404 on https://skeb.jp/api/users/kotonesansukida (attempt 3/3)
+2026-07-12 01:09:32 | WARNING  | 404 on https://skeb.jp/api/users/mimei_Illust (attempt 1/3)
+2026-07-12 01:09:33 | WARNING  | 404 on https://skeb.jp/api/users/NOm0y0i (attempt 1/3)
+2026-07-12 01:09:34 | INFO     | OK https://skeb.jp/api/users/katazaki
+2026-07-12 01:09:34 | INFO     | Saving at archive\skeb\katazaki-5aceb4.json
+2026-07-12 01:09:35 | WARNING  | 404 on https://skeb.jp/api/users/kagoyama_sns (attempt 1/3)
+2026-07-12 01:09:36 | WARNING  | 404 on https://skeb.jp/api/users/kasha0927 (attempt 3/3)
+2026-07-12 01:09:37 | INFO     | OK https://skeb.jp/api/users/hyuga130507
+2026-07-12 01:09:37 | INFO     | Saving at archive\skeb\hyuga130507-1e80cc.json
+2026-07-12 01:09:38 | WARNING  | 404 on https://skeb.jp/api/users/Ryuzi_27 (attempt 3/3)
+2026-07-12 01:09:39 | INFO     | OK https://skeb.jp/api/users/akebo554322
+2026-07-12 01:09:39 | INFO     | Saving at archive\skeb\akebo554322-c7c29e.json
+2026-07-12 01:09:40 | WARNING  | 404 on https://skeb.jp/api/users/mimei_Illust (attempt 2/3)
+2026-07-12 01:09:41 | WARNING  | 404 on https://skeb.jp/api/users/lkjeudnduy44 (attempt 2/3)
+2026-07-12 01:09:42 | INFO     | OK https://skeb.jp/api/users/nagina5156
+2026-07-12 01:09:42 | INFO     | Saving at archive\skeb\nagina5156-a0ac0b.json
+2026-07-12 01:09:43 | WARNING  | 404 on https://skeb.jp/api/users/Genkyou (attempt 1/3)
+2026-07-12 01:09:44 | INFO     | OK https://skeb.jp/api/users/sun_huji
+2026-07-12 01:09:44 | INFO     | Saving at archive\skeb\sun_huji-5b6ac9.json
+2026-07-12 01:09:45 | WARNING  | 404 on https://skeb.jp/api/users/kagoyama_sns (attempt 2/3)
+2026-07-12 01:09:46 | WARNING  | 404 on https://skeb.jp/api/users/kiNero30901 (attempt 1/3)
+2026-07-12 01:09:47 | WARNING  | 404 on https://skeb.jp/api/users/lkjeudnduy44 (attempt 3/3)
+2026-07-12 01:09:48 | WARNING  | 404 on https://skeb.jp/api/users/mimei_Illust (attempt 3/3)
+2026-07-12 01:09:49 | WARNING  | 404 on https://skeb.jp/api/users/soraumi2000_50_ (attempt 1/3)
+2026-07-12 01:09:50 | WARNING  | 404 on https://skeb.jp/api/users/Henzu_23 (attempt 1/3)
+2026-07-12 01:09:51 | WARNING  | 404 on https://skeb.jp/api/users/29Kota2 (attempt 1/3)
+2026-07-12 01:09:52 | WARNING  | 404 on https://skeb.jp/api/users/_meruruto_ (attempt 1/3)
+2026-07-12 01:09:53 | WARNING  | 404 on https://skeb.jp/api/users/29Kota2 (attempt 2/3)
+2026-07-12 01:09:54 | WARNING  | 404 on https://skeb.jp/api/users/Genkyou (attempt 2/3)
+2026-07-12 01:09:55 | WARNING  | 404 on https://skeb.jp/api/users/kiNero30901 (attempt 2/3)
+2026-07-12 01:09:56 | WARNING  | 404 on https://skeb.jp/api/users/_meruruto_ (attempt 2/3)
+2026-07-12 01:09:57 | INFO     | OK https://skeb.jp/api/users/yomuyom
+2026-07-12 01:09:57 | INFO     | Saving at archive\skeb\yomuyom-819a74.json
+2026-07-12 01:09:58 | WARNING  | 404 on https://skeb.jp/api/users/Henzu_23 (attempt 2/3)
+2026-07-12 01:09:59 | WARNING  | 404 on https://skeb.jp/api/users/kagoyama_sns (attempt 3/3)
+2026-07-12 01:10:00 | WARNING  | 404 on https://skeb.jp/api/users/NOm0y0i (attempt 2/3)
+2026-07-12 01:10:01 | WARNING  | 404 on https://skeb.jp/api/users/fm7hxj (attempt 1/3)
+2026-07-12 01:10:02 | WARNING  | 404 on https://skeb.jp/api/users/Henzu_23 (attempt 3/3)
+2026-07-12 01:10:03 | WARNING  | 404 on https://skeb.jp/api/users/_meruruto_ (attempt 3/3)
+2026-07-12 01:10:04 | WARNING  | 404 on https://skeb.jp/api/users/29Kota2 (attempt 3/3)
+2026-07-12 01:10:05 | INFO     | OK https://skeb.jp/api/users/ovo22ovo
+2026-07-12 01:10:05 | INFO     | Saving at archive\skeb\ovo22ovo-a44cf2.json
+2026-07-12 01:10:06 | WARNING  | 404 on https://skeb.jp/api/users/kiNero30901 (attempt 3/3)
+2026-07-12 01:10:07 | WARNING  | 404 on https://skeb.jp/api/users/Geshi_to_ (attempt 1/3)
+2026-07-12 01:10:08 | WARNING  | 404 on https://skeb.jp/api/users/NOm0y0i (attempt 3/3)
+2026-07-12 01:10:09 | WARNING  | 404 on https://skeb.jp/api/users/Genkyou (attempt 3/3)
+2026-07-12 01:10:10 | WARNING  | 404 on https://skeb.jp/api/users/g33kst (attempt 1/3)
+2026-07-12 01:10:11 | INFO     | OK https://skeb.jp/api/users/2945_24452
+2026-07-12 01:10:11 | INFO     | Saving at archive\skeb\2945_24452-592aa9.json
+2026-07-12 01:10:12 | INFO     | OK https://skeb.jp/api/users/_63ng
+2026-07-12 01:10:12 | INFO     | Saving at archive\skeb\_63ng-62947c.json
+2026-07-12 01:10:13 | INFO     | OK https://skeb.jp/api/users/funa__2784
+2026-07-12 01:10:13 | INFO     | Saving at archive\skeb\funa__2784-aba473.json
+2026-07-12 01:10:14 | WARNING  | 404 on https://skeb.jp/api/users/Iam_Ciikawa (attempt 1/3)
+2026-07-12 01:10:15 | WARNING  | 404 on https://skeb.jp/api/users/g33kst (attempt 2/3)
+2026-07-12 01:10:16 | WARNING  | 404 on https://skeb.jp/api/users/killy810 (attempt 1/3)
+2026-07-12 01:10:17 | WARNING  | 404 on https://skeb.jp/api/users/fm7hxj (attempt 2/3)
+2026-07-12 01:10:18 | WARNING  | 404 on https://skeb.jp/api/users/soraumi2000_50_ (attempt 2/3)
+2026-07-12 01:10:19 | INFO     | OK https://skeb.jp/api/users/Kokuban_0301
+2026-07-12 01:10:19 | INFO     | Saving at archive\skeb\Kokuban_0301-10f41c.json
+2026-07-12 01:10:20 | WARNING  | 404 on https://skeb.jp/api/users/Geshi_to_ (attempt 2/3)
+2026-07-12 01:10:21 | WARNING  | 404 on https://skeb.jp/api/users/Axnya (attempt 1/3)
+2026-07-12 01:10:22 | WARNING  | 404 on https://skeb.jp/api/users/killy810 (attempt 2/3)
+2026-07-12 01:10:23 | WARNING  | 404 on https://skeb.jp/api/users/g33kst (attempt 3/3)
+2026-07-12 01:10:24 | WARNING  | 404 on https://skeb.jp/api/users/Iam_Ciikawa (attempt 2/3)
+2026-07-12 01:10:25 | WARNING  | 404 on https://skeb.jp/api/users/Axnya (attempt 2/3)
+2026-07-12 01:10:26 | WARNING  | 404 on https://skeb.jp/api/users/fm7hxj (attempt 3/3)
+2026-07-12 01:10:27 | WARNING  | 404 on https://skeb.jp/api/users/soraumi2000_50_ (attempt 3/3)
+2026-07-12 01:10:28 | WARNING  | 404 on https://skeb.jp/api/users/Geshi_to_ (attempt 3/3)
+2026-07-12 01:10:29 | WARNING  | 404 on https://skeb.jp/api/users/killy810 (attempt 3/3)
+2026-07-12 01:10:30 | WARNING  | 404 on https://skeb.jp/api/users/Iam_Ciikawa (attempt 3/3)
+2026-07-12 01:10:31 | WARNING  | 404 on https://skeb.jp/api/users/Axnya (attempt 3/3)
+2026-07-12 01:10:31 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 86
+  Profiles Fetched     : 41
+  Profile Missing      : 45
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-07-12 01:10:31 | INFO     | Started creating static api data.
+2026-07-12 01:11:41 | INFO     | Album index written to archive\albums\index.json (355 albums)
