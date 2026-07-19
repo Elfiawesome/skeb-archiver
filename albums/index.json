@@ -1482,5 +1482,21 @@
   "persistance/2026-07-16_21-07-29/success/": {
     "label": "Success",
     "type": "curated"
+  },
+  "persistance/2026-07-17_01-59-43/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-07-17_16-47-25/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-07-18_10-14-54/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
+  },
+  "persistance/2026-07-18_10-14-54/success/": {
+    "label": "Success",
+    "type": "curated"
   }
 }
