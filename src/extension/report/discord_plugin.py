@@ -18,7 +18,7 @@ class DiscordReportPlugin(ExtensionPlugin):
 	MIN_SEND_GAP = 2.0
 	MAX_RETRY = 2
 
-	def __init__(self, webhook_url: str, max_price: int = 1000, genre: str | None = None, max_images: int = 4):
+	def __init__(self, webhook_url: str, max_price: int = 1000, genre: str | None = None, max_images: int = 1):
 		super().__init__()
 		self.webhook_url = webhook_url
 		self.max_price = max_price
