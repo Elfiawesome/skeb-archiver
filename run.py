@@ -7,6 +7,7 @@ python run.py --preset crawl
 python run.py --preset rescrape
 python run.py --preset rediscover
 python run.py --preset custom --names user1 user2
+python run.py --preset album --paths bookmark/bookmarks.md https://example.com/foo.album/
 
 # Load from a JSON config file
 python run.py --config my_config.json
@@ -32,6 +33,7 @@ from src.source.skeb_crawl_source import SkebCrawlSource
 from src.source.rescrape_source import RescrapeSource
 from src.source.rediscover_source import RediscoverSource
 from src.source.custom_source import CustomSource
+from src.source.album_source import AlbumSource
 from src.extension.request.stop_on_rate_limit_plugin import StopOnRateLimit
 from src.extension.source.source_limit_plugin import SourceLimitPlugin
 from src.extension.source.source_state_filter_plugin import SourceStateFilterPlugin
@@ -58,6 +60,10 @@ PRESETS: dict[str, dict[str, list[tuple[str, dict]]]] = {
 	},
 	"rediscover": {
 		"sources": [("rediscover", {})],
+		"extensions": [("storage", {}), ("summary_report", {})],
+	},
+	"album": {
+		"sources": [("album", {})],  # paths injected via --paths
 		"extensions": [("storage", {}), ("summary_report", {})],
 	},
 	"build_site": {
@@ -115,8 +121,8 @@ def parse_spec(spec: str) -> tuple[str, dict[str, Any]]:
 				k, v = part.split("=", 1)
 				k = k.strip()
 				v = v.strip()
-				# Handle list-type parameters (currently only "names")
-				if k in ("names",):  # extend this set if needed
+				# Handle list-type parameters (currently only "names", "paths")
+				if k in ("names", "paths"):  # extend this set if needed
 					kwargs[k] = [item.strip() for item in v.split(",") if item.strip()]
 				else:
 					# Try int, then float, else string
@@ -275,6 +281,12 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 		help="List of screen names for the 'custom' source (used with --preset custom or manual --source custom)",
 	)
 	parser.add_argument(
+		"--paths",
+		nargs="*",
+		help="List of album paths/URLs for the 'album' source (used with --preset album or manual --source album). "
+			"Use --paths for multiple values; --source album:path=X only captures a single path.",
+	)
+	parser.add_argument(
 		"--max-concurrency",
 		type=int,
 		default=10,
@@ -363,6 +375,13 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 				for name, kwargs in sources_specs
 			]
 
+		# Inject album paths when provided and using album preset
+		if args.preset == "album" and args.paths:
+			sources_specs = [
+				(name, {"paths": list(args.paths)} if name == "album" else kwargs)
+				for name, kwargs in sources_specs
+			]
+
 	else:
 		if args.sources:
 			for spec_str in args.sources:
@@ -388,6 +407,21 @@ python run.py --source skeb_crawl --extension storage --extension summary_report
 					file=sys.stderr,
 				)
 				sources_specs.append(("custom", {"names": list(args.names)}))
+
+		# If --paths was given and an album source exists, set its paths
+		if args.paths:
+			album_found = False
+			for i, (name, kwargs) in enumerate(sources_specs):
+				if name == "album":
+					sources_specs[i] = (name, {**kwargs, "paths": list(args.paths)})
+					album_found = True
+					break
+			if not album_found:
+				print(
+					"Warning: --paths provided but no 'album' source found; adding an album source with those paths.",
+					file=sys.stderr,
+				)
+				sources_specs.append(("album", {"paths": list(args.paths)}))
 
 	# Merge: config file provides baseline, CLI args override
 	client_kwargs: dict[str, Any] = {**config_client_params}

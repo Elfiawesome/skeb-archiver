@@ -1,4 +1,5 @@
-import json, gzip, struct
+import json, gzip, struct, re
+from pathlib import Path
 from .logger import log
 
 class AlbumBuilder:
@@ -125,6 +126,141 @@ class AlbumBuilder:
 
 		except (struct.error, UnicodeDecodeError, json.JSONDecodeError, gzip.BadGzipFile, OSError) as e:
 			return None
+
+	#  Local loaders (no network I/O)
+	@staticmethod
+	def load_from_bytes(data: bytes) -> 'AlbumBuilder | None':
+		return AlbumBuilder.unbuild(data)
+
+	@staticmethod
+	def load_from_partition_dir(album_dir: Path) -> 'AlbumBuilder | None':
+		basename = album_dir.name
+		if basename.endswith(".album"):
+			basename = basename[:-len(".album")]
+
+		chunks: list[bytes] = []
+		i = 1
+		while True:
+			part = album_dir / f"{basename}.{i}"
+			if not part.is_file():
+				break
+			try:
+				chunks.append(part.read_bytes())
+			except OSError as e:
+				log.warning("Failed reading chunk %s: %s", part, e)
+				break
+			i += 1
+
+		if not chunks:
+			return None
+		return AlbumBuilder.unbuild(b"".join(chunks))
+
+	@staticmethod
+	def load_from_local(path: str | Path) -> 'AlbumBuilder | None':
+		p = Path(path)
+
+		if p.is_dir():
+			return AlbumBuilder.load_from_partition_dir(p)
+
+		if p.is_file():
+			if p.suffix.lower() == ".md":
+				try:
+					text = p.read_text(encoding="utf-8")
+				except OSError as e:
+					log.warning("Failed reading %s: %s", p, e)
+					return None
+				return AlbumBuilder.parse_markdown(text, p.stem)
+			try:
+				return AlbumBuilder.unbuild(p.read_bytes())
+			except OSError as e:
+				log.warning("Failed reading %s: %s", p, e)
+				return None
+
+		# Bare path that doesn't exist as-is. Try sensible on-disk completions.
+		album_dir = Path(str(p) + ".album")
+		if album_dir.is_dir():
+			return AlbumBuilder.load_from_partition_dir(album_dir)
+
+		single = Path(str(p) + ".album")
+		if single.is_file():
+			try:
+				return AlbumBuilder.unbuild(single.read_bytes())
+			except OSError as e:
+				log.warning("Failed reading %s: %s", single, e)
+				return None
+
+		md_file = Path(str(p) + ".md")
+		if md_file.is_file():
+			try:
+				return AlbumBuilder.parse_markdown(md_file.read_text(encoding="utf-8"), p.name)
+			except OSError as e:
+				log.warning("Failed reading %s: %s", md_file, e)
+				return None
+
+		log.warning("Album not found at %s (tried .album dir, .album file, .md)", p)
+		return None
+
+	#  Markdown album parser (port of App._parseMarkdownAlbum from site/js/data.js)
+	@staticmethod
+	def _extract_screen_name_from_url(url: str) -> str | None:
+		if "skeb.jp/" not in url:
+			return None
+		m = re.search(r"/@([\w._-]+)", url)
+		return m.group(1) if m else None
+
+	@staticmethod
+	def parse_markdown(md_text: str, source_name: str = "") -> 'AlbumBuilder | None':
+		entries: list[dict[str]] = []
+		current: dict[str] | None = None
+
+		for line in md_text.split("\n"):
+			trimmed = line.strip()
+			if not trimmed:
+				continue
+			if trimmed.startswith("//"):
+				continue
+
+			if trimmed.startswith("# "):
+				if current and current.get("screen_name"):
+					entries.append(current)
+				url = trimmed[2:].strip()
+				sn = AlbumBuilder._extract_screen_name_from_url(url)
+				current = {"screen_name": sn, "latest_thumbnails": [], "notes": ""} if sn else None
+				continue
+
+			if not current:
+				continue
+
+			if trimmed.startswith("http://") or trimmed.startswith("https://"):
+				current["latest_thumbnails"].append(trimmed)
+				continue
+
+			note = trimmed[2:].strip() if trimmed.startswith("- ") else trimmed
+			current["notes"] = (current["notes"] + " " + note) if current["notes"] else note
+
+		if current and current.get("screen_name"):
+			entries.append(current)
+
+		seen: dict[str, dict[str]] = {}
+		for e in entries:
+			seen[e["screen_name"]] = e
+		entries = list(seen.values())
+
+		name = source_name or "album"
+		if "/" in name:
+			name = name.rsplit("/", 1)[-1]
+		if "\\" in name:
+			name = name.rsplit("\\", 1)[-1]
+		if name.lower().endswith(".md"):
+			name = name[:-3]
+		label = (name[0].upper() + name[1:]) if name else "Album"
+
+		ab = AlbumBuilder()
+		ab.name = name
+		ab.label = label
+		ab.album_type = "reports"
+		ab.data = entries
+		return ab
 
 
 class UserDataExt:
