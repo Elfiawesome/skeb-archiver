@@ -105,7 +105,9 @@ class AlbumBuilder:
 	@staticmethod
 	def unbuild(data: bytes) -> 'AlbumBuilder':
 		try:
-			meta_size, meta_bytes = AlbumBuilder.unpack_metadata(data)
+			unpacked = AlbumBuilder.unpack_metadata(data)
+			if unpacked is None: return None
+			meta_size, meta_bytes = unpacked
 			meta_dict = json.loads(meta_bytes.decode("utf-8"))
 
 			compressed_start = 4 + meta_size

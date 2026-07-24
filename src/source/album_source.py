@@ -62,17 +62,24 @@ class AlbumSource(Source):
 				return None
 			return AlbumBuilder.parse_markdown(r.text, _basename(url))
 
+		# Trailing slash => partitioned dir: {base}.album/{name}.{1,2,...}
+		if url.endswith("/"):
+			return await self._load_partitioned_url(session, url[:-1])
+
 		# Single binary .album file (no trailing slash)
-		clean = url[:-1] if url.endswith("/") else url
-		if clean.lower().endswith(".album"):
-			r = await session.get(clean)
+		if url.lower().endswith(".album"):
+			r = await session.get(url)
 			if r.status_code != 200:
-				log.warning("Album source: HTTP %d on %s", r.status_code, clean)
+				log.warning("Album source: HTTP %d on %s", r.status_code, url)
 				return None
 			return AlbumBuilder.unbuild(r.content)
 
-		# Partitioned dir mode: chunks live at {base}.album/{basename}.{1,2,...}
-		base = clean[:-len(".album")] if clean.lower().endswith(".album") else clean
+		# Bare base (no slash, no .album) => partitioned dir
+		return await self._load_partitioned_url(session, url)
+
+	async def _load_partitioned_url(self, session: AsyncSession, base: str) -> AlbumBuilder | None:
+		if base.lower().endswith(".album"):
+			base = base[:-len(".album")]
 		name = base.rsplit("/", 1)[-1]
 		chunk_base = f"{base}.album/{name}."
 
