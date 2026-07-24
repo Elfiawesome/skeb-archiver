@@ -61,11 +61,12 @@ class DiscordReportPlugin(ExtensionPlugin):
 		for sk in skills:
 			if not isinstance(sk, dict): continue
 			genre = sk.get("genre")
-			if self.genre is not None and genre != self.genre: continue
-			amount = sk.get("default_amount")
-			if amount is None: continue
-			if amount < self.max_price:
-				qualifying.append((genre or "unknown", amount))
+			if genre == "art":
+				if self.genre is not None and genre != self.genre: continue
+				amount = sk.get("default_amount")
+				if amount is None: continue
+				if amount < self.max_price:
+					qualifying.append((genre or "unknown", amount))
 
 		if not qualifying: return None
 
