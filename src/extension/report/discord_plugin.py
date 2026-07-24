@@ -18,12 +18,13 @@ class DiscordReportPlugin(ExtensionPlugin):
 	MIN_SEND_GAP = 2.0
 	MAX_RETRY = 2
 
-	def __init__(self, webhook_url: str, max_price: int = 1000, genre: str | None = None, max_images: int = 1):
+	def __init__(self, webhook_url: str, max_price: int = 1000, genre: str | None = None, max_images: int = 1, target_genre: str = "art"):
 		super().__init__()
 		self.webhook_url = webhook_url
 		self.max_price = max_price
 		self.genre = genre
 		self.max_images = max(1, max(max_images, 1))
+		self.target_genre = target_genre
 
 		# Lazily initialized on first event (need running loop)
 		self._session: AsyncSession | None = None
@@ -61,7 +62,7 @@ class DiscordReportPlugin(ExtensionPlugin):
 		for sk in skills:
 			if not isinstance(sk, dict): continue
 			genre = sk.get("genre")
-			if genre == "art":
+			if genre == self.target_genre or self.target_genre == "all":
 				if self.genre is not None and genre != self.genre: continue
 				amount = sk.get("default_amount")
 				if amount is None: continue
