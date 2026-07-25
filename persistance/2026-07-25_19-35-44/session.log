@@ -1,0 +1,15 @@
+2026-07-25 19:35:44 | INFO     | Initialized Data Store.
+2026-07-25 19:35:44 | INFO     | Homepage GET status=429 (attempt 1/3)
+2026-07-25 19:35:44 | INFO     | Cookie extracted [request_key=...].
+2026-07-25 19:35:44 | INFO     | SkebClient ready (impersonate=chrome120, rate=1.0/s, concurrency=10, max_runtime=10800s)
+2026-07-25 19:35:44 | INFO     | Album source: loaded 0 entries from https://raw.githubusercontent.com/Elfiawesome/skeb-archiver/refs/heads/main/bookmark/twitter-finds.md (album=twitter-finds)
+2026-07-25 19:35:44 | INFO     | Ready to scrape 0 items
+2026-07-25 19:35:44 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 0
+  Profiles Fetched     : 0
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 0
+
+2026-07-25 19:35:44 | INFO     | Started creating static api data.
+2026-07-25 19:37:55 | INFO     | Album index written to a/albums/index.json (386 albums)
