@@ -1,693 +1,1576 @@
-import json
-import re
-import csv
-import time
-import sys
-import hashlib
-import urllib.request
-from pathlib import Path
-from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from threading import Lock
-from datetime import datetime
-
-import cloudscraper
-import requests
-from bs4 import BeautifulSoup
-
-GALLERY_DL_DIR = Path(r"C:\Users\elfia\OneDrive\Desktop\twt\gallery-dl")
-OUTPUT_DIR = Path(__file__).parent
-EXTRACTED_CP = OUTPUT_DIR / "extracted_urls.json"
-BIO_CP = OUTPUT_DIR / "bio_skeb_results.json"
-PRICING_CP = OUTPUT_DIR / "skeb_pricing_cache.json"
-FINAL_CSV = OUTPUT_DIR / "skeb_users.csv"
-FINAL_HTML = OUTPUT_DIR / "skeb_users.html"
-FINAL_MD = OUTPUT_DIR / "skeb_album.md"
-REQUEST_DELAY = 1.0
-ARCHIVER_BASE = "https://elfiawesome.github.io/skeb-archiver/skeb"
-PRICING_CONCURRENCY = 20
-
-SKEB_RE = re.compile(r'https?://(?:www\.)?skeb\.jp/@([a-zA-Z0-9_]+)', re.IGNORECASE)
-SKEB_HANDLE_RE = re.compile(r'@([a-zA-Z0-9_]+)', re.IGNORECASE)
-
-BIO_DOMAINS = [
-    'lit.link', 'tsunagu.cloud', 'vgen.co', 'potofu.me',
-    'fori.io', 'carrd.co', 'piku.page', 'linktr.ee'
-]
-BIO_PATTERN = r'https?://(?:www\.)?(' + '|'.join(d.replace('.', r'\.') for d in BIO_DOMAINS) + r')/[^\s<>"\'\]\)]+'
-BIO_LINK_RE = re.compile(BIO_PATTERN, re.IGNORECASE)
-
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-}
-SCRAPER = cloudscraper.create_scraper()
-USERNAME_SAFE_RE = re.compile(r"[^\w\-.]")
-
-
-def normalize_skeb_url(url):
-    match = SKEB_HANDLE_RE.search(url)
-    if not match:
-        return None, None
-    handle = match.group(1)
-    return f"https://skeb.jp/@{handle}", handle
-
-
-def extract_urls(text):
-    raw_skeb = [m.group(0) for m in SKEB_RE.finditer(text)]
-    skeb_urls = []
-    skeb_handles = []
-    for raw in raw_skeb:
-        norm, handle = normalize_skeb_url(raw)
-        if norm and handle:
-            if norm not in skeb_urls:
-                skeb_urls.append(norm)
-                skeb_handles.append(handle)
-    bio_urls = list(set(m.group(0) for m in BIO_LINK_RE.finditer(text)))
-    return skeb_urls, skeb_handles, bio_urls
-
-
-def phase1_extract():
-    if EXTRACTED_CP.exists():
-        print(f"[1/6] Loading checkpoint: {EXTRACTED_CP.name}")
-        with open(EXTRACTED_CP, 'r', encoding='utf-8') as f:
-            return json.load(f)
-
-    print("[1/6] Scanning JSON files for skeb URLs...")
-    authors = {}
-    files = sorted(GALLERY_DL_DIR.glob("*.json"))
-    total = len(files)
-
-    for i, filepath in enumerate(files):
-        if (i + 1) % 1000 == 0:
-            print(f"  {i+1}/{total} files processed, {len(authors)} unique authors found")
-
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        except (json.JSONDecodeError, OSError):
-            continue
-
-        author = data.get('author') or {}
-        author_id = str(author.get('id', ''))
-        if not author_id:
-            continue
-        
-        post_date = datetime.fromisoformat(data.get("date"))
-        now_date = datetime.now()
-        age = now_date - post_date
-        if age.days >= 5:
-            continue
-
-        
-
-        content = data.get('content', '') or ''
-        description = author.get('description', '') or ''
-        twitter_handle = (author.get('name', '') or '').strip()
-        tweet_date = data.get('date', '') or ''
-
-        if author_id not in authors:
-            authors[author_id] = {
-                "twitter_id": author_id,
-                "twitter_handle": twitter_handle,
-                "skeb_urls": [],
-                "skeb_handles": [],
-                "bio_links": [],
-                "tweet_dates": [],
-                "tweet_samples": [],
-            }
-
-        entry = authors[author_id]
-        if twitter_handle and not entry["twitter_handle"]:
-            entry["twitter_handle"] = twitter_handle
-
-        urls, handles, _ = extract_urls(content)
-        for u, h in zip(urls, handles):
-            if u not in entry["skeb_urls"]:
-                entry["skeb_urls"].append(u)
-                entry["skeb_handles"].append(h)
-
-        _, handles_bio, bio_links = extract_urls(description)
-        # Re-extract full skeb URLs from bio
-        for m in SKEB_RE.finditer(description):
-            norm, handle = normalize_skeb_url(m.group(0))
-            if norm and handle and norm not in entry["skeb_urls"]:
-                entry["skeb_urls"].append(norm)
-                entry["skeb_handles"].append(handle)
-
-        for link in bio_links:
-            if link not in entry["bio_links"]:
-                entry["bio_links"].append(link)
-
-        if tweet_date:
-            entry["tweet_dates"].append(tweet_date)
-        if content:
-            preview = content[:300].replace('\n', ' ').strip()
-            if preview not in entry["tweet_samples"]:
-                entry["tweet_samples"].append(preview)
-
-    for entry in authors.values():
-        entry["bio_links"] = list(set(entry["bio_links"]))
-        entry["tweet_dates"] = sorted(set(entry["tweet_dates"]), reverse=True)
-        entry["tweet_samples"] = entry["tweet_samples"][:3]
-
-    with open(EXTRACTED_CP, 'w', encoding='utf-8') as f:
-        json.dump(authors, f, ensure_ascii=False, indent=2)
-
-    with_skeb = sum(1 for a in authors.values() if a["skeb_handles"])
-    with_bio = sum(1 for a in authors.values() if a["bio_links"])
-    print(f"  Done. {len(authors)} unique authors ({with_skeb} with skeb, {with_bio} with bio links)")
-    return authors
-
-
-def phase2_follow_bio_links(authors):
-    if BIO_CP.exists():
-        print(f"[2/6] Loading checkpoint: {BIO_CP.name}")
-        with open(BIO_CP, 'r', encoding='utf-8') as f:
-            return json.load(f)
-
-    print("[2/6] Following bio links to find skeb URLs...")
-    results = {}
-
-    candidates = [
-        (aid, entry) for aid, entry in authors.items()
-        if not entry["skeb_handles"]
-        and entry["bio_links"]
-    ]
-    print(f"  {len(candidates)} authors to check via bio links")
-
-    for i, (aid, entry) in enumerate(candidates):
-        skeb_found = []
-        for bio_url in entry["bio_links"]:
-            try:
-                resp = SCRAPER.get(bio_url, headers=HEADERS, timeout=15)
-                if resp.status_code == 200:
-                    soup = BeautifulSoup(resp.text, 'lxml')
-                    for a_tag in soup.find_all('a', href=True):
-                        href = a_tag['href']
-                        norm, handle = normalize_skeb_url(href)
-                        if norm and handle and norm not in skeb_found:
-                            skeb_found.append(norm)
-            except Exception as e:
-                print(f"  Error: {bio_url} -> {e}")
-
-        if skeb_found:
-            results[aid] = skeb_found
-
-        if (i + 1) % 50 == 0 or i == 0:
-            print(f"  [{i+1}/{len(candidates)}] Found {len(results)} so far")
-
-    with open(BIO_CP, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-
-    print(f"  Done. Found skeb for {len(results)} authors via bio links")
-    return results
-
-
-def skeb_filename(handle):
-    safe = USERNAME_SAFE_RE.sub("_", handle)
-    h = hashlib.md5(handle.encode('utf-8')).hexdigest()[:6]
-    return f"{safe}-{h}.json"
-
-
-def fetch_single_price(handle, results_dict, lock):
-    filename = skeb_filename(handle)
-    url = f"{ARCHIVER_BASE}/{filename}"
-    try:
-        resp = urllib.request.urlopen(url, timeout=10)
-        data = json.loads(resp.read().decode('utf-8'))
-        profile = data.get("profile", {})
-        skills = profile.get("skills", [])
-        prices = {}
-        for sk in skills:
-            genre = sk.get("genre", "unknown")
-            amt = sk.get("default_amount")
-            if amt is not None:
-                prices[genre] = amt
-        with lock:
-            results_dict[handle] = {
-                "skills": skills,
-                "prices": prices,
-                "acceptable": profile.get("acceptable"),
-                "nsfw_acceptable": profile.get("nsfw_acceptable"),
-                "works_count": profile.get("received_works_count"),
-            }
-        return True
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            with lock:
-                results_dict[handle] = None
-            return False
-        return False
-    except Exception:
-        return False
-
-
-def phase3_fetch_prices(authors, bio_results):
-    if PRICING_CP.exists():
-        print(f"[3/6] Loading checkpoint: {PRICING_CP.name}")
-        with open(PRICING_CP, 'r', encoding='utf-8') as f:
-            return json.load(f)
-
-    print("[3/6] Fetching pricing from skeb-archiver...")
-
-    all_handles = set()
-    for entry in authors.values():
-        for h in entry["skeb_handles"]:
-            all_handles.add(h)
-    for aid, urls in bio_results.items():
-        for url in urls:
-            _, handle = normalize_skeb_url(url)
-            if handle:
-                all_handles.add(handle)
-
-    all_handles = sorted(all_handles)
-    print(f"  {len(all_handles)} unique skeb handles to look up")
-
-    results = {}
-    lock = Lock()
-    fetched = 0
-    found = 0
-
-    with ThreadPoolExecutor(max_workers=PRICING_CONCURRENCY) as ex:
-        futures = {ex.submit(fetch_single_price, h, results, lock): h for h in all_handles}
-        for future in as_completed(futures):
-            fetched += 1
-            if future.result():
-                found += 1
-            if fetched % 500 == 0 or fetched == len(all_handles):
-                print(f"  [{fetched}/{len(all_handles)}] Found {found} with pricing")
-
-    with open(PRICING_CP, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-
-    print(f"  Done. Found pricing for {found}/{len(all_handles)} handles")
-    return results
-
-
-def get_all_genres(pricing_data):
-    genres = set()
-    for v in pricing_data.values():
-        if v and v.get("prices"):
-            genres.update(v["prices"].keys())
-    return sorted(genres)
-
-
-def phase4_output(authors, bio_results, pricing_data):
-    print("[4/6] Writing CSV with pricing...")
-
-    all_genres = get_all_genres(pricing_data)
-
-    rows = []
-    writer_lock = Lock()
-
-    def process_author(aid, entry):
-        local_rows = []
-        seen_pairs = set()
-
-        sources = []
-        for url in entry["skeb_urls"]:
-            sources.append(("tweet_content", url))
-        if aid in bio_results:
-            for url in bio_results[aid]:
-                norm, _ = normalize_skeb_url(url)
-                if norm:
-                    sources.append(("via_bio_link", norm))
-
-        if not sources:
-            return []
-
-        for src_type, skeb_url in sources:
-            norm_url, handle = normalize_skeb_url(skeb_url)
-            if not handle:
-                continue
-            pair = (aid, handle)
-            if pair in seen_pairs:
-                continue
-            seen_pairs.add(pair)
-
-            pricing = pricing_data.get(handle)
-            row = {
-                "twitter_id": aid,
-                "twitter_handle": entry["twitter_handle"],
-                "skeb_handle": handle,
-                "skeb_url": norm_url,
-                "source_type": src_type,
-                "acceptable": "",
-                "nsfw_acceptable": "",
-                "works_count": "",
-                "tweet_date": entry["tweet_dates"][0] if entry["tweet_dates"] else "",
-                "tweet_preview": entry["tweet_samples"][0] if entry["tweet_samples"] else "",
-            }
-            for g in all_genres:
-                row[f"price_{g}"] = ""
-
-            if pricing:
-                row["acceptable"] = pricing.get("acceptable", "")
-                row["nsfw_acceptable"] = pricing.get("nsfw_acceptable", "")
-                row["works_count"] = pricing.get("works_count", "")
-                for g, amt in pricing.get("prices", {}).items():
-                    row[f"price_{g}"] = amt
-
-            local_rows.append(row)
-
-        return local_rows
-
-    with ThreadPoolExecutor(max_workers=8) as ex:
-        futures = {ex.submit(process_author, aid, entry): aid for aid, entry in authors.items()}
-        for future in as_completed(futures):
-            result = future.result()
-            if result:
-                rows.extend(result)
-
-    fieldnames = [
-        "twitter_id", "twitter_handle", "skeb_handle", "skeb_url",
-        "source_type", "acceptable", "nsfw_acceptable", "works_count",
-    ] + [f"price_{g}" for g in all_genres] + [
-        "tweet_date", "tweet_preview"
-    ]
-
-    rows.sort(key=lambda r: r["skeb_handle"])
-
-    with open(FINAL_CSV, 'w', newline='', encoding='utf-8-sig') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    print(f"  Written {len(rows)} rows to {FINAL_CSV.name}")
-    return rows
-
-
-def phase5_generate_html(rows):
-    print("[5/6] Generating HTML viewer...")
-
-    price_cols = [k for k in rows[0].keys() if k.startswith("price_")] if rows else []
-
-    html_rows = []
-    for r in rows:
-        acceptable = r.get("acceptable", "")
-        nsfw = r.get("nsfw_acceptable", "")
-        works = r.get("works_count", "")
-        tweet_date = r.get("tweet_date", "")
-        preview = r.get("tweet_preview", "")
-        preview_escaped = preview.replace("\\", "\\\\").replace("'", "\\'").replace("\n", " ")
-
-        prices = {}
-        for c in price_cols:
-            v = r.get(c, "")
-            prices[c] = int(v) if v else ""
-
-        html_rows.append({
-            "tid": r["twitter_id"],
-            "handle": r["twitter_handle"],
-            "skeb": r["skeb_handle"],
-            "src": r["source_type"],
-            "accept": acceptable,
-            "nsfw": nsfw,
-            "works": int(works) if works else "",
-            "date": tweet_date,
-            "preview": preview_escaped,
-            "prices": prices,
-        })
-
-    genres = [c.replace("price_", "") for c in price_cols]
-
-    html_parts = []
-    html_parts.append('''<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>skeb users</title>
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font:14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;padding:20px}
-h1{font-size:20px;margin-bottom:12px;color:#f0f6fc}
-.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
-.controls label{color:#8b949e;font-size:13px}
-.controls input,.controls select{padding:5px 8px;border:1px solid #30363d;border-radius:6px;background:#161b22;color:#c9d1d9;font-size:13px}
-.controls input:focus,.controls select:focus{outline:none;border-color:#58a6ff}
-.controls .counter{margin-left:auto;color:#8b949e;font-size:13px}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{padding:6px 10px;text-align:left;border-bottom:1px solid #21262d;white-space:nowrap}
-th{position:sticky;top:0;background:#161b22;cursor:pointer;user-select:none;color:#8b949e;font-weight:600;z-index:2}
-th:hover{color:#f0f6fc}
-th.sorted{color:#58a6ff}
-th .arrow{margin-left:4px;font-size:11px}
-tr:hover td{background:#1c2128}
-td a{color:#58a6ff;text-decoration:none}
-td a:visited{color:#b392f0!important}
-td a:hover{text-decoration:underline;color:#79c0ff}
-td.numeric{text-align:right;font-variant-numeric:tabular-nums}
-td.price{font-weight:600}
-td.price.yes{color:#7ee787}
-td.price.mid{color:#d29922}
-td.price.high{color:#f85149}
-td.accept{font-size:12px}
-td.accept.y{color:#7ee787}
-td.accept.n{color:#f85149}
-td.src{font-size:11px;color:#8b949e;font-style:italic}
-td.date{color:#8b949e;font-size:12px}
-td.preview{max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8b949e;font-size:12px}
-@media(max-width:900px){.hide-mobile{display:none}}
-</style>
-</head>
-<body>
-<h1>skeb users <span id="count" style="font-weight:400;font-size:14px;color:#8b949e"></span></h1>
-<div class="controls">
-  <label>search <input id="search" type="text" placeholder="any column..." autofocus></label>
-  <label>source <select id="srcFilter"><option value="">all</option><option value="tweet_content">tweet</option><option value="via_bio_link">bio link</option></select></label>
-  <label>accepting <select id="acceptFilter"><option value="">all</option><option value="True">yes</option><option value="False">no</option></select></label>
-  <label>min price <input id="minPrice" type="number" min="0" step="1000" placeholder="0" style="width:90px"></label>
-  <label>genre <select id="genreFilter"><option value="">all</option></select></label>
-  <span class="counter" id="counter"></span>
-</div>
-<div style="overflow-x:auto;max-height:calc(100vh - 140px)">
-<table>
-<thead><tr id="headerRow"></tr></thead>
-<tbody id="tbody"></tbody>
-</table>
-</div>
-<script>
-const DATA = DATA_PLACEHOLDER;
-const GENRES = GENRES_PLACEHOLDER;
-
-function esc(t){if(t===null||t===undefined)return'';return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
-
-const cols = [
-  {key:'skeb',label:'skeb',link:r=>'https://skeb.jp/@'+esc(r.skeb)},
-  {key:'handle',label:'twitter',link:r=>'https://x.com/'+esc(r.handle)},
-  {key:'tid',label:'twitter_id',hideMobile:true},
-  {key:'src',label:'source'},
-  {key:'accept',label:'accepting',className:'accept'},
-  {key:'nsfw',label:'nsfw',className:'accept',hideMobile:true},
-  {key:'works',label:'works',className:'numeric'},
-  ...GENRES.map(g=>({key:'price_'+g,label:g,className:'numeric price',price:true})),
-  {key:'date',label:'date',className:'date',hideMobile:true},
-  {key:'preview',label:'preview',className:'preview',hideMobile:true},
-];
-
-let sortCol = 'skeb';
-let sortDir = 1;
-let filtered = [];
-
-function getVal(r,col) {
-  if(col.price) {
-    const v=r.prices['price_'+col.label];
-    return v===''?-1:v;
-  }
-  let v=r[col.key];
-  if(col.key==='works') return v===''?-1:v;
-  if(col.key==='accept'||col.key==='nsfw') return v==='True'?1:v==='False'?0:-1;
-  return String(v).toLowerCase();
-}
-
-function render() {
-  const q = document.getElementById('search').value.toLowerCase();
-  const src = document.getElementById('srcFilter').value;
-  const acc = document.getElementById('acceptFilter').value;
-  const minP = parseInt(document.getElementById('minPrice').value)||0;
-  const genre = document.getElementById('genreFilter').value;
-
-  filtered = DATA.filter(r => {
-    if(src && r.src!==src) return false;
-    if(acc && String(r.accept)!==acc) return false;
-    if(genre) {
-      const v = r.prices['price_'+genre];
-      if(v===''||v<minP) return false;
-    } else if(minP) {
-      const has = Object.values(r.prices).some(v => v!=='' && v>=minP);
-      if(!has) return false;
-    }
-    if(!q) return true;
-    const searchable = [r.skeb,r.handle,r.tid,r.src,r.accept,r.nsfw,String(r.works),r.date,r.preview];
-    GENRES.forEach(g => searchable.push(String(r.prices['price_'+g])));
-    return searchable.some(s => String(s).toLowerCase().includes(q));
-  });
-
-  filtered.sort((a,b) => {
-    const col = cols.find(c => c.key === sortCol);
-    const va = getVal(a, col), vb = getVal(b, col);
-    if(typeof va==='number'&&typeof vb==='number') return (va-vb)*sortDir;
-    return String(va).localeCompare(String(vb))*sortDir;
-  });
-
-  document.getElementById('count').textContent = '\u2014 '+filtered.length+' rows';
-
-  const hdr = document.getElementById('headerRow');
-  hdr.innerHTML = cols.map(c => 
-    '<th class="'+(c.hideMobile?'hide-mobile ':'')+(sortCol===c.key?'sorted':'')+'" data-key="'+c.key+'">'+
-    esc(c.label)+'<span class="arrow">'+(sortCol===c.key?(sortDir>0?'\u25B2':'\u25BC'):'')+'</span></th>'
-  ).join('');
-
-  const tbody = document.getElementById('tbody');
-  tbody.innerHTML = filtered.map(r => {
-    let cells = cols.map(c => {
-      let val = '', cls = c.className||'', link = null;
-      if(c.link) {
-        val = esc(r.skeb);
-        if(c.key==='skeb') val = esc(r.skeb);
-        else if(c.key==='handle') val = esc(r.handle);
-        link = c.link(r);
-      } else if(c.price) {
-        const v = r.prices['price_'+c.label];
-        val = v!==''?'\u00A5'+v.toLocaleString():'\u2014';
-        if(v!=='') cls += ' '+(v<5000?'yes':v<15000?'mid':'high');
-      } else if(c.key==='accept'||c.key==='nsfw') {
-        val = r[c.key]==='True'?'yes':r[c.key]==='False'?'no':'\u2014';
-        cls += ' '+(r[c.key]==='True'?'y':'n');
-      } else if(c.key==='works') {
-        val = r.works!==''?r.works:'\u2014';
-      } else if(c.key==='date') {
-        val = esc(r.date);
-      } else if(c.key==='preview') {
-        val = esc(r.preview);
-      } else {
-        val = esc(r[c.key]);
-      }
-      const tdClass = (c.hideMobile?'hide-mobile ':'')+cls;
-      if(link) return '<td class="'+tdClass+'"><a href="'+esc(link)+'" target="_blank">'+val+'</a></td>';
-      return '<td class="'+tdClass+'">'+val+'</td>';
-    }).join('');
-    return '<tr>'+cells+'</tr>';
-  }).join('');
-
-  document.getElementById('counter').textContent = filtered.length+' / '+DATA.length+' rows';
-}
-
-document.addEventListener('click', e => {
-  const th = e.target.closest('th');
-  if(!th) return;
-  const key = th.dataset.key;
-  if(key===sortCol) sortDir*=-1;
-  else { sortCol=key; sortDir=1; }
-  render();
-});
-
-['search','srcFilter','acceptFilter','minPrice','genreFilter'].forEach(id => 
-  document.getElementById(id).addEventListener('input', render)
-);
-
-const sel = document.getElementById('genreFilter');
-GENRES.forEach(g => {
-  const opt = document.createElement('option');
-  opt.value = g;
-  opt.textContent = g;
-  sel.appendChild(opt);
-});
-
-render();
-</script>
-</body>
-</html>''')
-
-    data_json = json.dumps(html_rows, ensure_ascii=False)
-    genres_json = json.dumps(genres, ensure_ascii=False)
-
-    html = ''.join(html_parts).replace("DATA_PLACEHOLDER", data_json).replace("GENRES_PLACEHOLDER", genres_json)
-
-    with open(FINAL_HTML, 'w', encoding='utf-8') as f:
-        f.write(html)
-
-    print(f"  Written {FINAL_HTML.name}")
-    return html_rows
-
-
-def phase6_generate_markdown_album(authors, bio_results, pricing_data):
-    print("[6/6] Generating markdown album...")
-
-    all_handles = set()
-    for entry in authors.values():
-        for h in entry["skeb_handles"]:
-            all_handles.add(h)
-    for aid, urls in bio_results.items():
-        for url in urls:
-            _, handle = normalize_skeb_url(url)
-            if handle:
-                all_handles.add(handle)
-
-    seen = set()
-    lines = []
-    for handle in sorted(all_handles):
-        if handle in seen:
-            continue
-        seen.add(handle)
-        lines.append(f"# https://skeb.jp/@{handle}")
-        pricing = pricing_data.get(handle)
-        if pricing and pricing.get("prices"):
-            parts = []
-            for genre, amt in sorted(pricing["prices"].items()):
-                parts.append(f"{genre}: \u00A5{amt:,}")
-            if parts:
-                lines.append("  " + " \u00B7 ".join(parts))
-        lines.append("")
-
-    content = "\n".join(lines)
-
-    with open(FINAL_MD, 'w', encoding='utf-8') as f:
-        f.write(content)
-
-    print(f"  Written {len(seen)} entries to {FINAL_MD.name}")
-    return seen
-
-
-def print_summary(authors, bio_results, pricing_data, rows):
-    direct = sum(1 for a in authors.values() if a["skeb_handles"])
-    via_bio = len(bio_results)
-    with_pricing = sum(1 for v in pricing_data.values() if v is not None)
-    no_skeb = sum(1 for a in authors.values()
-                  if not a["skeb_handles"]
-                  and a.get("twitter_id") not in bio_results)
-
-    total_handles = len(set(
-        h for a in authors.values() for h in a["skeb_handles"]
-    ).union(
-        normalize_skeb_url(url)[1] for urls in bio_results.values() for url in urls if normalize_skeb_url(url)[1]
-    ))
-
-    print("\n=== Summary ===")
-    print(f"  Total unique authors:        {len(authors)}")
-    print(f"  With skeb (direct):           {direct}")
-    print(f"  Found via bio link follow:    {via_bio}")
-    print(f"  Without any skeb link:        {no_skeb}")
-    print(f"  Total unique skeb handles:    {total_handles}")
-    print(f"  Pricing found:                {with_pricing}/{total_handles}")
-    print(f"  Output rows:                  {len(rows)}")
-    print(f"\nOutput: {FINAL_CSV}")
-    print(f"Output: {FINAL_HTML}")
-    print(f"Output: {FINAL_MD}")
-
-
-def main():
-    authors = phase1_extract()
-    bio_results = phase2_follow_bio_links(authors)
-    pricing_data = phase3_fetch_prices(authors, bio_results)
-    rows = phase4_output(authors, bio_results, pricing_data)
-    phase5_generate_html(rows)
-    phase6_generate_markdown_album(authors, bio_results, pricing_data)
-    print_summary(authors, bio_results, pricing_data, rows)
-
-
-if __name__ == "__main__":
-    main()
+# https://skeb.jp/@01mogu05
+  art: ¥7,000 · correction: ¥5,000
+
+# https://skeb.jp/@03yousei_ao
+  correction: ¥3,000 · voice: ¥3,000
+
+# https://skeb.jp/@06pineapple03
+  art: ¥5,000 · correction: ¥500 · video: ¥5,000 · voice: ¥500
+
+# https://skeb.jp/@0ud0ntabetabe
+  art: ¥7,500
+
+# https://skeb.jp/@13mm6
+  art: ¥6,000 · correction: ¥4,000
+
+# https://skeb.jp/@15i1i
+  art: ¥10,000
+
+# https://skeb.jp/@1kstrrrrrrr
+  art: ¥17,000
+
+# https://skeb.jp/@24zinineyou
+  art: ¥1,000 · comic: ¥2,000 · correction: ¥1,000 · novel: ¥500
+
+# https://skeb.jp/@2Dkumakuma
+  art: ¥7,000
+
+# https://skeb.jp/@2qRiXweroo5wchL
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@339_sui
+  art: ¥15,000 · video: ¥15,000
+
+# https://skeb.jp/@43sidm
+  art: ¥800 · correction: ¥500
+
+# https://skeb.jp/@46no_kidou1004
+  novel: ¥8,000
+
+# https://skeb.jp/@716door
+  art: ¥3,500 · comic: ¥7,000 · correction: ¥500
+
+# https://skeb.jp/@7_homura
+  art: ¥21,000
+
+# https://skeb.jp/@7i9ssill
+  art: ¥5,000 · comic: ¥15,000
+
+# https://skeb.jp/@7kusa_maru
+  art: ¥7,000
+
+# https://skeb.jp/@8108yasohc
+  art: ¥15,000
+
+# https://skeb.jp/@8931saba
+  art: ¥5,000 · comic: ¥6,000 · correction: ¥3,000
+
+# https://skeb.jp/@93187na
+  art: ¥2,500 · comic: ¥9,000
+
+# https://skeb.jp/@96Lily2296
+  art: ¥1,000
+
+# https://skeb.jp/@AHIRU_piyo2
+  art: ¥4,000 · correction: ¥2,000 · video: ¥15,000
+
+# https://skeb.jp/@AYAmix0418
+  art: ¥7,000
+
+# https://skeb.jp/@AizawaKaren1992
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@Akutabe_Aku
+
+# https://skeb.jp/@AmaTeu_illust
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@Ano_anoa
+  art: ¥10,000
+
+# https://skeb.jp/@Anyo_ch
+  art: ¥3,000
+
+# https://skeb.jp/@Asahi_time
+  art: ¥10,000 · correction: ¥2,000
+
+# https://skeb.jp/@Ato__ri_
+  art: ¥4,000 · correction: ¥2,000
+
+# https://skeb.jp/@Avddvx
+  art: ¥5,000 · novel: ¥3,000
+
+# https://skeb.jp/@Azis4i
+  art: ¥2,000
+
+# https://skeb.jp/@Bell_rinring
+  art: ¥5,000
+
+# https://skeb.jp/@BlueHawaii_2
+  art: ¥3,000
+
+# https://skeb.jp/@Boke_nsb
+  art: ¥5,000 · voice: ¥1,000
+
+# https://skeb.jp/@Breakthrough_rr
+  art: ¥9,000 · correction: ¥6,000
+
+# https://skeb.jp/@CJ_dinosaurs
+
+# https://skeb.jp/@Chiyo9573
+  art: ¥3,000 · comic: ¥7,000 · correction: ¥3,000
+
+# https://skeb.jp/@DEOTAMA_FGO
+  art: ¥20,000 · comic: ¥20,000
+
+# https://skeb.jp/@Degbli
+  art: ¥5,000 · comic: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@Dekoboko685
+  art: ¥3,000
+
+# https://skeb.jp/@Dionaea_mae_t
+  art: ¥11,000
+
+# https://skeb.jp/@Dousesuimasen
+  art: ¥10,000 · correction: ¥10,000
+
+# https://skeb.jp/@END_Anon
+  art: ¥5,000 · comic: ¥3,000 · correction: ¥5,000
+
+# https://skeb.jp/@EijiK0430
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@Ek0420
+  art: ¥5,000 · comic: ¥3,000 · voice: ¥1,500
+
+# https://skeb.jp/@Esto_0079
+  art: ¥15,000 · correction: ¥11,000
+
+# https://skeb.jp/@FATEORT32920410
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@Fid_016sikabane
+  art: ¥7,500 · correction: ¥500
+
+# https://skeb.jp/@Gill_heki
+  art: ¥2,000
+
+# https://skeb.jp/@Goslingwallows
+  art: ¥15,000 · correction: ¥500
+
+# https://skeb.jp/@HARUHIBI_8DLK
+  art: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@HakkiyaGo
+  art: ¥4,000 · correction: ¥3,000
+
+# https://skeb.jp/@Happy_Zombie_R
+  art: ¥3,000 · comic: ¥7,500 · correction: ¥500 · voice: ¥3,000
+
+# https://skeb.jp/@Hat_ERr
+  art: ¥2,500
+
+# https://skeb.jp/@HinaHina_ilust
+  art: ¥3,000 · correction: ¥3,000 · novel: ¥3,000
+
+# https://skeb.jp/@Hiro_Uraguti
+  art: ¥7,000
+
+# https://skeb.jp/@HisuiSena
+  art: ¥7,000 · voice: ¥5,000
+
+# https://skeb.jp/@HoRovina
+  correction: ¥3,000
+
+# https://skeb.jp/@HoshizaKi_Y0_
+  art: ¥5,000
+
+# https://skeb.jp/@Hou_dzu_Fox
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@INEkome_8000
+  art: ¥10,000
+
+# https://skeb.jp/@Ikayaki0202
+  art: ¥4,000
+
+# https://skeb.jp/@JUU_ZOO
+  art: ¥20,000
+
+# https://skeb.jp/@Joe3mini
+  art: ¥9,000 · comic: ¥16,000 · correction: ¥6,000
+
+# https://skeb.jp/@JoeGalleon
+  art: ¥10,000
+
+# https://skeb.jp/@Ju3CXQKO75M199R
+  art: ¥4,000 · correction: ¥2,000
+
+# https://skeb.jp/@K0SHo0209
+  correction: ¥3,000 · music: ¥9,000
+
+# https://skeb.jp/@K_2107G_2909
+  art: ¥3,000
+
+# https://skeb.jp/@Kamosawa_yoshi
+  art: ¥7,000 · comic: ¥5,000 · correction: ¥500 · video: ¥7,000
+
+# https://skeb.jp/@Kanoll4
+
+# https://skeb.jp/@Kazunoe_illust
+  art: ¥7,000 · correction: ¥1,000
+
+# https://skeb.jp/@Kedama_Kodama1
+  art: ¥10,000 · correction: ¥5,000
+
+# https://skeb.jp/@KibasakiChigaya
+  art: ¥10,000 · voice: ¥3,000
+
+# https://skeb.jp/@Kittatsu_toku
+  art: ¥5,000
+
+# https://skeb.jp/@Kouhi_ekaki
+  art: ¥3,000
+
+# https://skeb.jp/@Kshizuku_
+  art: ¥4,000
+
+# https://skeb.jp/@Kyosuke1413koba
+  art: ¥6,000 · correction: ¥4,000
+
+# https://skeb.jp/@Lucifer_ecoco
+  art: ¥4,000 · comic: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@Luna_dial398
+  art: ¥5,000
+
+# https://skeb.jp/@MGRock_star
+  art: ¥5,000
+
+# https://skeb.jp/@MakotoPppp
+  art: ¥5,000 · comic: ¥5,000
+
+# https://skeb.jp/@MaruiUsausagi
+  art: ¥9,000
+
+# https://skeb.jp/@Mjn_Ek
+  art: ¥5,000
+
+# https://skeb.jp/@MoMoMo_0629
+  art: ¥6,000
+
+# https://skeb.jp/@Mumei_096
+  art: ¥1,000
+
+# https://skeb.jp/@NENEON16
+  art: ¥3,000 · comic: ¥3,000
+
+# https://skeb.jp/@NORAjiyuuchou
+  art: ¥12,000
+
+# https://skeb.jp/@Na_nya777
+  art: ¥5,000
+
+# https://skeb.jp/@Nanaazarashi
+  art: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@Nano_monanga
+  art: ¥3,000
+
+# https://skeb.jp/@Nao_cdsuyta
+  art: ¥20,000 · correction: ¥2,000
+
+# https://skeb.jp/@Natukawasumi
+  art: ¥3,000
+
+# https://skeb.jp/@NatuyaMiara
+  art: ¥4,000
+
+# https://skeb.jp/@Nicole1357000
+  art: ¥7,000
+
+# https://skeb.jp/@Nishieri_C_F
+  art: ¥15,000
+
+# https://skeb.jp/@Nora__N_k22
+  art: ¥14,000 · correction: ¥2,000
+
+# https://skeb.jp/@ONE68_0503
+  art: ¥1,000 · correction: ¥1,000
+
+# https://skeb.jp/@OVERTACK2
+  art: ¥7,000
+
+# https://skeb.jp/@OchArlgray
+  art: ¥1,000
+
+# https://skeb.jp/@Otamusan
+  art: ¥8,929 · comic: ¥6,000
+
+# https://skeb.jp/@PIYOSAN_0309
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@PKOn_Yama
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@PYONsan_sabori
+  art: ¥20,000 · correction: ¥5,000
+
+# https://skeb.jp/@Peony00Shrimp
+  art: ¥8,000 · voice: ¥1,000
+
+# https://skeb.jp/@Powaris
+  art: ¥5,400 · comic: ¥15,000 · correction: ¥500
+
+# https://skeb.jp/@Prism_Flash
+  art: ¥5,000
+
+# https://skeb.jp/@Q_swy
+  art: ¥10,000
+
+# https://skeb.jp/@RAIZO
+  art: ¥12,000 · comic: ¥6,000 · correction: ¥3,000 · voice: ¥3,000
+
+# https://skeb.jp/@ROBOmito
+  art: ¥4,000 · comic: ¥4,000 · correction: ¥500
+
+# https://skeb.jp/@Re3_pzg
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@Remy_pxv
+  art: ¥2,500 · comic: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@Rin_Takatuki
+  art: ¥5,000 · correction: ¥2,000
+
+# https://skeb.jp/@Ritachantic
+  art: ¥14,000
+
+# https://skeb.jp/@Romeo_illust
+  art: ¥8,000
+
+# https://skeb.jp/@Rosie_Rosie
+  art: ¥7,500
+
+# https://skeb.jp/@Ruy_HH
+  art: ¥6,000 · correction: ¥500
+
+# https://skeb.jp/@SO_C
+  art: ¥5,000
+
+# https://skeb.jp/@SakuraYuki_Lily
+  art: ¥10,000 · comic: ¥12,000 · correction: ¥1,500 · novel: ¥5,000 · video: ¥12,000
+
+# https://skeb.jp/@Sanshichi_fu
+  art: ¥7,500
+
+# https://skeb.jp/@Sch15_
+  art: ¥10,000 · comic: ¥17,000
+
+# https://skeb.jp/@SeinSol
+  art: ¥7,000
+
+# https://skeb.jp/@Shin000007777
+  art: ¥8,000
+
+# https://skeb.jp/@Shiozakiotoko
+  art: ¥8,000 · video: ¥10,000
+
+# https://skeb.jp/@Simahugu284
+  art: ¥7,000
+
+# https://skeb.jp/@SioN_owatas
+  art: ¥15,000 · correction: ¥5,000
+
+# https://skeb.jp/@Sityuurice
+  art: ¥1,500
+
+# https://skeb.jp/@Specuevo
+  art: ¥1,000 · correction: ¥500
+
+# https://skeb.jp/@Sut_msm
+
+# https://skeb.jp/@Syukyokunomemo
+  art: ¥2,000
+
+# https://skeb.jp/@TGxx3300
+  art: ¥10,000
+
+# https://skeb.jp/@TRPGsk_490
+  art: ¥5,000 · voice: ¥3,000
+
+# https://skeb.jp/@TamakRui
+  art: ¥10,000
+
+# https://skeb.jp/@Tanaka_Yutti
+  art: ¥8,000
+
+# https://skeb.jp/@TokihaKonbu
+  art: ¥8,000
+
+# https://skeb.jp/@TopazSinkiiten3
+  art: ¥6,000 · comic: ¥8,000
+
+# https://skeb.jp/@Tsaamon
+  art: ¥5,000
+
+# https://skeb.jp/@Tzpc1R
+  art: ¥4,000 · comic: ¥5,000
+
+# https://skeb.jp/@U_Kome_Illust
+  art: ¥8,000
+
+# https://skeb.jp/@U_gros
+  art: ¥5,000 · correction: ¥2,000
+
+# https://skeb.jp/@UonchoRS
+  art: ¥12,000 · correction: ¥500
+
+# https://skeb.jp/@VMEIN_46
+  art: ¥9,000 · comic: ¥13,000 · correction: ¥4,000
+
+# https://skeb.jp/@VRchansan
+  art: ¥5,000
+
+# https://skeb.jp/@VoDka_0404_
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@Wagu_Neru
+  art: ¥12,000 · correction: ¥5,000
+
+# https://skeb.jp/@Xw0_moGi_
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@YKR17y
+  art: ¥1,000 · comic: ¥2,000
+
+# https://skeb.jp/@YakiShake1
+  art: ¥3,000
+
+# https://skeb.jp/@YamiotiKong
+  art: ¥6,000
+
+# https://skeb.jp/@YawaDeka
+  art: ¥5,000
+
+# https://skeb.jp/@YuNi_animal
+  art: ¥10,000
+
+# https://skeb.jp/@Yuk1_104
+  art: ¥5,000
+
+# https://skeb.jp/@Zees2525
+  art: ¥10,000 · correction: ¥500 · video: ¥12,000
+
+# https://skeb.jp/@__s__n__0
+
+# https://skeb.jp/@_by4co
+
+# https://skeb.jp/@_ekaki
+
+# https://skeb.jp/@_hinatahirune
+
+# https://skeb.jp/@_inot17
+
+# https://skeb.jp/@_kirinoha_2
+
+# https://skeb.jp/@_paoda
+
+# https://skeb.jp/@agyl_l
+  art: ¥10,000
+
+# https://skeb.jp/@akenoin
+  art: ¥8,000
+
+# https://skeb.jp/@akenoin2
+  art: ¥5,000
+
+# https://skeb.jp/@aku_f198
+  art: ¥10,000
+
+# https://skeb.jp/@amai_mohuta
+  art: ¥3,000 · correction: ¥2,000
+
+# https://skeb.jp/@ame_akira00
+  art: ¥13,000
+
+# https://skeb.jp/@amezato_a
+  art: ¥10,000
+
+# https://skeb.jp/@arssein
+  art: ¥4,000 · correction: ¥3,000
+
+# https://skeb.jp/@asameyayo39
+  art: ¥8,000
+
+# https://skeb.jp/@atsumi69
+  art: ¥6,000 · comic: ¥7,000
+
+# https://skeb.jp/@azu_kotsume
+  art: ¥5,000
+
+# https://skeb.jp/@azu_u_u__
+  art: ¥3,000
+
+# https://skeb.jp/@b4E4_241
+  art: ¥5,000
+
+# https://skeb.jp/@babu_2_
+  art: ¥12,000
+
+# https://skeb.jp/@banana_lenhai
+  art: ¥7,000
+
+# https://skeb.jp/@basashimeshi
+  art: ¥6,500 · correction: ¥3,000
+
+# https://skeb.jp/@batekka
+  art: ¥5,000 · comic: ¥10,000
+
+# https://skeb.jp/@baziru_ttv
+  art: ¥1,000 · correction: ¥500
+
+# https://skeb.jp/@beni025
+  art: ¥3,000
+
+# https://skeb.jp/@buruburu2
+  art: ¥5,000 · correction: ¥4,000
+
+# https://skeb.jp/@buzz_nou
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@c4gHJ8dtBb
+
+# https://skeb.jp/@cacaocreate
+  art: ¥3,000
+
+# https://skeb.jp/@camogaru
+  art: ¥5,000 · correction: ¥500 · novel: ¥3,000
+
+# https://skeb.jp/@campagne_9
+  art: ¥42,000 · comic: ¥35,000 · correction: ¥16,000
+
+# https://skeb.jp/@cat_foxxx
+  art: ¥2,000
+
+# https://skeb.jp/@ccc_chisel
+  art: ¥3,000 · video: ¥3,500
+
+# https://skeb.jp/@chaoiruko
+  art: ¥5,000
+
+# https://skeb.jp/@chizechize
+  art: ¥25,000
+
+# https://skeb.jp/@chomomo286149
+  art: ¥3,000
+
+# https://skeb.jp/@citizenoftheA
+  art: ¥5,000
+
+# https://skeb.jp/@cocoich
+  art: ¥10,000
+
+# https://skeb.jp/@cotorito_asobou
+  art: ¥5,000 · comic: ¥500 · novel: ¥5,000
+
+# https://skeb.jp/@crescent_D
+  art: ¥19,500 · comic: ¥10,000 · correction: ¥500
+
+# https://skeb.jp/@crowest
+  art: ¥2,000 · correction: ¥3,000
+
+# https://skeb.jp/@cvn00msab
+  art: ¥6,000 · correction: ¥3,000
+
+# https://skeb.jp/@daigorou_hokori
+  art: ¥5,000
+
+# https://skeb.jp/@daisangen_1991
+  art: ¥5,000
+
+# https://skeb.jp/@daishuukaku01
+  art: ¥1,000 · novel: ¥5,000
+
+# https://skeb.jp/@daisuke_abe_
+  art: ¥10,000 · comic: ¥15,000 · correction: ¥500
+
+# https://skeb.jp/@deathoekaki
+  art: ¥5,500 · comic: ¥11,000
+
+# https://skeb.jp/@dena3E
+  art: ¥4,000
+
+# https://skeb.jp/@desaokaze
+  art: ¥5,000 · comic: ¥5,000
+
+# https://skeb.jp/@dorodoro106
+
+# https://skeb.jp/@dorojida
+  art: ¥8,000 · comic: ¥8,000 · video: ¥15,000
+
+# https://skeb.jp/@dorojidesu
+  art: ¥2,000
+
+# https://skeb.jp/@dorooji
+  art: ¥1,000 · video: ¥6,000
+
+# https://skeb.jp/@drakoyotto
+  art: ¥9,500 · correction: ¥2,000
+
+# https://skeb.jp/@eagthie
+  art: ¥3,000
+
+# https://skeb.jp/@ebimirin1214
+  art: ¥3,000 · video: ¥18,000
+
+# https://skeb.jp/@eichinarekihosi
+  art: ¥10,000 · comic: ¥5,000
+
+# https://skeb.jp/@ekiaroll
+  art: ¥6,000
+
+# https://skeb.jp/@ekura28
+  art: ¥35,000
+
+# https://skeb.jp/@elysia2020
+  correction: ¥1,000 · voice: ¥3,000
+
+# https://skeb.jp/@engawa110
+  art: ¥4,100
+
+# https://skeb.jp/@erickkagami1090
+
+# https://skeb.jp/@escort0o
+  art: ¥2,500 · correction: ¥600
+
+# https://skeb.jp/@esepoper
+  art: ¥7,000
+
+# https://skeb.jp/@f_SUBARU
+  art: ¥15,000 · correction: ¥1,000
+
+# https://skeb.jp/@fen825
+  art: ¥5,000
+
+# https://skeb.jp/@fiorella
+  art: ¥38,000
+
+# https://skeb.jp/@flask_beaker
+  art: ¥35,000
+
+# https://skeb.jp/@flos4187
+  art: ¥5,000
+
+# https://skeb.jp/@frostshin
+  art: ¥7,000 · comic: ¥7,000 · video: ¥9,000
+
+# https://skeb.jp/@fukur0_kohji
+
+# https://skeb.jp/@fukuro_xkoji
+
+# https://skeb.jp/@fukurokohji
+
+# https://skeb.jp/@fuminccho
+  art: ¥15,000
+
+# https://skeb.jp/@garcia1053
+  art: ¥20,000
+
+# https://skeb.jp/@gawasuki055
+  art: ¥5,000
+
+# https://skeb.jp/@gmail
+
+# https://skeb.jp/@goat_ling
+  art: ¥1,000
+
+# https://skeb.jp/@gorillagori21
+  art: ¥3,000
+
+# https://skeb.jp/@grcr_
+  art: ¥10,000 · comic: ¥10,000
+
+# https://skeb.jp/@gua_mc
+  art: ¥4,000 · correction: ¥3,000
+
+# https://skeb.jp/@gurivinesyu
+  art: ¥10,000 · novel: ¥7,000
+
+# https://skeb.jp/@gyumei_shippou
+  art: ¥15,000 · correction: ¥3,000
+
+# https://skeb.jp/@h_milk
+  art: ¥15,000
+
+# https://skeb.jp/@hachike2
+  art: ¥11,000 · comic: ¥10,000 · correction: ¥5,000 · video: ¥19,000
+
+# https://skeb.jp/@hakariyahakari
+  art: ¥8,000
+
+# https://skeb.jp/@hakurin72
+  art: ¥5,000 · comic: ¥3,000
+
+# https://skeb.jp/@hakuro00iruka
+  art: ¥15,000 · correction: ¥500
+
+# https://skeb.jp/@halkana
+  art: ¥12,000
+
+# https://skeb.jp/@hane_azl
+  art: ¥20,000 · comic: ¥25,000 · correction: ¥1,000
+
+# https://skeb.jp/@harapochi_art
+  art: ¥3,000
+
+# https://skeb.jp/@harutaro_5d
+  art: ¥8,000
+
+# https://skeb.jp/@hashimio_c
+  art: ¥8,000 · video: ¥10,000 · voice: ¥3,000
+
+# https://skeb.jp/@hasuno_sousaku
+  art: ¥2,000 · comic: ¥6,500
+
+# https://skeb.jp/@hataranightstar
+  art: ¥10,000
+
+# https://skeb.jp/@hato4242
+  art: ¥9,000
+
+# https://skeb.jp/@haxtukaame
+  novel: ¥5,000
+
+# https://skeb.jp/@hayao_abaaa
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@helen2210hk
+  art: ¥5,000 · correction: ¥1,500
+
+# https://skeb.jp/@hemorina
+  art: ¥20,000
+
+# https://skeb.jp/@herahemO
+  art: ¥19,000 · correction: ¥2,000
+
+# https://skeb.jp/@hidamari9
+  art: ¥6,000 · video: ¥8,000
+
+# https://skeb.jp/@higaragi0209
+  art: ¥12,000
+
+# https://skeb.jp/@higyohigyo
+  art: ¥8,000
+
+# https://skeb.jp/@hiizuminakre
+  art: ¥20,000
+
+# https://skeb.jp/@hiko_amama
+  art: ¥6,000 · comic: ¥15,000
+
+# https://skeb.jp/@hinahayase
+  art: ¥8,000
+
+# https://skeb.jp/@hinahayase02
+  art: ¥5,000
+
+# https://skeb.jp/@hiraga_matsuri
+  art: ¥26,000 · video: ¥40,000
+
+# https://skeb.jp/@hiragana_sherry
+  art: ¥15,000 · comic: ¥16,000
+
+# https://skeb.jp/@hitaren_illust
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@hitohutakiri
+  novel: ¥5,000 · voice: ¥4,000
+
+# https://skeb.jp/@hitose_rei
+  art: ¥6,000
+
+# https://skeb.jp/@homipyui
+  art: ¥5,000
+
+# https://skeb.jp/@hototogissss
+  art: ¥6,500 · comic: ¥10,000 · correction: ¥1,000
+
+# https://skeb.jp/@i6_166
+  art: ¥500
+
+# https://skeb.jp/@icloud
+
+# https://skeb.jp/@ietaire
+  art: ¥3,000 · correction: ¥500 · music: ¥3,000
+
+# https://skeb.jp/@ikemaziro
+  art: ¥4,000
+
+# https://skeb.jp/@inouemitan
+  art: ¥16,000 · comic: ¥16,000 · correction: ¥25,000
+
+# https://skeb.jp/@inu_ok6
+  art: ¥7,500
+
+# https://skeb.jp/@jFOdc9v9_inari
+  art: ¥4,000
+
+# https://skeb.jp/@jinb9
+  art: ¥9,000
+
+# https://skeb.jp/@jknt_i5280
+  art: ¥6,000
+
+# https://skeb.jp/@jyoubu_masaru
+  art: ¥5,000
+
+# https://skeb.jp/@k_axiaxxx
+  art: ¥2,000
+
+# https://skeb.jp/@ka84_
+  art: ¥5,000 · correction: ¥1,000
+
+# https://skeb.jp/@kaede_amemiya
+  art: ¥2,500 · comic: ¥5,000 · correction: ¥500 · video: ¥4,000
+
+# https://skeb.jp/@kahi9317
+  art: ¥3,000
+
+# https://skeb.jp/@kaimu_egc000
+  art: ¥8,000 · correction: ¥3,000
+
+# https://skeb.jp/@kakenai01
+  art: ¥3,000 · novel: ¥3,000
+
+# https://skeb.jp/@kalis_Julie
+  art: ¥3,000
+
+# https://skeb.jp/@kamenR000
+
+# https://skeb.jp/@kan_sika
+  art: ¥3,000 · correction: ¥1,000
+
+# https://skeb.jp/@kanaria_BCoMN
+  art: ¥6,000 · correction: ¥500
+
+# https://skeb.jp/@kanranseki0725
+  art: ¥6,000
+
+# https://skeb.jp/@karinntou02
+  art: ¥5,000 · comic: ¥5,000
+
+# https://skeb.jp/@kawahagi_modoki
+  art: ¥3,000
+
+# https://skeb.jp/@kazakiri_form
+  art: ¥6,000 · correction: ¥1,000
+
+# https://skeb.jp/@kedarui_osushi
+  art: ¥5,000
+
+# https://skeb.jp/@keepneniji
+  art: ¥5,555
+
+# https://skeb.jp/@kenseiyorimichi
+  art: ¥5,250 · comic: ¥6,750
+
+# https://skeb.jp/@kinatsu_min
+  art: ¥5,000
+
+# https://skeb.jp/@kingGdora
+  art: ¥5,000
+
+# https://skeb.jp/@kirach_Y
+  art: ¥20,000
+
+# https://skeb.jp/@kiri_0861
+  art: ¥4,000
+
+# https://skeb.jp/@kiron211
+  art: ¥7,000
+
+# https://skeb.jp/@kisetu_maki
+  art: ¥5,000
+
+# https://skeb.jp/@klm1511
+  art: ¥13,000
+
+# https://skeb.jp/@kobsaki
+  art: ¥3,000 · comic: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@kokone2722
+  art: ¥3,500 · correction: ¥500
+
+# https://skeb.jp/@komagoma
+  art: ¥14,000
+
+# https://skeb.jp/@komagoma03
+  art: ¥5,000
+
+# https://skeb.jp/@kontaakiyasui
+  art: ¥4,000 · correction: ¥500 · video: ¥10,000
+
+# https://skeb.jp/@kosei_makino
+  art: ¥8,000 · correction: ¥3,000
+
+# https://skeb.jp/@kotarou83
+  art: ¥2,500
+
+# https://skeb.jp/@kou768
+  art: ¥9,800
+
+# https://skeb.jp/@kou_hiyoyo
+  art: ¥14,000 · comic: ¥17,000
+
+# https://skeb.jp/@koyomi_1017
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@krkrnasat_hdm
+  art: ¥4,000
+
+# https://skeb.jp/@kui_sinaji
+  art: ¥7,000
+
+# https://skeb.jp/@kuohsan
+  art: ¥6,500 · comic: ¥5,500
+
+# https://skeb.jp/@kurogahina
+  art: ¥5,000 · comic: ¥8,000
+
+# https://skeb.jp/@kuroi_kuro_neko
+  art: ¥4,000 · comic: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@kuroiroll
+  art: ¥7,000 · correction: ¥3,000
+
+# https://skeb.jp/@kusu
+  art: ¥16,000 · comic: ¥28,000
+
+# https://skeb.jp/@kzmt_6564
+  art: ¥12,000 · correction: ¥6,000
+
+# https://skeb.jp/@lSgBoeVmmjQT1dg
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@la0x0ka
+  art: ¥5,500 · correction: ¥500
+
+# https://skeb.jp/@laurel_1996
+  art: ¥10,000 · correction: ¥3,000
+
+# https://skeb.jp/@lefy_smed
+  art: ¥3,500 · video: ¥5,000
+
+# https://skeb.jp/@light_matsuko
+  art: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@lilyB_ohwashi
+  art: ¥6,000
+
+# https://skeb.jp/@lord_bamblin
+  art: ¥6,000
+
+# https://skeb.jp/@luccas
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@m_toshinaga
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@magumagu840
+  art: ¥10,000 · correction: ¥1,000
+
+# https://skeb.jp/@maguro_kaga
+  art: ¥3,000 · comic: ¥3,000
+
+# https://skeb.jp/@makida_16
+  art: ¥6,000
+
+# https://skeb.jp/@mane_suke
+  art: ¥2,500
+
+# https://skeb.jp/@mariheeiho
+  art: ¥20,000 · correction: ¥3,000
+
+# https://skeb.jp/@marimo577
+  art: ¥6,000 · comic: ¥10,000 · video: ¥15,000
+
+# https://skeb.jp/@marimo_mini7
+  art: ¥3,000 · comic: ¥8,000 · video: ¥9,000
+
+# https://skeb.jp/@maruken_xx
+  art: ¥5,000
+
+# https://skeb.jp/@masahiro5562
+  art: ¥4,000
+
+# https://skeb.jp/@matty_0505
+  art: ¥6,000 · correction: ¥500
+
+# https://skeb.jp/@matukazemattya
+  art: ¥3,500 · comic: ¥6,000
+
+# https://skeb.jp/@mayochimochi227
+  art: ¥5,000
+
+# https://skeb.jp/@mayurikaichou
+  art: ¥44,000 · correction: ¥10,000
+
+# https://skeb.jp/@mcpc_zamurai
+  art: ¥9,000 · comic: ¥16,000 · correction: ¥5,000
+
+# https://skeb.jp/@memento_vivi
+  art: ¥25,000
+
+# https://skeb.jp/@merry_condor
+  art: ¥15,000 · correction: ¥4,000
+
+# https://skeb.jp/@mhmk_game
+  art: ¥8,000 · comic: ¥10,000
+
+# https://skeb.jp/@midaringo
+  art: ¥15,000
+
+# https://skeb.jp/@midoxxrx
+  art: ¥3,000
+
+# https://skeb.jp/@mikaduki5
+  art: ¥20,000
+
+# https://skeb.jp/@mimimin1_YYY
+  art: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@mimimunpyo
+  art: ¥8,000
+
+# https://skeb.jp/@minamoto_0303
+  art: ¥5,000
+
+# https://skeb.jp/@mineko0025
+  art: ¥2,500
+
+# https://skeb.jp/@minor_human
+  art: ¥5,000
+
+# https://skeb.jp/@miruro0401
+  art: ¥3,000 · correction: ¥500 · novel: ¥3,000
+
+# https://skeb.jp/@misora_sorairo
+  art: ¥5,000
+
+# https://skeb.jp/@mitumi_ci
+  art: ¥6,500
+
+# https://skeb.jp/@miyamamim
+  art: ¥15,000
+
+# https://skeb.jp/@mizunatofu
+  art: ¥9,000 · correction: ¥5,000
+
+# https://skeb.jp/@ml_ruru
+  art: ¥20,000 · correction: ¥5,000
+
+# https://skeb.jp/@mma_no0
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@mo_kusi
+  art: ¥25,000
+
+# https://skeb.jp/@mocha_33_
+  art: ¥5,500
+
+# https://skeb.jp/@modanahuro
+  art: ¥15,000 · correction: ¥500 · novel: ¥4,000
+
+# https://skeb.jp/@mol404_vrc
+  art: ¥6,500 · correction: ¥5,000 · voice: ¥500
+
+# https://skeb.jp/@motenaikitakami
+  art: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@motimoti39usagi
+  art: ¥46,000
+
+# https://skeb.jp/@motiuma3
+  art: ¥5,600
+
+# https://skeb.jp/@moyashi_DECAYED
+
+# https://skeb.jp/@mugi_titukihyd
+  art: ¥3,000 · correction: ¥3,000 · novel: ¥3,000
+
+# https://skeb.jp/@mupu2__aun
+  art: ¥4,000 · correction: ¥3,000
+
+# https://skeb.jp/@mutoha_A_24
+  art: ¥12,000
+
+# https://skeb.jp/@mwtm_s
+  art: ¥1,000
+
+# https://skeb.jp/@nanase_saku39
+  art: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@nanazunazu_
+  art: ¥21,000
+
+# https://skeb.jp/@nao901
+  art: ¥9,000
+
+# https://skeb.jp/@nazna_futo
+  art: ¥5,000
+
+# https://skeb.jp/@neko_maru0000
+  art: ¥8,000
+
+# https://skeb.jp/@neko_no_kone
+  art: ¥8,000
+
+# https://skeb.jp/@nemu_y
+  art: ¥8,000
+
+# https://skeb.jp/@neruna_cake
+  art: ¥5,000
+
+# https://skeb.jp/@nickel495
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@nijiomu
+  art: ¥10,000 · comic: ¥10,000
+
+# https://skeb.jp/@nimoo_art
+  art: ¥9,000
+
+# https://skeb.jp/@njuzu09
+  art: ¥16,000
+
+# https://skeb.jp/@nnzz_abc
+  art: ¥700
+
+# https://skeb.jp/@nobuozi
+  art: ¥4,000 · correction: ¥3,000
+
+# https://skeb.jp/@nono_oder
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@nonrioillust
+  art: ¥6,000 · comic: ¥12,000 · correction: ¥3,000
+
+# https://skeb.jp/@null_chicken
+  art: ¥6,000
+
+# https://skeb.jp/@nuuuuu00_xxx
+  art: ¥3,000
+
+# https://skeb.jp/@ojisanno_tikubi
+  art: ¥3,000
+
+# https://skeb.jp/@okk_mochi99
+  art: ¥5,000 · comic: ¥5,000
+
+# https://skeb.jp/@okyochan
+  art: ¥15,000
+
+# https://skeb.jp/@olto_rondo
+  art: ¥7,500 · music: ¥3,000
+
+# https://skeb.jp/@omdomanzu
+  art: ¥15,000 · correction: ¥500 · voice: ¥15,000
+
+# https://skeb.jp/@omisoshirutan
+  art: ¥3,000
+
+# https://skeb.jp/@osawa_99
+  art: ¥10,000 · correction: ¥3,000
+
+# https://skeb.jp/@otomayiM_
+  art: ¥7,000
+
+# https://skeb.jp/@oyanokonosuke
+  art: ¥5,000
+
+# https://skeb.jp/@oyomotin
+  art: ¥3,000 · comic: ¥3,000 · video: ¥3,000
+
+# https://skeb.jp/@ozawa2792728641
+  art: ¥4,000 · correction: ¥500
+
+# https://skeb.jp/@ozucat
+  art: ¥15,000 · correction: ¥15,000
+
+# https://skeb.jp/@pMKhUSRq1L06bxW
+  art: ¥10,000 · correction: ¥500
+
+# https://skeb.jp/@papermoon_a
+  art: ¥5,000
+
+# https://skeb.jp/@pener
+  art: ¥3,000 · comic: ¥6,000
+
+# https://skeb.jp/@piyoko_noko
+  art: ¥4,000 · correction: ¥500
+
+# https://skeb.jp/@poichama
+  art: ¥16,000
+
+# https://skeb.jp/@pokapoka865
+  art: ¥5,000 · comic: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@ponu8686
+  art: ¥3,000
+
+# https://skeb.jp/@posya975
+  art: ¥2,000 · video: ¥2,000
+
+# https://skeb.jp/@qJWHvZAhlO
+  art: ¥7,000 · correction: ¥5,000
+
+# https://skeb.jp/@raina0317
+  art: ¥3,000 · comic: ¥7,000
+
+# https://skeb.jp/@raiou_yuuki
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@rekka_uran
+  art: ¥8,000
+
+# https://skeb.jp/@rin_foxy
+  art: ¥10,000
+
+# https://skeb.jp/@rindo2323
+  art: ¥10,000 · correction: ¥3,000
+
+# https://skeb.jp/@robota0808
+  art: ¥12,000
+
+# https://skeb.jp/@roha_
+  art: ¥7,500
+
+# https://skeb.jp/@roruau_kkn
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@runa_shirayuki
+  art: ¥16,500
+
+# https://skeb.jp/@ryaoprn
+  art: ¥9,000 · correction: ¥4,000 · video: ¥15,000
+
+# https://skeb.jp/@ryumrykk
+  art: ¥5,000
+
+# https://skeb.jp/@s3_jn
+  art: ¥5,000
+
+# https://skeb.jp/@s_a_y_o__
+  art: ¥5,000
+
+# https://skeb.jp/@s_yoyotu
+  art: ¥7,000
+
+# https://skeb.jp/@sa9karis
+  art: ¥7,000
+
+# https://skeb.jp/@saaaaaki0x0
+  art: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@san_mozu01
+  art: ¥4,000
+
+# https://skeb.jp/@saniwano_yu
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@saty_ill_voice
+  art: ¥6,000 · comic: ¥10,000 · correction: ¥6,000
+
+# https://skeb.jp/@sawara_224
+  art: ¥5,000
+
+# https://skeb.jp/@scamp_f16
+  art: ¥7,000
+
+# https://skeb.jp/@serusiwasu
+  art: ¥18,000 · comic: ¥18,000 · correction: ¥500
+
+# https://skeb.jp/@seto__153
+  art: ¥5,000
+
+# https://skeb.jp/@shima080
+  art: ¥5,000 · comic: ¥10,000
+
+# https://skeb.jp/@shino2121
+  art: ¥10,000
+
+# https://skeb.jp/@shiroi_hito3
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@shito_yui
+  art: ¥45,000
+
+# https://skeb.jp/@simoooji
+
+# https://skeb.jp/@siro_konnyaku
+  art: ¥8,000
+
+# https://skeb.jp/@skiapodes
+  art: ¥10,000
+
+# https://skeb.jp/@sofraaaaa
+  art: ¥16,000
+
+# https://skeb.jp/@sorane_kekekemo
+  art: ¥6,500
+
+# https://skeb.jp/@ssk_sasasa
+  art: ¥8,000
+
+# https://skeb.jp/@stella_yokuni
+  art: ¥3,000 · correction: ¥1,000
+
+# https://skeb.jp/@stntmk2_s6
+  art: ¥3,000
+
+# https://skeb.jp/@stsk_goodsmile
+  art: ¥4,000 · correction: ¥500
+
+# https://skeb.jp/@subtle_dawn
+  art: ¥2,500 · correction: ¥500 · video: ¥3,500
+
+# https://skeb.jp/@suikyo_5
+  art: ¥8,000 · comic: ¥10,000
+
+# https://skeb.jp/@surumeERO
+  art: ¥4,000 · comic: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@swev_r_tk
+  art: ¥7,000
+
+# https://skeb.jp/@swgg_sh
+  art: ¥3,000
+
+# https://skeb.jp/@tachibana00
+  art: ¥3,000
+
+# https://skeb.jp/@taditadi
+  art: ¥20,000 · novel: ¥11,000
+
+# https://skeb.jp/@tai0415
+  art: ¥5,000
+
+# https://skeb.jp/@tai_mushi
+  art: ¥5,000 · correction: ¥3,000 · novel: ¥3,000 · video: ¥5,000
+
+# https://skeb.jp/@takemi708
+  correction: ¥7,000
+
+# https://skeb.jp/@takosuke4chan
+  art: ¥10,000
+
+# https://skeb.jp/@takuto173
+  art: ¥6,000
+
+# https://skeb.jp/@tamako_omochi
+
+# https://skeb.jp/@tanu_yuzu
+  art: ¥10,000 · correction: ¥500
+
+# https://skeb.jp/@tanuki_rotate
+  art: ¥20,000
+
+# https://skeb.jp/@taqu_ta9
+  art: ¥5,000 · correction: ¥5,000
+
+# https://skeb.jp/@tatemono_PL
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@tatutaage_uma
+  art: ¥11,000
+
+# https://skeb.jp/@the_sweetparty
+
+# https://skeb.jp/@thurubamicat
+  art: ¥5,000
+
+# https://skeb.jp/@tinpobattle
+  art: ¥4,000
+
+# https://skeb.jp/@tmgCumu
+  art: ¥8,000 · correction: ¥2,000 · video: ¥9,000
+
+# https://skeb.jp/@tmk_illust66
+  art: ¥3,500
+
+# https://skeb.jp/@toad_3389
+  art: ¥5,000
+
+# https://skeb.jp/@tohta_pso2
+  voice: ¥1,000
+
+# https://skeb.jp/@toluol_0925
+  art: ¥10,000 · correction: ¥500
+
+# https://skeb.jp/@tomun_chan
+  art: ¥1,500
+
+# https://skeb.jp/@tonke2015
+  art: ¥7,000 · correction: ¥2,000
+
+# https://skeb.jp/@trpg_nue
+  art: ¥4,000
+
+# https://skeb.jp/@tsubaki06vg
+  art: ¥5,000
+
+# https://skeb.jp/@tsukimi_lapin
+
+# https://skeb.jp/@tsukishiro0814
+  art: ¥12,000
+
+# https://skeb.jp/@ttykik
+  art: ¥5,000 · comic: ¥5,000
+
+# https://skeb.jp/@tukisirokanata
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@tuzi24_
+  art: ¥6,000
+
+# https://skeb.jp/@tyamtyammmm
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@udou_
+  art: ¥4,000
+
+# https://skeb.jp/@uli0813
+  art: ¥6,000
+
+# https://skeb.jp/@umasiroko
+
+# https://skeb.jp/@umezometanuki
+  art: ¥8,000 · video: ¥15,000 · voice: ¥3,000
+
+# https://skeb.jp/@unihead207215
+  art: ¥5,000
+
+# https://skeb.jp/@user4849811603124
+
+# https://skeb.jp/@uwonozoki
+  art: ¥3,000
+
+# https://skeb.jp/@v_1ne
+  art: ¥2,500
+
+# https://skeb.jp/@wanwa_fufu
+  art: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@wataame_skeb
+  art: ¥1,500
+
+# https://skeb.jp/@wcFTuBSzbj49655
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@white_wineMei
+  art: ¥10,000
+
+# https://skeb.jp/@wqopwv
+  art: ¥3,000
+
+# https://skeb.jp/@xexuxexu
+
+# https://skeb.jp/@yakumosumiii
+  art: ¥8,000
+
+# https://skeb.jp/@yamazin_ex
+  art: ¥8,000
+
+# https://skeb.jp/@yanndere_daiso
+  art: ¥2,000
+
+# https://skeb.jp/@yappa_akande
+  art: ¥2,000 · comic: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@yasagure2828
+  art: ¥8,000 · correction: ¥500
+
+# https://skeb.jp/@yayaya_nnyom_
+  art: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@ykhk_58
+  art: ¥14,000
+
+# https://skeb.jp/@yo_namikaze
+  art: ¥3,000
+
+# https://skeb.jp/@yoakeryuya
+  art: ¥3,000
+
+# https://skeb.jp/@yohi_blues
+  art: ¥15,000
+
+# https://skeb.jp/@yomo_42617
+
+# https://skeb.jp/@yomo_9635
+  art: ¥5,000
+
+# https://skeb.jp/@yorarry_k
+  art: ¥7,000
+
+# https://skeb.jp/@yoshirai
+  art: ¥1,500
+
+# https://skeb.jp/@yoshiyuki_0w0
+  art: ¥6,800 · correction: ¥500
+
+# https://skeb.jp/@yry_r0o
+  art: ¥4,000
+
+# https://skeb.jp/@yu_arikui
+  art: ¥7,000
+
+# https://skeb.jp/@yudofu33
+  art: ¥5,000 · correction: ¥500
+
+# https://skeb.jp/@yukita021204
+  art: ¥15,000
+
+# https://skeb.jp/@yukyug_UNIFER
+  music: ¥3,000
+
+# https://skeb.jp/@yuno_skebyo
+  art: ¥7,000 · comic: ¥12,000
+
+# https://skeb.jp/@yurikawa611
+  art: ¥12,000
+
+# https://skeb.jp/@yusin
+
+# https://skeb.jp/@yusin_kawamura
+  art: ¥8,500 · comic: ¥10,000 · correction: ¥1,000
+
+# https://skeb.jp/@yuuhikureroom6
+  art: ¥5,000
+
+# https://skeb.jp/@yuusan_33
+  art: ¥5,000 · correction: ¥3,000
+
+# https://skeb.jp/@yuusei_musi
+  art: ¥12,000
+
+# https://skeb.jp/@yuuu010742491
+  art: ¥3,000 · correction: ¥3,000
+
+# https://skeb.jp/@yuzunobin
+  art: ¥7,700 · video: ¥8,585
+
+# https://skeb.jp/@zakinare
+  art: ¥3,000 · comic: ¥3,000 · correction: ¥500
+
+# https://skeb.jp/@zbbznb_
+  art: ¥8,500
+
+# https://skeb.jp/@zc_clwo
+  art: ¥10,000 · comic: ¥10,000
+
+# https://skeb.jp/@zcjbxws8
+
+# https://skeb.jp/@zettai_nagaiki
+  art: ¥8,000
+
+# https://skeb.jp/@zibn_pasutel
+  art: ¥10,000
+
+# https://skeb.jp/@zmnjo1440
+  art: ¥17,000
+
+# https://skeb.jp/@zyuroku2
+  novel: ¥10,000
