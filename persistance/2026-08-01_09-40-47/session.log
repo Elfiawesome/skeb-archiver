@@ -1,0 +1,170 @@
+2026-08-01 09:40:47 | INFO     | Initialized Data Store.
+2026-08-01 09:40:47 | INFO     | Homepage GET status=429 (attempt 1/3)
+2026-08-01 09:40:47 | INFO     | Cookie extracted [request_key=...].
+2026-08-01 09:40:47 | INFO     | SkebClient ready (impersonate=chrome120, rate=1.0/s, concurrency=10, max_runtime=10800s)
+2026-08-01 09:40:47 | INFO     | Album source: loaded 157 entries from https://raw.githubusercontent.com/Elfiawesome/skeb-archiver/refs/heads/main/bookmark/bookmarks.md (album=bookmarks)
+2026-08-01 09:40:47 | INFO     | Ready to scrape 157 items
+2026-08-01 09:40:48 | INFO     | OK https://skeb.jp/api/users/razzo_2
+2026-08-01 09:40:49 | INFO     | OK https://skeb.jp/api/users/mari_youko
+2026-08-01 09:40:50 | INFO     | OK https://skeb.jp/api/users/itsuha70
+2026-08-01 09:40:51 | INFO     | OK https://skeb.jp/api/users/Karix2umedesu
+2026-08-01 09:40:52 | INFO     | OK https://skeb.jp/api/users/osada_neteru
+2026-08-01 09:40:53 | INFO     | OK https://skeb.jp/api/users/yomo0712
+2026-08-01 09:40:54 | INFO     | OK https://skeb.jp/api/users/N0__kiddiNG
+2026-08-01 09:40:55 | INFO     | OK https://skeb.jp/api/users/0525_cosmo
+2026-08-01 09:40:56 | WARNING  | 404 on https://skeb.jp/api/users/sbxu_0076 (attempt 1/3)
+2026-08-01 09:40:57 | INFO     | OK https://skeb.jp/api/users/moyashi_trpg
+2026-08-01 09:40:58 | INFO     | OK https://skeb.jp/api/users/mehishiba_
+2026-08-01 09:40:59 | INFO     | OK https://skeb.jp/api/users/tayoshi_miyako
+2026-08-01 09:41:00 | INFO     | OK https://skeb.jp/api/users/homare_appare
+2026-08-01 09:41:01 | INFO     | OK https://skeb.jp/api/users/abcdyubo
+2026-08-01 09:41:02 | INFO     | OK https://skeb.jp/api/users/n_nanasi_
+2026-08-01 09:41:03 | INFO     | OK https://skeb.jp/api/users/net_stoker3
+2026-08-01 09:41:04 | INFO     | OK https://skeb.jp/api/users/meimu_MMM
+2026-08-01 09:41:05 | INFO     | OK https://skeb.jp/api/users/Nk_2277
+2026-08-01 09:41:06 | INFO     | OK https://skeb.jp/api/users/ShiragikuGayu
+2026-08-01 09:41:07 | INFO     | OK https://skeb.jp/api/users/subcul_enjoy
+2026-08-01 09:41:08 | WARNING  | 404 on https://skeb.jp/api/users/sbxu_0076 (attempt 2/3)
+2026-08-01 09:41:09 | INFO     | OK https://skeb.jp/api/users/sakigakeran
+2026-08-01 09:41:10 | INFO     | OK https://skeb.jp/api/users/inukoro15
+2026-08-01 09:41:11 | INFO     | OK https://skeb.jp/api/users/Myo_005
+2026-08-01 09:41:12 | INFO     | OK https://skeb.jp/api/users/meneneneneneneh
+2026-08-01 09:41:13 | INFO     | OK https://skeb.jp/api/users/oroka76
+2026-08-01 09:41:14 | INFO     | OK https://skeb.jp/api/users/NUMU_1107_1
+2026-08-01 09:41:15 | INFO     | OK https://skeb.jp/api/users/_abeabea_
+2026-08-01 09:41:16 | INFO     | OK https://skeb.jp/api/users/taru2_CoC
+2026-08-01 09:41:17 | INFO     | OK https://skeb.jp/api/users/myorufu49422
+2026-08-01 09:41:18 | INFO     | OK https://skeb.jp/api/users/tafu1219
+2026-08-01 09:41:19 | INFO     | OK https://skeb.jp/api/users/Na_iu12
+2026-08-01 09:41:20 | INFO     | OK https://skeb.jp/api/users/shiratori_NK
+2026-08-01 09:41:21 | INFO     | OK https://skeb.jp/api/users/Nachi6623
+2026-08-01 09:41:22 | INFO     | OK https://skeb.jp/api/users/ShirasuKuretaka
+2026-08-01 09:41:23 | WARNING  | 404 on https://skeb.jp/api/users/sbxu_0076 (attempt 3/3)
+2026-08-01 09:41:24 | INFO     | OK https://skeb.jp/api/users/ka07se
+2026-08-01 09:41:25 | INFO     | OK https://skeb.jp/api/users/LQ_liberty
+2026-08-01 09:41:26 | INFO     | OK https://skeb.jp/api/users/kenomasu_9991
+2026-08-01 09:41:27 | INFO     | OK https://skeb.jp/api/users/shiFenn1210
+2026-08-01 09:41:28 | INFO     | OK https://skeb.jp/api/users/mitei221
+2026-08-01 09:41:29 | INFO     | OK https://skeb.jp/api/users/Eiswand___
+2026-08-01 09:41:30 | INFO     | OK https://skeb.jp/api/users/sun_sad_sun
+2026-08-01 09:41:31 | INFO     | OK https://skeb.jp/api/users/eriko_kajiyama
+2026-08-01 09:41:32 | INFO     | OK https://skeb.jp/api/users/nogiTRPG
+2026-08-01 09:41:33 | INFO     | OK https://skeb.jp/api/users/rensyu_cho_
+2026-08-01 09:41:34 | INFO     | OK https://skeb.jp/api/users/6cIQczpJdB
+2026-08-01 09:41:35 | INFO     | OK https://skeb.jp/api/users/hjarta_aim
+2026-08-01 09:41:36 | INFO     | OK https://skeb.jp/api/users/nesharo_na
+2026-08-01 09:41:37 | WARNING  | 404 on https://skeb.jp/api/users/246pigeon (attempt 1/3)
+2026-08-01 09:41:38 | INFO     | OK https://skeb.jp/api/users/ONE68_0503
+2026-08-01 09:41:39 | INFO     | OK https://skeb.jp/api/users/hanako0055
+2026-08-01 09:41:40 | INFO     | OK https://skeb.jp/api/users/yorupui
+2026-08-01 09:41:41 | INFO     | OK https://skeb.jp/api/users/simpa_i_NNN
+2026-08-01 09:41:42 | INFO     | OK https://skeb.jp/api/users/chani_531
+2026-08-01 09:41:43 | INFO     | OK https://skeb.jp/api/users/zvCona0517
+2026-08-01 09:41:44 | WARNING  | 404 on https://skeb.jp/api/users/246pigeon (attempt 2/3)
+2026-08-01 09:41:45 | INFO     | OK https://skeb.jp/api/users/asamiya_0913
+2026-08-01 09:41:46 | INFO     | OK https://skeb.jp/api/users/Nei_skeb
+2026-08-01 09:41:47 | INFO     | OK https://skeb.jp/api/users/fyten318ra
+2026-08-01 09:41:48 | INFO     | OK https://skeb.jp/api/users/jin_iorin
+2026-08-01 09:41:49 | INFO     | OK https://skeb.jp/api/users/bota_gi
+2026-08-01 09:41:50 | INFO     | OK https://skeb.jp/api/users/5_ice_
+2026-08-01 09:41:51 | WARNING  | 404 on https://skeb.jp/api/users/246pigeon (attempt 3/3)
+2026-08-01 09:41:52 | WARNING  | 404 on https://skeb.jp/api/users/wapeu__sanwa (attempt 1/3)
+2026-08-01 09:41:53 | INFO     | OK https://skeb.jp/api/users/kido_402G
+2026-08-01 09:41:54 | INFO     | OK https://skeb.jp/api/users/chi8kogaki
+2026-08-01 09:41:55 | INFO     | OK https://skeb.jp/api/users/kyookasyo_28_
+2026-08-01 09:41:56 | INFO     | OK https://skeb.jp/api/users/tt_czm
+2026-08-01 09:41:57 | INFO     | OK https://skeb.jp/api/users/hechiretuJ
+2026-08-01 09:41:58 | INFO     | OK https://skeb.jp/api/users/MZHR_ao
+2026-08-01 09:41:59 | INFO     | OK https://skeb.jp/api/users/kurat_96
+2026-08-01 09:42:00 | INFO     | OK https://skeb.jp/api/users/inonaka_chan
+2026-08-01 09:42:01 | INFO     | OK https://skeb.jp/api/users/rabon_260
+2026-08-01 09:42:02 | WARNING  | 404 on https://skeb.jp/api/users/wapeu__sanwa (attempt 2/3)
+2026-08-01 09:42:03 | INFO     | OK https://skeb.jp/api/users/Kuroumea_108
+2026-08-01 09:42:04 | INFO     | OK https://skeb.jp/api/users/ucs_9
+2026-08-01 09:42:05 | INFO     | OK https://skeb.jp/api/users/Kanata_Iku
+2026-08-01 09:42:06 | INFO     | OK https://skeb.jp/api/users/Momongalyu1
+2026-08-01 09:42:07 | INFO     | OK https://skeb.jp/api/users/408_zzz
+2026-08-01 09:42:08 | INFO     | OK https://skeb.jp/api/users/azuma_sanotsuki
+2026-08-01 09:42:09 | INFO     | OK https://skeb.jp/api/users/fukaboshi50
+2026-08-01 09:42:10 | INFO     | OK https://skeb.jp/api/users/jajaja_skeb
+2026-08-01 09:42:11 | INFO     | OK https://skeb.jp/api/users/bbmr_hnkn
+2026-08-01 09:42:12 | INFO     | OK https://skeb.jp/api/users/oishiimizu_378
+2026-08-01 09:42:13 | INFO     | OK https://skeb.jp/api/users/K_sera92art
+2026-08-01 09:42:14 | WARNING  | 404 on https://skeb.jp/api/users/wapeu__sanwa (attempt 3/3)
+2026-08-01 09:42:15 | INFO     | OK https://skeb.jp/api/users/_meguri_meguru_
+2026-08-01 09:42:16 | INFO     | OK https://skeb.jp/api/users/mangazuki97
+2026-08-01 09:42:17 | INFO     | OK https://skeb.jp/api/users/qyQVKPD46777514
+2026-08-01 09:42:18 | INFO     | OK https://skeb.jp/api/users/Kakasi1004
+2026-08-01 09:42:19 | INFO     | OK https://skeb.jp/api/users/Masakkiij
+2026-08-01 09:42:20 | INFO     | OK https://skeb.jp/api/users/500_500px
+2026-08-01 09:42:21 | INFO     | OK https://skeb.jp/api/users/tAIVUD7H57
+2026-08-01 09:42:22 | INFO     | OK https://skeb.jp/api/users/jahopotto
+2026-08-01 09:42:23 | INFO     | OK https://skeb.jp/api/users/yua__vv
+2026-08-01 09:42:24 | INFO     | OK https://skeb.jp/api/users/OC_Kawaigari
+2026-08-01 09:42:25 | INFO     | OK https://skeb.jp/api/users/Cheshire_neko
+2026-08-01 09:42:26 | INFO     | OK https://skeb.jp/api/users/R28Sm47
+2026-08-01 09:42:27 | INFO     | OK https://skeb.jp/api/users/moriya_m
+2026-08-01 09:42:28 | INFO     | OK https://skeb.jp/api/users/sorabinn_coc
+2026-08-01 09:42:29 | INFO     | OK https://skeb.jp/api/users/hakonotakuya
+2026-08-01 09:42:30 | INFO     | OK https://skeb.jp/api/users/iusn_dethyo
+2026-08-01 09:42:31 | INFO     | OK https://skeb.jp/api/users/_mitoku
+2026-08-01 09:42:32 | INFO     | OK https://skeb.jp/api/users/HZcnj
+2026-08-01 09:42:33 | INFO     | OK https://skeb.jp/api/users/nayakakka
+2026-08-01 09:42:34 | INFO     | OK https://skeb.jp/api/users/tasuku_illust_
+2026-08-01 09:42:35 | INFO     | OK https://skeb.jp/api/users/RekanTen10
+2026-08-01 09:42:36 | INFO     | OK https://skeb.jp/api/users/ryunmerudo2
+2026-08-01 09:42:37 | INFO     | OK https://skeb.jp/api/users/yurahoko
+2026-08-01 09:42:38 | INFO     | OK https://skeb.jp/api/users/ytarohhhh
+2026-08-01 09:42:39 | INFO     | OK https://skeb.jp/api/users/momoiruriu37a
+2026-08-01 09:42:40 | INFO     | OK https://skeb.jp/api/users/maaaaaaa_am
+2026-08-01 09:42:41 | INFO     | OK https://skeb.jp/api/users/litmus_kotonoha
+2026-08-01 09:42:42 | INFO     | OK https://skeb.jp/api/users/tora31957618
+2026-08-01 09:42:43 | INFO     | OK https://skeb.jp/api/users/Nanai7
+2026-08-01 09:42:44 | INFO     | OK https://skeb.jp/api/users/sgr2894
+2026-08-01 09:42:45 | INFO     | OK https://skeb.jp/api/users/mineral_666
+2026-08-01 09:42:46 | INFO     | OK https://skeb.jp/api/users/sushiumasugiwww
+2026-08-01 09:42:47 | INFO     | OK https://skeb.jp/api/users/Tako8gi
+2026-08-01 09:42:48 | INFO     | OK https://skeb.jp/api/users/HAILOVE1528
+2026-08-01 09:42:49 | INFO     | OK https://skeb.jp/api/users/GOmash_kun
+2026-08-01 09:42:50 | INFO     | OK https://skeb.jp/api/users/sensuikanpupu
+2026-08-01 09:42:51 | INFO     | OK https://skeb.jp/api/users/mmmn_jusan
+2026-08-01 09:42:52 | INFO     | OK https://skeb.jp/api/users/gnome0310
+2026-08-01 09:42:53 | INFO     | OK https://skeb.jp/api/users/tanakazya_nai
+2026-08-01 09:42:54 | INFO     | OK https://skeb.jp/api/users/superTRPGgod
+2026-08-01 09:42:55 | INFO     | OK https://skeb.jp/api/users/siratori_kbu
+2026-08-01 09:42:56 | INFO     | OK https://skeb.jp/api/users/AKSTNacchi
+2026-08-01 09:42:57 | INFO     | OK https://skeb.jp/api/users/nayucoc
+2026-08-01 09:42:58 | INFO     | OK https://skeb.jp/api/users/rs26hk
+2026-08-01 09:42:59 | INFO     | OK https://skeb.jp/api/users/ONIGIRI_jm02
+2026-08-01 09:43:00 | INFO     | OK https://skeb.jp/api/users/burisyabu1234
+2026-08-01 09:43:01 | INFO     | OK https://skeb.jp/api/users/Ozashi193
+2026-08-01 09:43:02 | INFO     | OK https://skeb.jp/api/users/trava_sumi
+2026-08-01 09:43:03 | INFO     | OK https://skeb.jp/api/users/umennuro
+2026-08-01 09:43:04 | INFO     | OK https://skeb.jp/api/users/satanykimori2
+2026-08-01 09:43:05 | INFO     | OK https://skeb.jp/api/users/nama_zu7
+2026-08-01 09:43:06 | INFO     | OK https://skeb.jp/api/users/pgkmagm
+2026-08-01 09:43:07 | INFO     | OK https://skeb.jp/api/users/konnya9999
+2026-08-01 09:43:08 | INFO     | OK https://skeb.jp/api/users/u____eu_
+2026-08-01 09:43:09 | INFO     | OK https://skeb.jp/api/users/dog_iinioi
+2026-08-01 09:43:10 | INFO     | OK https://skeb.jp/api/users/tasogaresyunya
+2026-08-01 09:43:11 | INFO     | OK https://skeb.jp/api/users/moyucotto
+2026-08-01 09:43:12 | INFO     | OK https://skeb.jp/api/users/asa_pple
+2026-08-01 09:43:13 | INFO     | OK https://skeb.jp/api/users/12hktaz
+2026-08-01 09:43:14 | INFO     | OK https://skeb.jp/api/users/0IM08Ed6ex99530
+2026-08-01 09:43:15 | INFO     | OK https://skeb.jp/api/users/kassyokuuuuu
+2026-08-01 09:43:16 | INFO     | OK https://skeb.jp/api/users/2ni_0601
+2026-08-01 09:43:17 | INFO     | OK https://skeb.jp/api/users/ktyu_atiu
+2026-08-01 09:43:18 | INFO     | OK https://skeb.jp/api/users/Ak___lum
+2026-08-01 09:43:19 | INFO     | OK https://skeb.jp/api/users/L_eeid
+2026-08-01 09:43:20 | INFO     | OK https://skeb.jp/api/users/mizinko_kai
+2026-08-01 09:43:21 | INFO     | OK https://skeb.jp/api/users/knosi_114514
+2026-08-01 09:43:22 | INFO     | OK https://skeb.jp/api/users/Hang12000
+2026-08-01 09:43:23 | INFO     | OK https://skeb.jp/api/users/denjidaisuki_
+2026-08-01 09:43:24 | INFO     | OK https://skeb.jp/api/users/mitumitumi_yama
+2026-08-01 09:43:25 | INFO     | OK https://skeb.jp/api/users/us72d
+2026-08-01 09:43:26 | INFO     | OK https://skeb.jp/api/users/IV111111
+2026-08-01 09:43:27 | INFO     | OK https://skeb.jp/api/users/mamekawa_kikaku
+2026-08-01 09:43:28 | INFO     | OK https://skeb.jp/api/users/waka2047418
+2026-08-01 09:43:29 | INFO     | OK https://skeb.jp/api/users/TRPGaoiro
+2026-08-01 09:43:30 | INFO     | OK https://skeb.jp/api/users/pappapao1
+2026-08-01 09:43:30 | INFO     | Discord drain: awaiting 1 in-flight send(s)
