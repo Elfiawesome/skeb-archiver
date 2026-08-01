@@ -631,3 +631,156 @@ https://pbs.twimg.com/media/HL-PvyJaAAA7yWM?format=jpg&name=large
 https://pbs.twimg.com/media/HMN4LbNaAAEZrFS?format=jpg&name=large
 https://pbs.twimg.com/media/HL0Xx-8bcAAMPIi?format=jpg&name=large
 - Never knew we could ship these 2 🇨🇳🇰🇵 countries ._. So far has only send reqeust of chibis, so he might have a mindset that 1k is chibi 
+
+
+# https://skeb.jp/@jin_iorin
+https://pbs.twimg.com/media/G0DHYBlaQAAqslz?format=jpg&name=medium
+https://pbs.twimg.com/media/HOesEiBbwAAE9OS?format=jpg&name=medium
+https://pbs.twimg.com/media/G1RpkYabQAAnZo0?format=jpg&name=large
+- It says 3000 but minimum 1000 from his x.com `https://x.com/jin_iorin/status/2077201849275527198`
+
+# https://skeb.jp/@ONE68_0503
+https://pbs.twimg.com/media/HOfD0MZa4AAkgSR?format=jpg&name=large
+https://pbs.twimg.com/media/HOe_MPIaAAAGnAo?format=jpg&name=large
+https://pbs.twimg.com/media/HOX3XQ2bIAAcFl0?format=jpg&name=large
+https://pbs.twimg.com/media/HOD0MtNbIAA1DJ1?format=jpg&name=small
+- Heavy BL :)
+
+# https://skeb.jp/@azuma_sanotsuki
+- Really cute art!
+
+# https://skeb.jp/@mineral_666
+https://pbs.twimg.com/media/HJ4FuNVagAALqEJ?format=jpg&name=medium
+https://pbs.twimg.com/media/HOUKH5WaIAADWhV?format=png&name=900x900
+- Good rendering! Used to be 1k mostly female focused art 
+
+# https://skeb.jp/@sgr2894
+- GOod rendering but and is full body art? + chibis good pricing
+
+# https://skeb.jp/@TRPGaoiro
+https://pbs.twimg.com/media/G3mnoe2WkAAGwlU?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HGwG3HcboAAz1oz?format=png&name=900x900
+https://pbs.twimg.com/media/G49x4UVbQAEdKcS?format=jpg&name=large
+- Nijisnaji. alright rendering but the full body art and color is nice
+
+# https://skeb.jp/@burisyabu1234
+https://pbs.twimg.com/media/HFGZ-9UbAAA5mP_?format=jpg&name=large
+https://pbs.twimg.com/media/HGeyMSEa8AA_GGT?format=jpg&name=large
+- Pretty men could be BL? good rendering and color
+
+# https://skeb.jp/@mari_youko
+- Not really good proportions
+
+# https://skeb.jp/@nesharo_na
+- For something simple can use this one. But price fluctuates 1k-2k
+
+# https://skeb.jp/@0525_cosmo
+https://pbs.twimg.com/media/HOfOO9wacAA209V?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HMxItoLagAAJTl1?format=jpg&name=large
+- Semi good proportions but color and rendering not really
+
+# https://skeb.jp/@HZcnj
+https://pbs.twimg.com/media/G9pN13haMAEjXDV?format=jpg&name=large
+- Cute bl but not really good proportions. Might be dead account too
+
+# https://skeb.jp/@mizinko_kai
+- Full body art not bad. Could use for tech stuff?
+
+# https://skeb.jp/@OC_Kawaigari
+https://pbs.twimg.com/media/HOjUfQBaEAAA8kT?format=jpg&name=large
+- Sketchy art proably not
+
+# https://skeb.jp/@6cIQczpJdB
+https://pbs.twimg.com/media/HFSFGM5aoAAdCQm?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HEbT9EOboAAKPev?format=jpg&name=medium
+https://pbs.twimg.com/media/HEbVd_3bkAA2ExT?format=jpg&name=small
+https://pbs.twimg.com/media/HMLe1gfbQAADCMt?format=jpg&name=large
+- Soft artstyle. Good rendering and proportions. steven universe and western inspirted. Female focused?
+
+# https://skeb.jp/@meneneneneneneh
+https://pbs.twimg.com/media/HLBbi49aUAAE7pq?format=jpg&name=large
+https://pbs.twimg.com/media/GNrXresbYAAzzWc?format=jpg&name=large
+https://pbs.twimg.com/media/GNwS6xBacAA1_ly?format=jpg&name=large
+https://pbs.twimg.com/media/HFuI52lbMAEzAam?format=jpg&name=large
+- Madness combat wow. Good style but not sure if its 500
+
+
+# https://skeb.jp/@mamekawa_kikaku
+https://pbs.twimg.com/media/HNCFIcia8AAYW17?format=jpg&name=large
+https://pbs.twimg.com/media/HM3bJbyacAAufMp?format=jpg&name=large
+https://pbs.twimg.com/media/HEUp6UMbYAAcrH5?format=jpg&name=large
+- Soft sketch good proportion and artstyle
+
+# https://skeb.jp/@ryunmerudo2
+https://pbs.twimg.com/media/FjxjTubUoAEYWia?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/F7B_JKOaYAAq8iZ?format=jpg&name=large
+- Battle poses but not that good proportions
+
+# https://skeb.jp/@MZHR_ao
+https://pbs.twimg.com/media/G_iEiNjaYAAGTRV?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/GrE4nTCagAAkszX?format=jpg&name=large
+- Simple style for tech? Probably wont accept, I dont see any request in x.com
+
+# https://skeb.jp/@Masakkiij
+- Sparkly color. Very shoujo like
+
+# https://skeb.jp/@Momongalyu1
+https://pbs.twimg.com/media/HGN4KtmawAAKwNw?format=jpg&name=large
+https://pbs.twimg.com/media/HMek17abcAEkuZx?format=jpg&name=large
+https://pbs.twimg.com/media/HMWpMn_bMAATiKL?format=jpg&name=large
+- Very sketched-like and not that good
+
+# https://skeb.jp/@Nachi6623
+https://pbs.twimg.com/media/GzxdD0sbcAATHH1?format=jpg&name=large
+https://pbs.twimg.com/media/HOgzZJLbAAAwq3L?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HNzIOxzbgAAXL8w?format=jpg&name=large
+https://pbs.twimg.com/media/HNMnXgYbIAA8Itd?format=jpg&name=large
+- Nijisanji. Has 2 accounts one sub and one main. Looks good but not sure if he's requesting.
+
+# https://skeb.jp/@NUMU_1107_1
+https://si.imgix.net/4505c1e2/uploads/origins/dfb08533-f678-4ffc-be69-01133c3af477?bg=%23fff&txtfont=bold&txtshad=70&txtclr=BFFFFFFF&txtalign=middle%2Ccenter&txtsize=150&txt=SAMPLE&auto=format&fm=webp&w=800&s=4276fedae021f298aa7e7796c37a37a0
+https://pbs.twimg.com/media/HOJWKhgaoAAdAj_?format=jpg&name=large
+https://pbs.twimg.com/media/HJ5M4isakAAHfe2?format=jpg&name=medium
+https://pbs.twimg.com/media/Gyj1lcIaoAAjg4b?format=jpg&name=large
+- Really good coloring, maybe 90% proportions there. Looks good
+
+# https://skeb.jp/@ka07se
+- Fluctuates 1k-2k. But its 3k now ....
+
+# https://skeb.jp/@rabon_260
+- good perspective drawing tho
+
+# https://skeb.jp/@dog_iinioi
+- Used to be 1k good rendering
+
+# https://skeb.jp/@meimu_MMM
+- Good rendering and proprotions but female only so far
+
+# https://skeb.jp/@moyucotto
+https://pbs.twimg.com/media/G6e5EWra0AAAkcv?format=jpg&name=large
+https://pbs.twimg.com/media/HMT4oalbMAAC4gA?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HMJKiE3a4AAYVrz?format=jpg&name=large
+- Ok poses sketchy style. Not good proportions
+
+# https://skeb.jp/@u____eu_
+https://pbs.twimg.com/media/HI1b1w0bUAAQnfU?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HIR6QxQaUAEe1Rs?format=jpg&name=4096x4096
+- Super artistic panting style. Warning quite R18G
+
+# https://skeb.jp/@inonaka_chan
+- USed to be 1k and did character sheet art
+
+# https://skeb.jp/@hjarta_aim
+- Always end up drawing the men damn buff lol. Could be BL
+
+# https://skeb.jp/@Eiswand___
+- Female focused (but has done male art befroe) but full body art.
+
+# https://skeb.jp/@Ak___lum
+- Really good rendering and colors
+
+# https://skeb.jp/@Cheshire_neko
+https://pbs.twimg.com/media/HCS0dMmbEAI-lm3?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/G6bvu-CbIAA2tbh?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/G8DHnczbQAAMzEb?format=jpg&name=4096x4096
+- GOOD rendering and poses proportions
