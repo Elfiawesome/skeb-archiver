@@ -784,3 +784,90 @@ https://pbs.twimg.com/media/HCS0dMmbEAI-lm3?format=jpg&name=4096x4096
 https://pbs.twimg.com/media/G6bvu-CbIAA2tbh?format=jpg&name=4096x4096
 https://pbs.twimg.com/media/G8DHnczbQAAMzEb?format=jpg&name=4096x4096
 - GOOD rendering and poses proportions
+
+# https://skeb.jp/@8tiya_62
+https://pbs.twimg.com/media/HQukXqhaAAAS4yt?format=jpg&name=large
+https://pbs.twimg.com/media/HGLRxrJbMAA_pF9?format=jpg&name=large
+https://pbs.twimg.com/media/HQOfvUka4AALnVe?format=jpg&name=large
+- Soft artstyle. But no dynamic poses yet? 0 work but already made skeb for some
+
+# https://skeb.jp/@qiuqiu_shu
+- Girl focus but he has drawn xiao and freminet in a really pretty way tho!
+
+# https://skeb.jp/@Rinohou
+https://pbs.twimg.com/media/GxuYzQNawAA_8zW?format=jpg&name=large
+https://pbs.twimg.com/media/GbtsA9MaIAAz20_?format=jpg&name=large
+https://pbs.twimg.com/media/GXBKAVkbkAA7bS3?format=jpg&name=large
+- Not really a fan of the rendering tho. Draws over i think?
+
+# https://skeb.jp/@yo__kaichan
+https://pbs.twimg.com/media/HQ_CaZraEAATouI?format=jpg&name=large
+https://pbs.twimg.com/media/HNkmpNXaMAAYXZB?format=jpg&name=large
+- ok rendering but the proportions are not it tho
+
+# https://skeb.jp/@pisuran
+- Really cute style, not sure if he's accepting still
+
+# https://skeb.jp/@Asamura_illust
+- Really pretty art. Drew Faketree for me
+
+# https://skeb.jp/@ZINGISUKAN252
+https://pbs.twimg.com/media/HRKWLMabEAApheN?format=png&name=4096x4096
+https://pbs.twimg.com/media/HRSVAu1bcAAAuiY?format=jpg&name=4096x4096
+https://pbs.twimg.com/media/HNz1MgQaQAAvUKE?format=jpg&name=large
+- Anatomy and pose looks good. Maybe not rendering but it still is good imo
+
+# https://skeb.jp/@GatqZ
+- Male focused
+
+# https://skeb.jp/@o8o6hinata
+https://pbs.twimg.com/media/HQ-lgdxbEAAilcN?format=jpg&name=medium
+https://pbs.twimg.com/media/HO9q5TQawAAH_EZ?format=jpg&name=large
+- Cute male focused, but only portrait and bust up? Idk if he is accepting also
+
+# https://skeb.jp/@sunano_p
+https://pbs.twimg.com/media/HPWTebZbYAA30pe?format=jpg&name=large
+https://pbs.twimg.com/media/HN60VtybUAAI_cf?format=jpg&name=large
+https://pbs.twimg.com/media/HKI9iZzaoAEOYtm?format=jpg&name=large
+- Could be male focused
+
+# https://skeb.jp/@power_medicine
+https://pbs.twimg.com/media/HMEdDPGWUAAxuJZ?format=jpg&name=large
+https://pbs.twimg.com/media/HRFQKFEbgAAtBeK?format=jpg&name=large
+- Theres little art to make up what he is drawing. Also Idt he is accepting
+
+# https://skeb.jp/@memai023
+https://pbs.twimg.com/media/HRMRBPraMAAAgWA?format=jpg&name=large
+https://pbs.twimg.com/media/HQ5tUjiaoAAIPUo?format=jpg&name=large
+https://pbs.twimg.com/media/HQ3GAW2bwAAzFk0?format=jpg&name=large
+- Seems like a cheap pretty boy sketchy style
+
+# https://skeb.jp/@EVE_IRST_AK
+https://pbs.twimg.com/media/HRJfoKYbcAEqKd5?format=jpg&name=large
+https://pbs.twimg.com/media/HQ-M9exbAAAfBVT?format=jpg&name=large
+https://pbs.twimg.com/media/HQqkLQsbgAEo8c6?format=jpg&name=large
+https://pbs.twimg.com/media/HQkUGkMbsAA7rAx?format=jpg&name=large
+- Looks super female focused but does draw male in X
+
+# https://skeb.jp/@uneune_shippo
+- Female focused
+
+# https://skeb.jp/@Syaya_X
+- Cool design. Helped draw KING
+
+# https://skeb.jp/@mel_umi_gin
+- Not sure if still accepting
+
+# https://skeb.jp/@mpwd20
+https://pbs.twimg.com/media/HM6jKkfaoAAdBOe?format=jpg&name=medium
+https://pbs.twimg.com/media/FNvSUCGVcAM6Fxm?format=jpg&name=medium
+https://pbs.twimg.com/media/GWT_BJtaoAATLai?format=jpg&name=900x900
+https://pbs.twimg.com/media/GUsZ7R4aQAAkts3?format=jpg&name=900x900
+- Really colorful battle focused?
+
+# https://skeb.jp/@Matsuba_12_ini
+https://pbs.twimg.com/media/HQsJ3lIbAAAkfQh?format=jpg&name=small
+- only accpeting mini SD Chibi designs?
+
+# https://skeb.jp/@0uri24
+- Really cute mini design and environment
