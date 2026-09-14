@@ -2010,5 +2010,9 @@
   "persistance/2026-09-11_13-33-37/success/": {
     "label": "Success",
     "type": "curated"
+  },
+  "persistance/2026-09-14_01-19-14/price_drop_art/": {
+    "label": "Price Drop: art (>=¥500)",
+    "type": "curated"
   }
 }
