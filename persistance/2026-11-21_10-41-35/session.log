@@ -1,0 +1,312 @@
+2026-11-21 10:41:35 | INFO     | Initialized Data Store.
+2026-11-21 10:41:36 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:41:36 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:41:36 | INFO     | SkebClient ready (impersonate=chrome120, rate=1.0/s, concurrency=10, max_runtime=10800s)
+2026-11-21 10:43:39 | INFO     | Ready to scrape 89 items
+2026-11-21 10:43:40 | INFO     | OK https://skeb.jp/api/users/3hankikan0220
+2026-11-21 10:43:40 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:40 | INFO     | OK https://skeb.jp/api/users/syerupi0
+2026-11-21 10:43:40 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:41 | INFO     | OK https://skeb.jp/api/users/fm7hxj
+2026-11-21 10:43:41 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:41 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:41 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:42 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:42 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:42 | INFO     | OK https://skeb.jp/api/users/Datemegane_natu
+2026-11-21 10:43:42 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:43 | INFO     | OK https://skeb.jp/api/users/pe01
+2026-11-21 10:43:43 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:44 | INFO     | OK https://skeb.jp/api/users/akemichankoukai
+2026-11-21 10:43:44 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:44 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:44 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:44 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:44 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:45 | INFO     | OK https://skeb.jp/api/users/sakayama_lazuli
+2026-11-21 10:43:45 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:46 | INFO     | OK https://skeb.jp/api/users/ghcfujfc1
+2026-11-21 10:43:46 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:47 | INFO     | OK https://skeb.jp/api/users/80078page
+2026-11-21 10:43:47 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:47 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:47 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:47 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:47 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:48 | INFO     | OK https://skeb.jp/api/users/handsdsds
+2026-11-21 10:43:48 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:43:49 | INFO     | OK https://skeb.jp/api/users/killy810
+2026-11-21 10:43:49 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:50 | INFO     | OK https://skeb.jp/api/users/sumata45
+2026-11-21 10:43:50 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:51 | INFO     | OK https://skeb.jp/api/users/Furesa_nozokimi
+2026-11-21 10:43:51 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:51 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:51 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:51 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:51 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:52 | INFO     | OK https://skeb.jp/api/users/Geshi_to_
+2026-11-21 10:43:52 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:53 | INFO     | OK https://skeb.jp/api/users/SCisunco22
+2026-11-21 10:43:53 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:54 | INFO     | OK https://skeb.jp/api/users/kokorono_376
+2026-11-21 10:43:54 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:54 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:54 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:54 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:54 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:55 | INFO     | OK https://skeb.jp/api/users/Konichiwadesuyo
+2026-11-21 10:43:55 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:56 | INFO     | OK https://skeb.jp/api/users/nattamati_
+2026-11-21 10:43:56 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:43:57 | INFO     | OK https://skeb.jp/api/users/588skb
+2026-11-21 10:43:57 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:43:57 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:43:57 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:43:57 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:43:57 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:43:58 | INFO     | OK https://skeb.jp/api/users/8oSSUHCnXXz4tBp
+2026-11-21 10:43:58 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:43:59 | INFO     | OK https://skeb.jp/api/users/polar_kuma62
+2026-11-21 10:43:59 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:00 | INFO     | OK https://skeb.jp/api/users/gigigigiiiii
+2026-11-21 10:44:00 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:00 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:00 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:00 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:00 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:01 | INFO     | OK https://skeb.jp/api/users/lkjeudnduy44
+2026-11-21 10:44:01 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:02 | INFO     | OK https://skeb.jp/api/users/nyatta_san
+2026-11-21 10:44:02 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:03 | INFO     | OK https://skeb.jp/api/users/yamin_himamo23
+2026-11-21 10:44:03 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:03 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:03 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:03 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:03 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:04 | INFO     | OK https://skeb.jp/api/users/Henzu_23
+2026-11-21 10:44:04 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:05 | INFO     | OK https://skeb.jp/api/users/horigup
+2026-11-21 10:44:05 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:06 | INFO     | OK https://skeb.jp/api/users/L0ngo_
+2026-11-21 10:44:06 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:06 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:06 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:06 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:06 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:07 | WARNING  | 404 on https://skeb.jp/api/users/tsuru_py (attempt 1/3)
+2026-11-21 10:44:08 | INFO     | OK https://skeb.jp/api/users/llllllllllminor
+2026-11-21 10:44:08 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:09 | INFO     | OK https://skeb.jp/api/users/Gi_mon_fu
+2026-11-21 10:44:09 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:10 | WARNING  | 404 on https://skeb.jp/api/users/soraumi2000_50_ (attempt 1/3)
+2026-11-21 10:44:11 | INFO     | OK https://skeb.jp/api/users/pepr_0613_ks
+2026-11-21 10:44:11 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:44:12 | INFO     | OK https://skeb.jp/api/users/ronn_irai
+2026-11-21 10:44:12 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:12 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:12 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:12 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:12 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:13 | INFO     | OK https://skeb.jp/api/users/tsuru_py (2x)
+2026-11-21 10:44:13 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:14 | WARNING  | 400 on https://skeb.jp/api/users/scy2222 (attempt 1/3)
+2026-11-21 10:44:15 | INFO     | OK https://skeb.jp/api/users/nani00mono00
+2026-11-21 10:44:15 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:17 | WARNING  | 404 on https://skeb.jp/api/users/Genkyou (attempt 1/3)
+2026-11-21 10:44:17 | INFO     | OK https://skeb.jp/api/users/aki_ra3_
+2026-11-21 10:44:17 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:17 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:17 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:17 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:17 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:18 | INFO     | OK https://skeb.jp/api/users/soraumi2000_50_ (2x)
+2026-11-21 10:44:18 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:19 | INFO     | OK https://skeb.jp/api/users/yamada_yuco
+2026-11-21 10:44:19 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:20 | INFO     | OK https://skeb.jp/api/users/scy2222 (2x)
+2026-11-21 10:44:20 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:20 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:20 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:20 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:20 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:21 | INFO     | OK https://skeb.jp/api/users/potechi801
+2026-11-21 10:44:21 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:22 | WARNING  | 403 on https://skeb.jp/api/users/akiyamasukiiii, refreshing cookie.
+2026-11-21 10:44:22 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:22 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:22 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:23 | INFO     | OK https://skeb.jp/api/users/_meruruto_
+2026-11-21 10:44:23 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:24 | INFO     | OK https://skeb.jp/api/users/kagoyama_sns
+2026-11-21 10:44:24 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:44:25 | INFO     | OK https://skeb.jp/api/users/harudardo
+2026-11-21 10:44:25 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:25 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:25 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:25 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:25 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:26 | INFO     | OK https://skeb.jp/api/users/chinaagames
+2026-11-21 10:44:26 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:44:27 | INFO     | OK https://skeb.jp/api/users/m3x3_sk
+2026-11-21 10:44:27 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:28 | INFO     | OK https://skeb.jp/api/users/mimei_Illust
+2026-11-21 10:44:28 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:29 | INFO     | OK https://skeb.jp/api/users/akiyamasukiiii (2x)
+2026-11-21 10:44:29 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:29 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:29 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:29 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:29 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:30 | INFO     | OK https://skeb.jp/api/users/mikanahira
+2026-11-21 10:44:30 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:31 | WARNING  | 404 on https://skeb.jp/api/users/Genkyou (attempt 2/3)
+2026-11-21 10:44:33 | WARNING  | 404 on https://skeb.jp/api/users/kasha0927 (attempt 1/3)
+2026-11-21 10:44:33 | INFO     | OK https://skeb.jp/api/users/oshino_Iriss
+2026-11-21 10:44:33 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:44:34 | INFO     | OK https://skeb.jp/api/users/77_t2w
+2026-11-21 10:44:34 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:35 | INFO     | OK https://skeb.jp/api/users/Iam_Ciikawa
+2026-11-21 10:44:35 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:35 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:35 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:35 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:35 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:36 | INFO     | OK https://skeb.jp/api/users/Genkyou (3x)
+2026-11-21 10:44:36 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:37 | INFO     | OK https://skeb.jp/api/users/yakinikuinu
+2026-11-21 10:44:37 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:38 | WARNING  | 404 on https://skeb.jp/api/users/fukafuka_no_inu (attempt 1/3)
+2026-11-21 10:44:39 | INFO     | OK https://skeb.jp/api/users/irise_rise
+2026-11-21 10:44:39 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:39 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:39 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:39 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:39 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:41 | WARNING  | 404 on https://skeb.jp/api/users/p_pfp5 (attempt 1/3)
+2026-11-21 10:44:41 | INFO     | OK https://skeb.jp/api/users/Ryuzi_27
+2026-11-21 10:44:41 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:42 | INFO     | OK https://skeb.jp/api/users/kasha0927 (2x)
+2026-11-21 10:44:42 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:43 | INFO     | OK https://skeb.jp/api/users/p_pfp5 (2x)
+2026-11-21 10:44:43 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:43 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:43 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:43 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:43 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:44 | INFO     | OK https://skeb.jp/api/users/fukafuka_no_inu (2x)
+2026-11-21 10:44:44 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:45 | INFO     | OK https://skeb.jp/api/users/xnokocyamax
+2026-11-21 10:44:45 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:46 | INFO     | OK https://skeb.jp/api/users/buffer_art
+2026-11-21 10:44:46 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:46 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:46 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:46 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:46 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:47 | INFO     | OK https://skeb.jp/api/users/T4k73gqSZ26h5si
+2026-11-21 10:44:47 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:48 | INFO     | OK https://skeb.jp/api/users/Nama_tea09
+2026-11-21 10:44:48 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:49 | INFO     | OK https://skeb.jp/api/users/kanikanichitin
+2026-11-21 10:44:49 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:49 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:49 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:49 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:49 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:50 | INFO     | OK https://skeb.jp/api/users/pgpcvDCE9G
+2026-11-21 10:44:50 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:51 | INFO     | OK https://skeb.jp/api/users/vHoo__
+2026-11-21 10:44:51 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:52 | INFO     | OK https://skeb.jp/api/users/mimamorichan
+2026-11-21 10:44:52 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:52 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:52 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:52 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:52 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:53 | INFO     | OK https://skeb.jp/api/users/_kili_pp
+2026-11-21 10:44:53 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:54 | INFO     | OK https://skeb.jp/api/users/MizuLemon_Sui
+2026-11-21 10:44:54 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:55 | INFO     | OK https://skeb.jp/api/users/923kaku
+2026-11-21 10:44:55 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:55 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:55 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:55 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:55 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:56 | INFO     | OK https://skeb.jp/api/users/se3ifinal
+2026-11-21 10:44:56 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:44:57 | INFO     | OK https://skeb.jp/api/users/NOm0y0i
+2026-11-21 10:44:57 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:44:58 | INFO     | OK https://skeb.jp/api/users/meguru_nero
+2026-11-21 10:44:58 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:44:58 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:44:58 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:44:58 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:44:58 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:44:59 | INFO     | OK https://skeb.jp/api/users/morokoshix10
+2026-11-21 10:44:59 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:00 | INFO     | OK https://skeb.jp/api/users/kiNero30901
+2026-11-21 10:45:00 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:01 | INFO     | OK https://skeb.jp/api/users/kayanomochi
+2026-11-21 10:45:01 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:45:01 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:45:01 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:45:01 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:45:01 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:45:02 | INFO     | OK https://skeb.jp/api/users/pomvovpom
+2026-11-21 10:45:02 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:03 | INFO     | OK https://skeb.jp/api/users/Bancho_BAN
+2026-11-21 10:45:03 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:04 | INFO     | OK https://skeb.jp/api/users/29Kota2
+2026-11-21 10:45:04 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:45:04 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:45:04 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:45:04 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:45:04 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:45:05 | INFO     | OK https://skeb.jp/api/users/EDO__nyan
+2026-11-21 10:45:05 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:06 | INFO     | OK https://skeb.jp/api/users/nekonekuto
+2026-11-21 10:45:06 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:07 | INFO     | OK https://skeb.jp/api/users/Llu_ulg
+2026-11-21 10:45:07 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:45:07 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:45:07 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:45:07 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:45:07 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:45:08 | INFO     | OK https://skeb.jp/api/users/toxizaki
+2026-11-21 10:45:08 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:09 | INFO     | OK https://skeb.jp/api/users/kotonesansukida
+2026-11-21 10:45:09 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:10 | INFO     | OK https://skeb.jp/api/users/minima_mum
+2026-11-21 10:45:10 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:45:10 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:45:10 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:45:10 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:45:10 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:45:11 | INFO     | OK https://skeb.jp/api/users/Color312M
+2026-11-21 10:45:11 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:12 | INFO     | OK https://skeb.jp/api/users/p_kiwi_
+2026-11-21 10:45:12 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:13 | INFO     | OK https://skeb.jp/api/users/Axnya
+2026-11-21 10:45:13 | WARNING  | Fake profile detected (consecutive=3)
+2026-11-21 10:45:13 | WARNING  | Too many fake profiles, refreshing cookie...
+2026-11-21 10:45:13 | INFO     | Refreshing request_key cookie...
+2026-11-21 10:45:13 | INFO     | Homepage GET status=200 (attempt 1/3)
+2026-11-21 10:45:13 | WARNING  | request_key not found in homepage HTML (status=200).
+2026-11-21 10:45:14 | INFO     | OK https://skeb.jp/api/users/Uo_oU_us
+2026-11-21 10:45:14 | ERROR    | Non-dict in fetch_profiles: list
+2026-11-21 10:45:15 | INFO     | OK https://skeb.jp/api/users/0grmskeb
+2026-11-21 10:45:15 | WARNING  | Fake profile detected (consecutive=1)
+2026-11-21 10:45:16 | INFO     | OK https://skeb.jp/api/users/cokuto_uma_02
+2026-11-21 10:45:16 | WARNING  | Fake profile detected (consecutive=2)
+2026-11-21 10:45:16 | INFO     |  --- SUMMARY REPORT --- 
+  Sources Retreived    : 89
+  Profiles Fetched     : 0
+  Profile Missing      : 0
+  Profile Rate Limited : 0
+  Profile Error Others : 83
+
+2026-11-21 10:45:16 | INFO     | Started creating static api data.
+2026-11-21 10:47:19 | INFO     | Album index written to a/albums/index.json (604 albums)
